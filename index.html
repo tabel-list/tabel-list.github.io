@@ -3,9 +3,330 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <style>
+        body {
+          background: #425995;
+          padding-top: 10px;
+        }
+        
+        .details {
+          position: relative;
+          display: block;
+          /*max-width: 650px;*/
+          margin: 0 auto 10px;
+          background: rgba(255,255,255,0.5);
+          border-radius: 5px;
+          transition: 0.3s;
+          overflow: hidden;
+        }
+        
+        .details::after {
+          position: absolute;
+          right: 24px;
+          top: 15px;
+          content: "";
+          display: block;
+          width: 14px;
+          height: 14px;
+          border-right: 3px solid #425995;
+          border-bottom: 3px solid #425995;
+          transform: rotate(-45deg);
+          transform-origin: center;
+          transition: .3s;
+        }
+        
+        .details[open]::after {
+          transform: rotate(45deg);
+        }
+        
+        .details[open] {
+          padding-bottom: 61px;
+        }
+        
+        .details[open] .details__title {
+          margin-bottom: 10px;
+        }
+        
+        .details__title {
+          background: #fff;
+          border-radius: 5px;
+          padding: 12px 24px;
+          font-size: 20px;
+          cursor: pointer;
+          list-style: none;
+          font-weight: 700;
+          transition: .3s;
+        }
+        
+        .details__title::-webkit-details-marker {
+          display: none;
+        }
+        
+        .details__content {
+          padding: 0px;
+          font-size: 18px;
+          margin-bottom: -50px;
+          display: inline-flex;
+          width: 100%;
+        }
+        
+        .details__content p:last-child {
+          margin-bottom: 0;
+        }
+        .details__content p:first-child {
+          margin-top: 0;
+        }
+        
+        .st {
+            background: #fff;
+            padding: 5px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        
+        .st2 {
+            background: rgba(255,255,255,0.5);
+            padding: 10px 7px;
+            margin-top: -3px;
+            border-radius: 0 0 5px 5px;
+        }
+        table {
+  border: 2px solid #000;
+  width: 100%;
+  margin: 5px 3px 5px 3px;
+}
+
+th,
+td {
+  border: 1px solid #000;
+  text-align: center;
+}
+th.nam {
+    width: 70px;
+}
+            </style>
+    <title>Tabel</title>
 </head>
 <body>
-    
+    <details class="details">
+        <summary class="details__title">20 августа</summary>
+        <div class="details__content">
+            <table>
+                <th colspan="2">День</th>
+                <tr>
+                  <th>---</th>
+                  <th>Время</th>
+                </tr>
+                <tr>
+                  <th class="nam">Дима</th>
+                  <td>8:30</td>
+                </tr>
+                <tr>
+                  <th class="nam">Аня</th>
+                  <td>8:30</td>
+                </tr>
+              </table>
+              <table>
+                <th colspan="2">Ночь</th>
+                <tr>
+                  <th>---</th>
+                  <th>Время</th>
+                </tr>
+                <tr>
+                  <th class="nam">Леха</th>
+                  <td>20:00-02:00</td>
+                </tr>
+                <tr>
+                  <th class="nam">Ренат</th>
+                  <td>20:00-02:00</td>
+                </tr>
+                <tr>
+                  <th class="nam">Ринат</th>
+                  <td>20:00-02:00</td>
+                </tr>
+                <tr>
+                  <th class="nam">Тоха</th>
+                  <td>20:00-02:00</td>
+                </tr>
+              </table>
+        </div>
+    </details>
+    <details class="details">
+        <summary class="details__title">21 августа</summary>
+        <div class="details__content">
+            <table>
+                <th colspan="2">День</th>
+                <tr>
+                  <th>---</th>
+                  <th>Время</th>
+                </tr>
+                <tr>
+                  <th class="nam">Андрей</th>
+                  <td>9:00-12:00</td>
+                </tr>
+                <tr>
+                  <th class="nam">Ильнар</th>
+                  <td>9:00-12:00</td>
+                </tr>
+                <tr>
+                    <th class="nam">Аня</th>
+                    <td>9:00-12:00</td>
+                </tr>
+                <tr>
+                    <th class="nam">Дима</th>
+                    <td>10:00-11:30</td>
+                </tr>
+              </table>
+              <table>
+                <th colspan="2">Ночь</th>
+                <tr>
+                  <th>---</th>
+                  <th>Время</th>
+                </tr>
+                <tr>
+                  <th class="nam">Ринат</th>
+                  <td>21:00-01:00</td>
+                </tr>
+                <tr>
+                  <th class="nam">Тоха</th>
+                  <td>21:00-01:00</td>
+                </tr>
+                <tr>
+                  <th class="nam">Леха</th>
+                  <td>22:00-01:00</td>
+                </tr>
+                <tr>
+                  <th class="nam">Ильнар</th>
+                  <td>22:00-01:00</td>
+                </tr>
+                <tr>
+                    <th class="nam">Андрей</th>
+                    <td>22:00-01:00</td>
+                  </tr>
+              </table>
+        </div>
+    </details>
+    <details class="details">
+        <summary class="details__title">22 августа</summary>
+        <div class="details__content">
+            <table>
+                <th colspan="2">День</th>
+                <tr>
+                  <th>---</th>
+                  <th>Время</th>
+                </tr>
+                <tr>
+                  <th class="nam">Аня</th>
+                  <td>6:00-8:00</td>
+                </tr>
+                <tr>
+                  <th class="nam">Дима</th>
+                  <td>6:00-8:00</td>
+                </tr>
+                <tr>
+                    <th class="nam">Ренат</th>
+                    <td>6:00-8:00</td>
+                </tr>
+                <tr>
+                    <th class="nam">Аня</th>
+                    <td>9:00-12:00</td>
+                  </tr>
+                  <tr>
+                    <th class="nam">Дима</th>
+                    <td>9:00-12:00</td>
+                  </tr>
+                  <tr>
+                      <th class="nam">Ренат</th>
+                      <td>9:00-12:00</td>
+                  </tr>
+                  <tr>
+                    <th class="nam">Ринат</th>
+                    <td>9:00-12:00</td>
+                </tr>
+                <tr>
+                    <th class="nam">Тоха</th>
+                    <td>9:00-12:00</td>
+                </tr>
+              </table>
+              <table>
+                <th colspan="2">Ночь</th>
+                <tr>
+                  <th>---</th>
+                  <th>Время</th>
+                </tr>
+                <tr>
+                  <th class="nam">Ринат</th>
+                  <td>21:00-23:30</td>
+                </tr>
+                <tr>
+                  <th class="nam">Ренат</th>
+                  <td>21:00-23:30</td>
+                </tr>
+                <tr>
+                  <th class="nam">Тоха</th>
+                  <td>21:00-23:30</td>
+                </tr>
+                <tr>
+                  <th class="nam">Ильнар</th>
+                  <td>21:00-01:30</td>
+                </tr>
+                <tr>
+                    <th class="nam">Андрей</th>
+                    <td>21:00-01:30</td>
+                  </tr>
+                  <tr>
+                    <th class="nam">Леха</th>
+                    <td>21:00-01:30</td>
+                  </tr>
+              </table>
+        </div>
+    </details>
+    <details class="details">
+        <summary class="details__title">23 августа</summary>
+        <div class="details__content">
+            <table>
+                <th colspan="2">День</th>
+                <tr>
+                  <th>---</th>
+                  <th>Время</th>
+                </tr>
+                <tr>
+                  <th class="nam">Аня</th>
+                  <td>8:30-10:30</td>
+                </tr>
+                <tr>
+                  <th class="nam">Дима</th>
+                  <td>8:30-10:30</td>
+                </tr>
+                <tr>
+                    <th class="nam">Ренат</th>
+                    <td>8:30-10:30</td>
+                </tr>
+                <tr>
+                    <th class="nam">Тоха</th>
+                    <td>8:30-10:30</td>
+                  </tr>
+              </table>
+              <table>
+                <th colspan="2">Ночь</th>
+                <tr>
+                  <th>---</th>
+                  <th>Время</th>
+                </tr>
+                <tr>
+                    <th class="nam">-</th>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <th class="nam">-</th>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                      <th class="nam">-</th>
+                      <td>-</td>
+                  </tr>
+              </table>
+        </div>
+    </details>
 </body>
 </html>
