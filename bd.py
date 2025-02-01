@@ -108,9 +108,12 @@ def compress_image(input_path, output_path, quality=85):
 h = httplib2.Http()
 
 def compress_image(input_path, output_path, quality=85):
-    """Функция для сжатия изображения перед сохранением"""
+    """Функция для сжатия изображения с сохранением прозрачности"""
     with Image.open(input_path) as img:
-        img.convert("RGB").save(output_path, "WebP", quality=quality)
+        if img.mode in ("RGBA", "LA"):
+            img.save(output_path, "WebP", quality=quality)
+        else:
+            img.convert("RGB").save(output_path, "WebP", quality=quality)
 
 def down(char_list_api_en, i, url):
     """Скачивание и сжатие изображения"""
