@@ -1,3 +1,5 @@
+document.querySelectorAll("img").forEach(img => img.setAttribute("loading", "lazy"));
+
 document.addEventListener("DOMContentLoaded", function() {
     const menuButton = document.querySelector(".menu-button");
     const dropdownMenu = document.querySelector(".dropdown-menu");
