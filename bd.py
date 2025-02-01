@@ -3,6 +3,8 @@ import json
 import time
 import httplib2
 import os
+import io
+from PIL import Image
 start_time = time.time()
 
 def get_char_list(lang):
@@ -98,19 +100,46 @@ namecard_replacements = {
     "Yun Jin": "Yunjin"
 }
 
-h = httplib2.Http('.cache')
+def compress_image(input_path, output_path, quality=85):
+    """Функция для сжатия изображения перед сохранением"""
+    with Image.open(input_path) as img:
+        img.convert("RGB").save(output_path, "WebP", quality=quality)
+
+h = httplib2.Http()
+
+def compress_image(input_path, output_path, quality=85):
+    """Функция для сжатия изображения перед сохранением"""
+    with Image.open(input_path) as img:
+        img.convert("RGB").save(output_path, "WebP", quality=quality)
+
 def down(char_list_api_en, i, url):
+    """Скачивание и сжатие изображения"""
     if url == 'https://enka.network/ui/UI_AvatarIcon_':
         response, content = h.request(url + cor_name(char_list_api_en['categories']['outfits']['characterName'][i], name_replacements) + '.png')
     else:
         response, content = h.request(url + cor_name(char_list_api_en['categories']['outfits']['characterName'][i], namecard_replacements) + '_P.png')
-    os.makedirs('data/characters/{}'.format(char_list_api_en['categories']['outfits']['characterName'][i]), exist_ok=True)
+
+    # Создание папки, если её нет
+    char_name = char_list_api_en['categories']['outfits']['characterName'][i]
+    os.makedirs(f'data/characters/{char_name}', exist_ok=True)
+
+    # Определяем путь для сохранения
     if url == 'https://enka.network/ui/UI_AvatarIcon_':
-        out = open('data/characters/' + char_list_api_en['categories']['outfits']['characterName'][i] + '/' + char_list_api_en['categories']['outfits']['characterName'][i] + '_icon.png', 'wb')
+        save_path = f'data/characters/{char_name}/{char_name}_icon.png'
+        compressed_path = f'data/characters/{char_name}/{char_name}_icon.webp'
     else:
-        out = open('data/characters/' + char_list_api_en['categories']['outfits']['characterName'][i] + '/' + char_list_api_en['categories']['outfits']['characterName'][i] + '_namecard.png', 'wb')
-    out.write(content)
-    out.close()
+        save_path = f'data/characters/{char_name}/{char_name}_namecard.png'
+        compressed_path = f'data/characters/{char_name}/{char_name}_namecard.webp'
+
+    # Сохранение оригинала (временный файл)
+    with open(save_path, 'wb') as out:
+        out.write(content)
+
+    # Сжатие изображения
+    compress_image(save_path, compressed_path)
+
+    # Удаление оригинального PNG (оставляем только WebP)
+    os.remove(save_path)
 
 i = 0
 while(i < len(char_list_api_en['categories']['outfits']['characterName'])):

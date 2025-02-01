@@ -53,8 +53,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 characterCard.classList.add("character-card");
                 characterCard.href = `../character/${character.name}`;
                 characterCard.innerHTML = `
-                    <div class="namecard" style="background-image: url(../data/characters/${encodeURIComponent(character.name)}/${encodeURIComponent(character.name)}_namecard.png);">
-                        <img class="character-icon" src="../data/characters/${encodeURIComponent(character.name)}/${encodeURIComponent(character.name)}_icon.png">
+                    <div class="namecard" style="background-image: url(../data/characters/${encodeURIComponent(character.name)}/${encodeURIComponent(character.name)}_namecard.webp);">
+                        <img class="character-icon" src="../data/characters/${encodeURIComponent(character.name)}/${encodeURIComponent(character.name)}_icon.webp">
                         <img class="character-element" src="../data/${encodeURIComponent(character.element).toLowerCase()}.png">
                         <img class="character-weapon" src="../data/${encodeURIComponent(character.weapon).toLowerCase()}.png">
                     </div>
