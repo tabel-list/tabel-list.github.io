@@ -55,8 +55,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 characterCard.innerHTML = `
                     <div class="namecard" style="background-image: url(../data/characters/${encodeURIComponent(character.name)}/${encodeURIComponent(character.name)}_namecard.png);">
                         <img class="character-icon" src="../data/characters/${encodeURIComponent(character.name)}/${encodeURIComponent(character.name)}_icon.png">
-                        <img class="character-element" src="../data/${encodeURIComponent(character.element)}.png">
-                        <img class="character-weapon" src="../data/${encodeURIComponent(character.weapon)}.png">
+                        <img class="character-element" src="../data/${encodeURIComponent(character.element).toLowerCase()}.png">
+                        <img class="character-weapon" src="../data/${encodeURIComponent(character.weapon).toLowerCase()}.png">
                     </div>
                     <div class="bottom-namecard">
                         <span class="character-name">${character.name_ru}</span>
