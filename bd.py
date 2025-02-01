@@ -107,7 +107,7 @@ def compress_image(input_path, output_path, quality=85):
 
 h = httplib2.Http()
 
-def compress_image(input_path, output_path, quality=75):
+def compress_image(input_path, output_path, quality=55):
     """Функция для сжатия изображения с сохранением прозрачности"""
     with Image.open(input_path) as img:
         if img.mode in ("RGBA", "LA"):
