@@ -3,22 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Awarin</title>
+    <title>AWARiN</title>
     <link rel="stylesheet" href="../styles.css">
     <script defer src="script.js"></script>
+    <script defer src="../script.js"></script>
 </head>
 <body>
-    <header class="title-bar">
-        <h2>Awarin</h2>
-        <button class="menu-button">☰</button>
-        <nav class="dropdown-menu">
-            <ul>
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">О нас</a></li>
-                <li><a href="#">Контакты</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="titlebar">
+        <div class="logo"><b>AWARiN</b></div>
+        <button class="menu-button" onclick="toggleMenu()">menu</button>
+    </div>
+    <div class="menu" id="menu">
+        <div class="menu-items">Меню</div>
+        <div class="menu-cont">
+            <a style="text-decoration: none;" href=""><div class="menu-item">Персонажи</div></a>
+            <a style="text-decoration: none;" href=""><div class="menu-item">Персонажи</div></a>
+            <a style="text-decoration: none;" href=""><div class="menu-item">Персонажи</div></a>
+        </div>
+    </div>
     <div class="container">
         <div class="filters">
             <input type="text" id="search" placeholder="Поиск по имени...">

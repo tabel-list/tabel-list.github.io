@@ -1,22 +1,6 @@
 document.querySelectorAll("img").forEach(img => img.setAttribute("loading", "lazy"));
 
 document.addEventListener("DOMContentLoaded", function() {
-    const menuButton = document.querySelector(".menu-button");
-    const dropdownMenu = document.querySelector(".dropdown-menu");
-    
-    menuButton.addEventListener("click", function(event) {
-        menuButton.classList.toggle("active");
-        dropdownMenu.classList.toggle("active");
-        event.stopPropagation();
-    });
-    
-    document.addEventListener("click", function(event) {
-        if (!dropdownMenu.contains(event.target) && !menuButton.contains(event.target)) {
-            dropdownMenu.classList.remove("active");
-            menuButton.classList.remove("active");
-        }
-    });
-
     function getStars(rating) {
         return "★".repeat(rating);
     }
