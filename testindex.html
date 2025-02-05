@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWARiN</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .titlebar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #333;
+            color: white;
+            padding: 15px;
+        }
+        .menu-button {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        .menu-button.active {
+            transform: rotate(90deg);
+        }
+        .menu {
+            position: absolute;
+            top: 50px;
+            left: 0;
+            width: 100%;
+            height: 0;
+            background: #444;
+            overflow: hidden;
+            transition: height 0.3s ease;
+        }
+        .menu.active {
+            height: 100px;
+        }
+        .menu-items {
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="titlebar">
+        <div class="logo">AWARiN</div>
+        <button class="menu-button" onclick="toggleMenu()">☰</button>
+    </div>
+    <div class="menu" id="menu">
+        <div class="menu-items">Меню</div>
+    </div>
+    
+    <script>
+        function toggleMenu() {
+            let menu = document.getElementById('menu');
+            let button = document.querySelector('.menu-button');
+            menu.classList.toggle('active');
+            button.classList.toggle('active');
+        }
+        
+        document.addEventListener('click', function(event) {
+            let menu = document.getElementById('menu');
+            let button = document.querySelector('.menu-button');
+            if (!menu.contains(event.target) && !button.contains(event.target)) {
+                menu.classList.remove('active');
+                button.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>

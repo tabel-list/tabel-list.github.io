@@ -1,46 +1,178 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(fonts/Ubuntu1.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(fonts/Ubuntu2.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+  /* greek-ext */
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(fonts/Ubuntu3.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+  /* greek */
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(fonts/Ubuntu4.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+  /* latin-ext */
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(fonts/Ubuntu5.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+  /* latin */
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(fonts/Ubuntu6.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+  
+/* fallback */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/Material_Icons.woff2) format('woff2');
 }
 
-.title-bar {
+@font-face {
+    font-family: Gensh;
+    src: url(genshin-impact.woff2) format("woff2"),
+      url(genshin-impact.woff) format("woff"),
+      url(genshin-impact.ttf) format("truetype");
+}
+  
+@font-face {
+    font-family: "Genshin Impact";
+    src: url(genshin-impact.woff2) format("woff2"),
+      url(genshin-impact.woff) format("woff"),
+      url(genshin-impact.ttf) format("truetype");
+}
+
+
+a, span, th, td {
+    color: #c1c1c1;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4a4a4a;
+}
+
+.titlebar {
     display: flex;
-    height: 40px;
+    width: 100%;
+    position: fixed;
     justify-content: space-between;
     align-items: center;
     background: #333;
     color: white;
-    padding: 10px 20px;
+    height: 50px;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 20px;
+    user-select: none;
 }
 
 .menu-button {
-    font-size: 24px;
+    font-family: 'Material Icons';
     background: none;
     border: none;
     color: white;
+    font-size: 24px;
     cursor: pointer;
+    transition: transform 0.3s ease;
 }
 
-.dropdown-menu {
-    display: none;
+.menu-button.active {
+    transform: rotate(90deg);
+}
+
+.menu {
     position: absolute;
     top: 50px;
-    right: 20px;
-    background: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: #444;
+    overflow: hidden;
+    transition: height 0.3s ease;
+    position: fixed;
 }
 
-.dropdown-menu.active {
-    display: block;
+.menu.active {
+    height: 100px;
 }
+
+.menu-items {
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+.menu-item {
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+
+.menu-item:hover {
+    background: #ffffff27;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+
+.menu-cont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 колонки одинаковой ширины */
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+
 
 .container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 20px auto;
+    padding-top: 70px !important;
+    width: 100%;
+    padding: 20px;
+    background: #4a4a4a;
 }
 
 .filters {

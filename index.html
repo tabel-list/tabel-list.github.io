@@ -3,51 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Адаптивный сайт</title>
+    <title>AWARiN</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
 </head>
 <body>
-    <header class="title-bar">
-        <h2>Мой Сайт</h2>
-        <button class="menu-button">☰</button>
-        <nav class="dropdown-menu">
-            <ul>
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">О нас</a></li>
-                <li><a href="#">Контакты</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="container">
-        <h1>Персонажи Genshin Impact</h1>
-        <div class="filters">
-            <input type="text" id="search" placeholder="Поиск по имени...">
-            <select id="sort-element">
-                <option value="">Элемент</option>
-                <option value="Pyro">Pyro</option>
-                <option value="Hydro">Hydro</option>
-                <option value="Anemo">Anemo</option>
-                <option value="Electro">Electro</option>
-                <option value="Dendro">Dendro</option>
-                <option value="Cryo">Cryo</option>
-                <option value="Geo">Geo</option>
-            </select>
-            <select id="sort-weapon">
-                <option value="">Оружие</option>
-                <option value="Sword">Sword</option>
-                <option value="Bow">Bow</option>
-                <option value="Claymore">Claymore</option>
-                <option value="Polearm">Polearm</option>
-                <option value="Catalyst">Catalyst</option>
-            </select>
-            <select id="sort-rarity">
-                <option value="">Редкость</option>
-                <option value="5">5★</option>
-                <option value="4">4★</option>
-            </select>
+    <div class="titlebar">
+        <div class="logo"><b>AWARiN</b></div>
+        <button class="menu-button" onclick="toggleMenu()">menu</button>
+    </div>
+    <div class="menu" id="menu">
+        <div class="menu-items">Меню</div>
+        <div class="menu-cont">
+            <a style="text-decoration: none;" href="characters/"><div class="menu-item">Персонажи</div></a>
+            <a style="text-decoration: none;" href=""><div class="menu-item">Персонажи</div></a>
+            <a style="text-decoration: none;" href=""><div class="menu-item">Персонажи</div></a>
         </div>
-        <div id="characters-list" class="characters-grid"></div>
+    </div>
+    <div class="container">
+
     </div>
 </body>
 </html>
