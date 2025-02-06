@@ -1,0 +1,2904 @@
+{
+    "Yoimiya": {
+        "en": {
+            "name": "Yoimiya",
+            "name_ru": "Ёимия",
+            "id": 10000049,
+            "rarity": 5,
+            "weapon": "Bow",
+            "element": "Pyro",
+            "region": "Inazuma",
+            "more": {
+                "title": "Frolicking Flames",
+                "detail": "Owner of Naganohara Fireworks. Known as the \"Queen of the Summer Festival,\" she excels in her craft of creating fireworks that symbolize people's hopes and dreams.",
+                "constellation": "Carassius Auratus",
+                "group": "Naganohara Fireworks",
+                "birthday": "21.6",
+                "release": "10.08.2021",
+                "cv": {
+                    "en": "Jenny Yokobori",
+                    "chs": "金娜",
+                    "jp": "植田佳奈",
+                    "kr": "Park Shin-hee"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Normal Attack: Firework Flare-Up",
+                    "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 5 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, flames will accumulate on the arrowhead before being fired off as an attack. Has different effects based on how long the energy has been charged:\\n·Charge Level 1: Fires off a flaming arrow that deals <color=#FF9999FF>Pyro DMG</color>.\\n·Charge Level 2: Generates a maximum of 3 Kindling Arrows based on time spent charging, releasing them as part of this Aimed Shot. Kindling Arrows will home in on nearby opponents, dealing <color=#FF9999FF>Pyro DMG</color> on hit.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+                    "icon": "Skill_A_02",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "1-Hit DMG 35.6%×2",
+                            "1": "2-Hit DMG 68.4%",
+                            "2": "3-Hit DMG 88.9%",
+                            "3": "4-Hit DMG 46.4%×2",
+                            "4": "5-Hit DMG 105.9%",
+                            "5": "Aimed Shot 43.9%",
+                            "6": "Fully-Charged Aimed Shot 124%",
+                            "7": "Kindling Arrow DMG 16.4%",
+                            "8": "Plunge DMG 56.8%",
+                            "9": "Low/High Plunge DMG 113.6%/141.9%"
+                        },
+                        "2": {
+                            "0": "1-Hit DMG 38.1%×2",
+                            "1": "2-Hit DMG 73%",
+                            "2": "3-Hit DMG 94.9%",
+                            "3": "4-Hit DMG 49.6%×2",
+                            "4": "5-Hit DMG 113.1%",
+                            "5": "Aimed Shot 47.4%",
+                            "6": "Fully-Charged Aimed Shot 133.3%",
+                            "7": "Kindling Arrow DMG 17.6%",
+                            "8": "Plunge DMG 61.5%",
+                            "9": "Low/High Plunge DMG 122.9%/153.5%"
+                        },
+                        "3": {
+                            "0": "1-Hit DMG 40.5%×2",
+                            "1": "2-Hit DMG 77.7%",
+                            "2": "3-Hit DMG 101%",
+                            "3": "4-Hit DMG 52.8%×2",
+                            "4": "5-Hit DMG 120.3%",
+                            "5": "Aimed Shot 51%",
+                            "6": "Fully-Charged Aimed Shot 142.6%",
+                            "7": "Kindling Arrow DMG 18.9%",
+                            "8": "Plunge DMG 66.1%",
+                            "9": "Low/High Plunge DMG 132.1%/165%"
+                        },
+                        "4": {
+                            "0": "1-Hit DMG 43.7%×2",
+                            "1": "2-Hit DMG 83.9%",
+                            "2": "3-Hit DMG 109.1%",
+                            "3": "4-Hit DMG 57%×2",
+                            "4": "5-Hit DMG 129.9%",
+                            "5": "Aimed Shot 56.1%",
+                            "6": "Fully-Charged Aimed Shot 155%",
+                            "7": "Kindling Arrow DMG 20.5%",
+                            "8": "Plunge DMG 72.7%",
+                            "9": "Low/High Plunge DMG 145.3%/181.5%"
+                        },
+                        "5": {
+                            "0": "1-Hit DMG 46.2%×2",
+                            "1": "2-Hit DMG 88.6%",
+                            "2": "3-Hit DMG 115.2%",
+                            "3": "4-Hit DMG 60.1%×2",
+                            "4": "5-Hit DMG 137.1%",
+                            "5": "Aimed Shot 59.7%",
+                            "6": "Fully-Charged Aimed Shot 164.3%",
+                            "7": "Kindling Arrow DMG 21.7%",
+                            "8": "Plunge DMG 77.3%",
+                            "9": "Low/High Plunge DMG 154.6%/193.1%"
+                        },
+                        "6": {
+                            "0": "1-Hit DMG 49%×2",
+                            "1": "2-Hit DMG 94%",
+                            "2": "3-Hit DMG 122.2%",
+                            "3": "4-Hit DMG 63.8%×2",
+                            "4": "5-Hit DMG 145.6%",
+                            "5": "Aimed Shot 63.7%",
+                            "6": "Fully-Charged Aimed Shot 173.6%",
+                            "7": "Kindling Arrow DMG 23%",
+                            "8": "Plunge DMG 82.6%",
+                            "9": "Low/High Plunge DMG 165.2%/206.3%"
+                        },
+                        "7": {
+                            "0": "1-Hit DMG 52.6%×2",
+                            "1": "2-Hit DMG 101%",
+                            "2": "3-Hit DMG 131.3%",
+                            "3": "4-Hit DMG 68.6%×2",
+                            "4": "5-Hit DMG 156.4%",
+                            "5": "Aimed Shot 69.4%",
+                            "6": "Fully-Charged Aimed Shot 186%",
+                            "7": "Kindling Arrow DMG 24.6%",
+                            "8": "Plunge DMG 89.9%",
+                            "9": "Low/High Plunge DMG 179.7%/224.5%"
+                        },
+                        "8": {
+                            "0": "1-Hit DMG 56.3%×2",
+                            "1": "2-Hit DMG 108%",
+                            "2": "3-Hit DMG 140.4%",
+                            "3": "4-Hit DMG 73.3%×2",
+                            "4": "5-Hit DMG 167.2%",
+                            "5": "Aimed Shot 75%",
+                            "6": "Fully-Charged Aimed Shot 198.4%",
+                            "7": "Kindling Arrow DMG 26.2%",
+                            "8": "Plunge DMG 97.1%",
+                            "9": "Low/High Plunge DMG 194.2%/242.6%"
+                        },
+                        "9": {
+                            "0": "1-Hit DMG 59.9%×2",
+                            "1": "2-Hit DMG 115%",
+                            "2": "3-Hit DMG 149.5%",
+                            "3": "4-Hit DMG 78.1%×2",
+                            "4": "5-Hit DMG 178%",
+                            "5": "Aimed Shot 80.6%",
+                            "6": "Fully-Charged Aimed Shot 210.8%",
+                            "7": "Kindling Arrow DMG 27.9%",
+                            "8": "Plunge DMG 104.4%",
+                            "9": "Low/High Plunge DMG 208.8%/260.8%"
+                        },
+                        "10": {
+                            "0": "1-Hit DMG 63.6%×2",
+                            "1": "2-Hit DMG 122%",
+                            "2": "3-Hit DMG 158.6%",
+                            "3": "4-Hit DMG 82.8%×2",
+                            "4": "5-Hit DMG 188.9%",
+                            "5": "Aimed Shot 86.7%",
+                            "6": "Fully-Charged Aimed Shot 223.2%",
+                            "7": "Kindling Arrow DMG 29.5%",
+                            "8": "Plunge DMG 112.3%",
+                            "9": "Low/High Plunge DMG 224.6%/280.6%"
+                        },
+                        "11": {
+                            "0": "1-Hit DMG 67.2%×2",
+                            "1": "2-Hit DMG 129%",
+                            "2": "3-Hit DMG 167.7%",
+                            "3": "4-Hit DMG 87.6%×2",
+                            "4": "5-Hit DMG 199.7%",
+                            "5": "Aimed Shot 92.8%",
+                            "6": "Fully-Charged Aimed Shot 235.6%",
+                            "7": "Kindling Arrow DMG 31.2%",
+                            "8": "Plunge DMG 120.3%",
+                            "9": "Low/High Plunge DMG 240.5%/300.4%"
+                        },
+                        "12": {
+                            "0": "1-Hit DMG 70.9%×2",
+                            "1": "2-Hit DMG 136%",
+                            "2": "3-Hit DMG 176.8%",
+                            "3": "4-Hit DMG 92.3%×2",
+                            "4": "5-Hit DMG 210.5%",
+                            "5": "Aimed Shot 98.9%",
+                            "6": "Fully-Charged Aimed Shot 248%",
+                            "7": "Kindling Arrow DMG 32.8%",
+                            "8": "Plunge DMG 128.2%",
+                            "9": "Low/High Plunge DMG 256.3%/320.2%"
+                        },
+                        "13": {
+                            "0": "1-Hit DMG 74.5%×2",
+                            "1": "2-Hit DMG 143%",
+                            "2": "3-Hit DMG 185.9%",
+                            "3": "4-Hit DMG 97.1%×2",
+                            "4": "5-Hit DMG 221.4%",
+                            "5": "Aimed Shot 105.1%",
+                            "6": "Fully-Charged Aimed Shot 263.5%",
+                            "7": "Kindling Arrow DMG 34.8%",
+                            "8": "Plunge DMG 136.1%",
+                            "9": "Low/High Plunge DMG 272.2%/340%"
+                        },
+                        "14": {
+                            "0": "1-Hit DMG 78.2%×2",
+                            "1": "2-Hit DMG 150%",
+                            "2": "3-Hit DMG 194.9%",
+                            "3": "4-Hit DMG 101.8%×2",
+                            "4": "5-Hit DMG 232.2%",
+                            "5": "Aimed Shot 111.2%",
+                            "6": "Fully-Charged Aimed Shot 279%",
+                            "7": "Kindling Arrow DMG 36.9%",
+                            "8": "Plunge DMG 144.1%",
+                            "9": "Low/High Plunge DMG 288%/359.8%"
+                        },
+                        "15": {
+                            "0": "1-Hit DMG 81.8%×2",
+                            "1": "2-Hit DMG 157%",
+                            "2": "3-Hit DMG 204%",
+                            "3": "4-Hit DMG 106.6%×2",
+                            "4": "5-Hit DMG 243%",
+                            "5": "Aimed Shot 117.3%",
+                            "6": "Fully-Charged Aimed Shot 294.5%",
+                            "7": "Kindling Arrow DMG 39%",
+                            "8": "Plunge DMG 152%",
+                            "9": "Low/High Plunge DMG 303.9%/379.6%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104320",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112008",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112010",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112010",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112010",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104322",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112010",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Niwabi Fire-Dance",
+                    "description": "Yoimiya waves a sparkler and causes a ring of saltpeter to surround her.\\n\\n<color=#FFD780FF>Niwabi Enshou</color>\\nDuring this time, arrows fired by Yoimiya's Normal Attack will be Blazing Arrows, and their DMG will be increased and converted to <color=#FF9999FF>Pyro DMG</color>. During this time, Normal Attack: Firework Flare-Up will not generate Kindling Arrows at Charge Level 2.\\n\\nThis effect will deactivate when Yoimiya leaves the field.\\n\\n<i>\"Niwabi\" is a form of incense firework created by Yoimiya herself. Its ability to be lit without any prior training or preparation has made it a real hit. After many fire-related incidents, the Tenryou Commission ordered the use of \"Niwabi\" banned, but small, bright sparks can often still be seen springing up at night. If seen from above, they look almost like little twinkling stars.</i>",
+                    "icon": "Skill_S_Yoimiya_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Blazing Arrow DMG 137.9% Normal Attack DMG",
+                            "1": "Duration 10s",
+                            "2": "CD 18s"
+                        },
+                        "2": {
+                            "0": "Blazing Arrow DMG 140.2% Normal Attack DMG",
+                            "1": "Duration 10s",
+                            "2": "CD 18s"
+                        },
+                        "3": {
+                            "0": "Blazing Arrow DMG 142.4% Normal Attack DMG",
+                            "1": "Duration 10s",
+                            "2": "CD 18s"
+                        },
+                        "4": {
+                            "0": "Blazing Arrow DMG 145.4% Normal Attack DMG",
+                            "1": "Duration 10s",
+                            "2": "CD 18s"
+                        },
+                        "5": {
+                            "0": "Blazing Arrow DMG 147.7% Normal Attack DMG",
+                            "1": "Duration 10s",
+                            "2": "CD 18s"
+                        },
+                        "6": {
+                            "0": "Blazing Arrow DMG 149.9% Normal Attack DMG",
+                            "1": "Duration 10s",
+                            "2": "CD 18s"
+                        },
+                        "7": {
+                            "0": "Blazing Arrow DMG 152.9% Normal Attack DMG",
+                            "1": "Duration 10s",
+                            "2": "CD 18s"
+                        },
+                        "8": {
+                            "0": "Blazing Arrow DMG 155.8% Normal Attack DMG",
+                            "1": "Duration 10s",
+                            "2": "CD 18s"
+                        },
+                        "9": {
+                            "0": "Blazing Arrow DMG 158.8% Normal Attack DMG",
+                            "1": "Duration 10s",
+                            "2": "CD 18s"
+                        },
+                        "10": {
+                            "0": "Blazing Arrow DMG 161.7% Normal Attack DMG",
+                            "1": "Duration 10s",
+                            "2": "CD 18s"
+                        },
+                        "11": {
+                            "0": "Blazing Arrow DMG 164.7% Normal Attack DMG",
+                            "1": "Duration 10s",
+                            "2": "CD 18s"
+                        },
+                        "12": {
+                            "0": "Blazing Arrow DMG 167.6% Normal Attack DMG",
+                            "1": "Duration 10s",
+                            "2": "CD 18s"
+                        },
+                        "13": {
+                            "0": "Blazing Arrow DMG 170.6% Normal Attack DMG",
+                            "1": "Duration 10s",
+                            "2": "CD 18s"
+                        },
+                        "14": {
+                            "0": "Blazing Arrow DMG 173.5% Normal Attack DMG",
+                            "1": "Duration 10s",
+                            "2": "CD 18s"
+                        },
+                        "15": {
+                            "0": "Blazing Arrow DMG 176.5% Normal Attack DMG",
+                            "1": "Duration 10s",
+                            "2": "CD 18s"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104320",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112008",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112010",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112010",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112010",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104322",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112010",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Ryuukin Saxifrage",
+                    "description": "Yoimiya leaps into the air along with her original creation, the \"Ryuukin Saxifrage,\" and fires forth blazing rockets bursting with surprises that deal <color=#FF9999FF>AoE Pyro DMG</color> and mark one of the hit opponents with Aurous Blaze.\\n\\n<color=#FFD780FF>Aurous Blaze</color>\\nAll Normal/Charged/Plunging Attacks, Elemental Skills, and Elemental Bursts by any party member other than Yoimiya that hit an opponent marked by Aurous Blaze will trigger an explosion, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\\nWhen an opponent affected by Aurous Blaze is defeated before its duration expires, the effect will pass on to another nearby opponent, who will inherit the remaining duration.\\n\\nOne Aurous Blaze explosion can be triggered every 2s. When Yoimiya is down, Aurous Blaze effects created through her skills will be deactivated.\\n\\n<i>Fireworks are man-made starlight, comets fired into the sky. Though they last for but an instant, the memory of their brilliance shall surely live on.</i>",
+                    "icon": "Skill_E_Yoimiya_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 127.2%",
+                            "1": "Aurous Blaze Explosion DMG 122%",
+                            "2": "Duration 10s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "2": {
+                            "0": "Skill DMG 136.7%",
+                            "1": "Aurous Blaze Explosion DMG 131.2%",
+                            "2": "Duration 10s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "3": {
+                            "0": "Skill DMG 146.3%",
+                            "1": "Aurous Blaze Explosion DMG 140.3%",
+                            "2": "Duration 10s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "4": {
+                            "0": "Skill DMG 159%",
+                            "1": "Aurous Blaze Explosion DMG 152.5%",
+                            "2": "Duration 10s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "5": {
+                            "0": "Skill DMG 168.5%",
+                            "1": "Aurous Blaze Explosion DMG 161.7%",
+                            "2": "Duration 10s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "6": {
+                            "0": "Skill DMG 178.1%",
+                            "1": "Aurous Blaze Explosion DMG 170.8%",
+                            "2": "Duration 10s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "7": {
+                            "0": "Skill DMG 190.8%",
+                            "1": "Aurous Blaze Explosion DMG 183%",
+                            "2": "Duration 10s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "8": {
+                            "0": "Skill DMG 203.5%",
+                            "1": "Aurous Blaze Explosion DMG 195.2%",
+                            "2": "Duration 10s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "9": {
+                            "0": "Skill DMG 216.2%",
+                            "1": "Aurous Blaze Explosion DMG 207.4%",
+                            "2": "Duration 10s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "10": {
+                            "0": "Skill DMG 229%",
+                            "1": "Aurous Blaze Explosion DMG 219.6%",
+                            "2": "Duration 10s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "11": {
+                            "0": "Skill DMG 241.7%",
+                            "1": "Aurous Blaze Explosion DMG 231.8%",
+                            "2": "Duration 10s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "12": {
+                            "0": "Skill DMG 254.4%",
+                            "1": "Aurous Blaze Explosion DMG 244%",
+                            "2": "Duration 10s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "13": {
+                            "0": "Skill DMG 270.3%",
+                            "1": "Aurous Blaze Explosion DMG 259.2%",
+                            "2": "Duration 10s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "14": {
+                            "0": "Skill DMG 286.2%",
+                            "1": "Aurous Blaze Explosion DMG 274.5%",
+                            "2": "Duration 10s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "15": {
+                            "0": "Skill DMG 302.1%",
+                            "1": "Aurous Blaze Explosion DMG 289.8%",
+                            "2": "Duration 10s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104320",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112008",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112010",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112010",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112010",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104322",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112010",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Ryuukin Saxifrage",
+                    "description": "Yoimiya leaps into the air along with her original creation, the \"Ryuukin Saxifrage,\" and fires forth blazing rockets bursting with surprises that deal <color=#FF9999FF>AoE Pyro DMG</color> and mark one of the hit opponents with Aurous Blaze.\\n\\n<color=#FFD780FF>Aurous Blaze</color>\\nAll Normal/Charged/Plunging Attacks, Elemental Skills, and Elemental Bursts by any party member other than Yoimiya that hit an opponent marked by Aurous Blaze will trigger an explosion, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\\nWhen an opponent affected by Aurous Blaze is defeated before its duration expires, the effect will pass on to another nearby opponent, who will inherit the remaining duration.\\n\\nOne Aurous Blaze explosion can be triggered every 2s. When Yoimiya is down, Aurous Blaze effects created through her skills will be deactivated.\\n\\n<i>Fireworks are man-made starlight, comets fired into the sky. Though they last for but an instant, the memory of their brilliance shall surely live on.</i>",
+                    "icon": "Skill_E_Yoimiya_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 127.2%",
+                            "1": "Aurous Blaze Explosion DMG 122%",
+                            "2": "Duration 10s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "2": {
+                            "0": "Skill DMG 136.7%",
+                            "1": "Aurous Blaze Explosion DMG 131.2%",
+                            "2": "Duration 10s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "3": {
+                            "0": "Skill DMG 146.3%",
+                            "1": "Aurous Blaze Explosion DMG 140.3%",
+                            "2": "Duration 10s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "4": {
+                            "0": "Skill DMG 159%",
+                            "1": "Aurous Blaze Explosion DMG 152.5%",
+                            "2": "Duration 10s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "5": {
+                            "0": "Skill DMG 168.5%",
+                            "1": "Aurous Blaze Explosion DMG 161.7%",
+                            "2": "Duration 10s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "6": {
+                            "0": "Skill DMG 178.1%",
+                            "1": "Aurous Blaze Explosion DMG 170.8%",
+                            "2": "Duration 10s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "7": {
+                            "0": "Skill DMG 190.8%",
+                            "1": "Aurous Blaze Explosion DMG 183%",
+                            "2": "Duration 10s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "8": {
+                            "0": "Skill DMG 203.5%",
+                            "1": "Aurous Blaze Explosion DMG 195.2%",
+                            "2": "Duration 10s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "9": {
+                            "0": "Skill DMG 216.2%",
+                            "1": "Aurous Blaze Explosion DMG 207.4%",
+                            "2": "Duration 10s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "10": {
+                            "0": "Skill DMG 229%",
+                            "1": "Aurous Blaze Explosion DMG 219.6%",
+                            "2": "Duration 10s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "11": {
+                            "0": "Skill DMG 241.7%",
+                            "1": "Aurous Blaze Explosion DMG 231.8%",
+                            "2": "Duration 10s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "12": {
+                            "0": "Skill DMG 254.4%",
+                            "1": "Aurous Blaze Explosion DMG 244%",
+                            "2": "Duration 10s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "13": {
+                            "0": "Skill DMG 270.3%",
+                            "1": "Aurous Blaze Explosion DMG 259.2%",
+                            "2": "Duration 10s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "14": {
+                            "0": "Skill DMG 286.2%",
+                            "1": "Aurous Blaze Explosion DMG 274.5%",
+                            "2": "Duration 10s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "15": {
+                            "0": "Skill DMG 302.1%",
+                            "1": "Aurous Blaze Explosion DMG 289.8%",
+                            "2": "Duration 10s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104320",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112008",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112010",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112010",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112010",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104322",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112010",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Tricks of the Trouble-Maker",
+                    "description": "During <color=#FFD780FF>Niwabi Fire-Dance</color>, shots from Yoimiya's Normal Attack will increase her <color=#FF9999FF>Pyro DMG Bonus</color> by 2% on hit. This effect lasts for 3s and can have a maximum of 10 stacks.",
+                    "icon": "UI_Talent_S_Yoimiya_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Summer Night's Dawn",
+                    "description": "Using <color=#FFD780FF>Ryuukin Saxifrage</color> causes nearby party members (not including Yoimiya) to gain a 10% ATK increase for 15s. Additionally, a further ATK Bonus will be added on based on the number of \"Tricks of the Trouble-Maker\" stacks Yoimiya possesses when using <color=#FFD780FF>Ryuukin Saxifrage</color>. Each stack increases this ATK Bonus by 1%.",
+                    "icon": "UI_Talent_S_Yoimiya_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Blazing Match",
+                    "description": "When Yoimiya crafts Decoration, Ornament, and Landscape-type Furnishings, she has a 100% chance to refund a portion of the materials used.",
+                    "icon": "UI_Talent_S_Yoimiya_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Agate Ryuukin",
+                    "description": "The Aurous Blaze created by <color=#FFD780FF>Ryuukin Saxifrage</color> lasts for an extra 4s.\\nAdditionally, when an opponent affected by Aurous Blaze is defeated within its duration, Yoimiya's ATK is increased by 20% for 20s.",
+                    "icon": "UI_Talent_S_Yoimiya_01"
+                },
+                "1": {
+                    "name": "A Procession of Bonfires",
+                    "description": "When Yoimiya's <color=#FF9999FF>Pyro DMG</color> scores a CRIT Hit, Yoimiya will gain a 25% <color=#FF9999FF>Pyro DMG Bonus</color> for 6s.\\nThis effect can be triggered even when Yoimiya is not the active character.",
+                    "icon": "UI_Talent_S_Yoimiya_02"
+                },
+                "2": {
+                    "name": "Trickster's Flare",
+                    "description": "Increases the Level of <color=#FFD780FF>Niwabi Fire-Dance</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Yoimiya_01"
+                },
+                "3": {
+                    "name": "Pyrotechnic Professional",
+                    "description": "When Yoimiya's own Aurous Blaze triggers an explosion, <color=#FFD780FF>Niwabi Fire-Dance</color>'s CD is decreased by 1.2s.",
+                    "icon": "UI_Talent_S_Yoimiya_03"
+                },
+                "4": {
+                    "name": "A Summer Festival's Eve",
+                    "description": "Increases the Level of <color=#FFD780FF>Ryuukin Saxifrage</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Yoimiya_02"
+                },
+                "5": {
+                    "name": "Naganohara Meteor Swarm",
+                    "description": "During <color=#FFD780FF>Niwabi Fire-Dance</color>, Yoimiya's Normal Attacks have a 50% chance of firing an extra Blazing Arrow that deals 60% of its original DMG. This DMG is considered Normal Attack DMG.",
+                    "icon": "UI_Talent_S_Yoimiya_04"
+                }
+            },
+            "elevation": {
+                "sub": "CRIT Rate %",
+                "0": {
+                    "stats": {
+                        "HP": 791,
+                        "ATK": 25,
+                        "DEF": 48,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2053,
+                        "ATK": 65,
+                        "DEF": 124,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101205",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104111",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112008",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 2731,
+                        "ATK": 87,
+                        "DEF": 165,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 4086,
+                        "ATK": 130,
+                        "DEF": 247,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101205",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104112",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112008",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113024",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 4568,
+                        "ATK": 145,
+                        "DEF": 276,
+                        "sub": 4.8
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 5256,
+                        "ATK": 167,
+                        "DEF": 318,
+                        "sub": 4.8
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101205",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104112",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112009",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113024",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 5899,
+                        "ATK": 187,
+                        "DEF": 357,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 6524,
+                        "ATK": 207,
+                        "DEF": 395,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101205",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104113",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112009",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113024",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 7006,
+                        "ATK": 223,
+                        "DEF": 424,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 7847,
+                        "ATK": 249,
+                        "DEF": 475,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101205",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104113",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112010",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113024",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 8329,
+                        "ATK": 265,
+                        "DEF": 504,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 8968,
+                        "ATK": 285,
+                        "DEF": 542,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101205",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104114",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112010",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113024",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 9450,
+                        "ATK": 300,
+                        "DEF": 572,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 10164,
+                        "ATK": 323,
+                        "DEF": 615,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                }
+            }
+        },
+        "ru": {
+            "name": "Yoimiya",
+            "name_ru": "Ёимия",
+            "id": 10000049,
+            "rarity": 5,
+            "weapon": "Bow",
+            "element": "Pyro",
+            "region": "Inazuma",
+            "more": {
+                "title": "Пляшущие огоньки",
+                "detail": "Владелица «Фейерверков Наганохары», также известна как «Королева праздника лета». Будучи мастером своего дела, она воплощает надежды и мечты людей в своих фейерверках.",
+                "constellation": "Золотая Рыбка",
+                "group": "Фейерверки Наганохары",
+                "birthday": "21.6",
+                "release": "10.08.2021",
+                "cv": {
+                    "en": "Jenny Yokobori",
+                    "chs": "金娜",
+                    "jp": "植田佳奈",
+                    "kr": "Park Shin-hee"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Вспышка фейерверка",
+                    "description": "<color=#FFD780FF>Обычная атака:</color>\\nДо пяти выстрелов из лука.\\n\\n<color=#FFD780FF>Заряженная атака:</color>\\nБолее меткий <color=#FFD780FF>прицельный выстрел</color> с увеличенным уроном.\\nВо время прицеливания на наконечнике стрелы накапливается пламя. Эффект зависит от длительности заряда стрелы:\\n· Уровень заряда 1: Выпускает огненную стрелу, наносящую <color=#FF9999FF>Пиро урон</color>.\\n· Уровень заряда 2: В зависимости от длительности заряда выпускает до 3 Зажигательных стрел. Зажигательные стрелы самостоятельно находят ближайшую цель и при попадании наносят <color=#FF9999FF>Пиро урон</color>.\\n\\n<color=#FFD780FF>Атака в падении:</color>\\nВыпускает град стрел, которые при приземлении персонажа наносят урон по площади.",
+                    "icon": "Skill_A_02",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон атаки 1 35.6%×2",
+                            "1": "Урон атаки 2 68.4%",
+                            "2": "Урон атаки 3 88.9%",
+                            "3": "Урон атаки 4 46.4%×2",
+                            "4": "Урон атаки 5 105.9%",
+                            "5": "Прицельный выстрел 43.9%",
+                            "6": "Заряженный выстрел 124%",
+                            "7": "Урон зажигательной стрелы 16.4%",
+                            "8": "Урон в падении 56.8%",
+                            "9": "Урон низкого/высокого удара 113.6%/141.9%"
+                        },
+                        "2": {
+                            "0": "Урон атаки 1 38.1%×2",
+                            "1": "Урон атаки 2 73%",
+                            "2": "Урон атаки 3 94.9%",
+                            "3": "Урон атаки 4 49.6%×2",
+                            "4": "Урон атаки 5 113.1%",
+                            "5": "Прицельный выстрел 47.4%",
+                            "6": "Заряженный выстрел 133.3%",
+                            "7": "Урон зажигательной стрелы 17.6%",
+                            "8": "Урон в падении 61.5%",
+                            "9": "Урон низкого/высокого удара 122.9%/153.5%"
+                        },
+                        "3": {
+                            "0": "Урон атаки 1 40.5%×2",
+                            "1": "Урон атаки 2 77.7%",
+                            "2": "Урон атаки 3 101%",
+                            "3": "Урон атаки 4 52.8%×2",
+                            "4": "Урон атаки 5 120.3%",
+                            "5": "Прицельный выстрел 51%",
+                            "6": "Заряженный выстрел 142.6%",
+                            "7": "Урон зажигательной стрелы 18.9%",
+                            "8": "Урон в падении 66.1%",
+                            "9": "Урон низкого/высокого удара 132.1%/165%"
+                        },
+                        "4": {
+                            "0": "Урон атаки 1 43.7%×2",
+                            "1": "Урон атаки 2 83.9%",
+                            "2": "Урон атаки 3 109.1%",
+                            "3": "Урон атаки 4 57%×2",
+                            "4": "Урон атаки 5 129.9%",
+                            "5": "Прицельный выстрел 56.1%",
+                            "6": "Заряженный выстрел 155%",
+                            "7": "Урон зажигательной стрелы 20.5%",
+                            "8": "Урон в падении 72.7%",
+                            "9": "Урон низкого/высокого удара 145.3%/181.5%"
+                        },
+                        "5": {
+                            "0": "Урон атаки 1 46.2%×2",
+                            "1": "Урон атаки 2 88.6%",
+                            "2": "Урон атаки 3 115.2%",
+                            "3": "Урон атаки 4 60.1%×2",
+                            "4": "Урон атаки 5 137.1%",
+                            "5": "Прицельный выстрел 59.7%",
+                            "6": "Заряженный выстрел 164.3%",
+                            "7": "Урон зажигательной стрелы 21.7%",
+                            "8": "Урон в падении 77.3%",
+                            "9": "Урон низкого/высокого удара 154.6%/193.1%"
+                        },
+                        "6": {
+                            "0": "Урон атаки 1 49%×2",
+                            "1": "Урон атаки 2 94%",
+                            "2": "Урон атаки 3 122.2%",
+                            "3": "Урон атаки 4 63.8%×2",
+                            "4": "Урон атаки 5 145.6%",
+                            "5": "Прицельный выстрел 63.7%",
+                            "6": "Заряженный выстрел 173.6%",
+                            "7": "Урон зажигательной стрелы 23%",
+                            "8": "Урон в падении 82.6%",
+                            "9": "Урон низкого/высокого удара 165.2%/206.3%"
+                        },
+                        "7": {
+                            "0": "Урон атаки 1 52.6%×2",
+                            "1": "Урон атаки 2 101%",
+                            "2": "Урон атаки 3 131.3%",
+                            "3": "Урон атаки 4 68.6%×2",
+                            "4": "Урон атаки 5 156.4%",
+                            "5": "Прицельный выстрел 69.4%",
+                            "6": "Заряженный выстрел 186%",
+                            "7": "Урон зажигательной стрелы 24.6%",
+                            "8": "Урон в падении 89.9%",
+                            "9": "Урон низкого/высокого удара 179.7%/224.5%"
+                        },
+                        "8": {
+                            "0": "Урон атаки 1 56.3%×2",
+                            "1": "Урон атаки 2 108%",
+                            "2": "Урон атаки 3 140.4%",
+                            "3": "Урон атаки 4 73.3%×2",
+                            "4": "Урон атаки 5 167.2%",
+                            "5": "Прицельный выстрел 75%",
+                            "6": "Заряженный выстрел 198.4%",
+                            "7": "Урон зажигательной стрелы 26.2%",
+                            "8": "Урон в падении 97.1%",
+                            "9": "Урон низкого/высокого удара 194.2%/242.6%"
+                        },
+                        "9": {
+                            "0": "Урон атаки 1 59.9%×2",
+                            "1": "Урон атаки 2 115%",
+                            "2": "Урон атаки 3 149.5%",
+                            "3": "Урон атаки 4 78.1%×2",
+                            "4": "Урон атаки 5 178%",
+                            "5": "Прицельный выстрел 80.6%",
+                            "6": "Заряженный выстрел 210.8%",
+                            "7": "Урон зажигательной стрелы 27.9%",
+                            "8": "Урон в падении 104.4%",
+                            "9": "Урон низкого/высокого удара 208.8%/260.8%"
+                        },
+                        "10": {
+                            "0": "Урон атаки 1 63.6%×2",
+                            "1": "Урон атаки 2 122%",
+                            "2": "Урон атаки 3 158.6%",
+                            "3": "Урон атаки 4 82.8%×2",
+                            "4": "Урон атаки 5 188.9%",
+                            "5": "Прицельный выстрел 86.7%",
+                            "6": "Заряженный выстрел 223.2%",
+                            "7": "Урон зажигательной стрелы 29.5%",
+                            "8": "Урон в падении 112.3%",
+                            "9": "Урон низкого/высокого удара 224.6%/280.6%"
+                        },
+                        "11": {
+                            "0": "Урон атаки 1 67.2%×2",
+                            "1": "Урон атаки 2 129%",
+                            "2": "Урон атаки 3 167.7%",
+                            "3": "Урон атаки 4 87.6%×2",
+                            "4": "Урон атаки 5 199.7%",
+                            "5": "Прицельный выстрел 92.8%",
+                            "6": "Заряженный выстрел 235.6%",
+                            "7": "Урон зажигательной стрелы 31.2%",
+                            "8": "Урон в падении 120.3%",
+                            "9": "Урон низкого/высокого удара 240.5%/300.4%"
+                        },
+                        "12": {
+                            "0": "Урон атаки 1 70.9%×2",
+                            "1": "Урон атаки 2 136%",
+                            "2": "Урон атаки 3 176.8%",
+                            "3": "Урон атаки 4 92.3%×2",
+                            "4": "Урон атаки 5 210.5%",
+                            "5": "Прицельный выстрел 98.9%",
+                            "6": "Заряженный выстрел 248%",
+                            "7": "Урон зажигательной стрелы 32.8%",
+                            "8": "Урон в падении 128.2%",
+                            "9": "Урон низкого/высокого удара 256.3%/320.2%"
+                        },
+                        "13": {
+                            "0": "Урон атаки 1 74.5%×2",
+                            "1": "Урон атаки 2 143%",
+                            "2": "Урон атаки 3 185.9%",
+                            "3": "Урон атаки 4 97.1%×2",
+                            "4": "Урон атаки 5 221.4%",
+                            "5": "Прицельный выстрел 105.1%",
+                            "6": "Заряженный выстрел 263.5%",
+                            "7": "Урон зажигательной стрелы 34.8%",
+                            "8": "Урон в падении 136.1%",
+                            "9": "Урон низкого/высокого удара 272.2%/340%"
+                        },
+                        "14": {
+                            "0": "Урон атаки 1 78.2%×2",
+                            "1": "Урон атаки 2 150%",
+                            "2": "Урон атаки 3 194.9%",
+                            "3": "Урон атаки 4 101.8%×2",
+                            "4": "Урон атаки 5 232.2%",
+                            "5": "Прицельный выстрел 111.2%",
+                            "6": "Заряженный выстрел 279%",
+                            "7": "Урон зажигательной стрелы 36.9%",
+                            "8": "Урон в падении 144.1%",
+                            "9": "Урон низкого/высокого удара 288%/359.8%"
+                        },
+                        "15": {
+                            "0": "Урон атаки 1 81.8%×2",
+                            "1": "Урон атаки 2 157%",
+                            "2": "Урон атаки 3 204%",
+                            "3": "Урон атаки 4 106.6%×2",
+                            "4": "Урон атаки 5 243%",
+                            "5": "Прицельный выстрел 117.3%",
+                            "6": "Заряженный выстрел 294.5%",
+                            "7": "Урон зажигательной стрелы 39%",
+                            "8": "Урон в падении 152%",
+                            "9": "Урон низкого/высокого удара 303.9%/379.6%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104320",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112008",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112010",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112010",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112010",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104322",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112010",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Огненный танец Ниваби",
+                    "description": "Ёимия взмахивает ниваби и окружает себя кольцом горящей селитры.\\n\\n<color=#FFD780FF>Ниваби энсё</color>\\nПока навык активен, стрелы, выпущенные обычной атакой Ёимии, становятся Зажигательными стрелами, а их урон увеличивается и конвертируется в <color=#FF9999FF>Пиро урон</color>. Однако второй уровень заряда обычной атаки Вспышка фейерверка не будет генерировать Зажигательные стрелы.\\n\\nЭтот эффект перестаёт действовать, когда Ёимия покидает бой.\\n\\n<i>Ниваби - это особый вид фейерверка с благовониями, который придумала сама Ёимия. Хитом продаж его сделало то, насколько легко его использовать без предварительной подготовки и каких-либо знаний. После множества случаев непредумышленных поджогов комиссия Тэнрё приказала запретить ниваби, но в ночи всё равно часто можно увидеть искрящиеся огоньки. Если смотреть с высоты, они похожи на мерцающие звёздочки.</i>",
+                    "icon": "Skill_S_Yoimiya_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон зажигательной стрелы 137.9% от урона обычной атаки",
+                            "1": "Длительность 10 сек.",
+                            "2": "Время отката 18 сек."
+                        },
+                        "2": {
+                            "0": "Урон зажигательной стрелы 140.2% от урона обычной атаки",
+                            "1": "Длительность 10 сек.",
+                            "2": "Время отката 18 сек."
+                        },
+                        "3": {
+                            "0": "Урон зажигательной стрелы 142.4% от урона обычной атаки",
+                            "1": "Длительность 10 сек.",
+                            "2": "Время отката 18 сек."
+                        },
+                        "4": {
+                            "0": "Урон зажигательной стрелы 145.4% от урона обычной атаки",
+                            "1": "Длительность 10 сек.",
+                            "2": "Время отката 18 сек."
+                        },
+                        "5": {
+                            "0": "Урон зажигательной стрелы 147.7% от урона обычной атаки",
+                            "1": "Длительность 10 сек.",
+                            "2": "Время отката 18 сек."
+                        },
+                        "6": {
+                            "0": "Урон зажигательной стрелы 149.9% от урона обычной атаки",
+                            "1": "Длительность 10 сек.",
+                            "2": "Время отката 18 сек."
+                        },
+                        "7": {
+                            "0": "Урон зажигательной стрелы 152.9% от урона обычной атаки",
+                            "1": "Длительность 10 сек.",
+                            "2": "Время отката 18 сек."
+                        },
+                        "8": {
+                            "0": "Урон зажигательной стрелы 155.8% от урона обычной атаки",
+                            "1": "Длительность 10 сек.",
+                            "2": "Время отката 18 сек."
+                        },
+                        "9": {
+                            "0": "Урон зажигательной стрелы 158.8% от урона обычной атаки",
+                            "1": "Длительность 10 сек.",
+                            "2": "Время отката 18 сек."
+                        },
+                        "10": {
+                            "0": "Урон зажигательной стрелы 161.7% от урона обычной атаки",
+                            "1": "Длительность 10 сек.",
+                            "2": "Время отката 18 сек."
+                        },
+                        "11": {
+                            "0": "Урон зажигательной стрелы 164.7% от урона обычной атаки",
+                            "1": "Длительность 10 сек.",
+                            "2": "Время отката 18 сек."
+                        },
+                        "12": {
+                            "0": "Урон зажигательной стрелы 167.6% от урона обычной атаки",
+                            "1": "Длительность 10 сек.",
+                            "2": "Время отката 18 сек."
+                        },
+                        "13": {
+                            "0": "Урон зажигательной стрелы 170.6% от урона обычной атаки",
+                            "1": "Длительность 10 сек.",
+                            "2": "Время отката 18 сек."
+                        },
+                        "14": {
+                            "0": "Урон зажигательной стрелы 173.5% от урона обычной атаки",
+                            "1": "Длительность 10 сек.",
+                            "2": "Время отката 18 сек."
+                        },
+                        "15": {
+                            "0": "Урон зажигательной стрелы 176.5% от урона обычной атаки",
+                            "1": "Длительность 10 сек.",
+                            "2": "Время отката 18 сек."
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104320",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112008",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112010",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112010",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112010",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104322",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112010",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Камнеломка Рюкин",
+                    "description": "Ёимия взмывает в воздух со своим изобретением, Камнеломкой Рюкин, которая запускает пылающие ракеты, полные сюрпризов, и наносит <color=#FF9999FF>Пиро урон по площади</color>, помечая одного из поражённых противников Золотым сиянием.\\n\\n<color=#FFD780FF>Золотое сияние</color>\\nОбычные атаки, заряженные атаки, атаки в падении, элементальные навыки и взрывы стихии любого члена отряда, кроме Ёимии, поражающие помеченного Золотым сиянием врага, вызывают взрывы, которые наносят <color=#FF9999FF>Пиро урон по площади</color>.\\nЕсли противник, помеченный Золотым сиянием, погибает во время действия навыка, эффект и его оставшаяся длительность передаются другому ближайшему противнику.\\n\\nКаждые 2 сек. может возникнуть только один взрыв Золотого сияния. Если Ёимия погибает в бою, эффекты Золотого сияния, вызванные её навыком, перестанут действовать.\\n\\n<i>Фейерверки - это искусственный свет звёзд, это запускаемые в небо кометы. Они живут лишь мгновение, но память об их сиянии, несомненно, будет жить вечно.</i>",
+                    "icon": "Skill_E_Yoimiya_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 127.2%",
+                            "1": "Урон взрыва золотого сияния 122%",
+                            "2": "Длительность 10 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "2": {
+                            "0": "Урон навыка 136.7%",
+                            "1": "Урон взрыва золотого сияния 131.2%",
+                            "2": "Длительность 10 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "3": {
+                            "0": "Урон навыка 146.3%",
+                            "1": "Урон взрыва золотого сияния 140.3%",
+                            "2": "Длительность 10 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "4": {
+                            "0": "Урон навыка 159%",
+                            "1": "Урон взрыва золотого сияния 152.5%",
+                            "2": "Длительность 10 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "5": {
+                            "0": "Урон навыка 168.5%",
+                            "1": "Урон взрыва золотого сияния 161.7%",
+                            "2": "Длительность 10 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "6": {
+                            "0": "Урон навыка 178.1%",
+                            "1": "Урон взрыва золотого сияния 170.8%",
+                            "2": "Длительность 10 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "7": {
+                            "0": "Урон навыка 190.8%",
+                            "1": "Урон взрыва золотого сияния 183%",
+                            "2": "Длительность 10 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "8": {
+                            "0": "Урон навыка 203.5%",
+                            "1": "Урон взрыва золотого сияния 195.2%",
+                            "2": "Длительность 10 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "9": {
+                            "0": "Урон навыка 216.2%",
+                            "1": "Урон взрыва золотого сияния 207.4%",
+                            "2": "Длительность 10 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "10": {
+                            "0": "Урон навыка 229%",
+                            "1": "Урон взрыва золотого сияния 219.6%",
+                            "2": "Длительность 10 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "11": {
+                            "0": "Урон навыка 241.7%",
+                            "1": "Урон взрыва золотого сияния 231.8%",
+                            "2": "Длительность 10 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "12": {
+                            "0": "Урон навыка 254.4%",
+                            "1": "Урон взрыва золотого сияния 244%",
+                            "2": "Длительность 10 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "13": {
+                            "0": "Урон навыка 270.3%",
+                            "1": "Урон взрыва золотого сияния 259.2%",
+                            "2": "Длительность 10 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "14": {
+                            "0": "Урон навыка 286.2%",
+                            "1": "Урон взрыва золотого сияния 274.5%",
+                            "2": "Длительность 10 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "15": {
+                            "0": "Урон навыка 302.1%",
+                            "1": "Урон взрыва золотого сияния 289.8%",
+                            "2": "Длительность 10 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104320",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112008",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112010",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112010",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112010",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104322",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112010",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Камнеломка Рюкин",
+                    "description": "Ёимия взмывает в воздух со своим изобретением, Камнеломкой Рюкин, которая запускает пылающие ракеты, полные сюрпризов, и наносит <color=#FF9999FF>Пиро урон по площади</color>, помечая одного из поражённых противников Золотым сиянием.\\n\\n<color=#FFD780FF>Золотое сияние</color>\\nОбычные атаки, заряженные атаки, атаки в падении, элементальные навыки и взрывы стихии любого члена отряда, кроме Ёимии, поражающие помеченного Золотым сиянием врага, вызывают взрывы, которые наносят <color=#FF9999FF>Пиро урон по площади</color>.\\nЕсли противник, помеченный Золотым сиянием, погибает во время действия навыка, эффект и его оставшаяся длительность передаются другому ближайшему противнику.\\n\\nКаждые 2 сек. может возникнуть только один взрыв Золотого сияния. Если Ёимия погибает в бою, эффекты Золотого сияния, вызванные её навыком, перестанут действовать.\\n\\n<i>Фейерверки - это искусственный свет звёзд, это запускаемые в небо кометы. Они живут лишь мгновение, но память об их сиянии, несомненно, будет жить вечно.</i>",
+                    "icon": "Skill_E_Yoimiya_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 127.2%",
+                            "1": "Урон взрыва золотого сияния 122%",
+                            "2": "Длительность 10 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "2": {
+                            "0": "Урон навыка 136.7%",
+                            "1": "Урон взрыва золотого сияния 131.2%",
+                            "2": "Длительность 10 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "3": {
+                            "0": "Урон навыка 146.3%",
+                            "1": "Урон взрыва золотого сияния 140.3%",
+                            "2": "Длительность 10 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "4": {
+                            "0": "Урон навыка 159%",
+                            "1": "Урон взрыва золотого сияния 152.5%",
+                            "2": "Длительность 10 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "5": {
+                            "0": "Урон навыка 168.5%",
+                            "1": "Урон взрыва золотого сияния 161.7%",
+                            "2": "Длительность 10 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "6": {
+                            "0": "Урон навыка 178.1%",
+                            "1": "Урон взрыва золотого сияния 170.8%",
+                            "2": "Длительность 10 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "7": {
+                            "0": "Урон навыка 190.8%",
+                            "1": "Урон взрыва золотого сияния 183%",
+                            "2": "Длительность 10 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "8": {
+                            "0": "Урон навыка 203.5%",
+                            "1": "Урон взрыва золотого сияния 195.2%",
+                            "2": "Длительность 10 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "9": {
+                            "0": "Урон навыка 216.2%",
+                            "1": "Урон взрыва золотого сияния 207.4%",
+                            "2": "Длительность 10 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "10": {
+                            "0": "Урон навыка 229%",
+                            "1": "Урон взрыва золотого сияния 219.6%",
+                            "2": "Длительность 10 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "11": {
+                            "0": "Урон навыка 241.7%",
+                            "1": "Урон взрыва золотого сияния 231.8%",
+                            "2": "Длительность 10 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "12": {
+                            "0": "Урон навыка 254.4%",
+                            "1": "Урон взрыва золотого сияния 244%",
+                            "2": "Длительность 10 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "13": {
+                            "0": "Урон навыка 270.3%",
+                            "1": "Урон взрыва золотого сияния 259.2%",
+                            "2": "Длительность 10 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "14": {
+                            "0": "Урон навыка 286.2%",
+                            "1": "Урон взрыва золотого сияния 274.5%",
+                            "2": "Длительность 10 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "15": {
+                            "0": "Урон навыка 302.1%",
+                            "1": "Урон взрыва золотого сияния 289.8%",
+                            "2": "Длительность 10 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104320",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112008",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112009",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112010",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112010",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112010",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104322",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112010",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Трюки нарушителя порядка",
+                    "description": "Во время действия навыка <color=#FFD780FF>Огненный танец Ниваби</color> попадания обычной атакой Ёимии будут давать ей 2% <color=#FF9999FF>бонус Пиро урона</color>. Этот эффект длится 3 сек. и может складываться до 10 раз.",
+                    "icon": "UI_Talent_S_Yoimiya_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Летняя заря",
+                    "description": "Использование навыка <color=#FFD780FF>Камнеломка Рюкин</color> увеличивает силу атаки ближайших членов отряда (кроме Ёимии) на 10% в течение 15 сек. Имеющиеся на момент активирования навыка <color=#FFD780FF>Камнеломка Рюкин</color> уровни складывания «Трюков нарушителя порядка» Ёимии дополнительно повышают бонус силы атаки. Каждый уровень повышает бонус силы атаки на 1%.",
+                    "icon": "UI_Talent_S_Yoimiya_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Горящая спичка",
+                    "description": "При создании элементов декора типа «отделка», «украшение» и «пейзаж» имеет 100% шанс восстановить часть использованных материалов.",
+                    "icon": "UI_Talent_S_Yoimiya_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Агатовый рюкин",
+                    "description": "Длительность Взрыва золотого сияния, вызванного навыком <color=#FFD780FF>Камнеломка Рюкин</color>, увеличена на 4 сек.\\nТакже победа над противником, находящимся под эффектом Взрыва золотого сияния, во время длительности этого эффекта увеличивает силу атаки Ёимии на 20% в течение 20 сек.",
+                    "icon": "UI_Talent_S_Yoimiya_01"
+                },
+                "1": {
+                    "name": "Шествие тысячи огней",
+                    "description": "Крит. попадание <color=#FF9999FF>Пиро уроном</color> Ёимии даёт ей 25% <color=#FF9999FF>бонус Пиро урона</color> на 6 сек.\\nЭтот эффект может быть активирован, даже когда Ёимия не является активным персонажем.",
+                    "icon": "UI_Talent_S_Yoimiya_02"
+                },
+                "2": {
+                    "name": "Пламя трюкача",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Огненный танец Ниваби</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Yoimiya_01"
+                },
+                "3": {
+                    "name": "Профессиональный пиротехник",
+                    "description": "Когда Взрыв золотого сияния Ёимии вызывает взрыв, время отката навыка <color=#FFD780FF>Огненный танец Ниваби</color> уменьшается на 1,2 сек.",
+                    "icon": "UI_Talent_S_Yoimiya_03"
+                },
+                "4": {
+                    "name": "Канун летнего фестиваля",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Камнеломка Рюкин</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Yoimiya_02"
+                },
+                "5": {
+                    "name": "Падающие звёзды Наганохары",
+                    "description": "Во время действия навыка <color=#FFD780FF>Огненный танец Ниваби</color> обычные атаки Ёимии имеют 50% шанс пустить дополнительную зажигательную стрелу, которая наносит 60% от первоначального урона. Этот урон считается уроном обычной атаки.",
+                    "icon": "UI_Talent_S_Yoimiya_04"
+                }
+            },
+            "elevation": {
+                "sub": "Шанс крит. попадания %",
+                "0": {
+                    "stats": {
+                        "HP": 791,
+                        "ATK": 25,
+                        "DEF": 48,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2053,
+                        "ATK": 65,
+                        "DEF": 124,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101205",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104111",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112008",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 2731,
+                        "ATK": 87,
+                        "DEF": 165,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 4086,
+                        "ATK": 130,
+                        "DEF": 247,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101205",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104112",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112008",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113024",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 4568,
+                        "ATK": 145,
+                        "DEF": 276,
+                        "sub": 4.8
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 5256,
+                        "ATK": 167,
+                        "DEF": 318,
+                        "sub": 4.8
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101205",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104112",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112009",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113024",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 5899,
+                        "ATK": 187,
+                        "DEF": 357,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 6524,
+                        "ATK": 207,
+                        "DEF": 395,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101205",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104113",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112009",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113024",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 7006,
+                        "ATK": 223,
+                        "DEF": 424,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 7847,
+                        "ATK": 249,
+                        "DEF": 475,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101205",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104113",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112010",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113024",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 8329,
+                        "ATK": 265,
+                        "DEF": 504,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 8968,
+                        "ATK": 285,
+                        "DEF": 542,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101205",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104114",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112010",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113024",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 9450,
+                        "ATK": 300,
+                        "DEF": 572,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 10164,
+                        "ATK": 323,
+                        "DEF": 615,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                }
+            }
+        }
+    }
+}

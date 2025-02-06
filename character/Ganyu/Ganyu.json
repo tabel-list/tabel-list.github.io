@@ -1,0 +1,2934 @@
+{
+    "Ganyu": {
+        "en": {
+            "name": "Ganyu",
+            "name_ru": "Гань Юй",
+            "id": 10000037,
+            "rarity": 5,
+            "weapon": "Bow",
+            "element": "Cryo",
+            "region": "Liyue",
+            "more": {
+                "title": "Plenilune Gaze",
+                "detail": "The secretary at Yuehai Pavilion. The blood of the qilin, an illuminated beast, flows within her veins.",
+                "constellation": "Sinae Unicornis",
+                "group": "Yuehai Pavilion",
+                "birthday": "2.12",
+                "release": "12.01.2021",
+                "cv": {
+                    "en": "Jennifer Losi",
+                    "chs": "林簌",
+                    "jp": "上田麗奈",
+                    "kr": "Kim Seon-hye"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Normal Attack: Liutian Archery",
+                    "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 6 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, an icy aura will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:\\n·Charge Level 1: Fires off an icy arrow that deals <color=#99FFFFFF>Cryo DMG</color>.\\n·Charge Level 2: Fires off a Frostflake Arrow that deals <color=#99FFFFFF>Cryo DMG</color>. The Frostflake Arrow blooms after hitting its target, dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+                    "icon": "Skill_A_02",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "1-Hit DMG 31.7%",
+                            "1": "2-Hit DMG 35.6%",
+                            "2": "3-Hit DMG 45.5%",
+                            "3": "4-Hit DMG 45.5%",
+                            "4": "5-Hit DMG 48.2%",
+                            "5": "6-Hit DMG 57.6%",
+                            "6": "Aimed Shot 43.9%",
+                            "7": "Aimed Shot Charge Level 1 124%",
+                            "8": "Frostflake Arrow DMG 128%",
+                            "9": "Frostflake Arrow Bloom DMG 217.6%",
+                            "10": "Plunge DMG 56.8%",
+                            "11": "Low/High Plunge DMG 113.6%/141.9%"
+                        },
+                        "2": {
+                            "0": "1-Hit DMG 34.3%",
+                            "1": "2-Hit DMG 38.5%",
+                            "2": "3-Hit DMG 49.2%",
+                            "3": "4-Hit DMG 49.2%",
+                            "4": "5-Hit DMG 52.2%",
+                            "5": "6-Hit DMG 62.3%",
+                            "6": "Aimed Shot 47.4%",
+                            "7": "Aimed Shot Charge Level 1 133.3%",
+                            "8": "Frostflake Arrow DMG 137.6%",
+                            "9": "Frostflake Arrow Bloom DMG 233.9%",
+                            "10": "Plunge DMG 61.5%",
+                            "11": "Low/High Plunge DMG 122.9%/153.5%"
+                        },
+                        "3": {
+                            "0": "1-Hit DMG 36.9%",
+                            "1": "2-Hit DMG 41.4%",
+                            "2": "3-Hit DMG 52.9%",
+                            "3": "4-Hit DMG 52.9%",
+                            "4": "5-Hit DMG 56.1%",
+                            "5": "6-Hit DMG 67%",
+                            "6": "Aimed Shot 51%",
+                            "7": "Aimed Shot Charge Level 1 142.6%",
+                            "8": "Frostflake Arrow DMG 147.2%",
+                            "9": "Frostflake Arrow Bloom DMG 250.2%",
+                            "10": "Plunge DMG 66.1%",
+                            "11": "Low/High Plunge DMG 132.1%/165%"
+                        },
+                        "4": {
+                            "0": "1-Hit DMG 40.6%",
+                            "1": "2-Hit DMG 45.5%",
+                            "2": "3-Hit DMG 58.2%",
+                            "3": "4-Hit DMG 58.2%",
+                            "4": "5-Hit DMG 61.7%",
+                            "5": "6-Hit DMG 73.7%",
+                            "6": "Aimed Shot 56.1%",
+                            "7": "Aimed Shot Charge Level 1 155%",
+                            "8": "Frostflake Arrow DMG 160%",
+                            "9": "Frostflake Arrow Bloom DMG 272%",
+                            "10": "Plunge DMG 72.7%",
+                            "11": "Low/High Plunge DMG 145.3%/181.5%"
+                        },
+                        "5": {
+                            "0": "1-Hit DMG 43.2%",
+                            "1": "2-Hit DMG 48.4%",
+                            "2": "3-Hit DMG 61.9%",
+                            "3": "4-Hit DMG 61.9%",
+                            "4": "5-Hit DMG 65.6%",
+                            "5": "6-Hit DMG 78.4%",
+                            "6": "Aimed Shot 59.7%",
+                            "7": "Aimed Shot Charge Level 1 164.3%",
+                            "8": "Frostflake Arrow DMG 169.6%",
+                            "9": "Frostflake Arrow Bloom DMG 288.3%",
+                            "10": "Plunge DMG 77.3%",
+                            "11": "Low/High Plunge DMG 154.6%/193.1%"
+                        },
+                        "6": {
+                            "0": "1-Hit DMG 46.1%",
+                            "1": "2-Hit DMG 51.7%",
+                            "2": "3-Hit DMG 66.1%",
+                            "3": "4-Hit DMG 66.1%",
+                            "4": "5-Hit DMG 70.1%",
+                            "5": "6-Hit DMG 83.8%",
+                            "6": "Aimed Shot 63.7%",
+                            "7": "Aimed Shot Charge Level 1 173.6%",
+                            "8": "Frostflake Arrow DMG 179.2%",
+                            "9": "Frostflake Arrow Bloom DMG 304.6%",
+                            "10": "Plunge DMG 82.6%",
+                            "11": "Low/High Plunge DMG 165.2%/206.3%"
+                        },
+                        "7": {
+                            "0": "1-Hit DMG 50.2%",
+                            "1": "2-Hit DMG 56.3%",
+                            "2": "3-Hit DMG 71.9%",
+                            "3": "4-Hit DMG 71.9%",
+                            "4": "5-Hit DMG 76.3%",
+                            "5": "6-Hit DMG 91.1%",
+                            "6": "Aimed Shot 69.4%",
+                            "7": "Aimed Shot Charge Level 1 186%",
+                            "8": "Frostflake Arrow DMG 192%",
+                            "9": "Frostflake Arrow Bloom DMG 326.4%",
+                            "10": "Plunge DMG 89.9%",
+                            "11": "Low/High Plunge DMG 179.7%/224.5%"
+                        },
+                        "8": {
+                            "0": "1-Hit DMG 54.2%",
+                            "1": "2-Hit DMG 60.9%",
+                            "2": "3-Hit DMG 77.8%",
+                            "3": "4-Hit DMG 77.8%",
+                            "4": "5-Hit DMG 82.5%",
+                            "5": "6-Hit DMG 98.5%",
+                            "6": "Aimed Shot 75%",
+                            "7": "Aimed Shot Charge Level 1 198.4%",
+                            "8": "Frostflake Arrow DMG 204.8%",
+                            "9": "Frostflake Arrow Bloom DMG 348.2%",
+                            "10": "Plunge DMG 97.1%",
+                            "11": "Low/High Plunge DMG 194.2%/242.6%"
+                        },
+                        "9": {
+                            "0": "1-Hit DMG 58.3%",
+                            "1": "2-Hit DMG 65.4%",
+                            "2": "3-Hit DMG 83.6%",
+                            "3": "4-Hit DMG 83.6%",
+                            "4": "5-Hit DMG 88.6%",
+                            "5": "6-Hit DMG 105.9%",
+                            "6": "Aimed Shot 80.6%",
+                            "7": "Aimed Shot Charge Level 1 210.8%",
+                            "8": "Frostflake Arrow DMG 217.6%",
+                            "9": "Frostflake Arrow Bloom DMG 369.9%",
+                            "10": "Plunge DMG 104.4%",
+                            "11": "Low/High Plunge DMG 208.8%/260.8%"
+                        },
+                        "10": {
+                            "0": "1-Hit DMG 62.7%",
+                            "1": "2-Hit DMG 70.4%",
+                            "2": "3-Hit DMG 89.9%",
+                            "3": "4-Hit DMG 89.9%",
+                            "4": "5-Hit DMG 95.4%",
+                            "5": "6-Hit DMG 113.9%",
+                            "6": "Aimed Shot 86.7%",
+                            "7": "Aimed Shot Charge Level 1 223.2%",
+                            "8": "Frostflake Arrow DMG 230.4%",
+                            "9": "Frostflake Arrow Bloom DMG 391.7%",
+                            "10": "Plunge DMG 112.3%",
+                            "11": "Low/High Plunge DMG 224.6%/280.6%"
+                        },
+                        "11": {
+                            "0": "1-Hit DMG 67.8%",
+                            "1": "2-Hit DMG 76.1%",
+                            "2": "3-Hit DMG 97.2%",
+                            "3": "4-Hit DMG 97.2%",
+                            "4": "5-Hit DMG 103.1%",
+                            "5": "6-Hit DMG 123.1%",
+                            "6": "Aimed Shot 92.8%",
+                            "7": "Aimed Shot Charge Level 1 235.6%",
+                            "8": "Frostflake Arrow DMG 243.2%",
+                            "9": "Frostflake Arrow Bloom DMG 413.4%",
+                            "10": "Plunge DMG 120.3%",
+                            "11": "Low/High Plunge DMG 240.5%/300.4%"
+                        },
+                        "12": {
+                            "0": "1-Hit DMG 73.8%",
+                            "1": "2-Hit DMG 82.8%",
+                            "2": "3-Hit DMG 105.8%",
+                            "3": "4-Hit DMG 105.8%",
+                            "4": "5-Hit DMG 112.2%",
+                            "5": "6-Hit DMG 133.9%",
+                            "6": "Aimed Shot 98.9%",
+                            "7": "Aimed Shot Charge Level 1 248%",
+                            "8": "Frostflake Arrow DMG 256%",
+                            "9": "Frostflake Arrow Bloom DMG 435.2%",
+                            "10": "Plunge DMG 128.2%",
+                            "11": "Low/High Plunge DMG 256.3%/320.2%"
+                        },
+                        "13": {
+                            "0": "1-Hit DMG 79.7%",
+                            "1": "2-Hit DMG 89.5%",
+                            "2": "3-Hit DMG 114.3%",
+                            "3": "4-Hit DMG 114.3%",
+                            "4": "5-Hit DMG 121.2%",
+                            "5": "6-Hit DMG 144.8%",
+                            "6": "Aimed Shot 105.1%",
+                            "7": "Aimed Shot Charge Level 1 263.5%",
+                            "8": "Frostflake Arrow DMG 272%",
+                            "9": "Frostflake Arrow Bloom DMG 462.4%",
+                            "10": "Plunge DMG 136.1%",
+                            "11": "Low/High Plunge DMG 272.2%/340%"
+                        },
+                        "14": {
+                            "0": "1-Hit DMG 85.7%",
+                            "1": "2-Hit DMG 96.2%",
+                            "2": "3-Hit DMG 122.9%",
+                            "3": "4-Hit DMG 122.9%",
+                            "4": "5-Hit DMG 130.3%",
+                            "5": "6-Hit DMG 155.6%",
+                            "6": "Aimed Shot 111.2%",
+                            "7": "Aimed Shot Charge Level 1 279%",
+                            "8": "Frostflake Arrow DMG 288%",
+                            "9": "Frostflake Arrow Bloom DMG 489.6%",
+                            "10": "Plunge DMG 144.1%",
+                            "11": "Low/High Plunge DMG 288%/359.8%"
+                        },
+                        "15": {
+                            "0": "1-Hit DMG 92.2%",
+                            "1": "2-Hit DMG 103.5%",
+                            "2": "3-Hit DMG 132.2%",
+                            "3": "4-Hit DMG 132.2%",
+                            "4": "5-Hit DMG 140.2%",
+                            "5": "6-Hit DMG 167.4%",
+                            "6": "Aimed Shot 117.3%",
+                            "7": "Aimed Shot Charge Level 1 294.5%",
+                            "8": "Frostflake Arrow DMG 304%",
+                            "9": "Frostflake Arrow Bloom DMG 516.8%",
+                            "10": "Plunge DMG 152%",
+                            "11": "Low/High Plunge DMG 303.9%/379.6%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104313",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112038",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113015",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113015",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113015",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112040",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113015",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Trail of the Qilin",
+                    "description": "Leaving a single Ice Lotus behind, Ganyu dashes backward, shunning all impurity and dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\\n\\n<color=#FFD780FF>Ice Lotus</color>\\n·Continuously taunts surrounding opponents, attracting them to attack it.\\n·Endurance scales based on Ganyu's Max HP.\\n·Blooms profusely when destroyed or once its duration ends, dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\\n\\n<i>\"You saw me, you say? You must be mistaken. I was working overtime then.\"</i>",
+                    "icon": "Skill_S_Ganyu_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Inherited HP 120%",
+                            "1": "Skill DMG 132%",
+                            "2": "Duration 6s",
+                            "3": "CD 10s"
+                        },
+                        "2": {
+                            "0": "Inherited HP 129%",
+                            "1": "Skill DMG 141.9%",
+                            "2": "Duration 6s",
+                            "3": "CD 10s"
+                        },
+                        "3": {
+                            "0": "Inherited HP 138%",
+                            "1": "Skill DMG 151.8%",
+                            "2": "Duration 6s",
+                            "3": "CD 10s"
+                        },
+                        "4": {
+                            "0": "Inherited HP 150%",
+                            "1": "Skill DMG 165%",
+                            "2": "Duration 6s",
+                            "3": "CD 10s"
+                        },
+                        "5": {
+                            "0": "Inherited HP 159%",
+                            "1": "Skill DMG 174.9%",
+                            "2": "Duration 6s",
+                            "3": "CD 10s"
+                        },
+                        "6": {
+                            "0": "Inherited HP 168%",
+                            "1": "Skill DMG 184.8%",
+                            "2": "Duration 6s",
+                            "3": "CD 10s"
+                        },
+                        "7": {
+                            "0": "Inherited HP 180%",
+                            "1": "Skill DMG 198%",
+                            "2": "Duration 6s",
+                            "3": "CD 10s"
+                        },
+                        "8": {
+                            "0": "Inherited HP 192%",
+                            "1": "Skill DMG 211.2%",
+                            "2": "Duration 6s",
+                            "3": "CD 10s"
+                        },
+                        "9": {
+                            "0": "Inherited HP 204%",
+                            "1": "Skill DMG 224.4%",
+                            "2": "Duration 6s",
+                            "3": "CD 10s"
+                        },
+                        "10": {
+                            "0": "Inherited HP 216%",
+                            "1": "Skill DMG 237.6%",
+                            "2": "Duration 6s",
+                            "3": "CD 10s"
+                        },
+                        "11": {
+                            "0": "Inherited HP 228%",
+                            "1": "Skill DMG 250.8%",
+                            "2": "Duration 6s",
+                            "3": "CD 10s"
+                        },
+                        "12": {
+                            "0": "Inherited HP 240%",
+                            "1": "Skill DMG 264%",
+                            "2": "Duration 6s",
+                            "3": "CD 10s"
+                        },
+                        "13": {
+                            "0": "Inherited HP 255%",
+                            "1": "Skill DMG 280.5%",
+                            "2": "Duration 6s",
+                            "3": "CD 10s"
+                        },
+                        "14": {
+                            "0": "Inherited HP 270%",
+                            "1": "Skill DMG 297%",
+                            "2": "Duration 6s",
+                            "3": "CD 10s"
+                        },
+                        "15": {
+                            "0": "Inherited HP 285%",
+                            "1": "Skill DMG 313.5%",
+                            "2": "Duration 6s",
+                            "3": "CD 10s"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104313",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112038",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113015",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113015",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113015",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112040",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113015",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Celestial Shower",
+                    "description": "Coalesces atmospheric frost and snow to summon a Sacred Cryo Pearl that exorcises evil.\\nDuring its ability duration, the Sacred Cryo Pearl will continuously rain down shards of ice, striking opponents within an AoE and dealing <color=#99FFFFFF>Cryo DMG</color>.\\n\\n<i>Ganyu can bring down sweet rains as a matter of course. But against demons and heretics, they become bitter, freezing snow.</i>",
+                    "icon": "Skill_E_Ganyu_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Ice Shard DMG 70.3%",
+                            "1": "Duration 15s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "2": {
+                            "0": "Ice Shard DMG 75.5%",
+                            "1": "Duration 15s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "3": {
+                            "0": "Ice Shard DMG 80.8%",
+                            "1": "Duration 15s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "4": {
+                            "0": "Ice Shard DMG 87.8%",
+                            "1": "Duration 15s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "5": {
+                            "0": "Ice Shard DMG 93.1%",
+                            "1": "Duration 15s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "6": {
+                            "0": "Ice Shard DMG 98.4%",
+                            "1": "Duration 15s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "7": {
+                            "0": "Ice Shard DMG 105.4%",
+                            "1": "Duration 15s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "8": {
+                            "0": "Ice Shard DMG 112.4%",
+                            "1": "Duration 15s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "9": {
+                            "0": "Ice Shard DMG 119.5%",
+                            "1": "Duration 15s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "10": {
+                            "0": "Ice Shard DMG 126.5%",
+                            "1": "Duration 15s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "11": {
+                            "0": "Ice Shard DMG 133.5%",
+                            "1": "Duration 15s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "12": {
+                            "0": "Ice Shard DMG 140.5%",
+                            "1": "Duration 15s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "13": {
+                            "0": "Ice Shard DMG 149.3%",
+                            "1": "Duration 15s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "14": {
+                            "0": "Ice Shard DMG 158.1%",
+                            "1": "Duration 15s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "15": {
+                            "0": "Ice Shard DMG 166.9%",
+                            "1": "Duration 15s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104313",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112038",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113015",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113015",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113015",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112040",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113015",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Celestial Shower",
+                    "description": "Coalesces atmospheric frost and snow to summon a Sacred Cryo Pearl that exorcises evil.\\nDuring its ability duration, the Sacred Cryo Pearl will continuously rain down shards of ice, striking opponents within an AoE and dealing <color=#99FFFFFF>Cryo DMG</color>.\\n\\n<i>Ganyu can bring down sweet rains as a matter of course. But against demons and heretics, they become bitter, freezing snow.</i>",
+                    "icon": "Skill_E_Ganyu_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Ice Shard DMG 70.3%",
+                            "1": "Duration 15s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "2": {
+                            "0": "Ice Shard DMG 75.5%",
+                            "1": "Duration 15s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "3": {
+                            "0": "Ice Shard DMG 80.8%",
+                            "1": "Duration 15s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "4": {
+                            "0": "Ice Shard DMG 87.8%",
+                            "1": "Duration 15s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "5": {
+                            "0": "Ice Shard DMG 93.1%",
+                            "1": "Duration 15s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "6": {
+                            "0": "Ice Shard DMG 98.4%",
+                            "1": "Duration 15s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "7": {
+                            "0": "Ice Shard DMG 105.4%",
+                            "1": "Duration 15s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "8": {
+                            "0": "Ice Shard DMG 112.4%",
+                            "1": "Duration 15s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "9": {
+                            "0": "Ice Shard DMG 119.5%",
+                            "1": "Duration 15s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "10": {
+                            "0": "Ice Shard DMG 126.5%",
+                            "1": "Duration 15s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "11": {
+                            "0": "Ice Shard DMG 133.5%",
+                            "1": "Duration 15s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "12": {
+                            "0": "Ice Shard DMG 140.5%",
+                            "1": "Duration 15s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "13": {
+                            "0": "Ice Shard DMG 149.3%",
+                            "1": "Duration 15s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "14": {
+                            "0": "Ice Shard DMG 158.1%",
+                            "1": "Duration 15s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "15": {
+                            "0": "Ice Shard DMG 166.9%",
+                            "1": "Duration 15s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104313",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112038",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113015",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113015",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113015",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112040",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113015",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Undivided Heart",
+                    "description": "After firing a Frostflake Arrow, the CRIT Rate of subsequent Frostflake Arrows and their resulting bloom effects is increased by 20% for 5s.",
+                    "icon": "UI_Talent_S_Ganyu_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Harmony Between Heaven and Earth",
+                    "description": "<color=#FFD780FF>Celestial Shower</color> grants a 20% <color=#99FFFFFF>Cryo DMG Bonus</color> to active party members in the AoE.",
+                    "icon": "UI_Talent_S_Ganyu_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Preserved for the Hunt",
+                    "description": "Refunds 15% of the ore used when crafting Bow-type weapons.",
+                    "icon": "UI_Talent_Forge_Bow",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Dew-Drinker",
+                    "description": "Charge Level 2 Frostflake Arrows or Frostflake Arrow Blooms decrease opponents' <color=#99FFFFFF>Cryo RES</color> by 15% for 6s upon hit.\\nA hit also regenerates 2 Energy for Ganyu. This effect can only occur once per Charge Level 2 Frostflake Arrow, regardless if Frostflake Arrow itself or its Bloom hits the target.",
+                    "icon": "UI_Talent_S_Ganyu_01"
+                },
+                "1": {
+                    "name": "The Auspicious",
+                    "description": "<color=#FFD780FF>Trail of the Qilin</color> gains 1 additional charge.",
+                    "icon": "UI_Talent_S_Ganyu_02"
+                },
+                "2": {
+                    "name": "Cloud-Strider",
+                    "description": "Increases the Level of <color=#FFD780FF>Celestial Shower</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Ganyu_01"
+                },
+                "3": {
+                    "name": "Westward Sojourn",
+                    "description": "Opponents standing within the AoE of <color=#FFD780FF>Celestial Shower</color> take increased DMG. This effect strengthens over time.\\nIncreased DMG taken begins at 5% and increases by 5% every 3s, up to a maximum of 25%.\\nThe effect lingers for 3s after the opponent leaves the AoE.",
+                    "icon": "UI_Talent_S_Ganyu_03"
+                },
+                "4": {
+                    "name": "The Merciful",
+                    "description": "Increases the Level of <color=#FFD780FF>Trail of the Qilin</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Ganyu_02"
+                },
+                "5": {
+                    "name": "The Clement",
+                    "description": "Using <color=#FFD780FF>Trail of the Qilin</color> causes the next Frostflake Arrow shot within 30s to not require charging.",
+                    "icon": "UI_Talent_S_Ganyu_04"
+                }
+            },
+            "elevation": {
+                "sub": "CRIT DMG %",
+                "0": {
+                    "stats": {
+                        "HP": 763,
+                        "ATK": 26,
+                        "DEF": 49,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 1978,
+                        "ATK": 68,
+                        "DEF": 127,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100031",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104161",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112038",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 2632,
+                        "ATK": 90,
+                        "DEF": 169,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 3939,
+                        "ATK": 135,
+                        "DEF": 253,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100031",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104162",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112038",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113010",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 4403,
+                        "ATK": 151,
+                        "DEF": 283,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 5066,
+                        "ATK": 173,
+                        "DEF": 326,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100031",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104162",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112039",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113010",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 5686,
+                        "ATK": 194,
+                        "DEF": 366,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 6288,
+                        "ATK": 215,
+                        "DEF": 405,
+                        "sub": 19.2
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100031",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104163",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112039",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113010",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 6753,
+                        "ATK": 231,
+                        "DEF": 434,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 7563,
+                        "ATK": 259,
+                        "DEF": 487,
+                        "sub": 19.2
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100031",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104163",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112040",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113010",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 8028,
+                        "ATK": 274,
+                        "DEF": 516,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 8643,
+                        "ATK": 295,
+                        "DEF": 556,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100031",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104164",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112040",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113010",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 9108,
+                        "ATK": 311,
+                        "DEF": 586,
+                        "sub": 38.4
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 9797,
+                        "ATK": 335,
+                        "DEF": 630,
+                        "sub": 38.4
+                    },
+                    "res": {}
+                }
+            }
+        },
+        "ru": {
+            "name": "Ganyu",
+            "name_ru": "Гань Юй",
+            "id": 10000037,
+            "rarity": 5,
+            "weapon": "Bow",
+            "element": "Cryo",
+            "region": "Liyue",
+            "more": {
+                "title": "Взгляд полнолуния",
+                "detail": "Главный секретарь павильона Лунного моря. В её жилах течёт кровь мифического зверя цилиня.",
+                "constellation": "Священная Лань",
+                "group": "Павильон Лунного моря",
+                "birthday": "2.12",
+                "release": "12.01.2021",
+                "cv": {
+                    "en": "Jennifer Losi",
+                    "chs": "林簌",
+                    "jp": "上田麗奈",
+                    "kr": "Kim Seon-hye"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Небесная стрела",
+                    "description": "<color=#FFD780FF>Обычная атака:</color>\\nДо шести выстрелов из лука.\\n\\n<color=#FFD780FF>Заряженная атака:</color>\\nБолее меткий <color=#FFD780FF>прицельный выстрел</color> с увеличенным уроном.\\nВо время прицеливания наконечник стрелы заряжается ледяной аурой. Эффект зависит от длительности заряда стрелы:\\n· Уровень заряда 1: Выпускает ледяную стрелу, наносящую <color=#99FFFFFF>Крио урон</color>;\\n· Уровень заряда 2: Выпускает стрелу-снежинку, наносящую <color=#99FFFFFF>Крио урон</color>. При попадании стрела-снежинка расцветает и наносит <color=#99FFFFFF>Крио урон по площади</color>.\\n\\n<color=#FFD780FF>Атака в падении:</color>\\nВыпускает град стрел в воздухе, которые при приземлении персонажа наносят урон по площади.",
+                    "icon": "Skill_A_02",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон атаки 1 31.7%",
+                            "1": "Урон атаки 2 35.6%",
+                            "2": "Урон атаки 3 45.5%",
+                            "3": "Урон атаки 4 45.5%",
+                            "4": "Урон атаки 5 48.2%",
+                            "5": "Урон атаки 6 57.6%",
+                            "6": "Прицельный выстрел 43.9%",
+                            "7": "Ур. заряда 1 124%",
+                            "8": "Урон стрелы-снежинки 128%",
+                            "9": "Урон цветения стрелы 217.6%",
+                            "10": "Урон в падении 56.8%",
+                            "11": "Урон низкого/высокого удара 113.6%/141.9%"
+                        },
+                        "2": {
+                            "0": "Урон атаки 1 34.3%",
+                            "1": "Урон атаки 2 38.5%",
+                            "2": "Урон атаки 3 49.2%",
+                            "3": "Урон атаки 4 49.2%",
+                            "4": "Урон атаки 5 52.2%",
+                            "5": "Урон атаки 6 62.3%",
+                            "6": "Прицельный выстрел 47.4%",
+                            "7": "Ур. заряда 1 133.3%",
+                            "8": "Урон стрелы-снежинки 137.6%",
+                            "9": "Урон цветения стрелы 233.9%",
+                            "10": "Урон в падении 61.5%",
+                            "11": "Урон низкого/высокого удара 122.9%/153.5%"
+                        },
+                        "3": {
+                            "0": "Урон атаки 1 36.9%",
+                            "1": "Урон атаки 2 41.4%",
+                            "2": "Урон атаки 3 52.9%",
+                            "3": "Урон атаки 4 52.9%",
+                            "4": "Урон атаки 5 56.1%",
+                            "5": "Урон атаки 6 67%",
+                            "6": "Прицельный выстрел 51%",
+                            "7": "Ур. заряда 1 142.6%",
+                            "8": "Урон стрелы-снежинки 147.2%",
+                            "9": "Урон цветения стрелы 250.2%",
+                            "10": "Урон в падении 66.1%",
+                            "11": "Урон низкого/высокого удара 132.1%/165%"
+                        },
+                        "4": {
+                            "0": "Урон атаки 1 40.6%",
+                            "1": "Урон атаки 2 45.5%",
+                            "2": "Урон атаки 3 58.2%",
+                            "3": "Урон атаки 4 58.2%",
+                            "4": "Урон атаки 5 61.7%",
+                            "5": "Урон атаки 6 73.7%",
+                            "6": "Прицельный выстрел 56.1%",
+                            "7": "Ур. заряда 1 155%",
+                            "8": "Урон стрелы-снежинки 160%",
+                            "9": "Урон цветения стрелы 272%",
+                            "10": "Урон в падении 72.7%",
+                            "11": "Урон низкого/высокого удара 145.3%/181.5%"
+                        },
+                        "5": {
+                            "0": "Урон атаки 1 43.2%",
+                            "1": "Урон атаки 2 48.4%",
+                            "2": "Урон атаки 3 61.9%",
+                            "3": "Урон атаки 4 61.9%",
+                            "4": "Урон атаки 5 65.6%",
+                            "5": "Урон атаки 6 78.4%",
+                            "6": "Прицельный выстрел 59.7%",
+                            "7": "Ур. заряда 1 164.3%",
+                            "8": "Урон стрелы-снежинки 169.6%",
+                            "9": "Урон цветения стрелы 288.3%",
+                            "10": "Урон в падении 77.3%",
+                            "11": "Урон низкого/высокого удара 154.6%/193.1%"
+                        },
+                        "6": {
+                            "0": "Урон атаки 1 46.1%",
+                            "1": "Урон атаки 2 51.7%",
+                            "2": "Урон атаки 3 66.1%",
+                            "3": "Урон атаки 4 66.1%",
+                            "4": "Урон атаки 5 70.1%",
+                            "5": "Урон атаки 6 83.8%",
+                            "6": "Прицельный выстрел 63.7%",
+                            "7": "Ур. заряда 1 173.6%",
+                            "8": "Урон стрелы-снежинки 179.2%",
+                            "9": "Урон цветения стрелы 304.6%",
+                            "10": "Урон в падении 82.6%",
+                            "11": "Урон низкого/высокого удара 165.2%/206.3%"
+                        },
+                        "7": {
+                            "0": "Урон атаки 1 50.2%",
+                            "1": "Урон атаки 2 56.3%",
+                            "2": "Урон атаки 3 71.9%",
+                            "3": "Урон атаки 4 71.9%",
+                            "4": "Урон атаки 5 76.3%",
+                            "5": "Урон атаки 6 91.1%",
+                            "6": "Прицельный выстрел 69.4%",
+                            "7": "Ур. заряда 1 186%",
+                            "8": "Урон стрелы-снежинки 192%",
+                            "9": "Урон цветения стрелы 326.4%",
+                            "10": "Урон в падении 89.9%",
+                            "11": "Урон низкого/высокого удара 179.7%/224.5%"
+                        },
+                        "8": {
+                            "0": "Урон атаки 1 54.2%",
+                            "1": "Урон атаки 2 60.9%",
+                            "2": "Урон атаки 3 77.8%",
+                            "3": "Урон атаки 4 77.8%",
+                            "4": "Урон атаки 5 82.5%",
+                            "5": "Урон атаки 6 98.5%",
+                            "6": "Прицельный выстрел 75%",
+                            "7": "Ур. заряда 1 198.4%",
+                            "8": "Урон стрелы-снежинки 204.8%",
+                            "9": "Урон цветения стрелы 348.2%",
+                            "10": "Урон в падении 97.1%",
+                            "11": "Урон низкого/высокого удара 194.2%/242.6%"
+                        },
+                        "9": {
+                            "0": "Урон атаки 1 58.3%",
+                            "1": "Урон атаки 2 65.4%",
+                            "2": "Урон атаки 3 83.6%",
+                            "3": "Урон атаки 4 83.6%",
+                            "4": "Урон атаки 5 88.6%",
+                            "5": "Урон атаки 6 105.9%",
+                            "6": "Прицельный выстрел 80.6%",
+                            "7": "Ур. заряда 1 210.8%",
+                            "8": "Урон стрелы-снежинки 217.6%",
+                            "9": "Урон цветения стрелы 369.9%",
+                            "10": "Урон в падении 104.4%",
+                            "11": "Урон низкого/высокого удара 208.8%/260.8%"
+                        },
+                        "10": {
+                            "0": "Урон атаки 1 62.7%",
+                            "1": "Урон атаки 2 70.4%",
+                            "2": "Урон атаки 3 89.9%",
+                            "3": "Урон атаки 4 89.9%",
+                            "4": "Урон атаки 5 95.4%",
+                            "5": "Урон атаки 6 113.9%",
+                            "6": "Прицельный выстрел 86.7%",
+                            "7": "Ур. заряда 1 223.2%",
+                            "8": "Урон стрелы-снежинки 230.4%",
+                            "9": "Урон цветения стрелы 391.7%",
+                            "10": "Урон в падении 112.3%",
+                            "11": "Урон низкого/высокого удара 224.6%/280.6%"
+                        },
+                        "11": {
+                            "0": "Урон атаки 1 67.8%",
+                            "1": "Урон атаки 2 76.1%",
+                            "2": "Урон атаки 3 97.2%",
+                            "3": "Урон атаки 4 97.2%",
+                            "4": "Урон атаки 5 103.1%",
+                            "5": "Урон атаки 6 123.1%",
+                            "6": "Прицельный выстрел 92.8%",
+                            "7": "Ур. заряда 1 235.6%",
+                            "8": "Урон стрелы-снежинки 243.2%",
+                            "9": "Урон цветения стрелы 413.4%",
+                            "10": "Урон в падении 120.3%",
+                            "11": "Урон низкого/высокого удара 240.5%/300.4%"
+                        },
+                        "12": {
+                            "0": "Урон атаки 1 73.8%",
+                            "1": "Урон атаки 2 82.8%",
+                            "2": "Урон атаки 3 105.8%",
+                            "3": "Урон атаки 4 105.8%",
+                            "4": "Урон атаки 5 112.2%",
+                            "5": "Урон атаки 6 133.9%",
+                            "6": "Прицельный выстрел 98.9%",
+                            "7": "Ур. заряда 1 248%",
+                            "8": "Урон стрелы-снежинки 256%",
+                            "9": "Урон цветения стрелы 435.2%",
+                            "10": "Урон в падении 128.2%",
+                            "11": "Урон низкого/высокого удара 256.3%/320.2%"
+                        },
+                        "13": {
+                            "0": "Урон атаки 1 79.7%",
+                            "1": "Урон атаки 2 89.5%",
+                            "2": "Урон атаки 3 114.3%",
+                            "3": "Урон атаки 4 114.3%",
+                            "4": "Урон атаки 5 121.2%",
+                            "5": "Урон атаки 6 144.8%",
+                            "6": "Прицельный выстрел 105.1%",
+                            "7": "Ур. заряда 1 263.5%",
+                            "8": "Урон стрелы-снежинки 272%",
+                            "9": "Урон цветения стрелы 462.4%",
+                            "10": "Урон в падении 136.1%",
+                            "11": "Урон низкого/высокого удара 272.2%/340%"
+                        },
+                        "14": {
+                            "0": "Урон атаки 1 85.7%",
+                            "1": "Урон атаки 2 96.2%",
+                            "2": "Урон атаки 3 122.9%",
+                            "3": "Урон атаки 4 122.9%",
+                            "4": "Урон атаки 5 130.3%",
+                            "5": "Урон атаки 6 155.6%",
+                            "6": "Прицельный выстрел 111.2%",
+                            "7": "Ур. заряда 1 279%",
+                            "8": "Урон стрелы-снежинки 288%",
+                            "9": "Урон цветения стрелы 489.6%",
+                            "10": "Урон в падении 144.1%",
+                            "11": "Урон низкого/высокого удара 288%/359.8%"
+                        },
+                        "15": {
+                            "0": "Урон атаки 1 92.2%",
+                            "1": "Урон атаки 2 103.5%",
+                            "2": "Урон атаки 3 132.2%",
+                            "3": "Урон атаки 4 132.2%",
+                            "4": "Урон атаки 5 140.2%",
+                            "5": "Урон атаки 6 167.4%",
+                            "6": "Прицельный выстрел 117.3%",
+                            "7": "Ур. заряда 1 294.5%",
+                            "8": "Урон стрелы-снежинки 304%",
+                            "9": "Урон цветения стрелы 516.8%",
+                            "10": "Урон в падении 152%",
+                            "11": "Урон низкого/высокого удара 303.9%/379.6%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104313",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112038",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113015",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113015",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113015",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112040",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113015",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "След цилиня",
+                    "description": "#Гань Юй отпрыгивает назад, оставив перед собой Ледяной лотос, который наносит <color=#99FFFFFF>Крио урон по площади</color>.\\n\\n<color=#FFD780FF>Ледяной лотос:</color>\\n· Привлекает атаки врагов на себя;\\n· Макс. HP Ледяного лотоса зависит от макс. HP Гань Юй;\\n· Если Ледяной лотос уничтожен, либо его время заканчивается, он распускается, нанося <color=#99FFFFFF>Крио урон по площади</color>.\\n\\n<i>«Говоришь, видел{F#а} меня? Должно быть, ты {M#ошибся}{F#ошиблась}. В тот вечер я задержалась на работе».</i>",
+                    "icon": "Skill_S_Ganyu_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "HP лотоса 120%",
+                            "1": "Урон навыка 132%",
+                            "2": "Длительность 6 сек.",
+                            "3": "Время отката 10 сек."
+                        },
+                        "2": {
+                            "0": "HP лотоса 129%",
+                            "1": "Урон навыка 141.9%",
+                            "2": "Длительность 6 сек.",
+                            "3": "Время отката 10 сек."
+                        },
+                        "3": {
+                            "0": "HP лотоса 138%",
+                            "1": "Урон навыка 151.8%",
+                            "2": "Длительность 6 сек.",
+                            "3": "Время отката 10 сек."
+                        },
+                        "4": {
+                            "0": "HP лотоса 150%",
+                            "1": "Урон навыка 165%",
+                            "2": "Длительность 6 сек.",
+                            "3": "Время отката 10 сек."
+                        },
+                        "5": {
+                            "0": "HP лотоса 159%",
+                            "1": "Урон навыка 174.9%",
+                            "2": "Длительность 6 сек.",
+                            "3": "Время отката 10 сек."
+                        },
+                        "6": {
+                            "0": "HP лотоса 168%",
+                            "1": "Урон навыка 184.8%",
+                            "2": "Длительность 6 сек.",
+                            "3": "Время отката 10 сек."
+                        },
+                        "7": {
+                            "0": "HP лотоса 180%",
+                            "1": "Урон навыка 198%",
+                            "2": "Длительность 6 сек.",
+                            "3": "Время отката 10 сек."
+                        },
+                        "8": {
+                            "0": "HP лотоса 192%",
+                            "1": "Урон навыка 211.2%",
+                            "2": "Длительность 6 сек.",
+                            "3": "Время отката 10 сек."
+                        },
+                        "9": {
+                            "0": "HP лотоса 204%",
+                            "1": "Урон навыка 224.4%",
+                            "2": "Длительность 6 сек.",
+                            "3": "Время отката 10 сек."
+                        },
+                        "10": {
+                            "0": "HP лотоса 216%",
+                            "1": "Урон навыка 237.6%",
+                            "2": "Длительность 6 сек.",
+                            "3": "Время отката 10 сек."
+                        },
+                        "11": {
+                            "0": "HP лотоса 228%",
+                            "1": "Урон навыка 250.8%",
+                            "2": "Длительность 6 сек.",
+                            "3": "Время отката 10 сек."
+                        },
+                        "12": {
+                            "0": "HP лотоса 240%",
+                            "1": "Урон навыка 264%",
+                            "2": "Длительность 6 сек.",
+                            "3": "Время отката 10 сек."
+                        },
+                        "13": {
+                            "0": "HP лотоса 255%",
+                            "1": "Урон навыка 280.5%",
+                            "2": "Длительность 6 сек.",
+                            "3": "Время отката 10 сек."
+                        },
+                        "14": {
+                            "0": "HP лотоса 270%",
+                            "1": "Урон навыка 297%",
+                            "2": "Длительность 6 сек.",
+                            "3": "Время отката 10 сек."
+                        },
+                        "15": {
+                            "0": "HP лотоса 285%",
+                            "1": "Урон навыка 313.5%",
+                            "2": "Длительность 6 сек.",
+                            "3": "Время отката 10 сек."
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104313",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112038",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113015",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113015",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113015",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112040",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113015",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Небесный дождь",
+                    "description": "Собирает из воздуха иней для того, чтобы призвать Священную Крио жемчужину, изгоняющую зло.\\nПока навык активен, Священная Крио жемчужина непрерывно обрушивает на врагов в области осколки льда, нанося <color=#99FFFFFF>Крио урон</color>.\\n\\n<i>Гань Юй может создать для вас сладкий дождь, но для демонов и еретиков он превращается в горький морозящий снег.</i>",
+                    "icon": "Skill_E_Ganyu_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон ледяных осколков 70.3%",
+                            "1": "Длительность 15 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "2": {
+                            "0": "Урон ледяных осколков 75.5%",
+                            "1": "Длительность 15 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "3": {
+                            "0": "Урон ледяных осколков 80.8%",
+                            "1": "Длительность 15 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "4": {
+                            "0": "Урон ледяных осколков 87.8%",
+                            "1": "Длительность 15 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "5": {
+                            "0": "Урон ледяных осколков 93.1%",
+                            "1": "Длительность 15 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "6": {
+                            "0": "Урон ледяных осколков 98.4%",
+                            "1": "Длительность 15 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "7": {
+                            "0": "Урон ледяных осколков 105.4%",
+                            "1": "Длительность 15 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "8": {
+                            "0": "Урон ледяных осколков 112.4%",
+                            "1": "Длительность 15 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "9": {
+                            "0": "Урон ледяных осколков 119.5%",
+                            "1": "Длительность 15 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "10": {
+                            "0": "Урон ледяных осколков 126.5%",
+                            "1": "Длительность 15 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "11": {
+                            "0": "Урон ледяных осколков 133.5%",
+                            "1": "Длительность 15 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "12": {
+                            "0": "Урон ледяных осколков 140.5%",
+                            "1": "Длительность 15 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "13": {
+                            "0": "Урон ледяных осколков 149.3%",
+                            "1": "Длительность 15 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "14": {
+                            "0": "Урон ледяных осколков 158.1%",
+                            "1": "Длительность 15 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "15": {
+                            "0": "Урон ледяных осколков 166.9%",
+                            "1": "Длительность 15 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104313",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112038",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113015",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113015",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113015",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112040",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113015",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Небесный дождь",
+                    "description": "Собирает из воздуха иней для того, чтобы призвать Священную Крио жемчужину, изгоняющую зло.\\nПока навык активен, Священная Крио жемчужина непрерывно обрушивает на врагов в области осколки льда, нанося <color=#99FFFFFF>Крио урон</color>.\\n\\n<i>Гань Юй может создать для вас сладкий дождь, но для демонов и еретиков он превращается в горький морозящий снег.</i>",
+                    "icon": "Skill_E_Ganyu_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон ледяных осколков 70.3%",
+                            "1": "Длительность 15 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "2": {
+                            "0": "Урон ледяных осколков 75.5%",
+                            "1": "Длительность 15 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "3": {
+                            "0": "Урон ледяных осколков 80.8%",
+                            "1": "Длительность 15 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "4": {
+                            "0": "Урон ледяных осколков 87.8%",
+                            "1": "Длительность 15 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "5": {
+                            "0": "Урон ледяных осколков 93.1%",
+                            "1": "Длительность 15 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "6": {
+                            "0": "Урон ледяных осколков 98.4%",
+                            "1": "Длительность 15 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "7": {
+                            "0": "Урон ледяных осколков 105.4%",
+                            "1": "Длительность 15 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "8": {
+                            "0": "Урон ледяных осколков 112.4%",
+                            "1": "Длительность 15 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "9": {
+                            "0": "Урон ледяных осколков 119.5%",
+                            "1": "Длительность 15 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "10": {
+                            "0": "Урон ледяных осколков 126.5%",
+                            "1": "Длительность 15 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "11": {
+                            "0": "Урон ледяных осколков 133.5%",
+                            "1": "Длительность 15 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "12": {
+                            "0": "Урон ледяных осколков 140.5%",
+                            "1": "Длительность 15 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "13": {
+                            "0": "Урон ледяных осколков 149.3%",
+                            "1": "Длительность 15 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "14": {
+                            "0": "Урон ледяных осколков 158.1%",
+                            "1": "Длительность 15 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "15": {
+                            "0": "Урон ледяных осколков 166.9%",
+                            "1": "Длительность 15 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104313",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112038",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104314",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113015",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113015",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113015",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104315",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112040",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113015",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Неразделённое сердце",
+                    "description": "В течение 5 сек. после выстрела стрелы-снежинки увеличивает шанс крит. попадания стрел-снежинок и вызванного ими цветения на 20%.",
+                    "icon": "UI_Talent_S_Ganyu_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Гармония Земли и Небес",
+                    "description": "Активные члены отряда, находящиеся в области навыка <color=#FFD780FF>Небесный дождь</color>, получают 20% <color=#99FFFFFF>бонус Крио урона</color>.",
+                    "icon": "UI_Talent_S_Ganyu_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Отложено на охоту",
+                    "description": "При ковке стрелкового оружия возвращает 15% затраченной руды.",
+                    "icon": "UI_Talent_Forge_Bow",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Жажда росы",
+                    "description": "Попадание стрелой-снежинкой с уровнем заряда 2 или её цветением понижает <color=#99FFFFFF>Крио сопротивление</color> противников на 15% в течение 6 сек.;\\nТакже попадание восстанавливает 2 ед. энергии Гань Юй. Каждое попадание заряженной атакой с уровнем заряда 2 может восстановить энергию только один раз, вне зависимости от того, было ли это попадание стрелой-снежинкой или её цветением.",
+                    "icon": "UI_Talent_S_Ganyu_01"
+                },
+                "1": {
+                    "name": "Благополучие",
+                    "description": "Увеличивает количество зарядов навыка <color=#FFD780FF>След цилиня</color> на 1.",
+                    "icon": "UI_Talent_S_Ganyu_02"
+                },
+                "2": {
+                    "name": "Облачные странствия",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Небесный дождь</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Ganyu_01"
+                },
+                "3": {
+                    "name": "Поход на Запад",
+                    "description": "Увеличивает урон, получаемый врагами, находящимися в области навыка <color=#FFD780FF>Небесный дождь</color>. Этот эффект усиливается со временем.\\nУвеличение урона начинается с 5% и увеличивается на 5% каждые 3 сек., до макс. 25%.\\nЭффект продолжается ещё 3 сек. после того, как враг покидает зону действия навыка.",
+                    "icon": "UI_Talent_S_Ganyu_03"
+                },
+                "4": {
+                    "name": "Милосердие",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>След цилиня</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Ganyu_02"
+                },
+                "5": {
+                    "name": "Сострадание",
+                    "description": "Следующая стрела-снежинка в течение 30 сек. после активации навыка <color=#FFD780FF>След цилиня</color> не нуждается в зарядке.",
+                    "icon": "UI_Talent_S_Ganyu_04"
+                }
+            },
+            "elevation": {
+                "sub": "Крит. урон %",
+                "0": {
+                    "stats": {
+                        "HP": 763,
+                        "ATK": 26,
+                        "DEF": 49,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 1978,
+                        "ATK": 68,
+                        "DEF": 127,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100031",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104161",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112038",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 2632,
+                        "ATK": 90,
+                        "DEF": 169,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 3939,
+                        "ATK": 135,
+                        "DEF": 253,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100031",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104162",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112038",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113010",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 4403,
+                        "ATK": 151,
+                        "DEF": 283,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 5066,
+                        "ATK": 173,
+                        "DEF": 326,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100031",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104162",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112039",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113010",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 5686,
+                        "ATK": 194,
+                        "DEF": 366,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 6288,
+                        "ATK": 215,
+                        "DEF": 405,
+                        "sub": 19.2
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100031",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104163",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112039",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113010",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 6753,
+                        "ATK": 231,
+                        "DEF": 434,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 7563,
+                        "ATK": 259,
+                        "DEF": 487,
+                        "sub": 19.2
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100031",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104163",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112040",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113010",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 8028,
+                        "ATK": 274,
+                        "DEF": 516,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 8643,
+                        "ATK": 295,
+                        "DEF": 556,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100031",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104164",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112040",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113010",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 9108,
+                        "ATK": 311,
+                        "DEF": 586,
+                        "sub": 38.4
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 9797,
+                        "ATK": 335,
+                        "DEF": 630,
+                        "sub": 38.4
+                    },
+                    "res": {}
+                }
+            }
+        }
+    }
+}

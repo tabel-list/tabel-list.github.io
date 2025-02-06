@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AWARiN</title>
+    <link rel="icon" href="favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
+    <script defer src="data/titlebar.js"></script>
     <script defer src="script.js"></script>
 </head>
 <body>
+    <div class="overlay" id="overlay"></div>
     <div class="titlebar">
         <div class="logo"><b>AWARiN</b></div>
         <button class="menu-button" onclick="toggleMenu()">menu</button>
@@ -15,9 +18,30 @@
     <div class="menu" id="menu">
         <div class="menu-items">Меню</div>
         <div class="menu-cont">
-            <a style="text-decoration: none;" href="characters/"><div class="menu-item">Персонажи</div></a>
-            <a style="text-decoration: none;" href=""><div class="menu-item">Персонажи</div></a>
-            <a style="text-decoration: none;" href=""><div class="menu-item">Персонажи</div></a>
+            <a style="text-decoration: none;" href="characters">
+                <div class="menu-item">
+                    <img class="menu-icons" src="data/characters.png" alt="">
+                    <span>Персонажи</span>
+                </div>
+            </a>
+            <a style="text-decoration: none;" href="">
+                <div class="menu-item">
+                    <img class="menu-icons" src="data/weapons.png" alt="">
+                    <span>Оружия</span>
+                </div>
+            </a>
+            <a style="text-decoration: none;" href="">
+                <div class="menu-item">
+                    <img class="menu-icons" src="data/artifacts.png" alt="">
+                    <span>Артефакты</span>
+                </div>
+            </a>
+            <a style="text-decoration: none;" href="">
+                <div class="menu-item">
+                    <img class="menu-icons" src="data/events.png" alt="">
+                    <span>Ивенты</span>
+                </div>
+            </a>
         </div>
     </div>
     <div class="container">

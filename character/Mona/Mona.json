@@ -1,0 +1,2938 @@
+{
+    "Mona": {
+        "en": {
+            "name": "Mona",
+            "name_ru": "Мона",
+            "id": 10000041,
+            "rarity": 5,
+            "weapon": "Catalyst",
+            "element": "Hydro",
+            "region": "Mondstadt",
+            "more": {
+                "title": "Astral Reflection",
+                "detail": "A mysterious young astrologer who proclaims herself to be \"Astrologist Mona Megistus,\" and who possesses abilities to match the title. Erudite, but prideful.",
+                "constellation": "Astrolabos",
+                "group": "Mondstadt",
+                "birthday": "31.8",
+                "release": "27.09.2020",
+                "cv": {
+                    "en": "Felecia Angelle",
+                    "chs": "陈婷婷",
+                    "jp": "小原好美",
+                    "kr": "Woo Jeong-shin"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Normal Attack: Ripple of Fate",
+                    "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 water splash attacks that deal <color=#80C0FFFF>Hydro DMG</color>.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to deal <color=#80C0FFFF>AoE Hydro DMG</color> after a short casting time.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nGathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#80C0FFFF>AoE Hydro DMG</color> upon impact with the ground.",
+                    "icon": "Skill_A_Catalyst_MD",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "1-Hit DMG 37.6%",
+                            "1": "2-Hit DMG 36%",
+                            "2": "3-Hit DMG 44.8%",
+                            "3": "4-Hit DMG 56.2%",
+                            "4": "Charged Attack DMG 149.7%",
+                            "5": "Charged Attack Stamina Cost 50",
+                            "6": "Plunge DMG 56.8%",
+                            "7": "Low/High Plunge DMG 113.6%/141.9%"
+                        },
+                        "2": {
+                            "0": "1-Hit DMG 40.4%",
+                            "1": "2-Hit DMG 38.7%",
+                            "2": "3-Hit DMG 48.2%",
+                            "3": "4-Hit DMG 60.4%",
+                            "4": "Charged Attack DMG 160.9%",
+                            "5": "Charged Attack Stamina Cost 50",
+                            "6": "Plunge DMG 61.5%",
+                            "7": "Low/High Plunge DMG 122.9%/153.5%"
+                        },
+                        "3": {
+                            "0": "1-Hit DMG 43.2%",
+                            "1": "2-Hit DMG 41.4%",
+                            "2": "3-Hit DMG 51.5%",
+                            "3": "4-Hit DMG 64.6%",
+                            "4": "Charged Attack DMG 172.2%",
+                            "5": "Charged Attack Stamina Cost 50",
+                            "6": "Plunge DMG 66.1%",
+                            "7": "Low/High Plunge DMG 132.1%/165%"
+                        },
+                        "4": {
+                            "0": "1-Hit DMG 47%",
+                            "1": "2-Hit DMG 45%",
+                            "2": "3-Hit DMG 56%",
+                            "3": "4-Hit DMG 70.2%",
+                            "4": "Charged Attack DMG 187.2%",
+                            "5": "Charged Attack Stamina Cost 50",
+                            "6": "Plunge DMG 72.7%",
+                            "7": "Low/High Plunge DMG 145.3%/181.5%"
+                        },
+                        "5": {
+                            "0": "1-Hit DMG 49.8%",
+                            "1": "2-Hit DMG 47.7%",
+                            "2": "3-Hit DMG 59.4%",
+                            "3": "4-Hit DMG 74.4%",
+                            "4": "Charged Attack DMG 198.4%",
+                            "5": "Charged Attack Stamina Cost 50",
+                            "6": "Plunge DMG 77.3%",
+                            "7": "Low/High Plunge DMG 154.6%/193.1%"
+                        },
+                        "6": {
+                            "0": "1-Hit DMG 52.6%",
+                            "1": "2-Hit DMG 50.4%",
+                            "2": "3-Hit DMG 62.7%",
+                            "3": "4-Hit DMG 78.6%",
+                            "4": "Charged Attack DMG 209.6%",
+                            "5": "Charged Attack Stamina Cost 50",
+                            "6": "Plunge DMG 82.6%",
+                            "7": "Low/High Plunge DMG 165.2%/206.3%"
+                        },
+                        "7": {
+                            "0": "1-Hit DMG 56.4%",
+                            "1": "2-Hit DMG 54%",
+                            "2": "3-Hit DMG 67.2%",
+                            "3": "4-Hit DMG 84.2%",
+                            "4": "Charged Attack DMG 224.6%",
+                            "5": "Charged Attack Stamina Cost 50",
+                            "6": "Plunge DMG 89.9%",
+                            "7": "Low/High Plunge DMG 179.7%/224.5%"
+                        },
+                        "8": {
+                            "0": "1-Hit DMG 60.2%",
+                            "1": "2-Hit DMG 57.6%",
+                            "2": "3-Hit DMG 71.7%",
+                            "3": "4-Hit DMG 89.9%",
+                            "4": "Charged Attack DMG 239.6%",
+                            "5": "Charged Attack Stamina Cost 50",
+                            "6": "Plunge DMG 97.1%",
+                            "7": "Low/High Plunge DMG 194.2%/242.6%"
+                        },
+                        "9": {
+                            "0": "1-Hit DMG 63.9%",
+                            "1": "2-Hit DMG 61.2%",
+                            "2": "3-Hit DMG 76.2%",
+                            "3": "4-Hit DMG 95.5%",
+                            "4": "Charged Attack DMG 254.5%",
+                            "5": "Charged Attack Stamina Cost 50",
+                            "6": "Plunge DMG 104.4%",
+                            "7": "Low/High Plunge DMG 208.8%/260.8%"
+                        },
+                        "10": {
+                            "0": "1-Hit DMG 67.7%",
+                            "1": "2-Hit DMG 64.8%",
+                            "2": "3-Hit DMG 80.6%",
+                            "3": "4-Hit DMG 101.1%",
+                            "4": "Charged Attack DMG 269.5%",
+                            "5": "Charged Attack Stamina Cost 50",
+                            "6": "Plunge DMG 112.3%",
+                            "7": "Low/High Plunge DMG 224.6%/280.6%"
+                        },
+                        "11": {
+                            "0": "1-Hit DMG 71.4%",
+                            "1": "2-Hit DMG 68.4%",
+                            "2": "3-Hit DMG 85.1%",
+                            "3": "4-Hit DMG 106.7%",
+                            "4": "Charged Attack DMG 285.1%",
+                            "5": "Charged Attack Stamina Cost 50",
+                            "6": "Plunge DMG 120.3%",
+                            "7": "Low/High Plunge DMG 240.5%/300.4%"
+                        },
+                        "12": {
+                            "0": "1-Hit DMG 75.2%",
+                            "1": "2-Hit DMG 72%",
+                            "2": "3-Hit DMG 89.6%",
+                            "3": "4-Hit DMG 112.3%",
+                            "4": "Charged Attack DMG 305.4%",
+                            "5": "Charged Attack Stamina Cost 50",
+                            "6": "Plunge DMG 128.2%",
+                            "7": "Low/High Plunge DMG 256.3%/320.2%"
+                        },
+                        "13": {
+                            "0": "1-Hit DMG 79.9%",
+                            "1": "2-Hit DMG 76.5%",
+                            "2": "3-Hit DMG 95.2%",
+                            "3": "4-Hit DMG 119.3%",
+                            "4": "Charged Attack DMG 325.8%",
+                            "5": "Charged Attack Stamina Cost 50",
+                            "6": "Plunge DMG 136.1%",
+                            "7": "Low/High Plunge DMG 272.2%/340%"
+                        },
+                        "14": {
+                            "0": "1-Hit DMG 84.6%",
+                            "1": "2-Hit DMG 81%",
+                            "2": "3-Hit DMG 100.8%",
+                            "3": "4-Hit DMG 126.4%",
+                            "4": "Charged Attack DMG 346.2%",
+                            "5": "Charged Attack Stamina Cost 50",
+                            "6": "Plunge DMG 144.1%",
+                            "7": "Low/High Plunge DMG 288%/359.8%"
+                        },
+                        "15": {
+                            "0": "1-Hit DMG 89.3%",
+                            "1": "2-Hit DMG 85.5%",
+                            "2": "3-Hit DMG 106.4%",
+                            "3": "4-Hit DMG 133.4%",
+                            "4": "Charged Attack DMG 366.5%",
+                            "5": "Charged Attack Stamina Cost 50",
+                            "6": "Plunge DMG 152%",
+                            "7": "Low/High Plunge DMG 303.9%/379.6%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104304",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112038",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113007",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113007",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113007",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112040",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113007",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Mirror Reflection of Doom",
+                    "description": "Creates an illusory Phantom of Fate from coalesced waterspouts.\\n\\n<color=#FFD780FF>Phantom</color>\\nHas the following special properties:\\n·Continuously taunts nearby opponents, attracting their fire.\\n·Continuously deals <color=#80C0FFFF>Hydro DMG</color> to nearby opponents.\\n·When its duration expires, the Phantom explodes, dealing <color=#80C0FFFF>AoE Hydro DMG</color>.\\n\\n<color=#FFD780FF>Hold</color>\\nUtilizes water currents to move backwards swiftly before conjuring a Phantom.\\n\\nOnly one Phantom created by Mirror Reflection of Doom can exist at any time.\\n\\n<i>Skilled astrologers have always dreamed of using a phantom facsimile of themselves to ward off imminent ill fate, but Mona must be the first to make such a mockery of it in all of Teyvat.</i>",
+                    "icon": "Skill_S_Mona_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "DoT 32%",
+                            "1": "Explosion DMG 132.8%",
+                            "2": "CD 12s"
+                        },
+                        "2": {
+                            "0": "DoT 34.4%",
+                            "1": "Explosion DMG 142.8%",
+                            "2": "CD 12s"
+                        },
+                        "3": {
+                            "0": "DoT 36.8%",
+                            "1": "Explosion DMG 152.7%",
+                            "2": "CD 12s"
+                        },
+                        "4": {
+                            "0": "DoT 40%",
+                            "1": "Explosion DMG 166%",
+                            "2": "CD 12s"
+                        },
+                        "5": {
+                            "0": "DoT 42.4%",
+                            "1": "Explosion DMG 176%",
+                            "2": "CD 12s"
+                        },
+                        "6": {
+                            "0": "DoT 44.8%",
+                            "1": "Explosion DMG 185.9%",
+                            "2": "CD 12s"
+                        },
+                        "7": {
+                            "0": "DoT 48%",
+                            "1": "Explosion DMG 199.2%",
+                            "2": "CD 12s"
+                        },
+                        "8": {
+                            "0": "DoT 51.2%",
+                            "1": "Explosion DMG 212.5%",
+                            "2": "CD 12s"
+                        },
+                        "9": {
+                            "0": "DoT 54.4%",
+                            "1": "Explosion DMG 225.8%",
+                            "2": "CD 12s"
+                        },
+                        "10": {
+                            "0": "DoT 57.6%",
+                            "1": "Explosion DMG 239%",
+                            "2": "CD 12s"
+                        },
+                        "11": {
+                            "0": "DoT 60.8%",
+                            "1": "Explosion DMG 252.3%",
+                            "2": "CD 12s"
+                        },
+                        "12": {
+                            "0": "DoT 64%",
+                            "1": "Explosion DMG 265.6%",
+                            "2": "CD 12s"
+                        },
+                        "13": {
+                            "0": "DoT 68%",
+                            "1": "Explosion DMG 282.2%",
+                            "2": "CD 12s"
+                        },
+                        "14": {
+                            "0": "DoT 72%",
+                            "1": "Explosion DMG 298.8%",
+                            "2": "CD 12s"
+                        },
+                        "15": {
+                            "0": "DoT 76%",
+                            "1": "Explosion DMG 315.4%",
+                            "2": "CD 12s"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104304",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112038",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113007",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113007",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113007",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112040",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113007",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Illusory Torrent",
+                    "description": "<color=#FFD780FF>Alternate Sprint</color>\\nMona cloaks herself within the water's flow, consuming Stamina to move rapidly.\\n\\nWhen under the effect of Illusory Torrent, Mona can move at high speed on water.\\nApplies the <color=#80C0FFFF>Wet</color> status to nearby opponents when she reappears.\\n\\n<i>This is something that Mona can do, but her teacher cannot. Well, but it's not as if her teacher would pursue any matter concerning Hydro Visions anyway...</i>",
+                    "icon": "Skill_S_Mona_02",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Activation Stamina Consumption {param1:F2}",
+                            "1": "Stamina Drain {param2:F2}/s"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Stellaris Phantasm",
+                    "description": "Mona summons the sparkling waves and creates a reflection of the starry sky, applying the Illusory Bubble status to opponents in a large AoE.\\n\\n<color=#FFD780FF>Illusory Bubble</color>\\nTraps opponents inside a pocket of destiny and also makes them <color=#80C0FFFF>Wet</color>. Renders weaker opponents immobile.\\nWhen an opponent affected by Illusory Bubble sustains DMG, it has the following effects:\\n·Applies an Omen to the opponent, which gives a DMG Bonus, also increasing the DMG of the attack that causes it.\\n·Removes the Illusory Bubble, dealing <color=#80C0FFFF>Hydro</color> DMG in the process.\\n\\n<color=#FFD780FF>Omen</color>\\nDuring its duration, increases DMG taken by opponents.\\n\\n<i>It was from the time that gods first traced the lights in the heavens with their eyes that the notion of \"fate\" was born.</i>",
+                    "icon": "Skill_E_Mona_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Illusory Bubble Duration 8s",
+                            "1": "Illusory Bubble Explosion DMG 442.4%",
+                            "2": "DMG Bonus 42%",
+                            "3": "Omen Duration 4s",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "2": {
+                            "0": "Illusory Bubble Duration 8s",
+                            "1": "Illusory Bubble Explosion DMG 475.6%",
+                            "2": "DMG Bonus 44%",
+                            "3": "Omen Duration 4s",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "3": {
+                            "0": "Illusory Bubble Duration 8s",
+                            "1": "Illusory Bubble Explosion DMG 508.8%",
+                            "2": "DMG Bonus 46%",
+                            "3": "Omen Duration 4s",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "4": {
+                            "0": "Illusory Bubble Duration 8s",
+                            "1": "Illusory Bubble Explosion DMG 553%",
+                            "2": "DMG Bonus 48%",
+                            "3": "Omen Duration 4.5s",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "5": {
+                            "0": "Illusory Bubble Duration 8s",
+                            "1": "Illusory Bubble Explosion DMG 586.2%",
+                            "2": "DMG Bonus 50%",
+                            "3": "Omen Duration 4.5s",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "6": {
+                            "0": "Illusory Bubble Duration 8s",
+                            "1": "Illusory Bubble Explosion DMG 619.4%",
+                            "2": "DMG Bonus 52%",
+                            "3": "Omen Duration 4.5s",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "7": {
+                            "0": "Illusory Bubble Duration 8s",
+                            "1": "Illusory Bubble Explosion DMG 663.6%",
+                            "2": "DMG Bonus 54%",
+                            "3": "Omen Duration 5s",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "8": {
+                            "0": "Illusory Bubble Duration 8s",
+                            "1": "Illusory Bubble Explosion DMG 707.8%",
+                            "2": "DMG Bonus 56%",
+                            "3": "Omen Duration 5s",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "9": {
+                            "0": "Illusory Bubble Duration 8s",
+                            "1": "Illusory Bubble Explosion DMG 752.1%",
+                            "2": "DMG Bonus 58%",
+                            "3": "Omen Duration 5s",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "10": {
+                            "0": "Illusory Bubble Duration 8s",
+                            "1": "Illusory Bubble Explosion DMG 796.3%",
+                            "2": "DMG Bonus 60%",
+                            "3": "Omen Duration 5s",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "11": {
+                            "0": "Illusory Bubble Duration 8s",
+                            "1": "Illusory Bubble Explosion DMG 840.6%",
+                            "2": "DMG Bonus 60%",
+                            "3": "Omen Duration 5s",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "12": {
+                            "0": "Illusory Bubble Duration 8s",
+                            "1": "Illusory Bubble Explosion DMG 884.8%",
+                            "2": "DMG Bonus 60%",
+                            "3": "Omen Duration 5s",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "13": {
+                            "0": "Illusory Bubble Duration 8s",
+                            "1": "Illusory Bubble Explosion DMG 940.1%",
+                            "2": "DMG Bonus 60%",
+                            "3": "Omen Duration 5s",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "14": {
+                            "0": "Illusory Bubble Duration 8s",
+                            "1": "Illusory Bubble Explosion DMG 995.4%",
+                            "2": "DMG Bonus 60%",
+                            "3": "Omen Duration 5s",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "15": {
+                            "0": "Illusory Bubble Duration 8s",
+                            "1": "Illusory Bubble Explosion DMG 1050.7%",
+                            "2": "DMG Bonus 60%",
+                            "3": "Omen Duration 5s",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104304",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112038",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113007",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113007",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113007",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112040",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113007",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Stellaris Phantasm",
+                    "description": "Mona summons the sparkling waves and creates a reflection of the starry sky, applying the Illusory Bubble status to opponents in a large AoE.\\n\\n<color=#FFD780FF>Illusory Bubble</color>\\nTraps opponents inside a pocket of destiny and also makes them <color=#80C0FFFF>Wet</color>. Renders weaker opponents immobile.\\nWhen an opponent affected by Illusory Bubble sustains DMG, it has the following effects:\\n·Applies an Omen to the opponent, which gives a DMG Bonus, also increasing the DMG of the attack that causes it.\\n·Removes the Illusory Bubble, dealing <color=#80C0FFFF>Hydro</color> DMG in the process.\\n\\n<color=#FFD780FF>Omen</color>\\nDuring its duration, increases DMG taken by opponents.\\n\\n<i>It was from the time that gods first traced the lights in the heavens with their eyes that the notion of \"fate\" was born.</i>",
+                    "icon": "Skill_E_Mona_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Illusory Bubble Duration 8s",
+                            "1": "Illusory Bubble Explosion DMG 442.4%",
+                            "2": "DMG Bonus 42%",
+                            "3": "Omen Duration 4s",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "2": {
+                            "0": "Illusory Bubble Duration 8s",
+                            "1": "Illusory Bubble Explosion DMG 475.6%",
+                            "2": "DMG Bonus 44%",
+                            "3": "Omen Duration 4s",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "3": {
+                            "0": "Illusory Bubble Duration 8s",
+                            "1": "Illusory Bubble Explosion DMG 508.8%",
+                            "2": "DMG Bonus 46%",
+                            "3": "Omen Duration 4s",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "4": {
+                            "0": "Illusory Bubble Duration 8s",
+                            "1": "Illusory Bubble Explosion DMG 553%",
+                            "2": "DMG Bonus 48%",
+                            "3": "Omen Duration 4.5s",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "5": {
+                            "0": "Illusory Bubble Duration 8s",
+                            "1": "Illusory Bubble Explosion DMG 586.2%",
+                            "2": "DMG Bonus 50%",
+                            "3": "Omen Duration 4.5s",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "6": {
+                            "0": "Illusory Bubble Duration 8s",
+                            "1": "Illusory Bubble Explosion DMG 619.4%",
+                            "2": "DMG Bonus 52%",
+                            "3": "Omen Duration 4.5s",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "7": {
+                            "0": "Illusory Bubble Duration 8s",
+                            "1": "Illusory Bubble Explosion DMG 663.6%",
+                            "2": "DMG Bonus 54%",
+                            "3": "Omen Duration 5s",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "8": {
+                            "0": "Illusory Bubble Duration 8s",
+                            "1": "Illusory Bubble Explosion DMG 707.8%",
+                            "2": "DMG Bonus 56%",
+                            "3": "Omen Duration 5s",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "9": {
+                            "0": "Illusory Bubble Duration 8s",
+                            "1": "Illusory Bubble Explosion DMG 752.1%",
+                            "2": "DMG Bonus 58%",
+                            "3": "Omen Duration 5s",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "10": {
+                            "0": "Illusory Bubble Duration 8s",
+                            "1": "Illusory Bubble Explosion DMG 796.3%",
+                            "2": "DMG Bonus 60%",
+                            "3": "Omen Duration 5s",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "11": {
+                            "0": "Illusory Bubble Duration 8s",
+                            "1": "Illusory Bubble Explosion DMG 840.6%",
+                            "2": "DMG Bonus 60%",
+                            "3": "Omen Duration 5s",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "12": {
+                            "0": "Illusory Bubble Duration 8s",
+                            "1": "Illusory Bubble Explosion DMG 884.8%",
+                            "2": "DMG Bonus 60%",
+                            "3": "Omen Duration 5s",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "13": {
+                            "0": "Illusory Bubble Duration 8s",
+                            "1": "Illusory Bubble Explosion DMG 940.1%",
+                            "2": "DMG Bonus 60%",
+                            "3": "Omen Duration 5s",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "14": {
+                            "0": "Illusory Bubble Duration 8s",
+                            "1": "Illusory Bubble Explosion DMG 995.4%",
+                            "2": "DMG Bonus 60%",
+                            "3": "Omen Duration 5s",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "15": {
+                            "0": "Illusory Bubble Duration 8s",
+                            "1": "Illusory Bubble Explosion DMG 1050.7%",
+                            "2": "DMG Bonus 60%",
+                            "3": "Omen Duration 5s",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104304",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112038",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113007",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113007",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113007",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112040",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113007",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "5": {
+                    "name": "\"Come 'n' Get Me, Hag!\"",
+                    "description": "After she has used <color=#FFD780FF>Illusory Torrent</color> for 2s, if there are any opponents nearby, Mona will automatically create a Phantom.\\nA Phantom created in this manner lasts for 2s, and its explosion DMG is equal to 50% of <color=#FFD780FF>Mirror Reflection of Doom</color>.",
+                    "icon": "UI_Talent_S_Mona_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Waterborne Destiny",
+                    "description": "Increases Mona's <color=#80C0FFFF>Hydro DMG Bonus</color> by a degree equivalent to 20% of her Energy Recharge rate.",
+                    "icon": "UI_Talent_S_Mona_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "7": {
+                    "name": "Principium of Astrology",
+                    "description": "When Mona crafts Weapon Ascension Materials, she has a 25% chance to refund a portion of the crafting materials used.",
+                    "icon": "UI_Talent_Combine_Weapon",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Prophecy of Submersion",
+                    "description": "When any of your own party members hits an opponent affected by an Omen, the effects of <color=#80C0FFFF>Hydro-related Elemental Reactions</color> are enhanced for 8s:\\n·Electro-Charged DMG increases by 15%.\\n·Vaporize DMG increases by 15%.\\n·Hydro Swirl DMG increases by 15%.\\n·Frozen duration is extended by 15%.",
+                    "icon": "UI_Talent_S_Mona_01"
+                },
+                "1": {
+                    "name": "Lunar Chain",
+                    "description": "When a Normal Attack hits, there is a 20% chance that it will be automatically followed by a Charged Attack.\\nThis effect can only occur once every 5s.",
+                    "icon": "UI_Talent_S_Mona_02"
+                },
+                "2": {
+                    "name": "Restless Revolution",
+                    "description": "Increases the Level of <color=#FFD780FF>Stellaris Phantasm</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Mona_01"
+                },
+                "3": {
+                    "name": "Prophecy of Oblivion",
+                    "description": "When any party member attacks an opponent affected by an Omen, their CRIT Rate is increased by 15%.",
+                    "icon": "UI_Talent_S_Mona_03"
+                },
+                "4": {
+                    "name": "Mockery of Fortuna",
+                    "description": "Increases the Level of <color=#FFD780FF>Mirror Reflection of Doom</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Mona_02"
+                },
+                "5": {
+                    "name": "Rhetorics of Calamitas",
+                    "description": "Upon entering <color=#FFD780FF>Illusory Torrent</color>, Mona gains a 60% increase to the DMG of her next Charged Attack per second of movement.\\nA maximum DMG Bonus of 180% can be achieved in this manner. The effect lasts for no more than 8s.",
+                    "icon": "UI_Talent_S_Mona_04"
+                }
+            },
+            "elevation": {
+                "sub": "Energy Recharge %",
+                "0": {
+                    "stats": {
+                        "HP": 810,
+                        "ATK": 22,
+                        "DEF": 51,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2102,
+                        "ATK": 58,
+                        "DEF": 132,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100025",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104121",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112038",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 2797,
+                        "ATK": 77,
+                        "DEF": 176,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 4185,
+                        "ATK": 115,
+                        "DEF": 263,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100025",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104122",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112038",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113012",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 4678,
+                        "ATK": 129,
+                        "DEF": 294,
+                        "sub": 8.0
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 5383,
+                        "ATK": 148,
+                        "DEF": 338,
+                        "sub": 8
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100025",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104122",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112039",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113012",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 6041,
+                        "ATK": 167,
+                        "DEF": 379,
+                        "sub": 16
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 6681,
+                        "ATK": 184,
+                        "DEF": 419,
+                        "sub": 16
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100025",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104123",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112039",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113012",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 7175,
+                        "ATK": 198,
+                        "DEF": 450,
+                        "sub": 16
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 8036,
+                        "ATK": 222,
+                        "DEF": 504,
+                        "sub": 16
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100025",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104123",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112040",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113012",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 8530,
+                        "ATK": 235,
+                        "DEF": 535,
+                        "sub": 24
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 9184,
+                        "ATK": 253,
+                        "DEF": 576,
+                        "sub": 24
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100025",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104124",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112040",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113012",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 9677,
+                        "ATK": 267,
+                        "DEF": 607,
+                        "sub": 32
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 10409,
+                        "ATK": 287,
+                        "DEF": 653,
+                        "sub": 32
+                    },
+                    "res": {}
+                }
+            }
+        },
+        "ru": {
+            "name": "Mona",
+            "name_ru": "Мона",
+            "id": 10000041,
+            "rarity": 5,
+            "weapon": "Catalyst",
+            "element": "Hydro",
+            "region": "Mondstadt",
+            "more": {
+                "title": "Звёздное отражение",
+                "detail": "Таинственный молодой астролог, которая представляется как «великий астролог Мона Мегистус» и на самом деле достойна этого звания. Эрудирована и горделива.",
+                "constellation": "Багровая Заря",
+                "group": "Мондштадт",
+                "birthday": "31.8",
+                "release": "27.09.2020",
+                "cv": {
+                    "en": "Felecia Angelle",
+                    "chs": "陈婷婷",
+                    "jp": "小原好美",
+                    "kr": "Woo Jeong-shin"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Круги на воде",
+                    "description": "<color=#FFD780FF>Обычная атака:</color>\\nДо четырёх ударов пузырями, наносящих <color=#80C0FFFF>Гидро урон</color>.\\n\\n<color=#FFD780FF>Заряженная атака:</color>\\nКороткое заклинание, наносящее <color=#80C0FFFF>Гидро урон по площади</color>, на которое тратится определённое количество выносливости.\\n\\n<color=#FFD780FF>Атака в падении:</color>\\nНакопив энергию воды, стремительно падает на землю, атакуя всех врагов на пути. Приземлившись, наносит <color=#80C0FFFF>Гидро урон по площади</color>.",
+                    "icon": "Skill_A_Catalyst_MD",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон атаки 1 37.6%",
+                            "1": "Урон атаки 2 36%",
+                            "2": "Урон атаки 3 44.8%",
+                            "3": "Урон атаки 4 56.2%",
+                            "4": "Урон заряженной атаки 149.7%",
+                            "5": "Потребление выносливости 50 ед.",
+                            "6": "Урон в падении 56.8%",
+                            "7": "Урон низкого/высокого удара 113.6%/141.9%"
+                        },
+                        "2": {
+                            "0": "Урон атаки 1 40.4%",
+                            "1": "Урон атаки 2 38.7%",
+                            "2": "Урон атаки 3 48.2%",
+                            "3": "Урон атаки 4 60.4%",
+                            "4": "Урон заряженной атаки 160.9%",
+                            "5": "Потребление выносливости 50 ед.",
+                            "6": "Урон в падении 61.5%",
+                            "7": "Урон низкого/высокого удара 122.9%/153.5%"
+                        },
+                        "3": {
+                            "0": "Урон атаки 1 43.2%",
+                            "1": "Урон атаки 2 41.4%",
+                            "2": "Урон атаки 3 51.5%",
+                            "3": "Урон атаки 4 64.6%",
+                            "4": "Урон заряженной атаки 172.2%",
+                            "5": "Потребление выносливости 50 ед.",
+                            "6": "Урон в падении 66.1%",
+                            "7": "Урон низкого/высокого удара 132.1%/165%"
+                        },
+                        "4": {
+                            "0": "Урон атаки 1 47%",
+                            "1": "Урон атаки 2 45%",
+                            "2": "Урон атаки 3 56%",
+                            "3": "Урон атаки 4 70.2%",
+                            "4": "Урон заряженной атаки 187.2%",
+                            "5": "Потребление выносливости 50 ед.",
+                            "6": "Урон в падении 72.7%",
+                            "7": "Урон низкого/высокого удара 145.3%/181.5%"
+                        },
+                        "5": {
+                            "0": "Урон атаки 1 49.8%",
+                            "1": "Урон атаки 2 47.7%",
+                            "2": "Урон атаки 3 59.4%",
+                            "3": "Урон атаки 4 74.4%",
+                            "4": "Урон заряженной атаки 198.4%",
+                            "5": "Потребление выносливости 50 ед.",
+                            "6": "Урон в падении 77.3%",
+                            "7": "Урон низкого/высокого удара 154.6%/193.1%"
+                        },
+                        "6": {
+                            "0": "Урон атаки 1 52.6%",
+                            "1": "Урон атаки 2 50.4%",
+                            "2": "Урон атаки 3 62.7%",
+                            "3": "Урон атаки 4 78.6%",
+                            "4": "Урон заряженной атаки 209.6%",
+                            "5": "Потребление выносливости 50 ед.",
+                            "6": "Урон в падении 82.6%",
+                            "7": "Урон низкого/высокого удара 165.2%/206.3%"
+                        },
+                        "7": {
+                            "0": "Урон атаки 1 56.4%",
+                            "1": "Урон атаки 2 54%",
+                            "2": "Урон атаки 3 67.2%",
+                            "3": "Урон атаки 4 84.2%",
+                            "4": "Урон заряженной атаки 224.6%",
+                            "5": "Потребление выносливости 50 ед.",
+                            "6": "Урон в падении 89.9%",
+                            "7": "Урон низкого/высокого удара 179.7%/224.5%"
+                        },
+                        "8": {
+                            "0": "Урон атаки 1 60.2%",
+                            "1": "Урон атаки 2 57.6%",
+                            "2": "Урон атаки 3 71.7%",
+                            "3": "Урон атаки 4 89.9%",
+                            "4": "Урон заряженной атаки 239.6%",
+                            "5": "Потребление выносливости 50 ед.",
+                            "6": "Урон в падении 97.1%",
+                            "7": "Урон низкого/высокого удара 194.2%/242.6%"
+                        },
+                        "9": {
+                            "0": "Урон атаки 1 63.9%",
+                            "1": "Урон атаки 2 61.2%",
+                            "2": "Урон атаки 3 76.2%",
+                            "3": "Урон атаки 4 95.5%",
+                            "4": "Урон заряженной атаки 254.5%",
+                            "5": "Потребление выносливости 50 ед.",
+                            "6": "Урон в падении 104.4%",
+                            "7": "Урон низкого/высокого удара 208.8%/260.8%"
+                        },
+                        "10": {
+                            "0": "Урон атаки 1 67.7%",
+                            "1": "Урон атаки 2 64.8%",
+                            "2": "Урон атаки 3 80.6%",
+                            "3": "Урон атаки 4 101.1%",
+                            "4": "Урон заряженной атаки 269.5%",
+                            "5": "Потребление выносливости 50 ед.",
+                            "6": "Урон в падении 112.3%",
+                            "7": "Урон низкого/высокого удара 224.6%/280.6%"
+                        },
+                        "11": {
+                            "0": "Урон атаки 1 71.4%",
+                            "1": "Урон атаки 2 68.4%",
+                            "2": "Урон атаки 3 85.1%",
+                            "3": "Урон атаки 4 106.7%",
+                            "4": "Урон заряженной атаки 285.1%",
+                            "5": "Потребление выносливости 50 ед.",
+                            "6": "Урон в падении 120.3%",
+                            "7": "Урон низкого/высокого удара 240.5%/300.4%"
+                        },
+                        "12": {
+                            "0": "Урон атаки 1 75.2%",
+                            "1": "Урон атаки 2 72%",
+                            "2": "Урон атаки 3 89.6%",
+                            "3": "Урон атаки 4 112.3%",
+                            "4": "Урон заряженной атаки 305.4%",
+                            "5": "Потребление выносливости 50 ед.",
+                            "6": "Урон в падении 128.2%",
+                            "7": "Урон низкого/высокого удара 256.3%/320.2%"
+                        },
+                        "13": {
+                            "0": "Урон атаки 1 79.9%",
+                            "1": "Урон атаки 2 76.5%",
+                            "2": "Урон атаки 3 95.2%",
+                            "3": "Урон атаки 4 119.3%",
+                            "4": "Урон заряженной атаки 325.8%",
+                            "5": "Потребление выносливости 50 ед.",
+                            "6": "Урон в падении 136.1%",
+                            "7": "Урон низкого/высокого удара 272.2%/340%"
+                        },
+                        "14": {
+                            "0": "Урон атаки 1 84.6%",
+                            "1": "Урон атаки 2 81%",
+                            "2": "Урон атаки 3 100.8%",
+                            "3": "Урон атаки 4 126.4%",
+                            "4": "Урон заряженной атаки 346.2%",
+                            "5": "Потребление выносливости 50 ед.",
+                            "6": "Урон в падении 144.1%",
+                            "7": "Урон низкого/высокого удара 288%/359.8%"
+                        },
+                        "15": {
+                            "0": "Урон атаки 1 89.3%",
+                            "1": "Урон атаки 2 85.5%",
+                            "2": "Урон атаки 3 106.4%",
+                            "3": "Урон атаки 4 133.4%",
+                            "4": "Урон заряженной атаки 366.5%",
+                            "5": "Потребление выносливости 50 ед.",
+                            "6": "Урон в падении 152%",
+                            "7": "Урон низкого/высокого удара 303.9%/379.6%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104304",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112038",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113007",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113007",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113007",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112040",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113007",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Отражение фатума",
+                    "description": "Создаёт фантома судьбы из водных пузырей.\\n\\n<color=#FFD780FF>Фантом</color> имеет следующие свойства:\\n· Непрерывно привлекает атаки врагов на себя;\\n· Непрерывно наносит <color=#80C0FFFF>Гидро урон</color> окружающим врагам.\\n· По истечении времени действия фантом взрывается, нанося <color=#80C0FFFF>Гидро урон по площади</color>.\\n\\n<color=#FFD780FF>Долгое нажатие:</color>\\nОтпрыгивает назад с помощью водных потоков, при этом создав фантома.\\n\\nОдновременно на поле боя может существовать только один фантом навыка Отражение фатума.\\n\\n<i>Опытные астрологи всегда мечтали создавать собственных фантомов, чтобы отводить злой рок. Мона стала первым человеком в Тейвате, кого смешат такие мысли.</i>",
+                    "icon": "Skill_S_Mona_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Периодический урон 32%",
+                            "1": "Урон от взрыва 132.8%",
+                            "2": "Время отката 12 сек."
+                        },
+                        "2": {
+                            "0": "Периодический урон 34.4%",
+                            "1": "Урон от взрыва 142.8%",
+                            "2": "Время отката 12 сек."
+                        },
+                        "3": {
+                            "0": "Периодический урон 36.8%",
+                            "1": "Урон от взрыва 152.7%",
+                            "2": "Время отката 12 сек."
+                        },
+                        "4": {
+                            "0": "Периодический урон 40%",
+                            "1": "Урон от взрыва 166%",
+                            "2": "Время отката 12 сек."
+                        },
+                        "5": {
+                            "0": "Периодический урон 42.4%",
+                            "1": "Урон от взрыва 176%",
+                            "2": "Время отката 12 сек."
+                        },
+                        "6": {
+                            "0": "Периодический урон 44.8%",
+                            "1": "Урон от взрыва 185.9%",
+                            "2": "Время отката 12 сек."
+                        },
+                        "7": {
+                            "0": "Периодический урон 48%",
+                            "1": "Урон от взрыва 199.2%",
+                            "2": "Время отката 12 сек."
+                        },
+                        "8": {
+                            "0": "Периодический урон 51.2%",
+                            "1": "Урон от взрыва 212.5%",
+                            "2": "Время отката 12 сек."
+                        },
+                        "9": {
+                            "0": "Периодический урон 54.4%",
+                            "1": "Урон от взрыва 225.8%",
+                            "2": "Время отката 12 сек."
+                        },
+                        "10": {
+                            "0": "Периодический урон 57.6%",
+                            "1": "Урон от взрыва 239%",
+                            "2": "Время отката 12 сек."
+                        },
+                        "11": {
+                            "0": "Периодический урон 60.8%",
+                            "1": "Урон от взрыва 252.3%",
+                            "2": "Время отката 12 сек."
+                        },
+                        "12": {
+                            "0": "Периодический урон 64%",
+                            "1": "Урон от взрыва 265.6%",
+                            "2": "Время отката 12 сек."
+                        },
+                        "13": {
+                            "0": "Периодический урон 68%",
+                            "1": "Урон от взрыва 282.2%",
+                            "2": "Время отката 12 сек."
+                        },
+                        "14": {
+                            "0": "Периодический урон 72%",
+                            "1": "Урон от взрыва 298.8%",
+                            "2": "Время отката 12 сек."
+                        },
+                        "15": {
+                            "0": "Периодический урон 76%",
+                            "1": "Урон от взрыва 315.4%",
+                            "2": "Время отката 12 сек."
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104304",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112038",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113007",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113007",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113007",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112040",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113007",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Иллюзорный поток",
+                    "description": "<color=#FFD780FF>Заменяет спринт.</color>\\nМона движется вместе с потоками воды, затрачивая определённое количество выносливости.\\n\\nБудучи в форме Иллюзорного потока, Мона может двигаться по поверхности воды с высокой скоростью.\\nПо окончании навыка накладывает на окружающих врагов статус <color=#80C0FFFF>Мокрый</color>.\\n\\n<i>Это способность, которой владеет Мона, но не её наставница, которой, впрочем, не очень интересен Гидро Глаз Бога...</i>",
+                    "icon": "Skill_S_Mona_02",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Потребление выносливости {param1:F2} ед.",
+                            "1": "Потребление выносливости {param2:F2}/сек."
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Звёздный фантазм",
+                    "description": "Мона призывает бушующие волны и создаёт отражение звёздного неба, заключая врагов в большом радиусе в Теневые пузыри.\\n\\n<color=#FFD780FF>Теневой пузырь:</color>\\nЗаключает в себя врагов, накладывая на них статус <color=#80C0FFFF>Мокрый</color>. Попав в Теневой пузырь, слабые противники также теряют способность двигаться.\\nНанесённый заключённому в Теневой пузырь противнику урон активирует следующие эффекты:\\n· Добавляет бонус урона от Омена, также увеличивая нанесённый урон.\\n· Снимает эффект Теневого пузыря, при этом нанося <color=#80C0FFFF>Гидро урон</color>.\\n\\n<color=#FFD780FF>Омен:</color>\\nНа время длительности навыка увеличивает получаемый противником урон.\\n\\n<i>Судьба стала называться судьбой, когда боги впервые обратили взоры к небу, обозначив звёзды и созвездия.</i>",
+                    "icon": "Skill_E_Mona_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Длительность пузыря 8 сек.",
+                            "1": "Урон взрыва пузыря 442.4%",
+                            "2": "Бонус урона 42%",
+                            "3": "Длительность Омена 4 сек.",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "2": {
+                            "0": "Длительность пузыря 8 сек.",
+                            "1": "Урон взрыва пузыря 475.6%",
+                            "2": "Бонус урона 44%",
+                            "3": "Длительность Омена 4 сек.",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "3": {
+                            "0": "Длительность пузыря 8 сек.",
+                            "1": "Урон взрыва пузыря 508.8%",
+                            "2": "Бонус урона 46%",
+                            "3": "Длительность Омена 4 сек.",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "4": {
+                            "0": "Длительность пузыря 8 сек.",
+                            "1": "Урон взрыва пузыря 553%",
+                            "2": "Бонус урона 48%",
+                            "3": "Длительность Омена 4.5 сек.",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "5": {
+                            "0": "Длительность пузыря 8 сек.",
+                            "1": "Урон взрыва пузыря 586.2%",
+                            "2": "Бонус урона 50%",
+                            "3": "Длительность Омена 4.5 сек.",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "6": {
+                            "0": "Длительность пузыря 8 сек.",
+                            "1": "Урон взрыва пузыря 619.4%",
+                            "2": "Бонус урона 52%",
+                            "3": "Длительность Омена 4.5 сек.",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "7": {
+                            "0": "Длительность пузыря 8 сек.",
+                            "1": "Урон взрыва пузыря 663.6%",
+                            "2": "Бонус урона 54%",
+                            "3": "Длительность Омена 5 сек.",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "8": {
+                            "0": "Длительность пузыря 8 сек.",
+                            "1": "Урон взрыва пузыря 707.8%",
+                            "2": "Бонус урона 56%",
+                            "3": "Длительность Омена 5 сек.",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "9": {
+                            "0": "Длительность пузыря 8 сек.",
+                            "1": "Урон взрыва пузыря 752.1%",
+                            "2": "Бонус урона 58%",
+                            "3": "Длительность Омена 5 сек.",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "10": {
+                            "0": "Длительность пузыря 8 сек.",
+                            "1": "Урон взрыва пузыря 796.3%",
+                            "2": "Бонус урона 60%",
+                            "3": "Длительность Омена 5 сек.",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "11": {
+                            "0": "Длительность пузыря 8 сек.",
+                            "1": "Урон взрыва пузыря 840.6%",
+                            "2": "Бонус урона 60%",
+                            "3": "Длительность Омена 5 сек.",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "12": {
+                            "0": "Длительность пузыря 8 сек.",
+                            "1": "Урон взрыва пузыря 884.8%",
+                            "2": "Бонус урона 60%",
+                            "3": "Длительность Омена 5 сек.",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "13": {
+                            "0": "Длительность пузыря 8 сек.",
+                            "1": "Урон взрыва пузыря 940.1%",
+                            "2": "Бонус урона 60%",
+                            "3": "Длительность Омена 5 сек.",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "14": {
+                            "0": "Длительность пузыря 8 сек.",
+                            "1": "Урон взрыва пузыря 995.4%",
+                            "2": "Бонус урона 60%",
+                            "3": "Длительность Омена 5 сек.",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "15": {
+                            "0": "Длительность пузыря 8 сек.",
+                            "1": "Урон взрыва пузыря 1050.7%",
+                            "2": "Бонус урона 60%",
+                            "3": "Длительность Омена 5 сек.",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104304",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112038",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113007",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113007",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113007",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112040",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113007",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Звёздный фантазм",
+                    "description": "Мона призывает бушующие волны и создаёт отражение звёздного неба, заключая врагов в большом радиусе в Теневые пузыри.\\n\\n<color=#FFD780FF>Теневой пузырь:</color>\\nЗаключает в себя врагов, накладывая на них статус <color=#80C0FFFF>Мокрый</color>. Попав в Теневой пузырь, слабые противники также теряют способность двигаться.\\nНанесённый заключённому в Теневой пузырь противнику урон активирует следующие эффекты:\\n· Добавляет бонус урона от Омена, также увеличивая нанесённый урон.\\n· Снимает эффект Теневого пузыря, при этом нанося <color=#80C0FFFF>Гидро урон</color>.\\n\\n<color=#FFD780FF>Омен:</color>\\nНа время длительности навыка увеличивает получаемый противником урон.\\n\\n<i>Судьба стала называться судьбой, когда боги впервые обратили взоры к небу, обозначив звёзды и созвездия.</i>",
+                    "icon": "Skill_E_Mona_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Длительность пузыря 8 сек.",
+                            "1": "Урон взрыва пузыря 442.4%",
+                            "2": "Бонус урона 42%",
+                            "3": "Длительность Омена 4 сек.",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "2": {
+                            "0": "Длительность пузыря 8 сек.",
+                            "1": "Урон взрыва пузыря 475.6%",
+                            "2": "Бонус урона 44%",
+                            "3": "Длительность Омена 4 сек.",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "3": {
+                            "0": "Длительность пузыря 8 сек.",
+                            "1": "Урон взрыва пузыря 508.8%",
+                            "2": "Бонус урона 46%",
+                            "3": "Длительность Омена 4 сек.",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "4": {
+                            "0": "Длительность пузыря 8 сек.",
+                            "1": "Урон взрыва пузыря 553%",
+                            "2": "Бонус урона 48%",
+                            "3": "Длительность Омена 4.5 сек.",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "5": {
+                            "0": "Длительность пузыря 8 сек.",
+                            "1": "Урон взрыва пузыря 586.2%",
+                            "2": "Бонус урона 50%",
+                            "3": "Длительность Омена 4.5 сек.",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "6": {
+                            "0": "Длительность пузыря 8 сек.",
+                            "1": "Урон взрыва пузыря 619.4%",
+                            "2": "Бонус урона 52%",
+                            "3": "Длительность Омена 4.5 сек.",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "7": {
+                            "0": "Длительность пузыря 8 сек.",
+                            "1": "Урон взрыва пузыря 663.6%",
+                            "2": "Бонус урона 54%",
+                            "3": "Длительность Омена 5 сек.",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "8": {
+                            "0": "Длительность пузыря 8 сек.",
+                            "1": "Урон взрыва пузыря 707.8%",
+                            "2": "Бонус урона 56%",
+                            "3": "Длительность Омена 5 сек.",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "9": {
+                            "0": "Длительность пузыря 8 сек.",
+                            "1": "Урон взрыва пузыря 752.1%",
+                            "2": "Бонус урона 58%",
+                            "3": "Длительность Омена 5 сек.",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "10": {
+                            "0": "Длительность пузыря 8 сек.",
+                            "1": "Урон взрыва пузыря 796.3%",
+                            "2": "Бонус урона 60%",
+                            "3": "Длительность Омена 5 сек.",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "11": {
+                            "0": "Длительность пузыря 8 сек.",
+                            "1": "Урон взрыва пузыря 840.6%",
+                            "2": "Бонус урона 60%",
+                            "3": "Длительность Омена 5 сек.",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "12": {
+                            "0": "Длительность пузыря 8 сек.",
+                            "1": "Урон взрыва пузыря 884.8%",
+                            "2": "Бонус урона 60%",
+                            "3": "Длительность Омена 5 сек.",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "13": {
+                            "0": "Длительность пузыря 8 сек.",
+                            "1": "Урон взрыва пузыря 940.1%",
+                            "2": "Бонус урона 60%",
+                            "3": "Длительность Омена 5 сек.",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "14": {
+                            "0": "Длительность пузыря 8 сек.",
+                            "1": "Урон взрыва пузыря 995.4%",
+                            "2": "Бонус урона 60%",
+                            "3": "Длительность Омена 5 сек.",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "15": {
+                            "0": "Длительность пузыря 8 сек.",
+                            "1": "Урон взрыва пузыря 1050.7%",
+                            "2": "Бонус урона 60%",
+                            "3": "Длительность Омена 5 сек.",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104304",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112038",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113007",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113007",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113007",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112040",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113007",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "5": {
+                    "name": "«Старуха, тебе меня не найти!»",
+                    "description": "Если через 2 сек. после активации навыка <color=#FFD780FF>Иллюзорный поток</color> вокруг Моны есть враги, она создаёт одного фантома.\\nСозданный таким способом фантом существует 2 сек., урон от его взрыва равен 50% от навыка <color=#FFD780FF>Отражение фатума</color>.",
+                    "icon": "UI_Talent_S_Mona_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Пусть судьба кинет кости!",
+                    "description": "Увеличивает <color=#80C0FFFF>бонус Гидро урона</color> Моны на 20% от её восстановления энергии.",
+                    "icon": "UI_Talent_S_Mona_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "7": {
+                    "name": "Принципы астрологии",
+                    "description": "При создании материалов возвышения оружия имеет 25% шанс восстановить часть использованных материалов.",
+                    "icon": "UI_Talent_Combine_Weapon",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Пророчество потопа",
+                    "description": "Попадания персонажа из вашего отряда по противнику со статусом Омен на 8 сек. усиливают эффекты <color=#80C0FFFF>Гидро реакций</color>:\\n· Увеличивает урон реакций Заряжен, Пар и Гидро рассеивание на 15%;\\n· Увеличивает длительность реакции Заморозка на 15%.",
+                    "icon": "UI_Talent_S_Mona_01"
+                },
+                "1": {
+                    "name": "Лунная цепь",
+                    "description": "Попадания обычной атакой имеют 20% шанс автоматически активировать заряженную атаку.\\nМожет возникнуть раз в 5 сек.",
+                    "icon": "UI_Talent_S_Mona_02"
+                },
+                "2": {
+                    "name": "Бесконечное вращение планет",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Звёздный фантазм</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Mona_01"
+                },
+                "3": {
+                    "name": "Пророчество забвения",
+                    "description": "Попадания любого члена вашего отряда по врагу со статусом Омен увеличивают шанс крит. попадания на 15%.",
+                    "icon": "UI_Talent_S_Mona_03"
+                },
+                "4": {
+                    "name": "Насмешка судьбы",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Отражение фатума</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Mona_02"
+                },
+                "5": {
+                    "name": "Риторика катаклизма",
+                    "description": "Каждая секунда движения в форме навыка <color=#FFD780FF>Иллюзорный поток</color> увеличивает урон следующей заряженной атаки Моны на 60%.\\nТаким способом можно получить не более 180% бонуса урона заряженной атаки. Длится не более 8 сек.",
+                    "icon": "UI_Talent_S_Mona_04"
+                }
+            },
+            "elevation": {
+                "sub": "Восст. энергии %",
+                "0": {
+                    "stats": {
+                        "HP": 810,
+                        "ATK": 22,
+                        "DEF": 51,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2102,
+                        "ATK": 58,
+                        "DEF": 132,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100025",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104121",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112038",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 2797,
+                        "ATK": 77,
+                        "DEF": 176,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 4185,
+                        "ATK": 115,
+                        "DEF": 263,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100025",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104122",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112038",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113012",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 4678,
+                        "ATK": 129,
+                        "DEF": 294,
+                        "sub": 8.0
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 5383,
+                        "ATK": 148,
+                        "DEF": 338,
+                        "sub": 8
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100025",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104122",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112039",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113012",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 6041,
+                        "ATK": 167,
+                        "DEF": 379,
+                        "sub": 16
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 6681,
+                        "ATK": 184,
+                        "DEF": 419,
+                        "sub": 16
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100025",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104123",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112039",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113012",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 7175,
+                        "ATK": 198,
+                        "DEF": 450,
+                        "sub": 16
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 8036,
+                        "ATK": 222,
+                        "DEF": 504,
+                        "sub": 16
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100025",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104123",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112040",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113012",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 8530,
+                        "ATK": 235,
+                        "DEF": 535,
+                        "sub": 24
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 9184,
+                        "ATK": 253,
+                        "DEF": 576,
+                        "sub": 24
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100025",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104124",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112040",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113012",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 9677,
+                        "ATK": 267,
+                        "DEF": 607,
+                        "sub": 32
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 10409,
+                        "ATK": 287,
+                        "DEF": 653,
+                        "sub": 32
+                    },
+                    "res": {}
+                }
+            }
+        }
+    }
+}

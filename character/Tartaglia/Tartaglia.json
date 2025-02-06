@@ -1,0 +1,3354 @@
+{
+    "Tartaglia": {
+        "en": {
+            "name": "Tartaglia",
+            "name_ru": "Тарталья",
+            "id": 10000033,
+            "rarity": 5,
+            "weapon": "Bow",
+            "element": "Hydro",
+            "region": "Snezhnaya",
+            "more": {
+                "title": "Childe",
+                "detail": "No. 11 of The Harbingers, also known as \"Childe.\" His name is highly feared on the battlefield.",
+                "constellation": "Monoceros Caeli",
+                "group": "Fatui",
+                "birthday": "20.7",
+                "release": "11.11.2020",
+                "cv": {
+                    "en": "Griffin Burns",
+                    "chs": "鱼冻",
+                    "jp": "木村良平",
+                    "kr": "Nam Do-hyeong"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Normal Attack: Cutting Torrent",
+                    "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 6 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, the power of Hydro will accumulate on the arrowhead. An arrow fully charged with the torrent will deal <color=#80C0FFFF>Hydro DMG</color> and apply the Riptide status.\\n\\n<color=#FFD780FF>Riptide</color>\\nOpponents affected by Riptide will suffer from <color=#80C0FFFF>AoE Hydro DMG</color> effects when attacked by Tartaglia in various ways. DMG dealt in this way is considered Normal Attack DMG.\\n·Riptide Flash: A fully-charged Aimed Shot that hits an opponent affected by Riptide deals consecutive bouts of AoE DMG. Can occur once every 0.7s.\\n·Riptide Burst: Defeating an opponent affected by Riptide creates a Hydro burst that inflicts the Riptide status on nearby opponents hit.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.\\nWhen Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, he cannot perform a plunging attack.",
+                    "icon": "Skill_A_02",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "1-Hit DMG 41.3%",
+                            "1": "2-Hit DMG 46.3%",
+                            "2": "3-Hit DMG 55.4%",
+                            "3": "4-Hit DMG 57%",
+                            "4": "5-Hit DMG 60.9%",
+                            "5": "6-Hit DMG 72.8%",
+                            "6": "Aimed Shot 43.9%",
+                            "7": "Fully-Charged Aimed Shot 124%",
+                            "8": "Riptide Flash DMG 12.4%×3",
+                            "9": "Riptide Burst DMG 62%",
+                            "10": "Riptide Duration 10s",
+                            "11": "Plunge DMG 63.9%",
+                            "12": "Low/High Plunge DMG 127.8%/159.7%"
+                        },
+                        "2": {
+                            "0": "1-Hit DMG 44.6%",
+                            "1": "2-Hit DMG 50%",
+                            "2": "3-Hit DMG 59.9%",
+                            "3": "4-Hit DMG 61.7%",
+                            "4": "5-Hit DMG 65.8%",
+                            "5": "6-Hit DMG 78.7%",
+                            "6": "Aimed Shot 47.4%",
+                            "7": "Fully-Charged Aimed Shot 133.3%",
+                            "8": "Riptide Flash DMG 13.3%×3",
+                            "9": "Riptide Burst DMG 66.6%",
+                            "10": "Riptide Duration 10s",
+                            "11": "Plunge DMG 69.1%",
+                            "12": "Low/High Plunge DMG 138.2%/172.7%"
+                        },
+                        "3": {
+                            "0": "1-Hit DMG 48%",
+                            "1": "2-Hit DMG 53.8%",
+                            "2": "3-Hit DMG 64.4%",
+                            "3": "4-Hit DMG 66.3%",
+                            "4": "5-Hit DMG 70.8%",
+                            "5": "6-Hit DMG 84.6%",
+                            "6": "Aimed Shot 51%",
+                            "7": "Fully-Charged Aimed Shot 142.6%",
+                            "8": "Riptide Flash DMG 14.3%×3",
+                            "9": "Riptide Burst DMG 71.3%",
+                            "10": "Riptide Duration 10s",
+                            "11": "Plunge DMG 74.3%",
+                            "12": "Low/High Plunge DMG 148.6%/185.7%"
+                        },
+                        "4": {
+                            "0": "1-Hit DMG 52.8%",
+                            "1": "2-Hit DMG 59.2%",
+                            "2": "3-Hit DMG 70.8%",
+                            "3": "4-Hit DMG 72.9%",
+                            "4": "5-Hit DMG 77.9%",
+                            "5": "6-Hit DMG 93.1%",
+                            "6": "Aimed Shot 56.1%",
+                            "7": "Fully-Charged Aimed Shot 155%",
+                            "8": "Riptide Flash DMG 15.5%×3",
+                            "9": "Riptide Burst DMG 77.5%",
+                            "10": "Riptide Duration 10s",
+                            "11": "Plunge DMG 81.8%",
+                            "12": "Low/High Plunge DMG 163.5%/204.2%"
+                        },
+                        "5": {
+                            "0": "1-Hit DMG 56.2%",
+                            "1": "2-Hit DMG 62.9%",
+                            "2": "3-Hit DMG 75.3%",
+                            "3": "4-Hit DMG 77.6%",
+                            "4": "5-Hit DMG 82.8%",
+                            "5": "6-Hit DMG 99%",
+                            "6": "Aimed Shot 59.7%",
+                            "7": "Fully-Charged Aimed Shot 164.3%",
+                            "8": "Riptide Flash DMG 16.4%×3",
+                            "9": "Riptide Burst DMG 82.2%",
+                            "10": "Riptide Duration 10s",
+                            "11": "Plunge DMG 87%",
+                            "12": "Low/High Plunge DMG 173.9%/217.2%"
+                        },
+                        "6": {
+                            "0": "1-Hit DMG 60%",
+                            "1": "2-Hit DMG 67.2%",
+                            "2": "3-Hit DMG 80.5%",
+                            "3": "4-Hit DMG 82.9%",
+                            "4": "5-Hit DMG 88.5%",
+                            "5": "6-Hit DMG 105.8%",
+                            "6": "Aimed Shot 63.7%",
+                            "7": "Fully-Charged Aimed Shot 173.6%",
+                            "8": "Riptide Flash DMG 17.4%×3",
+                            "9": "Riptide Burst DMG 86.8%",
+                            "10": "Riptide Duration 10s",
+                            "11": "Plunge DMG 92.9%",
+                            "12": "Low/High Plunge DMG 185.8%/232.1%"
+                        },
+                        "7": {
+                            "0": "1-Hit DMG 65.3%",
+                            "1": "2-Hit DMG 73.2%",
+                            "2": "3-Hit DMG 87.6%",
+                            "3": "4-Hit DMG 90.2%",
+                            "4": "5-Hit DMG 96.3%",
+                            "5": "6-Hit DMG 115.1%",
+                            "6": "Aimed Shot 69.4%",
+                            "7": "Fully-Charged Aimed Shot 186%",
+                            "8": "Riptide Flash DMG 18.6%×3",
+                            "9": "Riptide Burst DMG 93%",
+                            "10": "Riptide Duration 10s",
+                            "11": "Plunge DMG 101.1%",
+                            "12": "Low/High Plunge DMG 202.2%/252.5%"
+                        },
+                        "8": {
+                            "0": "1-Hit DMG 70.6%",
+                            "1": "2-Hit DMG 79.1%",
+                            "2": "3-Hit DMG 94.7%",
+                            "3": "4-Hit DMG 97.5%",
+                            "4": "5-Hit DMG 104.1%",
+                            "5": "6-Hit DMG 124.4%",
+                            "6": "Aimed Shot 75%",
+                            "7": "Fully-Charged Aimed Shot 198.4%",
+                            "8": "Riptide Flash DMG 19.8%×3",
+                            "9": "Riptide Burst DMG 99.2%",
+                            "10": "Riptide Duration 10s",
+                            "11": "Plunge DMG 109.3%",
+                            "12": "Low/High Plunge DMG 218.5%/272.9%"
+                        },
+                        "9": {
+                            "0": "1-Hit DMG 75.8%",
+                            "1": "2-Hit DMG 85%",
+                            "2": "3-Hit DMG 101.8%",
+                            "3": "4-Hit DMG 104.8%",
+                            "4": "5-Hit DMG 111.9%",
+                            "5": "6-Hit DMG 133.7%",
+                            "6": "Aimed Shot 80.6%",
+                            "7": "Fully-Charged Aimed Shot 210.8%",
+                            "8": "Riptide Flash DMG 21.1%×3",
+                            "9": "Riptide Burst DMG 105.4%",
+                            "10": "Riptide Duration 10s",
+                            "11": "Plunge DMG 117.5%",
+                            "12": "Low/High Plunge DMG 234.9%/293.4%"
+                        },
+                        "10": {
+                            "0": "1-Hit DMG 81.6%",
+                            "1": "2-Hit DMG 91.5%",
+                            "2": "3-Hit DMG 109.5%",
+                            "3": "4-Hit DMG 112.7%",
+                            "4": "5-Hit DMG 120.4%",
+                            "5": "6-Hit DMG 143.8%",
+                            "6": "Aimed Shot 86.7%",
+                            "7": "Fully-Charged Aimed Shot 223.2%",
+                            "8": "Riptide Flash DMG 22.3%×3",
+                            "9": "Riptide Burst DMG 111.6%",
+                            "10": "Riptide Duration 10s",
+                            "11": "Plunge DMG 126.4%",
+                            "12": "Low/High Plunge DMG 252.7%/315.6%"
+                        },
+                        "11": {
+                            "0": "1-Hit DMG 87.4%",
+                            "1": "2-Hit DMG 97.9%",
+                            "2": "3-Hit DMG 117.2%",
+                            "3": "4-Hit DMG 120.7%",
+                            "4": "5-Hit DMG 128.9%",
+                            "5": "6-Hit DMG 154%",
+                            "6": "Aimed Shot 92.8%",
+                            "7": "Fully-Charged Aimed Shot 235.6%",
+                            "8": "Riptide Flash DMG 23.6%×3",
+                            "9": "Riptide Burst DMG 117.8%",
+                            "10": "Riptide Duration 10s",
+                            "11": "Plunge DMG 135.3%",
+                            "12": "Low/High Plunge DMG 270.5%/337.9%"
+                        },
+                        "12": {
+                            "0": "1-Hit DMG 93.1%",
+                            "1": "2-Hit DMG 104.4%",
+                            "2": "3-Hit DMG 124.9%",
+                            "3": "4-Hit DMG 128.6%",
+                            "4": "5-Hit DMG 137.4%",
+                            "5": "6-Hit DMG 164.1%",
+                            "6": "Aimed Shot 98.9%",
+                            "7": "Fully-Charged Aimed Shot 248%",
+                            "8": "Riptide Flash DMG 24.8%×3",
+                            "9": "Riptide Burst DMG 124%",
+                            "10": "Riptide Duration 10s",
+                            "11": "Plunge DMG 144.2%",
+                            "12": "Low/High Plunge DMG 288.4%/360.2%"
+                        },
+                        "13": {
+                            "0": "1-Hit DMG 98.9%",
+                            "1": "2-Hit DMG 110.8%",
+                            "2": "3-Hit DMG 132.7%",
+                            "3": "4-Hit DMG 136.6%",
+                            "4": "5-Hit DMG 145.8%",
+                            "5": "6-Hit DMG 174.3%",
+                            "6": "Aimed Shot 105.1%",
+                            "7": "Fully-Charged Aimed Shot 263.5%",
+                            "8": "Riptide Flash DMG 26.4%×3",
+                            "9": "Riptide Burst DMG 131.8%",
+                            "10": "Riptide Duration 10s",
+                            "11": "Plunge DMG 153.1%",
+                            "12": "Low/High Plunge DMG 306.2%/382.5%"
+                        },
+                        "14": {
+                            "0": "1-Hit DMG 104.6%",
+                            "1": "2-Hit DMG 117.3%",
+                            "2": "3-Hit DMG 140.4%",
+                            "3": "4-Hit DMG 144.5%",
+                            "4": "5-Hit DMG 154.3%",
+                            "5": "6-Hit DMG 184.4%",
+                            "6": "Aimed Shot 111.2%",
+                            "7": "Fully-Charged Aimed Shot 279%",
+                            "8": "Riptide Flash DMG 27.9%×3",
+                            "9": "Riptide Burst DMG 139.5%",
+                            "10": "Riptide Duration 10s",
+                            "11": "Plunge DMG 162.1%",
+                            "12": "Low/High Plunge DMG 324.1%/404.8%"
+                        },
+                        "15": {
+                            "0": "1-Hit DMG 110.4%",
+                            "1": "2-Hit DMG 123.7%",
+                            "2": "3-Hit DMG 148.1%",
+                            "3": "4-Hit DMG 152.5%",
+                            "4": "5-Hit DMG 162.8%",
+                            "5": "6-Hit DMG 194.6%",
+                            "6": "Aimed Shot 117.3%",
+                            "7": "Fully-Charged Aimed Shot 294.5%",
+                            "8": "Riptide Flash DMG 29.4%×3",
+                            "9": "Riptide Burst DMG 147.2%",
+                            "10": "Riptide Duration 10s",
+                            "11": "Plunge DMG 171%",
+                            "12": "Low/High Plunge DMG 341.9%/427%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104301",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113014",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113014",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113014",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113014",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Foul Legacy: Raging Tide",
+                    "description": "Unleashes a set of weaponry made of pure water, dealing <color=#80C0FFFF>Hydro DMG</color> to surrounding opponents and entering Melee Stance.\\nIn this Stance, Tartaglia's Normal and Charged Attacks are converted to <color=#80C0FFFF>Hydro DMG</color> that cannot be overridden by any other elemental infusion and change as follows:\\n\\n<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 6 consecutive <color=#80C0FFFF>Hydro</color> strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash a cross slash, dealing <color=#80C0FFFF>Hydro DMG</color>.\\n\\n<color=#FFD780FF>Riptide Slash</color>\\nHitting an opponent affected by Riptide with a melee attack unleashes a Riptide Slash that deals <color=#80C0FFFF>AoE Hydro DMG</color>. DMG dealt in this way is considered Elemental Skill DMG, and can only occur once every 1.5s.\\n\\nAfter 30s, or when the ability is unleashed again, this skill will end. Tartaglia will return to his Ranged Stance and this ability will enter CD. The longer Tartaglia stays in his Melee Stance, the longer the CD.\\nIf the return to a ranged stance occurs automatically after 30s, the CD is even longer.\\n\\n<i>He chose the bow as his weapon precisely to overcome his weakness with it. But a serious fight demands that he gets serious...</i>",
+                    "icon": "Skill_S_Tartaglia_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Stance Change DMG 72%",
+                            "1": "1-Hit DMG 38.9%",
+                            "2": "2-Hit DMG 41.6%",
+                            "3": "3-Hit DMG 56.3%",
+                            "4": "4-Hit DMG 59.9%",
+                            "5": "5-Hit DMG 55.3%",
+                            "6": "6-Hit DMG 35.4%+37.7%",
+                            "7": "Charged Attack DMG 60.2%+72%",
+                            "8": "Charged Attack Stamina Cost 20",
+                            "9": "Riptide Slash 60.2%",
+                            "10": "Max Duration 30s",
+                            "11": "Preemptive CD 6-36s",
+                            "12": "Max CD 45s"
+                        },
+                        "2": {
+                            "0": "Stance Change DMG 77.4%",
+                            "1": "1-Hit DMG 42%",
+                            "2": "2-Hit DMG 45%",
+                            "3": "3-Hit DMG 60.9%",
+                            "4": "4-Hit DMG 64.8%",
+                            "5": "5-Hit DMG 59.8%",
+                            "6": "6-Hit DMG 38.3%+40.7%",
+                            "7": "Charged Attack DMG 65.1%+77.8%",
+                            "8": "Charged Attack Stamina Cost 20",
+                            "9": "Riptide Slash 65.1%",
+                            "10": "Max Duration 30s",
+                            "11": "Preemptive CD 6-36s",
+                            "12": "Max CD 45s"
+                        },
+                        "3": {
+                            "0": "Stance Change DMG 82.8%",
+                            "1": "1-Hit DMG 45.2%",
+                            "2": "2-Hit DMG 48.4%",
+                            "3": "3-Hit DMG 65.5%",
+                            "4": "4-Hit DMG 69.7%",
+                            "5": "5-Hit DMG 64.3%",
+                            "6": "6-Hit DMG 41.2%+43.8%",
+                            "7": "Charged Attack DMG 70%+83.7%",
+                            "8": "Charged Attack Stamina Cost 20",
+                            "9": "Riptide Slash 70%",
+                            "10": "Max Duration 30s",
+                            "11": "Preemptive CD 6-36s",
+                            "12": "Max CD 45s"
+                        },
+                        "4": {
+                            "0": "Stance Change DMG 90%",
+                            "1": "1-Hit DMG 49.7%",
+                            "2": "2-Hit DMG 53.2%",
+                            "3": "3-Hit DMG 72%",
+                            "4": "4-Hit DMG 76.7%",
+                            "5": "5-Hit DMG 70.7%",
+                            "6": "6-Hit DMG 45.3%+48.2%",
+                            "7": "Charged Attack DMG 77%+92.1%",
+                            "8": "Charged Attack Stamina Cost 20",
+                            "9": "Riptide Slash 77%",
+                            "10": "Max Duration 30s",
+                            "11": "Preemptive CD 6-36s",
+                            "12": "Max CD 45s"
+                        },
+                        "5": {
+                            "0": "Stance Change DMG 95.4%",
+                            "1": "1-Hit DMG 52.9%",
+                            "2": "2-Hit DMG 56.6%",
+                            "3": "3-Hit DMG 76.6%",
+                            "4": "4-Hit DMG 81.5%",
+                            "5": "5-Hit DMG 75.2%",
+                            "6": "6-Hit DMG 48.2%+51.2%",
+                            "7": "Charged Attack DMG 81.9%+97.9%",
+                            "8": "Charged Attack Stamina Cost 20",
+                            "9": "Riptide Slash 81.9%",
+                            "10": "Max Duration 30s",
+                            "11": "Preemptive CD 6-36s",
+                            "12": "Max CD 45s"
+                        },
+                        "6": {
+                            "0": "Stance Change DMG 100.8%",
+                            "1": "1-Hit DMG 56.5%",
+                            "2": "2-Hit DMG 60.5%",
+                            "3": "3-Hit DMG 81.9%",
+                            "4": "4-Hit DMG 87.1%",
+                            "5": "5-Hit DMG 80.4%",
+                            "6": "6-Hit DMG 51.5%+54.8%",
+                            "7": "Charged Attack DMG 87.5%+104.6%",
+                            "8": "Charged Attack Stamina Cost 20",
+                            "9": "Riptide Slash 87.5%",
+                            "10": "Max Duration 30s",
+                            "11": "Preemptive CD 6-36s",
+                            "12": "Max CD 45s"
+                        },
+                        "7": {
+                            "0": "Stance Change DMG 108%",
+                            "1": "1-Hit DMG 61.5%",
+                            "2": "2-Hit DMG 65.8%",
+                            "3": "3-Hit DMG 89.1%",
+                            "4": "4-Hit DMG 94.8%",
+                            "5": "5-Hit DMG 87.4%",
+                            "6": "6-Hit DMG 56%+59.6%",
+                            "7": "Charged Attack DMG 95.2%+113.8%",
+                            "8": "Charged Attack Stamina Cost 20",
+                            "9": "Riptide Slash 95.2%",
+                            "10": "Max Duration 30s",
+                            "11": "Preemptive CD 6-36s",
+                            "12": "Max CD 45s"
+                        },
+                        "8": {
+                            "0": "Stance Change DMG 115.2%",
+                            "1": "1-Hit DMG 66.4%",
+                            "2": "2-Hit DMG 71.1%",
+                            "3": "3-Hit DMG 96.3%",
+                            "4": "4-Hit DMG 102.5%",
+                            "5": "5-Hit DMG 94.5%",
+                            "6": "6-Hit DMG 60.6%+64.4%",
+                            "7": "Charged Attack DMG 102.9%+123%",
+                            "8": "Charged Attack Stamina Cost 20",
+                            "9": "Riptide Slash 102.9%",
+                            "10": "Max Duration 30s",
+                            "11": "Preemptive CD 6-36s",
+                            "12": "Max CD 45s"
+                        },
+                        "9": {
+                            "0": "Stance Change DMG 122.4%",
+                            "1": "1-Hit DMG 71.4%",
+                            "2": "2-Hit DMG 76.5%",
+                            "3": "3-Hit DMG 103.5%",
+                            "4": "4-Hit DMG 110.1%",
+                            "5": "5-Hit DMG 101.6%",
+                            "6": "6-Hit DMG 65.1%+69.2%",
+                            "7": "Charged Attack DMG 110.6%+132.2%",
+                            "8": "Charged Attack Stamina Cost 20",
+                            "9": "Riptide Slash 110.6%",
+                            "10": "Max Duration 30s",
+                            "11": "Preemptive CD 6-36s",
+                            "12": "Max CD 45s"
+                        },
+                        "10": {
+                            "0": "Stance Change DMG 129.6%",
+                            "1": "1-Hit DMG 76.8%",
+                            "2": "2-Hit DMG 82.3%",
+                            "3": "3-Hit DMG 111.3%",
+                            "4": "4-Hit DMG 118.5%",
+                            "5": "5-Hit DMG 109.3%",
+                            "6": "6-Hit DMG 70%+74.5%",
+                            "7": "Charged Attack DMG 119%+142.3%",
+                            "8": "Charged Attack Stamina Cost 20",
+                            "9": "Riptide Slash 119%",
+                            "10": "Max Duration 30s",
+                            "11": "Preemptive CD 6-36s",
+                            "12": "Max CD 45s"
+                        },
+                        "11": {
+                            "0": "Stance Change DMG 136.8%",
+                            "1": "1-Hit DMG 82.3%",
+                            "2": "2-Hit DMG 88.1%",
+                            "3": "3-Hit DMG 119.2%",
+                            "4": "4-Hit DMG 126.9%",
+                            "5": "5-Hit DMG 117%",
+                            "6": "6-Hit DMG 75%+79.7%",
+                            "7": "Charged Attack DMG 127.4%+152.3%",
+                            "8": "Charged Attack Stamina Cost 20",
+                            "9": "Riptide Slash 127.4%",
+                            "10": "Max Duration 30s",
+                            "11": "Preemptive CD 6-36s",
+                            "12": "Max CD 45s"
+                        },
+                        "12": {
+                            "0": "Stance Change DMG 144%",
+                            "1": "1-Hit DMG 87.7%",
+                            "2": "2-Hit DMG 93.9%",
+                            "3": "3-Hit DMG 127.1%",
+                            "4": "4-Hit DMG 135.2%",
+                            "5": "5-Hit DMG 124.7%",
+                            "6": "6-Hit DMG 79.9%+85%",
+                            "7": "Charged Attack DMG 135.8%+162.4%",
+                            "8": "Charged Attack Stamina Cost 20",
+                            "9": "Riptide Slash 135.8%",
+                            "10": "Max Duration 30s",
+                            "11": "Preemptive CD 6-36s",
+                            "12": "Max CD 45s"
+                        },
+                        "13": {
+                            "0": "Stance Change DMG 153%",
+                            "1": "1-Hit DMG 93.1%",
+                            "2": "2-Hit DMG 99.7%",
+                            "3": "3-Hit DMG 134.9%",
+                            "4": "4-Hit DMG 143.6%",
+                            "5": "5-Hit DMG 132.5%",
+                            "6": "6-Hit DMG 84.9%+90.2%",
+                            "7": "Charged Attack DMG 144.2%+172.4%",
+                            "8": "Charged Attack Stamina Cost 20",
+                            "9": "Riptide Slash 144.2%",
+                            "10": "Max Duration 30s",
+                            "11": "Preemptive CD 6-36s",
+                            "12": "Max CD 45s"
+                        },
+                        "14": {
+                            "0": "Stance Change DMG 162%",
+                            "1": "1-Hit DMG 98.5%",
+                            "2": "2-Hit DMG 105.5%",
+                            "3": "3-Hit DMG 142.8%",
+                            "4": "4-Hit DMG 151.9%",
+                            "5": "5-Hit DMG 140.2%",
+                            "6": "6-Hit DMG 89.8%+95.5%",
+                            "7": "Charged Attack DMG 152.6%+182.5%",
+                            "8": "Charged Attack Stamina Cost 20",
+                            "9": "Riptide Slash 152.6%",
+                            "10": "Max Duration 30s",
+                            "11": "Preemptive CD 6-36s",
+                            "12": "Max CD 45s"
+                        },
+                        "15": {
+                            "0": "Stance Change DMG 171%",
+                            "1": "1-Hit DMG 104%",
+                            "2": "2-Hit DMG 111.3%",
+                            "3": "3-Hit DMG 150.7%",
+                            "4": "4-Hit DMG 160.3%",
+                            "5": "5-Hit DMG 147.9%",
+                            "6": "6-Hit DMG 94.8%+100.7%",
+                            "7": "Charged Attack DMG 161%+192.5%",
+                            "8": "Charged Attack Stamina Cost 20",
+                            "9": "Riptide Slash 161%",
+                            "10": "Max Duration 30s",
+                            "11": "Preemptive CD 6-36s",
+                            "12": "Max CD 45s"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104301",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113014",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113014",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113014",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113014",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Havoc: Obliteration",
+                    "description": "Performs different attacks based on what stance Tartaglia is in when casting.\\n\\n<color=#FFD780FF>Ranged Stance: Flash of Havoc</color>\\nSwiftly fires a Hydro-imbued magic arrow, dealing <color=#80C0FFFF>AoE Hydro DMG</color> and applying the Riptide status.\\nReturns a portion of its Energy Cost after use.\\n\\n<color=#FFD780FF>Melee Stance: Light of Obliteration</color>\\nPerforms a slash with a large AoE, dealing massive <color=#80C0FFFF>Hydro DMG</color> to all surrounding opponents, which triggers Riptide Blast.\\n\\n<color=#FFD780FF>Riptide Blast</color>\\nWhen the obliterating waters hit an opponent affected by Riptide, it clears their Riptide status and triggers a Hydro Explosion that deals <color=#80C0FFFF>AoE Hydro DMG</color>.\\nDMG dealt in this way is considered Elemental Burst DMG.\\n\\n<i>Rushing waters are rarely seen in his snowy homeland. Perhaps his ability to command water is due to his understanding of just how precious it is.</i>",
+                    "icon": "Skill_E_Tartaglia_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG: Melee 464%",
+                            "1": "Skill DMG: Ranged 378.4%",
+                            "2": "Riptide Blast DMG 120%",
+                            "3": "Energy Return (Ranged) 20",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "2": {
+                            "0": "Skill DMG: Melee 498.8%",
+                            "1": "Skill DMG: Ranged 406.8%",
+                            "2": "Riptide Blast DMG 129%",
+                            "3": "Energy Return (Ranged) 20",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "3": {
+                            "0": "Skill DMG: Melee 533.6%",
+                            "1": "Skill DMG: Ranged 435.2%",
+                            "2": "Riptide Blast DMG 138%",
+                            "3": "Energy Return (Ranged) 20",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "4": {
+                            "0": "Skill DMG: Melee 580%",
+                            "1": "Skill DMG: Ranged 473%",
+                            "2": "Riptide Blast DMG 150%",
+                            "3": "Energy Return (Ranged) 20",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "5": {
+                            "0": "Skill DMG: Melee 614.8%",
+                            "1": "Skill DMG: Ranged 501.4%",
+                            "2": "Riptide Blast DMG 159%",
+                            "3": "Energy Return (Ranged) 20",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "6": {
+                            "0": "Skill DMG: Melee 649.6%",
+                            "1": "Skill DMG: Ranged 529.8%",
+                            "2": "Riptide Blast DMG 168%",
+                            "3": "Energy Return (Ranged) 20",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "7": {
+                            "0": "Skill DMG: Melee 696%",
+                            "1": "Skill DMG: Ranged 567.6%",
+                            "2": "Riptide Blast DMG 180%",
+                            "3": "Energy Return (Ranged) 20",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "8": {
+                            "0": "Skill DMG: Melee 742.4%",
+                            "1": "Skill DMG: Ranged 605.4%",
+                            "2": "Riptide Blast DMG 192%",
+                            "3": "Energy Return (Ranged) 20",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "9": {
+                            "0": "Skill DMG: Melee 788.8%",
+                            "1": "Skill DMG: Ranged 643.3%",
+                            "2": "Riptide Blast DMG 204%",
+                            "3": "Energy Return (Ranged) 20",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "10": {
+                            "0": "Skill DMG: Melee 835.2%",
+                            "1": "Skill DMG: Ranged 681.1%",
+                            "2": "Riptide Blast DMG 216%",
+                            "3": "Energy Return (Ranged) 20",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "11": {
+                            "0": "Skill DMG: Melee 881.6%",
+                            "1": "Skill DMG: Ranged 719%",
+                            "2": "Riptide Blast DMG 228%",
+                            "3": "Energy Return (Ranged) 20",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "12": {
+                            "0": "Skill DMG: Melee 928%",
+                            "1": "Skill DMG: Ranged 756.8%",
+                            "2": "Riptide Blast DMG 240%",
+                            "3": "Energy Return (Ranged) 20",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "13": {
+                            "0": "Skill DMG: Melee 986%",
+                            "1": "Skill DMG: Ranged 804.1%",
+                            "2": "Riptide Blast DMG 255%",
+                            "3": "Energy Return (Ranged) 20",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "14": {
+                            "0": "Skill DMG: Melee 1044%",
+                            "1": "Skill DMG: Ranged 851.4%",
+                            "2": "Riptide Blast DMG 270%",
+                            "3": "Energy Return (Ranged) 20",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "15": {
+                            "0": "Skill DMG: Melee 1102%",
+                            "1": "Skill DMG: Ranged 898.7%",
+                            "2": "Riptide Blast DMG 285%",
+                            "3": "Energy Return (Ranged) 20",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104301",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113014",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113014",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113014",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113014",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Havoc: Obliteration",
+                    "description": "Performs different attacks based on what stance Tartaglia is in when casting.\\n\\n<color=#FFD780FF>Ranged Stance: Flash of Havoc</color>\\nSwiftly fires a Hydro-imbued magic arrow, dealing <color=#80C0FFFF>AoE Hydro DMG</color> and applying the Riptide status.\\nReturns a portion of its Energy Cost after use.\\n\\n<color=#FFD780FF>Melee Stance: Light of Obliteration</color>\\nPerforms a slash with a large AoE, dealing massive <color=#80C0FFFF>Hydro DMG</color> to all surrounding opponents, which triggers Riptide Blast.\\n\\n<color=#FFD780FF>Riptide Blast</color>\\nWhen the obliterating waters hit an opponent affected by Riptide, it clears their Riptide status and triggers a Hydro Explosion that deals <color=#80C0FFFF>AoE Hydro DMG</color>.\\nDMG dealt in this way is considered Elemental Burst DMG.\\n\\n<i>Rushing waters are rarely seen in his snowy homeland. Perhaps his ability to command water is due to his understanding of just how precious it is.</i>",
+                    "icon": "Skill_E_Tartaglia_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG: Melee 464%",
+                            "1": "Skill DMG: Ranged 378.4%",
+                            "2": "Riptide Blast DMG 120%",
+                            "3": "Energy Return (Ranged) 20",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "2": {
+                            "0": "Skill DMG: Melee 498.8%",
+                            "1": "Skill DMG: Ranged 406.8%",
+                            "2": "Riptide Blast DMG 129%",
+                            "3": "Energy Return (Ranged) 20",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "3": {
+                            "0": "Skill DMG: Melee 533.6%",
+                            "1": "Skill DMG: Ranged 435.2%",
+                            "2": "Riptide Blast DMG 138%",
+                            "3": "Energy Return (Ranged) 20",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "4": {
+                            "0": "Skill DMG: Melee 580%",
+                            "1": "Skill DMG: Ranged 473%",
+                            "2": "Riptide Blast DMG 150%",
+                            "3": "Energy Return (Ranged) 20",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "5": {
+                            "0": "Skill DMG: Melee 614.8%",
+                            "1": "Skill DMG: Ranged 501.4%",
+                            "2": "Riptide Blast DMG 159%",
+                            "3": "Energy Return (Ranged) 20",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "6": {
+                            "0": "Skill DMG: Melee 649.6%",
+                            "1": "Skill DMG: Ranged 529.8%",
+                            "2": "Riptide Blast DMG 168%",
+                            "3": "Energy Return (Ranged) 20",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "7": {
+                            "0": "Skill DMG: Melee 696%",
+                            "1": "Skill DMG: Ranged 567.6%",
+                            "2": "Riptide Blast DMG 180%",
+                            "3": "Energy Return (Ranged) 20",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "8": {
+                            "0": "Skill DMG: Melee 742.4%",
+                            "1": "Skill DMG: Ranged 605.4%",
+                            "2": "Riptide Blast DMG 192%",
+                            "3": "Energy Return (Ranged) 20",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "9": {
+                            "0": "Skill DMG: Melee 788.8%",
+                            "1": "Skill DMG: Ranged 643.3%",
+                            "2": "Riptide Blast DMG 204%",
+                            "3": "Energy Return (Ranged) 20",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "10": {
+                            "0": "Skill DMG: Melee 835.2%",
+                            "1": "Skill DMG: Ranged 681.1%",
+                            "2": "Riptide Blast DMG 216%",
+                            "3": "Energy Return (Ranged) 20",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "11": {
+                            "0": "Skill DMG: Melee 881.6%",
+                            "1": "Skill DMG: Ranged 719%",
+                            "2": "Riptide Blast DMG 228%",
+                            "3": "Energy Return (Ranged) 20",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "12": {
+                            "0": "Skill DMG: Melee 928%",
+                            "1": "Skill DMG: Ranged 756.8%",
+                            "2": "Riptide Blast DMG 240%",
+                            "3": "Energy Return (Ranged) 20",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "13": {
+                            "0": "Skill DMG: Melee 986%",
+                            "1": "Skill DMG: Ranged 804.1%",
+                            "2": "Riptide Blast DMG 255%",
+                            "3": "Energy Return (Ranged) 20",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "14": {
+                            "0": "Skill DMG: Melee 1044%",
+                            "1": "Skill DMG: Ranged 851.4%",
+                            "2": "Riptide Blast DMG 270%",
+                            "3": "Energy Return (Ranged) 20",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        },
+                        "15": {
+                            "0": "Skill DMG: Melee 1102%",
+                            "1": "Skill DMG: Ranged 898.7%",
+                            "2": "Riptide Blast DMG 285%",
+                            "3": "Energy Return (Ranged) 20",
+                            "4": "CD 15s",
+                            "5": "Energy Cost 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104301",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113014",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113014",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113014",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113014",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Never Ending",
+                    "description": "Extends Riptide duration by 8s.",
+                    "icon": "UI_Talent_S_Tartaglia_03",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Sword of Torrents",
+                    "description": "When Tartaglia is in <color=#FFD780FF>Foul Legacy: Raging Tide</color>'s Melee Stance, on dealing a CRIT hit, Normal and Charged Attacks apply the Riptide status effect to opponents.",
+                    "icon": "UI_Talent_S_Tartaglia_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Master of Weaponry",
+                    "description": "Increases your own party members' <color=#FFD780FF>Normal Attack</color> Level by 1.",
+                    "icon": "UI_Talent_S_Tartaglia_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Foul Legacy: Tide Withholder",
+                    "description": "Decreases the CD of <color=#FFD780FF>Foul Legacy: Raging Tide</color> by 20%",
+                    "icon": "UI_Talent_S_Tartaglia_01"
+                },
+                "1": {
+                    "name": "Foul Legacy: Understream",
+                    "description": "When opponents affected by Riptide are defeated, Tartaglia regenerates 4 Elemental Energy.",
+                    "icon": "UI_Talent_S_Tartaglia_02"
+                },
+                "2": {
+                    "name": "Abyssal Mayhem: Vortex of Turmoil",
+                    "description": "Increases the Level of <color=#FFD780FF>Foul Legacy: Raging Tide</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Tartaglia_01"
+                },
+                "3": {
+                    "name": "Abyssal Mayhem: Hydrospout",
+                    "description": "If Tartaglia is in <color=#FFD780FF>Foul Legacy: Raging Tide</color>'s Melee Stance, triggers Riptide Slash against opponents on the field affected by Riptide every 4s, otherwise, triggers Riptide Flash.\\nRiptide Slashes and Riptide Flashes triggered by this Constellation effect are not subject to the time intervals that would typically apply to these two Riptide effects, nor do they have any effect on those time intervals.",
+                    "icon": "UI_Talent_S_Tartaglia_05"
+                },
+                "4": {
+                    "name": "Havoc: Formless Blade",
+                    "description": "Increases the Level of <color=#FFD780FF>Havoc: Obliteration</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Tartaglia_02"
+                },
+                "5": {
+                    "name": "Havoc: Annihilation",
+                    "description": "When <color=#FFD780FF>Havoc: Obliteration</color> is cast in Melee Stance, the CD of <color=#FFD780FF>Foul Legacy: Raging Tide</color> is reset.\\nThis effect will only take place once Tartaglia returns to his Ranged Stance.",
+                    "icon": "UI_Talent_S_Tartaglia_04"
+                }
+            },
+            "elevation": {
+                "sub": "Hydro DMG Bonus %",
+                "0": {
+                    "stats": {
+                        "HP": 1020,
+                        "ATK": 23,
+                        "DEF": 63,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2646,
+                        "ATK": 61,
+                        "DEF": 165,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100033",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104121",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112032",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 3521,
+                        "ATK": 81,
+                        "DEF": 219,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 5268,
+                        "ATK": 121,
+                        "DEF": 328,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100033",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104122",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112032",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113012",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 5889,
+                        "ATK": 135,
+                        "DEF": 366,
+                        "sub": 7.199999999999999
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 6776,
+                        "ATK": 156,
+                        "DEF": 421,
+                        "sub": 7.199999999999999
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100033",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104122",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112033",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113012",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 7604,
+                        "ATK": 175,
+                        "DEF": 473,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 8410,
+                        "ATK": 193,
+                        "DEF": 523,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100033",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104123",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112033",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113012",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 9032,
+                        "ATK": 208,
+                        "DEF": 562,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 10116,
+                        "ATK": 233,
+                        "DEF": 629,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100033",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104123",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112034",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113012",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 10737,
+                        "ATK": 247,
+                        "DEF": 668,
+                        "sub": 21.6
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 11561,
+                        "ATK": 266,
+                        "DEF": 719,
+                        "sub": 21.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100033",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104124",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112034",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113012",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 12182,
+                        "ATK": 280,
+                        "DEF": 757,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 13103,
+                        "ATK": 301,
+                        "DEF": 815,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {}
+                }
+            }
+        },
+        "ru": {
+            "name": "Tartaglia",
+            "name_ru": "Тарталья",
+            "id": 10000033,
+            "rarity": 5,
+            "weapon": "Bow",
+            "element": "Hydro",
+            "region": "Snezhnaya",
+            "more": {
+                "title": "Чайльд",
+                "detail": "Номер одиннадцать из Предвестников Фатуи, искусный воин, также известный под именем Чайльд.",
+                "constellation": "Небесный Кит",
+                "group": "Фатуи",
+                "birthday": "20.7",
+                "release": "11.11.2020",
+                "cv": {
+                    "en": "Griffin Burns",
+                    "chs": "鱼冻",
+                    "jp": "木村良平",
+                    "kr": "Nam Do-hyeong"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Дождь расставаний",
+                    "description": "<color=#FFD780FF>Обычная атака:</color>\\nДо шести выстрелов из лука.\\n\\n<color=#FFD780FF>Заряженная атака:</color>\\nБолее меткий <color=#FFD780FF>прицельный выстрел</color> с увеличенным уроном.\\nВо время прицеливания наконечник стрелы заряжается энергией воды. Полностью заряженная водой стрела наносит <color=#80C0FFFF>Гидро урон</color> и накладывает на противника статус <color=#FFD780FF>Отлив</color>.\\n\\nОтлив:\\nНекоторые атаки Тартальи по противникам со статусом Отлив наносят <color=#80C0FFFF>Гидро урон по площади</color>. Этот урон считается нанесённым обычной атакой.\\n·Отлив-вспышка: Полностью заряженный прицельный выстрел по противнику со статусом Отлив наносит последовательный Гидро урон по площади. Возникает раз в 0,7 сек.\\n·Отлив-всплеск: Победа над противником со статусом Отлив вызывает Гидро всплеск, который накладывает на окружающих противника врагов статус Отлив.\\n\\n<color=#FFD780FF>Атака в падении:</color>\\nВыпускает град стрел в воздухе, которые при приземлении персонажа наносят урон по площади.\\nТарталья не может провести атаку в падении, находясь в ближней стойке Формы духа: Бушующие волны.",
+                    "icon": "Skill_A_02",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон атаки 1 41.3%",
+                            "1": "Урон атаки 2 46.3%",
+                            "2": "Урон атаки 3 55.4%",
+                            "3": "Урон атаки 4 57%",
+                            "4": "Урон атаки 5 60.9%",
+                            "5": "Урон атаки 6 72.8%",
+                            "6": "Прицельный выстрел 43.9%",
+                            "7": "Заряженный выстрел 124%",
+                            "8": "Урон Отлив-вспышка 12.4%×3",
+                            "9": "Урон Отлив-всплеск 62%",
+                            "10": "Длительность Отлива 10 сек.",
+                            "11": "Урон в падении 63.9%",
+                            "12": "Урон низкого/высокого удара 127.8%/159.7%"
+                        },
+                        "2": {
+                            "0": "Урон атаки 1 44.6%",
+                            "1": "Урон атаки 2 50%",
+                            "2": "Урон атаки 3 59.9%",
+                            "3": "Урон атаки 4 61.7%",
+                            "4": "Урон атаки 5 65.8%",
+                            "5": "Урон атаки 6 78.7%",
+                            "6": "Прицельный выстрел 47.4%",
+                            "7": "Заряженный выстрел 133.3%",
+                            "8": "Урон Отлив-вспышка 13.3%×3",
+                            "9": "Урон Отлив-всплеск 66.6%",
+                            "10": "Длительность Отлива 10 сек.",
+                            "11": "Урон в падении 69.1%",
+                            "12": "Урон низкого/высокого удара 138.2%/172.7%"
+                        },
+                        "3": {
+                            "0": "Урон атаки 1 48%",
+                            "1": "Урон атаки 2 53.8%",
+                            "2": "Урон атаки 3 64.4%",
+                            "3": "Урон атаки 4 66.3%",
+                            "4": "Урон атаки 5 70.8%",
+                            "5": "Урон атаки 6 84.6%",
+                            "6": "Прицельный выстрел 51%",
+                            "7": "Заряженный выстрел 142.6%",
+                            "8": "Урон Отлив-вспышка 14.3%×3",
+                            "9": "Урон Отлив-всплеск 71.3%",
+                            "10": "Длительность Отлива 10 сек.",
+                            "11": "Урон в падении 74.3%",
+                            "12": "Урон низкого/высокого удара 148.6%/185.7%"
+                        },
+                        "4": {
+                            "0": "Урон атаки 1 52.8%",
+                            "1": "Урон атаки 2 59.2%",
+                            "2": "Урон атаки 3 70.8%",
+                            "3": "Урон атаки 4 72.9%",
+                            "4": "Урон атаки 5 77.9%",
+                            "5": "Урон атаки 6 93.1%",
+                            "6": "Прицельный выстрел 56.1%",
+                            "7": "Заряженный выстрел 155%",
+                            "8": "Урон Отлив-вспышка 15.5%×3",
+                            "9": "Урон Отлив-всплеск 77.5%",
+                            "10": "Длительность Отлива 10 сек.",
+                            "11": "Урон в падении 81.8%",
+                            "12": "Урон низкого/высокого удара 163.5%/204.2%"
+                        },
+                        "5": {
+                            "0": "Урон атаки 1 56.2%",
+                            "1": "Урон атаки 2 62.9%",
+                            "2": "Урон атаки 3 75.3%",
+                            "3": "Урон атаки 4 77.6%",
+                            "4": "Урон атаки 5 82.8%",
+                            "5": "Урон атаки 6 99%",
+                            "6": "Прицельный выстрел 59.7%",
+                            "7": "Заряженный выстрел 164.3%",
+                            "8": "Урон Отлив-вспышка 16.4%×3",
+                            "9": "Урон Отлив-всплеск 82.2%",
+                            "10": "Длительность Отлива 10 сек.",
+                            "11": "Урон в падении 87%",
+                            "12": "Урон низкого/высокого удара 173.9%/217.2%"
+                        },
+                        "6": {
+                            "0": "Урон атаки 1 60%",
+                            "1": "Урон атаки 2 67.2%",
+                            "2": "Урон атаки 3 80.5%",
+                            "3": "Урон атаки 4 82.9%",
+                            "4": "Урон атаки 5 88.5%",
+                            "5": "Урон атаки 6 105.8%",
+                            "6": "Прицельный выстрел 63.7%",
+                            "7": "Заряженный выстрел 173.6%",
+                            "8": "Урон Отлив-вспышка 17.4%×3",
+                            "9": "Урон Отлив-всплеск 86.8%",
+                            "10": "Длительность Отлива 10 сек.",
+                            "11": "Урон в падении 92.9%",
+                            "12": "Урон низкого/высокого удара 185.8%/232.1%"
+                        },
+                        "7": {
+                            "0": "Урон атаки 1 65.3%",
+                            "1": "Урон атаки 2 73.2%",
+                            "2": "Урон атаки 3 87.6%",
+                            "3": "Урон атаки 4 90.2%",
+                            "4": "Урон атаки 5 96.3%",
+                            "5": "Урон атаки 6 115.1%",
+                            "6": "Прицельный выстрел 69.4%",
+                            "7": "Заряженный выстрел 186%",
+                            "8": "Урон Отлив-вспышка 18.6%×3",
+                            "9": "Урон Отлив-всплеск 93%",
+                            "10": "Длительность Отлива 10 сек.",
+                            "11": "Урон в падении 101.1%",
+                            "12": "Урон низкого/высокого удара 202.2%/252.5%"
+                        },
+                        "8": {
+                            "0": "Урон атаки 1 70.6%",
+                            "1": "Урон атаки 2 79.1%",
+                            "2": "Урон атаки 3 94.7%",
+                            "3": "Урон атаки 4 97.5%",
+                            "4": "Урон атаки 5 104.1%",
+                            "5": "Урон атаки 6 124.4%",
+                            "6": "Прицельный выстрел 75%",
+                            "7": "Заряженный выстрел 198.4%",
+                            "8": "Урон Отлив-вспышка 19.8%×3",
+                            "9": "Урон Отлив-всплеск 99.2%",
+                            "10": "Длительность Отлива 10 сек.",
+                            "11": "Урон в падении 109.3%",
+                            "12": "Урон низкого/высокого удара 218.5%/272.9%"
+                        },
+                        "9": {
+                            "0": "Урон атаки 1 75.8%",
+                            "1": "Урон атаки 2 85%",
+                            "2": "Урон атаки 3 101.8%",
+                            "3": "Урон атаки 4 104.8%",
+                            "4": "Урон атаки 5 111.9%",
+                            "5": "Урон атаки 6 133.7%",
+                            "6": "Прицельный выстрел 80.6%",
+                            "7": "Заряженный выстрел 210.8%",
+                            "8": "Урон Отлив-вспышка 21.1%×3",
+                            "9": "Урон Отлив-всплеск 105.4%",
+                            "10": "Длительность Отлива 10 сек.",
+                            "11": "Урон в падении 117.5%",
+                            "12": "Урон низкого/высокого удара 234.9%/293.4%"
+                        },
+                        "10": {
+                            "0": "Урон атаки 1 81.6%",
+                            "1": "Урон атаки 2 91.5%",
+                            "2": "Урон атаки 3 109.5%",
+                            "3": "Урон атаки 4 112.7%",
+                            "4": "Урон атаки 5 120.4%",
+                            "5": "Урон атаки 6 143.8%",
+                            "6": "Прицельный выстрел 86.7%",
+                            "7": "Заряженный выстрел 223.2%",
+                            "8": "Урон Отлив-вспышка 22.3%×3",
+                            "9": "Урон Отлив-всплеск 111.6%",
+                            "10": "Длительность Отлива 10 сек.",
+                            "11": "Урон в падении 126.4%",
+                            "12": "Урон низкого/высокого удара 252.7%/315.6%"
+                        },
+                        "11": {
+                            "0": "Урон атаки 1 87.4%",
+                            "1": "Урон атаки 2 97.9%",
+                            "2": "Урон атаки 3 117.2%",
+                            "3": "Урон атаки 4 120.7%",
+                            "4": "Урон атаки 5 128.9%",
+                            "5": "Урон атаки 6 154%",
+                            "6": "Прицельный выстрел 92.8%",
+                            "7": "Заряженный выстрел 235.6%",
+                            "8": "Урон Отлив-вспышка 23.6%×3",
+                            "9": "Урон Отлив-всплеск 117.8%",
+                            "10": "Длительность Отлива 10 сек.",
+                            "11": "Урон в падении 135.3%",
+                            "12": "Урон низкого/высокого удара 270.5%/337.9%"
+                        },
+                        "12": {
+                            "0": "Урон атаки 1 93.1%",
+                            "1": "Урон атаки 2 104.4%",
+                            "2": "Урон атаки 3 124.9%",
+                            "3": "Урон атаки 4 128.6%",
+                            "4": "Урон атаки 5 137.4%",
+                            "5": "Урон атаки 6 164.1%",
+                            "6": "Прицельный выстрел 98.9%",
+                            "7": "Заряженный выстрел 248%",
+                            "8": "Урон Отлив-вспышка 24.8%×3",
+                            "9": "Урон Отлив-всплеск 124%",
+                            "10": "Длительность Отлива 10 сек.",
+                            "11": "Урон в падении 144.2%",
+                            "12": "Урон низкого/высокого удара 288.4%/360.2%"
+                        },
+                        "13": {
+                            "0": "Урон атаки 1 98.9%",
+                            "1": "Урон атаки 2 110.8%",
+                            "2": "Урон атаки 3 132.7%",
+                            "3": "Урон атаки 4 136.6%",
+                            "4": "Урон атаки 5 145.8%",
+                            "5": "Урон атаки 6 174.3%",
+                            "6": "Прицельный выстрел 105.1%",
+                            "7": "Заряженный выстрел 263.5%",
+                            "8": "Урон Отлив-вспышка 26.4%×3",
+                            "9": "Урон Отлив-всплеск 131.8%",
+                            "10": "Длительность Отлива 10 сек.",
+                            "11": "Урон в падении 153.1%",
+                            "12": "Урон низкого/высокого удара 306.2%/382.5%"
+                        },
+                        "14": {
+                            "0": "Урон атаки 1 104.6%",
+                            "1": "Урон атаки 2 117.3%",
+                            "2": "Урон атаки 3 140.4%",
+                            "3": "Урон атаки 4 144.5%",
+                            "4": "Урон атаки 5 154.3%",
+                            "5": "Урон атаки 6 184.4%",
+                            "6": "Прицельный выстрел 111.2%",
+                            "7": "Заряженный выстрел 279%",
+                            "8": "Урон Отлив-вспышка 27.9%×3",
+                            "9": "Урон Отлив-всплеск 139.5%",
+                            "10": "Длительность Отлива 10 сек.",
+                            "11": "Урон в падении 162.1%",
+                            "12": "Урон низкого/высокого удара 324.1%/404.8%"
+                        },
+                        "15": {
+                            "0": "Урон атаки 1 110.4%",
+                            "1": "Урон атаки 2 123.7%",
+                            "2": "Урон атаки 3 148.1%",
+                            "3": "Урон атаки 4 152.5%",
+                            "4": "Урон атаки 5 162.8%",
+                            "5": "Урон атаки 6 194.6%",
+                            "6": "Прицельный выстрел 117.3%",
+                            "7": "Заряженный выстрел 294.5%",
+                            "8": "Урон Отлив-вспышка 29.4%×3",
+                            "9": "Урон Отлив-всплеск 147.2%",
+                            "10": "Длительность Отлива 10 сек.",
+                            "11": "Урон в падении 171%",
+                            "12": "Урон низкого/высокого удара 341.9%/427%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104301",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113014",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113014",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113014",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113014",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Форма духа: Бушующие волны",
+                    "description": "Тарталья обнажает клинки из чистой воды, которые наносят <color=#80C0FFFF>Гидро урон</color> окружающим врагам и активируют ближнюю стойку.\\nВ этой стойке обычные и заряженные атаки Тартальи наносят <color=#80C0FFFF>Гидро урон</color>, который не может быть отменён какой-либо элементальной инфузией, и изменяются следующим образом:\\n\\n<color=#FFD780FF>Обычная атака:</color>\\nДо шести ударов <color=#80C0FFFF>Гидро</color> клинками.\\n\\n<color=#FFD780FF>Заряженная атака:</color>\\nПерекрёстный удар, который наносит <color=#80C0FFFF>Гидро урон</color> и затрачивает определённое количество выносливости.\\n\\n<color=#FFD780FF>Отлив-удар:</color>\\nАтаки в ближней стойке по противникам со статусом Отлив вызывают Отлив-удар, который наносит <color=#80C0FFFF>Гидро урон по площади</color>. Этот урон считается уроном элементального навыка. Отлив-удар срабатывает не чаще чем один раз в 1,5 сек.\\n\\nТарталья возвращается в дальнюю стойку по истечении 30 сек. или при повторной активации навыка, а сам навык уходит в откат. Чем дольше Тарталья был в ближней стойке, тем дольше будет время отката навыка.\\nВремя отката увеличивается, если возврат в дальнюю стойку произошёл по истечении 30 сек.\\n\\n<i>Он взял на вооружение лук для того, чтобы отточить мастерство стрельбы, но серьёзный бой может потребовать обнажить клинок...</i>",
+                    "icon": "Skill_S_Tartaglia_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон от смены стойки 72%",
+                            "1": "Урон атаки 1 38.9%",
+                            "2": "Урон атаки 2 41.6%",
+                            "3": "Урон атаки 3 56.3%",
+                            "4": "Урон атаки 4 59.9%",
+                            "5": "Урон атаки 5 55.3%",
+                            "6": "Урон атаки 6 35.4%+37.7%",
+                            "7": "Урон заряженной атаки 60.2%+72%",
+                            "8": "Потребление выносливости 20 ед.",
+                            "9": "Урон Отлив-удар 60.2%",
+                            "10": "Макс. длительность 30 сек.",
+                            "11": "Время отката 6-36 сек.",
+                            "12": "Макс. время отката 45 сек."
+                        },
+                        "2": {
+                            "0": "Урон от смены стойки 77.4%",
+                            "1": "Урон атаки 1 42%",
+                            "2": "Урон атаки 2 45%",
+                            "3": "Урон атаки 3 60.9%",
+                            "4": "Урон атаки 4 64.8%",
+                            "5": "Урон атаки 5 59.8%",
+                            "6": "Урон атаки 6 38.3%+40.7%",
+                            "7": "Урон заряженной атаки 65.1%+77.8%",
+                            "8": "Потребление выносливости 20 ед.",
+                            "9": "Урон Отлив-удар 65.1%",
+                            "10": "Макс. длительность 30 сек.",
+                            "11": "Время отката 6-36 сек.",
+                            "12": "Макс. время отката 45 сек."
+                        },
+                        "3": {
+                            "0": "Урон от смены стойки 82.8%",
+                            "1": "Урон атаки 1 45.2%",
+                            "2": "Урон атаки 2 48.4%",
+                            "3": "Урон атаки 3 65.5%",
+                            "4": "Урон атаки 4 69.7%",
+                            "5": "Урон атаки 5 64.3%",
+                            "6": "Урон атаки 6 41.2%+43.8%",
+                            "7": "Урон заряженной атаки 70%+83.7%",
+                            "8": "Потребление выносливости 20 ед.",
+                            "9": "Урон Отлив-удар 70%",
+                            "10": "Макс. длительность 30 сек.",
+                            "11": "Время отката 6-36 сек.",
+                            "12": "Макс. время отката 45 сек."
+                        },
+                        "4": {
+                            "0": "Урон от смены стойки 90%",
+                            "1": "Урон атаки 1 49.7%",
+                            "2": "Урон атаки 2 53.2%",
+                            "3": "Урон атаки 3 72%",
+                            "4": "Урон атаки 4 76.7%",
+                            "5": "Урон атаки 5 70.7%",
+                            "6": "Урон атаки 6 45.3%+48.2%",
+                            "7": "Урон заряженной атаки 77%+92.1%",
+                            "8": "Потребление выносливости 20 ед.",
+                            "9": "Урон Отлив-удар 77%",
+                            "10": "Макс. длительность 30 сек.",
+                            "11": "Время отката 6-36 сек.",
+                            "12": "Макс. время отката 45 сек."
+                        },
+                        "5": {
+                            "0": "Урон от смены стойки 95.4%",
+                            "1": "Урон атаки 1 52.9%",
+                            "2": "Урон атаки 2 56.6%",
+                            "3": "Урон атаки 3 76.6%",
+                            "4": "Урон атаки 4 81.5%",
+                            "5": "Урон атаки 5 75.2%",
+                            "6": "Урон атаки 6 48.2%+51.2%",
+                            "7": "Урон заряженной атаки 81.9%+97.9%",
+                            "8": "Потребление выносливости 20 ед.",
+                            "9": "Урон Отлив-удар 81.9%",
+                            "10": "Макс. длительность 30 сек.",
+                            "11": "Время отката 6-36 сек.",
+                            "12": "Макс. время отката 45 сек."
+                        },
+                        "6": {
+                            "0": "Урон от смены стойки 100.8%",
+                            "1": "Урон атаки 1 56.5%",
+                            "2": "Урон атаки 2 60.5%",
+                            "3": "Урон атаки 3 81.9%",
+                            "4": "Урон атаки 4 87.1%",
+                            "5": "Урон атаки 5 80.4%",
+                            "6": "Урон атаки 6 51.5%+54.8%",
+                            "7": "Урон заряженной атаки 87.5%+104.6%",
+                            "8": "Потребление выносливости 20 ед.",
+                            "9": "Урон Отлив-удар 87.5%",
+                            "10": "Макс. длительность 30 сек.",
+                            "11": "Время отката 6-36 сек.",
+                            "12": "Макс. время отката 45 сек."
+                        },
+                        "7": {
+                            "0": "Урон от смены стойки 108%",
+                            "1": "Урон атаки 1 61.5%",
+                            "2": "Урон атаки 2 65.8%",
+                            "3": "Урон атаки 3 89.1%",
+                            "4": "Урон атаки 4 94.8%",
+                            "5": "Урон атаки 5 87.4%",
+                            "6": "Урон атаки 6 56%+59.6%",
+                            "7": "Урон заряженной атаки 95.2%+113.8%",
+                            "8": "Потребление выносливости 20 ед.",
+                            "9": "Урон Отлив-удар 95.2%",
+                            "10": "Макс. длительность 30 сек.",
+                            "11": "Время отката 6-36 сек.",
+                            "12": "Макс. время отката 45 сек."
+                        },
+                        "8": {
+                            "0": "Урон от смены стойки 115.2%",
+                            "1": "Урон атаки 1 66.4%",
+                            "2": "Урон атаки 2 71.1%",
+                            "3": "Урон атаки 3 96.3%",
+                            "4": "Урон атаки 4 102.5%",
+                            "5": "Урон атаки 5 94.5%",
+                            "6": "Урон атаки 6 60.6%+64.4%",
+                            "7": "Урон заряженной атаки 102.9%+123%",
+                            "8": "Потребление выносливости 20 ед.",
+                            "9": "Урон Отлив-удар 102.9%",
+                            "10": "Макс. длительность 30 сек.",
+                            "11": "Время отката 6-36 сек.",
+                            "12": "Макс. время отката 45 сек."
+                        },
+                        "9": {
+                            "0": "Урон от смены стойки 122.4%",
+                            "1": "Урон атаки 1 71.4%",
+                            "2": "Урон атаки 2 76.5%",
+                            "3": "Урон атаки 3 103.5%",
+                            "4": "Урон атаки 4 110.1%",
+                            "5": "Урон атаки 5 101.6%",
+                            "6": "Урон атаки 6 65.1%+69.2%",
+                            "7": "Урон заряженной атаки 110.6%+132.2%",
+                            "8": "Потребление выносливости 20 ед.",
+                            "9": "Урон Отлив-удар 110.6%",
+                            "10": "Макс. длительность 30 сек.",
+                            "11": "Время отката 6-36 сек.",
+                            "12": "Макс. время отката 45 сек."
+                        },
+                        "10": {
+                            "0": "Урон от смены стойки 129.6%",
+                            "1": "Урон атаки 1 76.8%",
+                            "2": "Урон атаки 2 82.3%",
+                            "3": "Урон атаки 3 111.3%",
+                            "4": "Урон атаки 4 118.5%",
+                            "5": "Урон атаки 5 109.3%",
+                            "6": "Урон атаки 6 70%+74.5%",
+                            "7": "Урон заряженной атаки 119%+142.3%",
+                            "8": "Потребление выносливости 20 ед.",
+                            "9": "Урон Отлив-удар 119%",
+                            "10": "Макс. длительность 30 сек.",
+                            "11": "Время отката 6-36 сек.",
+                            "12": "Макс. время отката 45 сек."
+                        },
+                        "11": {
+                            "0": "Урон от смены стойки 136.8%",
+                            "1": "Урон атаки 1 82.3%",
+                            "2": "Урон атаки 2 88.1%",
+                            "3": "Урон атаки 3 119.2%",
+                            "4": "Урон атаки 4 126.9%",
+                            "5": "Урон атаки 5 117%",
+                            "6": "Урон атаки 6 75%+79.7%",
+                            "7": "Урон заряженной атаки 127.4%+152.3%",
+                            "8": "Потребление выносливости 20 ед.",
+                            "9": "Урон Отлив-удар 127.4%",
+                            "10": "Макс. длительность 30 сек.",
+                            "11": "Время отката 6-36 сек.",
+                            "12": "Макс. время отката 45 сек."
+                        },
+                        "12": {
+                            "0": "Урон от смены стойки 144%",
+                            "1": "Урон атаки 1 87.7%",
+                            "2": "Урон атаки 2 93.9%",
+                            "3": "Урон атаки 3 127.1%",
+                            "4": "Урон атаки 4 135.2%",
+                            "5": "Урон атаки 5 124.7%",
+                            "6": "Урон атаки 6 79.9%+85%",
+                            "7": "Урон заряженной атаки 135.8%+162.4%",
+                            "8": "Потребление выносливости 20 ед.",
+                            "9": "Урон Отлив-удар 135.8%",
+                            "10": "Макс. длительность 30 сек.",
+                            "11": "Время отката 6-36 сек.",
+                            "12": "Макс. время отката 45 сек."
+                        },
+                        "13": {
+                            "0": "Урон от смены стойки 153%",
+                            "1": "Урон атаки 1 93.1%",
+                            "2": "Урон атаки 2 99.7%",
+                            "3": "Урон атаки 3 134.9%",
+                            "4": "Урон атаки 4 143.6%",
+                            "5": "Урон атаки 5 132.5%",
+                            "6": "Урон атаки 6 84.9%+90.2%",
+                            "7": "Урон заряженной атаки 144.2%+172.4%",
+                            "8": "Потребление выносливости 20 ед.",
+                            "9": "Урон Отлив-удар 144.2%",
+                            "10": "Макс. длительность 30 сек.",
+                            "11": "Время отката 6-36 сек.",
+                            "12": "Макс. время отката 45 сек."
+                        },
+                        "14": {
+                            "0": "Урон от смены стойки 162%",
+                            "1": "Урон атаки 1 98.5%",
+                            "2": "Урон атаки 2 105.5%",
+                            "3": "Урон атаки 3 142.8%",
+                            "4": "Урон атаки 4 151.9%",
+                            "5": "Урон атаки 5 140.2%",
+                            "6": "Урон атаки 6 89.8%+95.5%",
+                            "7": "Урон заряженной атаки 152.6%+182.5%",
+                            "8": "Потребление выносливости 20 ед.",
+                            "9": "Урон Отлив-удар 152.6%",
+                            "10": "Макс. длительность 30 сек.",
+                            "11": "Время отката 6-36 сек.",
+                            "12": "Макс. время отката 45 сек."
+                        },
+                        "15": {
+                            "0": "Урон от смены стойки 171%",
+                            "1": "Урон атаки 1 104%",
+                            "2": "Урон атаки 2 111.3%",
+                            "3": "Урон атаки 3 150.7%",
+                            "4": "Урон атаки 4 160.3%",
+                            "5": "Урон атаки 5 147.9%",
+                            "6": "Урон атаки 6 94.8%+100.7%",
+                            "7": "Урон заряженной атаки 161%+192.5%",
+                            "8": "Потребление выносливости 20 ед.",
+                            "9": "Урон Отлив-удар 161%",
+                            "10": "Макс. длительность 30 сек.",
+                            "11": "Время отката 6-36 сек.",
+                            "12": "Макс. время отката 45 сек."
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104301",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113014",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113014",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113014",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113014",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Хаос: Опустошение",
+                    "description": "Совершаемая атака определяется стойкой, в которой находится Тарталья.\\n\\n<color=#FFD780FF>Дальняя стойка - Вспышка хаоса:</color>\\nТарталья выпускает заряженную водной стихией стрелу, которая наносит <color=#80C0FFFF>Гидро урон по площади</color> и накладывает на врагов статус Отлив.\\nПосле активации навык восстанавливает часть энергии.\\n\\n<color=#FFD780FF>Ближняя стойка - Свет погибели:</color>\\nТарталья выполняет круговую атаку, которая наносит большой <color=#80C0FFFF>Гидро урон</color> окружающим врагам и накладывает на них статус Отлив-взрыв.\\n\\n<color=#FFD780FF>Отлив-взрыв:</color>\\nАтака Свет погибели, попавшая по врагам со статусом Отлив, снимает с них этот статус, вызывая при этом Гидро взрывы, которые наносят <color=#80C0FFFF>Гидро урон по площади</color>. Урон Отлив-взрыва считается уроном взрыва стихии.\\n\\n<i>В его заснеженной родине бурлящие потоки воды встречаются не часто. Возможно, способность Тартальи управлять водой объясняется пониманием того, насколько она драгоценна.</i>",
+                    "icon": "Skill_E_Tartaglia_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка: ближняя стойка 464%",
+                            "1": "Урон навыка: дальняя стойка 378.4%",
+                            "2": "Урон Отлив-взрыв 120%",
+                            "3": "Возврат энергии (дальняя стойка) 20",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "2": {
+                            "0": "Урон навыка: ближняя стойка 498.8%",
+                            "1": "Урон навыка: дальняя стойка 406.8%",
+                            "2": "Урон Отлив-взрыв 129%",
+                            "3": "Возврат энергии (дальняя стойка) 20",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "3": {
+                            "0": "Урон навыка: ближняя стойка 533.6%",
+                            "1": "Урон навыка: дальняя стойка 435.2%",
+                            "2": "Урон Отлив-взрыв 138%",
+                            "3": "Возврат энергии (дальняя стойка) 20",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "4": {
+                            "0": "Урон навыка: ближняя стойка 580%",
+                            "1": "Урон навыка: дальняя стойка 473%",
+                            "2": "Урон Отлив-взрыв 150%",
+                            "3": "Возврат энергии (дальняя стойка) 20",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "5": {
+                            "0": "Урон навыка: ближняя стойка 614.8%",
+                            "1": "Урон навыка: дальняя стойка 501.4%",
+                            "2": "Урон Отлив-взрыв 159%",
+                            "3": "Возврат энергии (дальняя стойка) 20",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "6": {
+                            "0": "Урон навыка: ближняя стойка 649.6%",
+                            "1": "Урон навыка: дальняя стойка 529.8%",
+                            "2": "Урон Отлив-взрыв 168%",
+                            "3": "Возврат энергии (дальняя стойка) 20",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "7": {
+                            "0": "Урон навыка: ближняя стойка 696%",
+                            "1": "Урон навыка: дальняя стойка 567.6%",
+                            "2": "Урон Отлив-взрыв 180%",
+                            "3": "Возврат энергии (дальняя стойка) 20",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "8": {
+                            "0": "Урон навыка: ближняя стойка 742.4%",
+                            "1": "Урон навыка: дальняя стойка 605.4%",
+                            "2": "Урон Отлив-взрыв 192%",
+                            "3": "Возврат энергии (дальняя стойка) 20",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "9": {
+                            "0": "Урон навыка: ближняя стойка 788.8%",
+                            "1": "Урон навыка: дальняя стойка 643.3%",
+                            "2": "Урон Отлив-взрыв 204%",
+                            "3": "Возврат энергии (дальняя стойка) 20",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "10": {
+                            "0": "Урон навыка: ближняя стойка 835.2%",
+                            "1": "Урон навыка: дальняя стойка 681.1%",
+                            "2": "Урон Отлив-взрыв 216%",
+                            "3": "Возврат энергии (дальняя стойка) 20",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "11": {
+                            "0": "Урон навыка: ближняя стойка 881.6%",
+                            "1": "Урон навыка: дальняя стойка 719%",
+                            "2": "Урон Отлив-взрыв 228%",
+                            "3": "Возврат энергии (дальняя стойка) 20",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "12": {
+                            "0": "Урон навыка: ближняя стойка 928%",
+                            "1": "Урон навыка: дальняя стойка 756.8%",
+                            "2": "Урон Отлив-взрыв 240%",
+                            "3": "Возврат энергии (дальняя стойка) 20",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "13": {
+                            "0": "Урон навыка: ближняя стойка 986%",
+                            "1": "Урон навыка: дальняя стойка 804.1%",
+                            "2": "Урон Отлив-взрыв 255%",
+                            "3": "Возврат энергии (дальняя стойка) 20",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "14": {
+                            "0": "Урон навыка: ближняя стойка 1044%",
+                            "1": "Урон навыка: дальняя стойка 851.4%",
+                            "2": "Урон Отлив-взрыв 270%",
+                            "3": "Возврат энергии (дальняя стойка) 20",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "15": {
+                            "0": "Урон навыка: ближняя стойка 1102%",
+                            "1": "Урон навыка: дальняя стойка 898.7%",
+                            "2": "Урон Отлив-взрыв 285%",
+                            "3": "Возврат энергии (дальняя стойка) 20",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104301",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113014",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113014",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113014",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113014",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Хаос: Опустошение",
+                    "description": "Совершаемая атака определяется стойкой, в которой находится Тарталья.\\n\\n<color=#FFD780FF>Дальняя стойка - Вспышка хаоса:</color>\\nТарталья выпускает заряженную водной стихией стрелу, которая наносит <color=#80C0FFFF>Гидро урон по площади</color> и накладывает на врагов статус Отлив.\\nПосле активации навык восстанавливает часть энергии.\\n\\n<color=#FFD780FF>Ближняя стойка - Свет погибели:</color>\\nТарталья выполняет круговую атаку, которая наносит большой <color=#80C0FFFF>Гидро урон</color> окружающим врагам и накладывает на них статус Отлив-взрыв.\\n\\n<color=#FFD780FF>Отлив-взрыв:</color>\\nАтака Свет погибели, попавшая по врагам со статусом Отлив, снимает с них этот статус, вызывая при этом Гидро взрывы, которые наносят <color=#80C0FFFF>Гидро урон по площади</color>. Урон Отлив-взрыва считается уроном взрыва стихии.\\n\\n<i>В его заснеженной родине бурлящие потоки воды встречаются не часто. Возможно, способность Тартальи управлять водой объясняется пониманием того, насколько она драгоценна.</i>",
+                    "icon": "Skill_E_Tartaglia_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка: ближняя стойка 464%",
+                            "1": "Урон навыка: дальняя стойка 378.4%",
+                            "2": "Урон Отлив-взрыв 120%",
+                            "3": "Возврат энергии (дальняя стойка) 20",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "2": {
+                            "0": "Урон навыка: ближняя стойка 498.8%",
+                            "1": "Урон навыка: дальняя стойка 406.8%",
+                            "2": "Урон Отлив-взрыв 129%",
+                            "3": "Возврат энергии (дальняя стойка) 20",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "3": {
+                            "0": "Урон навыка: ближняя стойка 533.6%",
+                            "1": "Урон навыка: дальняя стойка 435.2%",
+                            "2": "Урон Отлив-взрыв 138%",
+                            "3": "Возврат энергии (дальняя стойка) 20",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "4": {
+                            "0": "Урон навыка: ближняя стойка 580%",
+                            "1": "Урон навыка: дальняя стойка 473%",
+                            "2": "Урон Отлив-взрыв 150%",
+                            "3": "Возврат энергии (дальняя стойка) 20",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "5": {
+                            "0": "Урон навыка: ближняя стойка 614.8%",
+                            "1": "Урон навыка: дальняя стойка 501.4%",
+                            "2": "Урон Отлив-взрыв 159%",
+                            "3": "Возврат энергии (дальняя стойка) 20",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "6": {
+                            "0": "Урон навыка: ближняя стойка 649.6%",
+                            "1": "Урон навыка: дальняя стойка 529.8%",
+                            "2": "Урон Отлив-взрыв 168%",
+                            "3": "Возврат энергии (дальняя стойка) 20",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "7": {
+                            "0": "Урон навыка: ближняя стойка 696%",
+                            "1": "Урон навыка: дальняя стойка 567.6%",
+                            "2": "Урон Отлив-взрыв 180%",
+                            "3": "Возврат энергии (дальняя стойка) 20",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "8": {
+                            "0": "Урон навыка: ближняя стойка 742.4%",
+                            "1": "Урон навыка: дальняя стойка 605.4%",
+                            "2": "Урон Отлив-взрыв 192%",
+                            "3": "Возврат энергии (дальняя стойка) 20",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "9": {
+                            "0": "Урон навыка: ближняя стойка 788.8%",
+                            "1": "Урон навыка: дальняя стойка 643.3%",
+                            "2": "Урон Отлив-взрыв 204%",
+                            "3": "Возврат энергии (дальняя стойка) 20",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "10": {
+                            "0": "Урон навыка: ближняя стойка 835.2%",
+                            "1": "Урон навыка: дальняя стойка 681.1%",
+                            "2": "Урон Отлив-взрыв 216%",
+                            "3": "Возврат энергии (дальняя стойка) 20",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "11": {
+                            "0": "Урон навыка: ближняя стойка 881.6%",
+                            "1": "Урон навыка: дальняя стойка 719%",
+                            "2": "Урон Отлив-взрыв 228%",
+                            "3": "Возврат энергии (дальняя стойка) 20",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "12": {
+                            "0": "Урон навыка: ближняя стойка 928%",
+                            "1": "Урон навыка: дальняя стойка 756.8%",
+                            "2": "Урон Отлив-взрыв 240%",
+                            "3": "Возврат энергии (дальняя стойка) 20",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "13": {
+                            "0": "Урон навыка: ближняя стойка 986%",
+                            "1": "Урон навыка: дальняя стойка 804.1%",
+                            "2": "Урон Отлив-взрыв 255%",
+                            "3": "Возврат энергии (дальняя стойка) 20",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "14": {
+                            "0": "Урон навыка: ближняя стойка 1044%",
+                            "1": "Урон навыка: дальняя стойка 851.4%",
+                            "2": "Урон Отлив-взрыв 270%",
+                            "3": "Возврат энергии (дальняя стойка) 20",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        },
+                        "15": {
+                            "0": "Урон навыка: ближняя стойка 1102%",
+                            "1": "Урон навыка: дальняя стойка 898.7%",
+                            "2": "Урон Отлив-взрыв 285%",
+                            "3": "Возврат энергии (дальняя стойка) 20",
+                            "4": "Время отката 15 сек.",
+                            "5": "Потребление энергии 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104301",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104302",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113014",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113014",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113014",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104303",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113014",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Не кончается пытка",
+                    "description": "Увеличивает длительность статуса Отлив на 8 сек.",
+                    "icon": "UI_Talent_S_Tartaglia_03",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Водяной меч",
+                    "description": "Когда Тарталья находится в рукопашной стойке навыка <color=#FFD780FF>Форма духа: Бушующие волны</color>, крит. попадания обычными или заряженными атаками накладывают на противников статус Отлив.",
+                    "icon": "UI_Talent_S_Tartaglia_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Мастерское владение оружием",
+                    "description": "Увеличивает уровень <color=#FFD780FF>обычной атаки</color> персонажей вашего отряда на 1.",
+                    "icon": "UI_Talent_S_Tartaglia_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Форма духа: Останавливающий волну",
+                    "description": "Уменьшает время отката навыка <color=#FFD780FF>Форма духа: Бушующие волны</color> на 20%.",
+                    "icon": "UI_Talent_S_Tartaglia_01"
+                },
+                "1": {
+                    "name": "Форма духа: Скрытое течение",
+                    "description": "Когда враги со статусом Отлив побеждены, Тарталья восстанавливает 4 ед. элементальной энергии.",
+                    "icon": "UI_Talent_S_Tartaglia_02"
+                },
+                "2": {
+                    "name": "Хаос бездны: Источник беспорядков",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Форма духа: Бушующие волны</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Tartaglia_01"
+                },
+                "3": {
+                    "name": "Хаос бездны: Гидро излив",
+                    "description": "Когда Тарталья находится в стойке <color=#FFD780FF>Форма духа: Бушующие волны</color>, враги со статусом Отлив получают урон от эффекта Отлив-удар каждые 4 сек. В противном случае срабатывает эффект Отлив-вспышка.\\nНа эффекты Отлив-удар и Отлив-вспышка, вызванные этим уровнем созвездия, не действуют их обычные ограничения длительности, также они не имеют никаких эффектов в этих временных промежутках.",
+                    "icon": "UI_Talent_S_Tartaglia_05"
+                },
+                "4": {
+                    "name": "Хаос: Бесформенный клинок",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Хаос: Опустошение</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Tartaglia_02"
+                },
+                "5": {
+                    "name": "Хаос: Охота на ангелов",
+                    "description": "При активации навыка <color=#FFD780FF>Хаос: Опустошение</color> обнуляется время отката навыка <color=#FFD780FF>Форма духа: Бушующие волны</color>.\\nЭтот эффект срабатывает, только когда Тарталья возвращается в дальнюю стойку.",
+                    "icon": "UI_Talent_S_Tartaglia_04"
+                }
+            },
+            "elevation": {
+                "sub": "Бонус Гидро урона %",
+                "0": {
+                    "stats": {
+                        "HP": 1020,
+                        "ATK": 23,
+                        "DEF": 63,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2646,
+                        "ATK": 61,
+                        "DEF": 165,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100033",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104121",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112032",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 3521,
+                        "ATK": 81,
+                        "DEF": 219,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 5268,
+                        "ATK": 121,
+                        "DEF": 328,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100033",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104122",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112032",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113012",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 5889,
+                        "ATK": 135,
+                        "DEF": 366,
+                        "sub": 7.199999999999999
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 6776,
+                        "ATK": 156,
+                        "DEF": 421,
+                        "sub": 7.199999999999999
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100033",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104122",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112033",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113012",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 7604,
+                        "ATK": 175,
+                        "DEF": 473,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 8410,
+                        "ATK": 193,
+                        "DEF": 523,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100033",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104123",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112033",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113012",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 9032,
+                        "ATK": 208,
+                        "DEF": 562,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 10116,
+                        "ATK": 233,
+                        "DEF": 629,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100033",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104123",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112034",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113012",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 10737,
+                        "ATK": 247,
+                        "DEF": 668,
+                        "sub": 21.6
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 11561,
+                        "ATK": 266,
+                        "DEF": 719,
+                        "sub": 21.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100033",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104124",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112034",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113012",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 12182,
+                        "ATK": 280,
+                        "DEF": 757,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 13103,
+                        "ATK": 301,
+                        "DEF": 815,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {}
+                }
+            }
+        }
+    }
+}

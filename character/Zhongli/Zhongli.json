@@ -1,0 +1,2964 @@
+{
+    "Zhongli": {
+        "en": {
+            "name": "Zhongli",
+            "name_ru": "Чжун Ли",
+            "id": 10000030,
+            "rarity": 5,
+            "weapon": "Polearm",
+            "element": "Geo",
+            "region": "Liyue",
+            "more": {
+                "title": "Vago Mundo",
+                "detail": "A mysterious expert contracted by the Wangsheng Funeral Parlor. Extremely knowledgeable in all things.",
+                "constellation": "Lapis Dei",
+                "group": "Liyue Harbor",
+                "birthday": "31.12",
+                "release": "02.12.2020",
+                "cv": {
+                    "en": "Keith Silverstein",
+                    "chs": "彭博",
+                    "jp": "前野智昭",
+                    "kr": "Pyo Young-jae"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Normal Attack: Rain of Stone",
+                    "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 6 consecutive spear strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to lunge forward, causing stone spears to fall along his path.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+                    "icon": "Skill_A_03",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "1-Hit DMG 30.8%",
+                            "1": "2-Hit DMG 31.2%",
+                            "2": "3-Hit DMG 38.6%",
+                            "3": "4-Hit DMG 42.9%",
+                            "4": "5-Hit DMG 10.8%×4",
+                            "5": "6-Hit DMG 54.5%",
+                            "6": "Charged Attack DMG 111%",
+                            "7": "Charged Attack Stamina Cost 25",
+                            "8": "Plunge DMG 63.9%",
+                            "9": "Low/High Plunge DMG 127.8%/159.7%"
+                        },
+                        "2": {
+                            "0": "1-Hit DMG 33.3%",
+                            "1": "2-Hit DMG 33.7%",
+                            "2": "3-Hit DMG 41.7%",
+                            "3": "4-Hit DMG 46.4%",
+                            "4": "5-Hit DMG 11.6%×4",
+                            "5": "6-Hit DMG 58.9%",
+                            "6": "Charged Attack DMG 120.1%",
+                            "7": "Charged Attack Stamina Cost 25",
+                            "8": "Plunge DMG 69.1%",
+                            "9": "Low/High Plunge DMG 138.2%/172.7%"
+                        },
+                        "3": {
+                            "0": "1-Hit DMG 35.8%",
+                            "1": "2-Hit DMG 36.2%",
+                            "2": "3-Hit DMG 44.9%",
+                            "3": "4-Hit DMG 49.9%",
+                            "4": "5-Hit DMG 12.5%×4",
+                            "5": "6-Hit DMG 63.4%",
+                            "6": "Charged Attack DMG 129.1%",
+                            "7": "Charged Attack Stamina Cost 25",
+                            "8": "Plunge DMG 74.3%",
+                            "9": "Low/High Plunge DMG 148.6%/185.7%"
+                        },
+                        "4": {
+                            "0": "1-Hit DMG 39.4%",
+                            "1": "2-Hit DMG 39.8%",
+                            "2": "3-Hit DMG 49.3%",
+                            "3": "4-Hit DMG 54.9%",
+                            "4": "5-Hit DMG 13.8%×4",
+                            "5": "6-Hit DMG 69.7%",
+                            "6": "Charged Attack DMG 142%",
+                            "7": "Charged Attack Stamina Cost 25",
+                            "8": "Plunge DMG 81.8%",
+                            "9": "Low/High Plunge DMG 163.5%/204.2%"
+                        },
+                        "5": {
+                            "0": "1-Hit DMG 41.9%",
+                            "1": "2-Hit DMG 42.4%",
+                            "2": "3-Hit DMG 52.5%",
+                            "3": "4-Hit DMG 58.4%",
+                            "4": "5-Hit DMG 14.6%×4",
+                            "5": "6-Hit DMG 74.1%",
+                            "6": "Charged Attack DMG 151%",
+                            "7": "Charged Attack Stamina Cost 25",
+                            "8": "Plunge DMG 87%",
+                            "9": "Low/High Plunge DMG 173.9%/217.2%"
+                        },
+                        "6": {
+                            "0": "1-Hit DMG 44.7%",
+                            "1": "2-Hit DMG 45.3%",
+                            "2": "3-Hit DMG 56.1%",
+                            "3": "4-Hit DMG 62.4%",
+                            "4": "5-Hit DMG 15.6%×4",
+                            "5": "6-Hit DMG 79.2%",
+                            "6": "Charged Attack DMG 161.4%",
+                            "7": "Charged Attack Stamina Cost 25",
+                            "8": "Plunge DMG 92.9%",
+                            "9": "Low/High Plunge DMG 185.8%/232.1%"
+                        },
+                        "7": {
+                            "0": "1-Hit DMG 48.7%",
+                            "1": "2-Hit DMG 49.3%",
+                            "2": "3-Hit DMG 61%",
+                            "3": "4-Hit DMG 67.9%",
+                            "4": "5-Hit DMG 17%×4",
+                            "5": "6-Hit DMG 86.2%",
+                            "6": "Charged Attack DMG 175.6%",
+                            "7": "Charged Attack Stamina Cost 25",
+                            "8": "Plunge DMG 101.1%",
+                            "9": "Low/High Plunge DMG 202.2%/252.5%"
+                        },
+                        "8": {
+                            "0": "1-Hit DMG 52.6%",
+                            "1": "2-Hit DMG 53.2%",
+                            "2": "3-Hit DMG 65.9%",
+                            "3": "4-Hit DMG 73.4%",
+                            "4": "5-Hit DMG 18.4%×4",
+                            "5": "6-Hit DMG 93.2%",
+                            "6": "Charged Attack DMG 189.8%",
+                            "7": "Charged Attack Stamina Cost 25",
+                            "8": "Plunge DMG 109.3%",
+                            "9": "Low/High Plunge DMG 218.5%/272.9%"
+                        },
+                        "9": {
+                            "0": "1-Hit DMG 56.5%",
+                            "1": "2-Hit DMG 57.2%",
+                            "2": "3-Hit DMG 70.9%",
+                            "3": "4-Hit DMG 78.9%",
+                            "4": "5-Hit DMG 19.8%×4",
+                            "5": "6-Hit DMG 100.1%",
+                            "6": "Charged Attack DMG 204%",
+                            "7": "Charged Attack Stamina Cost 25",
+                            "8": "Plunge DMG 117.5%",
+                            "9": "Low/High Plunge DMG 234.9%/293.4%"
+                        },
+                        "10": {
+                            "0": "1-Hit DMG 60.8%",
+                            "1": "2-Hit DMG 61.6%",
+                            "2": "3-Hit DMG 76.3%",
+                            "3": "4-Hit DMG 84.9%",
+                            "4": "5-Hit DMG 21.2%×4",
+                            "5": "6-Hit DMG 107.7%",
+                            "6": "Charged Attack DMG 219.5%",
+                            "7": "Charged Attack Stamina Cost 25",
+                            "8": "Plunge DMG 126.4%",
+                            "9": "Low/High Plunge DMG 252.7%/315.6%"
+                        },
+                        "11": {
+                            "0": "1-Hit DMG 65.7%",
+                            "1": "2-Hit DMG 66.6%",
+                            "2": "3-Hit DMG 82.4%",
+                            "3": "4-Hit DMG 91.7%",
+                            "4": "5-Hit DMG 23%×4",
+                            "5": "6-Hit DMG 116.4%",
+                            "6": "Charged Attack DMG 237.2%",
+                            "7": "Charged Attack Stamina Cost 25",
+                            "8": "Plunge DMG 135.3%",
+                            "9": "Low/High Plunge DMG 270.5%/337.9%"
+                        },
+                        "12": {
+                            "0": "1-Hit DMG 71.5%",
+                            "1": "2-Hit DMG 72.4%",
+                            "2": "3-Hit DMG 89.7%",
+                            "3": "4-Hit DMG 99.8%",
+                            "4": "5-Hit DMG 25%×4",
+                            "5": "6-Hit DMG 126.7%",
+                            "6": "Charged Attack DMG 258.1%",
+                            "7": "Charged Attack Stamina Cost 25",
+                            "8": "Plunge DMG 144.2%",
+                            "9": "Low/High Plunge DMG 288.4%/360.2%"
+                        },
+                        "13": {
+                            "0": "1-Hit DMG 77.3%",
+                            "1": "2-Hit DMG 78.3%",
+                            "2": "3-Hit DMG 96.9%",
+                            "3": "4-Hit DMG 107.9%",
+                            "4": "5-Hit DMG 27%×4",
+                            "5": "6-Hit DMG 136.9%",
+                            "6": "Charged Attack DMG 279%",
+                            "7": "Charged Attack Stamina Cost 25",
+                            "8": "Plunge DMG 153.1%",
+                            "9": "Low/High Plunge DMG 306.2%/382.5%"
+                        },
+                        "14": {
+                            "0": "1-Hit DMG 83.1%",
+                            "1": "2-Hit DMG 84.1%",
+                            "2": "3-Hit DMG 104.2%",
+                            "3": "4-Hit DMG 116%",
+                            "4": "5-Hit DMG 29%×4",
+                            "5": "6-Hit DMG 147.2%",
+                            "6": "Charged Attack DMG 299.8%",
+                            "7": "Charged Attack Stamina Cost 25",
+                            "8": "Plunge DMG 162.1%",
+                            "9": "Low/High Plunge DMG 324.1%/404.8%"
+                        },
+                        "15": {
+                            "0": "1-Hit DMG 89.4%",
+                            "1": "2-Hit DMG 90.5%",
+                            "2": "3-Hit DMG 112.1%",
+                            "3": "4-Hit DMG 124.8%",
+                            "4": "5-Hit DMG 31.2%×4",
+                            "5": "6-Hit DMG 158.4%",
+                            "6": "Charged Attack DMG 322.6%",
+                            "7": "Charged Attack Stamina Cost 25",
+                            "8": "Plunge DMG 171%",
+                            "9": "Low/High Plunge DMG 341.9%/427%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104316",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112002",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112004",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113013",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112004",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113013",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112004",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113013",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112004",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113013",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Dominus Lapidis",
+                    "description": "#Every mountain, rock and inch of land is filled with the power of Geo, but those who can wield such powers freely are few and far between.\\n\\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nCommands the power of earth to create a Stone Stele.\\n\\n<color=#FFD780FF>Hold</color>\\nCauses nearby Geo energy to explode, causing the following effects:\\n·If their maximum number hasn't been reached, creates a Stone Stele.\\n·Creates a shield of jade. The shield's DMG Absorption scales based on Zhongli's Max HP.\\n·Deals <color=#FFE699FF>AoE Geo DMG</color>.\\n·If there are nearby targets with the <color=#FFE699FF>Geo element</color>, it will drain a large amount of <color=#FFE699FF>Geo element</color> from a maximum of 2 such targets. This effect does not cause DMG.\\n\\n<color=#FFD780FF>Stone Stele</color>\\nWhen created, deals <color=#FFE699FF>AoE Geo DMG</color>.\\nAdditionally, it will intermittently resonate with other nearby <color=#FFE699FF>Geo constructs</color>, dealing <color=#FFE699FF>Geo DMG</color> to nearby opponents.\\nThe Stone Stele is considered a <color=#FFE699FF>Geo construct</color> that can both be climbed and used to block attacks.\\nOnly one Stele created by Zhongli himself may initially exist at any one time.\\n\\n<color=#FFD780FF>Jade Shield</color>\\nPossesses 150% DMG Absorption against all Elemental and Physical DMG.\\nCharacters protected by the Jade Shield will decrease the Elemental RES and Physical RES of opponents in a small AoE by 20%. This effect cannot be stacked.\\n\\n<i>A true master of stone may carve jade and shape gold.</i>",
+                    "icon": "Skill_S_Zhongli_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Stone Stele/Resonance DMG 16%/32%",
+                            "1": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD 4s",
+                            "2": "Hold DMG 80%",
+                            "3": "Shield Base Absorption 1232",
+                            "4": "Additional Shield Absorption 12.8% Max HP",
+                            "5": "Shield Duration 20s",
+                            "6": "Hold CD 12s"
+                        },
+                        "2": {
+                            "0": "Stone Stele/Resonance DMG 17.2%/34.4%",
+                            "1": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD 4s",
+                            "2": "Hold DMG 86%",
+                            "3": "Shield Base Absorption 1355",
+                            "4": "Additional Shield Absorption 13.8% Max HP",
+                            "5": "Shield Duration 20s",
+                            "6": "Hold CD 12s"
+                        },
+                        "3": {
+                            "0": "Stone Stele/Resonance DMG 18.4%/36.8%",
+                            "1": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD 4s",
+                            "2": "Hold DMG 92%",
+                            "3": "Shield Base Absorption 1489",
+                            "4": "Additional Shield Absorption 14.7% Max HP",
+                            "5": "Shield Duration 20s",
+                            "6": "Hold CD 12s"
+                        },
+                        "4": {
+                            "0": "Stone Stele/Resonance DMG 20%/40%",
+                            "1": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD 4s",
+                            "2": "Hold DMG 100%",
+                            "3": "Shield Base Absorption 1633",
+                            "4": "Additional Shield Absorption 16% Max HP",
+                            "5": "Shield Duration 20s",
+                            "6": "Hold CD 12s"
+                        },
+                        "5": {
+                            "0": "Stone Stele/Resonance DMG 21.2%/42.4%",
+                            "1": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD 4s",
+                            "2": "Hold DMG 106%",
+                            "3": "Shield Base Absorption 1787",
+                            "4": "Additional Shield Absorption 17% Max HP",
+                            "5": "Shield Duration 20s",
+                            "6": "Hold CD 12s"
+                        },
+                        "6": {
+                            "0": "Stone Stele/Resonance DMG 22.4%/44.8%",
+                            "1": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD 4s",
+                            "2": "Hold DMG 112%",
+                            "3": "Shield Base Absorption 1951",
+                            "4": "Additional Shield Absorption 17.9% Max HP",
+                            "5": "Shield Duration 20s",
+                            "6": "Hold CD 12s"
+                        },
+                        "7": {
+                            "0": "Stone Stele/Resonance DMG 24%/48%",
+                            "1": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD 4s",
+                            "2": "Hold DMG 120%",
+                            "3": "Shield Base Absorption 2126",
+                            "4": "Additional Shield Absorption 19.2% Max HP",
+                            "5": "Shield Duration 20s",
+                            "6": "Hold CD 12s"
+                        },
+                        "8": {
+                            "0": "Stone Stele/Resonance DMG 25.6%/51.2%",
+                            "1": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD 4s",
+                            "2": "Hold DMG 128%",
+                            "3": "Shield Base Absorption 2310",
+                            "4": "Additional Shield Absorption 20.5% Max HP",
+                            "5": "Shield Duration 20s",
+                            "6": "Hold CD 12s"
+                        },
+                        "9": {
+                            "0": "Stone Stele/Resonance DMG 27.2%/54.4%",
+                            "1": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD 4s",
+                            "2": "Hold DMG 136%",
+                            "3": "Shield Base Absorption 2506",
+                            "4": "Additional Shield Absorption 21.8% Max HP",
+                            "5": "Shield Duration 20s",
+                            "6": "Hold CD 12s"
+                        },
+                        "10": {
+                            "0": "Stone Stele/Resonance DMG 28.8%/57.6%",
+                            "1": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD 4s",
+                            "2": "Hold DMG 144%",
+                            "3": "Shield Base Absorption 2711",
+                            "4": "Additional Shield Absorption 23% Max HP",
+                            "5": "Shield Duration 20s",
+                            "6": "Hold CD 12s"
+                        },
+                        "11": {
+                            "0": "Stone Stele/Resonance DMG 30.4%/60.8%",
+                            "1": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD 4s",
+                            "2": "Hold DMG 152%",
+                            "3": "Shield Base Absorption 2927",
+                            "4": "Additional Shield Absorption 24.3% Max HP",
+                            "5": "Shield Duration 20s",
+                            "6": "Hold CD 12s"
+                        },
+                        "12": {
+                            "0": "Stone Stele/Resonance DMG 32%/64%",
+                            "1": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD 4s",
+                            "2": "Hold DMG 160%",
+                            "3": "Shield Base Absorption 3153",
+                            "4": "Additional Shield Absorption 25.6% Max HP",
+                            "5": "Shield Duration 20s",
+                            "6": "Hold CD 12s"
+                        },
+                        "13": {
+                            "0": "Stone Stele/Resonance DMG 34%/68%",
+                            "1": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD 4s",
+                            "2": "Hold DMG 170%",
+                            "3": "Shield Base Absorption 3389",
+                            "4": "Additional Shield Absorption 27.2% Max HP",
+                            "5": "Shield Duration 20s",
+                            "6": "Hold CD 12s"
+                        },
+                        "14": {
+                            "0": "Stone Stele/Resonance DMG 36%/72%",
+                            "1": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD 4s",
+                            "2": "Hold DMG 180%",
+                            "3": "Shield Base Absorption 3635",
+                            "4": "Additional Shield Absorption 28.8% Max HP",
+                            "5": "Shield Duration 20s",
+                            "6": "Hold CD 12s"
+                        },
+                        "15": {
+                            "0": "Stone Stele/Resonance DMG 38%/76%",
+                            "1": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD 4s",
+                            "2": "Hold DMG 190%",
+                            "3": "Shield Base Absorption 3892",
+                            "4": "Additional Shield Absorption 30.4% Max HP",
+                            "5": "Shield Duration 20s",
+                            "6": "Hold CD 12s"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104316",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112002",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112004",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113013",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112004",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113013",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112004",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113013",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112004",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113013",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Planet Befall",
+                    "description": "Brings a falling meteor down to earth, dealing massive <color=#FFE699FF>Geo DMG</color> to opponents caught in its AoE and applying the <color=#FFE699FF>Petrification</color> status to them.\\n\\n<color=#FFD780FF>Petrification</color>\\nOpponents affected by the <color=#FFE699FF>Petrification</color> status cannot move.\\n\\n<i>The falling meteor punishes the unjust.</i>",
+                    "icon": "Skill_E_Zhongli_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 401.1%",
+                            "1": "Petrification Duration 3.1s",
+                            "2": "CD 12s",
+                            "3": "Energy Cost 40"
+                        },
+                        "2": {
+                            "0": "Skill DMG 444.4%",
+                            "1": "Petrification Duration 3.2s",
+                            "2": "CD 12s",
+                            "3": "Energy Cost 40"
+                        },
+                        "3": {
+                            "0": "Skill DMG 487.8%",
+                            "1": "Petrification Duration 3.3s",
+                            "2": "CD 12s",
+                            "3": "Energy Cost 40"
+                        },
+                        "4": {
+                            "0": "Skill DMG 542%",
+                            "1": "Petrification Duration 3.4s",
+                            "2": "CD 12s",
+                            "3": "Energy Cost 40"
+                        },
+                        "5": {
+                            "0": "Skill DMG 590.8%",
+                            "1": "Petrification Duration 3.5s",
+                            "2": "CD 12s",
+                            "3": "Energy Cost 40"
+                        },
+                        "6": {
+                            "0": "Skill DMG 639.6%",
+                            "1": "Petrification Duration 3.6s",
+                            "2": "CD 12s",
+                            "3": "Energy Cost 40"
+                        },
+                        "7": {
+                            "0": "Skill DMG 704.6%",
+                            "1": "Petrification Duration 3.7s",
+                            "2": "CD 12s",
+                            "3": "Energy Cost 40"
+                        },
+                        "8": {
+                            "0": "Skill DMG 769.6%",
+                            "1": "Petrification Duration 3.8s",
+                            "2": "CD 12s",
+                            "3": "Energy Cost 40"
+                        },
+                        "9": {
+                            "0": "Skill DMG 834.7%",
+                            "1": "Petrification Duration 3.9s",
+                            "2": "CD 12s",
+                            "3": "Energy Cost 40"
+                        },
+                        "10": {
+                            "0": "Skill DMG 899.7%",
+                            "1": "Petrification Duration 4s",
+                            "2": "CD 12s",
+                            "3": "Energy Cost 40"
+                        },
+                        "11": {
+                            "0": "Skill DMG 964.8%",
+                            "1": "Petrification Duration 4s",
+                            "2": "CD 12s",
+                            "3": "Energy Cost 40"
+                        },
+                        "12": {
+                            "0": "Skill DMG 1029.8%",
+                            "1": "Petrification Duration 4s",
+                            "2": "CD 12s",
+                            "3": "Energy Cost 40"
+                        },
+                        "13": {
+                            "0": "Skill DMG 1084%",
+                            "1": "Petrification Duration 4s",
+                            "2": "CD 12s",
+                            "3": "Energy Cost 40"
+                        },
+                        "14": {
+                            "0": "Skill DMG 1138.2%",
+                            "1": "Petrification Duration 4s",
+                            "2": "CD 12s",
+                            "3": "Energy Cost 40"
+                        },
+                        "15": {
+                            "0": "Skill DMG 1192.4%",
+                            "1": "Petrification Duration 4s",
+                            "2": "CD 12s",
+                            "3": "Energy Cost 40"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104316",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112002",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112004",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113013",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112004",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113013",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112004",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113013",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112004",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113013",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Planet Befall",
+                    "description": "Brings a falling meteor down to earth, dealing massive <color=#FFE699FF>Geo DMG</color> to opponents caught in its AoE and applying the <color=#FFE699FF>Petrification</color> status to them.\\n\\n<color=#FFD780FF>Petrification</color>\\nOpponents affected by the <color=#FFE699FF>Petrification</color> status cannot move.\\n\\n<i>The falling meteor punishes the unjust.</i>",
+                    "icon": "Skill_E_Zhongli_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 401.1%",
+                            "1": "Petrification Duration 3.1s",
+                            "2": "CD 12s",
+                            "3": "Energy Cost 40"
+                        },
+                        "2": {
+                            "0": "Skill DMG 444.4%",
+                            "1": "Petrification Duration 3.2s",
+                            "2": "CD 12s",
+                            "3": "Energy Cost 40"
+                        },
+                        "3": {
+                            "0": "Skill DMG 487.8%",
+                            "1": "Petrification Duration 3.3s",
+                            "2": "CD 12s",
+                            "3": "Energy Cost 40"
+                        },
+                        "4": {
+                            "0": "Skill DMG 542%",
+                            "1": "Petrification Duration 3.4s",
+                            "2": "CD 12s",
+                            "3": "Energy Cost 40"
+                        },
+                        "5": {
+                            "0": "Skill DMG 590.8%",
+                            "1": "Petrification Duration 3.5s",
+                            "2": "CD 12s",
+                            "3": "Energy Cost 40"
+                        },
+                        "6": {
+                            "0": "Skill DMG 639.6%",
+                            "1": "Petrification Duration 3.6s",
+                            "2": "CD 12s",
+                            "3": "Energy Cost 40"
+                        },
+                        "7": {
+                            "0": "Skill DMG 704.6%",
+                            "1": "Petrification Duration 3.7s",
+                            "2": "CD 12s",
+                            "3": "Energy Cost 40"
+                        },
+                        "8": {
+                            "0": "Skill DMG 769.6%",
+                            "1": "Petrification Duration 3.8s",
+                            "2": "CD 12s",
+                            "3": "Energy Cost 40"
+                        },
+                        "9": {
+                            "0": "Skill DMG 834.7%",
+                            "1": "Petrification Duration 3.9s",
+                            "2": "CD 12s",
+                            "3": "Energy Cost 40"
+                        },
+                        "10": {
+                            "0": "Skill DMG 899.7%",
+                            "1": "Petrification Duration 4s",
+                            "2": "CD 12s",
+                            "3": "Energy Cost 40"
+                        },
+                        "11": {
+                            "0": "Skill DMG 964.8%",
+                            "1": "Petrification Duration 4s",
+                            "2": "CD 12s",
+                            "3": "Energy Cost 40"
+                        },
+                        "12": {
+                            "0": "Skill DMG 1029.8%",
+                            "1": "Petrification Duration 4s",
+                            "2": "CD 12s",
+                            "3": "Energy Cost 40"
+                        },
+                        "13": {
+                            "0": "Skill DMG 1084%",
+                            "1": "Petrification Duration 4s",
+                            "2": "CD 12s",
+                            "3": "Energy Cost 40"
+                        },
+                        "14": {
+                            "0": "Skill DMG 1138.2%",
+                            "1": "Petrification Duration 4s",
+                            "2": "CD 12s",
+                            "3": "Energy Cost 40"
+                        },
+                        "15": {
+                            "0": "Skill DMG 1192.4%",
+                            "1": "Petrification Duration 4s",
+                            "2": "CD 12s",
+                            "3": "Energy Cost 40"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104316",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112002",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112004",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113013",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112004",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113013",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112004",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113013",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112004",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113013",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Resonant Waves",
+                    "description": "When the Jade Shield takes DMG, it will Fortify:\\n·Fortified characters have 5% increased Shield Strength.\\nCan stack up to 5 times, and lasts until the Jade Shield disappears.",
+                    "icon": "UI_Talent_S_Zhongli_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Dominance of Earth",
+                    "description": "Zhongli deals bonus DMG based on his Max HP:\\n·Normal Attack, Charged Attack, and Plunging Attack DMG is increased by 1.39% of Max HP.\\n·<color=#FFD780FF>Dominus Lapidis'</color> Stone Stele, resonance, and hold DMG is increased by 1.9% of Max HP.\\n·<color=#FFD780FF>Planet Befall's</color> DMG is increased by 33% of Max HP.",
+                    "icon": "UI_Talent_S_Zhongli_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Arcanum of Crystal",
+                    "description": "Refunds 15% of the ore used when crafting Polearm-type weapons.",
+                    "icon": "UI_Talent_Forge_Pole",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Rock, the Backbone of Earth",
+                    "description": "Increases the maximum number of Stone Steles created by <color=#FFD780FF>Dominus Lapidis</color> that may exist simultaneously to 2.",
+                    "icon": "UI_Talent_S_Zhongli_01"
+                },
+                "1": {
+                    "name": "Stone, the Cradle of Jade",
+                    "description": "<color=#FFD780FF>Planet Befall</color> grants nearby characters on the field a Jade Shield when it descends.",
+                    "icon": "UI_Talent_S_Zhongli_02"
+                },
+                "2": {
+                    "name": "Jade, Shimmering through Darkness",
+                    "description": "Increases the Level of <color=#FFD780FF>Dominus Lapidis</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Zhongli_01"
+                },
+                "3": {
+                    "name": "Topaz, Unbreakable and Fearless",
+                    "description": "Increases <color=#FFD780FF>Planet Befall</color>'s AoE by 20% and increases the duration of Planet Befall's Petrification effect by 2s.",
+                    "icon": "UI_Talent_S_Zhongli_03"
+                },
+                "4": {
+                    "name": "Lazuli, Herald of the Order",
+                    "description": "Increases the Level of <color=#FFD780FF>Planet Befall</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Zhongli_02"
+                },
+                "5": {
+                    "name": "Chrysos, Bounty of Dominator",
+                    "description": "When the Jade Shield takes DMG, 40% of that incoming DMG is converted to HP for the current character.\\nA single instance of regeneration cannot exceed 8% of that character's Max HP.",
+                    "icon": "UI_Talent_S_Zhongli_04"
+                }
+            },
+            "elevation": {
+                "sub": "Geo DMG Bonus %",
+                "0": {
+                    "stats": {
+                        "HP": 1144,
+                        "ATK": 20,
+                        "DEF": 57,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2967,
+                        "ATK": 51,
+                        "DEF": 149,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100058",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104171",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112002",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 3948,
+                        "ATK": 67,
+                        "DEF": 198,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 5908,
+                        "ATK": 101,
+                        "DEF": 297,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100058",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104172",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112002",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113009",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 6605,
+                        "ATK": 113,
+                        "DEF": 332,
+                        "sub": 7.199999999999999
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 7599,
+                        "ATK": 130,
+                        "DEF": 382,
+                        "sub": 7.199999999999999
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100058",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104172",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112003",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113009",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 8528,
+                        "ATK": 146,
+                        "DEF": 428,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 9432,
+                        "ATK": 161,
+                        "DEF": 474,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100058",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104173",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112003",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113009",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 10129,
+                        "ATK": 173,
+                        "DEF": 509,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 11345,
+                        "ATK": 194,
+                        "DEF": 570,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100058",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104173",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112004",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113009",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 12042,
+                        "ATK": 206,
+                        "DEF": 605,
+                        "sub": 21.6
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 12965,
+                        "ATK": 222,
+                        "DEF": 651,
+                        "sub": 21.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100058",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104174",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112004",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113009",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 13662,
+                        "ATK": 233,
+                        "DEF": 686,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 14695,
+                        "ATK": 251,
+                        "DEF": 738,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {}
+                }
+            }
+        },
+        "ru": {
+            "name": "Zhongli",
+            "name_ru": "Чжун Ли",
+            "id": 10000030,
+            "rarity": 5,
+            "weapon": "Polearm",
+            "element": "Geo",
+            "region": "Liyue",
+            "more": {
+                "title": "Бренный скиталец",
+                "detail": "Приглашённый специалист ритуального бюро «Ваншэн». Необычайно загадочен и сведущ во всех делах.",
+                "constellation": "Властелин Камня",
+                "group": "Ли Юэ",
+                "birthday": "31.12",
+                "release": "02.12.2020",
+                "cv": {
+                    "en": "Keith Silverstein",
+                    "chs": "彭博",
+                    "jp": "前野智昭",
+                    "kr": "Pyo Young-jae"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Каменный дождь",
+                    "description": "<color=#FFD780FF>Обычная атака:</color>\\nДо шести ударов копьём.\\n\\n<color=#FFD780FF>Заряженная атака:</color>\\nВыпад, вызывающий дождь из каменных копий, на который тратится определённое количество выносливости.\\n\\n<color=#FFD780FF>Атака в падении:</color>\\nСтремительно падает на землю, атакуя всех врагов на пути. Приземлившись, наносит урон по площади.",
+                    "icon": "Skill_A_03",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон атаки 1 30.8%",
+                            "1": "Урон атаки 2 31.2%",
+                            "2": "Урон атаки 3 38.6%",
+                            "3": "Урон атаки 4 42.9%",
+                            "4": "Урон атаки 5 10.8%×4",
+                            "5": "Урон атаки 6 54.5%",
+                            "6": "Урон заряженной атаки 111%",
+                            "7": "Потребление выносливости 25 ед.",
+                            "8": "Урон в падении 63.9%",
+                            "9": "Урон низкого/высокого удара 127.8%/159.7%"
+                        },
+                        "2": {
+                            "0": "Урон атаки 1 33.3%",
+                            "1": "Урон атаки 2 33.7%",
+                            "2": "Урон атаки 3 41.7%",
+                            "3": "Урон атаки 4 46.4%",
+                            "4": "Урон атаки 5 11.6%×4",
+                            "5": "Урон атаки 6 58.9%",
+                            "6": "Урон заряженной атаки 120.1%",
+                            "7": "Потребление выносливости 25 ед.",
+                            "8": "Урон в падении 69.1%",
+                            "9": "Урон низкого/высокого удара 138.2%/172.7%"
+                        },
+                        "3": {
+                            "0": "Урон атаки 1 35.8%",
+                            "1": "Урон атаки 2 36.2%",
+                            "2": "Урон атаки 3 44.9%",
+                            "3": "Урон атаки 4 49.9%",
+                            "4": "Урон атаки 5 12.5%×4",
+                            "5": "Урон атаки 6 63.4%",
+                            "6": "Урон заряженной атаки 129.1%",
+                            "7": "Потребление выносливости 25 ед.",
+                            "8": "Урон в падении 74.3%",
+                            "9": "Урон низкого/высокого удара 148.6%/185.7%"
+                        },
+                        "4": {
+                            "0": "Урон атаки 1 39.4%",
+                            "1": "Урон атаки 2 39.8%",
+                            "2": "Урон атаки 3 49.3%",
+                            "3": "Урон атаки 4 54.9%",
+                            "4": "Урон атаки 5 13.8%×4",
+                            "5": "Урон атаки 6 69.7%",
+                            "6": "Урон заряженной атаки 142%",
+                            "7": "Потребление выносливости 25 ед.",
+                            "8": "Урон в падении 81.8%",
+                            "9": "Урон низкого/высокого удара 163.5%/204.2%"
+                        },
+                        "5": {
+                            "0": "Урон атаки 1 41.9%",
+                            "1": "Урон атаки 2 42.4%",
+                            "2": "Урон атаки 3 52.5%",
+                            "3": "Урон атаки 4 58.4%",
+                            "4": "Урон атаки 5 14.6%×4",
+                            "5": "Урон атаки 6 74.1%",
+                            "6": "Урон заряженной атаки 151%",
+                            "7": "Потребление выносливости 25 ед.",
+                            "8": "Урон в падении 87%",
+                            "9": "Урон низкого/высокого удара 173.9%/217.2%"
+                        },
+                        "6": {
+                            "0": "Урон атаки 1 44.7%",
+                            "1": "Урон атаки 2 45.3%",
+                            "2": "Урон атаки 3 56.1%",
+                            "3": "Урон атаки 4 62.4%",
+                            "4": "Урон атаки 5 15.6%×4",
+                            "5": "Урон атаки 6 79.2%",
+                            "6": "Урон заряженной атаки 161.4%",
+                            "7": "Потребление выносливости 25 ед.",
+                            "8": "Урон в падении 92.9%",
+                            "9": "Урон низкого/высокого удара 185.8%/232.1%"
+                        },
+                        "7": {
+                            "0": "Урон атаки 1 48.7%",
+                            "1": "Урон атаки 2 49.3%",
+                            "2": "Урон атаки 3 61%",
+                            "3": "Урон атаки 4 67.9%",
+                            "4": "Урон атаки 5 17%×4",
+                            "5": "Урон атаки 6 86.2%",
+                            "6": "Урон заряженной атаки 175.6%",
+                            "7": "Потребление выносливости 25 ед.",
+                            "8": "Урон в падении 101.1%",
+                            "9": "Урон низкого/высокого удара 202.2%/252.5%"
+                        },
+                        "8": {
+                            "0": "Урон атаки 1 52.6%",
+                            "1": "Урон атаки 2 53.2%",
+                            "2": "Урон атаки 3 65.9%",
+                            "3": "Урон атаки 4 73.4%",
+                            "4": "Урон атаки 5 18.4%×4",
+                            "5": "Урон атаки 6 93.2%",
+                            "6": "Урон заряженной атаки 189.8%",
+                            "7": "Потребление выносливости 25 ед.",
+                            "8": "Урон в падении 109.3%",
+                            "9": "Урон низкого/высокого удара 218.5%/272.9%"
+                        },
+                        "9": {
+                            "0": "Урон атаки 1 56.5%",
+                            "1": "Урон атаки 2 57.2%",
+                            "2": "Урон атаки 3 70.9%",
+                            "3": "Урон атаки 4 78.9%",
+                            "4": "Урон атаки 5 19.8%×4",
+                            "5": "Урон атаки 6 100.1%",
+                            "6": "Урон заряженной атаки 204%",
+                            "7": "Потребление выносливости 25 ед.",
+                            "8": "Урон в падении 117.5%",
+                            "9": "Урон низкого/высокого удара 234.9%/293.4%"
+                        },
+                        "10": {
+                            "0": "Урон атаки 1 60.8%",
+                            "1": "Урон атаки 2 61.6%",
+                            "2": "Урон атаки 3 76.3%",
+                            "3": "Урон атаки 4 84.9%",
+                            "4": "Урон атаки 5 21.2%×4",
+                            "5": "Урон атаки 6 107.7%",
+                            "6": "Урон заряженной атаки 219.5%",
+                            "7": "Потребление выносливости 25 ед.",
+                            "8": "Урон в падении 126.4%",
+                            "9": "Урон низкого/высокого удара 252.7%/315.6%"
+                        },
+                        "11": {
+                            "0": "Урон атаки 1 65.7%",
+                            "1": "Урон атаки 2 66.6%",
+                            "2": "Урон атаки 3 82.4%",
+                            "3": "Урон атаки 4 91.7%",
+                            "4": "Урон атаки 5 23%×4",
+                            "5": "Урон атаки 6 116.4%",
+                            "6": "Урон заряженной атаки 237.2%",
+                            "7": "Потребление выносливости 25 ед.",
+                            "8": "Урон в падении 135.3%",
+                            "9": "Урон низкого/высокого удара 270.5%/337.9%"
+                        },
+                        "12": {
+                            "0": "Урон атаки 1 71.5%",
+                            "1": "Урон атаки 2 72.4%",
+                            "2": "Урон атаки 3 89.7%",
+                            "3": "Урон атаки 4 99.8%",
+                            "4": "Урон атаки 5 25%×4",
+                            "5": "Урон атаки 6 126.7%",
+                            "6": "Урон заряженной атаки 258.1%",
+                            "7": "Потребление выносливости 25 ед.",
+                            "8": "Урон в падении 144.2%",
+                            "9": "Урон низкого/высокого удара 288.4%/360.2%"
+                        },
+                        "13": {
+                            "0": "Урон атаки 1 77.3%",
+                            "1": "Урон атаки 2 78.3%",
+                            "2": "Урон атаки 3 96.9%",
+                            "3": "Урон атаки 4 107.9%",
+                            "4": "Урон атаки 5 27%×4",
+                            "5": "Урон атаки 6 136.9%",
+                            "6": "Урон заряженной атаки 279%",
+                            "7": "Потребление выносливости 25 ед.",
+                            "8": "Урон в падении 153.1%",
+                            "9": "Урон низкого/высокого удара 306.2%/382.5%"
+                        },
+                        "14": {
+                            "0": "Урон атаки 1 83.1%",
+                            "1": "Урон атаки 2 84.1%",
+                            "2": "Урон атаки 3 104.2%",
+                            "3": "Урон атаки 4 116%",
+                            "4": "Урон атаки 5 29%×4",
+                            "5": "Урон атаки 6 147.2%",
+                            "6": "Урон заряженной атаки 299.8%",
+                            "7": "Потребление выносливости 25 ед.",
+                            "8": "Урон в падении 162.1%",
+                            "9": "Урон низкого/высокого удара 324.1%/404.8%"
+                        },
+                        "15": {
+                            "0": "Урон атаки 1 89.4%",
+                            "1": "Урон атаки 2 90.5%",
+                            "2": "Урон атаки 3 112.1%",
+                            "3": "Урон атаки 4 124.8%",
+                            "4": "Урон атаки 5 31.2%×4",
+                            "5": "Урон атаки 6 158.4%",
+                            "6": "Урон заряженной атаки 322.6%",
+                            "7": "Потребление выносливости 25 ед.",
+                            "8": "Урон в падении 171%",
+                            "9": "Урон низкого/высокого удара 341.9%/427%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104316",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112002",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112004",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113013",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112004",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113013",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112004",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113013",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112004",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113013",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Власть над камнем",
+                    "description": "Каждая гора, каждый камень и вся земля пронизаны энергией Гео, но только единицы могут ею управлять.\\n\\n<color=#FFD780FF>Быстрое нажатие:</color>\\nПриказывает силам земли создать Каменную стелу.\\n\\n<color=#FFD780FF>Долгое нажатие:</color>\\nЗаставляет окружающую Гео энергию взорваться, что вызывает следующие эффекты:\\n· Создаёт Каменную стелу, если не было достигнуто их максимально допустимое количество.\\n· Создаёт Яшмовый щит. Поглощение урона щита зависит от макс. HP Чжун Ли.\\n· Наносит <color=#FFE699FF>Гео урон по площади</color>.\\n· Если поблизости есть цели с <color=#FFE699FF>элементом Гео</color>, вытягивает большое количество <color=#FFE699FF>Гео элемента</color> из максимум 2 таких целей. Этот эффект не наносит урона.\\n\\n<color=#FFD780FF>Каменная стела:</color>\\nПри создании наносит <color=#FFE699FF>Гео урон по площади</color>.\\nТакже Каменная стела входит в резонанс с окружающими её другими <color=#FFE699FF>Гео конструкциями</color>, нанося <color=#FFE699FF>Гео урон</color> окружающим врагам.\\nКаменная стела считается <color=#FFE699FF>Гео конструкцией</color>, на неё можно взобраться или использовать её для блокирования атак.\\nПервоначально может существовать только одна Каменная стела, созданная самим Чжун Ли.\\n\\n<color=#FFD780FF>Яшмовый щит:</color>\\nВесь элементальный и физический урон поглощается на 150% эффективнее.\\nПерсонажи, защищённые Яшмовым щитом, будут понижать элементальное и физическое сопротивление врагов в небольшом радиусе на 20%. Этот эффект не может складываться.\\n\\n<i>Настоящий мастер может вырезать нефрит и придать форму золоту одной лишь мыслью.</i>",
+                    "icon": "Skill_S_Zhongli_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон Каменной стелы / резонанса 16%/32%",
+                            "1": "Откат быстрого нажатия 4 сек.",
+                            "2": "Урон долгого нажатия 80%",
+                            "3": "Базовое поглощение щита 1232",
+                            "4": "Доп. поглощение щита 12.8% от макс. HP",
+                            "5": "Длительность щита 20 сек.",
+                            "6": "Откат долгого нажатия 12 сек."
+                        },
+                        "2": {
+                            "0": "Урон Каменной стелы / резонанса 17.2%/34.4%",
+                            "1": "Откат быстрого нажатия 4 сек.",
+                            "2": "Урон долгого нажатия 86%",
+                            "3": "Базовое поглощение щита 1355",
+                            "4": "Доп. поглощение щита 13.8% от макс. HP",
+                            "5": "Длительность щита 20 сек.",
+                            "6": "Откат долгого нажатия 12 сек."
+                        },
+                        "3": {
+                            "0": "Урон Каменной стелы / резонанса 18.4%/36.8%",
+                            "1": "Откат быстрого нажатия 4 сек.",
+                            "2": "Урон долгого нажатия 92%",
+                            "3": "Базовое поглощение щита 1489",
+                            "4": "Доп. поглощение щита 14.7% от макс. HP",
+                            "5": "Длительность щита 20 сек.",
+                            "6": "Откат долгого нажатия 12 сек."
+                        },
+                        "4": {
+                            "0": "Урон Каменной стелы / резонанса 20%/40%",
+                            "1": "Откат быстрого нажатия 4 сек.",
+                            "2": "Урон долгого нажатия 100%",
+                            "3": "Базовое поглощение щита 1633",
+                            "4": "Доп. поглощение щита 16% от макс. HP",
+                            "5": "Длительность щита 20 сек.",
+                            "6": "Откат долгого нажатия 12 сек."
+                        },
+                        "5": {
+                            "0": "Урон Каменной стелы / резонанса 21.2%/42.4%",
+                            "1": "Откат быстрого нажатия 4 сек.",
+                            "2": "Урон долгого нажатия 106%",
+                            "3": "Базовое поглощение щита 1787",
+                            "4": "Доп. поглощение щита 17% от макс. HP",
+                            "5": "Длительность щита 20 сек.",
+                            "6": "Откат долгого нажатия 12 сек."
+                        },
+                        "6": {
+                            "0": "Урон Каменной стелы / резонанса 22.4%/44.8%",
+                            "1": "Откат быстрого нажатия 4 сек.",
+                            "2": "Урон долгого нажатия 112%",
+                            "3": "Базовое поглощение щита 1951",
+                            "4": "Доп. поглощение щита 17.9% от макс. HP",
+                            "5": "Длительность щита 20 сек.",
+                            "6": "Откат долгого нажатия 12 сек."
+                        },
+                        "7": {
+                            "0": "Урон Каменной стелы / резонанса 24%/48%",
+                            "1": "Откат быстрого нажатия 4 сек.",
+                            "2": "Урон долгого нажатия 120%",
+                            "3": "Базовое поглощение щита 2126",
+                            "4": "Доп. поглощение щита 19.2% от макс. HP",
+                            "5": "Длительность щита 20 сек.",
+                            "6": "Откат долгого нажатия 12 сек."
+                        },
+                        "8": {
+                            "0": "Урон Каменной стелы / резонанса 25.6%/51.2%",
+                            "1": "Откат быстрого нажатия 4 сек.",
+                            "2": "Урон долгого нажатия 128%",
+                            "3": "Базовое поглощение щита 2310",
+                            "4": "Доп. поглощение щита 20.5% от макс. HP",
+                            "5": "Длительность щита 20 сек.",
+                            "6": "Откат долгого нажатия 12 сек."
+                        },
+                        "9": {
+                            "0": "Урон Каменной стелы / резонанса 27.2%/54.4%",
+                            "1": "Откат быстрого нажатия 4 сек.",
+                            "2": "Урон долгого нажатия 136%",
+                            "3": "Базовое поглощение щита 2506",
+                            "4": "Доп. поглощение щита 21.8% от макс. HP",
+                            "5": "Длительность щита 20 сек.",
+                            "6": "Откат долгого нажатия 12 сек."
+                        },
+                        "10": {
+                            "0": "Урон Каменной стелы / резонанса 28.8%/57.6%",
+                            "1": "Откат быстрого нажатия 4 сек.",
+                            "2": "Урон долгого нажатия 144%",
+                            "3": "Базовое поглощение щита 2711",
+                            "4": "Доп. поглощение щита 23% от макс. HP",
+                            "5": "Длительность щита 20 сек.",
+                            "6": "Откат долгого нажатия 12 сек."
+                        },
+                        "11": {
+                            "0": "Урон Каменной стелы / резонанса 30.4%/60.8%",
+                            "1": "Откат быстрого нажатия 4 сек.",
+                            "2": "Урон долгого нажатия 152%",
+                            "3": "Базовое поглощение щита 2927",
+                            "4": "Доп. поглощение щита 24.3% от макс. HP",
+                            "5": "Длительность щита 20 сек.",
+                            "6": "Откат долгого нажатия 12 сек."
+                        },
+                        "12": {
+                            "0": "Урон Каменной стелы / резонанса 32%/64%",
+                            "1": "Откат быстрого нажатия 4 сек.",
+                            "2": "Урон долгого нажатия 160%",
+                            "3": "Базовое поглощение щита 3153",
+                            "4": "Доп. поглощение щита 25.6% от макс. HP",
+                            "5": "Длительность щита 20 сек.",
+                            "6": "Откат долгого нажатия 12 сек."
+                        },
+                        "13": {
+                            "0": "Урон Каменной стелы / резонанса 34%/68%",
+                            "1": "Откат быстрого нажатия 4 сек.",
+                            "2": "Урон долгого нажатия 170%",
+                            "3": "Базовое поглощение щита 3389",
+                            "4": "Доп. поглощение щита 27.2% от макс. HP",
+                            "5": "Длительность щита 20 сек.",
+                            "6": "Откат долгого нажатия 12 сек."
+                        },
+                        "14": {
+                            "0": "Урон Каменной стелы / резонанса 36%/72%",
+                            "1": "Откат быстрого нажатия 4 сек.",
+                            "2": "Урон долгого нажатия 180%",
+                            "3": "Базовое поглощение щита 3635",
+                            "4": "Доп. поглощение щита 28.8% от макс. HP",
+                            "5": "Длительность щита 20 сек.",
+                            "6": "Откат долгого нажатия 12 сек."
+                        },
+                        "15": {
+                            "0": "Урон Каменной стелы / резонанса 38%/76%",
+                            "1": "Откат быстрого нажатия 4 сек.",
+                            "2": "Урон долгого нажатия 190%",
+                            "3": "Базовое поглощение щита 3892",
+                            "4": "Доп. поглощение щита 30.4% от макс. HP",
+                            "5": "Длительность щита 20 сек.",
+                            "6": "Откат долгого нажатия 12 сек."
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104316",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112002",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112004",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113013",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112004",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113013",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112004",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113013",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112004",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113013",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Падение кометы",
+                    "description": "Призывает гигантский метеорит, который наносит огромный <color=#FFE699FF>Гео урон</color> врагам в радиусе поражения, а также накладывает на них статус <color=#FFE699FF>Окаменение</color>.\\n\\n<color=#FFD780FF>Окаменение:</color>\\nВраги со статусом <color=#FFE699FF>Окаменение</color> не могут двигаться.\\n\\n<i>Падающая комета карает несправедливость.</i>",
+                    "icon": "Skill_E_Zhongli_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 401.1%",
+                            "1": "Длительность окаменения 3.1 сек.",
+                            "2": "Время отката 12 сек.",
+                            "3": "Потребление энергии 40"
+                        },
+                        "2": {
+                            "0": "Урон навыка 444.4%",
+                            "1": "Длительность окаменения 3.2 сек.",
+                            "2": "Время отката 12 сек.",
+                            "3": "Потребление энергии 40"
+                        },
+                        "3": {
+                            "0": "Урон навыка 487.8%",
+                            "1": "Длительность окаменения 3.3 сек.",
+                            "2": "Время отката 12 сек.",
+                            "3": "Потребление энергии 40"
+                        },
+                        "4": {
+                            "0": "Урон навыка 542%",
+                            "1": "Длительность окаменения 3.4 сек.",
+                            "2": "Время отката 12 сек.",
+                            "3": "Потребление энергии 40"
+                        },
+                        "5": {
+                            "0": "Урон навыка 590.8%",
+                            "1": "Длительность окаменения 3.5 сек.",
+                            "2": "Время отката 12 сек.",
+                            "3": "Потребление энергии 40"
+                        },
+                        "6": {
+                            "0": "Урон навыка 639.6%",
+                            "1": "Длительность окаменения 3.6 сек.",
+                            "2": "Время отката 12 сек.",
+                            "3": "Потребление энергии 40"
+                        },
+                        "7": {
+                            "0": "Урон навыка 704.6%",
+                            "1": "Длительность окаменения 3.7 сек.",
+                            "2": "Время отката 12 сек.",
+                            "3": "Потребление энергии 40"
+                        },
+                        "8": {
+                            "0": "Урон навыка 769.6%",
+                            "1": "Длительность окаменения 3.8 сек.",
+                            "2": "Время отката 12 сек.",
+                            "3": "Потребление энергии 40"
+                        },
+                        "9": {
+                            "0": "Урон навыка 834.7%",
+                            "1": "Длительность окаменения 3.9 сек.",
+                            "2": "Время отката 12 сек.",
+                            "3": "Потребление энергии 40"
+                        },
+                        "10": {
+                            "0": "Урон навыка 899.7%",
+                            "1": "Длительность окаменения 4 сек.",
+                            "2": "Время отката 12 сек.",
+                            "3": "Потребление энергии 40"
+                        },
+                        "11": {
+                            "0": "Урон навыка 964.8%",
+                            "1": "Длительность окаменения 4 сек.",
+                            "2": "Время отката 12 сек.",
+                            "3": "Потребление энергии 40"
+                        },
+                        "12": {
+                            "0": "Урон навыка 1029.8%",
+                            "1": "Длительность окаменения 4 сек.",
+                            "2": "Время отката 12 сек.",
+                            "3": "Потребление энергии 40"
+                        },
+                        "13": {
+                            "0": "Урон навыка 1084%",
+                            "1": "Длительность окаменения 4 сек.",
+                            "2": "Время отката 12 сек.",
+                            "3": "Потребление энергии 40"
+                        },
+                        "14": {
+                            "0": "Урон навыка 1138.2%",
+                            "1": "Длительность окаменения 4 сек.",
+                            "2": "Время отката 12 сек.",
+                            "3": "Потребление энергии 40"
+                        },
+                        "15": {
+                            "0": "Урон навыка 1192.4%",
+                            "1": "Длительность окаменения 4 сек.",
+                            "2": "Время отката 12 сек.",
+                            "3": "Потребление энергии 40"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104316",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112002",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112004",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113013",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112004",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113013",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112004",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113013",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112004",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113013",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Падение кометы",
+                    "description": "Призывает гигантский метеорит, который наносит огромный <color=#FFE699FF>Гео урон</color> врагам в радиусе поражения, а также накладывает на них статус <color=#FFE699FF>Окаменение</color>.\\n\\n<color=#FFD780FF>Окаменение:</color>\\nВраги со статусом <color=#FFE699FF>Окаменение</color> не могут двигаться.\\n\\n<i>Падающая комета карает несправедливость.</i>",
+                    "icon": "Skill_E_Zhongli_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 401.1%",
+                            "1": "Длительность окаменения 3.1 сек.",
+                            "2": "Время отката 12 сек.",
+                            "3": "Потребление энергии 40"
+                        },
+                        "2": {
+                            "0": "Урон навыка 444.4%",
+                            "1": "Длительность окаменения 3.2 сек.",
+                            "2": "Время отката 12 сек.",
+                            "3": "Потребление энергии 40"
+                        },
+                        "3": {
+                            "0": "Урон навыка 487.8%",
+                            "1": "Длительность окаменения 3.3 сек.",
+                            "2": "Время отката 12 сек.",
+                            "3": "Потребление энергии 40"
+                        },
+                        "4": {
+                            "0": "Урон навыка 542%",
+                            "1": "Длительность окаменения 3.4 сек.",
+                            "2": "Время отката 12 сек.",
+                            "3": "Потребление энергии 40"
+                        },
+                        "5": {
+                            "0": "Урон навыка 590.8%",
+                            "1": "Длительность окаменения 3.5 сек.",
+                            "2": "Время отката 12 сек.",
+                            "3": "Потребление энергии 40"
+                        },
+                        "6": {
+                            "0": "Урон навыка 639.6%",
+                            "1": "Длительность окаменения 3.6 сек.",
+                            "2": "Время отката 12 сек.",
+                            "3": "Потребление энергии 40"
+                        },
+                        "7": {
+                            "0": "Урон навыка 704.6%",
+                            "1": "Длительность окаменения 3.7 сек.",
+                            "2": "Время отката 12 сек.",
+                            "3": "Потребление энергии 40"
+                        },
+                        "8": {
+                            "0": "Урон навыка 769.6%",
+                            "1": "Длительность окаменения 3.8 сек.",
+                            "2": "Время отката 12 сек.",
+                            "3": "Потребление энергии 40"
+                        },
+                        "9": {
+                            "0": "Урон навыка 834.7%",
+                            "1": "Длительность окаменения 3.9 сек.",
+                            "2": "Время отката 12 сек.",
+                            "3": "Потребление энергии 40"
+                        },
+                        "10": {
+                            "0": "Урон навыка 899.7%",
+                            "1": "Длительность окаменения 4 сек.",
+                            "2": "Время отката 12 сек.",
+                            "3": "Потребление энергии 40"
+                        },
+                        "11": {
+                            "0": "Урон навыка 964.8%",
+                            "1": "Длительность окаменения 4 сек.",
+                            "2": "Время отката 12 сек.",
+                            "3": "Потребление энергии 40"
+                        },
+                        "12": {
+                            "0": "Урон навыка 1029.8%",
+                            "1": "Длительность окаменения 4 сек.",
+                            "2": "Время отката 12 сек.",
+                            "3": "Потребление энергии 40"
+                        },
+                        "13": {
+                            "0": "Урон навыка 1084%",
+                            "1": "Длительность окаменения 4 сек.",
+                            "2": "Время отката 12 сек.",
+                            "3": "Потребление энергии 40"
+                        },
+                        "14": {
+                            "0": "Урон навыка 1138.2%",
+                            "1": "Длительность окаменения 4 сек.",
+                            "2": "Время отката 12 сек.",
+                            "3": "Потребление энергии 40"
+                        },
+                        "15": {
+                            "0": "Урон навыка 1192.4%",
+                            "1": "Длительность окаменения 4 сек.",
+                            "2": "Время отката 12 сек.",
+                            "3": "Потребление энергии 40"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104316",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112002",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112003",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112004",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113013",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112004",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113013",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112004",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113013",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112004",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113013",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Каменная воля",
+                    "description": "Полученный при активном Яшмовом щите урон накладывает статус Укрепление:\\n· Увеличивает прочность щита персонажа, защищённого Яшмовым щитом, на 5%.\\n· Может складываться до 5 раз, и длится до тех пор, пока не исчезнет Яшмовый щит.",
+                    "icon": "UI_Talent_S_Zhongli_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Господство земли",
+                    "description": "Чжун Ли наносит дополнительный урон, который зависит от его макс. HP:\\n· Урон обычной атаки, заряженной атаки и атаки в падении увеличен на 1,39% от макс. HP.\\n· Урон Каменной стелы навыка <color=#FFD780FF>Власть над камнем</color>, её резонанса и долгого нажатия увеличен на 1,9% от макс. HP.\\n· Урон навыка <color=#FFD780FF>Падение кометы</color> увеличен на 33% от макс. HP.",
+                    "icon": "UI_Talent_S_Zhongli_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Кристальная судьба",
+                    "description": "При ковке древкового оружия возвращает 15% затраченной руды.",
+                    "icon": "UI_Talent_Forge_Pole",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "На чём держится земля",
+                    "description": "Допускает одновременное существование двух Каменных стел навыка <color=#FFD780FF>Власть над камнем</color>.",
+                    "icon": "UI_Talent_S_Zhongli_01"
+                },
+                "1": {
+                    "name": "Колыбель нефрита",
+                    "description": "Навык <color=#FFD780FF>Падение кометы</color> накладывает Яшмовый щит на окружающих персонажей.",
+                    "icon": "UI_Talent_S_Zhongli_02"
+                },
+                "2": {
+                    "name": "Яшмовый блеск",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Власть над камнем</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Zhongli_01"
+                },
+                "3": {
+                    "name": "Топаз, несломленный и бесстрашный",
+                    "description": "Увеличивает зону поражения навыка <color=#FFD780FF>Падение кометы</color> на 20%, также увеличивает длительность окаменения на 2 сек.",
+                    "icon": "UI_Talent_S_Zhongli_03"
+                },
+                "4": {
+                    "name": "Лазурит, вестник порядка",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Падение кометы</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Zhongli_02"
+                },
+                "5": {
+                    "name": "Кризос, награда деспота",
+                    "description": "Когда Яшмовый щит получает урон, 40% этого урона конвертируется в HP для активного персонажа.\\nОдно восстановление не может превышать 8% от макс. HP персонажа.",
+                    "icon": "UI_Talent_S_Zhongli_04"
+                }
+            },
+            "elevation": {
+                "sub": "Бонус Гео урона %",
+                "0": {
+                    "stats": {
+                        "HP": 1144,
+                        "ATK": 20,
+                        "DEF": 57,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2967,
+                        "ATK": 51,
+                        "DEF": 149,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100058",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104171",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112002",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 3948,
+                        "ATK": 67,
+                        "DEF": 198,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 5908,
+                        "ATK": 101,
+                        "DEF": 297,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100058",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104172",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112002",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113009",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 6605,
+                        "ATK": 113,
+                        "DEF": 332,
+                        "sub": 7.199999999999999
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 7599,
+                        "ATK": 130,
+                        "DEF": 382,
+                        "sub": 7.199999999999999
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100058",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104172",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112003",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113009",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 8528,
+                        "ATK": 146,
+                        "DEF": 428,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 9432,
+                        "ATK": 161,
+                        "DEF": 474,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100058",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104173",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112003",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113009",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 10129,
+                        "ATK": 173,
+                        "DEF": 509,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 11345,
+                        "ATK": 194,
+                        "DEF": 570,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100058",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104173",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112004",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113009",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 12042,
+                        "ATK": 206,
+                        "DEF": 605,
+                        "sub": 21.6
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 12965,
+                        "ATK": 222,
+                        "DEF": 651,
+                        "sub": 21.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100058",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104174",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112004",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113009",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 13662,
+                        "ATK": 233,
+                        "DEF": 686,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 14695,
+                        "ATK": 251,
+                        "DEF": 738,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {}
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,2784 @@
+{
+    "Fischl": {
+        "en": {
+            "name": "Fischl",
+            "name_ru": "Фишль",
+            "id": 10000031,
+            "rarity": 4,
+            "weapon": "Bow",
+            "element": "Electro",
+            "region": "Mondstadt",
+            "more": {
+                "title": "Prinzessin der Verurteilung!",
+                "detail": "A mysterious girl who calls herself \"Prinzessin der Verurteilung\" and travels with a night raven named Oz.",
+                "constellation": "Corvus",
+                "group": "Adventurers' Guild",
+                "birthday": "27.5",
+                "release": "27.09.2020",
+                "cv": {
+                    "en": "Brittany Cox & Ben Pronsky",
+                    "chs": "Mace & 赵悦程",
+                    "jp": "内田真礼 & 増谷康紀",
+                    "kr": "Park Go-woon & Lee Hyeon"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Normal Attack: Bolts of Downfall",
+                    "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 5 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, the dark lightning spirits of Immernachtreich shall heed the call of their Prinzessin and indwell the enchanted arrowhead. When fully indwelt, the Rachsüchtig Blitz shall deal immense <color=#FFACFFFF>Electro DMG</color>.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+                    "icon": "Skill_A_02",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "1-Hit DMG 44.1%",
+                            "1": "2-Hit DMG 46.8%",
+                            "2": "3-Hit DMG 58.1%",
+                            "3": "4-Hit DMG 57.7%",
+                            "4": "5-Hit DMG 72.1%",
+                            "5": "Aimed Shot 43.9%",
+                            "6": "Fully-Charged Aimed Shot 124%",
+                            "7": "Plunge DMG 56.8%",
+                            "8": "Low/High Plunge DMG 113.6%/141.9%"
+                        },
+                        "2": {
+                            "0": "1-Hit DMG 47.7%",
+                            "1": "2-Hit DMG 50.6%",
+                            "2": "3-Hit DMG 62.9%",
+                            "3": "4-Hit DMG 62.4%",
+                            "4": "5-Hit DMG 77.9%",
+                            "5": "Aimed Shot 47.4%",
+                            "6": "Fully-Charged Aimed Shot 133.3%",
+                            "7": "Plunge DMG 61.5%",
+                            "8": "Low/High Plunge DMG 122.9%/153.5%"
+                        },
+                        "3": {
+                            "0": "1-Hit DMG 51.3%",
+                            "1": "2-Hit DMG 54.4%",
+                            "2": "3-Hit DMG 67.6%",
+                            "3": "4-Hit DMG 67.1%",
+                            "4": "5-Hit DMG 83.8%",
+                            "5": "Aimed Shot 51%",
+                            "6": "Fully-Charged Aimed Shot 142.6%",
+                            "7": "Plunge DMG 66.1%",
+                            "8": "Low/High Plunge DMG 132.1%/165%"
+                        },
+                        "4": {
+                            "0": "1-Hit DMG 56.4%",
+                            "1": "2-Hit DMG 59.8%",
+                            "2": "3-Hit DMG 74.4%",
+                            "3": "4-Hit DMG 73.8%",
+                            "4": "5-Hit DMG 92.2%",
+                            "5": "Aimed Shot 56.1%",
+                            "6": "Fully-Charged Aimed Shot 155%",
+                            "7": "Plunge DMG 72.7%",
+                            "8": "Low/High Plunge DMG 145.3%/181.5%"
+                        },
+                        "5": {
+                            "0": "1-Hit DMG 60%",
+                            "1": "2-Hit DMG 63.6%",
+                            "2": "3-Hit DMG 79.1%",
+                            "3": "4-Hit DMG 78.5%",
+                            "4": "5-Hit DMG 98%",
+                            "5": "Aimed Shot 59.7%",
+                            "6": "Fully-Charged Aimed Shot 164.3%",
+                            "7": "Plunge DMG 77.3%",
+                            "8": "Low/High Plunge DMG 154.6%/193.1%"
+                        },
+                        "6": {
+                            "0": "1-Hit DMG 64.1%",
+                            "1": "2-Hit DMG 68%",
+                            "2": "3-Hit DMG 84.5%",
+                            "3": "4-Hit DMG 83.9%",
+                            "4": "5-Hit DMG 104.8%",
+                            "5": "Aimed Shot 63.7%",
+                            "6": "Fully-Charged Aimed Shot 173.6%",
+                            "7": "Plunge DMG 82.6%",
+                            "8": "Low/High Plunge DMG 165.2%/206.3%"
+                        },
+                        "7": {
+                            "0": "1-Hit DMG 69.8%",
+                            "1": "2-Hit DMG 74%",
+                            "2": "3-Hit DMG 91.9%",
+                            "3": "4-Hit DMG 91.3%",
+                            "4": "5-Hit DMG 114%",
+                            "5": "Aimed Shot 69.4%",
+                            "6": "Fully-Charged Aimed Shot 186%",
+                            "7": "Plunge DMG 89.9%",
+                            "8": "Low/High Plunge DMG 179.7%/224.5%"
+                        },
+                        "8": {
+                            "0": "1-Hit DMG 75.4%",
+                            "1": "2-Hit DMG 80%",
+                            "2": "3-Hit DMG 99.4%",
+                            "3": "4-Hit DMG 98.6%",
+                            "4": "5-Hit DMG 123.2%",
+                            "5": "Aimed Shot 75%",
+                            "6": "Fully-Charged Aimed Shot 198.4%",
+                            "7": "Plunge DMG 97.1%",
+                            "8": "Low/High Plunge DMG 194.2%/242.6%"
+                        },
+                        "9": {
+                            "0": "1-Hit DMG 81.1%",
+                            "1": "2-Hit DMG 86%",
+                            "2": "3-Hit DMG 106.8%",
+                            "3": "4-Hit DMG 106%",
+                            "4": "5-Hit DMG 132.4%",
+                            "5": "Aimed Shot 80.6%",
+                            "6": "Fully-Charged Aimed Shot 210.8%",
+                            "7": "Plunge DMG 104.4%",
+                            "8": "Low/High Plunge DMG 208.8%/260.8%"
+                        },
+                        "10": {
+                            "0": "1-Hit DMG 87.2%",
+                            "1": "2-Hit DMG 92.5%",
+                            "2": "3-Hit DMG 114.9%",
+                            "3": "4-Hit DMG 114.1%",
+                            "4": "5-Hit DMG 142.5%",
+                            "5": "Aimed Shot 86.7%",
+                            "6": "Fully-Charged Aimed Shot 223.2%",
+                            "7": "Plunge DMG 112.3%",
+                            "8": "Low/High Plunge DMG 224.6%/280.6%"
+                        },
+                        "11": {
+                            "0": "1-Hit DMG 93.4%",
+                            "1": "2-Hit DMG 99%",
+                            "2": "3-Hit DMG 123%",
+                            "3": "4-Hit DMG 122.1%",
+                            "4": "5-Hit DMG 152.5%",
+                            "5": "Aimed Shot 92.8%",
+                            "6": "Fully-Charged Aimed Shot 235.6%",
+                            "7": "Plunge DMG 120.3%",
+                            "8": "Low/High Plunge DMG 240.5%/300.4%"
+                        },
+                        "12": {
+                            "0": "1-Hit DMG 99.5%",
+                            "1": "2-Hit DMG 105.5%",
+                            "2": "3-Hit DMG 131.1%",
+                            "3": "4-Hit DMG 130.2%",
+                            "4": "5-Hit DMG 162.6%",
+                            "5": "Aimed Shot 98.9%",
+                            "6": "Fully-Charged Aimed Shot 248%",
+                            "7": "Plunge DMG 128.2%",
+                            "8": "Low/High Plunge DMG 256.3%/320.2%"
+                        },
+                        "13": {
+                            "0": "1-Hit DMG 105.7%",
+                            "1": "2-Hit DMG 112.1%",
+                            "2": "3-Hit DMG 139.3%",
+                            "3": "4-Hit DMG 138.2%",
+                            "4": "5-Hit DMG 172.6%",
+                            "5": "Aimed Shot 105.1%",
+                            "6": "Fully-Charged Aimed Shot 263.5%",
+                            "7": "Plunge DMG 136.1%",
+                            "8": "Low/High Plunge DMG 272.2%/340%"
+                        },
+                        "14": {
+                            "0": "1-Hit DMG 111.8%",
+                            "1": "2-Hit DMG 118.6%",
+                            "2": "3-Hit DMG 147.4%",
+                            "3": "4-Hit DMG 146.3%",
+                            "4": "5-Hit DMG 182.7%",
+                            "5": "Aimed Shot 111.2%",
+                            "6": "Fully-Charged Aimed Shot 279%",
+                            "7": "Plunge DMG 144.1%",
+                            "8": "Low/High Plunge DMG 288%/359.8%"
+                        },
+                        "15": {
+                            "0": "1-Hit DMG 118%",
+                            "1": "2-Hit DMG 125.1%",
+                            "2": "3-Hit DMG 155.5%",
+                            "3": "4-Hit DMG 154.3%",
+                            "4": "5-Hit DMG 192.7%",
+                            "5": "Aimed Shot 117.3%",
+                            "6": "Fully-Charged Aimed Shot 294.5%",
+                            "7": "Plunge DMG 152%",
+                            "8": "Low/High Plunge DMG 303.9%/379.6%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104307",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112011",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112013",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113008",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112013",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113008",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112013",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113008",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112013",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113008",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Nightrider",
+                    "description": "#Summons Oz. The night raven forged of darkness and lightning descends upon the land, dealing <color=#FFACFFFF>Electro DMG</color> in a small AoE.\\nFor the ability's duration, Oz will continuously attack nearby opponents with <color=#FFACFFFF>Freikugel</color>.\\n\\nHold to adjust the location Oz will be summoned to.\\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} again any time during the ability's duration to once again summon him to Fischl's side.\\n\\n<i>\"My time is most precious, and I shall not waste it on the likes of you... Go, Oz, fall upon them, and bring down upon them your Rachsüchtig Blitz, that which tears open the long night.\"</i>\\n<i>—Flowers for Princess Fischl (IV): Farewell Frau Welt</i>",
+                    "icon": "Skill_S_Fischl_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Oz's ATK DMG 88.8%",
+                            "1": "Summoning DMG 115.4%",
+                            "2": "Oz's Duration 10s",
+                            "3": "CD 25s"
+                        },
+                        "2": {
+                            "0": "Oz's ATK DMG 95.5%",
+                            "1": "Summoning DMG 124.1%",
+                            "2": "Oz's Duration 10s",
+                            "3": "CD 25s"
+                        },
+                        "3": {
+                            "0": "Oz's ATK DMG 102.1%",
+                            "1": "Summoning DMG 132.8%",
+                            "2": "Oz's Duration 10s",
+                            "3": "CD 25s"
+                        },
+                        "4": {
+                            "0": "Oz's ATK DMG 111%",
+                            "1": "Summoning DMG 144.3%",
+                            "2": "Oz's Duration 10s",
+                            "3": "CD 25s"
+                        },
+                        "5": {
+                            "0": "Oz's ATK DMG 117.7%",
+                            "1": "Summoning DMG 153%",
+                            "2": "Oz's Duration 10s",
+                            "3": "CD 25s"
+                        },
+                        "6": {
+                            "0": "Oz's ATK DMG 124.3%",
+                            "1": "Summoning DMG 161.6%",
+                            "2": "Oz's Duration 10s",
+                            "3": "CD 25s"
+                        },
+                        "7": {
+                            "0": "Oz's ATK DMG 133.2%",
+                            "1": "Summoning DMG 173.2%",
+                            "2": "Oz's Duration 10s",
+                            "3": "CD 25s"
+                        },
+                        "8": {
+                            "0": "Oz's ATK DMG 142.1%",
+                            "1": "Summoning DMG 184.7%",
+                            "2": "Oz's Duration 10s",
+                            "3": "CD 25s"
+                        },
+                        "9": {
+                            "0": "Oz's ATK DMG 151%",
+                            "1": "Summoning DMG 196.2%",
+                            "2": "Oz's Duration 10s",
+                            "3": "CD 25s"
+                        },
+                        "10": {
+                            "0": "Oz's ATK DMG 159.8%",
+                            "1": "Summoning DMG 207.8%",
+                            "2": "Oz's Duration 10s",
+                            "3": "CD 25s"
+                        },
+                        "11": {
+                            "0": "Oz's ATK DMG 168.7%",
+                            "1": "Summoning DMG 219.3%",
+                            "2": "Oz's Duration 10s",
+                            "3": "CD 25s"
+                        },
+                        "12": {
+                            "0": "Oz's ATK DMG 177.6%",
+                            "1": "Summoning DMG 230.9%",
+                            "2": "Oz's Duration 10s",
+                            "3": "CD 25s"
+                        },
+                        "13": {
+                            "0": "Oz's ATK DMG 188.7%",
+                            "1": "Summoning DMG 245.3%",
+                            "2": "Oz's Duration 10s",
+                            "3": "CD 25s"
+                        },
+                        "14": {
+                            "0": "Oz's ATK DMG 199.8%",
+                            "1": "Summoning DMG 259.7%",
+                            "2": "Oz's Duration 10s",
+                            "3": "CD 25s"
+                        },
+                        "15": {
+                            "0": "Oz's ATK DMG 210.9%",
+                            "1": "Summoning DMG 274.2%",
+                            "2": "Oz's Duration 10s",
+                            "3": "CD 25s"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104307",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112011",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112013",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113008",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112013",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113008",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112013",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113008",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112013",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113008",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Midnight Phantasmagoria",
+                    "description": "Summons Oz to spread his twin wings of twilight and defend Fischl.\\nHas the following properties during the ability's duration:\\n·Fischl takes on Oz's form, greatly increasing her Movement Speed.\\n·Strikes nearby opponents with lightning, dealing <color=#FFACFFFF>Electro DMG</color> to opponents she comes into contact with. Each opponent can only be struck once.\\n·Once this ability's effects end, Oz will remain on the battlefield and attack his Prinzessin's foes. If Oz is already on the field, then this will reset the duration of his presence.\\n\\n<i>\"...In the hordes of beasts that follow the cursed blood, only Prince Nachtraben, who bore witness to the extinction of a thousand worlds, knows her true greatness. Thus the night wings he spreads are his eternal promise to protect Her Royal Highness.\"</i>\\n<i>—Flowers for Princess Fischl (I): End Time Zersetzung</i>",
+                    "icon": "Skill_E_Fischl_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Falling Thunder DMG 208%",
+                            "1": "CD 15s",
+                            "2": "Energy Cost 60"
+                        },
+                        "2": {
+                            "0": "Falling Thunder DMG 223.6%",
+                            "1": "CD 15s",
+                            "2": "Energy Cost 60"
+                        },
+                        "3": {
+                            "0": "Falling Thunder DMG 239.2%",
+                            "1": "CD 15s",
+                            "2": "Energy Cost 60"
+                        },
+                        "4": {
+                            "0": "Falling Thunder DMG 260%",
+                            "1": "CD 15s",
+                            "2": "Energy Cost 60"
+                        },
+                        "5": {
+                            "0": "Falling Thunder DMG 275.6%",
+                            "1": "CD 15s",
+                            "2": "Energy Cost 60"
+                        },
+                        "6": {
+                            "0": "Falling Thunder DMG 291.2%",
+                            "1": "CD 15s",
+                            "2": "Energy Cost 60"
+                        },
+                        "7": {
+                            "0": "Falling Thunder DMG 312%",
+                            "1": "CD 15s",
+                            "2": "Energy Cost 60"
+                        },
+                        "8": {
+                            "0": "Falling Thunder DMG 332.8%",
+                            "1": "CD 15s",
+                            "2": "Energy Cost 60"
+                        },
+                        "9": {
+                            "0": "Falling Thunder DMG 353.6%",
+                            "1": "CD 15s",
+                            "2": "Energy Cost 60"
+                        },
+                        "10": {
+                            "0": "Falling Thunder DMG 374.4%",
+                            "1": "CD 15s",
+                            "2": "Energy Cost 60"
+                        },
+                        "11": {
+                            "0": "Falling Thunder DMG 395.2%",
+                            "1": "CD 15s",
+                            "2": "Energy Cost 60"
+                        },
+                        "12": {
+                            "0": "Falling Thunder DMG 416%",
+                            "1": "CD 15s",
+                            "2": "Energy Cost 60"
+                        },
+                        "13": {
+                            "0": "Falling Thunder DMG 442%",
+                            "1": "CD 15s",
+                            "2": "Energy Cost 60"
+                        },
+                        "14": {
+                            "0": "Falling Thunder DMG 468%",
+                            "1": "CD 15s",
+                            "2": "Energy Cost 60"
+                        },
+                        "15": {
+                            "0": "Falling Thunder DMG 494%",
+                            "1": "CD 15s",
+                            "2": "Energy Cost 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104307",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112011",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112013",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113008",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112013",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113008",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112013",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113008",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112013",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113008",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Midnight Phantasmagoria",
+                    "description": "Summons Oz to spread his twin wings of twilight and defend Fischl.\\nHas the following properties during the ability's duration:\\n·Fischl takes on Oz's form, greatly increasing her Movement Speed.\\n·Strikes nearby opponents with lightning, dealing <color=#FFACFFFF>Electro DMG</color> to opponents she comes into contact with. Each opponent can only be struck once.\\n·Once this ability's effects end, Oz will remain on the battlefield and attack his Prinzessin's foes. If Oz is already on the field, then this will reset the duration of his presence.\\n\\n<i>\"...In the hordes of beasts that follow the cursed blood, only Prince Nachtraben, who bore witness to the extinction of a thousand worlds, knows her true greatness. Thus the night wings he spreads are his eternal promise to protect Her Royal Highness.\"</i>\\n<i>—Flowers for Princess Fischl (I): End Time Zersetzung</i>",
+                    "icon": "Skill_E_Fischl_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Falling Thunder DMG 208%",
+                            "1": "CD 15s",
+                            "2": "Energy Cost 60"
+                        },
+                        "2": {
+                            "0": "Falling Thunder DMG 223.6%",
+                            "1": "CD 15s",
+                            "2": "Energy Cost 60"
+                        },
+                        "3": {
+                            "0": "Falling Thunder DMG 239.2%",
+                            "1": "CD 15s",
+                            "2": "Energy Cost 60"
+                        },
+                        "4": {
+                            "0": "Falling Thunder DMG 260%",
+                            "1": "CD 15s",
+                            "2": "Energy Cost 60"
+                        },
+                        "5": {
+                            "0": "Falling Thunder DMG 275.6%",
+                            "1": "CD 15s",
+                            "2": "Energy Cost 60"
+                        },
+                        "6": {
+                            "0": "Falling Thunder DMG 291.2%",
+                            "1": "CD 15s",
+                            "2": "Energy Cost 60"
+                        },
+                        "7": {
+                            "0": "Falling Thunder DMG 312%",
+                            "1": "CD 15s",
+                            "2": "Energy Cost 60"
+                        },
+                        "8": {
+                            "0": "Falling Thunder DMG 332.8%",
+                            "1": "CD 15s",
+                            "2": "Energy Cost 60"
+                        },
+                        "9": {
+                            "0": "Falling Thunder DMG 353.6%",
+                            "1": "CD 15s",
+                            "2": "Energy Cost 60"
+                        },
+                        "10": {
+                            "0": "Falling Thunder DMG 374.4%",
+                            "1": "CD 15s",
+                            "2": "Energy Cost 60"
+                        },
+                        "11": {
+                            "0": "Falling Thunder DMG 395.2%",
+                            "1": "CD 15s",
+                            "2": "Energy Cost 60"
+                        },
+                        "12": {
+                            "0": "Falling Thunder DMG 416%",
+                            "1": "CD 15s",
+                            "2": "Energy Cost 60"
+                        },
+                        "13": {
+                            "0": "Falling Thunder DMG 442%",
+                            "1": "CD 15s",
+                            "2": "Energy Cost 60"
+                        },
+                        "14": {
+                            "0": "Falling Thunder DMG 468%",
+                            "1": "CD 15s",
+                            "2": "Energy Cost 60"
+                        },
+                        "15": {
+                            "0": "Falling Thunder DMG 494%",
+                            "1": "CD 15s",
+                            "2": "Energy Cost 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104307",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112011",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112013",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113008",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112013",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113008",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112013",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113008",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112013",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113008",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Stellar Predator",
+                    "description": "When Fischl hits Oz with a fully-charged Aimed Shot, Oz brings down Thundering Retribution, dealing <color=#FFACFFFF>AoE Electro DMG</color> equal to 152.7% of the arrow's DMG.",
+                    "icon": "UI_Talent_S_Fischl_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Undone Be Thy Sinful Hex",
+                    "description": "If your current active character triggers an <color=#FFACFFFF>Electro-related Elemental Reaction</color> when Oz is on the field, the opponent shall be stricken with Thundering Retribution that deals <color=#FFACFFFF>Electro DMG</color> equal to 80% of Fischl's ATK.",
+                    "icon": "UI_Talent_S_Fischl_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Mein Hausgarten",
+                    "description": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%.",
+                    "icon": "UI_Talent_Expedition_Mengde",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Gaze of the Deep",
+                    "description": "Even when Oz is not present in combat, he can still watch over Fischl through his raven eyes. When Fischl performs a Normal Attack against an opponent, Oz fires a coordinated attack, dealing DMG equal to 22% of Fischl's ATK.",
+                    "icon": "UI_Talent_S_Fischl_01"
+                },
+                "1": {
+                    "name": "Devourer of All Sins",
+                    "description": "When <color=#FFD780FF>Nightrider</color> is used, it deals an additional 200% ATK as DMG, and its AoE is increased by 50%.",
+                    "icon": "UI_Talent_S_Fischl_02"
+                },
+                "2": {
+                    "name": "Wings of Nightmare",
+                    "description": "Increases the Level of <color=#FFD780FF>Nightrider</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Fischl_01"
+                },
+                "3": {
+                    "name": "Her Pilgrimage of Bleak",
+                    "description": "When <color=#FFD780FF>Midnight Phantasmagoria</color> is used, it deals 222% of ATK as <color=#FFACFFFF>Electro DMG</color> to surrounding opponents.\\nWhen the skill duration ends, Fischl regenerates 20% of her HP.",
+                    "icon": "UI_Talent_S_Fischl_03"
+                },
+                "4": {
+                    "name": "Against the Fleeing Light",
+                    "description": "Increases the Level of <color=#FFD780FF>Midnight Phantasmagoria</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Fischl_02"
+                },
+                "5": {
+                    "name": "Evernight Raven",
+                    "description": "Extends the duration of Oz's presence on the field by 2s. Additionally, Oz performs coordinated attacks with your active character when present, dealing 30% of Fischl's ATK as <color=#FFACFFFF>Electro DMG</color>.",
+                    "icon": "UI_Talent_S_Fischl_04"
+                }
+            },
+            "elevation": {
+                "sub": "ATK %",
+                "0": {
+                    "stats": {
+                        "HP": 770,
+                        "ATK": 20,
+                        "DEF": 50,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 1979,
+                        "ATK": 53,
+                        "DEF": 128,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100055",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104141",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112011",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 2555,
+                        "ATK": 68,
+                        "DEF": 165,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 3827,
+                        "ATK": 102,
+                        "DEF": 247,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100055",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104142",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112011",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113002",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 4236,
+                        "ATK": 113,
+                        "DEF": 274,
+                        "sub": 6.0
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 4872,
+                        "ATK": 130,
+                        "DEF": 315,
+                        "sub": 6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100055",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104142",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112012",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113002",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 5418,
+                        "ATK": 144,
+                        "DEF": 350,
+                        "sub": 12
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 6054,
+                        "ATK": 161,
+                        "DEF": 391,
+                        "sub": 12
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100055",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104143",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112012",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113002",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 6463,
+                        "ATK": 172,
+                        "DEF": 418,
+                        "sub": 12
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 7099,
+                        "ATK": 189,
+                        "DEF": 459,
+                        "sub": 12
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100055",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104143",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112013",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113002",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 7508,
+                        "ATK": 200,
+                        "DEF": 485,
+                        "sub": 18
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 8144,
+                        "ATK": 216,
+                        "DEF": 526,
+                        "sub": 18
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100055",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104144",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112013",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113002",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 8553,
+                        "ATK": 227,
+                        "DEF": 553,
+                        "sub": 24
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 9189,
+                        "ATK": 244,
+                        "DEF": 594,
+                        "sub": 24
+                    },
+                    "res": {}
+                }
+            }
+        },
+        "ru": {
+            "name": "Fischl",
+            "name_ru": "Фишль",
+            "id": 10000031,
+            "rarity": 4,
+            "weapon": "Bow",
+            "element": "Electro",
+            "region": "Mondstadt",
+            "more": {
+                "title": "Принцесса осуждения",
+                "detail": "Таинственная девушка, называющая себя «Принцессой осуждения» и путешествующая в сопровождении ворона по имени Оз.",
+                "constellation": "Призрачный Ворон",
+                "group": "Искатели приключений",
+                "birthday": "27.5",
+                "release": "27.09.2020",
+                "cv": {
+                    "en": "Brittany Cox & Ben Pronsky",
+                    "chs": "Mace&赵悦程",
+                    "jp": "内田真礼 & 増谷康紀",
+                    "kr": "Park Go-woon & Lee Hyeon"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Стрела возмездия",
+                    "description": "<color=#FFD780FF>Обычная атака:</color>\\nДо пяти выстрелов из лука.\\n\\n<color=#FFD780FF>Заряженная атака:</color>\\nБолее меткий <color=#FFD780FF>прицельный выстрел</color> с увеличенным уроном.\\nВо время прицеливания наконечник стрелы заряжается тьмой Нирваны Ночи. Полностью заряженная тьмой стрела наносит огромный <color=#FFACFFFF>Электро урон</color>.\\n\\n<color=#FFD780FF>Атака в падении:</color>\\nВыпускает град стрел в воздухе, которые при приземлении персонажа наносят урон по площади.",
+                    "icon": "Skill_A_02",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон атаки 1 44.1%",
+                            "1": "Урон атаки 2 46.8%",
+                            "2": "Урон атаки 3 58.1%",
+                            "3": "Урон атаки 4 57.7%",
+                            "4": "Урон атаки 5 72.1%",
+                            "5": "Прицельный выстрел 43.9%",
+                            "6": "Заряженный выстрел 124%",
+                            "7": "Урон в падении 56.8%",
+                            "8": "Урон низкого/высокого удара 113.6%/141.9%"
+                        },
+                        "2": {
+                            "0": "Урон атаки 1 47.7%",
+                            "1": "Урон атаки 2 50.6%",
+                            "2": "Урон атаки 3 62.9%",
+                            "3": "Урон атаки 4 62.4%",
+                            "4": "Урон атаки 5 77.9%",
+                            "5": "Прицельный выстрел 47.4%",
+                            "6": "Заряженный выстрел 133.3%",
+                            "7": "Урон в падении 61.5%",
+                            "8": "Урон низкого/высокого удара 122.9%/153.5%"
+                        },
+                        "3": {
+                            "0": "Урон атаки 1 51.3%",
+                            "1": "Урон атаки 2 54.4%",
+                            "2": "Урон атаки 3 67.6%",
+                            "3": "Урон атаки 4 67.1%",
+                            "4": "Урон атаки 5 83.8%",
+                            "5": "Прицельный выстрел 51%",
+                            "6": "Заряженный выстрел 142.6%",
+                            "7": "Урон в падении 66.1%",
+                            "8": "Урон низкого/высокого удара 132.1%/165%"
+                        },
+                        "4": {
+                            "0": "Урон атаки 1 56.4%",
+                            "1": "Урон атаки 2 59.8%",
+                            "2": "Урон атаки 3 74.4%",
+                            "3": "Урон атаки 4 73.8%",
+                            "4": "Урон атаки 5 92.2%",
+                            "5": "Прицельный выстрел 56.1%",
+                            "6": "Заряженный выстрел 155%",
+                            "7": "Урон в падении 72.7%",
+                            "8": "Урон низкого/высокого удара 145.3%/181.5%"
+                        },
+                        "5": {
+                            "0": "Урон атаки 1 60%",
+                            "1": "Урон атаки 2 63.6%",
+                            "2": "Урон атаки 3 79.1%",
+                            "3": "Урон атаки 4 78.5%",
+                            "4": "Урон атаки 5 98%",
+                            "5": "Прицельный выстрел 59.7%",
+                            "6": "Заряженный выстрел 164.3%",
+                            "7": "Урон в падении 77.3%",
+                            "8": "Урон низкого/высокого удара 154.6%/193.1%"
+                        },
+                        "6": {
+                            "0": "Урон атаки 1 64.1%",
+                            "1": "Урон атаки 2 68%",
+                            "2": "Урон атаки 3 84.5%",
+                            "3": "Урон атаки 4 83.9%",
+                            "4": "Урон атаки 5 104.8%",
+                            "5": "Прицельный выстрел 63.7%",
+                            "6": "Заряженный выстрел 173.6%",
+                            "7": "Урон в падении 82.6%",
+                            "8": "Урон низкого/высокого удара 165.2%/206.3%"
+                        },
+                        "7": {
+                            "0": "Урон атаки 1 69.8%",
+                            "1": "Урон атаки 2 74%",
+                            "2": "Урон атаки 3 91.9%",
+                            "3": "Урон атаки 4 91.3%",
+                            "4": "Урон атаки 5 114%",
+                            "5": "Прицельный выстрел 69.4%",
+                            "6": "Заряженный выстрел 186%",
+                            "7": "Урон в падении 89.9%",
+                            "8": "Урон низкого/высокого удара 179.7%/224.5%"
+                        },
+                        "8": {
+                            "0": "Урон атаки 1 75.4%",
+                            "1": "Урон атаки 2 80%",
+                            "2": "Урон атаки 3 99.4%",
+                            "3": "Урон атаки 4 98.6%",
+                            "4": "Урон атаки 5 123.2%",
+                            "5": "Прицельный выстрел 75%",
+                            "6": "Заряженный выстрел 198.4%",
+                            "7": "Урон в падении 97.1%",
+                            "8": "Урон низкого/высокого удара 194.2%/242.6%"
+                        },
+                        "9": {
+                            "0": "Урон атаки 1 81.1%",
+                            "1": "Урон атаки 2 86%",
+                            "2": "Урон атаки 3 106.8%",
+                            "3": "Урон атаки 4 106%",
+                            "4": "Урон атаки 5 132.4%",
+                            "5": "Прицельный выстрел 80.6%",
+                            "6": "Заряженный выстрел 210.8%",
+                            "7": "Урон в падении 104.4%",
+                            "8": "Урон низкого/высокого удара 208.8%/260.8%"
+                        },
+                        "10": {
+                            "0": "Урон атаки 1 87.2%",
+                            "1": "Урон атаки 2 92.5%",
+                            "2": "Урон атаки 3 114.9%",
+                            "3": "Урон атаки 4 114.1%",
+                            "4": "Урон атаки 5 142.5%",
+                            "5": "Прицельный выстрел 86.7%",
+                            "6": "Заряженный выстрел 223.2%",
+                            "7": "Урон в падении 112.3%",
+                            "8": "Урон низкого/высокого удара 224.6%/280.6%"
+                        },
+                        "11": {
+                            "0": "Урон атаки 1 93.4%",
+                            "1": "Урон атаки 2 99%",
+                            "2": "Урон атаки 3 123%",
+                            "3": "Урон атаки 4 122.1%",
+                            "4": "Урон атаки 5 152.5%",
+                            "5": "Прицельный выстрел 92.8%",
+                            "6": "Заряженный выстрел 235.6%",
+                            "7": "Урон в падении 120.3%",
+                            "8": "Урон низкого/высокого удара 240.5%/300.4%"
+                        },
+                        "12": {
+                            "0": "Урон атаки 1 99.5%",
+                            "1": "Урон атаки 2 105.5%",
+                            "2": "Урон атаки 3 131.1%",
+                            "3": "Урон атаки 4 130.2%",
+                            "4": "Урон атаки 5 162.6%",
+                            "5": "Прицельный выстрел 98.9%",
+                            "6": "Заряженный выстрел 248%",
+                            "7": "Урон в падении 128.2%",
+                            "8": "Урон низкого/высокого удара 256.3%/320.2%"
+                        },
+                        "13": {
+                            "0": "Урон атаки 1 105.7%",
+                            "1": "Урон атаки 2 112.1%",
+                            "2": "Урон атаки 3 139.3%",
+                            "3": "Урон атаки 4 138.2%",
+                            "4": "Урон атаки 5 172.6%",
+                            "5": "Прицельный выстрел 105.1%",
+                            "6": "Заряженный выстрел 263.5%",
+                            "7": "Урон в падении 136.1%",
+                            "8": "Урон низкого/высокого удара 272.2%/340%"
+                        },
+                        "14": {
+                            "0": "Урон атаки 1 111.8%",
+                            "1": "Урон атаки 2 118.6%",
+                            "2": "Урон атаки 3 147.4%",
+                            "3": "Урон атаки 4 146.3%",
+                            "4": "Урон атаки 5 182.7%",
+                            "5": "Прицельный выстрел 111.2%",
+                            "6": "Заряженный выстрел 279%",
+                            "7": "Урон в падении 144.1%",
+                            "8": "Урон низкого/высокого удара 288%/359.8%"
+                        },
+                        "15": {
+                            "0": "Урон атаки 1 118%",
+                            "1": "Урон атаки 2 125.1%",
+                            "2": "Урон атаки 3 155.5%",
+                            "3": "Урон атаки 4 154.3%",
+                            "4": "Урон атаки 5 192.7%",
+                            "5": "Прицельный выстрел 117.3%",
+                            "6": "Заряженный выстрел 294.5%",
+                            "7": "Урон в падении 152%",
+                            "8": "Урон низкого/высокого удара 303.9%/379.6%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104307",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112011",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112013",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113008",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112013",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113008",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112013",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113008",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112013",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113008",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Тень расправленных крыльев",
+                    "description": "Призывает Оза. Ночной ворон, сотканный из тьмы и молнии, спускается на землю и наносит <color=#FFACFFFF>Электро урон</color> в небольшом радиусе.\\nПока навык активен, Оз будет атаковать ближайших врагов <color=#FFACFFFF>Электро снарядами</color>.\\n\\nУдерживайте, чтобы указать место, куда будет призван Оз.\\nПока навык активен, нажмите снова, чтобы подозвать его к Фишль.\\n\\n<i>«- Я не собираюсь тратить своё драгоценное время на таких, как ты... Оз, обрушь же на них карающую молнию! Пусть она осветит вечную ночь!»</i> <i>(Цветы для принцессы Фишль. Глава 4: Прощание с Владычицей Мира)</i>",
+                    "icon": "Skill_S_Fischl_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон атаки Оза 88.8%",
+                            "1": "Урон призыва 115.4%",
+                            "2": "Присутствие Оза 10 сек.",
+                            "3": "Время отката 25 сек."
+                        },
+                        "2": {
+                            "0": "Урон атаки Оза 95.5%",
+                            "1": "Урон призыва 124.1%",
+                            "2": "Присутствие Оза 10 сек.",
+                            "3": "Время отката 25 сек."
+                        },
+                        "3": {
+                            "0": "Урон атаки Оза 102.1%",
+                            "1": "Урон призыва 132.8%",
+                            "2": "Присутствие Оза 10 сек.",
+                            "3": "Время отката 25 сек."
+                        },
+                        "4": {
+                            "0": "Урон атаки Оза 111%",
+                            "1": "Урон призыва 144.3%",
+                            "2": "Присутствие Оза 10 сек.",
+                            "3": "Время отката 25 сек."
+                        },
+                        "5": {
+                            "0": "Урон атаки Оза 117.7%",
+                            "1": "Урон призыва 153%",
+                            "2": "Присутствие Оза 10 сек.",
+                            "3": "Время отката 25 сек."
+                        },
+                        "6": {
+                            "0": "Урон атаки Оза 124.3%",
+                            "1": "Урон призыва 161.6%",
+                            "2": "Присутствие Оза 10 сек.",
+                            "3": "Время отката 25 сек."
+                        },
+                        "7": {
+                            "0": "Урон атаки Оза 133.2%",
+                            "1": "Урон призыва 173.2%",
+                            "2": "Присутствие Оза 10 сек.",
+                            "3": "Время отката 25 сек."
+                        },
+                        "8": {
+                            "0": "Урон атаки Оза 142.1%",
+                            "1": "Урон призыва 184.7%",
+                            "2": "Присутствие Оза 10 сек.",
+                            "3": "Время отката 25 сек."
+                        },
+                        "9": {
+                            "0": "Урон атаки Оза 151%",
+                            "1": "Урон призыва 196.2%",
+                            "2": "Присутствие Оза 10 сек.",
+                            "3": "Время отката 25 сек."
+                        },
+                        "10": {
+                            "0": "Урон атаки Оза 159.8%",
+                            "1": "Урон призыва 207.8%",
+                            "2": "Присутствие Оза 10 сек.",
+                            "3": "Время отката 25 сек."
+                        },
+                        "11": {
+                            "0": "Урон атаки Оза 168.7%",
+                            "1": "Урон призыва 219.3%",
+                            "2": "Присутствие Оза 10 сек.",
+                            "3": "Время отката 25 сек."
+                        },
+                        "12": {
+                            "0": "Урон атаки Оза 177.6%",
+                            "1": "Урон призыва 230.9%",
+                            "2": "Присутствие Оза 10 сек.",
+                            "3": "Время отката 25 сек."
+                        },
+                        "13": {
+                            "0": "Урон атаки Оза 188.7%",
+                            "1": "Урон призыва 245.3%",
+                            "2": "Присутствие Оза 10 сек.",
+                            "3": "Время отката 25 сек."
+                        },
+                        "14": {
+                            "0": "Урон атаки Оза 199.8%",
+                            "1": "Урон призыва 259.7%",
+                            "2": "Присутствие Оза 10 сек.",
+                            "3": "Время отката 25 сек."
+                        },
+                        "15": {
+                            "0": "Урон атаки Оза 210.9%",
+                            "1": "Урон призыва 274.2%",
+                            "2": "Присутствие Оза 10 сек.",
+                            "3": "Время отката 25 сек."
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104307",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112011",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112013",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113008",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112013",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113008",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112013",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113008",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112013",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113008",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Ночная иллюзия",
+                    "description": "Приказывает ворону Озу расправить свои сумеречные крылья и встать на защиту Фишль.\\nПока навык активен:\\n· Фишль принимает форму Оза, значительно увеличивающую её скорость передвижения;\\n· Обрушивает на ближайших врагов молнию, наносящую <color=#FFACFFFF>Электро урон</color>. Каждый противник может получить только один удар молнией;\\n· После окончания навыка Оз остаётся на поле боя, продолжая атаковать врагов принцессы. Если Оз уже был на поле боя, этот навык сбрасывает длительность его присутствия.\\n\\n<i>«...среди полчищ демонов, что следуют за проклятой кровью, только Ночной принц, бывший свидетелем гибели тысячи миров, знает её истинное величие. Его расправленные крылья ночи - вечная клятва защищать её королевское высочество».</i>\\n<i>(Цветы для принцессы Фишль. Глава 1: Краткое изложение судного дня)</i>",
+                    "icon": "Skill_E_Fischl_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон молнии 208%",
+                            "1": "Время отката 15 сек.",
+                            "2": "Потребление энергии 60"
+                        },
+                        "2": {
+                            "0": "Урон молнии 223.6%",
+                            "1": "Время отката 15 сек.",
+                            "2": "Потребление энергии 60"
+                        },
+                        "3": {
+                            "0": "Урон молнии 239.2%",
+                            "1": "Время отката 15 сек.",
+                            "2": "Потребление энергии 60"
+                        },
+                        "4": {
+                            "0": "Урон молнии 260%",
+                            "1": "Время отката 15 сек.",
+                            "2": "Потребление энергии 60"
+                        },
+                        "5": {
+                            "0": "Урон молнии 275.6%",
+                            "1": "Время отката 15 сек.",
+                            "2": "Потребление энергии 60"
+                        },
+                        "6": {
+                            "0": "Урон молнии 291.2%",
+                            "1": "Время отката 15 сек.",
+                            "2": "Потребление энергии 60"
+                        },
+                        "7": {
+                            "0": "Урон молнии 312%",
+                            "1": "Время отката 15 сек.",
+                            "2": "Потребление энергии 60"
+                        },
+                        "8": {
+                            "0": "Урон молнии 332.8%",
+                            "1": "Время отката 15 сек.",
+                            "2": "Потребление энергии 60"
+                        },
+                        "9": {
+                            "0": "Урон молнии 353.6%",
+                            "1": "Время отката 15 сек.",
+                            "2": "Потребление энергии 60"
+                        },
+                        "10": {
+                            "0": "Урон молнии 374.4%",
+                            "1": "Время отката 15 сек.",
+                            "2": "Потребление энергии 60"
+                        },
+                        "11": {
+                            "0": "Урон молнии 395.2%",
+                            "1": "Время отката 15 сек.",
+                            "2": "Потребление энергии 60"
+                        },
+                        "12": {
+                            "0": "Урон молнии 416%",
+                            "1": "Время отката 15 сек.",
+                            "2": "Потребление энергии 60"
+                        },
+                        "13": {
+                            "0": "Урон молнии 442%",
+                            "1": "Время отката 15 сек.",
+                            "2": "Потребление энергии 60"
+                        },
+                        "14": {
+                            "0": "Урон молнии 468%",
+                            "1": "Время отката 15 сек.",
+                            "2": "Потребление энергии 60"
+                        },
+                        "15": {
+                            "0": "Урон молнии 494%",
+                            "1": "Время отката 15 сек.",
+                            "2": "Потребление энергии 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104307",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112011",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112013",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113008",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112013",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113008",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112013",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113008",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112013",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113008",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Ночная иллюзия",
+                    "description": "Приказывает ворону Озу расправить свои сумеречные крылья и встать на защиту Фишль.\\nПока навык активен:\\n· Фишль принимает форму Оза, значительно увеличивающую её скорость передвижения;\\n· Обрушивает на ближайших врагов молнию, наносящую <color=#FFACFFFF>Электро урон</color>. Каждый противник может получить только один удар молнией;\\n· После окончания навыка Оз остаётся на поле боя, продолжая атаковать врагов принцессы. Если Оз уже был на поле боя, этот навык сбрасывает длительность его присутствия.\\n\\n<i>«...среди полчищ демонов, что следуют за проклятой кровью, только Ночной принц, бывший свидетелем гибели тысячи миров, знает её истинное величие. Его расправленные крылья ночи - вечная клятва защищать её королевское высочество».</i>\\n<i>(Цветы для принцессы Фишль. Глава 1: Краткое изложение судного дня)</i>",
+                    "icon": "Skill_E_Fischl_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон молнии 208%",
+                            "1": "Время отката 15 сек.",
+                            "2": "Потребление энергии 60"
+                        },
+                        "2": {
+                            "0": "Урон молнии 223.6%",
+                            "1": "Время отката 15 сек.",
+                            "2": "Потребление энергии 60"
+                        },
+                        "3": {
+                            "0": "Урон молнии 239.2%",
+                            "1": "Время отката 15 сек.",
+                            "2": "Потребление энергии 60"
+                        },
+                        "4": {
+                            "0": "Урон молнии 260%",
+                            "1": "Время отката 15 сек.",
+                            "2": "Потребление энергии 60"
+                        },
+                        "5": {
+                            "0": "Урон молнии 275.6%",
+                            "1": "Время отката 15 сек.",
+                            "2": "Потребление энергии 60"
+                        },
+                        "6": {
+                            "0": "Урон молнии 291.2%",
+                            "1": "Время отката 15 сек.",
+                            "2": "Потребление энергии 60"
+                        },
+                        "7": {
+                            "0": "Урон молнии 312%",
+                            "1": "Время отката 15 сек.",
+                            "2": "Потребление энергии 60"
+                        },
+                        "8": {
+                            "0": "Урон молнии 332.8%",
+                            "1": "Время отката 15 сек.",
+                            "2": "Потребление энергии 60"
+                        },
+                        "9": {
+                            "0": "Урон молнии 353.6%",
+                            "1": "Время отката 15 сек.",
+                            "2": "Потребление энергии 60"
+                        },
+                        "10": {
+                            "0": "Урон молнии 374.4%",
+                            "1": "Время отката 15 сек.",
+                            "2": "Потребление энергии 60"
+                        },
+                        "11": {
+                            "0": "Урон молнии 395.2%",
+                            "1": "Время отката 15 сек.",
+                            "2": "Потребление энергии 60"
+                        },
+                        "12": {
+                            "0": "Урон молнии 416%",
+                            "1": "Время отката 15 сек.",
+                            "2": "Потребление энергии 60"
+                        },
+                        "13": {
+                            "0": "Урон молнии 442%",
+                            "1": "Время отката 15 сек.",
+                            "2": "Потребление энергии 60"
+                        },
+                        "14": {
+                            "0": "Урон молнии 468%",
+                            "1": "Время отката 15 сек.",
+                            "2": "Потребление энергии 60"
+                        },
+                        "15": {
+                            "0": "Урон молнии 494%",
+                            "1": "Время отката 15 сек.",
+                            "2": "Потребление энергии 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104307",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112011",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104308",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112012",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112013",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113008",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112013",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113008",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112013",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113008",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104309",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112013",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113008",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Ворон, клюющий звёзды",
+                    "description": "При попадании по Озу полностью заряженной стрелой Фишль, он создаёт грозу, наносящую <color=#FFACFFFF>Электро урон по площади</color>, равный 152,7% от урона стрелы.",
+                    "icon": "UI_Talent_S_Fischl_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Да будет снято проклятье",
+                    "description": "Если в присутствии Оза во время атаки ваш персонаж вызывает какую-либо <color=#FFACFFFF>Электро реакцию</color>, на противника нисходит божественная молния, которая наносит <color=#FFACFFFF>Электро урон</color>, равный 80% от силы атаки Фишль.",
+                    "icon": "UI_Talent_S_Fischl_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Мой тайный сад",
+                    "description": "Уменьшает длительность экспедиций в Мондштадте на 25%.",
+                    "icon": "UI_Talent_Expedition_Mengde",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Глаза ворона",
+                    "description": "Будучи вне битвы, Оз продолжает присматривать за Фишль. Когда Фишль атакует врага, Оз проводит совместную с ней атаку, нанося 22% урона от силы атаки Фишль.",
+                    "icon": "UI_Talent_S_Fischl_01"
+                },
+                "1": {
+                    "name": "Перо осуждения",
+                    "description": "Активация навыка <color=#FFD780FF>Тень расправленных крыльев</color> наносит 200% урона, а его зона поражения увеличивается на 50%.",
+                    "icon": "UI_Talent_S_Fischl_02"
+                },
+                "2": {
+                    "name": "Крылья цвета бездны",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Тень расправленных крыльев</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Fischl_01"
+                },
+                "3": {
+                    "name": "Принцесса иллюзий",
+                    "description": "При активации навыка <color=#FFD780FF>Ночная иллюзия</color> наносит 222% атаки в виде <color=#FFACFFFF>Электро урона</color> окружающим врагам.\\nПо окончании навыка Фишль восстанавливает 20% HP.",
+                    "icon": "UI_Talent_S_Fischl_03"
+                },
+                "4": {
+                    "name": "Полуночный апокалипсис",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Ночная иллюзия</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Fischl_02"
+                },
+                "5": {
+                    "name": "Птица вечной ночи",
+                    "description": "Увеличивает длительность пребывания Оза на поле боя на 2 сек. Оз атакует вместе с вашим активным персонажем, нанося <color=#FFACFFFF>Электро урон</color>, равный 30% от силы атаки Фишль.",
+                    "icon": "UI_Talent_S_Fischl_04"
+                }
+            },
+            "elevation": {
+                "sub": "Сила атаки %",
+                "0": {
+                    "stats": {
+                        "HP": 770,
+                        "ATK": 20,
+                        "DEF": 50,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 1979,
+                        "ATK": 53,
+                        "DEF": 128,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100055",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104141",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112011",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 2555,
+                        "ATK": 68,
+                        "DEF": 165,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 3827,
+                        "ATK": 102,
+                        "DEF": 247,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100055",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104142",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112011",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113002",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 4236,
+                        "ATK": 113,
+                        "DEF": 274,
+                        "sub": 6.0
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 4872,
+                        "ATK": 130,
+                        "DEF": 315,
+                        "sub": 6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100055",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104142",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112012",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113002",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 5418,
+                        "ATK": 144,
+                        "DEF": 350,
+                        "sub": 12
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 6054,
+                        "ATK": 161,
+                        "DEF": 391,
+                        "sub": 12
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100055",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104143",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112012",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113002",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 6463,
+                        "ATK": 172,
+                        "DEF": 418,
+                        "sub": 12
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 7099,
+                        "ATK": 189,
+                        "DEF": 459,
+                        "sub": 12
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100055",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104143",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112013",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113002",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 7508,
+                        "ATK": 200,
+                        "DEF": 485,
+                        "sub": 18
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 8144,
+                        "ATK": 216,
+                        "DEF": 526,
+                        "sub": 18
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100055",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104144",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112013",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113002",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 8553,
+                        "ATK": 227,
+                        "DEF": 553,
+                        "sub": 24
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 9189,
+                        "ATK": 244,
+                        "DEF": 594,
+                        "sub": 24
+                    },
+                    "res": {}
+                }
+            }
+        }
+    }
+}

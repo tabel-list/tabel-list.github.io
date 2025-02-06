@@ -1,0 +1,2934 @@
+{
+    "Chevreuse": {
+        "en": {
+            "name": "Chevreuse",
+            "name_ru": "Шеврёз",
+            "id": 10000090,
+            "rarity": 4,
+            "weapon": "Polearm",
+            "element": "Pyro",
+            "region": "Fontaine",
+            "more": {
+                "title": "Executor of Justice",
+                "detail": "The captain of the Special Security and Surveillance Patrol, who wears justice as an ever-present seal upon her heart. Her musket shall only ever point at the guilty.",
+                "constellation": "Sclopetum Ensiferum",
+                "group": "Special Security and Surveillance Patrol",
+                "birthday": "10.1",
+                "release": "09.01.2024",
+                "cv": {
+                    "en": "Erica Lindbeck",
+                    "chs": "潘丹妮",
+                    "jp": "下地紫野",
+                    "kr": "Chae Min-ji"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Normal Attack: Line Bayonet Thrust EX",
+                    "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 consecutive spear strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+                    "icon": "Skill_A_03",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "1-Hit DMG 53.1%",
+                            "1": "2-Hit DMG 49.3%",
+                            "2": "3-Hit DMG 27.6%+32.5%",
+                            "3": "4-Hit DMG 77.3%",
+                            "4": "Charged Attack DMG 121.7%",
+                            "5": "Charged Attack Stamina Cost 25",
+                            "6": "Plunge DMG 63.9%",
+                            "7": "Low/High Plunge DMG 127.8%/159.7%"
+                        },
+                        "2": {
+                            "0": "1-Hit DMG 57.5%",
+                            "1": "2-Hit DMG 53.3%",
+                            "2": "3-Hit DMG 29.9%+35.1%",
+                            "3": "4-Hit DMG 83.5%",
+                            "4": "Charged Attack DMG 131.6%",
+                            "5": "Charged Attack Stamina Cost 25",
+                            "6": "Plunge DMG 69.1%",
+                            "7": "Low/High Plunge DMG 138.2%/172.7%"
+                        },
+                        "3": {
+                            "0": "1-Hit DMG 61.8%",
+                            "1": "2-Hit DMG 57.3%",
+                            "2": "3-Hit DMG 32.1%+37.7%",
+                            "3": "4-Hit DMG 89.8%",
+                            "4": "Charged Attack DMG 141.5%",
+                            "5": "Charged Attack Stamina Cost 25",
+                            "6": "Plunge DMG 74.3%",
+                            "7": "Low/High Plunge DMG 148.6%/185.7%"
+                        },
+                        "4": {
+                            "0": "1-Hit DMG 68%",
+                            "1": "2-Hit DMG 63.1%",
+                            "2": "3-Hit DMG 35.4%+41.5%",
+                            "3": "4-Hit DMG 98.8%",
+                            "4": "Charged Attack DMG 155.7%",
+                            "5": "Charged Attack Stamina Cost 25",
+                            "6": "Plunge DMG 81.8%",
+                            "7": "Low/High Plunge DMG 163.5%/204.2%"
+                        },
+                        "5": {
+                            "0": "1-Hit DMG 72.3%",
+                            "1": "2-Hit DMG 67.1%",
+                            "2": "3-Hit DMG 37.6%+44.2%",
+                            "3": "4-Hit DMG 105.1%",
+                            "4": "Charged Attack DMG 165.6%",
+                            "5": "Charged Attack Stamina Cost 25",
+                            "6": "Plunge DMG 87%",
+                            "7": "Low/High Plunge DMG 173.9%/217.2%"
+                        },
+                        "6": {
+                            "0": "1-Hit DMG 77.2%",
+                            "1": "2-Hit DMG 71.7%",
+                            "2": "3-Hit DMG 40.2%+47.2%",
+                            "3": "4-Hit DMG 112.3%",
+                            "4": "Charged Attack DMG 176.9%",
+                            "5": "Charged Attack Stamina Cost 25",
+                            "6": "Plunge DMG 92.9%",
+                            "7": "Low/High Plunge DMG 185.8%/232.1%"
+                        },
+                        "7": {
+                            "0": "1-Hit DMG 84%",
+                            "1": "2-Hit DMG 78%",
+                            "2": "3-Hit DMG 43.7%+51.3%",
+                            "3": "4-Hit DMG 122.2%",
+                            "4": "Charged Attack DMG 192.4%",
+                            "5": "Charged Attack Stamina Cost 25",
+                            "6": "Plunge DMG 101.1%",
+                            "7": "Low/High Plunge DMG 202.2%/252.5%"
+                        },
+                        "8": {
+                            "0": "1-Hit DMG 90.8%",
+                            "1": "2-Hit DMG 84.3%",
+                            "2": "3-Hit DMG 47.3%+55.5%",
+                            "3": "4-Hit DMG 132.1%",
+                            "4": "Charged Attack DMG 208%",
+                            "5": "Charged Attack Stamina Cost 25",
+                            "6": "Plunge DMG 109.3%",
+                            "7": "Low/High Plunge DMG 218.5%/272.9%"
+                        },
+                        "9": {
+                            "0": "1-Hit DMG 97.6%",
+                            "1": "2-Hit DMG 90.6%",
+                            "2": "3-Hit DMG 50.8%+59.6%",
+                            "3": "4-Hit DMG 141.9%",
+                            "4": "Charged Attack DMG 223.6%",
+                            "5": "Charged Attack Stamina Cost 25",
+                            "6": "Plunge DMG 117.5%",
+                            "7": "Low/High Plunge DMG 234.9%/293.4%"
+                        },
+                        "10": {
+                            "0": "1-Hit DMG 105%",
+                            "1": "2-Hit DMG 97.5%",
+                            "2": "3-Hit DMG 54.6%+64.2%",
+                            "3": "4-Hit DMG 152.7%",
+                            "4": "Charged Attack DMG 240.6%",
+                            "5": "Charged Attack Stamina Cost 25",
+                            "6": "Plunge DMG 126.4%",
+                            "7": "Low/High Plunge DMG 252.7%/315.6%"
+                        },
+                        "11": {
+                            "0": "1-Hit DMG 112.4%",
+                            "1": "2-Hit DMG 104.4%",
+                            "2": "3-Hit DMG 58.5%+68.7%",
+                            "3": "4-Hit DMG 163.5%",
+                            "4": "Charged Attack DMG 257.5%",
+                            "5": "Charged Attack Stamina Cost 25",
+                            "6": "Plunge DMG 135.3%",
+                            "7": "Low/High Plunge DMG 270.5%/337.9%"
+                        },
+                        "12": {
+                            "0": "1-Hit DMG 119.9%",
+                            "1": "2-Hit DMG 111.2%",
+                            "2": "3-Hit DMG 62.4%+73.2%",
+                            "3": "4-Hit DMG 174.3%",
+                            "4": "Charged Attack DMG 274.5%",
+                            "5": "Charged Attack Stamina Cost 25",
+                            "6": "Plunge DMG 144.2%",
+                            "7": "Low/High Plunge DMG 288.4%/360.2%"
+                        },
+                        "13": {
+                            "0": "1-Hit DMG 127.3%",
+                            "1": "2-Hit DMG 118.1%",
+                            "2": "3-Hit DMG 66.2%+77.7%",
+                            "3": "4-Hit DMG 185.1%",
+                            "4": "Charged Attack DMG 291.5%",
+                            "5": "Charged Attack Stamina Cost 25",
+                            "6": "Plunge DMG 153.1%",
+                            "7": "Low/High Plunge DMG 306.2%/382.5%"
+                        },
+                        "14": {
+                            "0": "1-Hit DMG 134.7%",
+                            "1": "2-Hit DMG 125%",
+                            "2": "3-Hit DMG 70.1%+82.3%",
+                            "3": "4-Hit DMG 195.8%",
+                            "4": "Charged Attack DMG 308.5%",
+                            "5": "Charged Attack Stamina Cost 25",
+                            "6": "Plunge DMG 162.1%",
+                            "7": "Low/High Plunge DMG 324.1%/404.8%"
+                        },
+                        "15": {
+                            "0": "1-Hit DMG 142.1%",
+                            "1": "2-Hit DMG 131.9%",
+                            "2": "3-Hit DMG 73.9%+86.8%",
+                            "3": "4-Hit DMG 206.6%",
+                            "4": "Charged Attack DMG 325.5%",
+                            "5": "Charged Attack Stamina Cost 25",
+                            "6": "Plunge DMG 171%",
+                            "7": "Low/High Plunge DMG 341.9%/427%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104344",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112083",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112085",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113055",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112085",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113055",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112085",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113055",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104346",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112085",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113055",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Short-Range Rapid Interdiction Fire",
+                    "description": "Chevreuse quickly shoulders her musket and fires at her opponent(s), dealing <color=#FF9999FF>AoE Pyro DMG</color>.\\nFor a short duration after Chevreuse fires a shot, she will continuously restore HP to your active character on the field. The amount healed is based on her Max HP.\\nHold to fire in a different fashion.\\n\\n<color=#FFD780FF>Hold</color>\\nEnter Aiming Mode, locking a target in her sights to fire a precise interdiction shot. If Chevreuse has an Overcharged Ball, then she will fire the Overcharged Ball instead, dealing greater <color=#FF9999FF>Pyro DMG</color> in a larger area.\\nChevreuse gains 1 Overcharged Ball every time a nearby character in the party triggers an Overloaded reaction, and can have up to 1 Overcharged Ball at a time.\\n\\n<color=#FFD780FF>Arkhe: Ousia</color>\\nPeriodically, after Chevreuse's Short-Range Rapid Interdiction Fire hits, a Surging Blade will be called forth that deals Ousia-aligned <color=#FF9999FF>Pyro DMG</color>.\\n\\n<i>\"Actually, training regulations only had the phrase \"interdiction fire,\" but the protagonist of this novel believes that even how stylish your terminology is can affect how motivated your troops are, which can put your opponents on the back foot right from the get-go... I think that's a good point, so I changed the regulations!\"</i>",
+                    "icon": "Skill_S_Chevreuse_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG 115.2%",
+                            "1": "Hold DMG 172.8%",
+                            "2": "Overcharged Ball DMG 282.4%",
+                            "3": "HP Regeneration Over Time {param5:F2P} Max HP+256",
+                            "4": "Healing Duration 12s",
+                            "5": "Surging Blade DMG 28.8%",
+                            "6": "Surging Blade Interval 10s",
+                            "7": "CD 15s"
+                        },
+                        "2": {
+                            "0": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG 123.8%",
+                            "1": "Hold DMG 185.8%",
+                            "2": "Overcharged Ball DMG 303.6%",
+                            "3": "HP Regeneration Over Time {param5:F2P} Max HP+282",
+                            "4": "Healing Duration 12s",
+                            "5": "Surging Blade DMG 31%",
+                            "6": "Surging Blade Interval 10s",
+                            "7": "CD 15s"
+                        },
+                        "3": {
+                            "0": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG 132.5%",
+                            "1": "Hold DMG 198.7%",
+                            "2": "Overcharged Ball DMG 324.8%",
+                            "3": "HP Regeneration Over Time {param5:F2P} Max HP+310",
+                            "4": "Healing Duration 12s",
+                            "5": "Surging Blade DMG 33.1%",
+                            "6": "Surging Blade Interval 10s",
+                            "7": "CD 15s"
+                        },
+                        "4": {
+                            "0": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG 144%",
+                            "1": "Hold DMG 216%",
+                            "2": "Overcharged Ball DMG 353%",
+                            "3": "HP Regeneration Over Time {param5:F2P} Max HP+340",
+                            "4": "Healing Duration 12s",
+                            "5": "Surging Blade DMG 36%",
+                            "6": "Surging Blade Interval 10s",
+                            "7": "CD 15s"
+                        },
+                        "5": {
+                            "0": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG 152.6%",
+                            "1": "Hold DMG 229%",
+                            "2": "Overcharged Ball DMG 374.2%",
+                            "3": "HP Regeneration Over Time {param5:F2P} Max HP+372",
+                            "4": "Healing Duration 12s",
+                            "5": "Surging Blade DMG 38.2%",
+                            "6": "Surging Blade Interval 10s",
+                            "7": "CD 15s"
+                        },
+                        "6": {
+                            "0": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG 161.3%",
+                            "1": "Hold DMG 241.9%",
+                            "2": "Overcharged Ball DMG 395.4%",
+                            "3": "HP Regeneration Over Time {param5:F2P} Max HP+406",
+                            "4": "Healing Duration 12s",
+                            "5": "Surging Blade DMG 40.3%",
+                            "6": "Surging Blade Interval 10s",
+                            "7": "CD 15s"
+                        },
+                        "7": {
+                            "0": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG 172.8%",
+                            "1": "Hold DMG 259.2%",
+                            "2": "Overcharged Ball DMG 423.6%",
+                            "3": "HP Regeneration Over Time {param5:F2P} Max HP+442",
+                            "4": "Healing Duration 12s",
+                            "5": "Surging Blade DMG 43.2%",
+                            "6": "Surging Blade Interval 10s",
+                            "7": "CD 15s"
+                        },
+                        "8": {
+                            "0": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG 184.3%",
+                            "1": "Hold DMG 276.5%",
+                            "2": "Overcharged Ball DMG 451.8%",
+                            "3": "HP Regeneration Over Time {param5:F2P} Max HP+481",
+                            "4": "Healing Duration 12s",
+                            "5": "Surging Blade DMG 46.1%",
+                            "6": "Surging Blade Interval 10s",
+                            "7": "CD 15s"
+                        },
+                        "9": {
+                            "0": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG 195.8%",
+                            "1": "Hold DMG 293.8%",
+                            "2": "Overcharged Ball DMG 480.1%",
+                            "3": "HP Regeneration Over Time {param5:F2P} Max HP+522",
+                            "4": "Healing Duration 12s",
+                            "5": "Surging Blade DMG 49%",
+                            "6": "Surging Blade Interval 10s",
+                            "7": "CD 15s"
+                        },
+                        "10": {
+                            "0": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG 207.4%",
+                            "1": "Hold DMG 311%",
+                            "2": "Overcharged Ball DMG 508.3%",
+                            "3": "HP Regeneration Over Time {param5:F2P} Max HP+564",
+                            "4": "Healing Duration 12s",
+                            "5": "Surging Blade DMG 51.8%",
+                            "6": "Surging Blade Interval 10s",
+                            "7": "CD 15s"
+                        },
+                        "11": {
+                            "0": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG 218.9%",
+                            "1": "Hold DMG 328.3%",
+                            "2": "Overcharged Ball DMG 536.6%",
+                            "3": "HP Regeneration Over Time {param5:F2P} Max HP+609",
+                            "4": "Healing Duration 12s",
+                            "5": "Surging Blade DMG 54.7%",
+                            "6": "Surging Blade Interval 10s",
+                            "7": "CD 15s"
+                        },
+                        "12": {
+                            "0": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG 230.4%",
+                            "1": "Hold DMG 345.6%",
+                            "2": "Overcharged Ball DMG 564.8%",
+                            "3": "HP Regeneration Over Time {param5:F2P} Max HP+657",
+                            "4": "Healing Duration 12s",
+                            "5": "Surging Blade DMG 57.6%",
+                            "6": "Surging Blade Interval 10s",
+                            "7": "CD 15s"
+                        },
+                        "13": {
+                            "0": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG 244.8%",
+                            "1": "Hold DMG 367.2%",
+                            "2": "Overcharged Ball DMG 600.1%",
+                            "3": "HP Regeneration Over Time {param5:F2P} Max HP+706",
+                            "4": "Healing Duration 12s",
+                            "5": "Surging Blade DMG 61.2%",
+                            "6": "Surging Blade Interval 10s",
+                            "7": "CD 15s"
+                        },
+                        "14": {
+                            "0": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG 259.2%",
+                            "1": "Hold DMG 388.8%",
+                            "2": "Overcharged Ball DMG 635.4%",
+                            "3": "HP Regeneration Over Time {param5:F2P} Max HP+757",
+                            "4": "Healing Duration 12s",
+                            "5": "Surging Blade DMG 64.8%",
+                            "6": "Surging Blade Interval 10s",
+                            "7": "CD 15s"
+                        },
+                        "15": {
+                            "0": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG 273.6%",
+                            "1": "Hold DMG 410.4%",
+                            "2": "Overcharged Ball DMG 670.7%",
+                            "3": "HP Regeneration Over Time {param5:F2P} Max HP+811",
+                            "4": "Healing Duration 12s",
+                            "5": "Surging Blade DMG 68.4%",
+                            "6": "Surging Blade Interval 10s",
+                            "7": "CD 15s"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104344",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112083",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112085",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113055",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112085",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113055",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112085",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113055",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104346",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112085",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113055",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Ring of Bursting Grenades",
+                    "description": "Chevreuse fires an explosive grenade at opponents with her musket, dealing <color=#FF9999FF>AoE Pyro DMG.</color> After the projectile hits, it will split into many secondary explosive shells.\\nThe secondary explosive shells will burst after a short interval, dealing <color=#FF9999FF>Pyro DMG</color> to nearby opponents.\\n\\n<i>\"Theoretically, a rectangular blast would be most efficient at destroying enemy formations. Unfortunately, the cross-section of an explosive shock wave is round, like most cakes. So, the secondary explosive shells can only be arranged like the fruit on a cake, forming a ring around the edge.\"</i>",
+                    "icon": "Skill_E_Chevreuse_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Explosive Grenade DMG 368.2%",
+                            "1": "Secondary Explosive Shell DMG 49.1%",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "2": {
+                            "0": "Explosive Grenade DMG 395.8%",
+                            "1": "Secondary Explosive Shell DMG 52.8%",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "3": {
+                            "0": "Explosive Grenade DMG 423.4%",
+                            "1": "Secondary Explosive Shell DMG 56.5%",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "4": {
+                            "0": "Explosive Grenade DMG 460.2%",
+                            "1": "Secondary Explosive Shell DMG 61.4%",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "5": {
+                            "0": "Explosive Grenade DMG 487.8%",
+                            "1": "Secondary Explosive Shell DMG 65%",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "6": {
+                            "0": "Explosive Grenade DMG 515.4%",
+                            "1": "Secondary Explosive Shell DMG 68.7%",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "7": {
+                            "0": "Explosive Grenade DMG 552.2%",
+                            "1": "Secondary Explosive Shell DMG 73.6%",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "8": {
+                            "0": "Explosive Grenade DMG 589.1%",
+                            "1": "Secondary Explosive Shell DMG 78.5%",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "9": {
+                            "0": "Explosive Grenade DMG 625.9%",
+                            "1": "Secondary Explosive Shell DMG 83.5%",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "10": {
+                            "0": "Explosive Grenade DMG 662.7%",
+                            "1": "Secondary Explosive Shell DMG 88.4%",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "11": {
+                            "0": "Explosive Grenade DMG 699.5%",
+                            "1": "Secondary Explosive Shell DMG 93.3%",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "12": {
+                            "0": "Explosive Grenade DMG 736.3%",
+                            "1": "Secondary Explosive Shell DMG 98.2%",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "13": {
+                            "0": "Explosive Grenade DMG 782.3%",
+                            "1": "Secondary Explosive Shell DMG 104.3%",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "14": {
+                            "0": "Explosive Grenade DMG 828.4%",
+                            "1": "Secondary Explosive Shell DMG 110.4%",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "15": {
+                            "0": "Explosive Grenade DMG 874.4%",
+                            "1": "Secondary Explosive Shell DMG 116.6%",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104344",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112083",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112085",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113055",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112085",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113055",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112085",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113055",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104346",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112085",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113055",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Ring of Bursting Grenades",
+                    "description": "Chevreuse fires an explosive grenade at opponents with her musket, dealing <color=#FF9999FF>AoE Pyro DMG.</color> After the projectile hits, it will split into many secondary explosive shells.\\nThe secondary explosive shells will burst after a short interval, dealing <color=#FF9999FF>Pyro DMG</color> to nearby opponents.\\n\\n<i>\"Theoretically, a rectangular blast would be most efficient at destroying enemy formations. Unfortunately, the cross-section of an explosive shock wave is round, like most cakes. So, the secondary explosive shells can only be arranged like the fruit on a cake, forming a ring around the edge.\"</i>",
+                    "icon": "Skill_E_Chevreuse_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Explosive Grenade DMG 368.2%",
+                            "1": "Secondary Explosive Shell DMG 49.1%",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "2": {
+                            "0": "Explosive Grenade DMG 395.8%",
+                            "1": "Secondary Explosive Shell DMG 52.8%",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "3": {
+                            "0": "Explosive Grenade DMG 423.4%",
+                            "1": "Secondary Explosive Shell DMG 56.5%",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "4": {
+                            "0": "Explosive Grenade DMG 460.2%",
+                            "1": "Secondary Explosive Shell DMG 61.4%",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "5": {
+                            "0": "Explosive Grenade DMG 487.8%",
+                            "1": "Secondary Explosive Shell DMG 65%",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "6": {
+                            "0": "Explosive Grenade DMG 515.4%",
+                            "1": "Secondary Explosive Shell DMG 68.7%",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "7": {
+                            "0": "Explosive Grenade DMG 552.2%",
+                            "1": "Secondary Explosive Shell DMG 73.6%",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "8": {
+                            "0": "Explosive Grenade DMG 589.1%",
+                            "1": "Secondary Explosive Shell DMG 78.5%",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "9": {
+                            "0": "Explosive Grenade DMG 625.9%",
+                            "1": "Secondary Explosive Shell DMG 83.5%",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "10": {
+                            "0": "Explosive Grenade DMG 662.7%",
+                            "1": "Secondary Explosive Shell DMG 88.4%",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "11": {
+                            "0": "Explosive Grenade DMG 699.5%",
+                            "1": "Secondary Explosive Shell DMG 93.3%",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "12": {
+                            "0": "Explosive Grenade DMG 736.3%",
+                            "1": "Secondary Explosive Shell DMG 98.2%",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "13": {
+                            "0": "Explosive Grenade DMG 782.3%",
+                            "1": "Secondary Explosive Shell DMG 104.3%",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "14": {
+                            "0": "Explosive Grenade DMG 828.4%",
+                            "1": "Secondary Explosive Shell DMG 110.4%",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "15": {
+                            "0": "Explosive Grenade DMG 874.4%",
+                            "1": "Secondary Explosive Shell DMG 116.6%",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104344",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112083",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112085",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113055",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112085",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113055",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112085",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113055",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104346",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112085",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113055",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Vanguard's Coordinated Tactics",
+                    "description": "When all party members are <color=#FF9999FF>Pyro</color> and <color=#FFACFFFF>Electro</color> characters and there is at least one Pyro and one Electro character each in the party:\\nChevreuse grants \"Coordinated Tactics\" to nearby party members: After a character triggers the Overloaded reaction, the <color=#FF9999FF>Pyro</color> and <color=#FFACFFFF>Electro</color> RES of the opponent(s) affected by this Overloaded reaction will be decreased by 40% for 6s.\\nThe \"Coordinated Tactics\" effect will be removed when the Elemental Types of the characters in the party do not meet the basic requirements for the Passive Talent.",
+                    "icon": "UI_Talent_S_Chevreuse_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Vertical Force Coordination",
+                    "description": "After Chevreuse fires an Overcharged Ball using <color=#FFD780FF>Short-Range Rapid Interdiction Fire</color>, nearby <color=#FF9999FF>Pyro</color> and <color=#FFACFFFF>Electro</color> characters in the party gain 1% increased ATK for every 1,000 Max HP Chevreuse has for 30s. ATK can be increased by up to 40% in this way.",
+                    "icon": "UI_Talent_S_Chevreuse_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Double Time March",
+                    "description": "Decreases sprinting Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects.",
+                    "icon": "UI_Talent_Explosion_Sprint",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Stable Front Line's Resolve",
+                    "description": "When the active character with the \"Coordinated Tactics\" status (not including Chevreuse herself) triggers the Overloaded reaction, they will recover 6 Energy. This effect can be triggered once every 10s.\\nYou must first unlock the Passive Talent \"Vanguard's Coordinated Tactics.\"",
+                    "icon": "UI_Talent_S_Chevreuse_01"
+                },
+                "1": {
+                    "name": "Sniper Induced Explosion",
+                    "description": "After Holding <color=#FFD780FF>Short-Range Rapid Interdiction Fire</color> and hitting a target, 2 chain explosions will be triggered near the location where said target is hit. Each explosion deals <color=#FF9999FF>Pyro DMG</color> equal to 120% of Chevreuse's ATK. This effect can be triggered up to once every 10s, and DMG dealt this way is considered Elemental Skill DMG.",
+                    "icon": "UI_Talent_S_Chevreuse_02"
+                },
+                "2": {
+                    "name": "Practiced Field Stripping Technique",
+                    "description": "Increases the Level of <color=#FFD780FF>Short-Range Rapid Interdiction Fire</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Chevreuse_01"
+                },
+                "3": {
+                    "name": "The Secret to Rapid-Fire Multishots",
+                    "description": "After using <color=#FFD780FF>Ring of Bursting Grenades</color>, the Hold mode of <color=#FFD780FF>Short-Range Rapid Interdiction Fire</color> will not go on cooldown when Chevreuse uses it. This effect is removed after Short-Range Rapid Interdiction Fire has been fired twice using Hold or after 6s.",
+                    "icon": "UI_Talent_S_Chevreuse_03"
+                },
+                "4": {
+                    "name": "Enhanced Incendiary Firepower",
+                    "description": "Increases the Level of <color=#FFD780FF>Ring of Bursting Grenades</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Chevreuse_02"
+                },
+                "5": {
+                    "name": "In Pursuit of Ending Evil",
+                    "description": "After 12s of the healing effect from <color=#FFD780FF>Short-Range Rapid Interdiction Fire</color>, all nearby party members recover HP equivalent to 10% of Chevreuse's Max HP once.\\nAfter a party member is healed by Short-Range Rapid Interdiction Fire, they gain a 20% <color=#FF9999FF>Pyro DMG Bonus</color> and <color=#FFACFFFF>Electro DMG Bonus</color> for 8s. Max 3 stacks. Each stack's duration is counted independently.",
+                    "icon": "UI_Talent_S_Chevreuse_04"
+                }
+            },
+            "elevation": {
+                "sub": "HP %",
+                "0": {
+                    "stats": {
+                        "HP": 1003,
+                        "ATK": 16,
+                        "DEF": 51,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2577,
+                        "ATK": 42,
+                        "DEF": 130,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101235",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104111",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112083",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 3326,
+                        "ATK": 54,
+                        "DEF": 168,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 4982,
+                        "ATK": 80,
+                        "DEF": 252,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101235",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104112",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112083",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113053",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 5514,
+                        "ATK": 89,
+                        "DEF": 279,
+                        "sub": 6.0
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 6343,
+                        "ATK": 102,
+                        "DEF": 321,
+                        "sub": 6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101235",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104112",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112084",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113053",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 7052,
+                        "ATK": 114,
+                        "DEF": 357,
+                        "sub": 12
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 7881,
+                        "ATK": 127,
+                        "DEF": 398,
+                        "sub": 12
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101235",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104113",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112084",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113053",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 8413,
+                        "ATK": 136,
+                        "DEF": 425,
+                        "sub": 12
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 9241,
+                        "ATK": 149,
+                        "DEF": 467,
+                        "sub": 12
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101235",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104113",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112085",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113053",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 9773,
+                        "ATK": 158,
+                        "DEF": 494,
+                        "sub": 18
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 10602,
+                        "ATK": 171,
+                        "DEF": 536,
+                        "sub": 18
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101235",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104114",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112085",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113053",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 11134,
+                        "ATK": 180,
+                        "DEF": 563,
+                        "sub": 24
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 11962,
+                        "ATK": 193,
+                        "DEF": 605,
+                        "sub": 24
+                    },
+                    "res": {}
+                }
+            }
+        },
+        "ru": {
+            "name": "Chevreuse",
+            "name_ru": "Шеврёз",
+            "id": 10000090,
+            "rarity": 4,
+            "weapon": "Polearm",
+            "element": "Pyro",
+            "region": "Fontaine",
+            "more": {
+                "title": "Вершитель правосудия",
+                "detail": "Командир Особого патруля с неизменной жаждой справедливости, направляет свой мушкет только на преступников.",
+                "constellation": "Мушкет",
+                "group": "Особый патруль",
+                "birthday": "10.1",
+                "release": "09.01.2024",
+                "cv": {
+                    "en": "Erica Lindbeck",
+                    "chs": "潘丹妮",
+                    "jp": "下地紫野",
+                    "kr": "Chae Min-ji"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Модифицированный ряд штыков",
+                    "description": "<color=#FFD780FF>Обычная атака:</color>\\nДо четырёх ударов копьём.\\n\\n<color=#FFD780FF>Заряженная атака:</color>\\nВыпад, наносящий урон противникам на пути, на который тратится определённое количество выносливости.\\n\\n<color=#FFD780FF>Атака в падении:</color>\\nСтремительно падает на землю, атакуя всех врагов на пути. Приземлившись, наносит урон по площади.",
+                    "icon": "Skill_A_03",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон атаки 1 53.1%",
+                            "1": "Урон атаки 2 49.3%",
+                            "2": "Урон атаки 3 27.6%+32.5%",
+                            "3": "Урон атаки 4 77.3%",
+                            "4": "Урон заряженной атаки 121.7%",
+                            "5": "Потребление выносливости 25 ед.",
+                            "6": "Урон в падении 63.9%",
+                            "7": "Урон низкого/высокого удара 127.8%/159.7%"
+                        },
+                        "2": {
+                            "0": "Урон атаки 1 57.5%",
+                            "1": "Урон атаки 2 53.3%",
+                            "2": "Урон атаки 3 29.9%+35.1%",
+                            "3": "Урон атаки 4 83.5%",
+                            "4": "Урон заряженной атаки 131.6%",
+                            "5": "Потребление выносливости 25 ед.",
+                            "6": "Урон в падении 69.1%",
+                            "7": "Урон низкого/высокого удара 138.2%/172.7%"
+                        },
+                        "3": {
+                            "0": "Урон атаки 1 61.8%",
+                            "1": "Урон атаки 2 57.3%",
+                            "2": "Урон атаки 3 32.1%+37.7%",
+                            "3": "Урон атаки 4 89.8%",
+                            "4": "Урон заряженной атаки 141.5%",
+                            "5": "Потребление выносливости 25 ед.",
+                            "6": "Урон в падении 74.3%",
+                            "7": "Урон низкого/высокого удара 148.6%/185.7%"
+                        },
+                        "4": {
+                            "0": "Урон атаки 1 68%",
+                            "1": "Урон атаки 2 63.1%",
+                            "2": "Урон атаки 3 35.4%+41.5%",
+                            "3": "Урон атаки 4 98.8%",
+                            "4": "Урон заряженной атаки 155.7%",
+                            "5": "Потребление выносливости 25 ед.",
+                            "6": "Урон в падении 81.8%",
+                            "7": "Урон низкого/высокого удара 163.5%/204.2%"
+                        },
+                        "5": {
+                            "0": "Урон атаки 1 72.3%",
+                            "1": "Урон атаки 2 67.1%",
+                            "2": "Урон атаки 3 37.6%+44.2%",
+                            "3": "Урон атаки 4 105.1%",
+                            "4": "Урон заряженной атаки 165.6%",
+                            "5": "Потребление выносливости 25 ед.",
+                            "6": "Урон в падении 87%",
+                            "7": "Урон низкого/высокого удара 173.9%/217.2%"
+                        },
+                        "6": {
+                            "0": "Урон атаки 1 77.2%",
+                            "1": "Урон атаки 2 71.7%",
+                            "2": "Урон атаки 3 40.2%+47.2%",
+                            "3": "Урон атаки 4 112.3%",
+                            "4": "Урон заряженной атаки 176.9%",
+                            "5": "Потребление выносливости 25 ед.",
+                            "6": "Урон в падении 92.9%",
+                            "7": "Урон низкого/высокого удара 185.8%/232.1%"
+                        },
+                        "7": {
+                            "0": "Урон атаки 1 84%",
+                            "1": "Урон атаки 2 78%",
+                            "2": "Урон атаки 3 43.7%+51.3%",
+                            "3": "Урон атаки 4 122.2%",
+                            "4": "Урон заряженной атаки 192.4%",
+                            "5": "Потребление выносливости 25 ед.",
+                            "6": "Урон в падении 101.1%",
+                            "7": "Урон низкого/высокого удара 202.2%/252.5%"
+                        },
+                        "8": {
+                            "0": "Урон атаки 1 90.8%",
+                            "1": "Урон атаки 2 84.3%",
+                            "2": "Урон атаки 3 47.3%+55.5%",
+                            "3": "Урон атаки 4 132.1%",
+                            "4": "Урон заряженной атаки 208%",
+                            "5": "Потребление выносливости 25 ед.",
+                            "6": "Урон в падении 109.3%",
+                            "7": "Урон низкого/высокого удара 218.5%/272.9%"
+                        },
+                        "9": {
+                            "0": "Урон атаки 1 97.6%",
+                            "1": "Урон атаки 2 90.6%",
+                            "2": "Урон атаки 3 50.8%+59.6%",
+                            "3": "Урон атаки 4 141.9%",
+                            "4": "Урон заряженной атаки 223.6%",
+                            "5": "Потребление выносливости 25 ед.",
+                            "6": "Урон в падении 117.5%",
+                            "7": "Урон низкого/высокого удара 234.9%/293.4%"
+                        },
+                        "10": {
+                            "0": "Урон атаки 1 105%",
+                            "1": "Урон атаки 2 97.5%",
+                            "2": "Урон атаки 3 54.6%+64.2%",
+                            "3": "Урон атаки 4 152.7%",
+                            "4": "Урон заряженной атаки 240.6%",
+                            "5": "Потребление выносливости 25 ед.",
+                            "6": "Урон в падении 126.4%",
+                            "7": "Урон низкого/высокого удара 252.7%/315.6%"
+                        },
+                        "11": {
+                            "0": "Урон атаки 1 112.4%",
+                            "1": "Урон атаки 2 104.4%",
+                            "2": "Урон атаки 3 58.5%+68.7%",
+                            "3": "Урон атаки 4 163.5%",
+                            "4": "Урон заряженной атаки 257.5%",
+                            "5": "Потребление выносливости 25 ед.",
+                            "6": "Урон в падении 135.3%",
+                            "7": "Урон низкого/высокого удара 270.5%/337.9%"
+                        },
+                        "12": {
+                            "0": "Урон атаки 1 119.9%",
+                            "1": "Урон атаки 2 111.2%",
+                            "2": "Урон атаки 3 62.4%+73.2%",
+                            "3": "Урон атаки 4 174.3%",
+                            "4": "Урон заряженной атаки 274.5%",
+                            "5": "Потребление выносливости 25 ед.",
+                            "6": "Урон в падении 144.2%",
+                            "7": "Урон низкого/высокого удара 288.4%/360.2%"
+                        },
+                        "13": {
+                            "0": "Урон атаки 1 127.3%",
+                            "1": "Урон атаки 2 118.1%",
+                            "2": "Урон атаки 3 66.2%+77.7%",
+                            "3": "Урон атаки 4 185.1%",
+                            "4": "Урон заряженной атаки 291.5%",
+                            "5": "Потребление выносливости 25 ед.",
+                            "6": "Урон в падении 153.1%",
+                            "7": "Урон низкого/высокого удара 306.2%/382.5%"
+                        },
+                        "14": {
+                            "0": "Урон атаки 1 134.7%",
+                            "1": "Урон атаки 2 125%",
+                            "2": "Урон атаки 3 70.1%+82.3%",
+                            "3": "Урон атаки 4 195.8%",
+                            "4": "Урон заряженной атаки 308.5%",
+                            "5": "Потребление выносливости 25 ед.",
+                            "6": "Урон в падении 162.1%",
+                            "7": "Урон низкого/высокого удара 324.1%/404.8%"
+                        },
+                        "15": {
+                            "0": "Урон атаки 1 142.1%",
+                            "1": "Урон атаки 2 131.9%",
+                            "2": "Урон атаки 3 73.9%+86.8%",
+                            "3": "Урон атаки 4 206.6%",
+                            "4": "Урон заряженной атаки 325.5%",
+                            "5": "Потребление выносливости 25 ед.",
+                            "6": "Урон в падении 171%",
+                            "7": "Урон низкого/высокого удара 341.9%/427%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104344",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112083",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112085",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113055",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112085",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113055",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112085",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113055",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104346",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112085",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113055",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Быстрый преграждающий выстрел вблизи",
+                    "description": "Шеврёз быстро вскидывает мушкет к плечу и стреляет в противника, нанося <color=#FF9999FF>Пиро урон по площади</color>.\\nВ течение некоторого времени после выстрела Шеврёз периодически восстанавливает HP вашего активного персонажа пропорционально собственному макс. HP.\\nПри долгом нажатии способ активации навыка меняется.\\n\\n<color=#FFD780FF>Долгое нажатие</color>\\nПереходит в режим прицеливания и фиксирует одну цель, чтобы совершить точный преграждающий выстрел. Если у Шеврёз есть Перегруженный заряд, она выстрелит им и нанесёт повышенный <color=#FF9999FF>Пиро урон</color> по большей площади.\\nКаждый раз, когда член отряда поблизости вызывает реакцию Перегрузка, Шеврёз получает 1 Перегруженный заряд. Одновременно можно иметь не более 1 Перегруженного заряда.\\n\\n\\n<color=#FFD780FF>Архэ: Усия</color>\\nПосле попадания навыка Быстрый преграждающий выстрел вблизи Шеврёз периодически призывает Клинок бурных вод, который наносит <color=#FF9999FF>Пиро урон</color> усии.\\n\\n<i>«Вообще-то в обучающей инструкции есть только термин \"преграждающий выстрел\", но по мнению героя этого романа стильная терминология повышает боевой дух и ставит противника в проигрышное положение ещё на старте... Мне это показалось разумным, и я изменила инструкцию!»</i>",
+                    "icon": "Skill_S_Chevreuse_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон быстрого нажатия 115.2%",
+                            "1": "Урон долгого нажатия 172.8%",
+                            "2": "Урон Перегруженного заряда 282.4%",
+                            "3": "Периодическое лечение {param5:F2P} от макс. HP + 256",
+                            "4": "Длительность лечения 12 сек.",
+                            "5": "Урон Клинка бурных вод 28.8%",
+                            "6": "Интервал Клинка бурных вод 10 сек.",
+                            "7": "Время отката 15 сек."
+                        },
+                        "2": {
+                            "0": "Урон быстрого нажатия 123.8%",
+                            "1": "Урон долгого нажатия 185.8%",
+                            "2": "Урон Перегруженного заряда 303.6%",
+                            "3": "Периодическое лечение {param5:F2P} от макс. HP + 282",
+                            "4": "Длительность лечения 12 сек.",
+                            "5": "Урон Клинка бурных вод 31%",
+                            "6": "Интервал Клинка бурных вод 10 сек.",
+                            "7": "Время отката 15 сек."
+                        },
+                        "3": {
+                            "0": "Урон быстрого нажатия 132.5%",
+                            "1": "Урон долгого нажатия 198.7%",
+                            "2": "Урон Перегруженного заряда 324.8%",
+                            "3": "Периодическое лечение {param5:F2P} от макс. HP + 310",
+                            "4": "Длительность лечения 12 сек.",
+                            "5": "Урон Клинка бурных вод 33.1%",
+                            "6": "Интервал Клинка бурных вод 10 сек.",
+                            "7": "Время отката 15 сек."
+                        },
+                        "4": {
+                            "0": "Урон быстрого нажатия 144%",
+                            "1": "Урон долгого нажатия 216%",
+                            "2": "Урон Перегруженного заряда 353%",
+                            "3": "Периодическое лечение {param5:F2P} от макс. HP + 340",
+                            "4": "Длительность лечения 12 сек.",
+                            "5": "Урон Клинка бурных вод 36%",
+                            "6": "Интервал Клинка бурных вод 10 сек.",
+                            "7": "Время отката 15 сек."
+                        },
+                        "5": {
+                            "0": "Урон быстрого нажатия 152.6%",
+                            "1": "Урон долгого нажатия 229%",
+                            "2": "Урон Перегруженного заряда 374.2%",
+                            "3": "Периодическое лечение {param5:F2P} от макс. HP + 372",
+                            "4": "Длительность лечения 12 сек.",
+                            "5": "Урон Клинка бурных вод 38.2%",
+                            "6": "Интервал Клинка бурных вод 10 сек.",
+                            "7": "Время отката 15 сек."
+                        },
+                        "6": {
+                            "0": "Урон быстрого нажатия 161.3%",
+                            "1": "Урон долгого нажатия 241.9%",
+                            "2": "Урон Перегруженного заряда 395.4%",
+                            "3": "Периодическое лечение {param5:F2P} от макс. HP + 406",
+                            "4": "Длительность лечения 12 сек.",
+                            "5": "Урон Клинка бурных вод 40.3%",
+                            "6": "Интервал Клинка бурных вод 10 сек.",
+                            "7": "Время отката 15 сек."
+                        },
+                        "7": {
+                            "0": "Урон быстрого нажатия 172.8%",
+                            "1": "Урон долгого нажатия 259.2%",
+                            "2": "Урон Перегруженного заряда 423.6%",
+                            "3": "Периодическое лечение {param5:F2P} от макс. HP + 442",
+                            "4": "Длительность лечения 12 сек.",
+                            "5": "Урон Клинка бурных вод 43.2%",
+                            "6": "Интервал Клинка бурных вод 10 сек.",
+                            "7": "Время отката 15 сек."
+                        },
+                        "8": {
+                            "0": "Урон быстрого нажатия 184.3%",
+                            "1": "Урон долгого нажатия 276.5%",
+                            "2": "Урон Перегруженного заряда 451.8%",
+                            "3": "Периодическое лечение {param5:F2P} от макс. HP + 481",
+                            "4": "Длительность лечения 12 сек.",
+                            "5": "Урон Клинка бурных вод 46.1%",
+                            "6": "Интервал Клинка бурных вод 10 сек.",
+                            "7": "Время отката 15 сек."
+                        },
+                        "9": {
+                            "0": "Урон быстрого нажатия 195.8%",
+                            "1": "Урон долгого нажатия 293.8%",
+                            "2": "Урон Перегруженного заряда 480.1%",
+                            "3": "Периодическое лечение {param5:F2P} от макс. HP + 522",
+                            "4": "Длительность лечения 12 сек.",
+                            "5": "Урон Клинка бурных вод 49%",
+                            "6": "Интервал Клинка бурных вод 10 сек.",
+                            "7": "Время отката 15 сек."
+                        },
+                        "10": {
+                            "0": "Урон быстрого нажатия 207.4%",
+                            "1": "Урон долгого нажатия 311%",
+                            "2": "Урон Перегруженного заряда 508.3%",
+                            "3": "Периодическое лечение {param5:F2P} от макс. HP + 564",
+                            "4": "Длительность лечения 12 сек.",
+                            "5": "Урон Клинка бурных вод 51.8%",
+                            "6": "Интервал Клинка бурных вод 10 сек.",
+                            "7": "Время отката 15 сек."
+                        },
+                        "11": {
+                            "0": "Урон быстрого нажатия 218.9%",
+                            "1": "Урон долгого нажатия 328.3%",
+                            "2": "Урон Перегруженного заряда 536.6%",
+                            "3": "Периодическое лечение {param5:F2P} от макс. HP + 609",
+                            "4": "Длительность лечения 12 сек.",
+                            "5": "Урон Клинка бурных вод 54.7%",
+                            "6": "Интервал Клинка бурных вод 10 сек.",
+                            "7": "Время отката 15 сек."
+                        },
+                        "12": {
+                            "0": "Урон быстрого нажатия 230.4%",
+                            "1": "Урон долгого нажатия 345.6%",
+                            "2": "Урон Перегруженного заряда 564.8%",
+                            "3": "Периодическое лечение {param5:F2P} от макс. HP + 657",
+                            "4": "Длительность лечения 12 сек.",
+                            "5": "Урон Клинка бурных вод 57.6%",
+                            "6": "Интервал Клинка бурных вод 10 сек.",
+                            "7": "Время отката 15 сек."
+                        },
+                        "13": {
+                            "0": "Урон быстрого нажатия 244.8%",
+                            "1": "Урон долгого нажатия 367.2%",
+                            "2": "Урон Перегруженного заряда 600.1%",
+                            "3": "Периодическое лечение {param5:F2P} от макс. HP + 706",
+                            "4": "Длительность лечения 12 сек.",
+                            "5": "Урон Клинка бурных вод 61.2%",
+                            "6": "Интервал Клинка бурных вод 10 сек.",
+                            "7": "Время отката 15 сек."
+                        },
+                        "14": {
+                            "0": "Урон быстрого нажатия 259.2%",
+                            "1": "Урон долгого нажатия 388.8%",
+                            "2": "Урон Перегруженного заряда 635.4%",
+                            "3": "Периодическое лечение {param5:F2P} от макс. HP + 757",
+                            "4": "Длительность лечения 12 сек.",
+                            "5": "Урон Клинка бурных вод 64.8%",
+                            "6": "Интервал Клинка бурных вод 10 сек.",
+                            "7": "Время отката 15 сек."
+                        },
+                        "15": {
+                            "0": "Урон быстрого нажатия 273.6%",
+                            "1": "Урон долгого нажатия 410.4%",
+                            "2": "Урон Перегруженного заряда 670.7%",
+                            "3": "Периодическое лечение {param5:F2P} от макс. HP + 811",
+                            "4": "Длительность лечения 12 сек.",
+                            "5": "Урон Клинка бурных вод 68.4%",
+                            "6": "Интервал Клинка бурных вод 10 сек.",
+                            "7": "Время отката 15 сек."
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104344",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112083",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112085",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113055",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112085",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113055",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112085",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113055",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104346",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112085",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113055",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Кольцо разрывных гранат",
+                    "description": "Шеврёз выстреливает во врагов разрывной гранатой и наносит <color=#FF9999FF>Пиро урон по площади</color>. После попадания граната разделяется на множество вторичных разрывных снарядов.\\nЧерез короткий промежуток времени разрывные снаряды взрываются, нанося <color=#FF9999FF>Пиро урон</color> врагам поблизости.\\n\\n<i>«По идее, для уничтожения вражеских формаций наиболее эффективен обстрел по прямоугольной площади. К сожалению, поперечное сечение взрывной волны, как и у большинства тортов, это окружность. Поэтому вторичные снаряды, разлетаясь, могут распределяться только как фрукты по краю торта, а именно по кругу».</i>",
+                    "icon": "Skill_E_Chevreuse_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон разрывной гранаты 368.2%",
+                            "1": "Урон мелкого разрывного заряда 49.1%",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "2": {
+                            "0": "Урон разрывной гранаты 395.8%",
+                            "1": "Урон мелкого разрывного заряда 52.8%",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "3": {
+                            "0": "Урон разрывной гранаты 423.4%",
+                            "1": "Урон мелкого разрывного заряда 56.5%",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "4": {
+                            "0": "Урон разрывной гранаты 460.2%",
+                            "1": "Урон мелкого разрывного заряда 61.4%",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "5": {
+                            "0": "Урон разрывной гранаты 487.8%",
+                            "1": "Урон мелкого разрывного заряда 65%",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "6": {
+                            "0": "Урон разрывной гранаты 515.4%",
+                            "1": "Урон мелкого разрывного заряда 68.7%",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "7": {
+                            "0": "Урон разрывной гранаты 552.2%",
+                            "1": "Урон мелкого разрывного заряда 73.6%",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "8": {
+                            "0": "Урон разрывной гранаты 589.1%",
+                            "1": "Урон мелкого разрывного заряда 78.5%",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "9": {
+                            "0": "Урон разрывной гранаты 625.9%",
+                            "1": "Урон мелкого разрывного заряда 83.5%",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "10": {
+                            "0": "Урон разрывной гранаты 662.7%",
+                            "1": "Урон мелкого разрывного заряда 88.4%",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "11": {
+                            "0": "Урон разрывной гранаты 699.5%",
+                            "1": "Урон мелкого разрывного заряда 93.3%",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "12": {
+                            "0": "Урон разрывной гранаты 736.3%",
+                            "1": "Урон мелкого разрывного заряда 98.2%",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "13": {
+                            "0": "Урон разрывной гранаты 782.3%",
+                            "1": "Урон мелкого разрывного заряда 104.3%",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "14": {
+                            "0": "Урон разрывной гранаты 828.4%",
+                            "1": "Урон мелкого разрывного заряда 110.4%",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "15": {
+                            "0": "Урон разрывной гранаты 874.4%",
+                            "1": "Урон мелкого разрывного заряда 116.6%",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104344",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112083",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112085",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113055",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112085",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113055",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112085",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113055",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104346",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112085",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113055",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Кольцо разрывных гранат",
+                    "description": "Шеврёз выстреливает во врагов разрывной гранатой и наносит <color=#FF9999FF>Пиро урон по площади</color>. После попадания граната разделяется на множество вторичных разрывных снарядов.\\nЧерез короткий промежуток времени разрывные снаряды взрываются, нанося <color=#FF9999FF>Пиро урон</color> врагам поблизости.\\n\\n<i>«По идее, для уничтожения вражеских формаций наиболее эффективен обстрел по прямоугольной площади. К сожалению, поперечное сечение взрывной волны, как и у большинства тортов, это окружность. Поэтому вторичные снаряды, разлетаясь, могут распределяться только как фрукты по краю торта, а именно по кругу».</i>",
+                    "icon": "Skill_E_Chevreuse_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон разрывной гранаты 368.2%",
+                            "1": "Урон мелкого разрывного заряда 49.1%",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "2": {
+                            "0": "Урон разрывной гранаты 395.8%",
+                            "1": "Урон мелкого разрывного заряда 52.8%",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "3": {
+                            "0": "Урон разрывной гранаты 423.4%",
+                            "1": "Урон мелкого разрывного заряда 56.5%",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "4": {
+                            "0": "Урон разрывной гранаты 460.2%",
+                            "1": "Урон мелкого разрывного заряда 61.4%",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "5": {
+                            "0": "Урон разрывной гранаты 487.8%",
+                            "1": "Урон мелкого разрывного заряда 65%",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "6": {
+                            "0": "Урон разрывной гранаты 515.4%",
+                            "1": "Урон мелкого разрывного заряда 68.7%",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "7": {
+                            "0": "Урон разрывной гранаты 552.2%",
+                            "1": "Урон мелкого разрывного заряда 73.6%",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "8": {
+                            "0": "Урон разрывной гранаты 589.1%",
+                            "1": "Урон мелкого разрывного заряда 78.5%",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "9": {
+                            "0": "Урон разрывной гранаты 625.9%",
+                            "1": "Урон мелкого разрывного заряда 83.5%",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "10": {
+                            "0": "Урон разрывной гранаты 662.7%",
+                            "1": "Урон мелкого разрывного заряда 88.4%",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "11": {
+                            "0": "Урон разрывной гранаты 699.5%",
+                            "1": "Урон мелкого разрывного заряда 93.3%",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "12": {
+                            "0": "Урон разрывной гранаты 736.3%",
+                            "1": "Урон мелкого разрывного заряда 98.2%",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "13": {
+                            "0": "Урон разрывной гранаты 782.3%",
+                            "1": "Урон мелкого разрывного заряда 104.3%",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "14": {
+                            "0": "Урон разрывной гранаты 828.4%",
+                            "1": "Урон мелкого разрывного заряда 110.4%",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "15": {
+                            "0": "Урон разрывной гранаты 874.4%",
+                            "1": "Урон мелкого разрывного заряда 116.6%",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104344",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112083",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112084",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112085",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113055",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112085",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113055",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112085",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113055",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104346",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112085",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113055",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Согласованная тактика авангарда",
+                    "description": "Если отряд полностью состоит из <color=#FF9999FF>Пиро</color> и <color=#FFACFFFF>Электро</color> персонажей и в отряде есть хотя бы по одному персонажу Электро или Пиро:\\nШеврёз наделяет персонажей поблизости Согласованной тактикой: когда персонаж активирует реакцию Перегрузка, <color=#FF9999FF>Пиро</color> и <color=#FFACFFFF>Электро</color> сопротивление противника, который был поражён данной реакцией, понижается на 40% на 6 сек.\\nЕсли элементы персонажей отряда не соответствуют требованиям этого пассивного навыка, все существующие эффекты Согласованной тактики прерываются.",
+                    "icon": "UI_Talent_S_Chevreuse_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Вертикальное координирование сил",
+                    "description": "После того как Шеврёз выстреливает Перегруженным зарядом <color=#FFD780FF>Быстрого преграждающего выстрела вблизи</color>, сила атаки персонажей <color=#FF9999FF>Пиро</color> и <color=#FFACFFFF>Электро</color> в отряде поблизости на 30 сек. увеличится на 1% за каждые 1000 ед. макс. HP Шеврёз. Силу атаки этим способом можно повысить максимум на 40%.",
+                    "icon": "UI_Talent_S_Chevreuse_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Манёвр скорого марша",
+                    "description": "Уменьшает потребление выносливости активного персонажа во время спринта на 20%.\\nНе суммируется с пассивными талантами, дающими точно такие же эффекты.",
+                    "icon": "UI_Talent_Explosion_Sprint",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Решительность прочного фронта",
+                    "description": "Когда активный персонаж (кроме самой Шеврёз), находящийся под воздействием эффекта «Согласованная тактика», активирует реакцию Перегрузка, он восстанавливает 6 ед. энергии. Эффект может возникнуть один раз в 10 сек.\\nТребуется разблокировать пассивный талант «Согласованная тактика авангарда».",
+                    "icon": "UI_Talent_S_Chevreuse_01"
+                },
+                "1": {
+                    "name": "Вызванный метким выстрелом взрыв",
+                    "description": "При попадании долгого нажатия навыка <color=#FFD780FF>Быстрый преграждающий выстрел вблизи</color> рядом с местом попадания вызывается 2 цепных взрыва. Каждый взрыв наносит <color=#FF9999FF>Пиро урон</color> в 120% от силы атаки Шеврёз. Эффект возникает раз в 10 сек. Этот урон считается уроном элементального навыка.",
+                    "icon": "UI_Talent_S_Chevreuse_02"
+                },
+                "2": {
+                    "name": "Отработанная разборка в поле",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Быстрый преграждающий выстрел вблизи</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Chevreuse_01"
+                },
+                "3": {
+                    "name": "Секрет частого огня",
+                    "description": "После применения <color=#FFD780FF>Кольца разрывных гранат</color>, <color=#FFD780FF>Быстрый преграждающий выстрел вблизи</color> Шеврёз, активированный долгим нажатием, не уходит в откат. Через 6 сек. или после двух активаций Быстрого преграждающего выстрела вблизи удержанием эффект исчезает.",
+                    "icon": "UI_Talent_S_Chevreuse_03"
+                },
+                "4": {
+                    "name": "Урон усиленного огня",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Кольцо разрывных гранат</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Chevreuse_02"
+                },
+                "5": {
+                    "name": "В погоне за искоренением зла",
+                    "description": "После 12 сек. действия эффекта лечения навыка <color=#FFD780FF>Быстрый преграждающий выстрел вблизи</color> все окружающие члены отряда один раз восстанавливают HP в размере 10% от макс. HP Шеврёз.\\nПосле получения лечения Быстрого преграждающего выстрела вблизи персонаж отряда на 8 сек. наделяется 20% бонусом <color=#FF9999FF>Пиро</color> и <color=#FFACFFFF>Электро</color> урона. Этот эффект может складываться до 3 раз. Длительность каждого уровня рассчитывается отдельно.",
+                    "icon": "UI_Talent_S_Chevreuse_04"
+                }
+            },
+            "elevation": {
+                "sub": "HP %",
+                "0": {
+                    "stats": {
+                        "HP": 1003,
+                        "ATK": 16,
+                        "DEF": 51,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2577,
+                        "ATK": 42,
+                        "DEF": 130,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101235",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104111",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112083",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 3326,
+                        "ATK": 54,
+                        "DEF": 168,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 4982,
+                        "ATK": 80,
+                        "DEF": 252,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101235",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104112",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112083",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113053",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 5514,
+                        "ATK": 89,
+                        "DEF": 279,
+                        "sub": 6.0
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 6343,
+                        "ATK": 102,
+                        "DEF": 321,
+                        "sub": 6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101235",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104112",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112084",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113053",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 7052,
+                        "ATK": 114,
+                        "DEF": 357,
+                        "sub": 12
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 7881,
+                        "ATK": 127,
+                        "DEF": 398,
+                        "sub": 12
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101235",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104113",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112084",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113053",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 8413,
+                        "ATK": 136,
+                        "DEF": 425,
+                        "sub": 12
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 9241,
+                        "ATK": 149,
+                        "DEF": 467,
+                        "sub": 12
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101235",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104113",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112085",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113053",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 9773,
+                        "ATK": 158,
+                        "DEF": 494,
+                        "sub": 18
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 10602,
+                        "ATK": 171,
+                        "DEF": 536,
+                        "sub": 18
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101235",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104114",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112085",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113053",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 11134,
+                        "ATK": 180,
+                        "DEF": 563,
+                        "sub": 24
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 11962,
+                        "ATK": 193,
+                        "DEF": 605,
+                        "sub": 24
+                    },
+                    "res": {}
+                }
+            }
+        }
+    }
+}

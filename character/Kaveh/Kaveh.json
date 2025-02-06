@@ -1,0 +1,2874 @@
+{
+    "Kaveh": {
+        "en": {
+            "name": "Kaveh",
+            "name_ru": "Кавех",
+            "id": 10000081,
+            "rarity": 4,
+            "weapon": "Claymore",
+            "element": "Dendro",
+            "region": "Sumeru",
+            "more": {
+                "title": "Empyrean Reflection",
+                "detail": "A renowned architect from Sumeru who perhaps cares a bit too much about too many things. He is an aesthete troubled by reality.",
+                "constellation": "Paradisaea",
+                "group": "Independent Design Studio",
+                "birthday": "9.7",
+                "release": "02.05.2023",
+                "cv": {
+                    "en": "Ben Balmaceda",
+                    "chs": "刘三木",
+                    "jp": "内田雄馬",
+                    "kr": "Lee Jeong-min"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Normal Attack: Schematic Setup",
+                    "description": "<color=#FFD780FF>Normal Attack</color>\\nUses Mehrak to perform up to 4 consecutive attacks.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nDrains Stamina over time to perform continuous slashes.\\nAt the end of the sequence, performs a more powerful slash.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+                    "icon": "Skill_A_04",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "1-Hit DMG 76.2%",
+                            "1": "2-Hit DMG 69.6%",
+                            "2": "3-Hit DMG 84.3%",
+                            "3": "4-Hit DMG 102.7%",
+                            "4": "Charged Attack Cyclic DMG 53.1%",
+                            "5": "Charged Attack Final DMG 96.1%",
+                            "6": "Charged Attack Stamina Cost 40/s",
+                            "7": "Max Duration 5s",
+                            "8": "Plunge DMG 74.6%",
+                            "9": "Low/High Plunge DMG 149.1%/186.3%"
+                        },
+                        "2": {
+                            "0": "1-Hit DMG 82.4%",
+                            "1": "2-Hit DMG 75.3%",
+                            "2": "3-Hit DMG 91.1%",
+                            "3": "4-Hit DMG 111%",
+                            "4": "Charged Attack Cyclic DMG 57.5%",
+                            "5": "Charged Attack Final DMG 104%",
+                            "6": "Charged Attack Stamina Cost 40/s",
+                            "7": "Max Duration 5s",
+                            "8": "Plunge DMG 80.7%",
+                            "9": "Low/High Plunge DMG 161.3%/201.5%"
+                        },
+                        "3": {
+                            "0": "1-Hit DMG 88.6%",
+                            "1": "2-Hit DMG 81%",
+                            "2": "3-Hit DMG 98%",
+                            "3": "4-Hit DMG 119.4%",
+                            "4": "Charged Attack Cyclic DMG 61.8%",
+                            "5": "Charged Attack Final DMG 111.8%",
+                            "6": "Charged Attack Stamina Cost 40/s",
+                            "7": "Max Duration 5s",
+                            "8": "Plunge DMG 86.7%",
+                            "9": "Low/High Plunge DMG 173.4%/216.6%"
+                        },
+                        "4": {
+                            "0": "1-Hit DMG 97.4%",
+                            "1": "2-Hit DMG 89.1%",
+                            "2": "3-Hit DMG 107.8%",
+                            "3": "4-Hit DMG 131.3%",
+                            "4": "Charged Attack Cyclic DMG 68%",
+                            "5": "Charged Attack Final DMG 123%",
+                            "6": "Charged Attack Stamina Cost 40/s",
+                            "7": "Max Duration 5s",
+                            "8": "Plunge DMG 95.4%",
+                            "9": "Low/High Plunge DMG 190.8%/238.3%"
+                        },
+                        "5": {
+                            "0": "1-Hit DMG 103.6%",
+                            "1": "2-Hit DMG 94.7%",
+                            "2": "3-Hit DMG 114.6%",
+                            "3": "4-Hit DMG 139.7%",
+                            "4": "Charged Attack Cyclic DMG 72.3%",
+                            "5": "Charged Attack Final DMG 130.8%",
+                            "6": "Charged Attack Stamina Cost 40/s",
+                            "7": "Max Duration 5s",
+                            "8": "Plunge DMG 101.5%",
+                            "9": "Low/High Plunge DMG 202.9%/253.4%"
+                        },
+                        "6": {
+                            "0": "1-Hit DMG 110.7%",
+                            "1": "2-Hit DMG 101.2%",
+                            "2": "3-Hit DMG 122.5%",
+                            "3": "4-Hit DMG 149.3%",
+                            "4": "Charged Attack Cyclic DMG 77.2%",
+                            "5": "Charged Attack Final DMG 139.8%",
+                            "6": "Charged Attack Stamina Cost 40/s",
+                            "7": "Max Duration 5s",
+                            "8": "Plunge DMG 108.4%",
+                            "9": "Low/High Plunge DMG 216.8%/270.8%"
+                        },
+                        "7": {
+                            "0": "1-Hit DMG 120.5%",
+                            "1": "2-Hit DMG 110.1%",
+                            "2": "3-Hit DMG 133.2%",
+                            "3": "4-Hit DMG 162.4%",
+                            "4": "Charged Attack Cyclic DMG 84%",
+                            "5": "Charged Attack Final DMG 152%",
+                            "6": "Charged Attack Stamina Cost 40/s",
+                            "7": "Max Duration 5s",
+                            "8": "Plunge DMG 118%",
+                            "9": "Low/High Plunge DMG 235.9%/294.6%"
+                        },
+                        "8": {
+                            "0": "1-Hit DMG 130.2%",
+                            "1": "2-Hit DMG 119%",
+                            "2": "3-Hit DMG 144%",
+                            "3": "4-Hit DMG 175.5%",
+                            "4": "Charged Attack Cyclic DMG 90.8%",
+                            "5": "Charged Attack Final DMG 164.3%",
+                            "6": "Charged Attack Stamina Cost 40/s",
+                            "7": "Max Duration 5s",
+                            "8": "Plunge DMG 127.5%",
+                            "9": "Low/High Plunge DMG 254.9%/318.4%"
+                        },
+                        "9": {
+                            "0": "1-Hit DMG 140%",
+                            "1": "2-Hit DMG 127.9%",
+                            "2": "3-Hit DMG 154.8%",
+                            "3": "4-Hit DMG 188.7%",
+                            "4": "Charged Attack Cyclic DMG 97.6%",
+                            "5": "Charged Attack Final DMG 176.6%",
+                            "6": "Charged Attack Stamina Cost 40/s",
+                            "7": "Max Duration 5s",
+                            "8": "Plunge DMG 137%",
+                            "9": "Low/High Plunge DMG 274%/342.3%"
+                        },
+                        "10": {
+                            "0": "1-Hit DMG 150.6%",
+                            "1": "2-Hit DMG 137.7%",
+                            "2": "3-Hit DMG 166.6%",
+                            "3": "4-Hit DMG 203%",
+                            "4": "Charged Attack Cyclic DMG 105.1%",
+                            "5": "Charged Attack Final DMG 190.1%",
+                            "6": "Charged Attack Stamina Cost 40/s",
+                            "7": "Max Duration 5s",
+                            "8": "Plunge DMG 147.4%",
+                            "9": "Low/High Plunge DMG 294.8%/368.2%"
+                        },
+                        "11": {
+                            "0": "1-Hit DMG 161.2%",
+                            "1": "2-Hit DMG 147.4%",
+                            "2": "3-Hit DMG 178.3%",
+                            "3": "4-Hit DMG 217.3%",
+                            "4": "Charged Attack Cyclic DMG 112.5%",
+                            "5": "Charged Attack Final DMG 203.5%",
+                            "6": "Charged Attack Stamina Cost 40/s",
+                            "7": "Max Duration 5s",
+                            "8": "Plunge DMG 157.8%",
+                            "9": "Low/High Plunge DMG 315.6%/394.2%"
+                        },
+                        "12": {
+                            "0": "1-Hit DMG 171.9%",
+                            "1": "2-Hit DMG 157.1%",
+                            "2": "3-Hit DMG 190.1%",
+                            "3": "4-Hit DMG 231.6%",
+                            "4": "Charged Attack Cyclic DMG 119.9%",
+                            "5": "Charged Attack Final DMG 216.9%",
+                            "6": "Charged Attack Stamina Cost 40/s",
+                            "7": "Max Duration 5s",
+                            "8": "Plunge DMG 168.3%",
+                            "9": "Low/High Plunge DMG 336.4%/420.2%"
+                        },
+                        "13": {
+                            "0": "1-Hit DMG 182.5%",
+                            "1": "2-Hit DMG 166.8%",
+                            "2": "3-Hit DMG 201.8%",
+                            "3": "4-Hit DMG 246%",
+                            "4": "Charged Attack Cyclic DMG 127.3%",
+                            "5": "Charged Attack Final DMG 230.3%",
+                            "6": "Charged Attack Stamina Cost 40/s",
+                            "7": "Max Duration 5s",
+                            "8": "Plunge DMG 178.7%",
+                            "9": "Low/High Plunge DMG 357.3%/446.2%"
+                        },
+                        "14": {
+                            "0": "1-Hit DMG 193.1%",
+                            "1": "2-Hit DMG 176.5%",
+                            "2": "3-Hit DMG 213.6%",
+                            "3": "4-Hit DMG 260.3%",
+                            "4": "Charged Attack Cyclic DMG 134.7%",
+                            "5": "Charged Attack Final DMG 243.7%",
+                            "6": "Charged Attack Stamina Cost 40/s",
+                            "7": "Max Duration 5s",
+                            "8": "Plunge DMG 189.1%",
+                            "9": "Low/High Plunge DMG 378.1%/472.2%"
+                        },
+                        "15": {
+                            "0": "1-Hit DMG 203.8%",
+                            "1": "2-Hit DMG 186.2%",
+                            "2": "3-Hit DMG 225.3%",
+                            "3": "4-Hit DMG 274.6%",
+                            "4": "Charged Attack Cyclic DMG 142.1%",
+                            "5": "Charged Attack Final DMG 257.1%",
+                            "6": "Charged Attack Stamina Cost 40/s",
+                            "7": "Max Duration 5s",
+                            "8": "Plunge DMG 199.5%",
+                            "9": "Low/High Plunge DMG 398.9%/498.2%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104332",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112059",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112061",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112061",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112061",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104334",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112061",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Artistic Ingenuity",
+                    "description": "Uses Mehrak's mapping ability for offensive purposes, initiating a radial scan that deals <color=#99FF88FF>AoE Dendro DMG</color>. It will also scan all Dendro Cores in its AoE and cause them to immediately burst.\\n\\n<i>Mehrak was created through the modification of ancient technology and may have some other functions apart from mapping work...</i>",
+                    "icon": "Skill_S_Kaveh_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 204%",
+                            "1": "CD 6s"
+                        },
+                        "2": {
+                            "0": "Skill DMG 219.3%",
+                            "1": "CD 6s"
+                        },
+                        "3": {
+                            "0": "Skill DMG 234.6%",
+                            "1": "CD 6s"
+                        },
+                        "4": {
+                            "0": "Skill DMG 255%",
+                            "1": "CD 6s"
+                        },
+                        "5": {
+                            "0": "Skill DMG 270.3%",
+                            "1": "CD 6s"
+                        },
+                        "6": {
+                            "0": "Skill DMG 285.6%",
+                            "1": "CD 6s"
+                        },
+                        "7": {
+                            "0": "Skill DMG 306%",
+                            "1": "CD 6s"
+                        },
+                        "8": {
+                            "0": "Skill DMG 326.4%",
+                            "1": "CD 6s"
+                        },
+                        "9": {
+                            "0": "Skill DMG 346.8%",
+                            "1": "CD 6s"
+                        },
+                        "10": {
+                            "0": "Skill DMG 367.2%",
+                            "1": "CD 6s"
+                        },
+                        "11": {
+                            "0": "Skill DMG 387.6%",
+                            "1": "CD 6s"
+                        },
+                        "12": {
+                            "0": "Skill DMG 408%",
+                            "1": "CD 6s"
+                        },
+                        "13": {
+                            "0": "Skill DMG 433.5%",
+                            "1": "CD 6s"
+                        },
+                        "14": {
+                            "0": "Skill DMG 459%",
+                            "1": "CD 6s"
+                        },
+                        "15": {
+                            "0": "Skill DMG 484.5%",
+                            "1": "CD 6s"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104332",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112059",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112061",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112061",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112061",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104334",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112061",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Painted Dome",
+                    "description": "Completely unleashes Mehrak's energy and creates a cubic scanned space, dealing <color=#99FF88FF>AoE Dendro DMG</color> to all opponents within it, causing all Dendro Cores in its AoE to immediately burst, and granting Kaveh the following enhanced combat abilities for a specific duration:\\n·Increases Kaveh's Normal, Charged, and Plunging Attack AoE, and converts his attack DMG to <color=#99FF88FF>Dendro DMG</color> that cannot be overridden.\\n·All Dendro Cores created by all your own party members through Bloom reactions will deal additional DMG when they burst.\\n·Increases Kaveh's resistance to interruption.\\nThese effects will be canceled once Kaveh leaves the field.\\n\\n<i>\"Every building style includes the architect's unique worldview, and from this angle, one can say that the buildings themselves are coalescences of human memories.\"</i>",
+                    "icon": "Skill_E_Kaveh_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 160%",
+                            "1": "Duration 12s",
+                            "2": "Dendro Core Burst DMG Bonus 27.5%",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "2": {
+                            "0": "Skill DMG 172%",
+                            "1": "Duration 12s",
+                            "2": "Dendro Core Burst DMG Bonus 29.5%",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "3": {
+                            "0": "Skill DMG 184%",
+                            "1": "Duration 12s",
+                            "2": "Dendro Core Burst DMG Bonus 31.6%",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "4": {
+                            "0": "Skill DMG 200%",
+                            "1": "Duration 12s",
+                            "2": "Dendro Core Burst DMG Bonus 34.4%",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "5": {
+                            "0": "Skill DMG 212%",
+                            "1": "Duration 12s",
+                            "2": "Dendro Core Burst DMG Bonus 36.4%",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "6": {
+                            "0": "Skill DMG 224%",
+                            "1": "Duration 12s",
+                            "2": "Dendro Core Burst DMG Bonus 38.5%",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "7": {
+                            "0": "Skill DMG 240%",
+                            "1": "Duration 12s",
+                            "2": "Dendro Core Burst DMG Bonus 41.2%",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "8": {
+                            "0": "Skill DMG 256%",
+                            "1": "Duration 12s",
+                            "2": "Dendro Core Burst DMG Bonus 44%",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "9": {
+                            "0": "Skill DMG 272%",
+                            "1": "Duration 12s",
+                            "2": "Dendro Core Burst DMG Bonus 46.7%",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "10": {
+                            "0": "Skill DMG 288%",
+                            "1": "Duration 12s",
+                            "2": "Dendro Core Burst DMG Bonus 49.5%",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "11": {
+                            "0": "Skill DMG 304%",
+                            "1": "Duration 12s",
+                            "2": "Dendro Core Burst DMG Bonus 52.2%",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "12": {
+                            "0": "Skill DMG 320%",
+                            "1": "Duration 12s",
+                            "2": "Dendro Core Burst DMG Bonus 55%",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "13": {
+                            "0": "Skill DMG 340%",
+                            "1": "Duration 12s",
+                            "2": "Dendro Core Burst DMG Bonus 58.4%",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "14": {
+                            "0": "Skill DMG 360%",
+                            "1": "Duration 12s",
+                            "2": "Dendro Core Burst DMG Bonus 61.8%",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "15": {
+                            "0": "Skill DMG 380%",
+                            "1": "Duration 12s",
+                            "2": "Dendro Core Burst DMG Bonus 65.3%",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104332",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112059",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112061",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112061",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112061",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104334",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112061",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Painted Dome",
+                    "description": "Completely unleashes Mehrak's energy and creates a cubic scanned space, dealing <color=#99FF88FF>AoE Dendro DMG</color> to all opponents within it, causing all Dendro Cores in its AoE to immediately burst, and granting Kaveh the following enhanced combat abilities for a specific duration:\\n·Increases Kaveh's Normal, Charged, and Plunging Attack AoE, and converts his attack DMG to <color=#99FF88FF>Dendro DMG</color> that cannot be overridden.\\n·All Dendro Cores created by all your own party members through Bloom reactions will deal additional DMG when they burst.\\n·Increases Kaveh's resistance to interruption.\\nThese effects will be canceled once Kaveh leaves the field.\\n\\n<i>\"Every building style includes the architect's unique worldview, and from this angle, one can say that the buildings themselves are coalescences of human memories.\"</i>",
+                    "icon": "Skill_E_Kaveh_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 160%",
+                            "1": "Duration 12s",
+                            "2": "Dendro Core Burst DMG Bonus 27.5%",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "2": {
+                            "0": "Skill DMG 172%",
+                            "1": "Duration 12s",
+                            "2": "Dendro Core Burst DMG Bonus 29.5%",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "3": {
+                            "0": "Skill DMG 184%",
+                            "1": "Duration 12s",
+                            "2": "Dendro Core Burst DMG Bonus 31.6%",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "4": {
+                            "0": "Skill DMG 200%",
+                            "1": "Duration 12s",
+                            "2": "Dendro Core Burst DMG Bonus 34.4%",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "5": {
+                            "0": "Skill DMG 212%",
+                            "1": "Duration 12s",
+                            "2": "Dendro Core Burst DMG Bonus 36.4%",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "6": {
+                            "0": "Skill DMG 224%",
+                            "1": "Duration 12s",
+                            "2": "Dendro Core Burst DMG Bonus 38.5%",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "7": {
+                            "0": "Skill DMG 240%",
+                            "1": "Duration 12s",
+                            "2": "Dendro Core Burst DMG Bonus 41.2%",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "8": {
+                            "0": "Skill DMG 256%",
+                            "1": "Duration 12s",
+                            "2": "Dendro Core Burst DMG Bonus 44%",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "9": {
+                            "0": "Skill DMG 272%",
+                            "1": "Duration 12s",
+                            "2": "Dendro Core Burst DMG Bonus 46.7%",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "10": {
+                            "0": "Skill DMG 288%",
+                            "1": "Duration 12s",
+                            "2": "Dendro Core Burst DMG Bonus 49.5%",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "11": {
+                            "0": "Skill DMG 304%",
+                            "1": "Duration 12s",
+                            "2": "Dendro Core Burst DMG Bonus 52.2%",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "12": {
+                            "0": "Skill DMG 320%",
+                            "1": "Duration 12s",
+                            "2": "Dendro Core Burst DMG Bonus 55%",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "13": {
+                            "0": "Skill DMG 340%",
+                            "1": "Duration 12s",
+                            "2": "Dendro Core Burst DMG Bonus 58.4%",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "14": {
+                            "0": "Skill DMG 360%",
+                            "1": "Duration 12s",
+                            "2": "Dendro Core Burst DMG Bonus 61.8%",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "15": {
+                            "0": "Skill DMG 380%",
+                            "1": "Duration 12s",
+                            "2": "Dendro Core Burst DMG Bonus 65.3%",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104332",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112059",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112061",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112061",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112061",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104334",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112061",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "An Architect's Undertaking",
+                    "description": "When DMG dealt by a Dendro Core (including DMG from Burgeon and Hyperbloom) hits Kaveh, Kaveh will regain HP equal to 300% of his Elemental Mastery. This effect can be triggered once every 0.5s.",
+                    "icon": "UI_Talent_S_Kaveh_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "A Craftsman's Curious Conceptions",
+                    "description": "During <color=#FFD780FF>Painted Dome</color>, after Kaveh's Normal, Charged, or Plunging Attacks hit opponents, his Elemental Mastery will increase by 25. This effect can be triggered once every 0.1s. Max 4 stacks.\\nThis effect will be canceled when Painted Dome's effects end.",
+                    "icon": "UI_Talent_S_Kaveh_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "The Art of Budgeting",
+                    "description": "When Kaveh crafts Landscape, Building, and Courtyard-type Furnishings, he has a 100% chance to refund a portion of the materials used.",
+                    "icon": "UI_Talent_S_Yoimiya_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Sublime Salutations",
+                    "description": "Within 3s after using <color=#FFD780FF>Artistic Ingenuity</color>, Kaveh's <color=#99FF88FF>Dendro RES</color> and Incoming Healing Bonus will be increased by 50% and 25% respectively.",
+                    "icon": "UI_Talent_S_Kaveh_01"
+                },
+                "1": {
+                    "name": "Grace of Royal Roads",
+                    "description": "Kaveh's Normal Attack SPD increases by 15% during <color=#FFD780FF>Painted Dome</color>.",
+                    "icon": "UI_Talent_S_Kaveh_02"
+                },
+                "2": {
+                    "name": "Profferings of Dur Untash",
+                    "description": "Increases the Level of <color=#FFD780FF>Painted Dome</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Kaveh_02"
+                },
+                "3": {
+                    "name": "Feast of Apadana",
+                    "description": "Dendro Cores created from Bloom reactions Kaveh triggers will deal 60% more DMG when they burst.",
+                    "icon": "UI_Talent_S_Kaveh_03"
+                },
+                "4": {
+                    "name": "Treasures of Bonkhanak",
+                    "description": "Increases the Level of <color=#FFD780FF>Artistic Ingenuity</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Kaveh_01"
+                },
+                "5": {
+                    "name": "Pairidaeza's Dreams",
+                    "description": "When Kaveh's Normal, Charged, or Plunging Attacks hit opponents during <color=#FFD780FF>Painted Dome</color>, they will unleash Pairidaeza's Light upon the opponent's position, dealing 61.8% of Kaveh's ATK as <color=#99FF88FF>AoE Dendro DMG</color> and causing all Dendro Cores within that AoE to burst. This effect can be triggered once every 3s.",
+                    "icon": "UI_Talent_S_Kaveh_04"
+                }
+            },
+            "elevation": {
+                "sub": "Elemental Mastery",
+                "0": {
+                    "stats": {
+                        "HP": 1003,
+                        "ATK": 20,
+                        "DEF": 63,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2577,
+                        "ATK": 50,
+                        "DEF": 162,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101223",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104131",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112059",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 3326,
+                        "ATK": 65,
+                        "DEF": 209,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 4982,
+                        "ATK": 97,
+                        "DEF": 313,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101223",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104132",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112059",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113040",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 5514,
+                        "ATK": 108,
+                        "DEF": 346,
+                        "sub": 2400.0
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 6343,
+                        "ATK": 124,
+                        "DEF": 398,
+                        "sub": 2400
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101223",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104132",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112060",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113040",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 7052,
+                        "ATK": 138,
+                        "DEF": 443,
+                        "sub": 4800
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 7881,
+                        "ATK": 154,
+                        "DEF": 495,
+                        "sub": 4800
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101223",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104133",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112060",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113040",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 8413,
+                        "ATK": 164,
+                        "DEF": 528,
+                        "sub": 4800
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 9241,
+                        "ATK": 180,
+                        "DEF": 580,
+                        "sub": 4800
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101223",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104133",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112061",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113040",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 9773,
+                        "ATK": 191,
+                        "DEF": 613,
+                        "sub": 7200
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 10602,
+                        "ATK": 207,
+                        "DEF": 665,
+                        "sub": 7200
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101223",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104134",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112061",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113040",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 11134,
+                        "ATK": 217,
+                        "DEF": 699,
+                        "sub": 9600
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 11962,
+                        "ATK": 234,
+                        "DEF": 751,
+                        "sub": 9600
+                    },
+                    "res": {}
+                }
+            }
+        },
+        "ru": {
+            "name": "Kaveh",
+            "name_ru": "Кавех",
+            "id": 10000081,
+            "rarity": 4,
+            "weapon": "Claymore",
+            "element": "Dendro",
+            "region": "Sumeru",
+            "more": {
+                "title": "Отражение эмпирея",
+                "detail": "Знаменитый архитектор из Сумеру, поглощённый заботами. Эстет, обеспокоенный реальностью.",
+                "constellation": "Райская Птица",
+                "group": "Независимое архитектурное бюро",
+                "birthday": "9.7",
+                "release": "02.05.2023",
+                "cv": {
+                    "en": "Ben Balmaceda",
+                    "chs": "刘三木",
+                    "jp": "内田雄馬",
+                    "kr": "Lee Jeong-min"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Схематическая настройка",
+                    "description": "<color=#FFD780FF>Обычная атака:</color>\\nВыполняет до четырёх атак, используя Мехрак.\\n\\n<color=#FFD780FF>Заряженная атака:</color>\\nКомбо-атака, на которую непрерывно тратится выносливость.\\nПосле комбо-атаки проводит дополнительную мощную атаку мечом.\\n\\n<color=#FFD780FF>Атака в падении:</color>\\nСтремительно падает на землю, атакуя всех врагов на пути. Приземлившись, наносит урон по площади.",
+                    "icon": "Skill_A_04",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон атаки 1 76.2%",
+                            "1": "Урон атаки 2 69.6%",
+                            "2": "Урон атаки 3 84.3%",
+                            "3": "Урон атаки 4 102.7%",
+                            "4": "Урон вращающейся атаки 53.1%",
+                            "5": "Финальный урон заряженной атаки 96.1%",
+                            "6": "Потребление выносливости 40 ед/сек.",
+                            "7": "Макс. длительность 5 сек.",
+                            "8": "Урон в падении 74.6%",
+                            "9": "Урон низкого/высокого удара 149.1%/186.3%"
+                        },
+                        "2": {
+                            "0": "Урон атаки 1 82.4%",
+                            "1": "Урон атаки 2 75.3%",
+                            "2": "Урон атаки 3 91.1%",
+                            "3": "Урон атаки 4 111%",
+                            "4": "Урон вращающейся атаки 57.5%",
+                            "5": "Финальный урон заряженной атаки 104%",
+                            "6": "Потребление выносливости 40 ед/сек.",
+                            "7": "Макс. длительность 5 сек.",
+                            "8": "Урон в падении 80.7%",
+                            "9": "Урон низкого/высокого удара 161.3%/201.5%"
+                        },
+                        "3": {
+                            "0": "Урон атаки 1 88.6%",
+                            "1": "Урон атаки 2 81%",
+                            "2": "Урон атаки 3 98%",
+                            "3": "Урон атаки 4 119.4%",
+                            "4": "Урон вращающейся атаки 61.8%",
+                            "5": "Финальный урон заряженной атаки 111.8%",
+                            "6": "Потребление выносливости 40 ед/сек.",
+                            "7": "Макс. длительность 5 сек.",
+                            "8": "Урон в падении 86.7%",
+                            "9": "Урон низкого/высокого удара 173.4%/216.6%"
+                        },
+                        "4": {
+                            "0": "Урон атаки 1 97.4%",
+                            "1": "Урон атаки 2 89.1%",
+                            "2": "Урон атаки 3 107.8%",
+                            "3": "Урон атаки 4 131.3%",
+                            "4": "Урон вращающейся атаки 68%",
+                            "5": "Финальный урон заряженной атаки 123%",
+                            "6": "Потребление выносливости 40 ед/сек.",
+                            "7": "Макс. длительность 5 сек.",
+                            "8": "Урон в падении 95.4%",
+                            "9": "Урон низкого/высокого удара 190.8%/238.3%"
+                        },
+                        "5": {
+                            "0": "Урон атаки 1 103.6%",
+                            "1": "Урон атаки 2 94.7%",
+                            "2": "Урон атаки 3 114.6%",
+                            "3": "Урон атаки 4 139.7%",
+                            "4": "Урон вращающейся атаки 72.3%",
+                            "5": "Финальный урон заряженной атаки 130.8%",
+                            "6": "Потребление выносливости 40 ед/сек.",
+                            "7": "Макс. длительность 5 сек.",
+                            "8": "Урон в падении 101.5%",
+                            "9": "Урон низкого/высокого удара 202.9%/253.4%"
+                        },
+                        "6": {
+                            "0": "Урон атаки 1 110.7%",
+                            "1": "Урон атаки 2 101.2%",
+                            "2": "Урон атаки 3 122.5%",
+                            "3": "Урон атаки 4 149.3%",
+                            "4": "Урон вращающейся атаки 77.2%",
+                            "5": "Финальный урон заряженной атаки 139.8%",
+                            "6": "Потребление выносливости 40 ед/сек.",
+                            "7": "Макс. длительность 5 сек.",
+                            "8": "Урон в падении 108.4%",
+                            "9": "Урон низкого/высокого удара 216.8%/270.8%"
+                        },
+                        "7": {
+                            "0": "Урон атаки 1 120.5%",
+                            "1": "Урон атаки 2 110.1%",
+                            "2": "Урон атаки 3 133.2%",
+                            "3": "Урон атаки 4 162.4%",
+                            "4": "Урон вращающейся атаки 84%",
+                            "5": "Финальный урон заряженной атаки 152%",
+                            "6": "Потребление выносливости 40 ед/сек.",
+                            "7": "Макс. длительность 5 сек.",
+                            "8": "Урон в падении 118%",
+                            "9": "Урон низкого/высокого удара 235.9%/294.6%"
+                        },
+                        "8": {
+                            "0": "Урон атаки 1 130.2%",
+                            "1": "Урон атаки 2 119%",
+                            "2": "Урон атаки 3 144%",
+                            "3": "Урон атаки 4 175.5%",
+                            "4": "Урон вращающейся атаки 90.8%",
+                            "5": "Финальный урон заряженной атаки 164.3%",
+                            "6": "Потребление выносливости 40 ед/сек.",
+                            "7": "Макс. длительность 5 сек.",
+                            "8": "Урон в падении 127.5%",
+                            "9": "Урон низкого/высокого удара 254.9%/318.4%"
+                        },
+                        "9": {
+                            "0": "Урон атаки 1 140%",
+                            "1": "Урон атаки 2 127.9%",
+                            "2": "Урон атаки 3 154.8%",
+                            "3": "Урон атаки 4 188.7%",
+                            "4": "Урон вращающейся атаки 97.6%",
+                            "5": "Финальный урон заряженной атаки 176.6%",
+                            "6": "Потребление выносливости 40 ед/сек.",
+                            "7": "Макс. длительность 5 сек.",
+                            "8": "Урон в падении 137%",
+                            "9": "Урон низкого/высокого удара 274%/342.3%"
+                        },
+                        "10": {
+                            "0": "Урон атаки 1 150.6%",
+                            "1": "Урон атаки 2 137.7%",
+                            "2": "Урон атаки 3 166.6%",
+                            "3": "Урон атаки 4 203%",
+                            "4": "Урон вращающейся атаки 105.1%",
+                            "5": "Финальный урон заряженной атаки 190.1%",
+                            "6": "Потребление выносливости 40 ед/сек.",
+                            "7": "Макс. длительность 5 сек.",
+                            "8": "Урон в падении 147.4%",
+                            "9": "Урон низкого/высокого удара 294.8%/368.2%"
+                        },
+                        "11": {
+                            "0": "Урон атаки 1 161.2%",
+                            "1": "Урон атаки 2 147.4%",
+                            "2": "Урон атаки 3 178.3%",
+                            "3": "Урон атаки 4 217.3%",
+                            "4": "Урон вращающейся атаки 112.5%",
+                            "5": "Финальный урон заряженной атаки 203.5%",
+                            "6": "Потребление выносливости 40 ед/сек.",
+                            "7": "Макс. длительность 5 сек.",
+                            "8": "Урон в падении 157.8%",
+                            "9": "Урон низкого/высокого удара 315.6%/394.2%"
+                        },
+                        "12": {
+                            "0": "Урон атаки 1 171.9%",
+                            "1": "Урон атаки 2 157.1%",
+                            "2": "Урон атаки 3 190.1%",
+                            "3": "Урон атаки 4 231.6%",
+                            "4": "Урон вращающейся атаки 119.9%",
+                            "5": "Финальный урон заряженной атаки 216.9%",
+                            "6": "Потребление выносливости 40 ед/сек.",
+                            "7": "Макс. длительность 5 сек.",
+                            "8": "Урон в падении 168.3%",
+                            "9": "Урон низкого/высокого удара 336.4%/420.2%"
+                        },
+                        "13": {
+                            "0": "Урон атаки 1 182.5%",
+                            "1": "Урон атаки 2 166.8%",
+                            "2": "Урон атаки 3 201.8%",
+                            "3": "Урон атаки 4 246%",
+                            "4": "Урон вращающейся атаки 127.3%",
+                            "5": "Финальный урон заряженной атаки 230.3%",
+                            "6": "Потребление выносливости 40 ед/сек.",
+                            "7": "Макс. длительность 5 сек.",
+                            "8": "Урон в падении 178.7%",
+                            "9": "Урон низкого/высокого удара 357.3%/446.2%"
+                        },
+                        "14": {
+                            "0": "Урон атаки 1 193.1%",
+                            "1": "Урон атаки 2 176.5%",
+                            "2": "Урон атаки 3 213.6%",
+                            "3": "Урон атаки 4 260.3%",
+                            "4": "Урон вращающейся атаки 134.7%",
+                            "5": "Финальный урон заряженной атаки 243.7%",
+                            "6": "Потребление выносливости 40 ед/сек.",
+                            "7": "Макс. длительность 5 сек.",
+                            "8": "Урон в падении 189.1%",
+                            "9": "Урон низкого/высокого удара 378.1%/472.2%"
+                        },
+                        "15": {
+                            "0": "Урон атаки 1 203.8%",
+                            "1": "Урон атаки 2 186.2%",
+                            "2": "Урон атаки 3 225.3%",
+                            "3": "Урон атаки 4 274.6%",
+                            "4": "Урон вращающейся атаки 142.1%",
+                            "5": "Финальный урон заряженной атаки 257.1%",
+                            "6": "Потребление выносливости 40 ед/сек.",
+                            "7": "Макс. длительность 5 сек.",
+                            "8": "Урон в падении 199.5%",
+                            "9": "Урон низкого/высокого удара 398.9%/498.2%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104332",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112059",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112061",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112061",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112061",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104334",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112061",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Творческое мастерство",
+                    "description": "Использует способность картографирования Мехрака для атаки, проводя круговое сканирование и нанося <color=#99FF88FF>Дендро урон по площади</color>. Также сканирует все Дендро ядра в области действия и заставляет их мгновенно взорваться.\\n\\n<i>Мехрак - модифицированная древняя технология, и может обладать другими функциями, помимо картографирования...</i>",
+                    "icon": "Skill_S_Kaveh_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 204%",
+                            "1": "Время отката 6 сек."
+                        },
+                        "2": {
+                            "0": "Урон навыка 219.3%",
+                            "1": "Время отката 6 сек."
+                        },
+                        "3": {
+                            "0": "Урон навыка 234.6%",
+                            "1": "Время отката 6 сек."
+                        },
+                        "4": {
+                            "0": "Урон навыка 255%",
+                            "1": "Время отката 6 сек."
+                        },
+                        "5": {
+                            "0": "Урон навыка 270.3%",
+                            "1": "Время отката 6 сек."
+                        },
+                        "6": {
+                            "0": "Урон навыка 285.6%",
+                            "1": "Время отката 6 сек."
+                        },
+                        "7": {
+                            "0": "Урон навыка 306%",
+                            "1": "Время отката 6 сек."
+                        },
+                        "8": {
+                            "0": "Урон навыка 326.4%",
+                            "1": "Время отката 6 сек."
+                        },
+                        "9": {
+                            "0": "Урон навыка 346.8%",
+                            "1": "Время отката 6 сек."
+                        },
+                        "10": {
+                            "0": "Урон навыка 367.2%",
+                            "1": "Время отката 6 сек."
+                        },
+                        "11": {
+                            "0": "Урон навыка 387.6%",
+                            "1": "Время отката 6 сек."
+                        },
+                        "12": {
+                            "0": "Урон навыка 408%",
+                            "1": "Время отката 6 сек."
+                        },
+                        "13": {
+                            "0": "Урон навыка 433.5%",
+                            "1": "Время отката 6 сек."
+                        },
+                        "14": {
+                            "0": "Урон навыка 459%",
+                            "1": "Время отката 6 сек."
+                        },
+                        "15": {
+                            "0": "Урон навыка 484.5%",
+                            "1": "Время отката 6 сек."
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104332",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112059",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112061",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112061",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112061",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104334",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112061",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Расписной купол",
+                    "description": "Полностью высвобождает энергию Мехрака и создаёт сканируемое пространство в форме куба, нанося находящимся в нём противникам <color=#99FF88FF>Дендро урон по площади</color> и заставляя все Дендро ядра в области действия взорваться, а также на некоторое время даёт Кавеху следующие боевые усиления:\\n· Увеличивает область поражения обычной атаки, заряженной атаки и атаки в падении Кавеха, а также конвертирует урон атак в <color=#99FF88FF>Дендро урон</color>, который не может быть отменён другими инфузиями.\\n· Повышает урон взрыва Дендро ядер, создаваемых персонажами вашего отряда с помощью реакции Бутонизация.\\n· Увеличивает сопротивление прерыванию Кавеха.\\nЭти эффекты исчезают, когда Кавех покидает поле боя.\\n\\n<i>«В здании каждого стиля заключено уникальное мировоззрение его архитектора. Исходя из этого, можно сказать, что здания - застывшие человеческие воспоминания».</i>",
+                    "icon": "Skill_E_Kaveh_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 160%",
+                            "1": "Длительность 12 сек.",
+                            "2": "Бонус урона взрыва Дендро ядер 27.5%",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "2": {
+                            "0": "Урон навыка 172%",
+                            "1": "Длительность 12 сек.",
+                            "2": "Бонус урона взрыва Дендро ядер 29.5%",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "3": {
+                            "0": "Урон навыка 184%",
+                            "1": "Длительность 12 сек.",
+                            "2": "Бонус урона взрыва Дендро ядер 31.6%",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "4": {
+                            "0": "Урон навыка 200%",
+                            "1": "Длительность 12 сек.",
+                            "2": "Бонус урона взрыва Дендро ядер 34.4%",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "5": {
+                            "0": "Урон навыка 212%",
+                            "1": "Длительность 12 сек.",
+                            "2": "Бонус урона взрыва Дендро ядер 36.4%",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "6": {
+                            "0": "Урон навыка 224%",
+                            "1": "Длительность 12 сек.",
+                            "2": "Бонус урона взрыва Дендро ядер 38.5%",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "7": {
+                            "0": "Урон навыка 240%",
+                            "1": "Длительность 12 сек.",
+                            "2": "Бонус урона взрыва Дендро ядер 41.2%",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "8": {
+                            "0": "Урон навыка 256%",
+                            "1": "Длительность 12 сек.",
+                            "2": "Бонус урона взрыва Дендро ядер 44%",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "9": {
+                            "0": "Урон навыка 272%",
+                            "1": "Длительность 12 сек.",
+                            "2": "Бонус урона взрыва Дендро ядер 46.7%",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "10": {
+                            "0": "Урон навыка 288%",
+                            "1": "Длительность 12 сек.",
+                            "2": "Бонус урона взрыва Дендро ядер 49.5%",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "11": {
+                            "0": "Урон навыка 304%",
+                            "1": "Длительность 12 сек.",
+                            "2": "Бонус урона взрыва Дендро ядер 52.2%",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "12": {
+                            "0": "Урон навыка 320%",
+                            "1": "Длительность 12 сек.",
+                            "2": "Бонус урона взрыва Дендро ядер 55%",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "13": {
+                            "0": "Урон навыка 340%",
+                            "1": "Длительность 12 сек.",
+                            "2": "Бонус урона взрыва Дендро ядер 58.4%",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "14": {
+                            "0": "Урон навыка 360%",
+                            "1": "Длительность 12 сек.",
+                            "2": "Бонус урона взрыва Дендро ядер 61.8%",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "15": {
+                            "0": "Урон навыка 380%",
+                            "1": "Длительность 12 сек.",
+                            "2": "Бонус урона взрыва Дендро ядер 65.3%",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104332",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112059",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112061",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112061",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112061",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104334",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112061",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Расписной купол",
+                    "description": "Полностью высвобождает энергию Мехрака и создаёт сканируемое пространство в форме куба, нанося находящимся в нём противникам <color=#99FF88FF>Дендро урон по площади</color> и заставляя все Дендро ядра в области действия взорваться, а также на некоторое время даёт Кавеху следующие боевые усиления:\\n· Увеличивает область поражения обычной атаки, заряженной атаки и атаки в падении Кавеха, а также конвертирует урон атак в <color=#99FF88FF>Дендро урон</color>, который не может быть отменён другими инфузиями.\\n· Повышает урон взрыва Дендро ядер, создаваемых персонажами вашего отряда с помощью реакции Бутонизация.\\n· Увеличивает сопротивление прерыванию Кавеха.\\nЭти эффекты исчезают, когда Кавех покидает поле боя.\\n\\n<i>«В здании каждого стиля заключено уникальное мировоззрение его архитектора. Исходя из этого, можно сказать, что здания - застывшие человеческие воспоминания».</i>",
+                    "icon": "Skill_E_Kaveh_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 160%",
+                            "1": "Длительность 12 сек.",
+                            "2": "Бонус урона взрыва Дендро ядер 27.5%",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "2": {
+                            "0": "Урон навыка 172%",
+                            "1": "Длительность 12 сек.",
+                            "2": "Бонус урона взрыва Дендро ядер 29.5%",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "3": {
+                            "0": "Урон навыка 184%",
+                            "1": "Длительность 12 сек.",
+                            "2": "Бонус урона взрыва Дендро ядер 31.6%",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "4": {
+                            "0": "Урон навыка 200%",
+                            "1": "Длительность 12 сек.",
+                            "2": "Бонус урона взрыва Дендро ядер 34.4%",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "5": {
+                            "0": "Урон навыка 212%",
+                            "1": "Длительность 12 сек.",
+                            "2": "Бонус урона взрыва Дендро ядер 36.4%",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "6": {
+                            "0": "Урон навыка 224%",
+                            "1": "Длительность 12 сек.",
+                            "2": "Бонус урона взрыва Дендро ядер 38.5%",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "7": {
+                            "0": "Урон навыка 240%",
+                            "1": "Длительность 12 сек.",
+                            "2": "Бонус урона взрыва Дендро ядер 41.2%",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "8": {
+                            "0": "Урон навыка 256%",
+                            "1": "Длительность 12 сек.",
+                            "2": "Бонус урона взрыва Дендро ядер 44%",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "9": {
+                            "0": "Урон навыка 272%",
+                            "1": "Длительность 12 сек.",
+                            "2": "Бонус урона взрыва Дендро ядер 46.7%",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "10": {
+                            "0": "Урон навыка 288%",
+                            "1": "Длительность 12 сек.",
+                            "2": "Бонус урона взрыва Дендро ядер 49.5%",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "11": {
+                            "0": "Урон навыка 304%",
+                            "1": "Длительность 12 сек.",
+                            "2": "Бонус урона взрыва Дендро ядер 52.2%",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "12": {
+                            "0": "Урон навыка 320%",
+                            "1": "Длительность 12 сек.",
+                            "2": "Бонус урона взрыва Дендро ядер 55%",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "13": {
+                            "0": "Урон навыка 340%",
+                            "1": "Длительность 12 сек.",
+                            "2": "Бонус урона взрыва Дендро ядер 58.4%",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "14": {
+                            "0": "Урон навыка 360%",
+                            "1": "Длительность 12 сек.",
+                            "2": "Бонус урона взрыва Дендро ядер 61.8%",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "15": {
+                            "0": "Урон навыка 380%",
+                            "1": "Длительность 12 сек.",
+                            "2": "Бонус урона взрыва Дендро ядер 65.3%",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104332",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112059",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112060",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112061",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112061",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112061",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104334",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112061",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Ответственность строителя",
+                    "description": "Когда Кавех получает урон от Дендро ядер (включая урон от реакций Цветение и Вегетация), он восстанавливает HP в размере 300% от собственного мастерства стихий. Эффект может возникнуть один раз в 0,5 сек.",
+                    "icon": "UI_Talent_S_Kaveh_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Причуды мастера",
+                    "description": "Попадания по врагам обычных атак, заряженных атак или атак в падении Кавеха во время действия <color=#FFD780FF>Расписного купола</color> увеличивают его мастерство стихий на 25 ед. Этот эффект может возникнуть один раз в 0,1 сек. и складывается до 4 раз.\\nКогда Расписной купол заканчивается, эффект исчезает.",
+                    "icon": "UI_Talent_S_Kaveh_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Искусство составления сметы",
+                    "description": "При создании предметов декора типа «пейзаж», «строения» и «двор» имеет 100% шанс восстановить часть использованных материалов.",
+                    "icon": "UI_Talent_S_Yoimiya_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Возвышенные приветствия",
+                    "description": "На 3 сек. после активации <color=#FFD780FF>Творческого мастерства</color> <color=#99FF88FF>Дендро сопротивление</color> Кавеха повышается на 50%, а бонус получаемого лечения - на 25%.",
+                    "icon": "UI_Talent_S_Kaveh_01"
+                },
+                "1": {
+                    "name": "Изящество королевских путей",
+                    "description": "Во время действия <color=#FFD780FF>Расписного купола</color> скорость обычной атаки Кавеха повышается на 15%.",
+                    "icon": "UI_Talent_S_Kaveh_02"
+                },
+                "2": {
+                    "name": "Подношения Дур-Унташ",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Расписной купол</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Kaveh_02"
+                },
+                "3": {
+                    "name": "Пиршество Ападаны",
+                    "description": "Урон взрыва Дендро ядер, которые создаются вызванной Кавехом реакцией Бутонизация, повышается на 60%.",
+                    "icon": "UI_Talent_S_Kaveh_03"
+                },
+                "4": {
+                    "name": "Сокровища Бон-Ханак",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Творческое мастерство</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Kaveh_01"
+                },
+                "5": {
+                    "name": "Мечты Пайридаэзы",
+                    "description": "Попадания по врагам обычной атакой, заряженной атакой и атакой в падении Кавеха во время действия <color=#FFD780FF>Расписного купола</color> вызывают на позиции противника Свет Пайридаэзы, который наносит <color=#99FF88FF>Дендро урон по площади</color>, равный 61,8% от силы атаки Кавеха, и взрывает все Дендро ядра в области действия. Этот эффект может возникнуть раз в 3 сек.",
+                    "icon": "UI_Talent_S_Kaveh_04"
+                }
+            },
+            "elevation": {
+                "sub": "Мастерство стихий",
+                "0": {
+                    "stats": {
+                        "HP": 1003,
+                        "ATK": 20,
+                        "DEF": 63,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2577,
+                        "ATK": 50,
+                        "DEF": 162,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101223",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104131",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112059",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 3326,
+                        "ATK": 65,
+                        "DEF": 209,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 4982,
+                        "ATK": 97,
+                        "DEF": 313,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101223",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104132",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112059",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113040",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 5514,
+                        "ATK": 108,
+                        "DEF": 346,
+                        "sub": 2400.0
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 6343,
+                        "ATK": 124,
+                        "DEF": 398,
+                        "sub": 2400
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101223",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104132",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112060",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113040",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 7052,
+                        "ATK": 138,
+                        "DEF": 443,
+                        "sub": 4800
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 7881,
+                        "ATK": 154,
+                        "DEF": 495,
+                        "sub": 4800
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101223",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104133",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112060",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113040",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 8413,
+                        "ATK": 164,
+                        "DEF": 528,
+                        "sub": 4800
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 9241,
+                        "ATK": 180,
+                        "DEF": 580,
+                        "sub": 4800
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101223",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104133",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112061",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113040",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 9773,
+                        "ATK": 191,
+                        "DEF": 613,
+                        "sub": 7200
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 10602,
+                        "ATK": 207,
+                        "DEF": 665,
+                        "sub": 7200
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101223",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104134",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112061",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113040",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 11134,
+                        "ATK": 217,
+                        "DEF": 699,
+                        "sub": 9600
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 11962,
+                        "ATK": 234,
+                        "DEF": 751,
+                        "sub": 9600
+                    },
+                    "res": {}
+                }
+            }
+        }
+    }
+}

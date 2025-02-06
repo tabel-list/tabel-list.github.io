@@ -1,0 +1,2844 @@
+{
+    "Yae Miko": {
+        "en": {
+            "name": "Yae Miko",
+            "name_ru": "Яэ Мико",
+            "id": 10000058,
+            "rarity": 5,
+            "weapon": "Catalyst",
+            "element": "Electro",
+            "region": "Inazuma",
+            "more": {
+                "title": "Astute Amusement",
+                "detail": "Lady Guuji of the Grand Narukami Shrine. Also serves as the editor-in-chief of Yae Publishing House. Unimaginable intelligence and cunning are hidden under her beautiful appearance.",
+                "constellation": "Divina Vulpes",
+                "group": "Grand Narukami Shrine",
+                "birthday": "27.6",
+                "release": "15.02.2022",
+                "cv": {
+                    "en": "Ratana",
+                    "chs": "杜冥鸦",
+                    "jp": "佐倉綾音",
+                    "kr": "Moon Yoo-jung"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Normal Attack: Spiritfox Sin-Eater",
+                    "description": "<color=#FFD780FF>Normal Attack</color>\\nSummons forth kitsune spirits, initiating a maximum of 3 attacks that deal <color=#FFACFFFF>Electro DMG</color>.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to deal <color=#FFACFFFF>AoE Electro DMG</color> after a short casting time.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges towards the ground from mid-air, damaging all opponents in her path with thunderous might. Deals <color=#FFACFFFF>AoE Electro DMG</color> upon impact with the ground.",
+                    "icon": "Skill_A_Catalyst_MD",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "1-Hit DMG 39.7%",
+                            "1": "2-Hit DMG 38.5%",
+                            "2": "3-Hit DMG 56.9%",
+                            "3": "Charged Attack DMG 142.9%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Plunge DMG 56.8%",
+                            "6": "Low/High Plunge DMG 113.6%/141.9%"
+                        },
+                        "2": {
+                            "0": "1-Hit DMG 42.6%",
+                            "1": "2-Hit DMG 41.4%",
+                            "2": "3-Hit DMG 61.2%",
+                            "3": "Charged Attack DMG 153.6%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Plunge DMG 61.5%",
+                            "6": "Low/High Plunge DMG 122.9%/153.5%"
+                        },
+                        "3": {
+                            "0": "1-Hit DMG 45.6%",
+                            "1": "2-Hit DMG 44.3%",
+                            "2": "3-Hit DMG 65.4%",
+                            "3": "Charged Attack DMG 164.3%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Plunge DMG 66.1%",
+                            "6": "Low/High Plunge DMG 132.1%/165%"
+                        },
+                        "4": {
+                            "0": "1-Hit DMG 49.6%",
+                            "1": "2-Hit DMG 48.1%",
+                            "2": "3-Hit DMG 71.1%",
+                            "3": "Charged Attack DMG 178.6%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Plunge DMG 72.7%",
+                            "6": "Low/High Plunge DMG 145.3%/181.5%"
+                        },
+                        "5": {
+                            "0": "1-Hit DMG 52.5%",
+                            "1": "2-Hit DMG 51%",
+                            "2": "3-Hit DMG 75.4%",
+                            "3": "Charged Attack DMG 189.3%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Plunge DMG 77.3%",
+                            "6": "Low/High Plunge DMG 154.6%/193.1%"
+                        },
+                        "6": {
+                            "0": "1-Hit DMG 55.5%",
+                            "1": "2-Hit DMG 53.9%",
+                            "2": "3-Hit DMG 79.6%",
+                            "3": "Charged Attack DMG 200.1%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Plunge DMG 82.6%",
+                            "6": "Low/High Plunge DMG 165.2%/206.3%"
+                        },
+                        "7": {
+                            "0": "1-Hit DMG 59.5%",
+                            "1": "2-Hit DMG 57.8%",
+                            "2": "3-Hit DMG 85.3%",
+                            "3": "Charged Attack DMG 214.3%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Plunge DMG 89.9%",
+                            "6": "Low/High Plunge DMG 179.7%/224.5%"
+                        },
+                        "8": {
+                            "0": "1-Hit DMG 63.5%",
+                            "1": "2-Hit DMG 61.6%",
+                            "2": "3-Hit DMG 91%",
+                            "3": "Charged Attack DMG 228.6%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Plunge DMG 97.1%",
+                            "6": "Low/High Plunge DMG 194.2%/242.6%"
+                        },
+                        "9": {
+                            "0": "1-Hit DMG 67.4%",
+                            "1": "2-Hit DMG 65.5%",
+                            "2": "3-Hit DMG 96.7%",
+                            "3": "Charged Attack DMG 242.9%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Plunge DMG 104.4%",
+                            "6": "Low/High Plunge DMG 208.8%/260.8%"
+                        },
+                        "10": {
+                            "0": "1-Hit DMG 71.4%",
+                            "1": "2-Hit DMG 69.3%",
+                            "2": "3-Hit DMG 102.4%",
+                            "3": "Charged Attack DMG 257.2%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Plunge DMG 112.3%",
+                            "6": "Low/High Plunge DMG 224.6%/280.6%"
+                        },
+                        "11": {
+                            "0": "1-Hit DMG 75.4%",
+                            "1": "2-Hit DMG 73.2%",
+                            "2": "3-Hit DMG 108.1%",
+                            "3": "Charged Attack DMG 271.5%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Plunge DMG 120.3%",
+                            "6": "Low/High Plunge DMG 240.5%/300.4%"
+                        },
+                        "12": {
+                            "0": "1-Hit DMG 79.3%",
+                            "1": "2-Hit DMG 77%",
+                            "2": "3-Hit DMG 113.8%",
+                            "3": "Charged Attack DMG 285.8%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Plunge DMG 128.2%",
+                            "6": "Low/High Plunge DMG 256.3%/320.2%"
+                        },
+                        "13": {
+                            "0": "1-Hit DMG 84.3%",
+                            "1": "2-Hit DMG 81.9%",
+                            "2": "3-Hit DMG 120.9%",
+                            "3": "Charged Attack DMG 303.7%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Plunge DMG 136.1%",
+                            "6": "Low/High Plunge DMG 272.2%/340%"
+                        },
+                        "14": {
+                            "0": "1-Hit DMG 89.2%",
+                            "1": "2-Hit DMG 86.7%",
+                            "2": "3-Hit DMG 128%",
+                            "3": "Charged Attack DMG 321.5%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Plunge DMG 144.1%",
+                            "6": "Low/High Plunge DMG 288%/359.8%"
+                        },
+                        "15": {
+                            "0": "1-Hit DMG 94.2%",
+                            "1": "2-Hit DMG 91.5%",
+                            "2": "3-Hit DMG 135.1%",
+                            "3": "Charged Attack DMG 339.4%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Plunge DMG 152%",
+                            "6": "Low/High Plunge DMG 303.9%/379.6%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104326",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112044",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112046",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113034",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112046",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113034",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112046",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113034",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104328",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112046",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113034",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Yakan Evocation: Sesshou Sakura",
+                    "description": "To Yae, such dull tasks as can be accomplished by driving spirits out need not be done personally.\\nMoves swiftly, leaving a Sesshou Sakura behind.\\n\\n<color=#FFD780FF>Sesshou Sakura</color>\\nHas the following properties:\\n· Periodically strikes one nearby opponent with lightning, dealing <color=#FFACFFFF>Electro DMG</color>\\n· When there are other Sesshou Sakura nearby, their level will increase, boosting the DMG dealt by these lightning strikes.\\n\\nThis skill has three charges.\\nA maximum of 3 Sesshou Sakura can exist simultaneously. The initial level of each Sesshou Sakura is 1, and the initial highest level each sakura can reach is 3. If a new Sesshou Sakura is created too close to an existing one, the existing one will be destroyed.\\n\\n<i>\"The kitsune spirits sealed in the branches are all yakan who stooped to preying upon humans. The yakan are two grades lower than us Sky Kitsune, and so, I hardly see the problem with... asking that they do my bidding. Now, this doesn't mean that you humans should go learning from our grading systems, no indeed — and as for which of us, kitsune or human, is higher up in the pecking order... Heh, wouldn't you like to know?\"</i>",
+                    "icon": "Skill_S_Yae_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Sesshou Sakura DMG: Level 1 60.7%",
+                            "1": "Sesshou Sakura DMG: Level 2 75.8%",
+                            "2": "Sesshou Sakura DMG: Level 3 94.8%",
+                            "3": "Sesshou Sakura DMG: Level 4 118.5%",
+                            "4": "Duration 14s",
+                            "5": "CD 4s"
+                        },
+                        "2": {
+                            "0": "Sesshou Sakura DMG: Level 1 65.2%",
+                            "1": "Sesshou Sakura DMG: Level 2 81.5%",
+                            "2": "Sesshou Sakura DMG: Level 3 101.9%",
+                            "3": "Sesshou Sakura DMG: Level 4 127.4%",
+                            "4": "Duration 14s",
+                            "5": "CD 4s"
+                        },
+                        "3": {
+                            "0": "Sesshou Sakura DMG: Level 1 69.8%",
+                            "1": "Sesshou Sakura DMG: Level 2 87.2%",
+                            "2": "Sesshou Sakura DMG: Level 3 109%",
+                            "3": "Sesshou Sakura DMG: Level 4 136.3%",
+                            "4": "Duration 14s",
+                            "5": "CD 4s"
+                        },
+                        "4": {
+                            "0": "Sesshou Sakura DMG: Level 1 75.8%",
+                            "1": "Sesshou Sakura DMG: Level 2 94.8%",
+                            "2": "Sesshou Sakura DMG: Level 3 118.5%",
+                            "3": "Sesshou Sakura DMG: Level 4 148.1%",
+                            "4": "Duration 14s",
+                            "5": "CD 4s"
+                        },
+                        "5": {
+                            "0": "Sesshou Sakura DMG: Level 1 80.4%",
+                            "1": "Sesshou Sakura DMG: Level 2 100.5%",
+                            "2": "Sesshou Sakura DMG: Level 3 125.6%",
+                            "3": "Sesshou Sakura DMG: Level 4 157%",
+                            "4": "Duration 14s",
+                            "5": "CD 4s"
+                        },
+                        "6": {
+                            "0": "Sesshou Sakura DMG: Level 1 84.9%",
+                            "1": "Sesshou Sakura DMG: Level 2 106.2%",
+                            "2": "Sesshou Sakura DMG: Level 3 132.7%",
+                            "3": "Sesshou Sakura DMG: Level 4 165.9%",
+                            "4": "Duration 14s",
+                            "5": "CD 4s"
+                        },
+                        "7": {
+                            "0": "Sesshou Sakura DMG: Level 1 91%",
+                            "1": "Sesshou Sakura DMG: Level 2 113.8%",
+                            "2": "Sesshou Sakura DMG: Level 3 142.2%",
+                            "3": "Sesshou Sakura DMG: Level 4 177.8%",
+                            "4": "Duration 14s",
+                            "5": "CD 4s"
+                        },
+                        "8": {
+                            "0": "Sesshou Sakura DMG: Level 1 97.1%",
+                            "1": "Sesshou Sakura DMG: Level 2 121.3%",
+                            "2": "Sesshou Sakura DMG: Level 3 151.7%",
+                            "3": "Sesshou Sakura DMG: Level 4 189.6%",
+                            "4": "Duration 14s",
+                            "5": "CD 4s"
+                        },
+                        "9": {
+                            "0": "Sesshou Sakura DMG: Level 1 103.1%",
+                            "1": "Sesshou Sakura DMG: Level 2 128.9%",
+                            "2": "Sesshou Sakura DMG: Level 3 161.2%",
+                            "3": "Sesshou Sakura DMG: Level 4 201.4%",
+                            "4": "Duration 14s",
+                            "5": "CD 4s"
+                        },
+                        "10": {
+                            "0": "Sesshou Sakura DMG: Level 1 109.2%",
+                            "1": "Sesshou Sakura DMG: Level 2 136.5%",
+                            "2": "Sesshou Sakura DMG: Level 3 170.6%",
+                            "3": "Sesshou Sakura DMG: Level 4 213.3%",
+                            "4": "Duration 14s",
+                            "5": "CD 4s"
+                        },
+                        "11": {
+                            "0": "Sesshou Sakura DMG: Level 1 115.3%",
+                            "1": "Sesshou Sakura DMG: Level 2 144.1%",
+                            "2": "Sesshou Sakura DMG: Level 3 180.1%",
+                            "3": "Sesshou Sakura DMG: Level 4 225.2%",
+                            "4": "Duration 14s",
+                            "5": "CD 4s"
+                        },
+                        "12": {
+                            "0": "Sesshou Sakura DMG: Level 1 121.3%",
+                            "1": "Sesshou Sakura DMG: Level 2 151.7%",
+                            "2": "Sesshou Sakura DMG: Level 3 189.6%",
+                            "3": "Sesshou Sakura DMG: Level 4 237%",
+                            "4": "Duration 14s",
+                            "5": "CD 4s"
+                        },
+                        "13": {
+                            "0": "Sesshou Sakura DMG: Level 1 128.9%",
+                            "1": "Sesshou Sakura DMG: Level 2 161.2%",
+                            "2": "Sesshou Sakura DMG: Level 3 201.4%",
+                            "3": "Sesshou Sakura DMG: Level 4 251.8%",
+                            "4": "Duration 14s",
+                            "5": "CD 4s"
+                        },
+                        "14": {
+                            "0": "Sesshou Sakura DMG: Level 1 136.5%",
+                            "1": "Sesshou Sakura DMG: Level 2 170.6%",
+                            "2": "Sesshou Sakura DMG: Level 3 213.3%",
+                            "3": "Sesshou Sakura DMG: Level 4 266.6%",
+                            "4": "Duration 14s",
+                            "5": "CD 4s"
+                        },
+                        "15": {
+                            "0": "Sesshou Sakura DMG: Level 1 144.1%",
+                            "1": "Sesshou Sakura DMG: Level 2 180.1%",
+                            "2": "Sesshou Sakura DMG: Level 3 225.2%",
+                            "3": "Sesshou Sakura DMG: Level 4 281.4%",
+                            "4": "Duration 14s",
+                            "5": "CD 4s"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104326",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112044",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112046",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113034",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112046",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113034",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112046",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113034",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104328",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112046",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113034",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Great Secret Art: Tenko Kenshin",
+                    "description": "Legends of \"kitsunetsuki,\" or the manifestation of a kitsune's might, are common in Inazuma's folktales. One that particularly captures the imagination is that of the Sky Kitsune, said to cause lightning to fall down upon the foes of the Grand Narukami Shrine. Summons a lightning strike, dealing <color=#FFACFFFF>AoE Electro DMG</color>.\\nWhen she uses this skill, Yae Miko will unseal nearby Sesshou Sakura, destroying their outer forms and transforming them into Tenko Thunderbolts that descend from the skies, dealing <color=#FFACFFFF>AoE Electro DMG</color>. Each Sesshou Sakura destroyed in this way will create one Tenko Thunderbolt.\\n\\n<i>Only at times like these will Yae reveal her Sky Kitsune form and wield lightning itself. None have seen the Lady Guuji's tails and lived to tell the story... so remember, as far as you are concerned, Lady Yae does not have a tail.</i>",
+                    "icon": "Skill_E_Yae_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 260%",
+                            "1": "Tenko Thunderbolt DMG 333.8%",
+                            "2": "CD 22s",
+                            "3": "Energy Cost 90"
+                        },
+                        "2": {
+                            "0": "Skill DMG 279.5%",
+                            "1": "Tenko Thunderbolt DMG 358.9%",
+                            "2": "CD 22s",
+                            "3": "Energy Cost 90"
+                        },
+                        "3": {
+                            "0": "Skill DMG 299%",
+                            "1": "Tenko Thunderbolt DMG 383.9%",
+                            "2": "CD 22s",
+                            "3": "Energy Cost 90"
+                        },
+                        "4": {
+                            "0": "Skill DMG 325%",
+                            "1": "Tenko Thunderbolt DMG 417.3%",
+                            "2": "CD 22s",
+                            "3": "Energy Cost 90"
+                        },
+                        "5": {
+                            "0": "Skill DMG 344.5%",
+                            "1": "Tenko Thunderbolt DMG 442.3%",
+                            "2": "CD 22s",
+                            "3": "Energy Cost 90"
+                        },
+                        "6": {
+                            "0": "Skill DMG 364%",
+                            "1": "Tenko Thunderbolt DMG 467.3%",
+                            "2": "CD 22s",
+                            "3": "Energy Cost 90"
+                        },
+                        "7": {
+                            "0": "Skill DMG 390%",
+                            "1": "Tenko Thunderbolt DMG 500.7%",
+                            "2": "CD 22s",
+                            "3": "Energy Cost 90"
+                        },
+                        "8": {
+                            "0": "Skill DMG 416%",
+                            "1": "Tenko Thunderbolt DMG 534.1%",
+                            "2": "CD 22s",
+                            "3": "Energy Cost 90"
+                        },
+                        "9": {
+                            "0": "Skill DMG 442%",
+                            "1": "Tenko Thunderbolt DMG 567.5%",
+                            "2": "CD 22s",
+                            "3": "Energy Cost 90"
+                        },
+                        "10": {
+                            "0": "Skill DMG 468%",
+                            "1": "Tenko Thunderbolt DMG 600.9%",
+                            "2": "CD 22s",
+                            "3": "Energy Cost 90"
+                        },
+                        "11": {
+                            "0": "Skill DMG 494%",
+                            "1": "Tenko Thunderbolt DMG 634.2%",
+                            "2": "CD 22s",
+                            "3": "Energy Cost 90"
+                        },
+                        "12": {
+                            "0": "Skill DMG 520%",
+                            "1": "Tenko Thunderbolt DMG 667.6%",
+                            "2": "CD 22s",
+                            "3": "Energy Cost 90"
+                        },
+                        "13": {
+                            "0": "Skill DMG 552.5%",
+                            "1": "Tenko Thunderbolt DMG 709.4%",
+                            "2": "CD 22s",
+                            "3": "Energy Cost 90"
+                        },
+                        "14": {
+                            "0": "Skill DMG 585%",
+                            "1": "Tenko Thunderbolt DMG 751.1%",
+                            "2": "CD 22s",
+                            "3": "Energy Cost 90"
+                        },
+                        "15": {
+                            "0": "Skill DMG 617.5%",
+                            "1": "Tenko Thunderbolt DMG 792.8%",
+                            "2": "CD 22s",
+                            "3": "Energy Cost 90"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104326",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112044",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112046",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113034",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112046",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113034",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112046",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113034",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104328",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112046",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113034",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Great Secret Art: Tenko Kenshin",
+                    "description": "Legends of \"kitsunetsuki,\" or the manifestation of a kitsune's might, are common in Inazuma's folktales. One that particularly captures the imagination is that of the Sky Kitsune, said to cause lightning to fall down upon the foes of the Grand Narukami Shrine. Summons a lightning strike, dealing <color=#FFACFFFF>AoE Electro DMG</color>.\\nWhen she uses this skill, Yae Miko will unseal nearby Sesshou Sakura, destroying their outer forms and transforming them into Tenko Thunderbolts that descend from the skies, dealing <color=#FFACFFFF>AoE Electro DMG</color>. Each Sesshou Sakura destroyed in this way will create one Tenko Thunderbolt.\\n\\n<i>Only at times like these will Yae reveal her Sky Kitsune form and wield lightning itself. None have seen the Lady Guuji's tails and lived to tell the story... so remember, as far as you are concerned, Lady Yae does not have a tail.</i>",
+                    "icon": "Skill_E_Yae_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 260%",
+                            "1": "Tenko Thunderbolt DMG 333.8%",
+                            "2": "CD 22s",
+                            "3": "Energy Cost 90"
+                        },
+                        "2": {
+                            "0": "Skill DMG 279.5%",
+                            "1": "Tenko Thunderbolt DMG 358.9%",
+                            "2": "CD 22s",
+                            "3": "Energy Cost 90"
+                        },
+                        "3": {
+                            "0": "Skill DMG 299%",
+                            "1": "Tenko Thunderbolt DMG 383.9%",
+                            "2": "CD 22s",
+                            "3": "Energy Cost 90"
+                        },
+                        "4": {
+                            "0": "Skill DMG 325%",
+                            "1": "Tenko Thunderbolt DMG 417.3%",
+                            "2": "CD 22s",
+                            "3": "Energy Cost 90"
+                        },
+                        "5": {
+                            "0": "Skill DMG 344.5%",
+                            "1": "Tenko Thunderbolt DMG 442.3%",
+                            "2": "CD 22s",
+                            "3": "Energy Cost 90"
+                        },
+                        "6": {
+                            "0": "Skill DMG 364%",
+                            "1": "Tenko Thunderbolt DMG 467.3%",
+                            "2": "CD 22s",
+                            "3": "Energy Cost 90"
+                        },
+                        "7": {
+                            "0": "Skill DMG 390%",
+                            "1": "Tenko Thunderbolt DMG 500.7%",
+                            "2": "CD 22s",
+                            "3": "Energy Cost 90"
+                        },
+                        "8": {
+                            "0": "Skill DMG 416%",
+                            "1": "Tenko Thunderbolt DMG 534.1%",
+                            "2": "CD 22s",
+                            "3": "Energy Cost 90"
+                        },
+                        "9": {
+                            "0": "Skill DMG 442%",
+                            "1": "Tenko Thunderbolt DMG 567.5%",
+                            "2": "CD 22s",
+                            "3": "Energy Cost 90"
+                        },
+                        "10": {
+                            "0": "Skill DMG 468%",
+                            "1": "Tenko Thunderbolt DMG 600.9%",
+                            "2": "CD 22s",
+                            "3": "Energy Cost 90"
+                        },
+                        "11": {
+                            "0": "Skill DMG 494%",
+                            "1": "Tenko Thunderbolt DMG 634.2%",
+                            "2": "CD 22s",
+                            "3": "Energy Cost 90"
+                        },
+                        "12": {
+                            "0": "Skill DMG 520%",
+                            "1": "Tenko Thunderbolt DMG 667.6%",
+                            "2": "CD 22s",
+                            "3": "Energy Cost 90"
+                        },
+                        "13": {
+                            "0": "Skill DMG 552.5%",
+                            "1": "Tenko Thunderbolt DMG 709.4%",
+                            "2": "CD 22s",
+                            "3": "Energy Cost 90"
+                        },
+                        "14": {
+                            "0": "Skill DMG 585%",
+                            "1": "Tenko Thunderbolt DMG 751.1%",
+                            "2": "CD 22s",
+                            "3": "Energy Cost 90"
+                        },
+                        "15": {
+                            "0": "Skill DMG 617.5%",
+                            "1": "Tenko Thunderbolt DMG 792.8%",
+                            "2": "CD 22s",
+                            "3": "Energy Cost 90"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104326",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112044",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112046",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113034",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112046",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113034",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112046",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113034",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104328",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112046",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113034",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "The Shrine's Sacred Shade",
+                    "description": "When casting <color=#FFD780FF>Great Secret Art: Tenko Kenshin</color>, each Sesshou Sakura destroyed resets the cooldown for 1 charge of <color=#FFD780FF>Yakan Evocation: Sesshou Sakura</color>.",
+                    "icon": "UI_Talent_S_Yae_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Enlightened Blessing",
+                    "description": "Every point of Elemental Mastery Yae Miko possesses will increase <color=#FFD780FF>Sesshou Sakura</color> DMG by 0.15%.",
+                    "icon": "UI_Talent_S_Yae_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Meditations of a Yako",
+                    "description": "Has a 25% chance to get 1 regional Character Talent Material (base material excluded) when crafting. The rarity is that of the base material.",
+                    "icon": "UI_Talent_S_Yae_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Yakan Offering",
+                    "description": "Each time <color=#FFD780FF>Great Secret Art: Tenko Kenshin</color> activates a Tenko Thunderbolt, Yae Miko will restore 8 Elemental Energy for herself.",
+                    "icon": "UI_Talent_S_Yae_01"
+                },
+                "1": {
+                    "name": "Fox's Mooncall",
+                    "description": "<color=#FFD780FF>Sesshou Sakura</color> start at Level 2 when created, their max level is increased to 4, and their attack range is increased by 60%.",
+                    "icon": "UI_Talent_S_Yae_02"
+                },
+                "2": {
+                    "name": "The Seven Glamours",
+                    "description": "Increases the Level of <color=#FFD780FF>Yakan Evocation: Sesshou Sakura</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Yae_01"
+                },
+                "3": {
+                    "name": "Sakura Channeling",
+                    "description": "When <color=#FFD780FF>Sesshou Sakura</color> lightning hits opponents, the <color=#FFACFFFF>Electro DMG Bonus</color> of all nearby party members is increased by 20% for 5s.",
+                    "icon": "UI_Talent_S_Yae_03"
+                },
+                "4": {
+                    "name": "Mischievous Teasing",
+                    "description": "Increases the Level of <color=#FFD780FF>Great Secret Art: Tenko Kenshin</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Yae_02"
+                },
+                "5": {
+                    "name": "Forbidden Art: Daisesshou",
+                    "description": "<color=#FFD780FF>The Sesshou Sakura's</color> attacks will ignore 60% of the opponents' DEF.",
+                    "icon": "UI_Talent_S_Yae_04"
+                }
+            },
+            "elevation": {
+                "sub": "CRIT Rate %",
+                "0": {
+                    "stats": {
+                        "HP": 807,
+                        "ATK": 26,
+                        "DEF": 44,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2095,
+                        "ATK": 69,
+                        "DEF": 115,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101206",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104141",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112044",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 2787,
+                        "ATK": 91,
+                        "DEF": 153,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 4170,
+                        "ATK": 137,
+                        "DEF": 229,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101206",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104142",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112044",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113031",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 4662,
+                        "ATK": 153,
+                        "DEF": 256,
+                        "sub": 4.8
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 5364,
+                        "ATK": 176,
+                        "DEF": 294,
+                        "sub": 4.8
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101206",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104142",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112045",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113031",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 6020,
+                        "ATK": 197,
+                        "DEF": 330,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 6657,
+                        "ATK": 218,
+                        "DEF": 365,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101206",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104143",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112045",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113031",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 7149,
+                        "ATK": 234,
+                        "DEF": 392,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 8008,
+                        "ATK": 262,
+                        "DEF": 439,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101206",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104143",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112046",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113031",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 8500,
+                        "ATK": 278,
+                        "DEF": 466,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 9151,
+                        "ATK": 300,
+                        "DEF": 502,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101206",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104144",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112046",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113031",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 9643,
+                        "ATK": 316,
+                        "DEF": 529,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 10372,
+                        "ATK": 340,
+                        "DEF": 569,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                }
+            }
+        },
+        "ru": {
+            "name": "Yae Miko",
+            "name_ru": "Яэ Мико",
+            "id": 10000058,
+            "rarity": 5,
+            "weapon": "Catalyst",
+            "element": "Electro",
+            "region": "Inazuma",
+            "more": {
+                "title": "Озорное лукавство",
+                "detail": "Гудзи Великого храма Наруками, а также главный редактор издательского дома Яэ. За прекрасной внешностью скрывается неожиданный ум и хитрость.",
+                "constellation": "Божественная Кицунэ",
+                "group": "Великий храм Наруками",
+                "birthday": "27.6",
+                "release": "15.02.2022",
+                "cv": {
+                    "en": "Ratana",
+                    "chs": "杜冥鸦",
+                    "jp": "佐倉綾音",
+                    "kr": "Moon Yoo-jung"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Пожирающая грехи кицунэ",
+                    "description": "<color=#FFD780FF>Обычная атака:</color>\\nСовершает до трёх ударов, призывая духов кицунэ, наносящих <color=#FFACFFFF>Электро урон</color>.\\n\\n<color=#FFD780FF>Заряженная атака:</color>\\nКороткое заклинание, наносящее <color=#FFACFFFF>Электро урон по площади</color>, на которое тратится определённое количество выносливости.\\n\\n<color=#FFD780FF>Атака в падении:</color>\\nНакопив энергию молнии, стремительно падает на землю, атакуя всех врагов на пути. Приземлившись, наносит <color=#FFACFFFF>Электро урон по площади</color>.",
+                    "icon": "Skill_A_Catalyst_MD",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон атаки 1 39.7%",
+                            "1": "Урон атаки 2 38.5%",
+                            "2": "Урон атаки 3 56.9%",
+                            "3": "Урон заряженной атаки 142.9%",
+                            "4": "Потребление выносливости 50 ед.",
+                            "5": "Урон в падении 56.8%",
+                            "6": "Урон низкого/высокого удара 113.6%/141.9%"
+                        },
+                        "2": {
+                            "0": "Урон атаки 1 42.6%",
+                            "1": "Урон атаки 2 41.4%",
+                            "2": "Урон атаки 3 61.2%",
+                            "3": "Урон заряженной атаки 153.6%",
+                            "4": "Потребление выносливости 50 ед.",
+                            "5": "Урон в падении 61.5%",
+                            "6": "Урон низкого/высокого удара 122.9%/153.5%"
+                        },
+                        "3": {
+                            "0": "Урон атаки 1 45.6%",
+                            "1": "Урон атаки 2 44.3%",
+                            "2": "Урон атаки 3 65.4%",
+                            "3": "Урон заряженной атаки 164.3%",
+                            "4": "Потребление выносливости 50 ед.",
+                            "5": "Урон в падении 66.1%",
+                            "6": "Урон низкого/высокого удара 132.1%/165%"
+                        },
+                        "4": {
+                            "0": "Урон атаки 1 49.6%",
+                            "1": "Урон атаки 2 48.1%",
+                            "2": "Урон атаки 3 71.1%",
+                            "3": "Урон заряженной атаки 178.6%",
+                            "4": "Потребление выносливости 50 ед.",
+                            "5": "Урон в падении 72.7%",
+                            "6": "Урон низкого/высокого удара 145.3%/181.5%"
+                        },
+                        "5": {
+                            "0": "Урон атаки 1 52.5%",
+                            "1": "Урон атаки 2 51%",
+                            "2": "Урон атаки 3 75.4%",
+                            "3": "Урон заряженной атаки 189.3%",
+                            "4": "Потребление выносливости 50 ед.",
+                            "5": "Урон в падении 77.3%",
+                            "6": "Урон низкого/высокого удара 154.6%/193.1%"
+                        },
+                        "6": {
+                            "0": "Урон атаки 1 55.5%",
+                            "1": "Урон атаки 2 53.9%",
+                            "2": "Урон атаки 3 79.6%",
+                            "3": "Урон заряженной атаки 200.1%",
+                            "4": "Потребление выносливости 50 ед.",
+                            "5": "Урон в падении 82.6%",
+                            "6": "Урон низкого/высокого удара 165.2%/206.3%"
+                        },
+                        "7": {
+                            "0": "Урон атаки 1 59.5%",
+                            "1": "Урон атаки 2 57.8%",
+                            "2": "Урон атаки 3 85.3%",
+                            "3": "Урон заряженной атаки 214.3%",
+                            "4": "Потребление выносливости 50 ед.",
+                            "5": "Урон в падении 89.9%",
+                            "6": "Урон низкого/высокого удара 179.7%/224.5%"
+                        },
+                        "8": {
+                            "0": "Урон атаки 1 63.5%",
+                            "1": "Урон атаки 2 61.6%",
+                            "2": "Урон атаки 3 91%",
+                            "3": "Урон заряженной атаки 228.6%",
+                            "4": "Потребление выносливости 50 ед.",
+                            "5": "Урон в падении 97.1%",
+                            "6": "Урон низкого/высокого удара 194.2%/242.6%"
+                        },
+                        "9": {
+                            "0": "Урон атаки 1 67.4%",
+                            "1": "Урон атаки 2 65.5%",
+                            "2": "Урон атаки 3 96.7%",
+                            "3": "Урон заряженной атаки 242.9%",
+                            "4": "Потребление выносливости 50 ед.",
+                            "5": "Урон в падении 104.4%",
+                            "6": "Урон низкого/высокого удара 208.8%/260.8%"
+                        },
+                        "10": {
+                            "0": "Урон атаки 1 71.4%",
+                            "1": "Урон атаки 2 69.3%",
+                            "2": "Урон атаки 3 102.4%",
+                            "3": "Урон заряженной атаки 257.2%",
+                            "4": "Потребление выносливости 50 ед.",
+                            "5": "Урон в падении 112.3%",
+                            "6": "Урон низкого/высокого удара 224.6%/280.6%"
+                        },
+                        "11": {
+                            "0": "Урон атаки 1 75.4%",
+                            "1": "Урон атаки 2 73.2%",
+                            "2": "Урон атаки 3 108.1%",
+                            "3": "Урон заряженной атаки 271.5%",
+                            "4": "Потребление выносливости 50 ед.",
+                            "5": "Урон в падении 120.3%",
+                            "6": "Урон низкого/высокого удара 240.5%/300.4%"
+                        },
+                        "12": {
+                            "0": "Урон атаки 1 79.3%",
+                            "1": "Урон атаки 2 77%",
+                            "2": "Урон атаки 3 113.8%",
+                            "3": "Урон заряженной атаки 285.8%",
+                            "4": "Потребление выносливости 50 ед.",
+                            "5": "Урон в падении 128.2%",
+                            "6": "Урон низкого/высокого удара 256.3%/320.2%"
+                        },
+                        "13": {
+                            "0": "Урон атаки 1 84.3%",
+                            "1": "Урон атаки 2 81.9%",
+                            "2": "Урон атаки 3 120.9%",
+                            "3": "Урон заряженной атаки 303.7%",
+                            "4": "Потребление выносливости 50 ед.",
+                            "5": "Урон в падении 136.1%",
+                            "6": "Урон низкого/высокого удара 272.2%/340%"
+                        },
+                        "14": {
+                            "0": "Урон атаки 1 89.2%",
+                            "1": "Урон атаки 2 86.7%",
+                            "2": "Урон атаки 3 128%",
+                            "3": "Урон заряженной атаки 321.5%",
+                            "4": "Потребление выносливости 50 ед.",
+                            "5": "Урон в падении 144.1%",
+                            "6": "Урон низкого/высокого удара 288%/359.8%"
+                        },
+                        "15": {
+                            "0": "Урон атаки 1 94.2%",
+                            "1": "Урон атаки 2 91.5%",
+                            "2": "Урон атаки 3 135.1%",
+                            "3": "Урон заряженной атаки 339.4%",
+                            "4": "Потребление выносливости 50 ед.",
+                            "5": "Урон в падении 152%",
+                            "6": "Урон низкого/высокого удара 303.9%/379.6%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104326",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112044",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112046",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113034",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112046",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113034",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112046",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113034",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104328",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112046",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113034",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Проклятие якан: Сакура сэссё",
+                    "description": "Для Яэ хлопотами вроде изгнания духов нет нужды заниматься лично.\\nСтремительно передвигается, оставляя за собой Сакуру сэссё.\\n\\n<color=#FFD780FF>Сакура сэссё</color>\\nОбладает следующими свойствами:\\n· Периодически бьёт врага поблизости молнией, нанося <color=#FFACFFFF>Электро урон</color>.\\n· Наличие других Сакур сэссё поблизости повышает их уровень и наносимый ими урон.\\n\\nУ навыка 3 заряда.\\nНа поле боя может быть до 3 Сакур сэссё. Изначально создаёт Сакуры 1-го уровня, они могут быть улучшены максимум до 3-го уровня. Если создать Сакуру слишком близко к уже существующей, то последняя уничтожится.\\n\\n<i>«Заточённые внутри ветвей сакуры духи кицунэ - это всё якан, которые причиняют людям вред. Они на две ступени ниже нас, Небесных кицунэ, поэтому я без зазрения совести заставляю их выполнять мои приказы. Но вы, люди, с нашей иерархии пример не берите. Что же до того, кто занимает более высокое положение, небесные кицунэ или люди... Хе-хе...»</i>",
+                    "icon": "Skill_S_Yae_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон Сакуры сэссё ур. 1 60.7%",
+                            "1": "Урон Сакуры сэссё ур. 2 75.8%",
+                            "2": "Урон Сакуры сэссё ур. 3 94.8%",
+                            "3": "Урон Сакуры сэссё ур. 4 118.5%",
+                            "4": "Длительность 14 сек.",
+                            "5": "Время отката 4 сек."
+                        },
+                        "2": {
+                            "0": "Урон Сакуры сэссё ур. 1 65.2%",
+                            "1": "Урон Сакуры сэссё ур. 2 81.5%",
+                            "2": "Урон Сакуры сэссё ур. 3 101.9%",
+                            "3": "Урон Сакуры сэссё ур. 4 127.4%",
+                            "4": "Длительность 14 сек.",
+                            "5": "Время отката 4 сек."
+                        },
+                        "3": {
+                            "0": "Урон Сакуры сэссё ур. 1 69.8%",
+                            "1": "Урон Сакуры сэссё ур. 2 87.2%",
+                            "2": "Урон Сакуры сэссё ур. 3 109%",
+                            "3": "Урон Сакуры сэссё ур. 4 136.3%",
+                            "4": "Длительность 14 сек.",
+                            "5": "Время отката 4 сек."
+                        },
+                        "4": {
+                            "0": "Урон Сакуры сэссё ур. 1 75.8%",
+                            "1": "Урон Сакуры сэссё ур. 2 94.8%",
+                            "2": "Урон Сакуры сэссё ур. 3 118.5%",
+                            "3": "Урон Сакуры сэссё ур. 4 148.1%",
+                            "4": "Длительность 14 сек.",
+                            "5": "Время отката 4 сек."
+                        },
+                        "5": {
+                            "0": "Урон Сакуры сэссё ур. 1 80.4%",
+                            "1": "Урон Сакуры сэссё ур. 2 100.5%",
+                            "2": "Урон Сакуры сэссё ур. 3 125.6%",
+                            "3": "Урон Сакуры сэссё ур. 4 157%",
+                            "4": "Длительность 14 сек.",
+                            "5": "Время отката 4 сек."
+                        },
+                        "6": {
+                            "0": "Урон Сакуры сэссё ур. 1 84.9%",
+                            "1": "Урон Сакуры сэссё ур. 2 106.2%",
+                            "2": "Урон Сакуры сэссё ур. 3 132.7%",
+                            "3": "Урон Сакуры сэссё ур. 4 165.9%",
+                            "4": "Длительность 14 сек.",
+                            "5": "Время отката 4 сек."
+                        },
+                        "7": {
+                            "0": "Урон Сакуры сэссё ур. 1 91%",
+                            "1": "Урон Сакуры сэссё ур. 2 113.8%",
+                            "2": "Урон Сакуры сэссё ур. 3 142.2%",
+                            "3": "Урон Сакуры сэссё ур. 4 177.8%",
+                            "4": "Длительность 14 сек.",
+                            "5": "Время отката 4 сек."
+                        },
+                        "8": {
+                            "0": "Урон Сакуры сэссё ур. 1 97.1%",
+                            "1": "Урон Сакуры сэссё ур. 2 121.3%",
+                            "2": "Урон Сакуры сэссё ур. 3 151.7%",
+                            "3": "Урон Сакуры сэссё ур. 4 189.6%",
+                            "4": "Длительность 14 сек.",
+                            "5": "Время отката 4 сек."
+                        },
+                        "9": {
+                            "0": "Урон Сакуры сэссё ур. 1 103.1%",
+                            "1": "Урон Сакуры сэссё ур. 2 128.9%",
+                            "2": "Урон Сакуры сэссё ур. 3 161.2%",
+                            "3": "Урон Сакуры сэссё ур. 4 201.4%",
+                            "4": "Длительность 14 сек.",
+                            "5": "Время отката 4 сек."
+                        },
+                        "10": {
+                            "0": "Урон Сакуры сэссё ур. 1 109.2%",
+                            "1": "Урон Сакуры сэссё ур. 2 136.5%",
+                            "2": "Урон Сакуры сэссё ур. 3 170.6%",
+                            "3": "Урон Сакуры сэссё ур. 4 213.3%",
+                            "4": "Длительность 14 сек.",
+                            "5": "Время отката 4 сек."
+                        },
+                        "11": {
+                            "0": "Урон Сакуры сэссё ур. 1 115.3%",
+                            "1": "Урон Сакуры сэссё ур. 2 144.1%",
+                            "2": "Урон Сакуры сэссё ур. 3 180.1%",
+                            "3": "Урон Сакуры сэссё ур. 4 225.2%",
+                            "4": "Длительность 14 сек.",
+                            "5": "Время отката 4 сек."
+                        },
+                        "12": {
+                            "0": "Урон Сакуры сэссё ур. 1 121.3%",
+                            "1": "Урон Сакуры сэссё ур. 2 151.7%",
+                            "2": "Урон Сакуры сэссё ур. 3 189.6%",
+                            "3": "Урон Сакуры сэссё ур. 4 237%",
+                            "4": "Длительность 14 сек.",
+                            "5": "Время отката 4 сек."
+                        },
+                        "13": {
+                            "0": "Урон Сакуры сэссё ур. 1 128.9%",
+                            "1": "Урон Сакуры сэссё ур. 2 161.2%",
+                            "2": "Урон Сакуры сэссё ур. 3 201.4%",
+                            "3": "Урон Сакуры сэссё ур. 4 251.8%",
+                            "4": "Длительность 14 сек.",
+                            "5": "Время отката 4 сек."
+                        },
+                        "14": {
+                            "0": "Урон Сакуры сэссё ур. 1 136.5%",
+                            "1": "Урон Сакуры сэссё ур. 2 170.6%",
+                            "2": "Урон Сакуры сэссё ур. 3 213.3%",
+                            "3": "Урон Сакуры сэссё ур. 4 266.6%",
+                            "4": "Длительность 14 сек.",
+                            "5": "Время отката 4 сек."
+                        },
+                        "15": {
+                            "0": "Урон Сакуры сэссё ур. 1 144.1%",
+                            "1": "Урон Сакуры сэссё ур. 2 180.1%",
+                            "2": "Урон Сакуры сэссё ур. 3 225.2%",
+                            "3": "Урон Сакуры сэссё ур. 4 281.4%",
+                            "4": "Длительность 14 сек.",
+                            "5": "Время отката 4 сек."
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104326",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112044",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112046",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113034",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112046",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113034",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112046",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113034",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104328",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112046",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113034",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Великое тайное искусство: Тэнко кэнсин",
+                    "description": "В Инадзуме существуют легенды о кицунэцуки - людях, в которых вселился дух кицунэ. Из них весьма особенными считаются Небесные кицунэ, которые поражают молниями врагов Великого храма Наруками, нанося <color=#FFACFFFF>Электро урон по площади</color>.\\nПри активации этого навыка Яэ Мико высвобождает Сакуры сэссё поблизости, разрушая их внешнюю форму и обращая в молнии Небесной кицунэ, которые наносят <color=#FFACFFFF>Электро урон по площади</color>. Каждая разрушенная таким образом Сакура сэссё даёт одну молнию Небесной кицунэ.\\n\\n<i>Черты Небесной кицунэ Яэ раскрываются лишь тогда, когда она повелевает молнией. От всех видевших её хвосты осталась лишь горстка пепла, поэтому помните - хвостов у госпожи Яэ нет.</i>",
+                    "icon": "Skill_E_Yae_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 260%",
+                            "1": "Урон молнии Небесной кицунэ 333.8%",
+                            "2": "Время отката 22 сек.",
+                            "3": "Потребление энергии 90"
+                        },
+                        "2": {
+                            "0": "Урон навыка 279.5%",
+                            "1": "Урон молнии Небесной кицунэ 358.9%",
+                            "2": "Время отката 22 сек.",
+                            "3": "Потребление энергии 90"
+                        },
+                        "3": {
+                            "0": "Урон навыка 299%",
+                            "1": "Урон молнии Небесной кицунэ 383.9%",
+                            "2": "Время отката 22 сек.",
+                            "3": "Потребление энергии 90"
+                        },
+                        "4": {
+                            "0": "Урон навыка 325%",
+                            "1": "Урон молнии Небесной кицунэ 417.3%",
+                            "2": "Время отката 22 сек.",
+                            "3": "Потребление энергии 90"
+                        },
+                        "5": {
+                            "0": "Урон навыка 344.5%",
+                            "1": "Урон молнии Небесной кицунэ 442.3%",
+                            "2": "Время отката 22 сек.",
+                            "3": "Потребление энергии 90"
+                        },
+                        "6": {
+                            "0": "Урон навыка 364%",
+                            "1": "Урон молнии Небесной кицунэ 467.3%",
+                            "2": "Время отката 22 сек.",
+                            "3": "Потребление энергии 90"
+                        },
+                        "7": {
+                            "0": "Урон навыка 390%",
+                            "1": "Урон молнии Небесной кицунэ 500.7%",
+                            "2": "Время отката 22 сек.",
+                            "3": "Потребление энергии 90"
+                        },
+                        "8": {
+                            "0": "Урон навыка 416%",
+                            "1": "Урон молнии Небесной кицунэ 534.1%",
+                            "2": "Время отката 22 сек.",
+                            "3": "Потребление энергии 90"
+                        },
+                        "9": {
+                            "0": "Урон навыка 442%",
+                            "1": "Урон молнии Небесной кицунэ 567.5%",
+                            "2": "Время отката 22 сек.",
+                            "3": "Потребление энергии 90"
+                        },
+                        "10": {
+                            "0": "Урон навыка 468%",
+                            "1": "Урон молнии Небесной кицунэ 600.9%",
+                            "2": "Время отката 22 сек.",
+                            "3": "Потребление энергии 90"
+                        },
+                        "11": {
+                            "0": "Урон навыка 494%",
+                            "1": "Урон молнии Небесной кицунэ 634.2%",
+                            "2": "Время отката 22 сек.",
+                            "3": "Потребление энергии 90"
+                        },
+                        "12": {
+                            "0": "Урон навыка 520%",
+                            "1": "Урон молнии Небесной кицунэ 667.6%",
+                            "2": "Время отката 22 сек.",
+                            "3": "Потребление энергии 90"
+                        },
+                        "13": {
+                            "0": "Урон навыка 552.5%",
+                            "1": "Урон молнии Небесной кицунэ 709.4%",
+                            "2": "Время отката 22 сек.",
+                            "3": "Потребление энергии 90"
+                        },
+                        "14": {
+                            "0": "Урон навыка 585%",
+                            "1": "Урон молнии Небесной кицунэ 751.1%",
+                            "2": "Время отката 22 сек.",
+                            "3": "Потребление энергии 90"
+                        },
+                        "15": {
+                            "0": "Урон навыка 617.5%",
+                            "1": "Урон молнии Небесной кицунэ 792.8%",
+                            "2": "Время отката 22 сек.",
+                            "3": "Потребление энергии 90"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104326",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112044",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112046",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113034",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112046",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113034",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112046",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113034",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104328",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112046",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113034",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Великое тайное искусство: Тэнко кэнсин",
+                    "description": "В Инадзуме существуют легенды о кицунэцуки - людях, в которых вселился дух кицунэ. Из них весьма особенными считаются Небесные кицунэ, которые поражают молниями врагов Великого храма Наруками, нанося <color=#FFACFFFF>Электро урон по площади</color>.\\nПри активации этого навыка Яэ Мико высвобождает Сакуры сэссё поблизости, разрушая их внешнюю форму и обращая в молнии Небесной кицунэ, которые наносят <color=#FFACFFFF>Электро урон по площади</color>. Каждая разрушенная таким образом Сакура сэссё даёт одну молнию Небесной кицунэ.\\n\\n<i>Черты Небесной кицунэ Яэ раскрываются лишь тогда, когда она повелевает молнией. От всех видевших её хвосты осталась лишь горстка пепла, поэтому помните - хвостов у госпожи Яэ нет.</i>",
+                    "icon": "Skill_E_Yae_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 260%",
+                            "1": "Урон молнии Небесной кицунэ 333.8%",
+                            "2": "Время отката 22 сек.",
+                            "3": "Потребление энергии 90"
+                        },
+                        "2": {
+                            "0": "Урон навыка 279.5%",
+                            "1": "Урон молнии Небесной кицунэ 358.9%",
+                            "2": "Время отката 22 сек.",
+                            "3": "Потребление энергии 90"
+                        },
+                        "3": {
+                            "0": "Урон навыка 299%",
+                            "1": "Урон молнии Небесной кицунэ 383.9%",
+                            "2": "Время отката 22 сек.",
+                            "3": "Потребление энергии 90"
+                        },
+                        "4": {
+                            "0": "Урон навыка 325%",
+                            "1": "Урон молнии Небесной кицунэ 417.3%",
+                            "2": "Время отката 22 сек.",
+                            "3": "Потребление энергии 90"
+                        },
+                        "5": {
+                            "0": "Урон навыка 344.5%",
+                            "1": "Урон молнии Небесной кицунэ 442.3%",
+                            "2": "Время отката 22 сек.",
+                            "3": "Потребление энергии 90"
+                        },
+                        "6": {
+                            "0": "Урон навыка 364%",
+                            "1": "Урон молнии Небесной кицунэ 467.3%",
+                            "2": "Время отката 22 сек.",
+                            "3": "Потребление энергии 90"
+                        },
+                        "7": {
+                            "0": "Урон навыка 390%",
+                            "1": "Урон молнии Небесной кицунэ 500.7%",
+                            "2": "Время отката 22 сек.",
+                            "3": "Потребление энергии 90"
+                        },
+                        "8": {
+                            "0": "Урон навыка 416%",
+                            "1": "Урон молнии Небесной кицунэ 534.1%",
+                            "2": "Время отката 22 сек.",
+                            "3": "Потребление энергии 90"
+                        },
+                        "9": {
+                            "0": "Урон навыка 442%",
+                            "1": "Урон молнии Небесной кицунэ 567.5%",
+                            "2": "Время отката 22 сек.",
+                            "3": "Потребление энергии 90"
+                        },
+                        "10": {
+                            "0": "Урон навыка 468%",
+                            "1": "Урон молнии Небесной кицунэ 600.9%",
+                            "2": "Время отката 22 сек.",
+                            "3": "Потребление энергии 90"
+                        },
+                        "11": {
+                            "0": "Урон навыка 494%",
+                            "1": "Урон молнии Небесной кицунэ 634.2%",
+                            "2": "Время отката 22 сек.",
+                            "3": "Потребление энергии 90"
+                        },
+                        "12": {
+                            "0": "Урон навыка 520%",
+                            "1": "Урон молнии Небесной кицунэ 667.6%",
+                            "2": "Время отката 22 сек.",
+                            "3": "Потребление энергии 90"
+                        },
+                        "13": {
+                            "0": "Урон навыка 552.5%",
+                            "1": "Урон молнии Небесной кицунэ 709.4%",
+                            "2": "Время отката 22 сек.",
+                            "3": "Потребление энергии 90"
+                        },
+                        "14": {
+                            "0": "Урон навыка 585%",
+                            "1": "Урон молнии Небесной кицунэ 751.1%",
+                            "2": "Время отката 22 сек.",
+                            "3": "Потребление энергии 90"
+                        },
+                        "15": {
+                            "0": "Урон навыка 617.5%",
+                            "1": "Урон молнии Небесной кицунэ 792.8%",
+                            "2": "Время отката 22 сек.",
+                            "3": "Потребление энергии 90"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104326",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112044",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112045",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112046",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113034",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112046",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113034",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112046",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113034",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104328",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112046",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113034",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Божественная тень святилища",
+                    "description": "Каждая Сакура сэссё, разрушенная навыком <color=#FFD780FF>Великое тайное искусство: Тэнко кэнсин</color>, сбрасывает откат одного заряда навыка <color=#FFD780FF>Проклятие якан: Сакура сэссё</color>.",
+                    "icon": "UI_Talent_S_Yae_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Просветлённое благословение",
+                    "description": "Каждая единица мастерства стихий Яэ Мико увеличивает урон <color=#FFD780FF>Сакуры сэссё</color> на 0,15%.",
+                    "icon": "UI_Talent_S_Yae_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Медитация яко",
+                    "description": "Создание материалов повышения талантов: 25% шанс получить другой доп. материал того же региона и той же редкости, как у исходных.",
+                    "icon": "UI_Talent_S_Yae_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Подношения яко",
+                    "description": "При каждой активации удара молнии Небесной кицунэ навыком <color=#FFD780FF>Великое тайное искусство: Тэнко кэнсин</color> Яэ Мико восстанавливает себе 8 ед. элементальной энергии.",
+                    "icon": "UI_Talent_S_Yae_01"
+                },
+                "1": {
+                    "name": "Лунный зов лисы",
+                    "description": "<color=#FFD780FF>Сакура сэссё</color> создаётся уже 2-го уровня. Максимальный уровень повышен до 4, а радиус её атак увеличен на 60%.",
+                    "icon": "UI_Talent_S_Yae_02"
+                },
+                "2": {
+                    "name": "Семь чудесных превращений",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Проклятие якан: Сакура сэссё</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Yae_01"
+                },
+                "3": {
+                    "name": "Молния алой вишни",
+                    "description": "Попадание по врагу ударом молнии <color=#FFD780FF>Сакуры сэссё</color> наделяет всех персонажей поблизости 20% <color=#FFACFFFF>бонусом Электро урона</color> длительностью 5 сек.",
+                    "icon": "UI_Talent_S_Yae_03"
+                },
+                "4": {
+                    "name": "Бесконечные насмешки",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Великое тайное искусство: Тэнко кэнсин</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Yae_02"
+                },
+                "5": {
+                    "name": "Запрещённое искусство: Дайсэссё",
+                    "description": "Атаки <color=#FFD780FF>Сакур сэссё</color> игнорируют 60% от защиты противника.",
+                    "icon": "UI_Talent_S_Yae_04"
+                }
+            },
+            "elevation": {
+                "sub": "Шанс крит. попадания %",
+                "0": {
+                    "stats": {
+                        "HP": 807,
+                        "ATK": 26,
+                        "DEF": 44,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2095,
+                        "ATK": 69,
+                        "DEF": 115,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101206",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104141",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112044",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 2787,
+                        "ATK": 91,
+                        "DEF": 153,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 4170,
+                        "ATK": 137,
+                        "DEF": 229,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101206",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104142",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112044",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113031",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 4662,
+                        "ATK": 153,
+                        "DEF": 256,
+                        "sub": 4.8
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 5364,
+                        "ATK": 176,
+                        "DEF": 294,
+                        "sub": 4.8
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101206",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104142",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112045",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113031",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 6020,
+                        "ATK": 197,
+                        "DEF": 330,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 6657,
+                        "ATK": 218,
+                        "DEF": 365,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101206",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104143",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112045",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113031",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 7149,
+                        "ATK": 234,
+                        "DEF": 392,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 8008,
+                        "ATK": 262,
+                        "DEF": 439,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101206",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104143",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112046",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113031",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 8500,
+                        "ATK": 278,
+                        "DEF": 466,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 9151,
+                        "ATK": 300,
+                        "DEF": 502,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101206",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104144",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112046",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113031",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 9643,
+                        "ATK": 316,
+                        "DEF": 529,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 10372,
+                        "ATK": 340,
+                        "DEF": 569,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                }
+            }
+        }
+    }
+}

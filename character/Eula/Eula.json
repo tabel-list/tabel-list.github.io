@@ -1,0 +1,3204 @@
+{
+    "Eula": {
+        "en": {
+            "name": "Eula",
+            "name_ru": "Эола",
+            "id": 10000051,
+            "rarity": 5,
+            "weapon": "Claymore",
+            "element": "Cryo",
+            "region": "Mondstadt",
+            "more": {
+                "title": "Dance of the Shimmering Wave",
+                "detail": "The Spindrift Knight, a scion of the old aristocracy, and the Captain of the Knights of Favonius Reconnaissance Company. The reason for which a descendant of the ancient nobles might join the Knights remains a great mystery in Mondstadt to this very day.",
+                "constellation": "Aphros Delos",
+                "group": "Knights of Favonius",
+                "birthday": "25.10",
+                "release": "18.05.2021",
+                "cv": {
+                    "en": "Suzie Yeung",
+                    "chs": "子音",
+                    "jp": "佐藤利奈",
+                    "kr": "Kim Hyeon-ji"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Normal Attack: Favonius Bladework - Edel",
+                    "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 5 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nDrains Stamina over time to perform continuous slashes.\\nAt the end of the sequence, performs a more powerful slash.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+                    "icon": "Skill_A_04",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "1-Hit DMG 89.7%",
+                            "1": "2-Hit DMG 93.6%",
+                            "2": "3-Hit DMG 56.8%+56.8%",
+                            "3": "4-Hit DMG 112.6%",
+                            "4": "5-Hit DMG 71.8%+71.8%",
+                            "5": "Charged Attack Spinning DMG 68.8%",
+                            "6": "Charged Attack Final DMG 124.4%",
+                            "7": "Charged Attack Stamina Cost 40/s",
+                            "8": "Max Duration 5s",
+                            "9": "Plunge DMG 74.6%",
+                            "10": "Low/High Plunge DMG 149.1%/186.3%"
+                        },
+                        "2": {
+                            "0": "1-Hit DMG 97%",
+                            "1": "2-Hit DMG 101.2%",
+                            "2": "3-Hit DMG 61.4%+61.4%",
+                            "3": "4-Hit DMG 121.8%",
+                            "4": "5-Hit DMG 77.7%+77.7%",
+                            "5": "Charged Attack Spinning DMG 74.4%",
+                            "6": "Charged Attack Final DMG 134.5%",
+                            "7": "Charged Attack Stamina Cost 40/s",
+                            "8": "Max Duration 5s",
+                            "9": "Plunge DMG 80.7%",
+                            "10": "Low/High Plunge DMG 161.3%/201.5%"
+                        },
+                        "3": {
+                            "0": "1-Hit DMG 104.3%",
+                            "1": "2-Hit DMG 108.8%",
+                            "2": "3-Hit DMG 66%+66%",
+                            "3": "4-Hit DMG 131%",
+                            "4": "5-Hit DMG 83.5%+83.5%",
+                            "5": "Charged Attack Spinning DMG 80%",
+                            "6": "Charged Attack Final DMG 144.6%",
+                            "7": "Charged Attack Stamina Cost 40/s",
+                            "8": "Max Duration 5s",
+                            "9": "Plunge DMG 86.7%",
+                            "10": "Low/High Plunge DMG 173.4%/216.6%"
+                        },
+                        "4": {
+                            "0": "1-Hit DMG 114.8%",
+                            "1": "2-Hit DMG 119.7%",
+                            "2": "3-Hit DMG 72.7%+72.7%",
+                            "3": "4-Hit DMG 144.1%",
+                            "4": "5-Hit DMG 91.9%+91.9%",
+                            "5": "Charged Attack Spinning DMG 88%",
+                            "6": "Charged Attack Final DMG 159.1%",
+                            "7": "Charged Attack Stamina Cost 40/s",
+                            "8": "Max Duration 5s",
+                            "9": "Plunge DMG 95.4%",
+                            "10": "Low/High Plunge DMG 190.8%/238.3%"
+                        },
+                        "5": {
+                            "0": "1-Hit DMG 122.1%",
+                            "1": "2-Hit DMG 127.3%",
+                            "2": "3-Hit DMG 77.3%+77.3%",
+                            "3": "4-Hit DMG 153.2%",
+                            "4": "5-Hit DMG 97.7%+97.7%",
+                            "5": "Charged Attack Spinning DMG 93.6%",
+                            "6": "Charged Attack Final DMG 169.2%",
+                            "7": "Charged Attack Stamina Cost 40/s",
+                            "8": "Max Duration 5s",
+                            "9": "Plunge DMG 101.5%",
+                            "10": "Low/High Plunge DMG 202.9%/253.4%"
+                        },
+                        "6": {
+                            "0": "1-Hit DMG 130.4%",
+                            "1": "2-Hit DMG 136%",
+                            "2": "3-Hit DMG 82.6%+82.6%",
+                            "3": "4-Hit DMG 163.7%",
+                            "4": "5-Hit DMG 104.4%+104.4%",
+                            "5": "Charged Attack Spinning DMG 100%",
+                            "6": "Charged Attack Final DMG 180.8%",
+                            "7": "Charged Attack Stamina Cost 40/s",
+                            "8": "Max Duration 5s",
+                            "9": "Plunge DMG 108.4%",
+                            "10": "Low/High Plunge DMG 216.8%/270.8%"
+                        },
+                        "7": {
+                            "0": "1-Hit DMG 141.9%",
+                            "1": "2-Hit DMG 147.9%",
+                            "2": "3-Hit DMG 89.8%+89.8%",
+                            "3": "4-Hit DMG 178.1%",
+                            "4": "5-Hit DMG 113.6%+113.6%",
+                            "5": "Charged Attack Spinning DMG 108.8%",
+                            "6": "Charged Attack Final DMG 196.7%",
+                            "7": "Charged Attack Stamina Cost 40/s",
+                            "8": "Max Duration 5s",
+                            "9": "Plunge DMG 118%",
+                            "10": "Low/High Plunge DMG 235.9%/294.6%"
+                        },
+                        "8": {
+                            "0": "1-Hit DMG 153.4%",
+                            "1": "2-Hit DMG 159.9%",
+                            "2": "3-Hit DMG 97.1%+97.1%",
+                            "3": "4-Hit DMG 192.5%",
+                            "4": "5-Hit DMG 122.8%+122.8%",
+                            "5": "Charged Attack Spinning DMG 117.6%",
+                            "6": "Charged Attack Final DMG 212.6%",
+                            "7": "Charged Attack Stamina Cost 40/s",
+                            "8": "Max Duration 5s",
+                            "9": "Plunge DMG 127.5%",
+                            "10": "Low/High Plunge DMG 254.9%/318.4%"
+                        },
+                        "9": {
+                            "0": "1-Hit DMG 164.9%",
+                            "1": "2-Hit DMG 171.9%",
+                            "2": "3-Hit DMG 104.4%+104.4%",
+                            "3": "4-Hit DMG 206.9%",
+                            "4": "5-Hit DMG 132%+132%",
+                            "5": "Charged Attack Spinning DMG 126.4%",
+                            "6": "Charged Attack Final DMG 228.5%",
+                            "7": "Charged Attack Stamina Cost 40/s",
+                            "8": "Max Duration 5s",
+                            "9": "Plunge DMG 137%",
+                            "10": "Low/High Plunge DMG 274%/342.3%"
+                        },
+                        "10": {
+                            "0": "1-Hit DMG 177.4%",
+                            "1": "2-Hit DMG 184.9%",
+                            "2": "3-Hit DMG 112.3%+112.3%",
+                            "3": "4-Hit DMG 222.7%",
+                            "4": "5-Hit DMG 142%+142%",
+                            "5": "Charged Attack Spinning DMG 136%",
+                            "6": "Charged Attack Final DMG 245.9%",
+                            "7": "Charged Attack Stamina Cost 40/s",
+                            "8": "Max Duration 5s",
+                            "9": "Plunge DMG 147.4%",
+                            "10": "Low/High Plunge DMG 294.8%/368.2%"
+                        },
+                        "11": {
+                            "0": "1-Hit DMG 191.7%",
+                            "1": "2-Hit DMG 199.9%",
+                            "2": "3-Hit DMG 121.4%+121.4%",
+                            "3": "4-Hit DMG 240.7%",
+                            "4": "5-Hit DMG 153.5%+153.5%",
+                            "5": "Charged Attack Spinning DMG 147%",
+                            "6": "Charged Attack Final DMG 265.8%",
+                            "7": "Charged Attack Stamina Cost 40/s",
+                            "8": "Max Duration 5s",
+                            "9": "Plunge DMG 159.4%",
+                            "10": "Low/High Plunge DMG 318.7%/398%"
+                        },
+                        "12": {
+                            "0": "1-Hit DMG 208.6%",
+                            "1": "2-Hit DMG 217.5%",
+                            "2": "3-Hit DMG 132%+132%",
+                            "3": "4-Hit DMG 261.9%",
+                            "4": "5-Hit DMG 167%+167%",
+                            "5": "Charged Attack Spinning DMG 159.9%",
+                            "6": "Charged Attack Final DMG 289.2%",
+                            "7": "Charged Attack Stamina Cost 40/s",
+                            "8": "Max Duration 5s",
+                            "9": "Plunge DMG 173.4%",
+                            "10": "Low/High Plunge DMG 346.7%/433.1%"
+                        },
+                        "13": {
+                            "0": "1-Hit DMG 225.5%",
+                            "1": "2-Hit DMG 235.1%",
+                            "2": "3-Hit DMG 142.7%+142.7%",
+                            "3": "4-Hit DMG 283%",
+                            "4": "5-Hit DMG 180.5%+180.5%",
+                            "5": "Charged Attack Spinning DMG 172.9%",
+                            "6": "Charged Attack Final DMG 312.6%",
+                            "7": "Charged Attack Stamina Cost 40/s",
+                            "8": "Max Duration 5s",
+                            "9": "Plunge DMG 187.4%",
+                            "10": "Low/High Plunge DMG 374.8%/468.1%"
+                        },
+                        "14": {
+                            "0": "1-Hit DMG 242.3%",
+                            "1": "2-Hit DMG 252.7%",
+                            "2": "3-Hit DMG 153.4%+153.4%",
+                            "3": "4-Hit DMG 304.2%",
+                            "4": "5-Hit DMG 194%+194%",
+                            "5": "Charged Attack Spinning DMG 185.8%",
+                            "6": "Charged Attack Final DMG 336%",
+                            "7": "Charged Attack Stamina Cost 40/s",
+                            "8": "Max Duration 5s",
+                            "9": "Plunge DMG 201.4%",
+                            "10": "Low/High Plunge DMG 402.8%/503.1%"
+                        },
+                        "15": {
+                            "0": "1-Hit DMG 260.7%",
+                            "1": "2-Hit DMG 271.8%",
+                            "2": "3-Hit DMG 165%+165%",
+                            "3": "4-Hit DMG 327.3%",
+                            "4": "5-Hit DMG 208.7%+208.7%",
+                            "5": "Charged Attack Spinning DMG 199.9%",
+                            "6": "Charged Attack Final DMG 361.5%",
+                            "7": "Charged Attack Stamina Cost 40/s",
+                            "8": "Max Duration 5s",
+                            "9": "Plunge DMG 216.7%",
+                            "10": "Low/High Plunge DMG 433.4%/541.3%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104304",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112005",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112007",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112007",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112007",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112007",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Icetide Vortex",
+                    "description": "#Sharp frost, swift blade.\\n\\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nSlashes swiftly, dealing <color=#99FFFFFF>Cryo DMG</color>.\\nWhen it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times. These stacks can only be gained once every 0.3s.\\n\\n<color=#FFD780FF>Grimheart</color>\\nIncreases Eula's resistance to interruption and DEF.\\n\\n<color=#FFD780FF>Hold</color>\\nWielding her sword, Eula consumes all the stacks of Grimheart and lashes forward, dealing <color=#99FFFFFF>AoE Cryo DMG</color> to opponents in front of her.\\nIf Grimheart stacks are consumed, surrounding opponents will have their Physical RES and <color=#99FFFFFF>Cryo RES</color> decreased.\\nEach consumed stack of Grimheart will be converted into an Icewhirl Brand that deals <color=#99FFFFFF>Cryo DMG</color> to nearby opponents.\\n\\n<i>\"So the waves roiled, swallowing the crown of the nobles. And ever after did each drop amidst the icy waves reflect a golden crown, each and every droplet of the spray shining with its light.\"</i>",
+                    "icon": "Skill_S_Eula_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG 146.4%",
+                            "1": "Hold DMG 245.6%",
+                            "2": "Icewhirl Brand DMG 96%",
+                            "3": "DEF Bonus 30% Per Stack",
+                            "4": "Grimheart Duration 18s",
+                            "5": "Physical RES Decrease 16%",
+                            "6": "Cryo RES Decrease 16%",
+                            "7": "RES Decrease Duration 7s",
+                            "8": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD 4s",
+                            "9": "Hold CD 10s"
+                        },
+                        "2": {
+                            "0": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG 157.4%",
+                            "1": "Hold DMG 264%",
+                            "2": "Icewhirl Brand DMG 103.2%",
+                            "3": "DEF Bonus 30% Per Stack",
+                            "4": "Grimheart Duration 18s",
+                            "5": "Physical RES Decrease 17%",
+                            "6": "Cryo RES Decrease 17%",
+                            "7": "RES Decrease Duration 7s",
+                            "8": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD 4s",
+                            "9": "Hold CD 10s"
+                        },
+                        "3": {
+                            "0": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG 168.4%",
+                            "1": "Hold DMG 282.4%",
+                            "2": "Icewhirl Brand DMG 110.4%",
+                            "3": "DEF Bonus 30% Per Stack",
+                            "4": "Grimheart Duration 18s",
+                            "5": "Physical RES Decrease 18%",
+                            "6": "Cryo RES Decrease 18%",
+                            "7": "RES Decrease Duration 7s",
+                            "8": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD 4s",
+                            "9": "Hold CD 10s"
+                        },
+                        "4": {
+                            "0": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG 183%",
+                            "1": "Hold DMG 307%",
+                            "2": "Icewhirl Brand DMG 120%",
+                            "3": "DEF Bonus 30% Per Stack",
+                            "4": "Grimheart Duration 18s",
+                            "5": "Physical RES Decrease 19%",
+                            "6": "Cryo RES Decrease 19%",
+                            "7": "RES Decrease Duration 7s",
+                            "8": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD 4s",
+                            "9": "Hold CD 10s"
+                        },
+                        "5": {
+                            "0": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG 194%",
+                            "1": "Hold DMG 325.4%",
+                            "2": "Icewhirl Brand DMG 127.2%",
+                            "3": "DEF Bonus 30% Per Stack",
+                            "4": "Grimheart Duration 18s",
+                            "5": "Physical RES Decrease 20%",
+                            "6": "Cryo RES Decrease 20%",
+                            "7": "RES Decrease Duration 7s",
+                            "8": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD 4s",
+                            "9": "Hold CD 10s"
+                        },
+                        "6": {
+                            "0": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG 205%",
+                            "1": "Hold DMG 343.8%",
+                            "2": "Icewhirl Brand DMG 134.4%",
+                            "3": "DEF Bonus 30% Per Stack",
+                            "4": "Grimheart Duration 18s",
+                            "5": "Physical RES Decrease 21%",
+                            "6": "Cryo RES Decrease 21%",
+                            "7": "RES Decrease Duration 7s",
+                            "8": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD 4s",
+                            "9": "Hold CD 10s"
+                        },
+                        "7": {
+                            "0": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG 219.6%",
+                            "1": "Hold DMG 368.4%",
+                            "2": "Icewhirl Brand DMG 144%",
+                            "3": "DEF Bonus 30% Per Stack",
+                            "4": "Grimheart Duration 18s",
+                            "5": "Physical RES Decrease 22%",
+                            "6": "Cryo RES Decrease 22%",
+                            "7": "RES Decrease Duration 7s",
+                            "8": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD 4s",
+                            "9": "Hold CD 10s"
+                        },
+                        "8": {
+                            "0": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG 234.2%",
+                            "1": "Hold DMG 393%",
+                            "2": "Icewhirl Brand DMG 153.6%",
+                            "3": "DEF Bonus 30% Per Stack",
+                            "4": "Grimheart Duration 18s",
+                            "5": "Physical RES Decrease 23%",
+                            "6": "Cryo RES Decrease 23%",
+                            "7": "RES Decrease Duration 7s",
+                            "8": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD 4s",
+                            "9": "Hold CD 10s"
+                        },
+                        "9": {
+                            "0": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG 248.9%",
+                            "1": "Hold DMG 417.5%",
+                            "2": "Icewhirl Brand DMG 163.2%",
+                            "3": "DEF Bonus 30% Per Stack",
+                            "4": "Grimheart Duration 18s",
+                            "5": "Physical RES Decrease 24%",
+                            "6": "Cryo RES Decrease 24%",
+                            "7": "RES Decrease Duration 7s",
+                            "8": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD 4s",
+                            "9": "Hold CD 10s"
+                        },
+                        "10": {
+                            "0": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG 263.5%",
+                            "1": "Hold DMG 442.1%",
+                            "2": "Icewhirl Brand DMG 172.8%",
+                            "3": "DEF Bonus 30% Per Stack",
+                            "4": "Grimheart Duration 18s",
+                            "5": "Physical RES Decrease 25%",
+                            "6": "Cryo RES Decrease 25%",
+                            "7": "RES Decrease Duration 7s",
+                            "8": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD 4s",
+                            "9": "Hold CD 10s"
+                        },
+                        "11": {
+                            "0": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG 278.2%",
+                            "1": "Hold DMG 466.6%",
+                            "2": "Icewhirl Brand DMG 182.4%",
+                            "3": "DEF Bonus 30% Per Stack",
+                            "4": "Grimheart Duration 18s",
+                            "5": "Physical RES Decrease 25%",
+                            "6": "Cryo RES Decrease 25%",
+                            "7": "RES Decrease Duration 7s",
+                            "8": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD 4s",
+                            "9": "Hold CD 10s"
+                        },
+                        "12": {
+                            "0": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG 292.8%",
+                            "1": "Hold DMG 491.2%",
+                            "2": "Icewhirl Brand DMG 192%",
+                            "3": "DEF Bonus 30% Per Stack",
+                            "4": "Grimheart Duration 18s",
+                            "5": "Physical RES Decrease 25%",
+                            "6": "Cryo RES Decrease 25%",
+                            "7": "RES Decrease Duration 7s",
+                            "8": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD 4s",
+                            "9": "Hold CD 10s"
+                        },
+                        "13": {
+                            "0": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG 311.1%",
+                            "1": "Hold DMG 521.9%",
+                            "2": "Icewhirl Brand DMG 204%",
+                            "3": "DEF Bonus 30% Per Stack",
+                            "4": "Grimheart Duration 18s",
+                            "5": "Physical RES Decrease 25%",
+                            "6": "Cryo RES Decrease 25%",
+                            "7": "RES Decrease Duration 7s",
+                            "8": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD 4s",
+                            "9": "Hold CD 10s"
+                        },
+                        "14": {
+                            "0": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG 329.4%",
+                            "1": "Hold DMG 552.6%",
+                            "2": "Icewhirl Brand DMG 216%",
+                            "3": "DEF Bonus 30% Per Stack",
+                            "4": "Grimheart Duration 18s",
+                            "5": "Physical RES Decrease 25%",
+                            "6": "Cryo RES Decrease 25%",
+                            "7": "RES Decrease Duration 7s",
+                            "8": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD 4s",
+                            "9": "Hold CD 10s"
+                        },
+                        "15": {
+                            "0": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG 347.7%",
+                            "1": "Hold DMG 583.3%",
+                            "2": "Icewhirl Brand DMG 228%",
+                            "3": "DEF Bonus 30% Per Stack",
+                            "4": "Grimheart Duration 18s",
+                            "5": "Physical RES Decrease 25%",
+                            "6": "Cryo RES Decrease 25%",
+                            "7": "RES Decrease Duration 7s",
+                            "8": "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD 4s",
+                            "9": "Hold CD 10s"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104304",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112005",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112007",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112007",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112007",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112007",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Glacial Illumination",
+                    "description": "Brandishes her greatsword, dealing <color=#99FFFFFF>Cryo DMG</color> to nearby opponents and creating a Lightfall Sword that follows her around for a duration of up to 7s.\\nWhile present, the Lightfall Sword increases Eula's resistance to interruption. When Eula's own Normal Attack, Elemental Skill, and Elemental Burst deal DMG to opponents, they will charge the Lightfall Sword, which can gain an energy stack once every 0.1s.\\nOnce its duration ends, the Lightfall Sword will descend and explode violently, dealing Physical DMG to nearby opponents.\\nThis DMG scales on the number of energy stacks the Lightfall Sword has accumulated.\\nIf Eula leaves the field, the Lightfall Sword will explode immediately.\\n\\n<i>It is easy to sink. But even so, she desires to freeze this oncoming tide.</i>",
+                    "icon": "Skill_E_Eula_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 245.6%",
+                            "1": "Lightfall Sword Base DMG 367%",
+                            "2": "DMG Per Stack 75%",
+                            "3": "Maximum Stacks 30",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "2": {
+                            "0": "Skill DMG 264%",
+                            "1": "Lightfall Sword Base DMG 396.9%",
+                            "2": "DMG Per Stack 81.1%",
+                            "3": "Maximum Stacks 30",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "3": {
+                            "0": "Skill DMG 282.4%",
+                            "1": "Lightfall Sword Base DMG 426.8%",
+                            "2": "DMG Per Stack 87.2%",
+                            "3": "Maximum Stacks 30",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "4": {
+                            "0": "Skill DMG 307%",
+                            "1": "Lightfall Sword Base DMG 469.5%",
+                            "2": "DMG Per Stack 95.9%",
+                            "3": "Maximum Stacks 30",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "5": {
+                            "0": "Skill DMG 325.4%",
+                            "1": "Lightfall Sword Base DMG 499.4%",
+                            "2": "DMG Per Stack 102%",
+                            "3": "Maximum Stacks 30",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "6": {
+                            "0": "Skill DMG 343.8%",
+                            "1": "Lightfall Sword Base DMG 533.5%",
+                            "2": "DMG Per Stack 109%",
+                            "3": "Maximum Stacks 30",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "7": {
+                            "0": "Skill DMG 368.4%",
+                            "1": "Lightfall Sword Base DMG 580.4%",
+                            "2": "DMG Per Stack 118.6%",
+                            "3": "Maximum Stacks 30",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "8": {
+                            "0": "Skill DMG 393%",
+                            "1": "Lightfall Sword Base DMG 627.4%",
+                            "2": "DMG Per Stack 128.2%",
+                            "3": "Maximum Stacks 30",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "9": {
+                            "0": "Skill DMG 417.5%",
+                            "1": "Lightfall Sword Base DMG 674.3%",
+                            "2": "DMG Per Stack 137.8%",
+                            "3": "Maximum Stacks 30",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "10": {
+                            "0": "Skill DMG 442.1%",
+                            "1": "Lightfall Sword Base DMG 725.6%",
+                            "2": "DMG Per Stack 148.2%",
+                            "3": "Maximum Stacks 30",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "11": {
+                            "0": "Skill DMG 466.6%",
+                            "1": "Lightfall Sword Base DMG 784.2%",
+                            "2": "DMG Per Stack 160.2%",
+                            "3": "Maximum Stacks 30",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "12": {
+                            "0": "Skill DMG 491.2%",
+                            "1": "Lightfall Sword Base DMG 853.3%",
+                            "2": "DMG Per Stack 174.3%",
+                            "3": "Maximum Stacks 30",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "13": {
+                            "0": "Skill DMG 521.9%",
+                            "1": "Lightfall Sword Base DMG 922.3%",
+                            "2": "DMG Per Stack 188.4%",
+                            "3": "Maximum Stacks 30",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "14": {
+                            "0": "Skill DMG 552.6%",
+                            "1": "Lightfall Sword Base DMG 991.3%",
+                            "2": "DMG Per Stack 202.5%",
+                            "3": "Maximum Stacks 30",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "15": {
+                            "0": "Skill DMG 583.3%",
+                            "1": "Lightfall Sword Base DMG 1066.6%",
+                            "2": "DMG Per Stack 217.9%",
+                            "3": "Maximum Stacks 30",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104304",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112005",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112007",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112007",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112007",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112007",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Glacial Illumination",
+                    "description": "Brandishes her greatsword, dealing <color=#99FFFFFF>Cryo DMG</color> to nearby opponents and creating a Lightfall Sword that follows her around for a duration of up to 7s.\\nWhile present, the Lightfall Sword increases Eula's resistance to interruption. When Eula's own Normal Attack, Elemental Skill, and Elemental Burst deal DMG to opponents, they will charge the Lightfall Sword, which can gain an energy stack once every 0.1s.\\nOnce its duration ends, the Lightfall Sword will descend and explode violently, dealing Physical DMG to nearby opponents.\\nThis DMG scales on the number of energy stacks the Lightfall Sword has accumulated.\\nIf Eula leaves the field, the Lightfall Sword will explode immediately.\\n\\n<i>It is easy to sink. But even so, she desires to freeze this oncoming tide.</i>",
+                    "icon": "Skill_E_Eula_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 245.6%",
+                            "1": "Lightfall Sword Base DMG 367%",
+                            "2": "DMG Per Stack 75%",
+                            "3": "Maximum Stacks 30",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "2": {
+                            "0": "Skill DMG 264%",
+                            "1": "Lightfall Sword Base DMG 396.9%",
+                            "2": "DMG Per Stack 81.1%",
+                            "3": "Maximum Stacks 30",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "3": {
+                            "0": "Skill DMG 282.4%",
+                            "1": "Lightfall Sword Base DMG 426.8%",
+                            "2": "DMG Per Stack 87.2%",
+                            "3": "Maximum Stacks 30",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "4": {
+                            "0": "Skill DMG 307%",
+                            "1": "Lightfall Sword Base DMG 469.5%",
+                            "2": "DMG Per Stack 95.9%",
+                            "3": "Maximum Stacks 30",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "5": {
+                            "0": "Skill DMG 325.4%",
+                            "1": "Lightfall Sword Base DMG 499.4%",
+                            "2": "DMG Per Stack 102%",
+                            "3": "Maximum Stacks 30",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "6": {
+                            "0": "Skill DMG 343.8%",
+                            "1": "Lightfall Sword Base DMG 533.5%",
+                            "2": "DMG Per Stack 109%",
+                            "3": "Maximum Stacks 30",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "7": {
+                            "0": "Skill DMG 368.4%",
+                            "1": "Lightfall Sword Base DMG 580.4%",
+                            "2": "DMG Per Stack 118.6%",
+                            "3": "Maximum Stacks 30",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "8": {
+                            "0": "Skill DMG 393%",
+                            "1": "Lightfall Sword Base DMG 627.4%",
+                            "2": "DMG Per Stack 128.2%",
+                            "3": "Maximum Stacks 30",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "9": {
+                            "0": "Skill DMG 417.5%",
+                            "1": "Lightfall Sword Base DMG 674.3%",
+                            "2": "DMG Per Stack 137.8%",
+                            "3": "Maximum Stacks 30",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "10": {
+                            "0": "Skill DMG 442.1%",
+                            "1": "Lightfall Sword Base DMG 725.6%",
+                            "2": "DMG Per Stack 148.2%",
+                            "3": "Maximum Stacks 30",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "11": {
+                            "0": "Skill DMG 466.6%",
+                            "1": "Lightfall Sword Base DMG 784.2%",
+                            "2": "DMG Per Stack 160.2%",
+                            "3": "Maximum Stacks 30",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "12": {
+                            "0": "Skill DMG 491.2%",
+                            "1": "Lightfall Sword Base DMG 853.3%",
+                            "2": "DMG Per Stack 174.3%",
+                            "3": "Maximum Stacks 30",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "13": {
+                            "0": "Skill DMG 521.9%",
+                            "1": "Lightfall Sword Base DMG 922.3%",
+                            "2": "DMG Per Stack 188.4%",
+                            "3": "Maximum Stacks 30",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "14": {
+                            "0": "Skill DMG 552.6%",
+                            "1": "Lightfall Sword Base DMG 991.3%",
+                            "2": "DMG Per Stack 202.5%",
+                            "3": "Maximum Stacks 30",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "15": {
+                            "0": "Skill DMG 583.3%",
+                            "1": "Lightfall Sword Base DMG 1066.6%",
+                            "2": "DMG Per Stack 217.9%",
+                            "3": "Maximum Stacks 30",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104304",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112005",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112007",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112007",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112007",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112007",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Roiling Rime",
+                    "description": "If 2 stacks of Grimheart are consumed upon unleashing the Holding Mode of <color=#FFD780FF>Icetide Vortex</color>, a Shattered Lightfall Sword will be created that will explode immediately, dealing 50% of the basic Physical DMG dealt by a Lightfall Sword created by <color=#FFD780FF>Glacial Illumination</color>.",
+                    "icon": "UI_Talent_S_Eula_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Wellspring of War-Lust",
+                    "description": "When <color=#FFD780FF>Glacial Illumination</color> is cast, the CD of <color=#FFD780FF>Icetide Vortex</color> is reset and Eula gains 1 stack of Grimheart.",
+                    "icon": "UI_Talent_S_Eula_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Aristocratic Introspection",
+                    "description": "When Eula crafts Character Talent Materials, she has a 10% chance to receive double the product.",
+                    "icon": "UI_Talent_Eula_Combine",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Tidal Illusion",
+                    "description": "Every time <color=#FFD780FF>Icetide Vortex</color>'s Grimheart stacks are consumed, Eula's Physical DMG is increased by 30% for 6s.\\nEach stack consumed will increase the duration of this effect by 6s up to a maximum of 18s.",
+                    "icon": "UI_Talent_S_Eula_02"
+                },
+                "1": {
+                    "name": "Lady of Seafoam",
+                    "description": "#Decreases the CD of <color=#FFD780FF>Icetide Vortex</color>'s Holding Mode, rendering it identical to {LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD.",
+                    "icon": "UI_Talent_S_Eula_01"
+                },
+                "2": {
+                    "name": "Lawrence Pedigree",
+                    "description": "Increases the Level of <color=#FFD780FF>Glacial Illumination</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Eula_01"
+                },
+                "3": {
+                    "name": "The Obstinacy of One's Inferiors",
+                    "description": "Lightfall Swords deal 25% increased DMG against opponents with less than 50% HP.",
+                    "icon": "UI_Talent_S_Eula_03"
+                },
+                "4": {
+                    "name": "Chivalric Quality",
+                    "description": "Increases the Level of <color=#FFD780FF>Icetide Vortex</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Eula_02"
+                },
+                "5": {
+                    "name": "Noble Obligation",
+                    "description": "Lightfall Swords created by <color=#FFD780FF>Glacial Illumination</color> start with 5 stacks of energy. Normal Attacks, Elemental Skills, and Elemental Bursts have a 50% chance to grant the Lightfall Sword an additional stack of energy.",
+                    "icon": "UI_Talent_S_Eula_04"
+                }
+            },
+            "elevation": {
+                "sub": "CRIT DMG %",
+                "0": {
+                    "stats": {
+                        "HP": 1030,
+                        "ATK": 27,
+                        "DEF": 58,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2671,
+                        "ATK": 69,
+                        "DEF": 152,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100057",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104161",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112005",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 3554,
+                        "ATK": 92,
+                        "DEF": 202,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 5317,
+                        "ATK": 138,
+                        "DEF": 302,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100057",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104162",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112005",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113020",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 5944,
+                        "ATK": 154,
+                        "DEF": 337,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 6839,
+                        "ATK": 177,
+                        "DEF": 388,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100057",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104162",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112006",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113020",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 7675,
+                        "ATK": 198,
+                        "DEF": 436,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 8489,
+                        "ATK": 220,
+                        "DEF": 482,
+                        "sub": 19.2
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100057",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104163",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112006",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113020",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 9116,
+                        "ATK": 236,
+                        "DEF": 518,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 10211,
+                        "ATK": 264,
+                        "DEF": 580,
+                        "sub": 19.2
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100057",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104163",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112007",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113020",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 10838,
+                        "ATK": 280,
+                        "DEF": 615,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 11669,
+                        "ATK": 302,
+                        "DEF": 662,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100057",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104164",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112007",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113020",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 12296,
+                        "ATK": 318,
+                        "DEF": 698,
+                        "sub": 38.4
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 13226,
+                        "ATK": 342,
+                        "DEF": 751,
+                        "sub": 38.4
+                    },
+                    "res": {}
+                }
+            }
+        },
+        "ru": {
+            "name": "Eula",
+            "name_ru": "Эола",
+            "id": 10000051,
+            "rarity": 5,
+            "weapon": "Claymore",
+            "element": "Cryo",
+            "region": "Mondstadt",
+            "more": {
+                "title": "Танец морской пены",
+                "detail": "Рыцарь Морская пена из старинного рода аристократов Мондштадта, капитан разведывательного отряда рыцарей Ордо Фавониус. Будучи потомком древней аристократии, она присоединилась к рыцарям Ордо Фавониус, их заклятым врагам. Причины этого поступка и по сей день остаются загадкой для всего Мондштадта.",
+                "constellation": "Морская Пена",
+                "group": "Ордо Фавониус",
+                "birthday": "25.10",
+                "release": "18.05.2021",
+                "cv": {
+                    "en": "Suzie Yeung",
+                    "chs": "子音",
+                    "jp": "佐藤利奈",
+                    "kr": "Kim Hyeon-ji"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Фехтовальный стиль Фавония: Знать",
+                    "description": "<color=#FFD780FF>Обычная атака:</color>\\nДо пяти рубящих ударов мечом.\\n\\n<color=#FFD780FF>Заряженная атака:</color>\\nКомбо-атака, на которую непрерывно тратится выносливость.\\nПосле комбо-атаки проводит дополнительную мощную атаку мечом.\\n\\n<color=#FFD780FF>Атака в падении:</color>\\nСтремительно падает на землю, атакуя всех врагов на пути. Приземлившись, наносит урон по площади.",
+                    "icon": "Skill_A_04",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон атаки 1 89.7%",
+                            "1": "Урон атаки 2 93.6%",
+                            "2": "Урон атаки 3 56.8%+56.8%",
+                            "3": "Урон атаки 4 112.6%",
+                            "4": "Урон атаки 5 71.8%+71.8%",
+                            "5": "Урон вращающейся атаки 68.8%",
+                            "6": "Урон последней заряженной атаки 124.4%",
+                            "7": "Потребление выносливости 40 ед/сек",
+                            "8": "Макс. длительность 5 сек.",
+                            "9": "Урон в падении 74.6%",
+                            "10": "Урон низкого/высокого удара 149.1%/186.3%"
+                        },
+                        "2": {
+                            "0": "Урон атаки 1 97%",
+                            "1": "Урон атаки 2 101.2%",
+                            "2": "Урон атаки 3 61.4%+61.4%",
+                            "3": "Урон атаки 4 121.8%",
+                            "4": "Урон атаки 5 77.7%+77.7%",
+                            "5": "Урон вращающейся атаки 74.4%",
+                            "6": "Урон последней заряженной атаки 134.5%",
+                            "7": "Потребление выносливости 40 ед/сек",
+                            "8": "Макс. длительность 5 сек.",
+                            "9": "Урон в падении 80.7%",
+                            "10": "Урон низкого/высокого удара 161.3%/201.5%"
+                        },
+                        "3": {
+                            "0": "Урон атаки 1 104.3%",
+                            "1": "Урон атаки 2 108.8%",
+                            "2": "Урон атаки 3 66%+66%",
+                            "3": "Урон атаки 4 131%",
+                            "4": "Урон атаки 5 83.5%+83.5%",
+                            "5": "Урон вращающейся атаки 80%",
+                            "6": "Урон последней заряженной атаки 144.6%",
+                            "7": "Потребление выносливости 40 ед/сек",
+                            "8": "Макс. длительность 5 сек.",
+                            "9": "Урон в падении 86.7%",
+                            "10": "Урон низкого/высокого удара 173.4%/216.6%"
+                        },
+                        "4": {
+                            "0": "Урон атаки 1 114.8%",
+                            "1": "Урон атаки 2 119.7%",
+                            "2": "Урон атаки 3 72.7%+72.7%",
+                            "3": "Урон атаки 4 144.1%",
+                            "4": "Урон атаки 5 91.9%+91.9%",
+                            "5": "Урон вращающейся атаки 88%",
+                            "6": "Урон последней заряженной атаки 159.1%",
+                            "7": "Потребление выносливости 40 ед/сек",
+                            "8": "Макс. длительность 5 сек.",
+                            "9": "Урон в падении 95.4%",
+                            "10": "Урон низкого/высокого удара 190.8%/238.3%"
+                        },
+                        "5": {
+                            "0": "Урон атаки 1 122.1%",
+                            "1": "Урон атаки 2 127.3%",
+                            "2": "Урон атаки 3 77.3%+77.3%",
+                            "3": "Урон атаки 4 153.2%",
+                            "4": "Урон атаки 5 97.7%+97.7%",
+                            "5": "Урон вращающейся атаки 93.6%",
+                            "6": "Урон последней заряженной атаки 169.2%",
+                            "7": "Потребление выносливости 40 ед/сек",
+                            "8": "Макс. длительность 5 сек.",
+                            "9": "Урон в падении 101.5%",
+                            "10": "Урон низкого/высокого удара 202.9%/253.4%"
+                        },
+                        "6": {
+                            "0": "Урон атаки 1 130.4%",
+                            "1": "Урон атаки 2 136%",
+                            "2": "Урон атаки 3 82.6%+82.6%",
+                            "3": "Урон атаки 4 163.7%",
+                            "4": "Урон атаки 5 104.4%+104.4%",
+                            "5": "Урон вращающейся атаки 100%",
+                            "6": "Урон последней заряженной атаки 180.8%",
+                            "7": "Потребление выносливости 40 ед/сек",
+                            "8": "Макс. длительность 5 сек.",
+                            "9": "Урон в падении 108.4%",
+                            "10": "Урон низкого/высокого удара 216.8%/270.8%"
+                        },
+                        "7": {
+                            "0": "Урон атаки 1 141.9%",
+                            "1": "Урон атаки 2 147.9%",
+                            "2": "Урон атаки 3 89.8%+89.8%",
+                            "3": "Урон атаки 4 178.1%",
+                            "4": "Урон атаки 5 113.6%+113.6%",
+                            "5": "Урон вращающейся атаки 108.8%",
+                            "6": "Урон последней заряженной атаки 196.7%",
+                            "7": "Потребление выносливости 40 ед/сек",
+                            "8": "Макс. длительность 5 сек.",
+                            "9": "Урон в падении 118%",
+                            "10": "Урон низкого/высокого удара 235.9%/294.6%"
+                        },
+                        "8": {
+                            "0": "Урон атаки 1 153.4%",
+                            "1": "Урон атаки 2 159.9%",
+                            "2": "Урон атаки 3 97.1%+97.1%",
+                            "3": "Урон атаки 4 192.5%",
+                            "4": "Урон атаки 5 122.8%+122.8%",
+                            "5": "Урон вращающейся атаки 117.6%",
+                            "6": "Урон последней заряженной атаки 212.6%",
+                            "7": "Потребление выносливости 40 ед/сек",
+                            "8": "Макс. длительность 5 сек.",
+                            "9": "Урон в падении 127.5%",
+                            "10": "Урон низкого/высокого удара 254.9%/318.4%"
+                        },
+                        "9": {
+                            "0": "Урон атаки 1 164.9%",
+                            "1": "Урон атаки 2 171.9%",
+                            "2": "Урон атаки 3 104.4%+104.4%",
+                            "3": "Урон атаки 4 206.9%",
+                            "4": "Урон атаки 5 132%+132%",
+                            "5": "Урон вращающейся атаки 126.4%",
+                            "6": "Урон последней заряженной атаки 228.5%",
+                            "7": "Потребление выносливости 40 ед/сек",
+                            "8": "Макс. длительность 5 сек.",
+                            "9": "Урон в падении 137%",
+                            "10": "Урон низкого/высокого удара 274%/342.3%"
+                        },
+                        "10": {
+                            "0": "Урон атаки 1 177.4%",
+                            "1": "Урон атаки 2 184.9%",
+                            "2": "Урон атаки 3 112.3%+112.3%",
+                            "3": "Урон атаки 4 222.7%",
+                            "4": "Урон атаки 5 142%+142%",
+                            "5": "Урон вращающейся атаки 136%",
+                            "6": "Урон последней заряженной атаки 245.9%",
+                            "7": "Потребление выносливости 40 ед/сек",
+                            "8": "Макс. длительность 5 сек.",
+                            "9": "Урон в падении 147.4%",
+                            "10": "Урон низкого/высокого удара 294.8%/368.2%"
+                        },
+                        "11": {
+                            "0": "Урон атаки 1 191.7%",
+                            "1": "Урон атаки 2 199.9%",
+                            "2": "Урон атаки 3 121.4%+121.4%",
+                            "3": "Урон атаки 4 240.7%",
+                            "4": "Урон атаки 5 153.5%+153.5%",
+                            "5": "Урон вращающейся атаки 147%",
+                            "6": "Урон последней заряженной атаки 265.8%",
+                            "7": "Потребление выносливости 40 ед/сек",
+                            "8": "Макс. длительность 5 сек.",
+                            "9": "Урон в падении 159.4%",
+                            "10": "Урон низкого/высокого удара 318.7%/398%"
+                        },
+                        "12": {
+                            "0": "Урон атаки 1 208.6%",
+                            "1": "Урон атаки 2 217.5%",
+                            "2": "Урон атаки 3 132%+132%",
+                            "3": "Урон атаки 4 261.9%",
+                            "4": "Урон атаки 5 167%+167%",
+                            "5": "Урон вращающейся атаки 159.9%",
+                            "6": "Урон последней заряженной атаки 289.2%",
+                            "7": "Потребление выносливости 40 ед/сек",
+                            "8": "Макс. длительность 5 сек.",
+                            "9": "Урон в падении 173.4%",
+                            "10": "Урон низкого/высокого удара 346.7%/433.1%"
+                        },
+                        "13": {
+                            "0": "Урон атаки 1 225.5%",
+                            "1": "Урон атаки 2 235.1%",
+                            "2": "Урон атаки 3 142.7%+142.7%",
+                            "3": "Урон атаки 4 283%",
+                            "4": "Урон атаки 5 180.5%+180.5%",
+                            "5": "Урон вращающейся атаки 172.9%",
+                            "6": "Урон последней заряженной атаки 312.6%",
+                            "7": "Потребление выносливости 40 ед/сек",
+                            "8": "Макс. длительность 5 сек.",
+                            "9": "Урон в падении 187.4%",
+                            "10": "Урон низкого/высокого удара 374.8%/468.1%"
+                        },
+                        "14": {
+                            "0": "Урон атаки 1 242.3%",
+                            "1": "Урон атаки 2 252.7%",
+                            "2": "Урон атаки 3 153.4%+153.4%",
+                            "3": "Урон атаки 4 304.2%",
+                            "4": "Урон атаки 5 194%+194%",
+                            "5": "Урон вращающейся атаки 185.8%",
+                            "6": "Урон последней заряженной атаки 336%",
+                            "7": "Потребление выносливости 40 ед/сек",
+                            "8": "Макс. длительность 5 сек.",
+                            "9": "Урон в падении 201.4%",
+                            "10": "Урон низкого/высокого удара 402.8%/503.1%"
+                        },
+                        "15": {
+                            "0": "Урон атаки 1 260.7%",
+                            "1": "Урон атаки 2 271.8%",
+                            "2": "Урон атаки 3 165%+165%",
+                            "3": "Урон атаки 4 327.3%",
+                            "4": "Урон атаки 5 208.7%+208.7%",
+                            "5": "Урон вращающейся атаки 199.9%",
+                            "6": "Урон последней заряженной атаки 361.5%",
+                            "7": "Потребление выносливости 40 ед/сек",
+                            "8": "Макс. длительность 5 сек.",
+                            "9": "Урон в падении 216.7%",
+                            "10": "Урон низкого/высокого удара 433.4%/541.3%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104304",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112005",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112007",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112007",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112007",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112007",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Ледяной прибой",
+                    "description": "Ледяной воздух, стремительный меч.\\n\\n<color=#FFD780FF>Быстрое нажатие:</color>\\nБыстрый взмах, который наносит <color=#99FFFFFF>Крио урон</color>.\\nПри попадании по врагу Эола получает один уровень Холодного сердца. Складывается до 2 раз, может возникнуть 1 раз в 0,3 сек.\\n\\n<color=#FFD780FF>Холодное сердце</color>\\nПовышает сопротивление прерыванию и защиту Эолы.\\n\\n<color=#FFD780FF>Долгое нажатие:</color>\\nТратит все уровни Холодного сердца и совершает рубящий удар мечом, который наносит <color=#99FFFFFF>Крио урон</color> врагам перед собой.\\nЕсли было потрачено Холодное сердце, то Эола снижает физическое сопротивление и <color=#99FFFFFF>Крио сопротивление</color> врагов поблизости.\\nКаждый потраченный уровень Холодного сердца превращается в один Меч вихря, который наносит врагам поблизости <color=#99FFFFFF>Крио урон</color>.\\n\\n<i>«Поглотила корону и кружится волна. Мерцает царским золотом ледяного прибоя вода. Каждая капля искрится на солнце».</i>",
+                    "icon": "Skill_S_Eula_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон быстрого нажатия 146.4%",
+                            "1": "Урон долгого нажатия 245.6%",
+                            "2": "Урон Меча вихря 96%",
+                            "3": "Повышение защиты 30%/ур.",
+                            "4": "Длительность Холодного сердца 18 сек.",
+                            "5": "Понижение физ. сопротивления 16%",
+                            "6": "Понижение Крио сопротивления 16%",
+                            "7": "Длительность понижения сопротивления 7сек.",
+                            "8": "Откат быстрого нажатия 4 сек.",
+                            "9": "Откат долгого нажатия 10 сек."
+                        },
+                        "2": {
+                            "0": "Урон быстрого нажатия 157.4%",
+                            "1": "Урон долгого нажатия 264%",
+                            "2": "Урон Меча вихря 103.2%",
+                            "3": "Повышение защиты 30%/ур.",
+                            "4": "Длительность Холодного сердца 18 сек.",
+                            "5": "Понижение физ. сопротивления 17%",
+                            "6": "Понижение Крио сопротивления 17%",
+                            "7": "Длительность понижения сопротивления 7сек.",
+                            "8": "Откат быстрого нажатия 4 сек.",
+                            "9": "Откат долгого нажатия 10 сек."
+                        },
+                        "3": {
+                            "0": "Урон быстрого нажатия 168.4%",
+                            "1": "Урон долгого нажатия 282.4%",
+                            "2": "Урон Меча вихря 110.4%",
+                            "3": "Повышение защиты 30%/ур.",
+                            "4": "Длительность Холодного сердца 18 сек.",
+                            "5": "Понижение физ. сопротивления 18%",
+                            "6": "Понижение Крио сопротивления 18%",
+                            "7": "Длительность понижения сопротивления 7сек.",
+                            "8": "Откат быстрого нажатия 4 сек.",
+                            "9": "Откат долгого нажатия 10 сек."
+                        },
+                        "4": {
+                            "0": "Урон быстрого нажатия 183%",
+                            "1": "Урон долгого нажатия 307%",
+                            "2": "Урон Меча вихря 120%",
+                            "3": "Повышение защиты 30%/ур.",
+                            "4": "Длительность Холодного сердца 18 сек.",
+                            "5": "Понижение физ. сопротивления 19%",
+                            "6": "Понижение Крио сопротивления 19%",
+                            "7": "Длительность понижения сопротивления 7сек.",
+                            "8": "Откат быстрого нажатия 4 сек.",
+                            "9": "Откат долгого нажатия 10 сек."
+                        },
+                        "5": {
+                            "0": "Урон быстрого нажатия 194%",
+                            "1": "Урон долгого нажатия 325.4%",
+                            "2": "Урон Меча вихря 127.2%",
+                            "3": "Повышение защиты 30%/ур.",
+                            "4": "Длительность Холодного сердца 18 сек.",
+                            "5": "Понижение физ. сопротивления 20%",
+                            "6": "Понижение Крио сопротивления 20%",
+                            "7": "Длительность понижения сопротивления 7сек.",
+                            "8": "Откат быстрого нажатия 4 сек.",
+                            "9": "Откат долгого нажатия 10 сек."
+                        },
+                        "6": {
+                            "0": "Урон быстрого нажатия 205%",
+                            "1": "Урон долгого нажатия 343.8%",
+                            "2": "Урон Меча вихря 134.4%",
+                            "3": "Повышение защиты 30%/ур.",
+                            "4": "Длительность Холодного сердца 18 сек.",
+                            "5": "Понижение физ. сопротивления 21%",
+                            "6": "Понижение Крио сопротивления 21%",
+                            "7": "Длительность понижения сопротивления 7сек.",
+                            "8": "Откат быстрого нажатия 4 сек.",
+                            "9": "Откат долгого нажатия 10 сек."
+                        },
+                        "7": {
+                            "0": "Урон быстрого нажатия 219.6%",
+                            "1": "Урон долгого нажатия 368.4%",
+                            "2": "Урон Меча вихря 144%",
+                            "3": "Повышение защиты 30%/ур.",
+                            "4": "Длительность Холодного сердца 18 сек.",
+                            "5": "Понижение физ. сопротивления 22%",
+                            "6": "Понижение Крио сопротивления 22%",
+                            "7": "Длительность понижения сопротивления 7сек.",
+                            "8": "Откат быстрого нажатия 4 сек.",
+                            "9": "Откат долгого нажатия 10 сек."
+                        },
+                        "8": {
+                            "0": "Урон быстрого нажатия 234.2%",
+                            "1": "Урон долгого нажатия 393%",
+                            "2": "Урон Меча вихря 153.6%",
+                            "3": "Повышение защиты 30%/ур.",
+                            "4": "Длительность Холодного сердца 18 сек.",
+                            "5": "Понижение физ. сопротивления 23%",
+                            "6": "Понижение Крио сопротивления 23%",
+                            "7": "Длительность понижения сопротивления 7сек.",
+                            "8": "Откат быстрого нажатия 4 сек.",
+                            "9": "Откат долгого нажатия 10 сек."
+                        },
+                        "9": {
+                            "0": "Урон быстрого нажатия 248.9%",
+                            "1": "Урон долгого нажатия 417.5%",
+                            "2": "Урон Меча вихря 163.2%",
+                            "3": "Повышение защиты 30%/ур.",
+                            "4": "Длительность Холодного сердца 18 сек.",
+                            "5": "Понижение физ. сопротивления 24%",
+                            "6": "Понижение Крио сопротивления 24%",
+                            "7": "Длительность понижения сопротивления 7сек.",
+                            "8": "Откат быстрого нажатия 4 сек.",
+                            "9": "Откат долгого нажатия 10 сек."
+                        },
+                        "10": {
+                            "0": "Урон быстрого нажатия 263.5%",
+                            "1": "Урон долгого нажатия 442.1%",
+                            "2": "Урон Меча вихря 172.8%",
+                            "3": "Повышение защиты 30%/ур.",
+                            "4": "Длительность Холодного сердца 18 сек.",
+                            "5": "Понижение физ. сопротивления 25%",
+                            "6": "Понижение Крио сопротивления 25%",
+                            "7": "Длительность понижения сопротивления 7сек.",
+                            "8": "Откат быстрого нажатия 4 сек.",
+                            "9": "Откат долгого нажатия 10 сек."
+                        },
+                        "11": {
+                            "0": "Урон быстрого нажатия 278.2%",
+                            "1": "Урон долгого нажатия 466.6%",
+                            "2": "Урон Меча вихря 182.4%",
+                            "3": "Повышение защиты 30%/ур.",
+                            "4": "Длительность Холодного сердца 18 сек.",
+                            "5": "Понижение физ. сопротивления 25%",
+                            "6": "Понижение Крио сопротивления 25%",
+                            "7": "Длительность понижения сопротивления 7сек.",
+                            "8": "Откат быстрого нажатия 4 сек.",
+                            "9": "Откат долгого нажатия 10 сек."
+                        },
+                        "12": {
+                            "0": "Урон быстрого нажатия 292.8%",
+                            "1": "Урон долгого нажатия 491.2%",
+                            "2": "Урон Меча вихря 192%",
+                            "3": "Повышение защиты 30%/ур.",
+                            "4": "Длительность Холодного сердца 18 сек.",
+                            "5": "Понижение физ. сопротивления 25%",
+                            "6": "Понижение Крио сопротивления 25%",
+                            "7": "Длительность понижения сопротивления 7сек.",
+                            "8": "Откат быстрого нажатия 4 сек.",
+                            "9": "Откат долгого нажатия 10 сек."
+                        },
+                        "13": {
+                            "0": "Урон быстрого нажатия 311.1%",
+                            "1": "Урон долгого нажатия 521.9%",
+                            "2": "Урон Меча вихря 204%",
+                            "3": "Повышение защиты 30%/ур.",
+                            "4": "Длительность Холодного сердца 18 сек.",
+                            "5": "Понижение физ. сопротивления 25%",
+                            "6": "Понижение Крио сопротивления 25%",
+                            "7": "Длительность понижения сопротивления 7сек.",
+                            "8": "Откат быстрого нажатия 4 сек.",
+                            "9": "Откат долгого нажатия 10 сек."
+                        },
+                        "14": {
+                            "0": "Урон быстрого нажатия 329.4%",
+                            "1": "Урон долгого нажатия 552.6%",
+                            "2": "Урон Меча вихря 216%",
+                            "3": "Повышение защиты 30%/ур.",
+                            "4": "Длительность Холодного сердца 18 сек.",
+                            "5": "Понижение физ. сопротивления 25%",
+                            "6": "Понижение Крио сопротивления 25%",
+                            "7": "Длительность понижения сопротивления 7сек.",
+                            "8": "Откат быстрого нажатия 4 сек.",
+                            "9": "Откат долгого нажатия 10 сек."
+                        },
+                        "15": {
+                            "0": "Урон быстрого нажатия 347.7%",
+                            "1": "Урон долгого нажатия 583.3%",
+                            "2": "Урон Меча вихря 228%",
+                            "3": "Повышение защиты 30%/ур.",
+                            "4": "Длительность Холодного сердца 18 сек.",
+                            "5": "Понижение физ. сопротивления 25%",
+                            "6": "Понижение Крио сопротивления 25%",
+                            "7": "Длительность понижения сопротивления 7сек.",
+                            "8": "Откат быстрого нажатия 4 сек.",
+                            "9": "Откат долгого нажатия 10 сек."
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104304",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112005",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112007",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112007",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112007",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112007",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Сумеречный меч",
+                    "description": "Эола яростно взмахивает мечом, нанося окружающим врагам <color=#99FFFFFF>Крио урон</color> и создавая Меч света, который следует за ней до 7 сек.\\nПока Меч света существует, он повышает сопротивление прерыванию Эолы. Когда обычные атаки, элементальные навыки и взрывы стихии Эолы наносят врагам урон, Меч света получает энергию. Он может получить максимум одну единицу каждые 0,1 сек.\\nКогда длительность Меча света заканчивается, он падает и взрывается, нанося врагам поблизости физический урон.\\nНаносимый урон зависит от количества накопленной Мечом света энергии.\\nМеч света взрывается сам при смене персонажа.\\n\\n<i>Утонуть - дело простое. Но она по-прежнему хочет заморозить прибой.</i>",
+                    "icon": "Skill_E_Eula_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 245.6%",
+                            "1": "Базовый урон Меча света 367%",
+                            "2": "Урон за единицу энергии Меча 75%",
+                            "3": "Макс. единиц энергии Меча 30",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "2": {
+                            "0": "Урон навыка 264%",
+                            "1": "Базовый урон Меча света 396.9%",
+                            "2": "Урон за единицу энергии Меча 81.1%",
+                            "3": "Макс. единиц энергии Меча 30",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "3": {
+                            "0": "Урон навыка 282.4%",
+                            "1": "Базовый урон Меча света 426.8%",
+                            "2": "Урон за единицу энергии Меча 87.2%",
+                            "3": "Макс. единиц энергии Меча 30",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "4": {
+                            "0": "Урон навыка 307%",
+                            "1": "Базовый урон Меча света 469.5%",
+                            "2": "Урон за единицу энергии Меча 95.9%",
+                            "3": "Макс. единиц энергии Меча 30",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "5": {
+                            "0": "Урон навыка 325.4%",
+                            "1": "Базовый урон Меча света 499.4%",
+                            "2": "Урон за единицу энергии Меча 102%",
+                            "3": "Макс. единиц энергии Меча 30",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "6": {
+                            "0": "Урон навыка 343.8%",
+                            "1": "Базовый урон Меча света 533.5%",
+                            "2": "Урон за единицу энергии Меча 109%",
+                            "3": "Макс. единиц энергии Меча 30",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "7": {
+                            "0": "Урон навыка 368.4%",
+                            "1": "Базовый урон Меча света 580.4%",
+                            "2": "Урон за единицу энергии Меча 118.6%",
+                            "3": "Макс. единиц энергии Меча 30",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "8": {
+                            "0": "Урон навыка 393%",
+                            "1": "Базовый урон Меча света 627.4%",
+                            "2": "Урон за единицу энергии Меча 128.2%",
+                            "3": "Макс. единиц энергии Меча 30",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "9": {
+                            "0": "Урон навыка 417.5%",
+                            "1": "Базовый урон Меча света 674.3%",
+                            "2": "Урон за единицу энергии Меча 137.8%",
+                            "3": "Макс. единиц энергии Меча 30",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "10": {
+                            "0": "Урон навыка 442.1%",
+                            "1": "Базовый урон Меча света 725.6%",
+                            "2": "Урон за единицу энергии Меча 148.2%",
+                            "3": "Макс. единиц энергии Меча 30",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "11": {
+                            "0": "Урон навыка 466.6%",
+                            "1": "Базовый урон Меча света 784.2%",
+                            "2": "Урон за единицу энергии Меча 160.2%",
+                            "3": "Макс. единиц энергии Меча 30",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "12": {
+                            "0": "Урон навыка 491.2%",
+                            "1": "Базовый урон Меча света 853.3%",
+                            "2": "Урон за единицу энергии Меча 174.3%",
+                            "3": "Макс. единиц энергии Меча 30",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "13": {
+                            "0": "Урон навыка 521.9%",
+                            "1": "Базовый урон Меча света 922.3%",
+                            "2": "Урон за единицу энергии Меча 188.4%",
+                            "3": "Макс. единиц энергии Меча 30",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "14": {
+                            "0": "Урон навыка 552.6%",
+                            "1": "Базовый урон Меча света 991.3%",
+                            "2": "Урон за единицу энергии Меча 202.5%",
+                            "3": "Макс. единиц энергии Меча 30",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "15": {
+                            "0": "Урон навыка 583.3%",
+                            "1": "Базовый урон Меча света 1066.6%",
+                            "2": "Урон за единицу энергии Меча 217.9%",
+                            "3": "Макс. единиц энергии Меча 30",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104304",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112005",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112007",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112007",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112007",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112007",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Сумеречный меч",
+                    "description": "Эола яростно взмахивает мечом, нанося окружающим врагам <color=#99FFFFFF>Крио урон</color> и создавая Меч света, который следует за ней до 7 сек.\\nПока Меч света существует, он повышает сопротивление прерыванию Эолы. Когда обычные атаки, элементальные навыки и взрывы стихии Эолы наносят врагам урон, Меч света получает энергию. Он может получить максимум одну единицу каждые 0,1 сек.\\nКогда длительность Меча света заканчивается, он падает и взрывается, нанося врагам поблизости физический урон.\\nНаносимый урон зависит от количества накопленной Мечом света энергии.\\nМеч света взрывается сам при смене персонажа.\\n\\n<i>Утонуть - дело простое. Но она по-прежнему хочет заморозить прибой.</i>",
+                    "icon": "Skill_E_Eula_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 245.6%",
+                            "1": "Базовый урон Меча света 367%",
+                            "2": "Урон за единицу энергии Меча 75%",
+                            "3": "Макс. единиц энергии Меча 30",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "2": {
+                            "0": "Урон навыка 264%",
+                            "1": "Базовый урон Меча света 396.9%",
+                            "2": "Урон за единицу энергии Меча 81.1%",
+                            "3": "Макс. единиц энергии Меча 30",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "3": {
+                            "0": "Урон навыка 282.4%",
+                            "1": "Базовый урон Меча света 426.8%",
+                            "2": "Урон за единицу энергии Меча 87.2%",
+                            "3": "Макс. единиц энергии Меча 30",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "4": {
+                            "0": "Урон навыка 307%",
+                            "1": "Базовый урон Меча света 469.5%",
+                            "2": "Урон за единицу энергии Меча 95.9%",
+                            "3": "Макс. единиц энергии Меча 30",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "5": {
+                            "0": "Урон навыка 325.4%",
+                            "1": "Базовый урон Меча света 499.4%",
+                            "2": "Урон за единицу энергии Меча 102%",
+                            "3": "Макс. единиц энергии Меча 30",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "6": {
+                            "0": "Урон навыка 343.8%",
+                            "1": "Базовый урон Меча света 533.5%",
+                            "2": "Урон за единицу энергии Меча 109%",
+                            "3": "Макс. единиц энергии Меча 30",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "7": {
+                            "0": "Урон навыка 368.4%",
+                            "1": "Базовый урон Меча света 580.4%",
+                            "2": "Урон за единицу энергии Меча 118.6%",
+                            "3": "Макс. единиц энергии Меча 30",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "8": {
+                            "0": "Урон навыка 393%",
+                            "1": "Базовый урон Меча света 627.4%",
+                            "2": "Урон за единицу энергии Меча 128.2%",
+                            "3": "Макс. единиц энергии Меча 30",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "9": {
+                            "0": "Урон навыка 417.5%",
+                            "1": "Базовый урон Меча света 674.3%",
+                            "2": "Урон за единицу энергии Меча 137.8%",
+                            "3": "Макс. единиц энергии Меча 30",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "10": {
+                            "0": "Урон навыка 442.1%",
+                            "1": "Базовый урон Меча света 725.6%",
+                            "2": "Урон за единицу энергии Меча 148.2%",
+                            "3": "Макс. единиц энергии Меча 30",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "11": {
+                            "0": "Урон навыка 466.6%",
+                            "1": "Базовый урон Меча света 784.2%",
+                            "2": "Урон за единицу энергии Меча 160.2%",
+                            "3": "Макс. единиц энергии Меча 30",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "12": {
+                            "0": "Урон навыка 491.2%",
+                            "1": "Базовый урон Меча света 853.3%",
+                            "2": "Урон за единицу энергии Меча 174.3%",
+                            "3": "Макс. единиц энергии Меча 30",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "13": {
+                            "0": "Урон навыка 521.9%",
+                            "1": "Базовый урон Меча света 922.3%",
+                            "2": "Урон за единицу энергии Меча 188.4%",
+                            "3": "Макс. единиц энергии Меча 30",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "14": {
+                            "0": "Урон навыка 552.6%",
+                            "1": "Базовый урон Меча света 991.3%",
+                            "2": "Урон за единицу энергии Меча 202.5%",
+                            "3": "Макс. единиц энергии Меча 30",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "15": {
+                            "0": "Урон навыка 583.3%",
+                            "1": "Базовый урон Меча света 1066.6%",
+                            "2": "Урон за единицу энергии Меча 217.9%",
+                            "3": "Макс. единиц энергии Меча 30",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104304",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112005",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104305",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112006",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112007",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112007",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112007",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104306",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112007",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113017",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Дрожащий иней",
+                    "description": "Если при долгом нажатии навыка <color=#FFD780FF>Ледяной прибой</color> за раз тратится два уровня Холодного сердца, то появляется сломанный Меч света, который тут же взрывается и в виде физического урона наносит 50% от базового урона Меча света, создаваемого <color=#FFD780FF>Сумеречным мечом</color>.",
+                    "icon": "UI_Talent_S_Eula_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Прилив войны",
+                    "description": "Использование <color=#FFD780FF>Сумеречного меча</color> сбрасывает откат <color=#FFD780FF>Ледяного прибоя</color> и даёт Эоле один уровень Холодного сердца.",
+                    "icon": "UI_Talent_S_Eula_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Рефлексия аристократа",
+                    "description": "При создании материалов повышения талантов персонажей есть 10% шанс создать дополнительный предмет.",
+                    "icon": "UI_Talent_Eula_Combine",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Иллюзия прибоя",
+                    "description": "Когда Эола тратит Холодное сердце во время <color=#FFD780FF>Ледяного прибоя</color> её бонус физического урона увеличивается на 30% в течение 6 сек.\\nКаждое потраченное Холодное сердце увеличивает длительность эффекта на 6 сек. Длительность не может превышать 18 сек.",
+                    "icon": "UI_Talent_S_Eula_02"
+                },
+                "1": {
+                    "name": "Дева морской пены",
+                    "description": "Уменьшает время отката заряженного режима <color=#FFD780FF>Ледяного прибоя</color>, делая его равным времени отката незаряженного варианта.",
+                    "icon": "UI_Talent_S_Eula_01"
+                },
+                "2": {
+                    "name": "Кровь Лоуренсов",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Сумеречный меч</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Eula_01"
+                },
+                "3": {
+                    "name": "Упрямство толпы",
+                    "description": "Меч света наносит на 25% больше урона против врагов с HP ниже 50%.",
+                    "icon": "UI_Talent_S_Eula_03"
+                },
+                "4": {
+                    "name": "Рыцарская суть",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Ледяной прибой</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Eula_02"
+                },
+                "5": {
+                    "name": "Долг благородных",
+                    "description": "Меч света, который создаёт талант <color=#FFD780FF>Сумеречный меч</color>, сразу получает 5 единиц энергии. Когда обычная атака, элементальный навык или взрыв стихии даёт Мечу света энергию, у него есть 50% шанс дополнительно получить ещё одну единицу энергии.",
+                    "icon": "UI_Talent_S_Eula_04"
+                }
+            },
+            "elevation": {
+                "sub": "Крит. урон %",
+                "0": {
+                    "stats": {
+                        "HP": 1030,
+                        "ATK": 27,
+                        "DEF": 58,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2671,
+                        "ATK": 69,
+                        "DEF": 152,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100057",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104161",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112005",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 3554,
+                        "ATK": 92,
+                        "DEF": 202,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 5317,
+                        "ATK": 138,
+                        "DEF": 302,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100057",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104162",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112005",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113020",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 5944,
+                        "ATK": 154,
+                        "DEF": 337,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 6839,
+                        "ATK": 177,
+                        "DEF": 388,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100057",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104162",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112006",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113020",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 7675,
+                        "ATK": 198,
+                        "DEF": 436,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 8489,
+                        "ATK": 220,
+                        "DEF": 482,
+                        "sub": 19.2
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100057",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104163",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112006",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113020",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 9116,
+                        "ATK": 236,
+                        "DEF": 518,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 10211,
+                        "ATK": 264,
+                        "DEF": 580,
+                        "sub": 19.2
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100057",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104163",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112007",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113020",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 10838,
+                        "ATK": 280,
+                        "DEF": 615,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 11669,
+                        "ATK": 302,
+                        "DEF": 662,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100057",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104164",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112007",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113020",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 12296,
+                        "ATK": 318,
+                        "DEF": 698,
+                        "sub": 38.4
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 13226,
+                        "ATK": 342,
+                        "DEF": 751,
+                        "sub": 38.4
+                    },
+                    "res": {}
+                }
+            }
+        }
+    }
+}

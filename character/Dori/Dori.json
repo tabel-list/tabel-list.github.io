@@ -1,0 +1,2934 @@
+{
+    "Dori": {
+        "en": {
+            "name": "Dori",
+            "name_ru": "Дори",
+            "id": 10000068,
+            "rarity": 4,
+            "weapon": "Claymore",
+            "element": "Electro",
+            "region": "Sumeru",
+            "more": {
+                "title": "Treasure of Dream Garden",
+                "detail": "An elusive merchant who has a fondness for glittering Mora.",
+                "constellation": "Magicae Lucerna",
+                "group": "The Palace of Alcazarzaray",
+                "birthday": "21.12",
+                "release": "09.09.2022",
+                "cv": {
+                    "en": "Anjali Kunapaneni",
+                    "chs": "王晓彤",
+                    "jp": "金田朋子",
+                    "kr": "Lee Myeong-ho"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Normal Attack: Marvelous Sword-Dance (Modified)",
+                    "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 3 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\\nAt the end of the sequence, performs a more powerful slash. \\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+                    "icon": "Skill_A_04",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "1-Hit DMG 90.2%",
+                            "1": "2-Hit DMG 41.1%+43.1%",
+                            "2": "3-Hit DMG 128.4%",
+                            "3": "Charged Attack Spinning DMG 62.5%",
+                            "4": "Charged Attack Final DMG 113.1%",
+                            "5": "Charged Attack Stamina Cost 40/s",
+                            "6": "Max Duration 5s",
+                            "7": "Plunge DMG 74.6%",
+                            "8": "Low/High Plunge DMG 149.1%/186.3%"
+                        },
+                        "2": {
+                            "0": "1-Hit DMG 97.6%",
+                            "1": "2-Hit DMG 44.4%+46.6%",
+                            "2": "3-Hit DMG 138.8%",
+                            "3": "Charged Attack Spinning DMG 67.6%",
+                            "4": "Charged Attack Final DMG 122.3%",
+                            "5": "Charged Attack Stamina Cost 40/s",
+                            "6": "Max Duration 5s",
+                            "7": "Plunge DMG 80.7%",
+                            "8": "Low/High Plunge DMG 161.3%/201.5%"
+                        },
+                        "3": {
+                            "0": "1-Hit DMG 104.9%",
+                            "1": "2-Hit DMG 47.8%+50.1%",
+                            "2": "3-Hit DMG 149.3%",
+                            "3": "Charged Attack Spinning DMG 72.7%",
+                            "4": "Charged Attack Final DMG 131.5%",
+                            "5": "Charged Attack Stamina Cost 40/s",
+                            "6": "Max Duration 5s",
+                            "7": "Plunge DMG 86.7%",
+                            "8": "Low/High Plunge DMG 173.4%/216.6%"
+                        },
+                        "4": {
+                            "0": "1-Hit DMG 115.4%",
+                            "1": "2-Hit DMG 52.5%+55.2%",
+                            "2": "3-Hit DMG 164.2%",
+                            "3": "Charged Attack Spinning DMG 80%",
+                            "4": "Charged Attack Final DMG 144.6%",
+                            "5": "Charged Attack Stamina Cost 40/s",
+                            "6": "Max Duration 5s",
+                            "7": "Plunge DMG 95.4%",
+                            "8": "Low/High Plunge DMG 190.8%/238.3%"
+                        },
+                        "5": {
+                            "0": "1-Hit DMG 122.7%",
+                            "1": "2-Hit DMG 55.9%+58.7%",
+                            "2": "3-Hit DMG 174.7%",
+                            "3": "Charged Attack Spinning DMG 85.1%",
+                            "4": "Charged Attack Final DMG 153.9%",
+                            "5": "Charged Attack Stamina Cost 40/s",
+                            "6": "Max Duration 5s",
+                            "7": "Plunge DMG 101.5%",
+                            "8": "Low/High Plunge DMG 202.9%/253.4%"
+                        },
+                        "6": {
+                            "0": "1-Hit DMG 131.1%",
+                            "1": "2-Hit DMG 59.7%+62.7%",
+                            "2": "3-Hit DMG 186.6%",
+                            "3": "Charged Attack Spinning DMG 90.9%",
+                            "4": "Charged Attack Final DMG 164.4%",
+                            "5": "Charged Attack Stamina Cost 40/s",
+                            "6": "Max Duration 5s",
+                            "7": "Plunge DMG 108.4%",
+                            "8": "Low/High Plunge DMG 216.8%/270.8%"
+                        },
+                        "7": {
+                            "0": "1-Hit DMG 142.7%",
+                            "1": "2-Hit DMG 65%+68.2%",
+                            "2": "3-Hit DMG 203%",
+                            "3": "Charged Attack Spinning DMG 98.9%",
+                            "4": "Charged Attack Final DMG 178.8%",
+                            "5": "Charged Attack Stamina Cost 40/s",
+                            "6": "Max Duration 5s",
+                            "7": "Plunge DMG 118%",
+                            "8": "Low/High Plunge DMG 235.9%/294.6%"
+                        },
+                        "8": {
+                            "0": "1-Hit DMG 154.2%",
+                            "1": "2-Hit DMG 70.2%+73.7%",
+                            "2": "3-Hit DMG 219.5%",
+                            "3": "Charged Attack Spinning DMG 106.9%",
+                            "4": "Charged Attack Final DMG 193.3%",
+                            "5": "Charged Attack Stamina Cost 40/s",
+                            "6": "Max Duration 5s",
+                            "7": "Plunge DMG 127.5%",
+                            "8": "Low/High Plunge DMG 254.9%/318.4%"
+                        },
+                        "9": {
+                            "0": "1-Hit DMG 165.7%",
+                            "1": "2-Hit DMG 75.5%+79.2%",
+                            "2": "3-Hit DMG 235.9%",
+                            "3": "Charged Attack Spinning DMG 114.9%",
+                            "4": "Charged Attack Final DMG 207.8%",
+                            "5": "Charged Attack Stamina Cost 40/s",
+                            "6": "Max Duration 5s",
+                            "7": "Plunge DMG 137%",
+                            "8": "Low/High Plunge DMG 274%/342.3%"
+                        },
+                        "10": {
+                            "0": "1-Hit DMG 178.3%",
+                            "1": "2-Hit DMG 81.2%+85.2%",
+                            "2": "3-Hit DMG 253.8%",
+                            "3": "Charged Attack Spinning DMG 123.6%",
+                            "4": "Charged Attack Final DMG 223.6%",
+                            "5": "Charged Attack Stamina Cost 40/s",
+                            "6": "Max Duration 5s",
+                            "7": "Plunge DMG 147.4%",
+                            "8": "Low/High Plunge DMG 294.8%/368.2%"
+                        },
+                        "11": {
+                            "0": "1-Hit DMG 190.9%",
+                            "1": "2-Hit DMG 86.9%+91.3%",
+                            "2": "3-Hit DMG 271.7%",
+                            "3": "Charged Attack Spinning DMG 133.6%",
+                            "4": "Charged Attack Final DMG 241.6%",
+                            "5": "Charged Attack Stamina Cost 40/s",
+                            "6": "Max Duration 5s",
+                            "7": "Plunge DMG 157.8%",
+                            "8": "Low/High Plunge DMG 315.6%/394.2%"
+                        },
+                        "12": {
+                            "0": "1-Hit DMG 203.5%",
+                            "1": "2-Hit DMG 92.7%+97.3%",
+                            "2": "3-Hit DMG 289.6%",
+                            "3": "Charged Attack Spinning DMG 145.4%",
+                            "4": "Charged Attack Final DMG 262.9%",
+                            "5": "Charged Attack Stamina Cost 40/s",
+                            "6": "Max Duration 5s",
+                            "7": "Plunge DMG 168.3%",
+                            "8": "Low/High Plunge DMG 336.4%/420.2%"
+                        },
+                        "13": {
+                            "0": "1-Hit DMG 216.1%",
+                            "1": "2-Hit DMG 98.4%+103.3%",
+                            "2": "3-Hit DMG 307.6%",
+                            "3": "Charged Attack Spinning DMG 157.2%",
+                            "4": "Charged Attack Final DMG 284.2%",
+                            "5": "Charged Attack Stamina Cost 40/s",
+                            "6": "Max Duration 5s",
+                            "7": "Plunge DMG 178.7%",
+                            "8": "Low/High Plunge DMG 357.3%/446.2%"
+                        },
+                        "14": {
+                            "0": "1-Hit DMG 228.7%",
+                            "1": "2-Hit DMG 104.1%+109.3%",
+                            "2": "3-Hit DMG 325.5%",
+                            "3": "Charged Attack Spinning DMG 168.9%",
+                            "4": "Charged Attack Final DMG 305.4%",
+                            "5": "Charged Attack Stamina Cost 40/s",
+                            "6": "Max Duration 5s",
+                            "7": "Plunge DMG 189.1%",
+                            "8": "Low/High Plunge DMG 378.1%/472.2%"
+                        },
+                        "15": {
+                            "0": "1-Hit DMG 241.3%",
+                            "1": "2-Hit DMG 109.8%+115.3%",
+                            "2": "3-Hit DMG 343.4%",
+                            "3": "Charged Attack Spinning DMG 181.7%",
+                            "4": "Charged Attack Final DMG 328.6%",
+                            "5": "Charged Attack Stamina Cost 40/s",
+                            "6": "Max Duration 5s",
+                            "7": "Plunge DMG 199.5%",
+                            "8": "Low/High Plunge DMG 398.9%/498.2%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104332",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112065",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104334",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112067",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Spirit-Warding Lamp: Troubleshooter Cannon",
+                    "description": "Directs a Spirit-Warding Lamp to fire off a Troubleshooter Shot at opponents, dealing <color=#FFACFFFF>Electro DMG</color>.\\nAfter the Troubleshooter Shot hits, it will create 2 After-Sales Service Rounds that will automatically track nearby opponents and deal <color=#FFACFFFF>Electro DMG</color>.\\n\\n<i>It is said that Dori can fix any problem for you... for the right price.</i>",
+                    "icon": "Skill_S_Dori_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Troubleshooter Shot DMG 147.3%",
+                            "1": "After-Sales Service Round DMG 31.6%",
+                            "2": "CD 9s"
+                        },
+                        "2": {
+                            "0": "Troubleshooter Shot DMG 158.3%",
+                            "1": "After-Sales Service Round DMG 33.9%",
+                            "2": "CD 9s"
+                        },
+                        "3": {
+                            "0": "Troubleshooter Shot DMG 169.4%",
+                            "1": "After-Sales Service Round DMG 36.3%",
+                            "2": "CD 9s"
+                        },
+                        "4": {
+                            "0": "Troubleshooter Shot DMG 184.1%",
+                            "1": "After-Sales Service Round DMG 39.5%",
+                            "2": "CD 9s"
+                        },
+                        "5": {
+                            "0": "Troubleshooter Shot DMG 195.1%",
+                            "1": "After-Sales Service Round DMG 41.8%",
+                            "2": "CD 9s"
+                        },
+                        "6": {
+                            "0": "Troubleshooter Shot DMG 206.2%",
+                            "1": "After-Sales Service Round DMG 44.2%",
+                            "2": "CD 9s"
+                        },
+                        "7": {
+                            "0": "Troubleshooter Shot DMG 220.9%",
+                            "1": "After-Sales Service Round DMG 47.3%",
+                            "2": "CD 9s"
+                        },
+                        "8": {
+                            "0": "Troubleshooter Shot DMG 235.6%",
+                            "1": "After-Sales Service Round DMG 50.5%",
+                            "2": "CD 9s"
+                        },
+                        "9": {
+                            "0": "Troubleshooter Shot DMG 250.4%",
+                            "1": "After-Sales Service Round DMG 53.7%",
+                            "2": "CD 9s"
+                        },
+                        "10": {
+                            "0": "Troubleshooter Shot DMG 265.1%",
+                            "1": "After-Sales Service Round DMG 56.8%",
+                            "2": "CD 9s"
+                        },
+                        "11": {
+                            "0": "Troubleshooter Shot DMG 279.8%",
+                            "1": "After-Sales Service Round DMG 60%",
+                            "2": "CD 9s"
+                        },
+                        "12": {
+                            "0": "Troubleshooter Shot DMG 294.6%",
+                            "1": "After-Sales Service Round DMG 63.1%",
+                            "2": "CD 9s"
+                        },
+                        "13": {
+                            "0": "Troubleshooter Shot DMG 313%",
+                            "1": "After-Sales Service Round DMG 67.1%",
+                            "2": "CD 9s"
+                        },
+                        "14": {
+                            "0": "Troubleshooter Shot DMG 331.4%",
+                            "1": "After-Sales Service Round DMG 71%",
+                            "2": "CD 9s"
+                        },
+                        "15": {
+                            "0": "Troubleshooter Shot DMG 349.8%",
+                            "1": "After-Sales Service Round DMG 75%",
+                            "2": "CD 9s"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104332",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112065",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104334",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112067",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Alcazarzaray's Exactitude",
+                    "description": "Summons forth the Jinni within the lamp to give the client various kinds of aid.\\n\\n<color=#FFD780FF>Jinni</color>\\nConnects to a nearby character. The connected character will:\\n· Continuously restore HP based on Dori's Max HP.\\n· Continuously regenerate Energy.\\n· Be affected by <color=#FFACFFFF>Electro</color>.\\nWhen the connector between the Jinni and the character touches opponents, it will deal one instance of <color=#FFACFFFF>Electro DMG</color> to them every 0.4s.\\n\\nOnly one Jinni can exist at one time.\\n\\n<i>\"Hmm? You'll pick this lamp, will you? Oh my, you've got good taste! Unfortunately, there's no price on this treasure — comparable, I'd say, to how you will not sell that mascot by your side for any price in the world.\"</i>",
+                    "icon": "Skill_E_Dori_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Connector DMG 15.9%",
+                            "1": "Continuous Healing 6.7% Max HP+641",
+                            "2": "Energy Regeneration 1.6",
+                            "3": "Duration 12s",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "2": {
+                            "0": "Connector DMG 17.1%",
+                            "1": "Continuous Healing 7.2% Max HP+706",
+                            "2": "Energy Regeneration 1.7",
+                            "3": "Duration 12s",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "3": {
+                            "0": "Connector DMG 18.3%",
+                            "1": "Continuous Healing 7.7% Max HP+775",
+                            "2": "Energy Regeneration 1.8",
+                            "3": "Duration 12s",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "4": {
+                            "0": "Connector DMG 19.9%",
+                            "1": "Continuous Healing 8.3% Max HP+850",
+                            "2": "Energy Regeneration 1.9",
+                            "3": "Duration 12s",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "5": {
+                            "0": "Connector DMG 21%",
+                            "1": "Continuous Healing 8.8% Max HP+930",
+                            "2": "Energy Regeneration 2",
+                            "3": "Duration 12s",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "6": {
+                            "0": "Connector DMG 22.2%",
+                            "1": "Continuous Healing 9.3% Max HP+1016",
+                            "2": "Energy Regeneration 2.1",
+                            "3": "Duration 12s",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "7": {
+                            "0": "Connector DMG 23.8%",
+                            "1": "Continuous Healing 10% Max HP+1107",
+                            "2": "Energy Regeneration 2.2",
+                            "3": "Duration 12s",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "8": {
+                            "0": "Connector DMG 25.4%",
+                            "1": "Continuous Healing 10.7% Max HP+1203",
+                            "2": "Energy Regeneration 2.3",
+                            "3": "Duration 12s",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "9": {
+                            "0": "Connector DMG 27%",
+                            "1": "Continuous Healing 11.3% Max HP+1305",
+                            "2": "Energy Regeneration 2.4",
+                            "3": "Duration 12s",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "10": {
+                            "0": "Connector DMG 28.6%",
+                            "1": "Continuous Healing 12% Max HP+1412",
+                            "2": "Energy Regeneration 2.5",
+                            "3": "Duration 12s",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "11": {
+                            "0": "Connector DMG 30.2%",
+                            "1": "Continuous Healing 12.7% Max HP+1524",
+                            "2": "Energy Regeneration 2.5",
+                            "3": "Duration 12s",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "12": {
+                            "0": "Connector DMG 31.8%",
+                            "1": "Continuous Healing 13.3% Max HP+1642",
+                            "2": "Energy Regeneration 2.5",
+                            "3": "Duration 12s",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "13": {
+                            "0": "Connector DMG 33.8%",
+                            "1": "Continuous Healing 14.2% Max HP+1765",
+                            "2": "Energy Regeneration 2.5",
+                            "3": "Duration 12s",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "14": {
+                            "0": "Connector DMG 35.7%",
+                            "1": "Continuous Healing 15% Max HP+1894",
+                            "2": "Energy Regeneration 2.5",
+                            "3": "Duration 12s",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "15": {
+                            "0": "Connector DMG 37.7%",
+                            "1": "Continuous Healing 15.8% Max HP+2027",
+                            "2": "Energy Regeneration 2.5",
+                            "3": "Duration 12s",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104332",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112065",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104334",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112067",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Alcazarzaray's Exactitude",
+                    "description": "Summons forth the Jinni within the lamp to give the client various kinds of aid.\\n\\n<color=#FFD780FF>Jinni</color>\\nConnects to a nearby character. The connected character will:\\n· Continuously restore HP based on Dori's Max HP.\\n· Continuously regenerate Energy.\\n· Be affected by <color=#FFACFFFF>Electro</color>.\\nWhen the connector between the Jinni and the character touches opponents, it will deal one instance of <color=#FFACFFFF>Electro DMG</color> to them every 0.4s.\\n\\nOnly one Jinni can exist at one time.\\n\\n<i>\"Hmm? You'll pick this lamp, will you? Oh my, you've got good taste! Unfortunately, there's no price on this treasure — comparable, I'd say, to how you will not sell that mascot by your side for any price in the world.\"</i>",
+                    "icon": "Skill_E_Dori_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Connector DMG 15.9%",
+                            "1": "Continuous Healing 6.7% Max HP+641",
+                            "2": "Energy Regeneration 1.6",
+                            "3": "Duration 12s",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "2": {
+                            "0": "Connector DMG 17.1%",
+                            "1": "Continuous Healing 7.2% Max HP+706",
+                            "2": "Energy Regeneration 1.7",
+                            "3": "Duration 12s",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "3": {
+                            "0": "Connector DMG 18.3%",
+                            "1": "Continuous Healing 7.7% Max HP+775",
+                            "2": "Energy Regeneration 1.8",
+                            "3": "Duration 12s",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "4": {
+                            "0": "Connector DMG 19.9%",
+                            "1": "Continuous Healing 8.3% Max HP+850",
+                            "2": "Energy Regeneration 1.9",
+                            "3": "Duration 12s",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "5": {
+                            "0": "Connector DMG 21%",
+                            "1": "Continuous Healing 8.8% Max HP+930",
+                            "2": "Energy Regeneration 2",
+                            "3": "Duration 12s",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "6": {
+                            "0": "Connector DMG 22.2%",
+                            "1": "Continuous Healing 9.3% Max HP+1016",
+                            "2": "Energy Regeneration 2.1",
+                            "3": "Duration 12s",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "7": {
+                            "0": "Connector DMG 23.8%",
+                            "1": "Continuous Healing 10% Max HP+1107",
+                            "2": "Energy Regeneration 2.2",
+                            "3": "Duration 12s",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "8": {
+                            "0": "Connector DMG 25.4%",
+                            "1": "Continuous Healing 10.7% Max HP+1203",
+                            "2": "Energy Regeneration 2.3",
+                            "3": "Duration 12s",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "9": {
+                            "0": "Connector DMG 27%",
+                            "1": "Continuous Healing 11.3% Max HP+1305",
+                            "2": "Energy Regeneration 2.4",
+                            "3": "Duration 12s",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "10": {
+                            "0": "Connector DMG 28.6%",
+                            "1": "Continuous Healing 12% Max HP+1412",
+                            "2": "Energy Regeneration 2.5",
+                            "3": "Duration 12s",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "11": {
+                            "0": "Connector DMG 30.2%",
+                            "1": "Continuous Healing 12.7% Max HP+1524",
+                            "2": "Energy Regeneration 2.5",
+                            "3": "Duration 12s",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "12": {
+                            "0": "Connector DMG 31.8%",
+                            "1": "Continuous Healing 13.3% Max HP+1642",
+                            "2": "Energy Regeneration 2.5",
+                            "3": "Duration 12s",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "13": {
+                            "0": "Connector DMG 33.8%",
+                            "1": "Continuous Healing 14.2% Max HP+1765",
+                            "2": "Energy Regeneration 2.5",
+                            "3": "Duration 12s",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "14": {
+                            "0": "Connector DMG 35.7%",
+                            "1": "Continuous Healing 15% Max HP+1894",
+                            "2": "Energy Regeneration 2.5",
+                            "3": "Duration 12s",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        },
+                        "15": {
+                            "0": "Connector DMG 37.7%",
+                            "1": "Continuous Healing 15.8% Max HP+2027",
+                            "2": "Energy Regeneration 2.5",
+                            "3": "Duration 12s",
+                            "4": "CD 20s",
+                            "5": "Energy Cost 80"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104332",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112065",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104334",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112067",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "An Eye for Gold",
+                    "description": "After a character connected to the <color=#FFD780FF>Jinni</color> triggers an Electro-Charged, Superconduct, Overloaded, Quicken, Aggravate, Hyperbloom, or an Electro Swirl or Crystallize reaction, the CD of <color=#FFD780FF>Spirit-Warding Lamp: Troubleshooter Cannon</color> is decreased by 1s.\\nThis effect can be triggered once every 3s.",
+                    "icon": "UI_Talent_S_Dori_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Compound Interest",
+                    "description": "When the Troubleshooter Shots or After-Sales Service Rounds from <color=#FFD780FF>Spirit-Warding Lamp: Troubleshooter Cannon</color> hit opponents, Dori will restore 5 Elemental Energy for every 100% Energy Recharge possessed.\\nPer Spirit-Warding Lamp: Troubleshooter Cannon, only one instance of Energy restoration can be triggered and a maximum of 15 Energy can be restored this way.",
+                    "icon": "UI_Talent_S_Dori_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Unexpected Order",
+                    "description": "Has a 25% chance to recover some of the materials used when crafting Character and Weapon Materials.",
+                    "icon": "UI_Talent_S_Dori_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Additional Investment",
+                    "description": "The number of After-Sales Service Rounds created by <color=#FFD780FF>Troubleshooter Shots</color> is increased by 1.",
+                    "icon": "UI_Talent_S_Dori_01"
+                },
+                "1": {
+                    "name": "Special Franchise",
+                    "description": "When you are in combat and the <color=#FFD780FF>Jinni</color> heals the character it is connected to, it will fire a Jinni Toop from that character's position that deals 50% of Dori's ATK DMG.",
+                    "icon": "UI_Talent_S_Dori_02"
+                },
+                "2": {
+                    "name": "Wonders Never Cease",
+                    "description": "Increases the Level of <color=#FFD780FF>Alcazarzaray's Exactitude</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Dori_02"
+                },
+                "3": {
+                    "name": "Discretionary Supplement",
+                    "description": "The character connected to the <color=#FFD780FF>Jinni</color> will obtain the following buffs based on their current HP and Energy:\\n·When their HP is lower than 50%, they gain 50% Incoming Healing Bonus.\\n·When their Energy is less than 50%, they gain 30% Energy Recharge.",
+                    "icon": "UI_Talent_S_Dori_03"
+                },
+                "4": {
+                    "name": "Value for Mora",
+                    "description": "Increases the Level of <color=#FFD780FF>Spirit-Warding Lamp: Troubleshooter Cannon</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Dori_01"
+                },
+                "5": {
+                    "name": "Sprinkling Weight",
+                    "description": "Dori gains the following effects for 3s after using <color=#FFD780FF>Spirit-Warding Lamp: Troubleshooter Cannon</color>:\\n·<color=#FFACFFFF>Electro Infusion</color>.\\n·When Normal Attacks hit opponents, all nearby party members will heal HP equivalent to 4% of Dori's Max HP. This type of healing can occur once every 0.1s.",
+                    "icon": "UI_Talent_S_Dori_04"
+                }
+            },
+            "elevation": {
+                "sub": "HP %",
+                "0": {
+                    "stats": {
+                        "HP": 1039,
+                        "ATK": 19,
+                        "DEF": 61,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2670,
+                        "ATK": 48,
+                        "DEF": 156,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101217",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104141",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112065",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 3447,
+                        "ATK": 62,
+                        "DEF": 201,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 5163,
+                        "ATK": 93,
+                        "DEF": 301,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101217",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104142",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112065",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113037",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 5715,
+                        "ATK": 103,
+                        "DEF": 333,
+                        "sub": 6.0
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 6573,
+                        "ATK": 118,
+                        "DEF": 384,
+                        "sub": 6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101217",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104142",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112066",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113037",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 7309,
+                        "ATK": 131,
+                        "DEF": 427,
+                        "sub": 12
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 8168,
+                        "ATK": 147,
+                        "DEF": 477,
+                        "sub": 12
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101217",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104143",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112066",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113037",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 8719,
+                        "ATK": 157,
+                        "DEF": 509,
+                        "sub": 12
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 9577,
+                        "ATK": 172,
+                        "DEF": 559,
+                        "sub": 12
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101217",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104143",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112067",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113037",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 10129,
+                        "ATK": 182,
+                        "DEF": 591,
+                        "sub": 18
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 10987,
+                        "ATK": 198,
+                        "DEF": 641,
+                        "sub": 18
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101217",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104144",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112067",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113037",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 11539,
+                        "ATK": 208,
+                        "DEF": 673,
+                        "sub": 24
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 12397,
+                        "ATK": 223,
+                        "DEF": 723,
+                        "sub": 24
+                    },
+                    "res": {}
+                }
+            }
+        },
+        "ru": {
+            "name": "Dori",
+            "name_ru": "Дори",
+            "id": 10000068,
+            "rarity": 4,
+            "weapon": "Claymore",
+            "element": "Electro",
+            "region": "Sumeru",
+            "more": {
+                "title": "Сокровище сада снов",
+                "detail": "Неуловимая негоциантка из Сумеру, которая больше всего любит блеск монет.",
+                "constellation": "Волшебная Лампа",
+                "group": "Дворец Алькасар-сарай",
+                "birthday": "21.12",
+                "release": "09.09.2022",
+                "cv": {
+                    "en": "Anjali Kunapaneni",
+                    "chs": "王晓彤",
+                    "jp": "金田朋子",
+                    "kr": "Lee Myeong-ho"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Чарующий танец мечей",
+                    "description": "<color=#FFD780FF>Обычная атака:</color>\\nДо трёх ударов мечом.\\n\\n<color=#FFD780FF>Заряженная атака:</color>\\nВращающаяся атака по окружающим врагам, на которую непрерывно тратится выносливость.\\nПосле вращения проводит дополнительную мощную атаку мечом.\\n\\n<color=#FFD780FF>Атака в падении:</color>\\nСтремительно падает на землю, атакуя всех врагов на пути. Приземлившись, наносит урон по площади.",
+                    "icon": "Skill_A_04",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон атаки 1 90.2%",
+                            "1": "Урон атаки 2 41.1%+43.1%",
+                            "2": "Урон атаки 3 128.4%",
+                            "3": "Урон вращающейся атаки 62.5%",
+                            "4": "Урон последней заряженной атаки 113.1%",
+                            "5": "Потребление выносливости 40 ед./сек.",
+                            "6": "Макс. длительность 5 сек.",
+                            "7": "Урон в падении 74.6%",
+                            "8": "Урон низкого/высокого удара 149.1%/186.3%"
+                        },
+                        "2": {
+                            "0": "Урон атаки 1 97.6%",
+                            "1": "Урон атаки 2 44.4%+46.6%",
+                            "2": "Урон атаки 3 138.8%",
+                            "3": "Урон вращающейся атаки 67.6%",
+                            "4": "Урон последней заряженной атаки 122.3%",
+                            "5": "Потребление выносливости 40 ед./сек.",
+                            "6": "Макс. длительность 5 сек.",
+                            "7": "Урон в падении 80.7%",
+                            "8": "Урон низкого/высокого удара 161.3%/201.5%"
+                        },
+                        "3": {
+                            "0": "Урон атаки 1 104.9%",
+                            "1": "Урон атаки 2 47.8%+50.1%",
+                            "2": "Урон атаки 3 149.3%",
+                            "3": "Урон вращающейся атаки 72.7%",
+                            "4": "Урон последней заряженной атаки 131.5%",
+                            "5": "Потребление выносливости 40 ед./сек.",
+                            "6": "Макс. длительность 5 сек.",
+                            "7": "Урон в падении 86.7%",
+                            "8": "Урон низкого/высокого удара 173.4%/216.6%"
+                        },
+                        "4": {
+                            "0": "Урон атаки 1 115.4%",
+                            "1": "Урон атаки 2 52.5%+55.2%",
+                            "2": "Урон атаки 3 164.2%",
+                            "3": "Урон вращающейся атаки 80%",
+                            "4": "Урон последней заряженной атаки 144.6%",
+                            "5": "Потребление выносливости 40 ед./сек.",
+                            "6": "Макс. длительность 5 сек.",
+                            "7": "Урон в падении 95.4%",
+                            "8": "Урон низкого/высокого удара 190.8%/238.3%"
+                        },
+                        "5": {
+                            "0": "Урон атаки 1 122.7%",
+                            "1": "Урон атаки 2 55.9%+58.7%",
+                            "2": "Урон атаки 3 174.7%",
+                            "3": "Урон вращающейся атаки 85.1%",
+                            "4": "Урон последней заряженной атаки 153.9%",
+                            "5": "Потребление выносливости 40 ед./сек.",
+                            "6": "Макс. длительность 5 сек.",
+                            "7": "Урон в падении 101.5%",
+                            "8": "Урон низкого/высокого удара 202.9%/253.4%"
+                        },
+                        "6": {
+                            "0": "Урон атаки 1 131.1%",
+                            "1": "Урон атаки 2 59.7%+62.7%",
+                            "2": "Урон атаки 3 186.6%",
+                            "3": "Урон вращающейся атаки 90.9%",
+                            "4": "Урон последней заряженной атаки 164.4%",
+                            "5": "Потребление выносливости 40 ед./сек.",
+                            "6": "Макс. длительность 5 сек.",
+                            "7": "Урон в падении 108.4%",
+                            "8": "Урон низкого/высокого удара 216.8%/270.8%"
+                        },
+                        "7": {
+                            "0": "Урон атаки 1 142.7%",
+                            "1": "Урон атаки 2 65%+68.2%",
+                            "2": "Урон атаки 3 203%",
+                            "3": "Урон вращающейся атаки 98.9%",
+                            "4": "Урон последней заряженной атаки 178.8%",
+                            "5": "Потребление выносливости 40 ед./сек.",
+                            "6": "Макс. длительность 5 сек.",
+                            "7": "Урон в падении 118%",
+                            "8": "Урон низкого/высокого удара 235.9%/294.6%"
+                        },
+                        "8": {
+                            "0": "Урон атаки 1 154.2%",
+                            "1": "Урон атаки 2 70.2%+73.7%",
+                            "2": "Урон атаки 3 219.5%",
+                            "3": "Урон вращающейся атаки 106.9%",
+                            "4": "Урон последней заряженной атаки 193.3%",
+                            "5": "Потребление выносливости 40 ед./сек.",
+                            "6": "Макс. длительность 5 сек.",
+                            "7": "Урон в падении 127.5%",
+                            "8": "Урон низкого/высокого удара 254.9%/318.4%"
+                        },
+                        "9": {
+                            "0": "Урон атаки 1 165.7%",
+                            "1": "Урон атаки 2 75.5%+79.2%",
+                            "2": "Урон атаки 3 235.9%",
+                            "3": "Урон вращающейся атаки 114.9%",
+                            "4": "Урон последней заряженной атаки 207.8%",
+                            "5": "Потребление выносливости 40 ед./сек.",
+                            "6": "Макс. длительность 5 сек.",
+                            "7": "Урон в падении 137%",
+                            "8": "Урон низкого/высокого удара 274%/342.3%"
+                        },
+                        "10": {
+                            "0": "Урон атаки 1 178.3%",
+                            "1": "Урон атаки 2 81.2%+85.2%",
+                            "2": "Урон атаки 3 253.8%",
+                            "3": "Урон вращающейся атаки 123.6%",
+                            "4": "Урон последней заряженной атаки 223.6%",
+                            "5": "Потребление выносливости 40 ед./сек.",
+                            "6": "Макс. длительность 5 сек.",
+                            "7": "Урон в падении 147.4%",
+                            "8": "Урон низкого/высокого удара 294.8%/368.2%"
+                        },
+                        "11": {
+                            "0": "Урон атаки 1 190.9%",
+                            "1": "Урон атаки 2 86.9%+91.3%",
+                            "2": "Урон атаки 3 271.7%",
+                            "3": "Урон вращающейся атаки 133.6%",
+                            "4": "Урон последней заряженной атаки 241.6%",
+                            "5": "Потребление выносливости 40 ед./сек.",
+                            "6": "Макс. длительность 5 сек.",
+                            "7": "Урон в падении 157.8%",
+                            "8": "Урон низкого/высокого удара 315.6%/394.2%"
+                        },
+                        "12": {
+                            "0": "Урон атаки 1 203.5%",
+                            "1": "Урон атаки 2 92.7%+97.3%",
+                            "2": "Урон атаки 3 289.6%",
+                            "3": "Урон вращающейся атаки 145.4%",
+                            "4": "Урон последней заряженной атаки 262.9%",
+                            "5": "Потребление выносливости 40 ед./сек.",
+                            "6": "Макс. длительность 5 сек.",
+                            "7": "Урон в падении 168.3%",
+                            "8": "Урон низкого/высокого удара 336.4%/420.2%"
+                        },
+                        "13": {
+                            "0": "Урон атаки 1 216.1%",
+                            "1": "Урон атаки 2 98.4%+103.3%",
+                            "2": "Урон атаки 3 307.6%",
+                            "3": "Урон вращающейся атаки 157.2%",
+                            "4": "Урон последней заряженной атаки 284.2%",
+                            "5": "Потребление выносливости 40 ед./сек.",
+                            "6": "Макс. длительность 5 сек.",
+                            "7": "Урон в падении 178.7%",
+                            "8": "Урон низкого/высокого удара 357.3%/446.2%"
+                        },
+                        "14": {
+                            "0": "Урон атаки 1 228.7%",
+                            "1": "Урон атаки 2 104.1%+109.3%",
+                            "2": "Урон атаки 3 325.5%",
+                            "3": "Урон вращающейся атаки 168.9%",
+                            "4": "Урон последней заряженной атаки 305.4%",
+                            "5": "Потребление выносливости 40 ед./сек.",
+                            "6": "Макс. длительность 5 сек.",
+                            "7": "Урон в падении 189.1%",
+                            "8": "Урон низкого/высокого удара 378.1%/472.2%"
+                        },
+                        "15": {
+                            "0": "Урон атаки 1 241.3%",
+                            "1": "Урон атаки 2 109.8%+115.3%",
+                            "2": "Урон атаки 3 343.4%",
+                            "3": "Урон вращающейся атаки 181.7%",
+                            "4": "Урон последней заряженной атаки 328.6%",
+                            "5": "Потребление выносливости 40 ед./сек.",
+                            "6": "Макс. длительность 5 сек.",
+                            "7": "Урон в падении 199.5%",
+                            "8": "Урон низкого/высокого удара 398.9%/498.2%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104332",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112065",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104334",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112067",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Лампа усмирения духов: Устраняющая проблемы пушка",
+                    "description": "Направляет Лампу усмирения духов и выстреливает во врагов Устраняющим проблемы зарядом, нанося <color=#FFACFFFF>Электро урон</color>.\\nПри попадании Устраняющий проблемы заряд создаёт 2 Снаряда гарантийного обслуживания, которые самостоятельно находят цели поблизости и наносят <color=#FFACFFFF>Электро урон</color>.\\n\\n<i>Говорят, Дори решит любую проблему... если ей достаточно заплатить.</i>",
+                    "icon": "Skill_S_Dori_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон Устраняющего проблемы заряда 147.3%",
+                            "1": "Урон Снаряда гарантийного обслуживания 31.6%",
+                            "2": "Время отката 9 сек."
+                        },
+                        "2": {
+                            "0": "Урон Устраняющего проблемы заряда 158.3%",
+                            "1": "Урон Снаряда гарантийного обслуживания 33.9%",
+                            "2": "Время отката 9 сек."
+                        },
+                        "3": {
+                            "0": "Урон Устраняющего проблемы заряда 169.4%",
+                            "1": "Урон Снаряда гарантийного обслуживания 36.3%",
+                            "2": "Время отката 9 сек."
+                        },
+                        "4": {
+                            "0": "Урон Устраняющего проблемы заряда 184.1%",
+                            "1": "Урон Снаряда гарантийного обслуживания 39.5%",
+                            "2": "Время отката 9 сек."
+                        },
+                        "5": {
+                            "0": "Урон Устраняющего проблемы заряда 195.1%",
+                            "1": "Урон Снаряда гарантийного обслуживания 41.8%",
+                            "2": "Время отката 9 сек."
+                        },
+                        "6": {
+                            "0": "Урон Устраняющего проблемы заряда 206.2%",
+                            "1": "Урон Снаряда гарантийного обслуживания 44.2%",
+                            "2": "Время отката 9 сек."
+                        },
+                        "7": {
+                            "0": "Урон Устраняющего проблемы заряда 220.9%",
+                            "1": "Урон Снаряда гарантийного обслуживания 47.3%",
+                            "2": "Время отката 9 сек."
+                        },
+                        "8": {
+                            "0": "Урон Устраняющего проблемы заряда 235.6%",
+                            "1": "Урон Снаряда гарантийного обслуживания 50.5%",
+                            "2": "Время отката 9 сек."
+                        },
+                        "9": {
+                            "0": "Урон Устраняющего проблемы заряда 250.4%",
+                            "1": "Урон Снаряда гарантийного обслуживания 53.7%",
+                            "2": "Время отката 9 сек."
+                        },
+                        "10": {
+                            "0": "Урон Устраняющего проблемы заряда 265.1%",
+                            "1": "Урон Снаряда гарантийного обслуживания 56.8%",
+                            "2": "Время отката 9 сек."
+                        },
+                        "11": {
+                            "0": "Урон Устраняющего проблемы заряда 279.8%",
+                            "1": "Урон Снаряда гарантийного обслуживания 60%",
+                            "2": "Время отката 9 сек."
+                        },
+                        "12": {
+                            "0": "Урон Устраняющего проблемы заряда 294.6%",
+                            "1": "Урон Снаряда гарантийного обслуживания 63.1%",
+                            "2": "Время отката 9 сек."
+                        },
+                        "13": {
+                            "0": "Урон Устраняющего проблемы заряда 313%",
+                            "1": "Урон Снаряда гарантийного обслуживания 67.1%",
+                            "2": "Время отката 9 сек."
+                        },
+                        "14": {
+                            "0": "Урон Устраняющего проблемы заряда 331.4%",
+                            "1": "Урон Снаряда гарантийного обслуживания 71%",
+                            "2": "Время отката 9 сек."
+                        },
+                        "15": {
+                            "0": "Урон Устраняющего проблемы заряда 349.8%",
+                            "1": "Урон Снаряда гарантийного обслуживания 75%",
+                            "2": "Время отката 9 сек."
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104332",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112065",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104334",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112067",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Дотошность Алькасар-сарая",
+                    "description": "Призывает джинна, который оказывает клиентам всевозможную помощь.\\n\\n<color=#FFD780FF>Джинн</color>\\nУстанавливает связь с персонажем поблизости:\\n· Восстанавливает его HP пропорционально макс. HP Дори.\\n· Регенерирует его энергию.\\n· Имеет статус <color=#FFACFFFF>Электро</color>.\\n\\nКроме того, когда связь между джинном и персонажем касается противника, она каждые 0,4 сек. наносит ему однократный <color=#FFACFFFF>Электро урон</color>.\\n\\nОдновременно может существовать только один джинн.\\n\\n<i>«Вы выбрали эту лампу, хм? Ой, у вас замечательный вкус! Вот только лампа эта - бесценное сокровище. Разве продали бы вы, например, свой талисман, сколько бы моры за него ни предложили?»</i>",
+                    "icon": "Skill_E_Dori_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон связи 15.9%",
+                            "1": "Периодическое лечение 6.7% макс. HP + 641",
+                            "2": "Восстановление энергии 1.6",
+                            "3": "Длительность 12 сек.",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "2": {
+                            "0": "Урон связи 17.1%",
+                            "1": "Периодическое лечение 7.2% макс. HP + 706",
+                            "2": "Восстановление энергии 1.7",
+                            "3": "Длительность 12 сек.",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "3": {
+                            "0": "Урон связи 18.3%",
+                            "1": "Периодическое лечение 7.7% макс. HP + 775",
+                            "2": "Восстановление энергии 1.8",
+                            "3": "Длительность 12 сек.",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "4": {
+                            "0": "Урон связи 19.9%",
+                            "1": "Периодическое лечение 8.3% макс. HP + 850",
+                            "2": "Восстановление энергии 1.9",
+                            "3": "Длительность 12 сек.",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "5": {
+                            "0": "Урон связи 21%",
+                            "1": "Периодическое лечение 8.8% макс. HP + 930",
+                            "2": "Восстановление энергии 2",
+                            "3": "Длительность 12 сек.",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "6": {
+                            "0": "Урон связи 22.2%",
+                            "1": "Периодическое лечение 9.3% макс. HP + 1016",
+                            "2": "Восстановление энергии 2.1",
+                            "3": "Длительность 12 сек.",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "7": {
+                            "0": "Урон связи 23.8%",
+                            "1": "Периодическое лечение 10% макс. HP + 1107",
+                            "2": "Восстановление энергии 2.2",
+                            "3": "Длительность 12 сек.",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "8": {
+                            "0": "Урон связи 25.4%",
+                            "1": "Периодическое лечение 10.7% макс. HP + 1203",
+                            "2": "Восстановление энергии 2.3",
+                            "3": "Длительность 12 сек.",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "9": {
+                            "0": "Урон связи 27%",
+                            "1": "Периодическое лечение 11.3% макс. HP + 1305",
+                            "2": "Восстановление энергии 2.4",
+                            "3": "Длительность 12 сек.",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "10": {
+                            "0": "Урон связи 28.6%",
+                            "1": "Периодическое лечение 12% макс. HP + 1412",
+                            "2": "Восстановление энергии 2.5",
+                            "3": "Длительность 12 сек.",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "11": {
+                            "0": "Урон связи 30.2%",
+                            "1": "Периодическое лечение 12.7% макс. HP + 1524",
+                            "2": "Восстановление энергии 2.5",
+                            "3": "Длительность 12 сек.",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "12": {
+                            "0": "Урон связи 31.8%",
+                            "1": "Периодическое лечение 13.3% макс. HP + 1642",
+                            "2": "Восстановление энергии 2.5",
+                            "3": "Длительность 12 сек.",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "13": {
+                            "0": "Урон связи 33.8%",
+                            "1": "Периодическое лечение 14.2% макс. HP + 1765",
+                            "2": "Восстановление энергии 2.5",
+                            "3": "Длительность 12 сек.",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "14": {
+                            "0": "Урон связи 35.7%",
+                            "1": "Периодическое лечение 15% макс. HP + 1894",
+                            "2": "Восстановление энергии 2.5",
+                            "3": "Длительность 12 сек.",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "15": {
+                            "0": "Урон связи 37.7%",
+                            "1": "Периодическое лечение 15.8% макс. HP + 2027",
+                            "2": "Восстановление энергии 2.5",
+                            "3": "Длительность 12 сек.",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104332",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112065",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104334",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112067",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Дотошность Алькасар-сарая",
+                    "description": "Призывает джинна, который оказывает клиентам всевозможную помощь.\\n\\n<color=#FFD780FF>Джинн</color>\\nУстанавливает связь с персонажем поблизости:\\n· Восстанавливает его HP пропорционально макс. HP Дори.\\n· Регенерирует его энергию.\\n· Имеет статус <color=#FFACFFFF>Электро</color>.\\n\\nКроме того, когда связь между джинном и персонажем касается противника, она каждые 0,4 сек. наносит ему однократный <color=#FFACFFFF>Электро урон</color>.\\n\\nОдновременно может существовать только один джинн.\\n\\n<i>«Вы выбрали эту лампу, хм? Ой, у вас замечательный вкус! Вот только лампа эта - бесценное сокровище. Разве продали бы вы, например, свой талисман, сколько бы моры за него ни предложили?»</i>",
+                    "icon": "Skill_E_Dori_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон связи 15.9%",
+                            "1": "Периодическое лечение 6.7% макс. HP + 641",
+                            "2": "Восстановление энергии 1.6",
+                            "3": "Длительность 12 сек.",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "2": {
+                            "0": "Урон связи 17.1%",
+                            "1": "Периодическое лечение 7.2% макс. HP + 706",
+                            "2": "Восстановление энергии 1.7",
+                            "3": "Длительность 12 сек.",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "3": {
+                            "0": "Урон связи 18.3%",
+                            "1": "Периодическое лечение 7.7% макс. HP + 775",
+                            "2": "Восстановление энергии 1.8",
+                            "3": "Длительность 12 сек.",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "4": {
+                            "0": "Урон связи 19.9%",
+                            "1": "Периодическое лечение 8.3% макс. HP + 850",
+                            "2": "Восстановление энергии 1.9",
+                            "3": "Длительность 12 сек.",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "5": {
+                            "0": "Урон связи 21%",
+                            "1": "Периодическое лечение 8.8% макс. HP + 930",
+                            "2": "Восстановление энергии 2",
+                            "3": "Длительность 12 сек.",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "6": {
+                            "0": "Урон связи 22.2%",
+                            "1": "Периодическое лечение 9.3% макс. HP + 1016",
+                            "2": "Восстановление энергии 2.1",
+                            "3": "Длительность 12 сек.",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "7": {
+                            "0": "Урон связи 23.8%",
+                            "1": "Периодическое лечение 10% макс. HP + 1107",
+                            "2": "Восстановление энергии 2.2",
+                            "3": "Длительность 12 сек.",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "8": {
+                            "0": "Урон связи 25.4%",
+                            "1": "Периодическое лечение 10.7% макс. HP + 1203",
+                            "2": "Восстановление энергии 2.3",
+                            "3": "Длительность 12 сек.",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "9": {
+                            "0": "Урон связи 27%",
+                            "1": "Периодическое лечение 11.3% макс. HP + 1305",
+                            "2": "Восстановление энергии 2.4",
+                            "3": "Длительность 12 сек.",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "10": {
+                            "0": "Урон связи 28.6%",
+                            "1": "Периодическое лечение 12% макс. HP + 1412",
+                            "2": "Восстановление энергии 2.5",
+                            "3": "Длительность 12 сек.",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "11": {
+                            "0": "Урон связи 30.2%",
+                            "1": "Периодическое лечение 12.7% макс. HP + 1524",
+                            "2": "Восстановление энергии 2.5",
+                            "3": "Длительность 12 сек.",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "12": {
+                            "0": "Урон связи 31.8%",
+                            "1": "Периодическое лечение 13.3% макс. HP + 1642",
+                            "2": "Восстановление энергии 2.5",
+                            "3": "Длительность 12 сек.",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "13": {
+                            "0": "Урон связи 33.8%",
+                            "1": "Периодическое лечение 14.2% макс. HP + 1765",
+                            "2": "Восстановление энергии 2.5",
+                            "3": "Длительность 12 сек.",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "14": {
+                            "0": "Урон связи 35.7%",
+                            "1": "Периодическое лечение 15% макс. HP + 1894",
+                            "2": "Восстановление энергии 2.5",
+                            "3": "Длительность 12 сек.",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        },
+                        "15": {
+                            "0": "Урон связи 37.7%",
+                            "1": "Периодическое лечение 15.8% макс. HP + 2027",
+                            "2": "Восстановление энергии 2.5",
+                            "3": "Длительность 12 сек.",
+                            "4": "Время отката 20 сек.",
+                            "5": "Потребление энергии 80"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104332",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112065",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104334",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112067",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Золото в песках",
+                    "description": "Когда персонаж, у которого установлена связь с <color=#FFD780FF>джинном</color>, вызывает реакции Заряжен, Сверхпроводник, Перегрузка, Стимуляция, Обострение, Вегетация, Электро Рассеивание или Электро Кристалл, откат навыка <color=#FFD780FF>Лампа усмирения духов: Устраняющая проблемы пушка</color> уменьшается на 1 сек.\\nЭффект может возникнуть раз в 3 сек.",
+                    "icon": "UI_Talent_S_Dori_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Сложные проценты",
+                    "description": "Попадания Устраняющих проблемы зарядов и Снарядов гарантийного обслуживания навыка <color=#FFD780FF>Лампа усмирения духов: Устраняющая проблемы пушка</color> восстанавливают 5 ед. энергии Дори за каждые 100% от её значения восстановления энергии.\\nКаждая активация навыка Лампа усмирения духов: Устраняющая проблемы пушка может восстановить энергию таким способом только один раз. Восстанавливает до 15 ед. энергии.",
+                    "icon": "UI_Talent_S_Dori_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Неожиданный заказ",
+                    "description": "При создании материалов улучшения персонажей и оружия имеет 25% шанс восстановить часть использованных материалов.",
+                    "icon": "UI_Talent_S_Dori_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Дополнительные вложения",
+                    "description": "Увеличивает количество Снарядов гарантийного обслуживания, создаваемых <color=#FFD780FF>Устраняющими проблемы зарядами</color>, на 1.",
+                    "icon": "UI_Talent_S_Dori_01"
+                },
+                "1": {
+                    "name": "Особая франшиза",
+                    "description": "В бою <color=#FFD780FF>джинн</color>, исцеляя связанного с ним персонажа, выстреливает с его позиции Зарядом джинна, который наносит урон размером 50% от силы атаки Дори.",
+                    "icon": "UI_Talent_S_Dori_02"
+                },
+                "2": {
+                    "name": "Непрекращающиеся чудеса",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Дотошность Алькасар-сарая</color> на 3.\\nМакс. уровень: 15.",
+                    "icon": "UI_Talent_U_Dori_02"
+                },
+                "3": {
+                    "name": "Разумное распределение",
+                    "description": "Персонаж, у которого установлена связь с <color=#FFD780FF>джинном</color>, в зависимости от текущего HP и энергии может получить следующие усиления:\\n· Если осталось не более 50% HP, бонус получаемого лечения повышается на 50%.\\n· Если осталось не более 50% энергии, восстановление энергии увеличивается на 30%.",
+                    "icon": "UI_Talent_S_Dori_03"
+                },
+                "4": {
+                    "name": "Оправданные затраты",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Лампа усмирения духов: Устраняющая проблемы пушка</color> на 3.\\nМакс. уровень: 15.",
+                    "icon": "UI_Talent_U_Dori_01"
+                },
+                "5": {
+                    "name": "Расточая богатство",
+                    "description": "На 3 сек. после активации навыка <color=#FFD780FF>Лампа усмирения духов: Устраняющая проблемы пушка</color> Дори получает следующие эффекты:\\n· <color=#FFACFFFF>Инфузия Электро</color>.\\n· Попадания обычной атакой восстанавливают всем персонажам отряда поблизости HP, равное 4% от макс. HP Дори. Восстановить HP этим способом можно не чаще, чем раз в 0,1 сек.",
+                    "icon": "UI_Talent_S_Dori_04"
+                }
+            },
+            "elevation": {
+                "sub": "HP %",
+                "0": {
+                    "stats": {
+                        "HP": 1039,
+                        "ATK": 19,
+                        "DEF": 61,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2670,
+                        "ATK": 48,
+                        "DEF": 156,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101217",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104141",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112065",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 3447,
+                        "ATK": 62,
+                        "DEF": 201,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 5163,
+                        "ATK": 93,
+                        "DEF": 301,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101217",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104142",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112065",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113037",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 5715,
+                        "ATK": 103,
+                        "DEF": 333,
+                        "sub": 6.0
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 6573,
+                        "ATK": 118,
+                        "DEF": 384,
+                        "sub": 6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101217",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104142",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112066",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113037",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 7309,
+                        "ATK": 131,
+                        "DEF": 427,
+                        "sub": 12
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 8168,
+                        "ATK": 147,
+                        "DEF": 477,
+                        "sub": 12
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101217",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104143",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112066",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113037",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 8719,
+                        "ATK": 157,
+                        "DEF": 509,
+                        "sub": 12
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 9577,
+                        "ATK": 172,
+                        "DEF": 559,
+                        "sub": 12
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101217",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104143",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112067",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113037",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 10129,
+                        "ATK": 182,
+                        "DEF": 591,
+                        "sub": 18
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 10987,
+                        "ATK": 198,
+                        "DEF": 641,
+                        "sub": 18
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101217",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104144",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112067",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113037",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 11539,
+                        "ATK": 208,
+                        "DEF": 673,
+                        "sub": 24
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 12397,
+                        "ATK": 223,
+                        "DEF": 723,
+                        "sub": 24
+                    },
+                    "res": {}
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,2874 @@
+{
+    "Yelan": {
+        "en": {
+            "name": "Yelan",
+            "name_ru": "Е Лань",
+            "id": 10000060,
+            "rarity": 5,
+            "weapon": "Bow",
+            "element": "Hydro",
+            "region": "Liyue",
+            "more": {
+                "title": "Valley Orchid",
+                "detail": "A mysterious person who claims to work for the Ministry of Civil Affairs, but is a \"non-entity\" on the Ministry of Civil Affairs' list.",
+                "constellation": "Umbrabilis Orchis",
+                "group": "Yanshang Teahouse",
+                "birthday": "20.4",
+                "release": "30.05.2022",
+                "cv": {
+                    "en": "Laura Post",
+                    "chs": "徐慧",
+                    "jp": "遠藤綾",
+                    "kr": "Min Ah"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Normal Attack: Stealthy Bowshot",
+                    "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, flowing water will accumulate on the arrowhead. A fully charged torrential arrow will deal <color=#80C0FFFF>Hydro DMG</color>.\\n\\n<color=#FFD780FF>Breakthrough</color>\\nYelan will enter a \"Breakthrough\" state after spending 5s out of combat, which will cause her next Charged Aimed Shot to have 80% decreased charge time, and once charged, she can fire a \"Breakthrough Barb\" that will deal <color=#80C0FFFF>AoE Hydro DMG</color> based on Yelan's Max HP.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+                    "icon": "Skill_A_02",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "1-Hit DMG 40.7%",
+                            "1": "2-Hit DMG 39%",
+                            "2": "3-Hit DMG 51.6%",
+                            "3": "4-Hit DMG 32.5%+32.5%",
+                            "4": "Aimed Shot 43.9%",
+                            "5": "Fully-Charged Aimed Shot 124%",
+                            "6": "Breakthrough Barb DMG {param7:F2P} Max HP",
+                            "7": "Plunge DMG 56.8%",
+                            "8": "Low/High Plunge DMG 113.6%/141.9%"
+                        },
+                        "2": {
+                            "0": "1-Hit DMG 44%",
+                            "1": "2-Hit DMG 42.2%",
+                            "2": "3-Hit DMG 55.8%",
+                            "3": "4-Hit DMG 35.2%+35.2%",
+                            "4": "Aimed Shot 47.4%",
+                            "5": "Fully-Charged Aimed Shot 133.3%",
+                            "6": "Breakthrough Barb DMG {param7:F2P} Max HP",
+                            "7": "Plunge DMG 61.5%",
+                            "8": "Low/High Plunge DMG 122.9%/153.5%"
+                        },
+                        "3": {
+                            "0": "1-Hit DMG 47.3%",
+                            "1": "2-Hit DMG 45.4%",
+                            "2": "3-Hit DMG 60%",
+                            "3": "4-Hit DMG 37.8%+37.8%",
+                            "4": "Aimed Shot 51%",
+                            "5": "Fully-Charged Aimed Shot 142.6%",
+                            "6": "Breakthrough Barb DMG {param7:F2P} Max HP",
+                            "7": "Plunge DMG 66.1%",
+                            "8": "Low/High Plunge DMG 132.1%/165%"
+                        },
+                        "4": {
+                            "0": "1-Hit DMG 52%",
+                            "1": "2-Hit DMG 49.9%",
+                            "2": "3-Hit DMG 66%",
+                            "3": "4-Hit DMG 41.6%+41.6%",
+                            "4": "Aimed Shot 56.1%",
+                            "5": "Fully-Charged Aimed Shot 155%",
+                            "6": "Breakthrough Barb DMG {param7:F2P} Max HP",
+                            "7": "Plunge DMG 72.7%",
+                            "8": "Low/High Plunge DMG 145.3%/181.5%"
+                        },
+                        "5": {
+                            "0": "1-Hit DMG 55.3%",
+                            "1": "2-Hit DMG 53.1%",
+                            "2": "3-Hit DMG 70.2%",
+                            "3": "4-Hit DMG 44.2%+44.2%",
+                            "4": "Aimed Shot 59.7%",
+                            "5": "Fully-Charged Aimed Shot 164.3%",
+                            "6": "Breakthrough Barb DMG {param7:F2P} Max HP",
+                            "7": "Plunge DMG 77.3%",
+                            "8": "Low/High Plunge DMG 154.6%/193.1%"
+                        },
+                        "6": {
+                            "0": "1-Hit DMG 59.1%",
+                            "1": "2-Hit DMG 56.8%",
+                            "2": "3-Hit DMG 75%",
+                            "3": "4-Hit DMG 47.2%+47.2%",
+                            "4": "Aimed Shot 63.7%",
+                            "5": "Fully-Charged Aimed Shot 173.6%",
+                            "6": "Breakthrough Barb DMG {param7:F2P} Max HP",
+                            "7": "Plunge DMG 82.6%",
+                            "8": "Low/High Plunge DMG 165.2%/206.3%"
+                        },
+                        "7": {
+                            "0": "1-Hit DMG 64.3%",
+                            "1": "2-Hit DMG 61.7%",
+                            "2": "3-Hit DMG 81.6%",
+                            "3": "4-Hit DMG 51.4%+51.4%",
+                            "4": "Aimed Shot 69.4%",
+                            "5": "Fully-Charged Aimed Shot 186%",
+                            "6": "Breakthrough Barb DMG {param7:F2P} Max HP",
+                            "7": "Plunge DMG 89.9%",
+                            "8": "Low/High Plunge DMG 179.7%/224.5%"
+                        },
+                        "8": {
+                            "0": "1-Hit DMG 69.5%",
+                            "1": "2-Hit DMG 66.7%",
+                            "2": "3-Hit DMG 88.2%",
+                            "3": "4-Hit DMG 55.6%+55.6%",
+                            "4": "Aimed Shot 75%",
+                            "5": "Fully-Charged Aimed Shot 198.4%",
+                            "6": "Breakthrough Barb DMG {param7:F2P} Max HP",
+                            "7": "Plunge DMG 97.1%",
+                            "8": "Low/High Plunge DMG 194.2%/242.6%"
+                        },
+                        "9": {
+                            "0": "1-Hit DMG 74.7%",
+                            "1": "2-Hit DMG 71.7%",
+                            "2": "3-Hit DMG 94.8%",
+                            "3": "4-Hit DMG 59.7%+59.7%",
+                            "4": "Aimed Shot 80.6%",
+                            "5": "Fully-Charged Aimed Shot 210.8%",
+                            "6": "Breakthrough Barb DMG {param7:F2P} Max HP",
+                            "7": "Plunge DMG 104.4%",
+                            "8": "Low/High Plunge DMG 208.8%/260.8%"
+                        },
+                        "10": {
+                            "0": "1-Hit DMG 80.4%",
+                            "1": "2-Hit DMG 77.2%",
+                            "2": "3-Hit DMG 102%",
+                            "3": "4-Hit DMG 64.3%+64.3%",
+                            "4": "Aimed Shot 86.7%",
+                            "5": "Fully-Charged Aimed Shot 223.2%",
+                            "6": "Breakthrough Barb DMG {param7:F2P} Max HP",
+                            "7": "Plunge DMG 112.3%",
+                            "8": "Low/High Plunge DMG 224.6%/280.6%"
+                        },
+                        "11": {
+                            "0": "1-Hit DMG 86.1%",
+                            "1": "2-Hit DMG 82.6%",
+                            "2": "3-Hit DMG 109.2%",
+                            "3": "4-Hit DMG 68.8%+68.8%",
+                            "4": "Aimed Shot 92.8%",
+                            "5": "Fully-Charged Aimed Shot 235.6%",
+                            "6": "Breakthrough Barb DMG {param7:F2P} Max HP",
+                            "7": "Plunge DMG 120.3%",
+                            "8": "Low/High Plunge DMG 240.5%/300.4%"
+                        },
+                        "12": {
+                            "0": "1-Hit DMG 91.8%",
+                            "1": "2-Hit DMG 88.1%",
+                            "2": "3-Hit DMG 116.4%",
+                            "3": "4-Hit DMG 73.3%+73.3%",
+                            "4": "Aimed Shot 98.9%",
+                            "5": "Fully-Charged Aimed Shot 248%",
+                            "6": "Breakthrough Barb DMG {param7:F2P} Max HP",
+                            "7": "Plunge DMG 128.2%",
+                            "8": "Low/High Plunge DMG 256.3%/320.2%"
+                        },
+                        "13": {
+                            "0": "1-Hit DMG 97.4%",
+                            "1": "2-Hit DMG 93.5%",
+                            "2": "3-Hit DMG 123.6%",
+                            "3": "4-Hit DMG 77.9%+77.9%",
+                            "4": "Aimed Shot 105.1%",
+                            "5": "Fully-Charged Aimed Shot 263.5%",
+                            "6": "Breakthrough Barb DMG {param7:F2P} Max HP",
+                            "7": "Plunge DMG 136.1%",
+                            "8": "Low/High Plunge DMG 272.2%/340%"
+                        },
+                        "14": {
+                            "0": "1-Hit DMG 103.1%",
+                            "1": "2-Hit DMG 99%",
+                            "2": "3-Hit DMG 130.8%",
+                            "3": "4-Hit DMG 82.4%+82.4%",
+                            "4": "Aimed Shot 111.2%",
+                            "5": "Fully-Charged Aimed Shot 279%",
+                            "6": "Breakthrough Barb DMG {param7:F2P} Max HP",
+                            "7": "Plunge DMG 144.1%",
+                            "8": "Low/High Plunge DMG 288%/359.8%"
+                        },
+                        "15": {
+                            "0": "1-Hit DMG 108.8%",
+                            "1": "2-Hit DMG 104.4%",
+                            "2": "3-Hit DMG 138%",
+                            "3": "4-Hit DMG 86.9%+86.9%",
+                            "4": "Aimed Shot 117.3%",
+                            "5": "Fully-Charged Aimed Shot 294.5%",
+                            "6": "Breakthrough Barb DMG {param7:F2P} Max HP",
+                            "7": "Plunge DMG 152%",
+                            "8": "Low/High Plunge DMG 303.9%/379.6%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104310",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113019",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113019",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113019",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113019",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Lingering Lifeline",
+                    "description": "Fires off a Lifeline that allows her to move rapidly, entangling and marking opponents along its path.\\nWhen this rapid movement ends, the Lifeline will explode, dealing <color=#80C0FFFF>Hydro DMG</color> to the marked opponents based on Yelan's Max HP.\\n\\n<color=#FFD780FF>Tap</color>\\nMoves a certain distance forward swiftly.\\n\\n<color=#FFD780FF>Hold</color>\\nEngages in continuous, swift movement, during which Yelan's resistance to interruption is increased.\\nDuring this time, Yelan can control this rapid movement and end it by using this Skill again.\\n\\nAdditionally, each opponent marked by the Lifeline when it explodes grants Yelan a 34% chance to reset her Breakthrough state.\\n\\n<i>Not until she begins to tug on the strings do evildoers, crooks, and scheming villains alike know that there is no escape.</i>",
+                    "icon": "Skill_S_Yelan_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 22.6% Max HP",
+                            "1": "Max Duration (Hold) 3s",
+                            "2": "CD 10s"
+                        },
+                        "2": {
+                            "0": "Skill DMG 24.3% Max HP",
+                            "1": "Max Duration (Hold) 3s",
+                            "2": "CD 10s"
+                        },
+                        "3": {
+                            "0": "Skill DMG 26% Max HP",
+                            "1": "Max Duration (Hold) 3s",
+                            "2": "CD 10s"
+                        },
+                        "4": {
+                            "0": "Skill DMG 28.3% Max HP",
+                            "1": "Max Duration (Hold) 3s",
+                            "2": "CD 10s"
+                        },
+                        "5": {
+                            "0": "Skill DMG 30% Max HP",
+                            "1": "Max Duration (Hold) 3s",
+                            "2": "CD 10s"
+                        },
+                        "6": {
+                            "0": "Skill DMG 31.7% Max HP",
+                            "1": "Max Duration (Hold) 3s",
+                            "2": "CD 10s"
+                        },
+                        "7": {
+                            "0": "Skill DMG 33.9% Max HP",
+                            "1": "Max Duration (Hold) 3s",
+                            "2": "CD 10s"
+                        },
+                        "8": {
+                            "0": "Skill DMG 36.2% Max HP",
+                            "1": "Max Duration (Hold) 3s",
+                            "2": "CD 10s"
+                        },
+                        "9": {
+                            "0": "Skill DMG 38.4% Max HP",
+                            "1": "Max Duration (Hold) 3s",
+                            "2": "CD 10s"
+                        },
+                        "10": {
+                            "0": "Skill DMG 40.7% Max HP",
+                            "1": "Max Duration (Hold) 3s",
+                            "2": "CD 10s"
+                        },
+                        "11": {
+                            "0": "Skill DMG 43% Max HP",
+                            "1": "Max Duration (Hold) 3s",
+                            "2": "CD 10s"
+                        },
+                        "12": {
+                            "0": "Skill DMG 45.2% Max HP",
+                            "1": "Max Duration (Hold) 3s",
+                            "2": "CD 10s"
+                        },
+                        "13": {
+                            "0": "Skill DMG 48.1% Max HP",
+                            "1": "Max Duration (Hold) 3s",
+                            "2": "CD 10s"
+                        },
+                        "14": {
+                            "0": "Skill DMG 50.9% Max HP",
+                            "1": "Max Duration (Hold) 3s",
+                            "2": "CD 10s"
+                        },
+                        "15": {
+                            "0": "Skill DMG 53.7% Max HP",
+                            "1": "Max Duration (Hold) 3s",
+                            "2": "CD 10s"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104310",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113019",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113019",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113019",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113019",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Depth-Clarion Dice",
+                    "description": "Deals <color=#80C0FFFF>AoE Hydro DMG</color> and creates an \"Exquisite Throw,\" which aids her in battle.\\n\\n<color=#FFD780FF>Exquisite Throw</color>\\nFollows the character around and will initiate a coordinated attack under the following circumstances, dealing <color=#80C0FFFF>Hydro DMG</color> based on Yelan's Max HP:\\n·Can occur once every second when your active character uses a Normal Attack.\\n·Will occur each time Yelan's Lifeline explodes and hits opponents.\\n\\n<i>\"A gambling addiction is going to do you no good. I mean, let me just do the math for you as the dealer. What do you think your odds of beating me are, when I have seven dice and you, only one?\"</i>",
+                    "icon": "Skill_E_Yelan_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Exquisite Throw DMG {param2:F2P} Max HP ×3",
+                            "2": "Duration 15s",
+                            "3": "CD 18s",
+                            "4": "Energy Cost 70"
+                        },
+                        "2": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Exquisite Throw DMG {param2:F2P} Max HP ×3",
+                            "2": "Duration 15s",
+                            "3": "CD 18s",
+                            "4": "Energy Cost 70"
+                        },
+                        "3": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Exquisite Throw DMG {param2:F2P} Max HP ×3",
+                            "2": "Duration 15s",
+                            "3": "CD 18s",
+                            "4": "Energy Cost 70"
+                        },
+                        "4": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Exquisite Throw DMG {param2:F2P} Max HP ×3",
+                            "2": "Duration 15s",
+                            "3": "CD 18s",
+                            "4": "Energy Cost 70"
+                        },
+                        "5": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Exquisite Throw DMG {param2:F2P} Max HP ×3",
+                            "2": "Duration 15s",
+                            "3": "CD 18s",
+                            "4": "Energy Cost 70"
+                        },
+                        "6": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Exquisite Throw DMG {param2:F2P} Max HP ×3",
+                            "2": "Duration 15s",
+                            "3": "CD 18s",
+                            "4": "Energy Cost 70"
+                        },
+                        "7": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Exquisite Throw DMG {param2:F2P} Max HP ×3",
+                            "2": "Duration 15s",
+                            "3": "CD 18s",
+                            "4": "Energy Cost 70"
+                        },
+                        "8": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Exquisite Throw DMG {param2:F2P} Max HP ×3",
+                            "2": "Duration 15s",
+                            "3": "CD 18s",
+                            "4": "Energy Cost 70"
+                        },
+                        "9": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Exquisite Throw DMG {param2:F2P} Max HP ×3",
+                            "2": "Duration 15s",
+                            "3": "CD 18s",
+                            "4": "Energy Cost 70"
+                        },
+                        "10": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Exquisite Throw DMG {param2:F2P} Max HP ×3",
+                            "2": "Duration 15s",
+                            "3": "CD 18s",
+                            "4": "Energy Cost 70"
+                        },
+                        "11": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Exquisite Throw DMG {param2:F2P} Max HP ×3",
+                            "2": "Duration 15s",
+                            "3": "CD 18s",
+                            "4": "Energy Cost 70"
+                        },
+                        "12": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Exquisite Throw DMG {param2:F2P} Max HP ×3",
+                            "2": "Duration 15s",
+                            "3": "CD 18s",
+                            "4": "Energy Cost 70"
+                        },
+                        "13": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Exquisite Throw DMG {param2:F2P} Max HP ×3",
+                            "2": "Duration 15s",
+                            "3": "CD 18s",
+                            "4": "Energy Cost 70"
+                        },
+                        "14": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Exquisite Throw DMG {param2:F2P} Max HP ×3",
+                            "2": "Duration 15s",
+                            "3": "CD 18s",
+                            "4": "Energy Cost 70"
+                        },
+                        "15": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Exquisite Throw DMG {param2:F2P} Max HP ×3",
+                            "2": "Duration 15s",
+                            "3": "CD 18s",
+                            "4": "Energy Cost 70"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104310",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113019",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113019",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113019",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113019",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Depth-Clarion Dice",
+                    "description": "Deals <color=#80C0FFFF>AoE Hydro DMG</color> and creates an \"Exquisite Throw,\" which aids her in battle.\\n\\n<color=#FFD780FF>Exquisite Throw</color>\\nFollows the character around and will initiate a coordinated attack under the following circumstances, dealing <color=#80C0FFFF>Hydro DMG</color> based on Yelan's Max HP:\\n·Can occur once every second when your active character uses a Normal Attack.\\n·Will occur each time Yelan's Lifeline explodes and hits opponents.\\n\\n<i>\"A gambling addiction is going to do you no good. I mean, let me just do the math for you as the dealer. What do you think your odds of beating me are, when I have seven dice and you, only one?\"</i>",
+                    "icon": "Skill_E_Yelan_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Exquisite Throw DMG {param2:F2P} Max HP ×3",
+                            "2": "Duration 15s",
+                            "3": "CD 18s",
+                            "4": "Energy Cost 70"
+                        },
+                        "2": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Exquisite Throw DMG {param2:F2P} Max HP ×3",
+                            "2": "Duration 15s",
+                            "3": "CD 18s",
+                            "4": "Energy Cost 70"
+                        },
+                        "3": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Exquisite Throw DMG {param2:F2P} Max HP ×3",
+                            "2": "Duration 15s",
+                            "3": "CD 18s",
+                            "4": "Energy Cost 70"
+                        },
+                        "4": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Exquisite Throw DMG {param2:F2P} Max HP ×3",
+                            "2": "Duration 15s",
+                            "3": "CD 18s",
+                            "4": "Energy Cost 70"
+                        },
+                        "5": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Exquisite Throw DMG {param2:F2P} Max HP ×3",
+                            "2": "Duration 15s",
+                            "3": "CD 18s",
+                            "4": "Energy Cost 70"
+                        },
+                        "6": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Exquisite Throw DMG {param2:F2P} Max HP ×3",
+                            "2": "Duration 15s",
+                            "3": "CD 18s",
+                            "4": "Energy Cost 70"
+                        },
+                        "7": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Exquisite Throw DMG {param2:F2P} Max HP ×3",
+                            "2": "Duration 15s",
+                            "3": "CD 18s",
+                            "4": "Energy Cost 70"
+                        },
+                        "8": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Exquisite Throw DMG {param2:F2P} Max HP ×3",
+                            "2": "Duration 15s",
+                            "3": "CD 18s",
+                            "4": "Energy Cost 70"
+                        },
+                        "9": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Exquisite Throw DMG {param2:F2P} Max HP ×3",
+                            "2": "Duration 15s",
+                            "3": "CD 18s",
+                            "4": "Energy Cost 70"
+                        },
+                        "10": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Exquisite Throw DMG {param2:F2P} Max HP ×3",
+                            "2": "Duration 15s",
+                            "3": "CD 18s",
+                            "4": "Energy Cost 70"
+                        },
+                        "11": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Exquisite Throw DMG {param2:F2P} Max HP ×3",
+                            "2": "Duration 15s",
+                            "3": "CD 18s",
+                            "4": "Energy Cost 70"
+                        },
+                        "12": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Exquisite Throw DMG {param2:F2P} Max HP ×3",
+                            "2": "Duration 15s",
+                            "3": "CD 18s",
+                            "4": "Energy Cost 70"
+                        },
+                        "13": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Exquisite Throw DMG {param2:F2P} Max HP ×3",
+                            "2": "Duration 15s",
+                            "3": "CD 18s",
+                            "4": "Energy Cost 70"
+                        },
+                        "14": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Exquisite Throw DMG {param2:F2P} Max HP ×3",
+                            "2": "Duration 15s",
+                            "3": "CD 18s",
+                            "4": "Energy Cost 70"
+                        },
+                        "15": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Exquisite Throw DMG {param2:F2P} Max HP ×3",
+                            "2": "Duration 15s",
+                            "3": "CD 18s",
+                            "4": "Energy Cost 70"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104310",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113019",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113019",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113019",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113019",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Turn Control",
+                    "description": "When the party has 1/2/3/4 Elemental Types, Yelan's Max HP is increased by 6%/12%/18%/30%.",
+                    "icon": "UI_Talent_S_Yelan_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Adapt With Ease",
+                    "description": "So long as an <color=#FFD780FF>Exquisite Throw</color> is in play, your own active character deals 1% more DMG. This increases by a further 3.5% DMG every second. The maximum increase to DMG dealt is 50%.\\nThe pre-existing effect will be dispelled if Depth-Clarion Dice is recast during its duration.",
+                    "icon": "UI_Talent_S_Yelan_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Necessary Calculation",
+                    "description": "Gains 25% more rewards when dispatched on a Liyue Expedition for 20 hours.",
+                    "icon": "UI_Talent_Expedition_Liyue",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Enter the Plotters",
+                    "description": "<color=#FFD780FF>Lingering Lifeline</color> gains 1 additional charge.",
+                    "icon": "UI_Talent_S_Yelan_01"
+                },
+                "1": {
+                    "name": "Taking All Comers",
+                    "description": "When <color=#FFD780FF>Exquisite Throw</color> conducts a coordinated attack, it will fire an additional water arrow that will deal 14% of Yelan's Max HP as Hydro DMG.\\nThis effect can trigger once every 1.8s.",
+                    "icon": "UI_Talent_S_Yelan_02"
+                },
+                "2": {
+                    "name": "Beware the Trickster's Dice",
+                    "description": "Increases the Level of <color=#FFD780FF>Depth-Clarion Dice</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Yelan_01"
+                },
+                "3": {
+                    "name": "Bait-and-Switch",
+                    "description": "Increases all party members' Max HP by 10% for 25s for every opponent marked by <color=#FFD780FF>Lifeline</color> when the Lifeline explodes. A maximum increase of 40% Max HP can be attained in this manner.",
+                    "icon": "UI_Talent_S_Yelan_03"
+                },
+                "4": {
+                    "name": "Dealer's Sleight",
+                    "description": "Increases the Level of <color=#FFD780FF>Lingering Lifeline</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Yelan_02"
+                },
+                "5": {
+                    "name": "Winner Takes All",
+                    "description": "After using <color=#FFD780FF>Depth-Clarion Dice</color>, Yelan will enter the Mastermind state.\\nIn this state, all of Yelan's Normal Attacks will be special Breakthrough Barbs. These Breakthrough Barbs will have similar abilities to normal ones and the DMG dealt will be considered Charged Attack DMG, dealing 156% of a normal Breakthrough Barb's DMG.\\n\\nThe Mastermind state lasts 20s and will be cleared after Yelan fires 5 arrows.",
+                    "icon": "UI_Talent_S_Yelan_04"
+                }
+            },
+            "elevation": {
+                "sub": "CRIT Rate %",
+                "0": {
+                    "stats": {
+                        "HP": 1125,
+                        "ATK": 19,
+                        "DEF": 43,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2918,
+                        "ATK": 49,
+                        "DEF": 111,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100033",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104121",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112032",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 3883,
+                        "ATK": 66,
+                        "DEF": 147,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 5810,
+                        "ATK": 98,
+                        "DEF": 220,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100033",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104122",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112032",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113035",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 6495,
+                        "ATK": 110,
+                        "DEF": 246,
+                        "sub": 4.8
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 7472,
+                        "ATK": 126,
+                        "DEF": 283,
+                        "sub": 4.8
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100033",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104122",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112033",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113035",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 8386,
+                        "ATK": 142,
+                        "DEF": 318,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 9275,
+                        "ATK": 157,
+                        "DEF": 352,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100033",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104123",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112033",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113035",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 9960,
+                        "ATK": 168,
+                        "DEF": 378,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 11156,
+                        "ATK": 188,
+                        "DEF": 423,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100033",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104123",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112034",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113035",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 11841,
+                        "ATK": 200,
+                        "DEF": 449,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 12749,
+                        "ATK": 215,
+                        "DEF": 483,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100033",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104124",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112034",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113035",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 13434,
+                        "ATK": 227,
+                        "DEF": 509,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 14450,
+                        "ATK": 244,
+                        "DEF": 548,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                }
+            }
+        },
+        "ru": {
+            "name": "Yelan",
+            "name_ru": "Е Лань",
+            "id": 10000060,
+            "rarity": 5,
+            "weapon": "Bow",
+            "element": "Hydro",
+            "region": "Liyue",
+            "more": {
+                "title": "Орхидея долины",
+                "detail": "Таинственная девушка, утверждающая, что работает в Департаменте по делам граждан, но в списках Департамента её нет.",
+                "constellation": "Призрачная Орхидея",
+                "group": "Чайный дом «Яньшан»",
+                "birthday": "20.4",
+                "release": "30.05.2022",
+                "cv": {
+                    "en": "Laura Post",
+                    "chs": "徐慧",
+                    "jp": "遠藤綾",
+                    "kr": "Min Ah"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Незаметная стрела",
+                    "description": "<color=#FFD780FF>Обычная атака</color>\\nДо четырёх выстрелов из лука подряд.\\n\\n<color=#FFD780FF>Заряженная атака</color>\\nБолее меткий <color=#FFD780FF>прицельный выстрел</color> с увеличенным уроном.\\nВо время прицеливания наконечник стрелы заряжается водным потоком. Полностью заряженная стрела наносит <color=#80C0FFFF>Гидро урон</color>.\\n<color=#FFD780FF>Прорыв</color>\\nЧерез 5 сек. вне боя Е Лань входит в состояние Прорыва, которое сокращает время зарядки её следующего полностью заряженного прицельного выстрела на 80%. После полной зарядки она выстрелит Прорывной стрелой, которая наносит <color=#80C0FFFF>Гидро урон по площади</color>, зависящий от макс. HP Е Лань.\\n\\n<color=#FFD780FF>Атака в падении</color>\\nВыпускает град стрел в воздухе, которые при приземлении персонажа наносят урон по площади.",
+                    "icon": "Skill_A_02",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон атаки 1 40.7%",
+                            "1": "Урон атаки 2 39%",
+                            "2": "Урон атаки 3 51.6%",
+                            "3": "Урон атаки 4 32.5%+32.5%",
+                            "4": "Прицельный выстрел 43.9%",
+                            "5": "Заряженный выстрел 124%",
+                            "6": "Урон Прорывной стрелы {param7:F2P} макс. HP",
+                            "7": "Урон в падении 56.8%",
+                            "8": "Урон низкого/высокого удара 113.6%/141.9%"
+                        },
+                        "2": {
+                            "0": "Урон атаки 1 44%",
+                            "1": "Урон атаки 2 42.2%",
+                            "2": "Урон атаки 3 55.8%",
+                            "3": "Урон атаки 4 35.2%+35.2%",
+                            "4": "Прицельный выстрел 47.4%",
+                            "5": "Заряженный выстрел 133.3%",
+                            "6": "Урон Прорывной стрелы {param7:F2P} макс. HP",
+                            "7": "Урон в падении 61.5%",
+                            "8": "Урон низкого/высокого удара 122.9%/153.5%"
+                        },
+                        "3": {
+                            "0": "Урон атаки 1 47.3%",
+                            "1": "Урон атаки 2 45.4%",
+                            "2": "Урон атаки 3 60%",
+                            "3": "Урон атаки 4 37.8%+37.8%",
+                            "4": "Прицельный выстрел 51%",
+                            "5": "Заряженный выстрел 142.6%",
+                            "6": "Урон Прорывной стрелы {param7:F2P} макс. HP",
+                            "7": "Урон в падении 66.1%",
+                            "8": "Урон низкого/высокого удара 132.1%/165%"
+                        },
+                        "4": {
+                            "0": "Урон атаки 1 52%",
+                            "1": "Урон атаки 2 49.9%",
+                            "2": "Урон атаки 3 66%",
+                            "3": "Урон атаки 4 41.6%+41.6%",
+                            "4": "Прицельный выстрел 56.1%",
+                            "5": "Заряженный выстрел 155%",
+                            "6": "Урон Прорывной стрелы {param7:F2P} макс. HP",
+                            "7": "Урон в падении 72.7%",
+                            "8": "Урон низкого/высокого удара 145.3%/181.5%"
+                        },
+                        "5": {
+                            "0": "Урон атаки 1 55.3%",
+                            "1": "Урон атаки 2 53.1%",
+                            "2": "Урон атаки 3 70.2%",
+                            "3": "Урон атаки 4 44.2%+44.2%",
+                            "4": "Прицельный выстрел 59.7%",
+                            "5": "Заряженный выстрел 164.3%",
+                            "6": "Урон Прорывной стрелы {param7:F2P} макс. HP",
+                            "7": "Урон в падении 77.3%",
+                            "8": "Урон низкого/высокого удара 154.6%/193.1%"
+                        },
+                        "6": {
+                            "0": "Урон атаки 1 59.1%",
+                            "1": "Урон атаки 2 56.8%",
+                            "2": "Урон атаки 3 75%",
+                            "3": "Урон атаки 4 47.2%+47.2%",
+                            "4": "Прицельный выстрел 63.7%",
+                            "5": "Заряженный выстрел 173.6%",
+                            "6": "Урон Прорывной стрелы {param7:F2P} макс. HP",
+                            "7": "Урон в падении 82.6%",
+                            "8": "Урон низкого/высокого удара 165.2%/206.3%"
+                        },
+                        "7": {
+                            "0": "Урон атаки 1 64.3%",
+                            "1": "Урон атаки 2 61.7%",
+                            "2": "Урон атаки 3 81.6%",
+                            "3": "Урон атаки 4 51.4%+51.4%",
+                            "4": "Прицельный выстрел 69.4%",
+                            "5": "Заряженный выстрел 186%",
+                            "6": "Урон Прорывной стрелы {param7:F2P} макс. HP",
+                            "7": "Урон в падении 89.9%",
+                            "8": "Урон низкого/высокого удара 179.7%/224.5%"
+                        },
+                        "8": {
+                            "0": "Урон атаки 1 69.5%",
+                            "1": "Урон атаки 2 66.7%",
+                            "2": "Урон атаки 3 88.2%",
+                            "3": "Урон атаки 4 55.6%+55.6%",
+                            "4": "Прицельный выстрел 75%",
+                            "5": "Заряженный выстрел 198.4%",
+                            "6": "Урон Прорывной стрелы {param7:F2P} макс. HP",
+                            "7": "Урон в падении 97.1%",
+                            "8": "Урон низкого/высокого удара 194.2%/242.6%"
+                        },
+                        "9": {
+                            "0": "Урон атаки 1 74.7%",
+                            "1": "Урон атаки 2 71.7%",
+                            "2": "Урон атаки 3 94.8%",
+                            "3": "Урон атаки 4 59.7%+59.7%",
+                            "4": "Прицельный выстрел 80.6%",
+                            "5": "Заряженный выстрел 210.8%",
+                            "6": "Урон Прорывной стрелы {param7:F2P} макс. HP",
+                            "7": "Урон в падении 104.4%",
+                            "8": "Урон низкого/высокого удара 208.8%/260.8%"
+                        },
+                        "10": {
+                            "0": "Урон атаки 1 80.4%",
+                            "1": "Урон атаки 2 77.2%",
+                            "2": "Урон атаки 3 102%",
+                            "3": "Урон атаки 4 64.3%+64.3%",
+                            "4": "Прицельный выстрел 86.7%",
+                            "5": "Заряженный выстрел 223.2%",
+                            "6": "Урон Прорывной стрелы {param7:F2P} макс. HP",
+                            "7": "Урон в падении 112.3%",
+                            "8": "Урон низкого/высокого удара 224.6%/280.6%"
+                        },
+                        "11": {
+                            "0": "Урон атаки 1 86.1%",
+                            "1": "Урон атаки 2 82.6%",
+                            "2": "Урон атаки 3 109.2%",
+                            "3": "Урон атаки 4 68.8%+68.8%",
+                            "4": "Прицельный выстрел 92.8%",
+                            "5": "Заряженный выстрел 235.6%",
+                            "6": "Урон Прорывной стрелы {param7:F2P} макс. HP",
+                            "7": "Урон в падении 120.3%",
+                            "8": "Урон низкого/высокого удара 240.5%/300.4%"
+                        },
+                        "12": {
+                            "0": "Урон атаки 1 91.8%",
+                            "1": "Урон атаки 2 88.1%",
+                            "2": "Урон атаки 3 116.4%",
+                            "3": "Урон атаки 4 73.3%+73.3%",
+                            "4": "Прицельный выстрел 98.9%",
+                            "5": "Заряженный выстрел 248%",
+                            "6": "Урон Прорывной стрелы {param7:F2P} макс. HP",
+                            "7": "Урон в падении 128.2%",
+                            "8": "Урон низкого/высокого удара 256.3%/320.2%"
+                        },
+                        "13": {
+                            "0": "Урон атаки 1 97.4%",
+                            "1": "Урон атаки 2 93.5%",
+                            "2": "Урон атаки 3 123.6%",
+                            "3": "Урон атаки 4 77.9%+77.9%",
+                            "4": "Прицельный выстрел 105.1%",
+                            "5": "Заряженный выстрел 263.5%",
+                            "6": "Урон Прорывной стрелы {param7:F2P} макс. HP",
+                            "7": "Урон в падении 136.1%",
+                            "8": "Урон низкого/высокого удара 272.2%/340%"
+                        },
+                        "14": {
+                            "0": "Урон атаки 1 103.1%",
+                            "1": "Урон атаки 2 99%",
+                            "2": "Урон атаки 3 130.8%",
+                            "3": "Урон атаки 4 82.4%+82.4%",
+                            "4": "Прицельный выстрел 111.2%",
+                            "5": "Заряженный выстрел 279%",
+                            "6": "Урон Прорывной стрелы {param7:F2P} макс. HP",
+                            "7": "Урон в падении 144.1%",
+                            "8": "Урон низкого/высокого удара 288%/359.8%"
+                        },
+                        "15": {
+                            "0": "Урон атаки 1 108.8%",
+                            "1": "Урон атаки 2 104.4%",
+                            "2": "Урон атаки 3 138%",
+                            "3": "Урон атаки 4 86.9%+86.9%",
+                            "4": "Прицельный выстрел 117.3%",
+                            "5": "Заряженный выстрел 294.5%",
+                            "6": "Урон Прорывной стрелы {param7:F2P} макс. HP",
+                            "7": "Урон в падении 152%",
+                            "8": "Урон низкого/высокого удара 303.9%/379.6%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104310",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113019",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113019",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113019",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113019",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Переплетённая нить жизни",
+                    "description": "Быстро движется, опутывая и отмечая противников по пути Нитью жизни.\\nПосле окончания движения Нить жизни взрывается, нанося отмеченным противникам <color=#80C0FFFF>Гидро урон</color>, который зависит от макс. HP Е Лань. \\n\\n<color=#FFD780FF>Быстрое нажатие</color>\\nБыстро продвигается вперёд на определённое расстояние.\\n\\n<color=#FFD780FF>Долгое нажатие</color>\\nСтремительно движется некоторое время, а её сопротивление прерыванию в этом состоянии повышается.\\nЕ Лань может контролировать направление движения. При повторном использовании навыка движение прекращается.\\n\\nКаждый противник, отмеченный Нитью жизни, даёт Е Лань 34% шанс на получение Прорыва при взрыве.\\n\\n<i>Только когда она начинает дёргать за ниточки, коварные злодеи и подлые разбойники понимают, что спасения нет.</i>",
+                    "icon": "Skill_S_Yelan_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 22.6% макс. HP",
+                            "1": "Макс. длительность долгого нажатия 3 сек.",
+                            "2": "Время отката 10 сек."
+                        },
+                        "2": {
+                            "0": "Урон навыка 24.3% макс. HP",
+                            "1": "Макс. длительность долгого нажатия 3 сек.",
+                            "2": "Время отката 10 сек."
+                        },
+                        "3": {
+                            "0": "Урон навыка 26% макс. HP",
+                            "1": "Макс. длительность долгого нажатия 3 сек.",
+                            "2": "Время отката 10 сек."
+                        },
+                        "4": {
+                            "0": "Урон навыка 28.3% макс. HP",
+                            "1": "Макс. длительность долгого нажатия 3 сек.",
+                            "2": "Время отката 10 сек."
+                        },
+                        "5": {
+                            "0": "Урон навыка 30% макс. HP",
+                            "1": "Макс. длительность долгого нажатия 3 сек.",
+                            "2": "Время отката 10 сек."
+                        },
+                        "6": {
+                            "0": "Урон навыка 31.7% макс. HP",
+                            "1": "Макс. длительность долгого нажатия 3 сек.",
+                            "2": "Время отката 10 сек."
+                        },
+                        "7": {
+                            "0": "Урон навыка 33.9% макс. HP",
+                            "1": "Макс. длительность долгого нажатия 3 сек.",
+                            "2": "Время отката 10 сек."
+                        },
+                        "8": {
+                            "0": "Урон навыка 36.2% макс. HP",
+                            "1": "Макс. длительность долгого нажатия 3 сек.",
+                            "2": "Время отката 10 сек."
+                        },
+                        "9": {
+                            "0": "Урон навыка 38.4% макс. HP",
+                            "1": "Макс. длительность долгого нажатия 3 сек.",
+                            "2": "Время отката 10 сек."
+                        },
+                        "10": {
+                            "0": "Урон навыка 40.7% макс. HP",
+                            "1": "Макс. длительность долгого нажатия 3 сек.",
+                            "2": "Время отката 10 сек."
+                        },
+                        "11": {
+                            "0": "Урон навыка 43% макс. HP",
+                            "1": "Макс. длительность долгого нажатия 3 сек.",
+                            "2": "Время отката 10 сек."
+                        },
+                        "12": {
+                            "0": "Урон навыка 45.2% макс. HP",
+                            "1": "Макс. длительность долгого нажатия 3 сек.",
+                            "2": "Время отката 10 сек."
+                        },
+                        "13": {
+                            "0": "Урон навыка 48.1% макс. HP",
+                            "1": "Макс. длительность долгого нажатия 3 сек.",
+                            "2": "Время отката 10 сек."
+                        },
+                        "14": {
+                            "0": "Урон навыка 50.9% макс. HP",
+                            "1": "Макс. длительность долгого нажатия 3 сек.",
+                            "2": "Время отката 10 сек."
+                        },
+                        "15": {
+                            "0": "Урон навыка 53.7% макс. HP",
+                            "1": "Макс. длительность долгого нажатия 3 сек.",
+                            "2": "Время отката 10 сек."
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104310",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113019",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113019",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113019",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113019",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Изысканные игральные кости",
+                    "description": "Наносит <color=#80C0FFFF>Гидро урон по площади</color> и создаёт Изысканный бросок, который помогает в битве. \\n\\n<color=#FFD780FF>Изысканный бросок</color>\\nСледует за персонажем и при совместной атаке наносит <color=#80C0FFFF>Гидро урон</color>, зависящий от макс. HP Е Лань. Совершает совместную атаку в следующих ситуациях:\\n· когда собственный активный персонаж совершает обычную атаку. Может возникать раз в секунду;\\n· когда собственная Нить жизни Е Лань взрывается и попадает по противнику.\\n\\n<i>«Зависимость от азартных игр не приведёт ни к чему хорошему. Давай я поясню тебе расклад? Как думаешь, каковы твои шансы победить, когда у меня семь игральных кубиков, а у тебя только один?»</i>",
+                    "icon": "Skill_E_Yelan_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Изысканного броска {param2:F2P} макс. HP ×3",
+                            "2": "Длительность 15 сек.",
+                            "3": "Время отката 18 сек.",
+                            "4": "Потребление энергии 70"
+                        },
+                        "2": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Изысканного броска {param2:F2P} макс. HP ×3",
+                            "2": "Длительность 15 сек.",
+                            "3": "Время отката 18 сек.",
+                            "4": "Потребление энергии 70"
+                        },
+                        "3": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Изысканного броска {param2:F2P} макс. HP ×3",
+                            "2": "Длительность 15 сек.",
+                            "3": "Время отката 18 сек.",
+                            "4": "Потребление энергии 70"
+                        },
+                        "4": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Изысканного броска {param2:F2P} макс. HP ×3",
+                            "2": "Длительность 15 сек.",
+                            "3": "Время отката 18 сек.",
+                            "4": "Потребление энергии 70"
+                        },
+                        "5": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Изысканного броска {param2:F2P} макс. HP ×3",
+                            "2": "Длительность 15 сек.",
+                            "3": "Время отката 18 сек.",
+                            "4": "Потребление энергии 70"
+                        },
+                        "6": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Изысканного броска {param2:F2P} макс. HP ×3",
+                            "2": "Длительность 15 сек.",
+                            "3": "Время отката 18 сек.",
+                            "4": "Потребление энергии 70"
+                        },
+                        "7": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Изысканного броска {param2:F2P} макс. HP ×3",
+                            "2": "Длительность 15 сек.",
+                            "3": "Время отката 18 сек.",
+                            "4": "Потребление энергии 70"
+                        },
+                        "8": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Изысканного броска {param2:F2P} макс. HP ×3",
+                            "2": "Длительность 15 сек.",
+                            "3": "Время отката 18 сек.",
+                            "4": "Потребление энергии 70"
+                        },
+                        "9": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Изысканного броска {param2:F2P} макс. HP ×3",
+                            "2": "Длительность 15 сек.",
+                            "3": "Время отката 18 сек.",
+                            "4": "Потребление энергии 70"
+                        },
+                        "10": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Изысканного броска {param2:F2P} макс. HP ×3",
+                            "2": "Длительность 15 сек.",
+                            "3": "Время отката 18 сек.",
+                            "4": "Потребление энергии 70"
+                        },
+                        "11": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Изысканного броска {param2:F2P} макс. HP ×3",
+                            "2": "Длительность 15 сек.",
+                            "3": "Время отката 18 сек.",
+                            "4": "Потребление энергии 70"
+                        },
+                        "12": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Изысканного броска {param2:F2P} макс. HP ×3",
+                            "2": "Длительность 15 сек.",
+                            "3": "Время отката 18 сек.",
+                            "4": "Потребление энергии 70"
+                        },
+                        "13": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Изысканного броска {param2:F2P} макс. HP ×3",
+                            "2": "Длительность 15 сек.",
+                            "3": "Время отката 18 сек.",
+                            "4": "Потребление энергии 70"
+                        },
+                        "14": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Изысканного броска {param2:F2P} макс. HP ×3",
+                            "2": "Длительность 15 сек.",
+                            "3": "Время отката 18 сек.",
+                            "4": "Потребление энергии 70"
+                        },
+                        "15": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Изысканного броска {param2:F2P} макс. HP ×3",
+                            "2": "Длительность 15 сек.",
+                            "3": "Время отката 18 сек.",
+                            "4": "Потребление энергии 70"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104310",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113019",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113019",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113019",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113019",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Изысканные игральные кости",
+                    "description": "Наносит <color=#80C0FFFF>Гидро урон по площади</color> и создаёт Изысканный бросок, который помогает в битве. \\n\\n<color=#FFD780FF>Изысканный бросок</color>\\nСледует за персонажем и при совместной атаке наносит <color=#80C0FFFF>Гидро урон</color>, зависящий от макс. HP Е Лань. Совершает совместную атаку в следующих ситуациях:\\n· когда собственный активный персонаж совершает обычную атаку. Может возникать раз в секунду;\\n· когда собственная Нить жизни Е Лань взрывается и попадает по противнику.\\n\\n<i>«Зависимость от азартных игр не приведёт ни к чему хорошему. Давай я поясню тебе расклад? Как думаешь, каковы твои шансы победить, когда у меня семь игральных кубиков, а у тебя только один?»</i>",
+                    "icon": "Skill_E_Yelan_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Изысканного броска {param2:F2P} макс. HP ×3",
+                            "2": "Длительность 15 сек.",
+                            "3": "Время отката 18 сек.",
+                            "4": "Потребление энергии 70"
+                        },
+                        "2": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Изысканного броска {param2:F2P} макс. HP ×3",
+                            "2": "Длительность 15 сек.",
+                            "3": "Время отката 18 сек.",
+                            "4": "Потребление энергии 70"
+                        },
+                        "3": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Изысканного броска {param2:F2P} макс. HP ×3",
+                            "2": "Длительность 15 сек.",
+                            "3": "Время отката 18 сек.",
+                            "4": "Потребление энергии 70"
+                        },
+                        "4": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Изысканного броска {param2:F2P} макс. HP ×3",
+                            "2": "Длительность 15 сек.",
+                            "3": "Время отката 18 сек.",
+                            "4": "Потребление энергии 70"
+                        },
+                        "5": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Изысканного броска {param2:F2P} макс. HP ×3",
+                            "2": "Длительность 15 сек.",
+                            "3": "Время отката 18 сек.",
+                            "4": "Потребление энергии 70"
+                        },
+                        "6": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Изысканного броска {param2:F2P} макс. HP ×3",
+                            "2": "Длительность 15 сек.",
+                            "3": "Время отката 18 сек.",
+                            "4": "Потребление энергии 70"
+                        },
+                        "7": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Изысканного броска {param2:F2P} макс. HP ×3",
+                            "2": "Длительность 15 сек.",
+                            "3": "Время отката 18 сек.",
+                            "4": "Потребление энергии 70"
+                        },
+                        "8": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Изысканного броска {param2:F2P} макс. HP ×3",
+                            "2": "Длительность 15 сек.",
+                            "3": "Время отката 18 сек.",
+                            "4": "Потребление энергии 70"
+                        },
+                        "9": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Изысканного броска {param2:F2P} макс. HP ×3",
+                            "2": "Длительность 15 сек.",
+                            "3": "Время отката 18 сек.",
+                            "4": "Потребление энергии 70"
+                        },
+                        "10": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Изысканного броска {param2:F2P} макс. HP ×3",
+                            "2": "Длительность 15 сек.",
+                            "3": "Время отката 18 сек.",
+                            "4": "Потребление энергии 70"
+                        },
+                        "11": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Изысканного броска {param2:F2P} макс. HP ×3",
+                            "2": "Длительность 15 сек.",
+                            "3": "Время отката 18 сек.",
+                            "4": "Потребление энергии 70"
+                        },
+                        "12": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Изысканного броска {param2:F2P} макс. HP ×3",
+                            "2": "Длительность 15 сек.",
+                            "3": "Время отката 18 сек.",
+                            "4": "Потребление энергии 70"
+                        },
+                        "13": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Изысканного броска {param2:F2P} макс. HP ×3",
+                            "2": "Длительность 15 сек.",
+                            "3": "Время отката 18 сек.",
+                            "4": "Потребление энергии 70"
+                        },
+                        "14": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Изысканного броска {param2:F2P} макс. HP ×3",
+                            "2": "Длительность 15 сек.",
+                            "3": "Время отката 18 сек.",
+                            "4": "Потребление энергии 70"
+                        },
+                        "15": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Изысканного броска {param2:F2P} макс. HP ×3",
+                            "2": "Длительность 15 сек.",
+                            "3": "Время отката 18 сек.",
+                            "4": "Потребление энергии 70"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104310",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104311",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113019",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113019",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113019",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104312",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113019",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Перехват инициативы",
+                    "description": "Если в отряде 1/2/3/4 типа элементов, макс. HP Е Лань увеличивается на 6%/12%/18%/30% соответственно.",
+                    "icon": "UI_Talent_S_Yelan_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Лёгкая приспособляемость",
+                    "description": "Пока активен <color=#FFD780FF>Изысканный бросок</color>, урон, наносимый своим активным персонажем, увеличивается на 1% и продолжает увеличиваться на 3,5% каждую сек. Максимальное увеличение наносимого урона - 50%.\\nПовторная активация Изысканных игральных костей во время действия эффекта прервёт его.",
+                    "icon": "UI_Talent_S_Yelan_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Необходимый расчёт",
+                    "description": "На 25% увеличивает награду экспедиций в Ли Юэ длительностью 20 ч.",
+                    "icon": "UI_Talent_Expedition_Liyue",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Игра с мошенниками",
+                    "description": "Увеличивает количество зарядов навыка <color=#FFD780FF>Переплетённая нить жизни</color> на 1.",
+                    "icon": "UI_Talent_S_Yelan_01"
+                },
+                "1": {
+                    "name": "Принимаем всех желающих",
+                    "description": "Когда <color=#FFD780FF>Изысканный бросок</color> проводит совместную атаку, то запускает дополнительную водяную стрелу, которая наносит Гидро урон в 14% макс. HP Е Лань.\\nЭффект может возникнуть один раз в 1,8 сек.",
+                    "icon": "UI_Talent_S_Yelan_02"
+                },
+                "2": {
+                    "name": "Остерегайся мошенников",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Изысканные игральные кости</color> на 3.\\nМакс. уровень: 15.",
+                    "icon": "UI_Talent_U_Yelan_01"
+                },
+                "3": {
+                    "name": "Заманить и подменить",
+                    "description": "После взрыва <color=#FFD780FF>Нити жизни</color> на 25 сек. увеличивает макс. HP всех членов отряда на 10% за каждого противника, отмеченного ею. Максимальное увеличение HP - 40%.",
+                    "icon": "UI_Talent_S_Yelan_03"
+                },
+                "4": {
+                    "name": "Ловкость дилера",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Переплетённая нить жизни</color> на 3.\\nМакс. уровень: 15.",
+                    "icon": "UI_Talent_U_Yelan_02"
+                },
+                "5": {
+                    "name": "Победитель получает всё",
+                    "description": "После использования навыка <color=#FFD780FF>Изысканные игральные кости</color> Е Лань войдёт в состояние Стратега.\\nВ этом состоянии все обычные атаки Е Лань становятся особыми Прорывными стрелами. Эти стрелы обладают схожими характеристиками с обычными Прорывными стрелами, наносимый ими урон считается уроном заряженной атаки и составляет 156% от обычного урона Прорывных стрел.\\n\\nСостояние Стратега исчезнет через 20 сек. или после 5 выпущенных стрел.",
+                    "icon": "UI_Talent_S_Yelan_04"
+                }
+            },
+            "elevation": {
+                "sub": "Шанс крит. попадания %",
+                "0": {
+                    "stats": {
+                        "HP": 1125,
+                        "ATK": 19,
+                        "DEF": 43,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2918,
+                        "ATK": 49,
+                        "DEF": 111,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100033",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104121",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112032",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 3883,
+                        "ATK": 66,
+                        "DEF": 147,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 5810,
+                        "ATK": 98,
+                        "DEF": 220,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100033",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104122",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112032",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113035",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 6495,
+                        "ATK": 110,
+                        "DEF": 246,
+                        "sub": 4.8
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 7472,
+                        "ATK": 126,
+                        "DEF": 283,
+                        "sub": 4.8
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100033",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104122",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112033",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113035",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 8386,
+                        "ATK": 142,
+                        "DEF": 318,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 9275,
+                        "ATK": 157,
+                        "DEF": 352,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100033",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104123",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112033",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113035",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 9960,
+                        "ATK": 168,
+                        "DEF": 378,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 11156,
+                        "ATK": 188,
+                        "DEF": 423,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100033",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104123",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112034",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113035",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 11841,
+                        "ATK": 200,
+                        "DEF": 449,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 12749,
+                        "ATK": 215,
+                        "DEF": 483,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100033",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104124",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112034",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113035",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 13434,
+                        "ATK": 227,
+                        "DEF": 509,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 14450,
+                        "ATK": 244,
+                        "DEF": 548,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                }
+            }
+        }
+    }
+}

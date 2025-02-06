@@ -1,0 +1,2784 @@
+{
+    "Sethos": {
+        "en": {
+            "name": "Sethos",
+            "name_ru": "Сетос",
+            "id": 10000097,
+            "rarity": 4,
+            "weapon": "Bow",
+            "element": "Electro",
+            "region": "Sumeru",
+            "more": {
+                "title": "Wisdom's Measure",
+                "detail": "The Temple of Silence's heir. Burdened with secrets, he comes from the sands.",
+                "constellation": "Basileos Delta",
+                "group": "Temple of Silence",
+                "birthday": "31.5",
+                "release": "03.06.2024",
+                "cv": {
+                    "en": "Zeno Robinson",
+                    "chs": "李兰陵",
+                    "jp": "千葉翔也",
+                    "kr": "Kim Dong-hyun"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Normal Attack: Royal Reed Archery",
+                    "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 3 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, the power of Electro will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:\\n·Charge Level 1: Fires off an arrow carrying the power of lightning that deals <color=#FFACFFFF>Electro DMG</color>.\\n·Charge Level 2: Fires off a <color=#FFD780FF>Shadowpiercing Shot</color> which can pierce enemies, dealing <color=#FFACFFFF>Electro DMG</color> to enemies along its path. After the Shadowpiercing Shot is fully charged, Sethos cannot move around.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+                    "icon": "Skill_A_02",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "1-Hit DMG 52.6%",
+                            "1": "2-Hit DMG 23.8%+26.6%",
+                            "2": "3-Hit DMG 74%",
+                            "3": "Aimed Shot 43.9%",
+                            "4": "Aimed Shot Charge Level 1 124%",
+                            "5": "Shadowpiercing Shot DMG 140% ATK+134.6% Elemental Mastery",
+                            "6": "Plunge DMG 56.8%",
+                            "7": "Low/High Plunge DMG 113.6%/141.9%"
+                        },
+                        "2": {
+                            "0": "1-Hit DMG 56.9%",
+                            "1": "2-Hit DMG 25.7%+28.8%",
+                            "2": "3-Hit DMG 80%",
+                            "3": "Aimed Shot 47.4%",
+                            "4": "Aimed Shot Charge Level 1 133.3%",
+                            "5": "Shadowpiercing Shot DMG 150.5% ATK+144.7% Elemental Mastery",
+                            "6": "Plunge DMG 61.5%",
+                            "7": "Low/High Plunge DMG 122.9%/153.5%"
+                        },
+                        "3": {
+                            "0": "1-Hit DMG 61.2%",
+                            "1": "2-Hit DMG 27.7%+30.9%",
+                            "2": "3-Hit DMG 86%",
+                            "3": "Aimed Shot 51%",
+                            "4": "Aimed Shot Charge Level 1 142.6%",
+                            "5": "Shadowpiercing Shot DMG 161% ATK+154.7% Elemental Mastery",
+                            "6": "Plunge DMG 66.1%",
+                            "7": "Low/High Plunge DMG 132.1%/165%"
+                        },
+                        "4": {
+                            "0": "1-Hit DMG 67.3%",
+                            "1": "2-Hit DMG 30.4%+34%",
+                            "2": "3-Hit DMG 94.6%",
+                            "3": "Aimed Shot 56.1%",
+                            "4": "Aimed Shot Charge Level 1 155%",
+                            "5": "Shadowpiercing Shot DMG 175% ATK+168.2% Elemental Mastery",
+                            "6": "Plunge DMG 72.7%",
+                            "7": "Low/High Plunge DMG 145.3%/181.5%"
+                        },
+                        "5": {
+                            "0": "1-Hit DMG 71.6%",
+                            "1": "2-Hit DMG 32.4%+36.2%",
+                            "2": "3-Hit DMG 100.7%",
+                            "3": "Aimed Shot 59.7%",
+                            "4": "Aimed Shot Charge Level 1 164.3%",
+                            "5": "Shadowpiercing Shot DMG 185.5% ATK+178.3% Elemental Mastery",
+                            "6": "Plunge DMG 77.3%",
+                            "7": "Low/High Plunge DMG 154.6%/193.1%"
+                        },
+                        "6": {
+                            "0": "1-Hit DMG 76.5%",
+                            "1": "2-Hit DMG 34.6%+38.7%",
+                            "2": "3-Hit DMG 107.5%",
+                            "3": "Aimed Shot 63.7%",
+                            "4": "Aimed Shot Charge Level 1 173.6%",
+                            "5": "Shadowpiercing Shot DMG 196% ATK+188.4% Elemental Mastery",
+                            "6": "Plunge DMG 82.6%",
+                            "7": "Low/High Plunge DMG 165.2%/206.3%"
+                        },
+                        "7": {
+                            "0": "1-Hit DMG 83.2%",
+                            "1": "2-Hit DMG 37.6%+42.1%",
+                            "2": "3-Hit DMG 117%",
+                            "3": "Aimed Shot 69.4%",
+                            "4": "Aimed Shot Charge Level 1 186%",
+                            "5": "Shadowpiercing Shot DMG 210% ATK+201.8% Elemental Mastery",
+                            "6": "Plunge DMG 89.9%",
+                            "7": "Low/High Plunge DMG 179.7%/224.5%"
+                        },
+                        "8": {
+                            "0": "1-Hit DMG 89.9%",
+                            "1": "2-Hit DMG 40.7%+45.5%",
+                            "2": "3-Hit DMG 126.5%",
+                            "3": "Aimed Shot 75%",
+                            "4": "Aimed Shot Charge Level 1 198.4%",
+                            "5": "Shadowpiercing Shot DMG 224% ATK+215.3% Elemental Mastery",
+                            "6": "Plunge DMG 97.1%",
+                            "7": "Low/High Plunge DMG 194.2%/242.6%"
+                        },
+                        "9": {
+                            "0": "1-Hit DMG 96.7%",
+                            "1": "2-Hit DMG 43.7%+48.9%",
+                            "2": "3-Hit DMG 135.9%",
+                            "3": "Aimed Shot 80.6%",
+                            "4": "Aimed Shot Charge Level 1 210.8%",
+                            "5": "Shadowpiercing Shot DMG 238% ATK+228.8% Elemental Mastery",
+                            "6": "Plunge DMG 104.4%",
+                            "7": "Low/High Plunge DMG 208.8%/260.8%"
+                        },
+                        "10": {
+                            "0": "1-Hit DMG 104%",
+                            "1": "2-Hit DMG 47%+52.6%",
+                            "2": "3-Hit DMG 146.3%",
+                            "3": "Aimed Shot 86.7%",
+                            "4": "Aimed Shot Charge Level 1 223.2%",
+                            "5": "Shadowpiercing Shot DMG 252% ATK+242.2% Elemental Mastery",
+                            "6": "Plunge DMG 112.3%",
+                            "7": "Low/High Plunge DMG 224.6%/280.6%"
+                        },
+                        "11": {
+                            "0": "1-Hit DMG 111.3%",
+                            "1": "2-Hit DMG 50.4%+56.3%",
+                            "2": "3-Hit DMG 156.6%",
+                            "3": "Aimed Shot 92.8%",
+                            "4": "Aimed Shot Charge Level 1 235.6%",
+                            "5": "Shadowpiercing Shot DMG 266% ATK+255.7% Elemental Mastery",
+                            "6": "Plunge DMG 120.3%",
+                            "7": "Low/High Plunge DMG 240.5%/300.4%"
+                        },
+                        "12": {
+                            "0": "1-Hit DMG 118.7%",
+                            "1": "2-Hit DMG 53.7%+60%",
+                            "2": "3-Hit DMG 166.9%",
+                            "3": "Aimed Shot 98.9%",
+                            "4": "Aimed Shot Charge Level 1 248%",
+                            "5": "Shadowpiercing Shot DMG 280% ATK+269.1% Elemental Mastery",
+                            "6": "Plunge DMG 128.2%",
+                            "7": "Low/High Plunge DMG 256.3%/320.2%"
+                        },
+                        "13": {
+                            "0": "1-Hit DMG 126%",
+                            "1": "2-Hit DMG 57%+63.7%",
+                            "2": "3-Hit DMG 177.2%",
+                            "3": "Aimed Shot 105.1%",
+                            "4": "Aimed Shot Charge Level 1 263.5%",
+                            "5": "Shadowpiercing Shot DMG 297.5% ATK+285.9% Elemental Mastery",
+                            "6": "Plunge DMG 136.1%",
+                            "7": "Low/High Plunge DMG 272.2%/340%"
+                        },
+                        "14": {
+                            "0": "1-Hit DMG 133.4%",
+                            "1": "2-Hit DMG 60.3%+67.4%",
+                            "2": "3-Hit DMG 187.5%",
+                            "3": "Aimed Shot 111.2%",
+                            "4": "Aimed Shot Charge Level 1 279%",
+                            "5": "Shadowpiercing Shot DMG 315% ATK+302.8% Elemental Mastery",
+                            "6": "Plunge DMG 144.1%",
+                            "7": "Low/High Plunge DMG 288%/359.8%"
+                        },
+                        "15": {
+                            "0": "1-Hit DMG 140.7%",
+                            "1": "2-Hit DMG 63.6%+71.2%",
+                            "2": "3-Hit DMG 197.9%",
+                            "3": "Aimed Shot 117.3%",
+                            "4": "Aimed Shot Charge Level 1 294.5%",
+                            "5": "Shadowpiercing Shot DMG 332.5% ATK+319.6% Elemental Mastery",
+                            "6": "Plunge DMG 152%",
+                            "7": "Low/High Plunge DMG 303.9%/379.6%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104335",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112065",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104337",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113043",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104337",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113043",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104337",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113043",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104337",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112067",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113043",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Ancient Rite: The Thundering Sands",
+                    "description": "Gathers the might of thunder, dealing <color=#FFACFFFF>AoE Electro DMG</color> and quickly retreating. If this attack triggers Electro-Charged, Superconduct, Overloaded, Quicken, Aggravate, Hyperbloom, or Electro Swirl reactions, Sethos recovers a certain amount of Elemental Energy.\\n\\n<i>\"The God indwelt Priest, the Magi who turned pits to springs, the singers of the sea of sand still spread their stories... But I know those are not legends, for they are our ancestors.\"</i>",
+                    "icon": "Skill_S_Sethos_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 115.6%",
+                            "1": "Energy Regeneration 12",
+                            "2": "CD 8s"
+                        },
+                        "2": {
+                            "0": "Skill DMG 124.3%",
+                            "1": "Energy Regeneration 12",
+                            "2": "CD 8s"
+                        },
+                        "3": {
+                            "0": "Skill DMG 132.9%",
+                            "1": "Energy Regeneration 12",
+                            "2": "CD 8s"
+                        },
+                        "4": {
+                            "0": "Skill DMG 144.5%",
+                            "1": "Energy Regeneration 12",
+                            "2": "CD 8s"
+                        },
+                        "5": {
+                            "0": "Skill DMG 153.2%",
+                            "1": "Energy Regeneration 12",
+                            "2": "CD 8s"
+                        },
+                        "6": {
+                            "0": "Skill DMG 161.8%",
+                            "1": "Energy Regeneration 12",
+                            "2": "CD 8s"
+                        },
+                        "7": {
+                            "0": "Skill DMG 173.4%",
+                            "1": "Energy Regeneration 12",
+                            "2": "CD 8s"
+                        },
+                        "8": {
+                            "0": "Skill DMG 185%",
+                            "1": "Energy Regeneration 12",
+                            "2": "CD 8s"
+                        },
+                        "9": {
+                            "0": "Skill DMG 196.5%",
+                            "1": "Energy Regeneration 12",
+                            "2": "CD 8s"
+                        },
+                        "10": {
+                            "0": "Skill DMG 208.1%",
+                            "1": "Energy Regeneration 12",
+                            "2": "CD 8s"
+                        },
+                        "11": {
+                            "0": "Skill DMG 219.6%",
+                            "1": "Energy Regeneration 12",
+                            "2": "CD 8s"
+                        },
+                        "12": {
+                            "0": "Skill DMG 231.2%",
+                            "1": "Energy Regeneration 12",
+                            "2": "CD 8s"
+                        },
+                        "13": {
+                            "0": "Skill DMG 245.7%",
+                            "1": "Energy Regeneration 12",
+                            "2": "CD 8s"
+                        },
+                        "14": {
+                            "0": "Skill DMG 260.1%",
+                            "1": "Energy Regeneration 12",
+                            "2": "CD 8s"
+                        },
+                        "15": {
+                            "0": "Skill DMG 274.5%",
+                            "1": "Energy Regeneration 12",
+                            "2": "CD 8s"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104335",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112065",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104337",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113043",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104337",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113043",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104337",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113043",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104337",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112067",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113043",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Secret Rite: Twilight Shadowpiercer",
+                    "description": "Perform a secret rite, entering the \"Twilight Meditation\" state, during which Sethos's Normal Attacks will be converted into enemy-piercing <color=#FFD780FF>Dusk Bolts</color>: Deal <color=#FFACFFFF>Electro DMG</color> to opponents in its path, with DMG increased based on Sethos's Elemental Mastery.\\nSethos cannot perform Aimed Shots while in this state.\\nDMG dealt by Dusk Bolts is considered Charged Attack DMG.\\nThis effect will be canceled when Sethos leaves the field.\\n\\n<i>The archives of the Temple of Silence preserve many tomes left behind by Akhtamun, from the era of King Deshret. Many secret rituals of great power are recorded within, but even among the Temple of Silence, very few could master them.</i>",
+                    "icon": "Skill_E_Sethos_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Dusk Bolt DMG Increase 196.2% Elemental Mastery",
+                            "1": "Twilight Meditation Duration 8s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "2": {
+                            "0": "Dusk Bolt DMG Increase 210.9% Elemental Mastery",
+                            "1": "Twilight Meditation Duration 8s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "3": {
+                            "0": "Dusk Bolt DMG Increase 225.6% Elemental Mastery",
+                            "1": "Twilight Meditation Duration 8s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "4": {
+                            "0": "Dusk Bolt DMG Increase 245.2% Elemental Mastery",
+                            "1": "Twilight Meditation Duration 8s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "5": {
+                            "0": "Dusk Bolt DMG Increase 259.9% Elemental Mastery",
+                            "1": "Twilight Meditation Duration 8s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "6": {
+                            "0": "Dusk Bolt DMG Increase 274.6% Elemental Mastery",
+                            "1": "Twilight Meditation Duration 8s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "7": {
+                            "0": "Dusk Bolt DMG Increase 294.2% Elemental Mastery",
+                            "1": "Twilight Meditation Duration 8s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "8": {
+                            "0": "Dusk Bolt DMG Increase 313.9% Elemental Mastery",
+                            "1": "Twilight Meditation Duration 8s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "9": {
+                            "0": "Dusk Bolt DMG Increase 333.5% Elemental Mastery",
+                            "1": "Twilight Meditation Duration 8s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "10": {
+                            "0": "Dusk Bolt DMG Increase 353.1% Elemental Mastery",
+                            "1": "Twilight Meditation Duration 8s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "11": {
+                            "0": "Dusk Bolt DMG Increase 372.7% Elemental Mastery",
+                            "1": "Twilight Meditation Duration 8s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "12": {
+                            "0": "Dusk Bolt DMG Increase 392.3% Elemental Mastery",
+                            "1": "Twilight Meditation Duration 8s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "13": {
+                            "0": "Dusk Bolt DMG Increase 416.8% Elemental Mastery",
+                            "1": "Twilight Meditation Duration 8s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "14": {
+                            "0": "Dusk Bolt DMG Increase 441.4% Elemental Mastery",
+                            "1": "Twilight Meditation Duration 8s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "15": {
+                            "0": "Dusk Bolt DMG Increase 465.9% Elemental Mastery",
+                            "1": "Twilight Meditation Duration 8s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104335",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112065",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104337",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113043",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104337",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113043",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104337",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113043",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104337",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112067",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113043",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Secret Rite: Twilight Shadowpiercer",
+                    "description": "Perform a secret rite, entering the \"Twilight Meditation\" state, during which Sethos's Normal Attacks will be converted into enemy-piercing <color=#FFD780FF>Dusk Bolts</color>: Deal <color=#FFACFFFF>Electro DMG</color> to opponents in its path, with DMG increased based on Sethos's Elemental Mastery.\\nSethos cannot perform Aimed Shots while in this state.\\nDMG dealt by Dusk Bolts is considered Charged Attack DMG.\\nThis effect will be canceled when Sethos leaves the field.\\n\\n<i>The archives of the Temple of Silence preserve many tomes left behind by Akhtamun, from the era of King Deshret. Many secret rituals of great power are recorded within, but even among the Temple of Silence, very few could master them.</i>",
+                    "icon": "Skill_E_Sethos_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Dusk Bolt DMG Increase 196.2% Elemental Mastery",
+                            "1": "Twilight Meditation Duration 8s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "2": {
+                            "0": "Dusk Bolt DMG Increase 210.9% Elemental Mastery",
+                            "1": "Twilight Meditation Duration 8s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "3": {
+                            "0": "Dusk Bolt DMG Increase 225.6% Elemental Mastery",
+                            "1": "Twilight Meditation Duration 8s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "4": {
+                            "0": "Dusk Bolt DMG Increase 245.2% Elemental Mastery",
+                            "1": "Twilight Meditation Duration 8s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "5": {
+                            "0": "Dusk Bolt DMG Increase 259.9% Elemental Mastery",
+                            "1": "Twilight Meditation Duration 8s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "6": {
+                            "0": "Dusk Bolt DMG Increase 274.6% Elemental Mastery",
+                            "1": "Twilight Meditation Duration 8s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "7": {
+                            "0": "Dusk Bolt DMG Increase 294.2% Elemental Mastery",
+                            "1": "Twilight Meditation Duration 8s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "8": {
+                            "0": "Dusk Bolt DMG Increase 313.9% Elemental Mastery",
+                            "1": "Twilight Meditation Duration 8s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "9": {
+                            "0": "Dusk Bolt DMG Increase 333.5% Elemental Mastery",
+                            "1": "Twilight Meditation Duration 8s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "10": {
+                            "0": "Dusk Bolt DMG Increase 353.1% Elemental Mastery",
+                            "1": "Twilight Meditation Duration 8s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "11": {
+                            "0": "Dusk Bolt DMG Increase 372.7% Elemental Mastery",
+                            "1": "Twilight Meditation Duration 8s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "12": {
+                            "0": "Dusk Bolt DMG Increase 392.3% Elemental Mastery",
+                            "1": "Twilight Meditation Duration 8s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "13": {
+                            "0": "Dusk Bolt DMG Increase 416.8% Elemental Mastery",
+                            "1": "Twilight Meditation Duration 8s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "14": {
+                            "0": "Dusk Bolt DMG Increase 441.4% Elemental Mastery",
+                            "1": "Twilight Meditation Duration 8s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "15": {
+                            "0": "Dusk Bolt DMG Increase 465.9% Elemental Mastery",
+                            "1": "Twilight Meditation Duration 8s",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104335",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112065",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104337",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113043",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104337",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113043",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104337",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113043",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104337",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112067",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113043",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Black Kite's Enigma",
+                    "description": "When Aiming, the charging time is decreased by 0.285s based on each point of Sethos's current Elemental Energy. Charging time can be reduced to a minimum of 0.3s through this method and a maximum of 20 Energy can be tallied. If a <color=#FFD780FF>Shadowpiercing Shot</color> is fired, consume the tallied amount of Elemental Energy; if it is a Charge Level 1 shot, then consume 50% of the tallied amount of Elemental Energy.",
+                    "icon": "UI_Talent_S_Sethos_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "The Sand King's Boon",
+                    "description": "Sethos gains the \"Scorching Sandshade\" effect, increasing the DMG dealt by <color=#FFD780FF>Shadowpiercing Shots</color> by 700% of Sethos's Elemental Mastery.\\nThe Scorching Sandshade effect will be canceled when any of the following conditions are met:\\n· 5s after a Shadowpiercing Shot first hits an opponent.\\n· After 4 Shadowpiercing Shots strike opponents.\\n\\nWhen a Shadowpiercing Shot affected by Scorching Sandshade first hits an opponent, Sethos will regain Scorching Sandshade after 15s.",
+                    "icon": "UI_Talent_S_Sethos_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Thoth's Revelation",
+                    "description": "Displays the location of nearby <color=#FFD780FF>resources unique to Sumeru</color> on the mini-map.",
+                    "icon": "UI_Talent_S_Tighnari_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Sealed Shrine's Spiritsong",
+                    "description": "The CRIT Rate of <color=#FFD780FF>Shadowpiercing Shot</color> is increased by 15%.",
+                    "icon": "UI_Talent_S_Sethos_01"
+                },
+                "1": {
+                    "name": "Papyrus Scripture of Silent Secrets",
+                    "description": "When any of the following conditions are met, Sethos gains a 15% <color=#FFACFFFF>Electro DMG Bonus</color> for 10s that may stack twice, with each stack duration counted independently:\\n· Consuming Elemental Energy through Aimed Shots; you must first unlock the Passive Talent \"Black Kite's Enigma\" to trigger this condition.\\n· Regaining Elemental Energy by triggering Elemental Reactions using <color=#FFD780FF>Ancient Rite: The Thundering Sands</color>.\\n· Using <color=#FFD780FF>Secret Rite: Twilight Shadowpiercer</color>.",
+                    "icon": "UI_Talent_S_Sethos_02"
+                },
+                "2": {
+                    "name": "Ode to the Moonrise Sage",
+                    "description": "Increases the Level of <color=#FFD780FF>Normal Attack: Royal Reed Archery</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Sethos_01"
+                },
+                "3": {
+                    "name": "Beneficent Plumage",
+                    "description": "When a <color=#FFD780FF>Shadowpiercing Shot</color> or <color=#FFD780FF>Dusk Bolt</color> strikes 2 or more opponents, all nearby party members gain 80 Elemental Mastery for 10s.",
+                    "icon": "UI_Talent_S_Sethos_03"
+                },
+                "4": {
+                    "name": "Record of the Desolate God's Burning Sands",
+                    "description": "Increases the Level of <color=#FFD780FF>Secret Rite: Twilight Shadowpiercer</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Sethos_02"
+                },
+                "5": {
+                    "name": "Pylon of the Sojourning Sun Temple",
+                    "description": "After <color=#FFD780FF>Shadowpiercing Shot</color> strikes an opponent, the Elemental Energy consumed by the Passive Talent \"Black Kite's Enigma\" will be returned. This effect can be triggered up to once every 15s. You must first unlock the Passive Talent \"Black Kite's Enigma.\"",
+                    "icon": "UI_Talent_S_Sethos_04"
+                }
+            },
+            "elevation": {
+                "sub": "Elemental Mastery",
+                "0": {
+                    "stats": {
+                        "HP": 821,
+                        "ATK": 19,
+                        "DEF": 47,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2108,
+                        "ATK": 49,
+                        "DEF": 121,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101224",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104141",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112065",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 2721,
+                        "ATK": 63,
+                        "DEF": 156,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 4076,
+                        "ATK": 95,
+                        "DEF": 233,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101224",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104142",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112065",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113058",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 4512,
+                        "ATK": 105,
+                        "DEF": 258,
+                        "sub": 2400.0
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 5189,
+                        "ATK": 120,
+                        "DEF": 297,
+                        "sub": 2400
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101224",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104142",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112066",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113058",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 5770,
+                        "ATK": 134,
+                        "DEF": 330,
+                        "sub": 4800
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 6448,
+                        "ATK": 150,
+                        "DEF": 369,
+                        "sub": 4800
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101224",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104143",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112066",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113058",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 6884,
+                        "ATK": 160,
+                        "DEF": 394,
+                        "sub": 4800
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 7561,
+                        "ATK": 176,
+                        "DEF": 432,
+                        "sub": 4800
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101224",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104143",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112067",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113058",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 7996,
+                        "ATK": 186,
+                        "DEF": 457,
+                        "sub": 7200
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 8674,
+                        "ATK": 201,
+                        "DEF": 496,
+                        "sub": 7200
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101224",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104144",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112067",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113058",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 9110,
+                        "ATK": 212,
+                        "DEF": 521,
+                        "sub": 9600
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 9787,
+                        "ATK": 227,
+                        "DEF": 560,
+                        "sub": 9600
+                    },
+                    "res": {}
+                }
+            }
+        },
+        "ru": {
+            "name": "Sethos",
+            "name_ru": "Сетос",
+            "id": 10000097,
+            "rarity": 4,
+            "weapon": "Bow",
+            "element": "Electro",
+            "region": "Sumeru",
+            "more": {
+                "title": "Мера мудрости",
+                "detail": "Наследник Храма Молчания, что несёт тайны песков.",
+                "constellation": "Картуш",
+                "group": "Храм Молчания",
+                "birthday": "31.5",
+                "release": "03.06.2024",
+                "cv": {
+                    "en": "Zeno Robinson",
+                    "chs": "李兰陵",
+                    "jp": "千葉翔也",
+                    "kr": "Kim Dong-hyun"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Королевское мастерство стрельбы",
+                    "description": "<color=#FFD780FF>Обычная атака:</color>\\nДо трёх последовательных выстрелов из лука.\\n\\n<color=#FFD780FF>Заряженная атака:</color>\\nБолее меткий <color=#FFD780FF>прицельный выстрел</color> с увеличенным уроном.\\nВо время прицеливания наконечник стрелы заряжается силой Электро. Эффект зависит от длительности заряда стрелы:\\n· Уровень заряда 1: Выпускает стрелу, наполненную силой молнии, которая наносит <color=#FFACFFFF>Электро урон</color>.\\n· Уровень заряда 2: Выпускает <color=#FFD780FF>Пронзающий тени выстрел</color>, который пронзает цели и наносит <color=#FFACFFFF>Электро урон</color> врагам на своём пути. Когда Пронзающий тени выстрел полностью заряжен, Сетос не сможет передвигаться.\\n\\n<color=#FFD780FF>Атака в падении:</color>\\nВыпускает град стрел в воздухе, которые при приземлении персонажа наносят урон по площади.",
+                    "icon": "Skill_A_02",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон атаки 1 52.6%",
+                            "1": "Урон атаки 2 23.8%+26.6%",
+                            "2": "Урон атаки 3 74%",
+                            "3": "Прицельный выстрел 43.9%",
+                            "4": "Уровень заряда 1 124%",
+                            "5": "Урон Пронзающего тени выстрела 140% силы атаки + 134.6% мастерства стихий",
+                            "6": "Урон в падении 56.8%",
+                            "7": "Урон низкого/высокого удара 113.6%/141.9%"
+                        },
+                        "2": {
+                            "0": "Урон атаки 1 56.9%",
+                            "1": "Урон атаки 2 25.7%+28.8%",
+                            "2": "Урон атаки 3 80%",
+                            "3": "Прицельный выстрел 47.4%",
+                            "4": "Уровень заряда 1 133.3%",
+                            "5": "Урон Пронзающего тени выстрела 150.5% силы атаки + 144.7% мастерства стихий",
+                            "6": "Урон в падении 61.5%",
+                            "7": "Урон низкого/высокого удара 122.9%/153.5%"
+                        },
+                        "3": {
+                            "0": "Урон атаки 1 61.2%",
+                            "1": "Урон атаки 2 27.7%+30.9%",
+                            "2": "Урон атаки 3 86%",
+                            "3": "Прицельный выстрел 51%",
+                            "4": "Уровень заряда 1 142.6%",
+                            "5": "Урон Пронзающего тени выстрела 161% силы атаки + 154.7% мастерства стихий",
+                            "6": "Урон в падении 66.1%",
+                            "7": "Урон низкого/высокого удара 132.1%/165%"
+                        },
+                        "4": {
+                            "0": "Урон атаки 1 67.3%",
+                            "1": "Урон атаки 2 30.4%+34%",
+                            "2": "Урон атаки 3 94.6%",
+                            "3": "Прицельный выстрел 56.1%",
+                            "4": "Уровень заряда 1 155%",
+                            "5": "Урон Пронзающего тени выстрела 175% силы атаки + 168.2% мастерства стихий",
+                            "6": "Урон в падении 72.7%",
+                            "7": "Урон низкого/высокого удара 145.3%/181.5%"
+                        },
+                        "5": {
+                            "0": "Урон атаки 1 71.6%",
+                            "1": "Урон атаки 2 32.4%+36.2%",
+                            "2": "Урон атаки 3 100.7%",
+                            "3": "Прицельный выстрел 59.7%",
+                            "4": "Уровень заряда 1 164.3%",
+                            "5": "Урон Пронзающего тени выстрела 185.5% силы атаки + 178.3% мастерства стихий",
+                            "6": "Урон в падении 77.3%",
+                            "7": "Урон низкого/высокого удара 154.6%/193.1%"
+                        },
+                        "6": {
+                            "0": "Урон атаки 1 76.5%",
+                            "1": "Урон атаки 2 34.6%+38.7%",
+                            "2": "Урон атаки 3 107.5%",
+                            "3": "Прицельный выстрел 63.7%",
+                            "4": "Уровень заряда 1 173.6%",
+                            "5": "Урон Пронзающего тени выстрела 196% силы атаки + 188.4% мастерства стихий",
+                            "6": "Урон в падении 82.6%",
+                            "7": "Урон низкого/высокого удара 165.2%/206.3%"
+                        },
+                        "7": {
+                            "0": "Урон атаки 1 83.2%",
+                            "1": "Урон атаки 2 37.6%+42.1%",
+                            "2": "Урон атаки 3 117%",
+                            "3": "Прицельный выстрел 69.4%",
+                            "4": "Уровень заряда 1 186%",
+                            "5": "Урон Пронзающего тени выстрела 210% силы атаки + 201.8% мастерства стихий",
+                            "6": "Урон в падении 89.9%",
+                            "7": "Урон низкого/высокого удара 179.7%/224.5%"
+                        },
+                        "8": {
+                            "0": "Урон атаки 1 89.9%",
+                            "1": "Урон атаки 2 40.7%+45.5%",
+                            "2": "Урон атаки 3 126.5%",
+                            "3": "Прицельный выстрел 75%",
+                            "4": "Уровень заряда 1 198.4%",
+                            "5": "Урон Пронзающего тени выстрела 224% силы атаки + 215.3% мастерства стихий",
+                            "6": "Урон в падении 97.1%",
+                            "7": "Урон низкого/высокого удара 194.2%/242.6%"
+                        },
+                        "9": {
+                            "0": "Урон атаки 1 96.7%",
+                            "1": "Урон атаки 2 43.7%+48.9%",
+                            "2": "Урон атаки 3 135.9%",
+                            "3": "Прицельный выстрел 80.6%",
+                            "4": "Уровень заряда 1 210.8%",
+                            "5": "Урон Пронзающего тени выстрела 238% силы атаки + 228.8% мастерства стихий",
+                            "6": "Урон в падении 104.4%",
+                            "7": "Урон низкого/высокого удара 208.8%/260.8%"
+                        },
+                        "10": {
+                            "0": "Урон атаки 1 104%",
+                            "1": "Урон атаки 2 47%+52.6%",
+                            "2": "Урон атаки 3 146.3%",
+                            "3": "Прицельный выстрел 86.7%",
+                            "4": "Уровень заряда 1 223.2%",
+                            "5": "Урон Пронзающего тени выстрела 252% силы атаки + 242.2% мастерства стихий",
+                            "6": "Урон в падении 112.3%",
+                            "7": "Урон низкого/высокого удара 224.6%/280.6%"
+                        },
+                        "11": {
+                            "0": "Урон атаки 1 111.3%",
+                            "1": "Урон атаки 2 50.4%+56.3%",
+                            "2": "Урон атаки 3 156.6%",
+                            "3": "Прицельный выстрел 92.8%",
+                            "4": "Уровень заряда 1 235.6%",
+                            "5": "Урон Пронзающего тени выстрела 266% силы атаки + 255.7% мастерства стихий",
+                            "6": "Урон в падении 120.3%",
+                            "7": "Урон низкого/высокого удара 240.5%/300.4%"
+                        },
+                        "12": {
+                            "0": "Урон атаки 1 118.7%",
+                            "1": "Урон атаки 2 53.7%+60%",
+                            "2": "Урон атаки 3 166.9%",
+                            "3": "Прицельный выстрел 98.9%",
+                            "4": "Уровень заряда 1 248%",
+                            "5": "Урон Пронзающего тени выстрела 280% силы атаки + 269.1% мастерства стихий",
+                            "6": "Урон в падении 128.2%",
+                            "7": "Урон низкого/высокого удара 256.3%/320.2%"
+                        },
+                        "13": {
+                            "0": "Урон атаки 1 126%",
+                            "1": "Урон атаки 2 57%+63.7%",
+                            "2": "Урон атаки 3 177.2%",
+                            "3": "Прицельный выстрел 105.1%",
+                            "4": "Уровень заряда 1 263.5%",
+                            "5": "Урон Пронзающего тени выстрела 297.5% силы атаки + 285.9% мастерства стихий",
+                            "6": "Урон в падении 136.1%",
+                            "7": "Урон низкого/высокого удара 272.2%/340%"
+                        },
+                        "14": {
+                            "0": "Урон атаки 1 133.4%",
+                            "1": "Урон атаки 2 60.3%+67.4%",
+                            "2": "Урон атаки 3 187.5%",
+                            "3": "Прицельный выстрел 111.2%",
+                            "4": "Уровень заряда 1 279%",
+                            "5": "Урон Пронзающего тени выстрела 315% силы атаки + 302.8% мастерства стихий",
+                            "6": "Урон в падении 144.1%",
+                            "7": "Урон низкого/высокого удара 288%/359.8%"
+                        },
+                        "15": {
+                            "0": "Урон атаки 1 140.7%",
+                            "1": "Урон атаки 2 63.6%+71.2%",
+                            "2": "Урон атаки 3 197.9%",
+                            "3": "Прицельный выстрел 117.3%",
+                            "4": "Уровень заряда 1 294.5%",
+                            "5": "Урон Пронзающего тени выстрела 332.5% силы атаки + 319.6% мастерства стихий",
+                            "6": "Урон в падении 152%",
+                            "7": "Урон низкого/высокого удара 303.9%/379.6%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104335",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112065",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104337",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113043",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104337",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113043",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104337",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113043",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104337",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112067",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113043",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Древний обряд: Громогласный рёв песка",
+                    "description": "Собрав мощь грома, наносит <color=#FFACFFFF>Электро урон по площади</color> и стремительно отступает. Если данная атака активирует реакции Заряжен, Сверхпроводник, Перегрузка, Стимуляция, Обострение, Вегетация или Электро Рассеивание, Сетос восстанавливает некоторое количество энергии.\\n\\n<i>«Питаемый силой божества жрец, чародеи, что превратили ямы в источники - певцы пустыни до сих пор передают сказания о них... Но я знаю, что это вовсе не легенды, поскольку они - наши предки».</i>",
+                    "icon": "Skill_S_Sethos_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 115.6%",
+                            "1": "Восстановление энергии 12 ед.",
+                            "2": "Время отката 8 сек."
+                        },
+                        "2": {
+                            "0": "Урон навыка 124.3%",
+                            "1": "Восстановление энергии 12 ед.",
+                            "2": "Время отката 8 сек."
+                        },
+                        "3": {
+                            "0": "Урон навыка 132.9%",
+                            "1": "Восстановление энергии 12 ед.",
+                            "2": "Время отката 8 сек."
+                        },
+                        "4": {
+                            "0": "Урон навыка 144.5%",
+                            "1": "Восстановление энергии 12 ед.",
+                            "2": "Время отката 8 сек."
+                        },
+                        "5": {
+                            "0": "Урон навыка 153.2%",
+                            "1": "Восстановление энергии 12 ед.",
+                            "2": "Время отката 8 сек."
+                        },
+                        "6": {
+                            "0": "Урон навыка 161.8%",
+                            "1": "Восстановление энергии 12 ед.",
+                            "2": "Время отката 8 сек."
+                        },
+                        "7": {
+                            "0": "Урон навыка 173.4%",
+                            "1": "Восстановление энергии 12 ед.",
+                            "2": "Время отката 8 сек."
+                        },
+                        "8": {
+                            "0": "Урон навыка 185%",
+                            "1": "Восстановление энергии 12 ед.",
+                            "2": "Время отката 8 сек."
+                        },
+                        "9": {
+                            "0": "Урон навыка 196.5%",
+                            "1": "Восстановление энергии 12 ед.",
+                            "2": "Время отката 8 сек."
+                        },
+                        "10": {
+                            "0": "Урон навыка 208.1%",
+                            "1": "Восстановление энергии 12 ед.",
+                            "2": "Время отката 8 сек."
+                        },
+                        "11": {
+                            "0": "Урон навыка 219.6%",
+                            "1": "Восстановление энергии 12 ед.",
+                            "2": "Время отката 8 сек."
+                        },
+                        "12": {
+                            "0": "Урон навыка 231.2%",
+                            "1": "Восстановление энергии 12 ед.",
+                            "2": "Время отката 8 сек."
+                        },
+                        "13": {
+                            "0": "Урон навыка 245.7%",
+                            "1": "Восстановление энергии 12 ед.",
+                            "2": "Время отката 8 сек."
+                        },
+                        "14": {
+                            "0": "Урон навыка 260.1%",
+                            "1": "Восстановление энергии 12 ед.",
+                            "2": "Время отката 8 сек."
+                        },
+                        "15": {
+                            "0": "Урон навыка 274.5%",
+                            "1": "Восстановление энергии 12 ед.",
+                            "2": "Время отката 8 сек."
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104335",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112065",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104337",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113043",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104337",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113043",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104337",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113043",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104337",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112067",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113043",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Тайный ритуал: Сумеречный пронзитель теней",
+                    "description": "Выполняет тайный ритуал и входит в состояние Сумрачной медитации. В этом состоянии обычные атаки Сетоса превращаются в пронзающие врагов <color=#FFD780FF>Болты сумрака</color>: они наносят <color=#FFACFFFF>Электро урон</color> врагам на пути, а их урон увеличивается пропорционально мастерству стихий Сетоса.\\nВо время действия этого состояния Сетос не может выполнять прицельные выстрелы.\\nУрон Болтов сумрака считается уроном заряженной атаки.\\nЭффект исчезает, когда Сетос покидает поле боя.\\n\\n<i>В архивах Храма Молчания хранится множество книг, оставленных Ахтамуном со времён царя Дешрета. В них описано множество могущественных тайных ритуалов, но даже в Храме Молчания лишь немногие смогли овладеть ими.</i>",
+                    "icon": "Skill_E_Sethos_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Увеличение урона Болта сумрака 196.2% мастерства стихий",
+                            "1": "Длительность Сумрачной медитации 8 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "2": {
+                            "0": "Увеличение урона Болта сумрака 210.9% мастерства стихий",
+                            "1": "Длительность Сумрачной медитации 8 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "3": {
+                            "0": "Увеличение урона Болта сумрака 225.6% мастерства стихий",
+                            "1": "Длительность Сумрачной медитации 8 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "4": {
+                            "0": "Увеличение урона Болта сумрака 245.2% мастерства стихий",
+                            "1": "Длительность Сумрачной медитации 8 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "5": {
+                            "0": "Увеличение урона Болта сумрака 259.9% мастерства стихий",
+                            "1": "Длительность Сумрачной медитации 8 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "6": {
+                            "0": "Увеличение урона Болта сумрака 274.6% мастерства стихий",
+                            "1": "Длительность Сумрачной медитации 8 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "7": {
+                            "0": "Увеличение урона Болта сумрака 294.2% мастерства стихий",
+                            "1": "Длительность Сумрачной медитации 8 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "8": {
+                            "0": "Увеличение урона Болта сумрака 313.9% мастерства стихий",
+                            "1": "Длительность Сумрачной медитации 8 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "9": {
+                            "0": "Увеличение урона Болта сумрака 333.5% мастерства стихий",
+                            "1": "Длительность Сумрачной медитации 8 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "10": {
+                            "0": "Увеличение урона Болта сумрака 353.1% мастерства стихий",
+                            "1": "Длительность Сумрачной медитации 8 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "11": {
+                            "0": "Увеличение урона Болта сумрака 372.7% мастерства стихий",
+                            "1": "Длительность Сумрачной медитации 8 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "12": {
+                            "0": "Увеличение урона Болта сумрака 392.3% мастерства стихий",
+                            "1": "Длительность Сумрачной медитации 8 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "13": {
+                            "0": "Увеличение урона Болта сумрака 416.8% мастерства стихий",
+                            "1": "Длительность Сумрачной медитации 8 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "14": {
+                            "0": "Увеличение урона Болта сумрака 441.4% мастерства стихий",
+                            "1": "Длительность Сумрачной медитации 8 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "15": {
+                            "0": "Увеличение урона Болта сумрака 465.9% мастерства стихий",
+                            "1": "Длительность Сумрачной медитации 8 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104335",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112065",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104337",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113043",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104337",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113043",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104337",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113043",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104337",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112067",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113043",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Тайный ритуал: Сумеречный пронзитель теней",
+                    "description": "Выполняет тайный ритуал и входит в состояние Сумрачной медитации. В этом состоянии обычные атаки Сетоса превращаются в пронзающие врагов <color=#FFD780FF>Болты сумрака</color>: они наносят <color=#FFACFFFF>Электро урон</color> врагам на пути, а их урон увеличивается пропорционально мастерству стихий Сетоса.\\nВо время действия этого состояния Сетос не может выполнять прицельные выстрелы.\\nУрон Болтов сумрака считается уроном заряженной атаки.\\nЭффект исчезает, когда Сетос покидает поле боя.\\n\\n<i>В архивах Храма Молчания хранится множество книг, оставленных Ахтамуном со времён царя Дешрета. В них описано множество могущественных тайных ритуалов, но даже в Храме Молчания лишь немногие смогли овладеть ими.</i>",
+                    "icon": "Skill_E_Sethos_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Увеличение урона Болта сумрака 196.2% мастерства стихий",
+                            "1": "Длительность Сумрачной медитации 8 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "2": {
+                            "0": "Увеличение урона Болта сумрака 210.9% мастерства стихий",
+                            "1": "Длительность Сумрачной медитации 8 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "3": {
+                            "0": "Увеличение урона Болта сумрака 225.6% мастерства стихий",
+                            "1": "Длительность Сумрачной медитации 8 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "4": {
+                            "0": "Увеличение урона Болта сумрака 245.2% мастерства стихий",
+                            "1": "Длительность Сумрачной медитации 8 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "5": {
+                            "0": "Увеличение урона Болта сумрака 259.9% мастерства стихий",
+                            "1": "Длительность Сумрачной медитации 8 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "6": {
+                            "0": "Увеличение урона Болта сумрака 274.6% мастерства стихий",
+                            "1": "Длительность Сумрачной медитации 8 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "7": {
+                            "0": "Увеличение урона Болта сумрака 294.2% мастерства стихий",
+                            "1": "Длительность Сумрачной медитации 8 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "8": {
+                            "0": "Увеличение урона Болта сумрака 313.9% мастерства стихий",
+                            "1": "Длительность Сумрачной медитации 8 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "9": {
+                            "0": "Увеличение урона Болта сумрака 333.5% мастерства стихий",
+                            "1": "Длительность Сумрачной медитации 8 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "10": {
+                            "0": "Увеличение урона Болта сумрака 353.1% мастерства стихий",
+                            "1": "Длительность Сумрачной медитации 8 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "11": {
+                            "0": "Увеличение урона Болта сумрака 372.7% мастерства стихий",
+                            "1": "Длительность Сумрачной медитации 8 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "12": {
+                            "0": "Увеличение урона Болта сумрака 392.3% мастерства стихий",
+                            "1": "Длительность Сумрачной медитации 8 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "13": {
+                            "0": "Увеличение урона Болта сумрака 416.8% мастерства стихий",
+                            "1": "Длительность Сумрачной медитации 8 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "14": {
+                            "0": "Увеличение урона Болта сумрака 441.4% мастерства стихий",
+                            "1": "Длительность Сумрачной медитации 8 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "15": {
+                            "0": "Увеличение урона Болта сумрака 465.9% мастерства стихий",
+                            "1": "Длительность Сумрачной медитации 8 сек.",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104335",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112065",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104336",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104337",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113043",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104337",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113043",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104337",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113043",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104337",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112067",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113043",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Загадка чёрного коршуна",
+                    "description": "Длительность заряда во время прицеливания сокращается на 0,285 сек. за каждую единицу текущей энергии Сетоса. Длительность заряда таким способом можно сократить максимум до 0,3 сек., причём засчитывается до 20 единиц энергии. При этом <color=#FFD780FF>Пронзающий тени выстрел</color> расходует засчитанное количество энергии, тогда как выстрел уровня заряда 1 расходует 50% от засчитанного количества энергии.",
+                    "icon": "UI_Talent_S_Sethos_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Милость короля песков",
+                    "description": "Сетос получает эффект Тени палящих песков: урон <color=#FFD780FF>Пронзающих тени выстрелов</color> повышается на 700% от его мастерства стихий.\\nЭффект Тени палящих песков исчезает при следующих условиях:\\n· Через 5 сек после того, как Пронзающий тени выстрел впервые поражает противника.\\n· После того как 4 Пронзающих тени выстрела поражают противников.\\n\\nЧерез 15 сек. после того, как Пронзающий тени выстрел во время действия Тени палящих песков впервые поражает противника, Сетос вновь получает эффект Тени палящих песков.",
+                    "icon": "UI_Talent_S_Sethos_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Откровение Тота",
+                    "description": "Отмечает <color=#FFD780FF>диковинки Сумеру</color> на мини-карте.",
+                    "icon": "UI_Talent_S_Tighnari_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Песнопения запечатанного святилища",
+                    "description": "Шанс крит. попадания <color=#FFD780FF>Пронзающего тени выстрела</color> увеличивается на 15%.",
+                    "icon": "UI_Talent_S_Sethos_01"
+                },
+                "1": {
+                    "name": "Папирус безмолвных тайн",
+                    "description": "Выполняя любое из следующих условий, Сетос на 10 сек. получает 15% <color=#FFACFFFF>бонус Электро урона</color>, который может складываться до 2 раз (отсчёт времени каждого уровня происходит отдельно):\\n· Расходуя энергию посредством прицельных выстрелов. Требуется разблокировать пассивный талант Загадка чёрного коршуна.\\n· Восстанавливая энергию элементальными реакциями, вызванными с помощью навыка <color=#FFD780FF>Древний обряд: Громогласный рёв песка</color>.\\n· Активируя навык <color=#FFD780FF>Тайный ритуал: Сумеречный пронзитель теней</color>.",
+                    "icon": "UI_Talent_S_Sethos_02"
+                },
+                "2": {
+                    "name": "Ода мудреца восходящей луны",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Королевское мастерство стрельбы</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Sethos_01"
+                },
+                "3": {
+                    "name": "Коллекция благожелательных перьев",
+                    "description": "Когда <color=#FFD780FF>Пронзающий тени выстрел</color> или <color=#FFD780FF>Болт сумрака</color> поражает 2 и более противников, все члены отряда поблизости на 10 сек. получают 80 ед. мастерства стихий.",
+                    "icon": "UI_Talent_S_Sethos_03"
+                },
+                "4": {
+                    "name": "Хроники божества пылающих песков",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Тайный ритуал: Сумеречный пронзитель теней</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Sethos_02"
+                },
+                "5": {
+                    "name": "Книга храма Блуждающего солнца",
+                    "description": "После попадания <color=#FFD780FF>Пронзающего тени выстрела</color> по врагу энергия, израсходованная пассивным талантом Загадка чёрного коршуна, будет возвращена. Этот эффект может возникнуть не чаще одного раза в 15 сек. Требуется разблокировать пассивный талант Загадка чёрного коршуна.",
+                    "icon": "UI_Talent_S_Sethos_04"
+                }
+            },
+            "elevation": {
+                "sub": "Мастерство стихий",
+                "0": {
+                    "stats": {
+                        "HP": 821,
+                        "ATK": 19,
+                        "DEF": 47,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2108,
+                        "ATK": 49,
+                        "DEF": 121,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101224",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104141",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112065",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 2721,
+                        "ATK": 63,
+                        "DEF": 156,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 4076,
+                        "ATK": 95,
+                        "DEF": 233,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101224",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104142",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112065",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113058",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 4512,
+                        "ATK": 105,
+                        "DEF": 258,
+                        "sub": 2400.0
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 5189,
+                        "ATK": 120,
+                        "DEF": 297,
+                        "sub": 2400
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101224",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104142",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112066",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113058",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 5770,
+                        "ATK": 134,
+                        "DEF": 330,
+                        "sub": 4800
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 6448,
+                        "ATK": 150,
+                        "DEF": 369,
+                        "sub": 4800
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101224",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104143",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112066",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113058",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 6884,
+                        "ATK": 160,
+                        "DEF": 394,
+                        "sub": 4800
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 7561,
+                        "ATK": 176,
+                        "DEF": 432,
+                        "sub": 4800
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101224",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104143",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112067",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113058",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 7996,
+                        "ATK": 186,
+                        "DEF": 457,
+                        "sub": 7200
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 8674,
+                        "ATK": 201,
+                        "DEF": 496,
+                        "sub": 7200
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101224",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104144",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112067",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113058",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 9110,
+                        "ATK": 212,
+                        "DEF": 521,
+                        "sub": 9600
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 9787,
+                        "ATK": 227,
+                        "DEF": 560,
+                        "sub": 9600
+                    },
+                    "res": {}
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,2948 @@
+{
+    "Chasca": {
+        "en": {
+            "name": "Chasca",
+            "name_ru": "Часка",
+            "id": 10000104,
+            "rarity": 5,
+            "weapon": "Bow",
+            "element": "Anemo",
+            "region": "Natlan",
+            "more": {
+                "title": "Skyborne Arbiter",
+                "detail": "The Peacemaker of the Tlalocan, the ender of all disputes.",
+                "constellation": "Vultur Gryphus",
+                "group": "Tlalocan",
+                "birthday": "10.12",
+                "release": "18.11.2024",
+                "cv": {
+                    "en": "Lauren Amante",
+                    "chs": "张若瑜",
+                    "jp": "甲斐田裕子",
+                    "kr": "Soo-hyun"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Normal Attack: Phantom Feather Flurry",
+                    "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, mighty winds will accumulate on the arrowhead. A fully charged wind arrow will deal <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, hitting opponents along the path and dealing AoE DMG upon impact.",
+                    "icon": "Skill_A_02",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "1-Hit DMG 48%",
+                            "1": "2-Hit DMG 44.6%",
+                            "2": "3-Hit DMG 29.7%×2",
+                            "3": "4-Hit DMG 25.5%×3",
+                            "4": "Aimed Shot 43.9%",
+                            "5": "Fully-Charged Aimed Shot 124%",
+                            "6": "Plunge DMG 56.8%",
+                            "7": "Low/High Plunge DMG 113.6%/141.9%"
+                        },
+                        "2": {
+                            "0": "1-Hit DMG 51.9%",
+                            "1": "2-Hit DMG 48.2%",
+                            "2": "3-Hit DMG 32.1%×2",
+                            "3": "4-Hit DMG 27.5%×3",
+                            "4": "Aimed Shot 47.4%",
+                            "5": "Fully-Charged Aimed Shot 133.3%",
+                            "6": "Plunge DMG 61.5%",
+                            "7": "Low/High Plunge DMG 122.9%/153.5%"
+                        },
+                        "3": {
+                            "0": "1-Hit DMG 55.8%",
+                            "1": "2-Hit DMG 51.8%",
+                            "2": "3-Hit DMG 34.5%×2",
+                            "3": "4-Hit DMG 29.6%×3",
+                            "4": "Aimed Shot 51%",
+                            "5": "Fully-Charged Aimed Shot 142.6%",
+                            "6": "Plunge DMG 66.1%",
+                            "7": "Low/High Plunge DMG 132.1%/165%"
+                        },
+                        "4": {
+                            "0": "1-Hit DMG 61.4%",
+                            "1": "2-Hit DMG 57%",
+                            "2": "3-Hit DMG 38%×2",
+                            "3": "4-Hit DMG 32.6%×3",
+                            "4": "Aimed Shot 56.1%",
+                            "5": "Fully-Charged Aimed Shot 155%",
+                            "6": "Plunge DMG 72.7%",
+                            "7": "Low/High Plunge DMG 145.3%/181.5%"
+                        },
+                        "5": {
+                            "0": "1-Hit DMG 65.3%",
+                            "1": "2-Hit DMG 60.7%",
+                            "2": "3-Hit DMG 40.4%×2",
+                            "3": "4-Hit DMG 34.6%×3",
+                            "4": "Aimed Shot 59.7%",
+                            "5": "Fully-Charged Aimed Shot 164.3%",
+                            "6": "Plunge DMG 77.3%",
+                            "7": "Low/High Plunge DMG 154.6%/193.1%"
+                        },
+                        "6": {
+                            "0": "1-Hit DMG 69.8%",
+                            "1": "2-Hit DMG 64.8%",
+                            "2": "3-Hit DMG 43.2%×2",
+                            "3": "4-Hit DMG 37%×3",
+                            "4": "Aimed Shot 63.7%",
+                            "5": "Fully-Charged Aimed Shot 173.6%",
+                            "6": "Plunge DMG 82.6%",
+                            "7": "Low/High Plunge DMG 165.2%/206.3%"
+                        },
+                        "7": {
+                            "0": "1-Hit DMG 75.9%",
+                            "1": "2-Hit DMG 70.5%",
+                            "2": "3-Hit DMG 47%×2",
+                            "3": "4-Hit DMG 40.3%×3",
+                            "4": "Aimed Shot 69.4%",
+                            "5": "Fully-Charged Aimed Shot 186%",
+                            "6": "Plunge DMG 89.9%",
+                            "7": "Low/High Plunge DMG 179.7%/224.5%"
+                        },
+                        "8": {
+                            "0": "1-Hit DMG 82.1%",
+                            "1": "2-Hit DMG 76.2%",
+                            "2": "3-Hit DMG 50.8%×2",
+                            "3": "4-Hit DMG 43.5%×3",
+                            "4": "Aimed Shot 75%",
+                            "5": "Fully-Charged Aimed Shot 198.4%",
+                            "6": "Plunge DMG 97.1%",
+                            "7": "Low/High Plunge DMG 194.2%/242.6%"
+                        },
+                        "9": {
+                            "0": "1-Hit DMG 88.2%",
+                            "1": "2-Hit DMG 81.9%",
+                            "2": "3-Hit DMG 54.6%×2",
+                            "3": "4-Hit DMG 46.8%×3",
+                            "4": "Aimed Shot 80.6%",
+                            "5": "Fully-Charged Aimed Shot 210.8%",
+                            "6": "Plunge DMG 104.4%",
+                            "7": "Low/High Plunge DMG 208.8%/260.8%"
+                        },
+                        "10": {
+                            "0": "1-Hit DMG 94.9%",
+                            "1": "2-Hit DMG 88.1%",
+                            "2": "3-Hit DMG 58.7%×2",
+                            "3": "4-Hit DMG 50.3%×3",
+                            "4": "Aimed Shot 86.7%",
+                            "5": "Fully-Charged Aimed Shot 223.2%",
+                            "6": "Plunge DMG 112.3%",
+                            "7": "Low/High Plunge DMG 224.6%/280.6%"
+                        },
+                        "11": {
+                            "0": "1-Hit DMG 101.6%",
+                            "1": "2-Hit DMG 94.4%",
+                            "2": "3-Hit DMG 62.8%×2",
+                            "3": "4-Hit DMG 53.9%×3",
+                            "4": "Aimed Shot 92.8%",
+                            "5": "Fully-Charged Aimed Shot 235.6%",
+                            "6": "Plunge DMG 120.3%",
+                            "7": "Low/High Plunge DMG 240.5%/300.4%"
+                        },
+                        "12": {
+                            "0": "1-Hit DMG 108.3%",
+                            "1": "2-Hit DMG 100.6%",
+                            "2": "3-Hit DMG 67%×2",
+                            "3": "4-Hit DMG 57.4%×3",
+                            "4": "Aimed Shot 98.9%",
+                            "5": "Fully-Charged Aimed Shot 248%",
+                            "6": "Plunge DMG 128.2%",
+                            "7": "Low/High Plunge DMG 256.3%/320.2%"
+                        },
+                        "13": {
+                            "0": "1-Hit DMG 115%",
+                            "1": "2-Hit DMG 106.8%",
+                            "2": "3-Hit DMG 71.1%×2",
+                            "3": "4-Hit DMG 61%×3",
+                            "4": "Aimed Shot 105.1%",
+                            "5": "Fully-Charged Aimed Shot 263.5%",
+                            "6": "Plunge DMG 136.1%",
+                            "7": "Low/High Plunge DMG 272.2%/340%"
+                        },
+                        "14": {
+                            "0": "1-Hit DMG 121.7%",
+                            "1": "2-Hit DMG 113%",
+                            "2": "3-Hit DMG 75.3%×2",
+                            "3": "4-Hit DMG 64.6%×3",
+                            "4": "Aimed Shot 111.2%",
+                            "5": "Fully-Charged Aimed Shot 279%",
+                            "6": "Plunge DMG 144.1%",
+                            "7": "Low/High Plunge DMG 288%/359.8%"
+                        },
+                        "15": {
+                            "0": "1-Hit DMG 128.4%",
+                            "1": "2-Hit DMG 119.2%",
+                            "2": "3-Hit DMG 79.4%×2",
+                            "3": "4-Hit DMG 68.1%×3",
+                            "4": "Aimed Shot 117.3%",
+                            "5": "Fully-Charged Aimed Shot 294.5%",
+                            "6": "Plunge DMG 152%",
+                            "7": "Low/High Plunge DMG 303.9%/379.6%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104353",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112101",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104355",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113061",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104355",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113061",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104355",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113061",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104355",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112103",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113061",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Spirit Reins, Shadow Hunt",
+                    "description": "Chasca and the will residing in her weapon resonate, dealing Nightsoul-aligned <color=#80FFD7FF>AoE Anemo DMG</color>.\\nAfter using this Skill, Chasca gains 80 Nightsoul points and enters the Nightsoul's Blessing state.\\n\\n<color=#FFD780FF>Nightsoul's Blessing: Chasca</color>\\nContinually consume Nightsoul points. When Nightsoul points are fully depleted or the skill is used again, Chasca's Nightsoul's Blessing state will end. Her Nightsoul's Blessing has the following traits:\\n·Mounts \"Soulsniper: Ritual Staff,\" increasing Chasca's Movement SPD and interruption resistance. In this state, Chasca will continually consume Nightsoul points to remain airborne. When Sprinting or increasing height, extra Nightsoul points will be consumed.\\n·When using Normal or Charged Attacks, Tap or Hold to switch between using \"Multitarget Fire\" in different ways.\\n\\n<color=#FFD780FF>Multitarget Fire</color>\\n<color=#FFD780FF>Tap</color>\\nDeal Nightsoul-aligned <color=#80FFD7FF>Anemo DMG</color> to opponents in front. This DMG is considered Normal Attack DMG.\\n<color=#FFD780FF>Hold</color>\\nEnter Aiming Mode and choose a certain number of opponents within a certain range, before loading up to 6 Shadowhunt Shells based on the duration for which the skill was charged. When 6 Shells have been loaded or charging is stopped, these Shells will be fired at the chosen opponents in sequence.\\n\\n<color=#FFD780FF>Shadowhunt Shells</color>\\n·Deal Nightsoul-aligned <color=#80FFD7FF>Anemo DMG</color>, which is considered Charged Attack DMG.\\n·The 4th, 5th, and 6th Shells loaded into the cylinder will undergo Elemental Conversion based on the Elemental Types of the other characters in the party: For each <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#99FFFFFF>Cryo</color>, or <color=#FFACFFFF>Electro</color> character in the party, one Shadowhunt Shell will randomly be Converted into a \"Shining Shadowhunt Shell\" of one of these corresponding Elemental Types, dealing Nightsoul-aligned DMG corresponding to that Elemental Type. This DMG is considered Charged Attack DMG.\\n·The Shells loaded into the cylinder are fired starting from the last Shadowhunt Shell to be loaded, in a \"last in, first out\" order.\\n\\nAdditionally, when Chasca is in the Nightsoul's Blessing state, Holding her Elemental Skill <color=#FFD780FF>Spirit Reins, Shadow Hunt</color> will cause her to execute a Nightsoul-aligned Plunging Attack. Release the Elemental Skill to interrupt this Plunging Attack and maintain her airborne state. Should Chasca hit the ground with her Plunging Attack, her Nightsoul's Blessing state will end.\\n\\n<i>In theory, as long as she's willing, those reins can bridle anything... But what could possibly be as cool as a giant hand cannon?</i>",
+                    "icon": "Skill_S_Chasca_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Resonance DMG 60%",
+                            "1": "Multitarget Fire Tap DMG 36%",
+                            "2": "Shadowhunt Shell DMG 48.8%",
+                            "3": "Shining Shadowhunt Shell DMG 166.6%",
+                            "4": "Nightsoul Point Limit 80",
+                            "5": "CD 6.5s"
+                        },
+                        "2": {
+                            "0": "Resonance DMG 64.5%",
+                            "1": "Multitarget Fire Tap DMG 38.7%",
+                            "2": "Shadowhunt Shell DMG 52.5%",
+                            "3": "Shining Shadowhunt Shell DMG 179.1%",
+                            "4": "Nightsoul Point Limit 80",
+                            "5": "CD 6.5s"
+                        },
+                        "3": {
+                            "0": "Resonance DMG 69%",
+                            "1": "Multitarget Fire Tap DMG 41.4%",
+                            "2": "Shadowhunt Shell DMG 56.1%",
+                            "3": "Shining Shadowhunt Shell DMG 191.6%",
+                            "4": "Nightsoul Point Limit 80",
+                            "5": "CD 6.5s"
+                        },
+                        "4": {
+                            "0": "Resonance DMG 75%",
+                            "1": "Multitarget Fire Tap DMG 45%",
+                            "2": "Shadowhunt Shell DMG 61%",
+                            "3": "Shining Shadowhunt Shell DMG 208.2%",
+                            "4": "Nightsoul Point Limit 80",
+                            "5": "CD 6.5s"
+                        },
+                        "5": {
+                            "0": "Resonance DMG 79.5%",
+                            "1": "Multitarget Fire Tap DMG 47.7%",
+                            "2": "Shadowhunt Shell DMG 64.7%",
+                            "3": "Shining Shadowhunt Shell DMG 220.7%",
+                            "4": "Nightsoul Point Limit 80",
+                            "5": "CD 6.5s"
+                        },
+                        "6": {
+                            "0": "Resonance DMG 84%",
+                            "1": "Multitarget Fire Tap DMG 50.4%",
+                            "2": "Shadowhunt Shell DMG 68.3%",
+                            "3": "Shining Shadowhunt Shell DMG 233.2%",
+                            "4": "Nightsoul Point Limit 80",
+                            "5": "CD 6.5s"
+                        },
+                        "7": {
+                            "0": "Resonance DMG 90%",
+                            "1": "Multitarget Fire Tap DMG 54%",
+                            "2": "Shadowhunt Shell DMG 73.2%",
+                            "3": "Shining Shadowhunt Shell DMG 249.9%",
+                            "4": "Nightsoul Point Limit 80",
+                            "5": "CD 6.5s"
+                        },
+                        "8": {
+                            "0": "Resonance DMG 96%",
+                            "1": "Multitarget Fire Tap DMG 57.6%",
+                            "2": "Shadowhunt Shell DMG 78.1%",
+                            "3": "Shining Shadowhunt Shell DMG 266.5%",
+                            "4": "Nightsoul Point Limit 80",
+                            "5": "CD 6.5s"
+                        },
+                        "9": {
+                            "0": "Resonance DMG 102%",
+                            "1": "Multitarget Fire Tap DMG 61.2%",
+                            "2": "Shadowhunt Shell DMG 83%",
+                            "3": "Shining Shadowhunt Shell DMG 283.2%",
+                            "4": "Nightsoul Point Limit 80",
+                            "5": "CD 6.5s"
+                        },
+                        "10": {
+                            "0": "Resonance DMG 108%",
+                            "1": "Multitarget Fire Tap DMG 64.8%",
+                            "2": "Shadowhunt Shell DMG 87.8%",
+                            "3": "Shining Shadowhunt Shell DMG 299.8%",
+                            "4": "Nightsoul Point Limit 80",
+                            "5": "CD 6.5s"
+                        },
+                        "11": {
+                            "0": "Resonance DMG 114%",
+                            "1": "Multitarget Fire Tap DMG 68.4%",
+                            "2": "Shadowhunt Shell DMG 92.7%",
+                            "3": "Shining Shadowhunt Shell DMG 316.5%",
+                            "4": "Nightsoul Point Limit 80",
+                            "5": "CD 6.5s"
+                        },
+                        "12": {
+                            "0": "Resonance DMG 120%",
+                            "1": "Multitarget Fire Tap DMG 72%",
+                            "2": "Shadowhunt Shell DMG 97.6%",
+                            "3": "Shining Shadowhunt Shell DMG 333.1%",
+                            "4": "Nightsoul Point Limit 80",
+                            "5": "CD 6.5s"
+                        },
+                        "13": {
+                            "0": "Resonance DMG 127.5%",
+                            "1": "Multitarget Fire Tap DMG 76.5%",
+                            "2": "Shadowhunt Shell DMG 103.7%",
+                            "3": "Shining Shadowhunt Shell DMG 354%",
+                            "4": "Nightsoul Point Limit 80",
+                            "5": "CD 6.5s"
+                        },
+                        "14": {
+                            "0": "Resonance DMG 135%",
+                            "1": "Multitarget Fire Tap DMG 81%",
+                            "2": "Shadowhunt Shell DMG 109.8%",
+                            "3": "Shining Shadowhunt Shell DMG 374.8%",
+                            "4": "Nightsoul Point Limit 80",
+                            "5": "CD 6.5s"
+                        },
+                        "15": {
+                            "0": "Resonance DMG 142.5%",
+                            "1": "Multitarget Fire Tap DMG 85.5%",
+                            "2": "Shadowhunt Shell DMG 115.9%",
+                            "3": "Shining Shadowhunt Shell DMG 395.6%",
+                            "4": "Nightsoul Point Limit 80",
+                            "5": "CD 6.5s"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104353",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112101",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104355",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113061",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104355",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113061",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104355",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113061",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104355",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112103",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113061",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Soul Reaper's Fatal Round",
+                    "description": "Chasca concentrates her will, firing a single \"Galesplitting Soulseeker Shell\" that deals Nightsoul-aligned <color=#80FFD7FF>AoE Anemo DMG</color>. Afterward, the Galesplitting Soulseeker Shell will split into 6 Soulseeker Shells, which attack nearby opponents.\\n\\n<color=#FFD780FF>Soulseeker Shells</color>\\n·Deal Nightsoul-aligned <color=#80FFD7FF>Anemo DMG</color>.\\n·For each <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#99FFFFFF>Cryo</color>, or <color=#FFACFFFF>Electro</color> character in the party, two Soulseeker Shells will undergo corresponding Elemental Conversions to become \"Radiant Soulseeker Shells,\" which deal Nightsoul-aligned Elemental DMG from a randomly selected one of the corresponding Elemental Types.\\n\\n<i>None can escape from the moonlight or the whispers of the night, just as no foe can flee her attentive eyes once she's got them in her sights.</i>",
+                    "icon": "Skill_E_Chasca_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Galesplitting Soulseeker Shell DMG 88%",
+                            "1": "Soulseeker Shell DMG 103.4%",
+                            "2": "Radiant Soulseeker Shell DMG 206.8%",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "2": {
+                            "0": "Galesplitting Soulseeker Shell DMG 94.6%",
+                            "1": "Soulseeker Shell DMG 111.2%",
+                            "2": "Radiant Soulseeker Shell DMG 222.3%",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "3": {
+                            "0": "Galesplitting Soulseeker Shell DMG 101.2%",
+                            "1": "Soulseeker Shell DMG 118.9%",
+                            "2": "Radiant Soulseeker Shell DMG 237.8%",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "4": {
+                            "0": "Galesplitting Soulseeker Shell DMG 110%",
+                            "1": "Soulseeker Shell DMG 129.2%",
+                            "2": "Radiant Soulseeker Shell DMG 258.5%",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "5": {
+                            "0": "Galesplitting Soulseeker Shell DMG 116.6%",
+                            "1": "Soulseeker Shell DMG 137%",
+                            "2": "Radiant Soulseeker Shell DMG 274%",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "6": {
+                            "0": "Galesplitting Soulseeker Shell DMG 123.2%",
+                            "1": "Soulseeker Shell DMG 144.8%",
+                            "2": "Radiant Soulseeker Shell DMG 289.5%",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "7": {
+                            "0": "Galesplitting Soulseeker Shell DMG 132%",
+                            "1": "Soulseeker Shell DMG 155.1%",
+                            "2": "Radiant Soulseeker Shell DMG 310.2%",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "8": {
+                            "0": "Galesplitting Soulseeker Shell DMG 140.8%",
+                            "1": "Soulseeker Shell DMG 165.4%",
+                            "2": "Radiant Soulseeker Shell DMG 330.9%",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "9": {
+                            "0": "Galesplitting Soulseeker Shell DMG 149.6%",
+                            "1": "Soulseeker Shell DMG 175.8%",
+                            "2": "Radiant Soulseeker Shell DMG 351.6%",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "10": {
+                            "0": "Galesplitting Soulseeker Shell DMG 158.4%",
+                            "1": "Soulseeker Shell DMG 186.1%",
+                            "2": "Radiant Soulseeker Shell DMG 372.2%",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "11": {
+                            "0": "Galesplitting Soulseeker Shell DMG 167.2%",
+                            "1": "Soulseeker Shell DMG 196.5%",
+                            "2": "Radiant Soulseeker Shell DMG 392.9%",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "12": {
+                            "0": "Galesplitting Soulseeker Shell DMG 176%",
+                            "1": "Soulseeker Shell DMG 206.8%",
+                            "2": "Radiant Soulseeker Shell DMG 413.6%",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "13": {
+                            "0": "Galesplitting Soulseeker Shell DMG 187%",
+                            "1": "Soulseeker Shell DMG 219.7%",
+                            "2": "Radiant Soulseeker Shell DMG 439.4%",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "14": {
+                            "0": "Galesplitting Soulseeker Shell DMG 198%",
+                            "1": "Soulseeker Shell DMG 232.6%",
+                            "2": "Radiant Soulseeker Shell DMG 465.3%",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "15": {
+                            "0": "Galesplitting Soulseeker Shell DMG 209%",
+                            "1": "Soulseeker Shell DMG 245.6%",
+                            "2": "Radiant Soulseeker Shell DMG 491.2%",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104353",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112101",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104355",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113061",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104355",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113061",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104355",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113061",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104355",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112103",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113061",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Soul Reaper's Fatal Round",
+                    "description": "Chasca concentrates her will, firing a single \"Galesplitting Soulseeker Shell\" that deals Nightsoul-aligned <color=#80FFD7FF>AoE Anemo DMG</color>. Afterward, the Galesplitting Soulseeker Shell will split into 6 Soulseeker Shells, which attack nearby opponents.\\n\\n<color=#FFD780FF>Soulseeker Shells</color>\\n·Deal Nightsoul-aligned <color=#80FFD7FF>Anemo DMG</color>.\\n·For each <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#99FFFFFF>Cryo</color>, or <color=#FFACFFFF>Electro</color> character in the party, two Soulseeker Shells will undergo corresponding Elemental Conversions to become \"Radiant Soulseeker Shells,\" which deal Nightsoul-aligned Elemental DMG from a randomly selected one of the corresponding Elemental Types.\\n\\n<i>None can escape from the moonlight or the whispers of the night, just as no foe can flee her attentive eyes once she's got them in her sights.</i>",
+                    "icon": "Skill_E_Chasca_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Galesplitting Soulseeker Shell DMG 88%",
+                            "1": "Soulseeker Shell DMG 103.4%",
+                            "2": "Radiant Soulseeker Shell DMG 206.8%",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "2": {
+                            "0": "Galesplitting Soulseeker Shell DMG 94.6%",
+                            "1": "Soulseeker Shell DMG 111.2%",
+                            "2": "Radiant Soulseeker Shell DMG 222.3%",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "3": {
+                            "0": "Galesplitting Soulseeker Shell DMG 101.2%",
+                            "1": "Soulseeker Shell DMG 118.9%",
+                            "2": "Radiant Soulseeker Shell DMG 237.8%",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "4": {
+                            "0": "Galesplitting Soulseeker Shell DMG 110%",
+                            "1": "Soulseeker Shell DMG 129.2%",
+                            "2": "Radiant Soulseeker Shell DMG 258.5%",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "5": {
+                            "0": "Galesplitting Soulseeker Shell DMG 116.6%",
+                            "1": "Soulseeker Shell DMG 137%",
+                            "2": "Radiant Soulseeker Shell DMG 274%",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "6": {
+                            "0": "Galesplitting Soulseeker Shell DMG 123.2%",
+                            "1": "Soulseeker Shell DMG 144.8%",
+                            "2": "Radiant Soulseeker Shell DMG 289.5%",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "7": {
+                            "0": "Galesplitting Soulseeker Shell DMG 132%",
+                            "1": "Soulseeker Shell DMG 155.1%",
+                            "2": "Radiant Soulseeker Shell DMG 310.2%",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "8": {
+                            "0": "Galesplitting Soulseeker Shell DMG 140.8%",
+                            "1": "Soulseeker Shell DMG 165.4%",
+                            "2": "Radiant Soulseeker Shell DMG 330.9%",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "9": {
+                            "0": "Galesplitting Soulseeker Shell DMG 149.6%",
+                            "1": "Soulseeker Shell DMG 175.8%",
+                            "2": "Radiant Soulseeker Shell DMG 351.6%",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "10": {
+                            "0": "Galesplitting Soulseeker Shell DMG 158.4%",
+                            "1": "Soulseeker Shell DMG 186.1%",
+                            "2": "Radiant Soulseeker Shell DMG 372.2%",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "11": {
+                            "0": "Galesplitting Soulseeker Shell DMG 167.2%",
+                            "1": "Soulseeker Shell DMG 196.5%",
+                            "2": "Radiant Soulseeker Shell DMG 392.9%",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "12": {
+                            "0": "Galesplitting Soulseeker Shell DMG 176%",
+                            "1": "Soulseeker Shell DMG 206.8%",
+                            "2": "Radiant Soulseeker Shell DMG 413.6%",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "13": {
+                            "0": "Galesplitting Soulseeker Shell DMG 187%",
+                            "1": "Soulseeker Shell DMG 219.7%",
+                            "2": "Radiant Soulseeker Shell DMG 439.4%",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "14": {
+                            "0": "Galesplitting Soulseeker Shell DMG 198%",
+                            "1": "Soulseeker Shell DMG 232.6%",
+                            "2": "Radiant Soulseeker Shell DMG 465.3%",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "15": {
+                            "0": "Galesplitting Soulseeker Shell DMG 209%",
+                            "1": "Soulseeker Shell DMG 245.6%",
+                            "2": "Radiant Soulseeker Shell DMG 491.2%",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104353",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112101",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104355",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113061",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104355",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113061",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104355",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113061",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104355",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112103",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113061",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Bullet Trick",
+                    "description": "When the Elemental Skill <color=#FFD780FF>Spirit Reins, Shadow Hunt</color>'s <color=#FFD780FF>Multitarget Fire</color> is being charged, if there are party members who meet the Elemental Conversion Type requirements, gain the following effects based on the number of different eligible Elemental Types present:\\n·There is a 33.3%/66.7%/100% chance for each Type to trigger \"Spiritbinding Conversion\" and cause the 3rd <color=#FFD780FF>Shadowhunt Shell</color> loaded into the cylinder to be randomly converted into a <color=#FFD780FF>Shining Shadowhunt Shell</color> from one of the corresponding Elemental Types.\\n·Each Elemental Type will grant Chasca 1 stack of Spirit of the Radiant Shadow, increasing the DMG of Shining Shadowhunt Shell by 15%/35%/65%. This effect lasts until the current Multitarget Fire ends. Max 3 stacks.",
+                    "icon": "UI_Talent_S_Chasca_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Intent to Cover",
+                    "description": "When a nearby party member triggers a Nightsoul Burst, Chasca will fire a \"Burning Shadowhunt Shot\" at a nearby opponent, dealing Nightsoul-aligned <color=#80FFD7FF>Anemo DMG</color> equal to 150% of the <color=#FFD780FF>Shadowhunt Shell</color> DMG from her Elemental Skill <color=#FFD780FF>Spirit Reins, Shadow Hunt</color>. If the party has <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#99FFFFFF>Cryo</color>, or <color=#FFACFFFF>Electro</color> characters, the Burning Shadowhunt Shot will be converted to deal Nightsoul-aligned Elemental DMG of the corresponding Elemental Type equal to 150% of the DMG dealt by <color=#FFD780FF>Spirit Reins, Shadow Hunt</color>'s <color=#FFD780FF>Shining Shadowhunt Shells</color>.\\nThe DMG done in this way is considered Charged Attack DMG.",
+                    "icon": "UI_Talent_S_Chasca_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Night Realm's Gift: Everburning Heart",
+                    "description": "After her Nightsoul points are exhausted, Chasca will switch to consuming Phlogiston to maintain her Nightsoul's Blessing.\\nWhile in an area with Phlogiston Mechanics within Natlan, she can use Nightsoul Transmission: Chasca. When the active character is in the air, the following will occur when switching to Chasca: Chasca will enter the Nightsoul's Blessing state and gain 32 Nightsoul points. Nightsoul Transmission can be triggered once every 10s by your own team.",
+                    "icon": "UI_Talent_S_Chasca_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "7": {
+                    "name": "Mediation's True Meaning",
+                    "description": "25 Phlogiston will be restored when your own party members defeat an opponent. This effect can trigger once every 12s.\\nThis has no effect in Domains, Trounce Domains, or the Spiral Abyss.",
+                    "icon": "UI_Talent_S_Chasca_08",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Cylinder, the Restless Roulette",
+                    "description": "When triggering the Passive Talent \"Bullet Trick\"'s \"Spiritbinding Conversion,\" the 2nd <color=#FFD780FF>Shadowhunt Shell</color> loaded into the cylinder will be additionally converted into a <color=#FFD780FF>Shining Shadowhunt Shell</color>.\\nThe chance to trigger \"Spiritbinding Conversion\" is increased: If there are party members who meet the Elemental Conversion Type requirements, the chance to trigger \"Spiritbinding Conversion\" is increased by 33.3%, up to a maximum of 100%.\\n\\nYou must first unlock the Passive Talent \"Bullet Trick.\"\\nIn addition, Chasca's Nightsoul point and Phlogiston consumption in her Nightsoul's Blessing state is decreased by 30% while out of combat.",
+                    "icon": "UI_Talent_S_Chasca_01"
+                },
+                "1": {
+                    "name": "Muzzle, the Searing Smoke",
+                    "description": "When Chasca takes the field, she will obtain 1 stack of \"Spirit of the Radiant Shadow\" from the Passive Talent \"Bullet Trick.\" You must first unlock the Passive Talent \"Bullet Trick\" for this effect.\\nIn addition, when the <color=#FFD780FF>Shining Shadowhunt Shells</color> from <color=#FFD780FF>Spirit Reins, Shadow Hunt</color>'s <color=#FFD780FF>Multitarget Fire</color> hit opponents, they will deal AoE Elemental DMG of the corresponding Elemental Type of the <color=#FFD780FF>Shining Shadowhunt Shells</color> equal to 400% of Chasca's ATK. This DMG is considered Charged Attack DMG. This effect can be triggered once each time Chasca uses <color=#FFD780FF>Multitarget Fire</color>.",
+                    "icon": "UI_Talent_S_Chasca_02"
+                },
+                "2": {
+                    "name": "Reins, Her Careful Control",
+                    "description": "Increases the Level of <color=#FFD780FF>Spirit Reins, Shadow Hunt</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Chasca_01"
+                },
+                "3": {
+                    "name": "Sparks, the Sudden Shot",
+                    "description": "When the <color=#FFD780FF>Radiant Soulseeker Shells</color> from <color=#FFD780FF>Soul Reaper's Fatal Round</color> hit opponents, they will restore 1.5 Elemental Energy to Chasca, and deal AoE Elemental DMG of the corresponding Elemental Type of the <color=#FFD780FF>Radiant Soulseeker Shells</color> equal to 400% of Chasca's ATK. This DMG is considered Charged Attack DMG.\\nThe aforementioned corresponding elemental AoE DMG effect can be triggered once each time Chasca uses <color=#FFD780FF>Soul Reaper's Fatal Round</color>.",
+                    "icon": "UI_Talent_S_Chasca_03"
+                },
+                "4": {
+                    "name": "Brim, the Sandshadow's Silhouette",
+                    "description": "Increases the Level of <color=#FFD780FF>Soul Reaper's Fatal Round</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Chasca_02"
+                },
+                "5": {
+                    "name": "Showdown, the Glory of Battle",
+                    "description": "Chasca's <color=#FFD780FF>Multitarget Fire</color> charge time is decreased, and after the Passive Talent \"Bullet Trick\"'s \"Spiritbinding Conversion\" is triggered, Chasca will gain the \"Fatal Rounds\" state: For the next 3s, the next time Chasca uses <color=#FFD780FF>Spirit Reins, Shadow Hunt</color>'s <color=#FFD780FF>Multitarget Fire</color>, the shots will finish charging instantly, and the CRIT DMG of that instance of <color=#FFD780FF>Multitarget Fire</color>'s <color=#FFD780FF>Shadowhunt Shells</color> and <color=#FFD780FF>Shining Shadowhunt Shells</color> increases by 120%. 1 \"Fatal Rounds\" effect can be gained once every 3s.\\n\\nYou must first unlock the Passive Talent \"Bullet Trick\" to gain access to the above effect.",
+                    "icon": "UI_Talent_S_Chasca_04"
+                }
+            },
+            "elevation": {
+                "sub": "CRIT Rate %",
+                "0": {
+                    "stats": {
+                        "HP": 763,
+                        "ATK": 27,
+                        "DEF": 48,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 1978,
+                        "ATK": 70,
+                        "DEF": 124,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101253",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104151",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112101",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 2632,
+                        "ATK": 93,
+                        "DEF": 165,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 3939,
+                        "ATK": 139,
+                        "DEF": 247,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101253",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104152",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112101",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113067",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 4403,
+                        "ATK": 156,
+                        "DEF": 276,
+                        "sub": 4.8
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 5066,
+                        "ATK": 179,
+                        "DEF": 318,
+                        "sub": 4.8
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101253",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104152",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112102",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113067",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 5686,
+                        "ATK": 201,
+                        "DEF": 357,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 6288,
+                        "ATK": 223,
+                        "DEF": 395,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101253",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104153",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112102",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113067",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 6753,
+                        "ATK": 239,
+                        "DEF": 424,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 7563,
+                        "ATK": 268,
+                        "DEF": 475,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101253",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104153",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112103",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113067",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 8028,
+                        "ATK": 284,
+                        "DEF": 504,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 8643,
+                        "ATK": 306,
+                        "DEF": 542,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101253",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104154",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112103",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113067",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 9108,
+                        "ATK": 322,
+                        "DEF": 572,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 9797,
+                        "ATK": 347,
+                        "DEF": 615,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                }
+            }
+        },
+        "ru": {
+            "name": "Chasca",
+            "name_ru": "Часка",
+            "id": 10000104,
+            "rarity": 5,
+            "weapon": "Bow",
+            "element": "Anemo",
+            "region": "Natlan",
+            "more": {
+                "title": "Небесный примиритель",
+                "detail": "Миротворец Тлалокана, разрешающий все споры.",
+                "constellation": "Кондор",
+                "group": "Тлалокан",
+                "birthday": "10.12",
+                "release": "18.11.2024",
+                "cv": {
+                    "en": "Lauren Amante",
+                    "chs": "张若瑜",
+                    "jp": "KAIDA Yuhko",
+                    "kr": "Soo-hyun"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Шквал призрачных перьев",
+                    "description": "<color=#FFD780FF>Обычная атака:</color>\\nДо четырёх выстрелов из лука.\\n\\n<color=#FFD780FF>Заряженная атака:</color>\\nБолее меткий <color=#FFD780FF>прицельный выстрел</color> с увеличенным уроном.\\nВо время прицеливания на наконечнике стрелы собирается могучий ветер. Полностью заряженная мощью ветра стрела наносит <color=#80FFD7FF>Анемо урон</color>.\\n\\n<color=#FFD780FF>Атака в падении:</color>\\nВыпускает град стрел в воздухе, которые при приземлении персонажа наносят урон по площади.",
+                    "icon": "Skill_A_02",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон атаки 1 48%",
+                            "1": "Урон атаки 2 44.6%",
+                            "2": "Урон атаки 3 29.7%×2",
+                            "3": "Урон атаки 4 25.5%×3",
+                            "4": "Прицельный выстрел 43.9%",
+                            "5": "Заряженный выстрел 124%",
+                            "6": "Урон в падении 56.8%",
+                            "7": "Урон низкого/высокого удара 113.6%/141.9%"
+                        },
+                        "2": {
+                            "0": "Урон атаки 1 51.9%",
+                            "1": "Урон атаки 2 48.2%",
+                            "2": "Урон атаки 3 32.1%×2",
+                            "3": "Урон атаки 4 27.5%×3",
+                            "4": "Прицельный выстрел 47.4%",
+                            "5": "Заряженный выстрел 133.3%",
+                            "6": "Урон в падении 61.5%",
+                            "7": "Урон низкого/высокого удара 122.9%/153.5%"
+                        },
+                        "3": {
+                            "0": "Урон атаки 1 55.8%",
+                            "1": "Урон атаки 2 51.8%",
+                            "2": "Урон атаки 3 34.5%×2",
+                            "3": "Урон атаки 4 29.6%×3",
+                            "4": "Прицельный выстрел 51%",
+                            "5": "Заряженный выстрел 142.6%",
+                            "6": "Урон в падении 66.1%",
+                            "7": "Урон низкого/высокого удара 132.1%/165%"
+                        },
+                        "4": {
+                            "0": "Урон атаки 1 61.4%",
+                            "1": "Урон атаки 2 57%",
+                            "2": "Урон атаки 3 38%×2",
+                            "3": "Урон атаки 4 32.6%×3",
+                            "4": "Прицельный выстрел 56.1%",
+                            "5": "Заряженный выстрел 155%",
+                            "6": "Урон в падении 72.7%",
+                            "7": "Урон низкого/высокого удара 145.3%/181.5%"
+                        },
+                        "5": {
+                            "0": "Урон атаки 1 65.3%",
+                            "1": "Урон атаки 2 60.7%",
+                            "2": "Урон атаки 3 40.4%×2",
+                            "3": "Урон атаки 4 34.6%×3",
+                            "4": "Прицельный выстрел 59.7%",
+                            "5": "Заряженный выстрел 164.3%",
+                            "6": "Урон в падении 77.3%",
+                            "7": "Урон низкого/высокого удара 154.6%/193.1%"
+                        },
+                        "6": {
+                            "0": "Урон атаки 1 69.8%",
+                            "1": "Урон атаки 2 64.8%",
+                            "2": "Урон атаки 3 43.2%×2",
+                            "3": "Урон атаки 4 37%×3",
+                            "4": "Прицельный выстрел 63.7%",
+                            "5": "Заряженный выстрел 173.6%",
+                            "6": "Урон в падении 82.6%",
+                            "7": "Урон низкого/высокого удара 165.2%/206.3%"
+                        },
+                        "7": {
+                            "0": "Урон атаки 1 75.9%",
+                            "1": "Урон атаки 2 70.5%",
+                            "2": "Урон атаки 3 47%×2",
+                            "3": "Урон атаки 4 40.3%×3",
+                            "4": "Прицельный выстрел 69.4%",
+                            "5": "Заряженный выстрел 186%",
+                            "6": "Урон в падении 89.9%",
+                            "7": "Урон низкого/высокого удара 179.7%/224.5%"
+                        },
+                        "8": {
+                            "0": "Урон атаки 1 82.1%",
+                            "1": "Урон атаки 2 76.2%",
+                            "2": "Урон атаки 3 50.8%×2",
+                            "3": "Урон атаки 4 43.5%×3",
+                            "4": "Прицельный выстрел 75%",
+                            "5": "Заряженный выстрел 198.4%",
+                            "6": "Урон в падении 97.1%",
+                            "7": "Урон низкого/высокого удара 194.2%/242.6%"
+                        },
+                        "9": {
+                            "0": "Урон атаки 1 88.2%",
+                            "1": "Урон атаки 2 81.9%",
+                            "2": "Урон атаки 3 54.6%×2",
+                            "3": "Урон атаки 4 46.8%×3",
+                            "4": "Прицельный выстрел 80.6%",
+                            "5": "Заряженный выстрел 210.8%",
+                            "6": "Урон в падении 104.4%",
+                            "7": "Урон низкого/высокого удара 208.8%/260.8%"
+                        },
+                        "10": {
+                            "0": "Урон атаки 1 94.9%",
+                            "1": "Урон атаки 2 88.1%",
+                            "2": "Урон атаки 3 58.7%×2",
+                            "3": "Урон атаки 4 50.3%×3",
+                            "4": "Прицельный выстрел 86.7%",
+                            "5": "Заряженный выстрел 223.2%",
+                            "6": "Урон в падении 112.3%",
+                            "7": "Урон низкого/высокого удара 224.6%/280.6%"
+                        },
+                        "11": {
+                            "0": "Урон атаки 1 101.6%",
+                            "1": "Урон атаки 2 94.4%",
+                            "2": "Урон атаки 3 62.8%×2",
+                            "3": "Урон атаки 4 53.9%×3",
+                            "4": "Прицельный выстрел 92.8%",
+                            "5": "Заряженный выстрел 235.6%",
+                            "6": "Урон в падении 120.3%",
+                            "7": "Урон низкого/высокого удара 240.5%/300.4%"
+                        },
+                        "12": {
+                            "0": "Урон атаки 1 108.3%",
+                            "1": "Урон атаки 2 100.6%",
+                            "2": "Урон атаки 3 67%×2",
+                            "3": "Урон атаки 4 57.4%×3",
+                            "4": "Прицельный выстрел 98.9%",
+                            "5": "Заряженный выстрел 248%",
+                            "6": "Урон в падении 128.2%",
+                            "7": "Урон низкого/высокого удара 256.3%/320.2%"
+                        },
+                        "13": {
+                            "0": "Урон атаки 1 115%",
+                            "1": "Урон атаки 2 106.8%",
+                            "2": "Урон атаки 3 71.1%×2",
+                            "3": "Урон атаки 4 61%×3",
+                            "4": "Прицельный выстрел 105.1%",
+                            "5": "Заряженный выстрел 263.5%",
+                            "6": "Урон в падении 136.1%",
+                            "7": "Урон низкого/высокого удара 272.2%/340%"
+                        },
+                        "14": {
+                            "0": "Урон атаки 1 121.7%",
+                            "1": "Урон атаки 2 113%",
+                            "2": "Урон атаки 3 75.3%×2",
+                            "3": "Урон атаки 4 64.6%×3",
+                            "4": "Прицельный выстрел 111.2%",
+                            "5": "Заряженный выстрел 279%",
+                            "6": "Урон в падении 144.1%",
+                            "7": "Урон низкого/высокого удара 288%/359.8%"
+                        },
+                        "15": {
+                            "0": "Урон атаки 1 128.4%",
+                            "1": "Урон атаки 2 119.2%",
+                            "2": "Урон атаки 3 79.4%×2",
+                            "3": "Урон атаки 4 68.1%×3",
+                            "4": "Прицельный выстрел 117.3%",
+                            "5": "Заряженный выстрел 294.5%",
+                            "6": "Урон в падении 152%",
+                            "7": "Урон низкого/высокого удара 303.9%/379.6%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104353",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112101",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104355",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113061",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104355",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113061",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104355",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113061",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104355",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112103",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113061",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Поводья охоты за тенью",
+                    "description": "Часка и воля её оружия резонируют, нанося <color=#80FFD7FF>Анемо урон по площади</color> с характеристикой Ночного духа.\\nПосле применения навыка Часка получает 80 очков Ночного духа и входит в состояние Благословения Ночного духа.\\n\\n<color=#FFD780FF>Благословение Ночного духа: Часка</color>\\nНепрерывно расходует очки Ночного духа. Когда они заканчиваются или навык используется повторно, Благословение Ночного духа Часки завершается. У состояния Благословения Ночного духа Часки следующие особенности:\\n· Садится на Орудие духа: Ритуальный посох, что повышает скорость передвижения и сопротивление прерыванию Часки. В этом состоянии Часка непрерывно расходует очки Ночного духа и остаётся в воздухе. Спринт и набор высоты расходуют дополнительные очки Ночного духа.\\n· При выполнении обычной или заряженной атаки, в зависимости от того, было ли использовано быстрое или долгое нажатие, разными способами активируется Огонь по множеству целей.\\n\\n<color=#FFD780FF>Огонь по множеству целей</color>\\n<color=#FFD780FF>Быстрое нажатие</color>\\nВрагам впереди наносится <color=#80FFD7FF>Анемо урон</color> с характеристикой Ночного духа, который считается уроном обычной атаки.\\n<color=#FFD780FF>Долгое нажатие</color>\\nПереходит в режим прицеливания и отмечает некоторое количество врагов в определённой области и, в зависимости от длительности заряда навыка, заряжает до 6 Пуль охотника на тени. Когда заряжены шесть пуль или зарядка остановлена, эти пули будут по порядку выпущены по выбранным врагам.\\n\\n<color=#FFD780FF>Пули охотника на тени</color>\\n· Наносят <color=#80FFD7FF>Анемо урон</color> с характеристикой Ночного духа, который считается уроном заряженной атаки.\\n· В зависимости от элементов других членов отряда 4-я, 5-я и 6-я пули, заряженные в барабан, изменяют свой элемент: за каждого персонажа <color=#FF9999FF>Пиро</color>, <color=#80C0FFFF>Гидро</color>, <color=#99FFFFFF>Крио</color> или <color=#FFACFFFF>Электро</color> в отряде одна Пуля охотника на тени в случайном порядке превратится в Сияющую пулю охотника на тени одного из соответствующих элементов, которая наносит урон данного элемента с характеристикой Ночного духа. Такой урон считается уроном заряженной атаки.\\n· Пули охотника на тени, заряженные позже, выстреливаются в первую очередь.\\n\\nКроме того, если удерживать элементальный навык <color=#FFD780FF>Поводья охоты за тенью</color>, когда Часка пребывает в состоянии Благословения Ночного духа, то она выполнит атаку в падении с характеристикой Ночного духа. Если отпустить кнопку элементального навыка, атака в падении прервётся и Часка останется в воздухе. Если Часка, выполняя атаку в падении, приземлится, то её состояние Благословения Ночного духа завершится.\\n\\n<i>В принципе, эти поводья могли бы обуздать всё что угодно, была бы на то её воля... Но что может быть круче гигантской пушки?</i>",
+                    "icon": "Skill_S_Chasca_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон резонирования 60%",
+                            "1": "Урон Огня по множеству целей  36%",
+                            "2": "Урон Пули охотника на тени 48.8%",
+                            "3": "Урон Сияющей пули охотника на тени 166.6%",
+                            "4": "Максимум очков Ночного духа 80 ед.",
+                            "5": "Время отката 6.5 сек."
+                        },
+                        "2": {
+                            "0": "Урон резонирования 64.5%",
+                            "1": "Урон Огня по множеству целей  38.7%",
+                            "2": "Урон Пули охотника на тени 52.5%",
+                            "3": "Урон Сияющей пули охотника на тени 179.1%",
+                            "4": "Максимум очков Ночного духа 80 ед.",
+                            "5": "Время отката 6.5 сек."
+                        },
+                        "3": {
+                            "0": "Урон резонирования 69%",
+                            "1": "Урон Огня по множеству целей  41.4%",
+                            "2": "Урон Пули охотника на тени 56.1%",
+                            "3": "Урон Сияющей пули охотника на тени 191.6%",
+                            "4": "Максимум очков Ночного духа 80 ед.",
+                            "5": "Время отката 6.5 сек."
+                        },
+                        "4": {
+                            "0": "Урон резонирования 75%",
+                            "1": "Урон Огня по множеству целей  45%",
+                            "2": "Урон Пули охотника на тени 61%",
+                            "3": "Урон Сияющей пули охотника на тени 208.2%",
+                            "4": "Максимум очков Ночного духа 80 ед.",
+                            "5": "Время отката 6.5 сек."
+                        },
+                        "5": {
+                            "0": "Урон резонирования 79.5%",
+                            "1": "Урон Огня по множеству целей  47.7%",
+                            "2": "Урон Пули охотника на тени 64.7%",
+                            "3": "Урон Сияющей пули охотника на тени 220.7%",
+                            "4": "Максимум очков Ночного духа 80 ед.",
+                            "5": "Время отката 6.5 сек."
+                        },
+                        "6": {
+                            "0": "Урон резонирования 84%",
+                            "1": "Урон Огня по множеству целей  50.4%",
+                            "2": "Урон Пули охотника на тени 68.3%",
+                            "3": "Урон Сияющей пули охотника на тени 233.2%",
+                            "4": "Максимум очков Ночного духа 80 ед.",
+                            "5": "Время отката 6.5 сек."
+                        },
+                        "7": {
+                            "0": "Урон резонирования 90%",
+                            "1": "Урон Огня по множеству целей  54%",
+                            "2": "Урон Пули охотника на тени 73.2%",
+                            "3": "Урон Сияющей пули охотника на тени 249.9%",
+                            "4": "Максимум очков Ночного духа 80 ед.",
+                            "5": "Время отката 6.5 сек."
+                        },
+                        "8": {
+                            "0": "Урон резонирования 96%",
+                            "1": "Урон Огня по множеству целей  57.6%",
+                            "2": "Урон Пули охотника на тени 78.1%",
+                            "3": "Урон Сияющей пули охотника на тени 266.5%",
+                            "4": "Максимум очков Ночного духа 80 ед.",
+                            "5": "Время отката 6.5 сек."
+                        },
+                        "9": {
+                            "0": "Урон резонирования 102%",
+                            "1": "Урон Огня по множеству целей  61.2%",
+                            "2": "Урон Пули охотника на тени 83%",
+                            "3": "Урон Сияющей пули охотника на тени 283.2%",
+                            "4": "Максимум очков Ночного духа 80 ед.",
+                            "5": "Время отката 6.5 сек."
+                        },
+                        "10": {
+                            "0": "Урон резонирования 108%",
+                            "1": "Урон Огня по множеству целей  64.8%",
+                            "2": "Урон Пули охотника на тени 87.8%",
+                            "3": "Урон Сияющей пули охотника на тени 299.8%",
+                            "4": "Максимум очков Ночного духа 80 ед.",
+                            "5": "Время отката 6.5 сек."
+                        },
+                        "11": {
+                            "0": "Урон резонирования 114%",
+                            "1": "Урон Огня по множеству целей  68.4%",
+                            "2": "Урон Пули охотника на тени 92.7%",
+                            "3": "Урон Сияющей пули охотника на тени 316.5%",
+                            "4": "Максимум очков Ночного духа 80 ед.",
+                            "5": "Время отката 6.5 сек."
+                        },
+                        "12": {
+                            "0": "Урон резонирования 120%",
+                            "1": "Урон Огня по множеству целей  72%",
+                            "2": "Урон Пули охотника на тени 97.6%",
+                            "3": "Урон Сияющей пули охотника на тени 333.1%",
+                            "4": "Максимум очков Ночного духа 80 ед.",
+                            "5": "Время отката 6.5 сек."
+                        },
+                        "13": {
+                            "0": "Урон резонирования 127.5%",
+                            "1": "Урон Огня по множеству целей  76.5%",
+                            "2": "Урон Пули охотника на тени 103.7%",
+                            "3": "Урон Сияющей пули охотника на тени 354%",
+                            "4": "Максимум очков Ночного духа 80 ед.",
+                            "5": "Время отката 6.5 сек."
+                        },
+                        "14": {
+                            "0": "Урон резонирования 135%",
+                            "1": "Урон Огня по множеству целей  81%",
+                            "2": "Урон Пули охотника на тени 109.8%",
+                            "3": "Урон Сияющей пули охотника на тени 374.8%",
+                            "4": "Максимум очков Ночного духа 80 ед.",
+                            "5": "Время отката 6.5 сек."
+                        },
+                        "15": {
+                            "0": "Урон резонирования 142.5%",
+                            "1": "Урон Огня по множеству целей  85.5%",
+                            "2": "Урон Пули охотника на тени 115.9%",
+                            "3": "Урон Сияющей пули охотника на тени 395.6%",
+                            "4": "Максимум очков Ночного духа 80 ед.",
+                            "5": "Время отката 6.5 сек."
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104353",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112101",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104355",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113061",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104355",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113061",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104355",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113061",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104355",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112103",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113061",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Роковой выстрел ловца душ",
+                    "description": "Часка фокусирует свою волю и выстреливает одну Вихребойную пулю ловца душ, которая наносит <color=#80FFD7FF>Анемо урон по площади</color> с характеристикой Ночного духа. После этого Вихребойная пуля ловца душ разделяется на 6 Пуль ловца душ, которые атакуют врагов поблизости.\\n\\n<color=#FFD780FF>Пули ловца душ</color>\\n· Наносят <color=#80FFD7FF>Анемо урон</color> с характеристикой Ночного духа.\\n· За каждого <color=#FF9999FF>Пиро</color>, <color=#80C0FFFF>Гидро</color>, <color=#99FFFFFF>Крио</color> или <color=#FFACFFFF>Электро</color> персонажа в отряде две Пули ловца душ случайным образом изменяют свой элемент и становятся Сверкающими пулями ловца душ одного из соответствующих элементов, которые наносят урон данного элемента с характеристикой Ночного духа.\\n\\n<i>Никому не скрыться от шёпота ночи и лунного света, как и ни одному врагу не скрыться от её пристального взгляда.</i>",
+                    "icon": "Skill_E_Chasca_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон Вихребойной пули ловца душ 88%",
+                            "1": "Урон Пуль ловца душ 103.4%",
+                            "2": "Урон Сверкающей пули ловца душ 206.8%",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "2": {
+                            "0": "Урон Вихребойной пули ловца душ 94.6%",
+                            "1": "Урон Пуль ловца душ 111.2%",
+                            "2": "Урон Сверкающей пули ловца душ 222.3%",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "3": {
+                            "0": "Урон Вихребойной пули ловца душ 101.2%",
+                            "1": "Урон Пуль ловца душ 118.9%",
+                            "2": "Урон Сверкающей пули ловца душ 237.8%",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "4": {
+                            "0": "Урон Вихребойной пули ловца душ 110%",
+                            "1": "Урон Пуль ловца душ 129.2%",
+                            "2": "Урон Сверкающей пули ловца душ 258.5%",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "5": {
+                            "0": "Урон Вихребойной пули ловца душ 116.6%",
+                            "1": "Урон Пуль ловца душ 137%",
+                            "2": "Урон Сверкающей пули ловца душ 274%",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "6": {
+                            "0": "Урон Вихребойной пули ловца душ 123.2%",
+                            "1": "Урон Пуль ловца душ 144.8%",
+                            "2": "Урон Сверкающей пули ловца душ 289.5%",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "7": {
+                            "0": "Урон Вихребойной пули ловца душ 132%",
+                            "1": "Урон Пуль ловца душ 155.1%",
+                            "2": "Урон Сверкающей пули ловца душ 310.2%",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "8": {
+                            "0": "Урон Вихребойной пули ловца душ 140.8%",
+                            "1": "Урон Пуль ловца душ 165.4%",
+                            "2": "Урон Сверкающей пули ловца душ 330.9%",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "9": {
+                            "0": "Урон Вихребойной пули ловца душ 149.6%",
+                            "1": "Урон Пуль ловца душ 175.8%",
+                            "2": "Урон Сверкающей пули ловца душ 351.6%",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "10": {
+                            "0": "Урон Вихребойной пули ловца душ 158.4%",
+                            "1": "Урон Пуль ловца душ 186.1%",
+                            "2": "Урон Сверкающей пули ловца душ 372.2%",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "11": {
+                            "0": "Урон Вихребойной пули ловца душ 167.2%",
+                            "1": "Урон Пуль ловца душ 196.5%",
+                            "2": "Урон Сверкающей пули ловца душ 392.9%",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "12": {
+                            "0": "Урон Вихребойной пули ловца душ 176%",
+                            "1": "Урон Пуль ловца душ 206.8%",
+                            "2": "Урон Сверкающей пули ловца душ 413.6%",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "13": {
+                            "0": "Урон Вихребойной пули ловца душ 187%",
+                            "1": "Урон Пуль ловца душ 219.7%",
+                            "2": "Урон Сверкающей пули ловца душ 439.4%",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "14": {
+                            "0": "Урон Вихребойной пули ловца душ 198%",
+                            "1": "Урон Пуль ловца душ 232.6%",
+                            "2": "Урон Сверкающей пули ловца душ 465.3%",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "15": {
+                            "0": "Урон Вихребойной пули ловца душ 209%",
+                            "1": "Урон Пуль ловца душ 245.6%",
+                            "2": "Урон Сверкающей пули ловца душ 491.2%",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104353",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112101",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104355",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113061",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104355",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113061",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104355",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113061",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104355",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112103",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113061",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Роковой выстрел ловца душ",
+                    "description": "Часка фокусирует свою волю и выстреливает одну Вихребойную пулю ловца душ, которая наносит <color=#80FFD7FF>Анемо урон по площади</color> с характеристикой Ночного духа. После этого Вихребойная пуля ловца душ разделяется на 6 Пуль ловца душ, которые атакуют врагов поблизости.\\n\\n<color=#FFD780FF>Пули ловца душ</color>\\n· Наносят <color=#80FFD7FF>Анемо урон</color> с характеристикой Ночного духа.\\n· За каждого <color=#FF9999FF>Пиро</color>, <color=#80C0FFFF>Гидро</color>, <color=#99FFFFFF>Крио</color> или <color=#FFACFFFF>Электро</color> персонажа в отряде две Пули ловца душ случайным образом изменяют свой элемент и становятся Сверкающими пулями ловца душ одного из соответствующих элементов, которые наносят урон данного элемента с характеристикой Ночного духа.\\n\\n<i>Никому не скрыться от шёпота ночи и лунного света, как и ни одному врагу не скрыться от её пристального взгляда.</i>",
+                    "icon": "Skill_E_Chasca_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон Вихребойной пули ловца душ 88%",
+                            "1": "Урон Пуль ловца душ 103.4%",
+                            "2": "Урон Сверкающей пули ловца душ 206.8%",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "2": {
+                            "0": "Урон Вихребойной пули ловца душ 94.6%",
+                            "1": "Урон Пуль ловца душ 111.2%",
+                            "2": "Урон Сверкающей пули ловца душ 222.3%",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "3": {
+                            "0": "Урон Вихребойной пули ловца душ 101.2%",
+                            "1": "Урон Пуль ловца душ 118.9%",
+                            "2": "Урон Сверкающей пули ловца душ 237.8%",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "4": {
+                            "0": "Урон Вихребойной пули ловца душ 110%",
+                            "1": "Урон Пуль ловца душ 129.2%",
+                            "2": "Урон Сверкающей пули ловца душ 258.5%",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "5": {
+                            "0": "Урон Вихребойной пули ловца душ 116.6%",
+                            "1": "Урон Пуль ловца душ 137%",
+                            "2": "Урон Сверкающей пули ловца душ 274%",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "6": {
+                            "0": "Урон Вихребойной пули ловца душ 123.2%",
+                            "1": "Урон Пуль ловца душ 144.8%",
+                            "2": "Урон Сверкающей пули ловца душ 289.5%",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "7": {
+                            "0": "Урон Вихребойной пули ловца душ 132%",
+                            "1": "Урон Пуль ловца душ 155.1%",
+                            "2": "Урон Сверкающей пули ловца душ 310.2%",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "8": {
+                            "0": "Урон Вихребойной пули ловца душ 140.8%",
+                            "1": "Урон Пуль ловца душ 165.4%",
+                            "2": "Урон Сверкающей пули ловца душ 330.9%",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "9": {
+                            "0": "Урон Вихребойной пули ловца душ 149.6%",
+                            "1": "Урон Пуль ловца душ 175.8%",
+                            "2": "Урон Сверкающей пули ловца душ 351.6%",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "10": {
+                            "0": "Урон Вихребойной пули ловца душ 158.4%",
+                            "1": "Урон Пуль ловца душ 186.1%",
+                            "2": "Урон Сверкающей пули ловца душ 372.2%",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "11": {
+                            "0": "Урон Вихребойной пули ловца душ 167.2%",
+                            "1": "Урон Пуль ловца душ 196.5%",
+                            "2": "Урон Сверкающей пули ловца душ 392.9%",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "12": {
+                            "0": "Урон Вихребойной пули ловца душ 176%",
+                            "1": "Урон Пуль ловца душ 206.8%",
+                            "2": "Урон Сверкающей пули ловца душ 413.6%",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "13": {
+                            "0": "Урон Вихребойной пули ловца душ 187%",
+                            "1": "Урон Пуль ловца душ 219.7%",
+                            "2": "Урон Сверкающей пули ловца душ 439.4%",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "14": {
+                            "0": "Урон Вихребойной пули ловца душ 198%",
+                            "1": "Урон Пуль ловца душ 232.6%",
+                            "2": "Урон Сверкающей пули ловца душ 465.3%",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "15": {
+                            "0": "Урон Вихребойной пули ловца душ 209%",
+                            "1": "Урон Пуль ловца душ 245.6%",
+                            "2": "Урон Сверкающей пули ловца душ 491.2%",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104353",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112101",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104354",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104355",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113061",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104355",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113061",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104355",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113061",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104355",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112103",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113061",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Трюк с пулей",
+                    "description": "Когда заряжается <color=#FFD780FF>Огонь по множеству целей</color> элементального навыка <color=#FFD780FF>Поводья охоты за тенью</color>, если в отряде есть персонажи, соответствующие условиям смены типа элемента, то, в зависимости от количества разных подходящих элементов, возникают следующие эффекты:\\n· Каждый тип элемента с шансом в 33,3%/66,7%/100% активирует Обращение духовной связи, которое заставляет третью заряженную в барабан <color=#FFD780FF>Пулю охотника на тени</color> случайным образом превратиться в <color=#FFD780FF>Сияющую пулю охотника на тени</color> одного из соответствующих типов элементов.\\n· Каждый тип элементов наделяет Часку 1 уровнем Духа сияющей тени, повышая урон Сияющих пуль охотника на тени на 15%/35%/65%. Этот эффект действует вплоть до завершения текущего Огня по множеству целей и складывается до 3 раз.",
+                    "icon": "UI_Talent_S_Chasca_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Намерение прикрыть",
+                    "description": "Когда член отряда поблизости активирует Вспышку Ночного духа, Часка выстреливает Горящей пулей охотника на тени во врага поблизости, которая наносит <color=#80FFD7FF>Анемо урон</color> с характеристикой Ночного духа, равный 150% урона <color=#FFD780FF>Пули охотника на тени</color> её элементального навыка <color=#FFD780FF>Поводья охоты за тенью</color>. Если в отряде есть <color=#FF9999FF>Пиро</color>, <color=#80C0FFFF>Гидро</color>, <color=#99FFFFFF>Крио</color> или <color=#FFACFFFF>Электро</color> персонажи, то Горящая пуля охотника на тени изменяет свой элемент и наносит урон соответствующего элемента с характеристикой Ночного духа, равный 150% урона <color=#FFD780FF>Сияющих пуль охотника на тени</color> элементального навыка <color=#FFD780FF>Поводья охоты за тенью</color>.\\nУрон, наносимый таким способом, считается уроном заряженной атаки.",
+                    "icon": "UI_Talent_S_Chasca_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Дар владений ночи: Вечно пылающее сердце",
+                    "description": "Когда очки Ночного духа исчерпаны, Часка продолжит поддерживать Благословение Ночного духа, переключившись на флогистон.\\nКогда Часка находится в областях Натлана с флогистоновыми механиками, она способна применять Передачу Ночного духа: Часка. Когда активный персонаж находится в воздухе, при смене персонажа на Часку активируется следующий эффект: Часка, появляясь на поле, входит в состояние Благословения Ночного духа и получает 32 очка Ночного духа. Передача Ночного духа может активироваться вашим отрядом один раз в 10 сек.",
+                    "icon": "UI_Talent_S_Chasca_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "7": {
+                    "name": "Истинное значение посредничества",
+                    "description": "Когда персонажи вашего отряда побеждают противника, восстанавливается 25 ед. флогистона. Этот эффект может возникнуть один раз в 12 сек.\\nВ подземельях, Витой Бездне и Подземельях наказания он не действует.",
+                    "icon": "UI_Talent_S_Chasca_08",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Барабан, беспокойная рулетка",
+                    "description": "Когда активируется Обращение духовной связи пассивного таланта Трюк с пулей, то вторая заряженная в барабан <color=#FFD780FF>Пуля охотника на тени</color> дополнительно превратится в <color=#FFD780FF>Сияющую пулю охотника на тени</color>.\\nПовышается шанс активировать Обращение духовной связи: если в отряде есть персонажи, соответствующие условиям смены типа элемента, то шанс активации Обращения духовной связи повышается на 33,3%, максимум на 100%.\\n\\nТребуется разблокировать пассивный талант Трюк с пулей.\\nКроме того, потребление очков Ночного духа и флогистона вне боя состоянием Благословение Ночного духа Часки снижается на 30%.",
+                    "icon": "UI_Talent_S_Chasca_01"
+                },
+                "1": {
+                    "name": "Дуло, испепеляющий дым",
+                    "description": "Выходя на поле, Часка получает 1 уровень Духа сияющей тени пассивного таланта Трюк с пулей. Требуется разблокировать пассивный талант Трюк с пулей.\\nКроме того, когда <color=#FFD780FF>Сияющие пули охотника на тени</color> <color=#FFD780FF>Огня по множеству целей</color> элементального навыка <color=#FFD780FF>Поводья охоты за тенью</color> попадают во врагов, они наносят урон по площади соответствующего элемента <color=#FFD780FF>Сияющих пуль охотника на тени</color>, равный 400% от силы атаки Часки. Этот урон считается уроном заряженной атаки. Во время одного и того же <color=#FFD780FF>Огня по множеству целей</color> этот эффект может возникнуть один раз.",
+                    "icon": "UI_Talent_S_Chasca_02"
+                },
+                "2": {
+                    "name": "Поводья, её чуткое управление",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Поводья охоты за тенью</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Chasca_01"
+                },
+                "3": {
+                    "name": "Искры, внезапный выстрел",
+                    "description": "Попадания <color=#FFD780FF>Сверкающих пуль ловца душ</color> взрыва стихии <color=#FFD780FF>Роковой выстрел ловца душ</color> во врагов восстанавливают Часке 1,5 ед. энергии и наносят элементальный урон по площади, соответствующий элементам <color=#FFD780FF>Сверкающих пуль ловца душ</color>, равный 400% силы атаки Часки. Такой урон считается уроном заряженной атаки.\\nВышеупомянутый элементальный урон может возникать один раз при каждом применении Чаской <color=#FFD780FF>Рокового выстрела ловца душ</color>.",
+                    "icon": "UI_Talent_S_Chasca_03"
+                },
+                "4": {
+                    "name": "Поля шляпы, силуэт песчаной тени",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Роковой выстрел ловца душ</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Chasca_02"
+                },
+                "5": {
+                    "name": "Схватка, слава битвы",
+                    "description": "Уменьшает время зарядки <color=#FFD780FF>Огня по множеству целей</color> Часки. Кроме того, после активации Обращения духовной связи пассивного таланта Трюк с пулей Часка получает состояние Роковых выстрелов: в течение следующих 3 сек. при следующем применении <color=#FFD780FF>Огня по множеству целей</color> элементального навыка <color=#FFD780FF>Поводья охоты за тенью</color> зарядка будет завершаться мгновенно, а критический урон <color=#FFD780FF>Пуль охотника на тени</color> и <color=#FFD780FF>Сияющих пуль охотника на тени</color> данного <color=#FFD780FF>Огня по множеству целей</color> увеличивается на 120%. Эффект Роковых выстрелов может быть получен раз в 3 сек.\\n\\nДля эффекта выше требуется разблокировать пассивный талант Трюк с пулей.",
+                    "icon": "UI_Talent_S_Chasca_04"
+                }
+            },
+            "elevation": {
+                "sub": "Шанс крит. попадания %",
+                "0": {
+                    "stats": {
+                        "HP": 763,
+                        "ATK": 27,
+                        "DEF": 48,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 1978,
+                        "ATK": 70,
+                        "DEF": 124,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101253",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104151",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112101",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 2632,
+                        "ATK": 93,
+                        "DEF": 165,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 3939,
+                        "ATK": 139,
+                        "DEF": 247,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101253",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104152",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112101",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113067",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 4403,
+                        "ATK": 156,
+                        "DEF": 276,
+                        "sub": 4.8
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 5066,
+                        "ATK": 179,
+                        "DEF": 318,
+                        "sub": 4.8
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101253",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104152",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112102",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113067",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 5686,
+                        "ATK": 201,
+                        "DEF": 357,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 6288,
+                        "ATK": 223,
+                        "DEF": 395,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101253",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104153",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112102",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113067",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 6753,
+                        "ATK": 239,
+                        "DEF": 424,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 7563,
+                        "ATK": 268,
+                        "DEF": 475,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101253",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104153",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112103",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113067",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 8028,
+                        "ATK": 284,
+                        "DEF": 504,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 8643,
+                        "ATK": 306,
+                        "DEF": 542,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101253",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104154",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112103",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113067",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 9108,
+                        "ATK": 322,
+                        "DEF": 572,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 9797,
+                        "ATK": 347,
+                        "DEF": 615,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                }
+            }
+        }
+    }
+}

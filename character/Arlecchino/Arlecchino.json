@@ -1,0 +1,2934 @@
+{
+    "Arlecchino": {
+        "en": {
+            "name": "Arlecchino",
+            "name_ru": "Арлекино",
+            "id": 10000096,
+            "rarity": 5,
+            "weapon": "Polearm",
+            "element": "Pyro",
+            "region": "Snezhnaya",
+            "more": {
+                "title": "Dire Balemoon",
+                "detail": "\"The Knave,\" Fourth of the Fatui Harbingers. A poised, ruthless diplomat. To the children in the House of the Hearth, she is their feared yet dependable \"Father.\"",
+                "constellation": "Ignis Purgatorius",
+                "group": "Fatui",
+                "birthday": "22.8",
+                "release": "22.04.2024",
+                "cv": {
+                    "en": "Erin Yvette",
+                    "chs": "黄莺",
+                    "jp": "森なな子",
+                    "kr": "Lee Myung-hi"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Normal Attack: Invitation to a Beheading",
+                    "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 6 consecutive spear strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a fixed amount of Stamina, dashing toward a nearby opponent and cleaving once.\\nContinuously holding this button will cause Arlecchino to consume Stamina and engage in up to 5s of high-speed movement.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.\\n\\n<color=#FFD780FF>Masque of the Red Death</color>\\nWhen Arlecchino has a Bond of Life equal to or greater than 30% of her Max HP, she will enter the \"Masque of the Red Death\" state, where her Normal, Charged, and Plunging Attacks will be converted to deal <color=#FF9999FF>Pyro DMG</color>. This cannot be overridden.\\nWhen in the \"Masque of the Red Death\" state, Arlecchino's Normal Attacks will deal extra DMG to opponents on hit that scales off her ATK multiplied by a certain ratio of her current Bond of Life percentage. This will consume 7.5% of said current Bond of Life. Her Bond of Life can be consumed this way every 0.03s. When her Bond of Life is consumed in this manner, All Is Ash's CD will decrease by 0.8s.",
+                    "icon": "Skill_A_03",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Masque of the Red Death Increase {param12:F2P}",
+                            "1": "1-Hit DMG 47.5%",
+                            "2": "2-Hit DMG 52.1%",
+                            "3": "3-Hit DMG 65.4%",
+                            "4": "4-Hit DMG 37.1%+37.1%",
+                            "5": "5-Hit DMG 70%",
+                            "6": "6-Hit DMG 85.4%",
+                            "7": "Charged Attack DMG 90.8%",
+                            "8": "Charged Attack Stamina Cost 25",
+                            "9": "High-Speed Movement Stamina Cost 40/s",
+                            "10": "Plunge DMG 63.9%",
+                            "11": "Low/High Plunge DMG 127.8%/159.7%"
+                        },
+                        "2": {
+                            "0": "Masque of the Red Death Increase {param12:F2P}",
+                            "1": "1-Hit DMG 51.4%",
+                            "2": "2-Hit DMG 56.3%",
+                            "3": "3-Hit DMG 70.7%",
+                            "4": "4-Hit DMG 40.2%+40.2%",
+                            "5": "5-Hit DMG 75.7%",
+                            "6": "6-Hit DMG 92.3%",
+                            "7": "Charged Attack DMG 98.2%",
+                            "8": "Charged Attack Stamina Cost 25",
+                            "9": "High-Speed Movement Stamina Cost 40/s",
+                            "10": "Plunge DMG 69.1%",
+                            "11": "Low/High Plunge DMG 138.2%/172.7%"
+                        },
+                        "3": {
+                            "0": "Masque of the Red Death Increase {param12:F2P}",
+                            "1": "1-Hit DMG 55.2%",
+                            "2": "2-Hit DMG 60.6%",
+                            "3": "3-Hit DMG 76%",
+                            "4": "4-Hit DMG 43.2%+43.2%",
+                            "5": "5-Hit DMG 81.4%",
+                            "6": "6-Hit DMG 99.3%",
+                            "7": "Charged Attack DMG 105.6%",
+                            "8": "Charged Attack Stamina Cost 25",
+                            "9": "High-Speed Movement Stamina Cost 40/s",
+                            "10": "Plunge DMG 74.3%",
+                            "11": "Low/High Plunge DMG 148.6%/185.7%"
+                        },
+                        "4": {
+                            "0": "Masque of the Red Death Increase {param12:F2P}",
+                            "1": "1-Hit DMG 60.8%",
+                            "2": "2-Hit DMG 66.6%",
+                            "3": "3-Hit DMG 83.6%",
+                            "4": "4-Hit DMG 47.5%+47.5%",
+                            "5": "5-Hit DMG 89.5%",
+                            "6": "6-Hit DMG 109.2%",
+                            "7": "Charged Attack DMG 116.2%",
+                            "8": "Charged Attack Stamina Cost 25",
+                            "9": "High-Speed Movement Stamina Cost 40/s",
+                            "10": "Plunge DMG 81.8%",
+                            "11": "Low/High Plunge DMG 163.5%/204.2%"
+                        },
+                        "5": {
+                            "0": "Masque of the Red Death Increase {param12:F2P}",
+                            "1": "1-Hit DMG 64.6%",
+                            "2": "2-Hit DMG 70.9%",
+                            "3": "3-Hit DMG 89%",
+                            "4": "4-Hit DMG 50.5%+50.5%",
+                            "5": "5-Hit DMG 95.2%",
+                            "6": "6-Hit DMG 116.2%",
+                            "7": "Charged Attack DMG 123.6%",
+                            "8": "Charged Attack Stamina Cost 25",
+                            "9": "High-Speed Movement Stamina Cost 40/s",
+                            "10": "Plunge DMG 87%",
+                            "11": "Low/High Plunge DMG 173.9%/217.2%"
+                        },
+                        "6": {
+                            "0": "Masque of the Red Death Increase {param12:F2P}",
+                            "1": "1-Hit DMG 69%",
+                            "2": "2-Hit DMG 75.7%",
+                            "3": "3-Hit DMG 95%",
+                            "4": "4-Hit DMG 54%+54%",
+                            "5": "5-Hit DMG 101.7%",
+                            "6": "6-Hit DMG 124.1%",
+                            "7": "Charged Attack DMG 132%",
+                            "8": "Charged Attack Stamina Cost 25",
+                            "9": "High-Speed Movement Stamina Cost 40/s",
+                            "10": "Plunge DMG 92.9%",
+                            "11": "Low/High Plunge DMG 185.8%/232.1%"
+                        },
+                        "7": {
+                            "0": "Masque of the Red Death Increase {param12:F2P}",
+                            "1": "1-Hit DMG 75.1%",
+                            "2": "2-Hit DMG 82.4%",
+                            "3": "3-Hit DMG 103.4%",
+                            "4": "4-Hit DMG 58.7%+58.7%",
+                            "5": "5-Hit DMG 110.7%",
+                            "6": "6-Hit DMG 135%",
+                            "7": "Charged Attack DMG 143.6%",
+                            "8": "Charged Attack Stamina Cost 25",
+                            "9": "High-Speed Movement Stamina Cost 40/s",
+                            "10": "Plunge DMG 101.1%",
+                            "11": "Low/High Plunge DMG 202.2%/252.5%"
+                        },
+                        "8": {
+                            "0": "Masque of the Red Death Increase {param12:F2P}",
+                            "1": "1-Hit DMG 81.2%",
+                            "2": "2-Hit DMG 89.1%",
+                            "3": "3-Hit DMG 111.8%",
+                            "4": "4-Hit DMG 63.5%+63.5%",
+                            "5": "5-Hit DMG 119.6%",
+                            "6": "6-Hit DMG 145.9%",
+                            "7": "Charged Attack DMG 155.2%",
+                            "8": "Charged Attack Stamina Cost 25",
+                            "9": "High-Speed Movement Stamina Cost 40/s",
+                            "10": "Plunge DMG 109.3%",
+                            "11": "Low/High Plunge DMG 218.5%/272.9%"
+                        },
+                        "9": {
+                            "0": "Masque of the Red Death Increase {param12:F2P}",
+                            "1": "1-Hit DMG 87.3%",
+                            "2": "2-Hit DMG 95.7%",
+                            "3": "3-Hit DMG 120.1%",
+                            "4": "4-Hit DMG 68.2%+68.2%",
+                            "5": "5-Hit DMG 128.6%",
+                            "6": "6-Hit DMG 156.9%",
+                            "7": "Charged Attack DMG 166.8%",
+                            "8": "Charged Attack Stamina Cost 25",
+                            "9": "High-Speed Movement Stamina Cost 40/s",
+                            "10": "Plunge DMG 117.5%",
+                            "11": "Low/High Plunge DMG 234.9%/293.4%"
+                        },
+                        "10": {
+                            "0": "Masque of the Red Death Increase {param12:F2P}",
+                            "1": "1-Hit DMG 93.9%",
+                            "2": "2-Hit DMG 103%",
+                            "3": "3-Hit DMG 129.3%",
+                            "4": "4-Hit DMG 73.4%+73.4%",
+                            "5": "5-Hit DMG 138.3%",
+                            "6": "6-Hit DMG 168.8%",
+                            "7": "Charged Attack DMG 179.5%",
+                            "8": "Charged Attack Stamina Cost 25",
+                            "9": "High-Speed Movement Stamina Cost 40/s",
+                            "10": "Plunge DMG 126.4%",
+                            "11": "Low/High Plunge DMG 252.7%/315.6%"
+                        },
+                        "11": {
+                            "0": "Masque of the Red Death Increase {param12:F2P}",
+                            "1": "1-Hit DMG 100.5%",
+                            "2": "2-Hit DMG 110.3%",
+                            "3": "3-Hit DMG 138.4%",
+                            "4": "4-Hit DMG 78.6%+78.6%",
+                            "5": "5-Hit DMG 148.1%",
+                            "6": "6-Hit DMG 180.7%",
+                            "7": "Charged Attack DMG 192.2%",
+                            "8": "Charged Attack Stamina Cost 25",
+                            "9": "High-Speed Movement Stamina Cost 40/s",
+                            "10": "Plunge DMG 135.3%",
+                            "11": "Low/High Plunge DMG 270.5%/337.9%"
+                        },
+                        "12": {
+                            "0": "Masque of the Red Death Increase {param12:F2P}",
+                            "1": "1-Hit DMG 107.2%",
+                            "2": "2-Hit DMG 117.5%",
+                            "3": "3-Hit DMG 147.5%",
+                            "4": "4-Hit DMG 83.8%+83.8%",
+                            "5": "5-Hit DMG 157.9%",
+                            "6": "6-Hit DMG 192.6%",
+                            "7": "Charged Attack DMG 204.9%",
+                            "8": "Charged Attack Stamina Cost 25",
+                            "9": "High-Speed Movement Stamina Cost 40/s",
+                            "10": "Plunge DMG 144.2%",
+                            "11": "Low/High Plunge DMG 288.4%/360.2%"
+                        },
+                        "13": {
+                            "0": "Masque of the Red Death Increase {param12:F2P}",
+                            "1": "1-Hit DMG 113.8%",
+                            "2": "2-Hit DMG 124.8%",
+                            "3": "3-Hit DMG 156.6%",
+                            "4": "4-Hit DMG 89%+89%",
+                            "5": "5-Hit DMG 167.6%",
+                            "6": "6-Hit DMG 204.5%",
+                            "7": "Charged Attack DMG 217.5%",
+                            "8": "Charged Attack Stamina Cost 25",
+                            "9": "High-Speed Movement Stamina Cost 40/s",
+                            "10": "Plunge DMG 153.1%",
+                            "11": "Low/High Plunge DMG 306.2%/382.5%"
+                        },
+                        "14": {
+                            "0": "Masque of the Red Death Increase {param12:F2P}",
+                            "1": "1-Hit DMG 120.4%",
+                            "2": "2-Hit DMG 132.1%",
+                            "3": "3-Hit DMG 165.7%",
+                            "4": "4-Hit DMG 94.2%+94.2%",
+                            "5": "5-Hit DMG 177.4%",
+                            "6": "6-Hit DMG 216.4%",
+                            "7": "Charged Attack DMG 230.2%",
+                            "8": "Charged Attack Stamina Cost 25",
+                            "9": "High-Speed Movement Stamina Cost 40/s",
+                            "10": "Plunge DMG 162.1%",
+                            "11": "Low/High Plunge DMG 324.1%/404.8%"
+                        },
+                        "15": {
+                            "0": "Masque of the Red Death Increase {param12:F2P}",
+                            "1": "1-Hit DMG 127%",
+                            "2": "2-Hit DMG 139.4%",
+                            "3": "3-Hit DMG 174.9%",
+                            "4": "4-Hit DMG 99.3%+99.3%",
+                            "5": "5-Hit DMG 187.2%",
+                            "6": "6-Hit DMG 228.3%",
+                            "7": "Charged Attack DMG 242.9%",
+                            "8": "Charged Attack Stamina Cost 25",
+                            "9": "High-Speed Movement Stamina Cost 40/s",
+                            "10": "Plunge DMG 171%",
+                            "11": "Low/High Plunge DMG 341.9%/427%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104344",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113060",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113060",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113060",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104346",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113060",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "All Is Ash",
+                    "description": "Summons forth Balemoon Bloodfire, dealing <color=#FF9999FF>Pyro DMG</color> to multiple nearby opponents and performing a dash-cleave against one of them, dealing <color=#FF9999FF>AoE Pyro DMG</color>.\\nOpponents hit by the aforementioned attack will have a Blood-Debt Directive applied to them.\\n\\n<color=#FFD780FF>Blood-Debt Directive</color>\\n·Lasts 30s. Every 5s, it will deal 1 instance of <color=#FF9999FF>Pyro DMG</color> to the opponent. Max 2 instances. This DMG will be considered Elemental Skill DMG.\\n·When Arlecchino uses a Charged Attack or her Elemental Burst, Balemoon Rising, she will absorb and clear nearby Blood-Debt Directives. Each Directive absorbed grants her a Bond of Life worth 65% of her Max HP.\\n·The maximum value of the Bond of Life she can be granted through Blood-Debt Directives within 35s after using her Elemental Skill is 145% of her Max HP. Using the Elemental Skill again during this duration will restart the count on duration and the limit on the value of Bond of Life she may gain from Blood-Debt Directives.\\n\\n<i>As she sees it, not every grain of wheat that falls upon the earth will grow into an ear, while those who obstruct her, once burned to ashes, can certainly be used to nourish flowers.</i>",
+                    "icon": "Skill_S_Arlecchino_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Spike DMG 14.8%",
+                            "1": "Cleave DMG 133.6%",
+                            "2": "Blood-Debt Directive DMG 31.8%",
+                            "3": "CD 30s"
+                        },
+                        "2": {
+                            "0": "Spike DMG 16%",
+                            "1": "Cleave DMG 143.6%",
+                            "2": "Blood-Debt Directive DMG 34.2%",
+                            "3": "CD 30s"
+                        },
+                        "3": {
+                            "0": "Spike DMG 17.1%",
+                            "1": "Cleave DMG 153.6%",
+                            "2": "Blood-Debt Directive DMG 36.6%",
+                            "3": "CD 30s"
+                        },
+                        "4": {
+                            "0": "Spike DMG 18.6%",
+                            "1": "Cleave DMG 166.9%",
+                            "2": "Blood-Debt Directive DMG 39.8%",
+                            "3": "CD 30s"
+                        },
+                        "5": {
+                            "0": "Spike DMG 19.7%",
+                            "1": "Cleave DMG 177%",
+                            "2": "Blood-Debt Directive DMG 42.1%",
+                            "3": "CD 30s"
+                        },
+                        "6": {
+                            "0": "Spike DMG 20.8%",
+                            "1": "Cleave DMG 187%",
+                            "2": "Blood-Debt Directive DMG 44.5%",
+                            "3": "CD 30s"
+                        },
+                        "7": {
+                            "0": "Spike DMG 22.3%",
+                            "1": "Cleave DMG 200.3%",
+                            "2": "Blood-Debt Directive DMG 47.7%",
+                            "3": "CD 30s"
+                        },
+                        "8": {
+                            "0": "Spike DMG 23.7%",
+                            "1": "Cleave DMG 213.7%",
+                            "2": "Blood-Debt Directive DMG 50.9%",
+                            "3": "CD 30s"
+                        },
+                        "9": {
+                            "0": "Spike DMG 25.2%",
+                            "1": "Cleave DMG 227.1%",
+                            "2": "Blood-Debt Directive DMG 54.1%",
+                            "3": "CD 30s"
+                        },
+                        "10": {
+                            "0": "Spike DMG 26.7%",
+                            "1": "Cleave DMG 240.4%",
+                            "2": "Blood-Debt Directive DMG 57.2%",
+                            "3": "CD 30s"
+                        },
+                        "11": {
+                            "0": "Spike DMG 28.2%",
+                            "1": "Cleave DMG 253.8%",
+                            "2": "Blood-Debt Directive DMG 60.4%",
+                            "3": "CD 30s"
+                        },
+                        "12": {
+                            "0": "Spike DMG 29.7%",
+                            "1": "Cleave DMG 267.1%",
+                            "2": "Blood-Debt Directive DMG 63.6%",
+                            "3": "CD 30s"
+                        },
+                        "13": {
+                            "0": "Spike DMG 31.5%",
+                            "1": "Cleave DMG 283.8%",
+                            "2": "Blood-Debt Directive DMG 67.6%",
+                            "3": "CD 30s"
+                        },
+                        "14": {
+                            "0": "Spike DMG 33.4%",
+                            "1": "Cleave DMG 300.5%",
+                            "2": "Blood-Debt Directive DMG 71.5%",
+                            "3": "CD 30s"
+                        },
+                        "15": {
+                            "0": "Spike DMG 35.2%",
+                            "1": "Cleave DMG 317.2%",
+                            "2": "Blood-Debt Directive DMG 75.5%",
+                            "3": "CD 30s"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104344",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113060",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113060",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113060",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104346",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113060",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Balemoon Rising",
+                    "description": "Arlecchino's great wing of Balemoon Bloodfire beats as she absorbs and clears Blood-Debt Directives around her. She deals <color=#FF9999FF>AoE Pyro DMG</color> before clearing the CD of All Is Ash and healing herself. The healing is based on her Bond of Life value and ATK.\\n\\n<i>It is commonly believed throughout Teyvat that moon phases other than the full moon are mere metaphors of ill-omen, used only by those who practice alchemy and astrology.\\nShe saw this crimson moon in her dreams many times. Were those portents of disaster? Indeed they were, but the destined catastrophes belonged to those who enraged her.</i>",
+                    "icon": "Skill_E_Arlecchino_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 370.4%",
+                            "1": "Amount of HP Restored 150% Bond of Life+150% ATK",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "2": {
+                            "0": "Skill DMG 398.2%",
+                            "1": "Amount of HP Restored 150% Bond of Life+150% ATK",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "3": {
+                            "0": "Skill DMG 426%",
+                            "1": "Amount of HP Restored 150% Bond of Life+150% ATK",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "4": {
+                            "0": "Skill DMG 463%",
+                            "1": "Amount of HP Restored 150% Bond of Life+150% ATK",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "5": {
+                            "0": "Skill DMG 490.8%",
+                            "1": "Amount of HP Restored 150% Bond of Life+150% ATK",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "6": {
+                            "0": "Skill DMG 518.6%",
+                            "1": "Amount of HP Restored 150% Bond of Life+150% ATK",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "7": {
+                            "0": "Skill DMG 555.6%",
+                            "1": "Amount of HP Restored 150% Bond of Life+150% ATK",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "8": {
+                            "0": "Skill DMG 592.6%",
+                            "1": "Amount of HP Restored 150% Bond of Life+150% ATK",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "9": {
+                            "0": "Skill DMG 629.7%",
+                            "1": "Amount of HP Restored 150% Bond of Life+150% ATK",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "10": {
+                            "0": "Skill DMG 666.7%",
+                            "1": "Amount of HP Restored 150% Bond of Life+150% ATK",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "11": {
+                            "0": "Skill DMG 703.8%",
+                            "1": "Amount of HP Restored 150% Bond of Life+150% ATK",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "12": {
+                            "0": "Skill DMG 740.8%",
+                            "1": "Amount of HP Restored 150% Bond of Life+150% ATK",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "13": {
+                            "0": "Skill DMG 787.1%",
+                            "1": "Amount of HP Restored 150% Bond of Life+150% ATK",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "14": {
+                            "0": "Skill DMG 833.4%",
+                            "1": "Amount of HP Restored 150% Bond of Life+150% ATK",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "15": {
+                            "0": "Skill DMG 879.7%",
+                            "1": "Amount of HP Restored 150% Bond of Life+150% ATK",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104344",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113060",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113060",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113060",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104346",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113060",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Balemoon Rising",
+                    "description": "Arlecchino's great wing of Balemoon Bloodfire beats as she absorbs and clears Blood-Debt Directives around her. She deals <color=#FF9999FF>AoE Pyro DMG</color> before clearing the CD of All Is Ash and healing herself. The healing is based on her Bond of Life value and ATK.\\n\\n<i>It is commonly believed throughout Teyvat that moon phases other than the full moon are mere metaphors of ill-omen, used only by those who practice alchemy and astrology.\\nShe saw this crimson moon in her dreams many times. Were those portents of disaster? Indeed they were, but the destined catastrophes belonged to those who enraged her.</i>",
+                    "icon": "Skill_E_Arlecchino_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 370.4%",
+                            "1": "Amount of HP Restored 150% Bond of Life+150% ATK",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "2": {
+                            "0": "Skill DMG 398.2%",
+                            "1": "Amount of HP Restored 150% Bond of Life+150% ATK",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "3": {
+                            "0": "Skill DMG 426%",
+                            "1": "Amount of HP Restored 150% Bond of Life+150% ATK",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "4": {
+                            "0": "Skill DMG 463%",
+                            "1": "Amount of HP Restored 150% Bond of Life+150% ATK",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "5": {
+                            "0": "Skill DMG 490.8%",
+                            "1": "Amount of HP Restored 150% Bond of Life+150% ATK",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "6": {
+                            "0": "Skill DMG 518.6%",
+                            "1": "Amount of HP Restored 150% Bond of Life+150% ATK",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "7": {
+                            "0": "Skill DMG 555.6%",
+                            "1": "Amount of HP Restored 150% Bond of Life+150% ATK",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "8": {
+                            "0": "Skill DMG 592.6%",
+                            "1": "Amount of HP Restored 150% Bond of Life+150% ATK",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "9": {
+                            "0": "Skill DMG 629.7%",
+                            "1": "Amount of HP Restored 150% Bond of Life+150% ATK",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "10": {
+                            "0": "Skill DMG 666.7%",
+                            "1": "Amount of HP Restored 150% Bond of Life+150% ATK",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "11": {
+                            "0": "Skill DMG 703.8%",
+                            "1": "Amount of HP Restored 150% Bond of Life+150% ATK",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "12": {
+                            "0": "Skill DMG 740.8%",
+                            "1": "Amount of HP Restored 150% Bond of Life+150% ATK",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "13": {
+                            "0": "Skill DMG 787.1%",
+                            "1": "Amount of HP Restored 150% Bond of Life+150% ATK",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "14": {
+                            "0": "Skill DMG 833.4%",
+                            "1": "Amount of HP Restored 150% Bond of Life+150% ATK",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        },
+                        "15": {
+                            "0": "Skill DMG 879.7%",
+                            "1": "Amount of HP Restored 150% Bond of Life+150% ATK",
+                            "2": "CD 15s",
+                            "3": "Energy Cost 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104344",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113060",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113060",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113060",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104346",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113060",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Agony Alone May Be Repaid",
+                    "description": "<color=#FFD780FF>Blood-Debt Directives</color> have the following characteristics:\\n·Arlecchino will be granted a Bond of Life worth 130% of her Max HP when an opponent to which she herself applied a Directive is defeated.\\n·5s after a Directive is applied, it will be upgraded to a Blood-Debt Due. When absorbed, it will instead grant Arlecchino a Bond of Life worth 130%.\\nA Bond of Life created in the aforementioned ways cannot exceed the original limit on the value of Bonds of Life obtained through <color=#FFD780FF>All Is Ash</color>.",
+                    "icon": "UI_Talent_S_Arlecchino_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Strength Alone Can Defend",
+                    "description": "Arlecchino gains 1% All Elemental and Physical RES for every 100 ATK she has in excess of 1,000. The maximum RES increase she can gain this way for each is 20%.",
+                    "icon": "UI_Talent_S_Arlecchino_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "The Balemoon Alone May Know",
+                    "description": "While in combat, Arlecchino gains a 40% <color=#FF9999FF>Pyro DMG Bonus</color> and can only be healed through <color=#FFD780FF>Balemoon Rising</color>.",
+                    "icon": "UI_Talent_S_Arlecchino_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "\"All Reprisals and Arrears, Mine to Bear...\"",
+                    "description": "Masque of the Red Death is further enhanced, the value of the increase is 100%. Additionally, Arlecchino's interruption resistance is increased when she performs Normal or Charged Attacks while affected by the Masque of the Red Death.",
+                    "icon": "UI_Talent_S_Arlecchino_01"
+                },
+                "1": {
+                    "name": "\"All Rewards and Retribution, Mine to Bestow...\"",
+                    "description": "<color=#FFD780FF>Blood-Debt Directives</color> are now already Blood-Debt Due when first applied.\\nWhen Arlecchino absorbs such a Due, she unleashes Balemoon Bloodfire in front of her, dealing 900% of her ATK as <color=#FF9999FF>AoE Pyro DMG</color> and increasing her All Elemental RES and Physical RES by 20% for 15s. This effect can trigger once every 10s.\\nYou must first unlock the Passive Talent \"Agony Alone May Be Repaid.\"",
+                    "icon": "UI_Talent_S_Arlecchino_02"
+                },
+                "2": {
+                    "name": "\"You Shall Become a New Member of Our Family...\"",
+                    "description": "Increases the Level of <color=#FFD780FF>Normal Attack: Invitation to a Beheading</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Arlecchino_01"
+                },
+                "3": {
+                    "name": "\"You Shall Love and Protect Each Other Henceforth...\"",
+                    "description": "When Arlecchino successfully absorbs a Blood-Debt Directive, <color=#FFD780FF>Balemoon Rising</color>'s CD will decrease by 2s and 15 Elemental Energy will be restored to her. This effect can occur once every 10s.",
+                    "icon": "UI_Talent_S_Arlecchino_03"
+                },
+                "4": {
+                    "name": "\"For Alone, We Are as Good as Dead...\"",
+                    "description": "Increases the Level of <color=#FFD780FF>Balemoon Rising</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Arlecchino_02"
+                },
+                "5": {
+                    "name": "\"From This Day On, We Shall Delight in New Life Together.\"",
+                    "description": "The DMG of <color=#FFD780FF>Balemoon Rising</color> is increased by Arlecchino's ATK multiplied by 700% of Arlecchino's current Bond of Life percentage.\\nFor 20s after Arlecchino uses <color=#FFD780FF>All Is Ash</color>, both her Normal Attacks and Elemental Burst gain 10% increased CRIT Rate and 70% increased CRIT DMG. This effect can be triggered up to once every 15s.",
+                    "icon": "UI_Talent_S_Arlecchino_04"
+                }
+            },
+            "elevation": {
+                "sub": "CRIT DMG %",
+                "0": {
+                    "stats": {
+                        "HP": 1020,
+                        "ATK": 27,
+                        "DEF": 60,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2646,
+                        "ATK": 69,
+                        "DEF": 154,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101236",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104111",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112032",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 3521,
+                        "ATK": 92,
+                        "DEF": 205,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 5268,
+                        "ATK": 138,
+                        "DEF": 307,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101236",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104112",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112032",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113059",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 5889,
+                        "ATK": 154,
+                        "DEF": 344,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 6776,
+                        "ATK": 177,
+                        "DEF": 395,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101236",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104112",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112033",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113059",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 7604,
+                        "ATK": 198,
+                        "DEF": 444,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 8410,
+                        "ATK": 220,
+                        "DEF": 491,
+                        "sub": 19.2
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101236",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104113",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112033",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113059",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 9032,
+                        "ATK": 236,
+                        "DEF": 527,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 10116,
+                        "ATK": 264,
+                        "DEF": 590,
+                        "sub": 19.2
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101236",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104113",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112034",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113059",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 10737,
+                        "ATK": 280,
+                        "DEF": 627,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 11561,
+                        "ATK": 302,
+                        "DEF": 675,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101236",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104114",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112034",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113059",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 12182,
+                        "ATK": 318,
+                        "DEF": 711,
+                        "sub": 38.4
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 13103,
+                        "ATK": 342,
+                        "DEF": 765,
+                        "sub": 38.4
+                    },
+                    "res": {}
+                }
+            }
+        },
+        "ru": {
+            "name": "Arlecchino",
+            "name_ru": "Арлекино",
+            "id": 10000096,
+            "rarity": 5,
+            "weapon": "Polearm",
+            "element": "Pyro",
+            "region": "Snezhnaya",
+            "more": {
+                "title": "Роковая луна",
+                "detail": "Слуга, четвёртая из Предвестников Фатуи. Опытный, безжалостный дипломат. «Отец», которого боятся и на которого полагаются дети Дома очага.",
+                "constellation": "Очищающий Огонь",
+                "group": "Фатуи",
+                "birthday": "22.8",
+                "release": "22.04.2024",
+                "cv": {
+                    "en": "Erin Yvette",
+                    "chs": "黄莺",
+                    "jp": "森なな子",
+                    "kr": "Lee Myung-hi"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Приглашение на казнь",
+                    "description": "<color=#FFD780FF>Обычная атака:</color>\\nДо шести ударов копьём подряд.\\n\\n<color=#FFD780FF>Заряженная атака:</color>\\nТратит определённое количество выносливости, совершает рывок к врагу поблизости и наносит удар.\\nПри продолжительном нажатии Арлекино продолжает потреблять выносливость на стремительное перемещение, которое длится до 5 сек.\\n\\n<color=#FFD780FF>Атака в падении:</color>\\nСтремительно падает на землю, атакуя всех врагов на пути. Приземлившись, наносит урон по площади.\\n\\n<color=#FFD780FF>Маска Красной Смерти</color>\\nКогда Арлекино обладает Долгом жизни, который равен или превышает 30% от её макс. HP, она входит в состояние Маски Красной Смерти: урон её обычных атак, заряженных атак и атак в падении конвертируется в <color=#FF9999FF>Пиро урон</color>. Этот эффект не может быть отменён какой-либо элементальной инфузией.\\nКогда Арлекино пребывает в состоянии Маски Красной Смерти, удары её обычной атаки при попадании наносят противнику дополнительный урон, пропорциональный силе атаки Арлекино, умноженной на процентное значение текущего Долга жизни, и потребляет 7,5% данного Долга жизни. Долг жизни таким образом может потребляться не чаще одного раза каждые 0,03 сек. Потребление Долга жизни таким способом сокращает откат элементального навыка Всё превращается в прах на 0,8 сек.",
+                    "icon": "Skill_A_03",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Усиление Маски Красной Смерти {param12:F2P}",
+                            "1": "Урон атаки 1 47.5%",
+                            "2": "Урон атаки 2 52.1%",
+                            "3": "Урон атаки 3 65.4%",
+                            "4": "Урон атаки 4 37.1%+37.1%",
+                            "5": "Урон атаки 5 70%",
+                            "6": "Урон атаки 6 85.4%",
+                            "7": "Урон заряженной атаки 90.8%",
+                            "8": "Потребление выносливости 25 ед.",
+                            "9": "Потребление выносливости на стремительное перемещение 40 ед./сек.",
+                            "10": "Урон в падении 63.9%",
+                            "11": "Урон низкого/высокого удара 127.8%/159.7%"
+                        },
+                        "2": {
+                            "0": "Усиление Маски Красной Смерти {param12:F2P}",
+                            "1": "Урон атаки 1 51.4%",
+                            "2": "Урон атаки 2 56.3%",
+                            "3": "Урон атаки 3 70.7%",
+                            "4": "Урон атаки 4 40.2%+40.2%",
+                            "5": "Урон атаки 5 75.7%",
+                            "6": "Урон атаки 6 92.3%",
+                            "7": "Урон заряженной атаки 98.2%",
+                            "8": "Потребление выносливости 25 ед.",
+                            "9": "Потребление выносливости на стремительное перемещение 40 ед./сек.",
+                            "10": "Урон в падении 69.1%",
+                            "11": "Урон низкого/высокого удара 138.2%/172.7%"
+                        },
+                        "3": {
+                            "0": "Усиление Маски Красной Смерти {param12:F2P}",
+                            "1": "Урон атаки 1 55.2%",
+                            "2": "Урон атаки 2 60.6%",
+                            "3": "Урон атаки 3 76%",
+                            "4": "Урон атаки 4 43.2%+43.2%",
+                            "5": "Урон атаки 5 81.4%",
+                            "6": "Урон атаки 6 99.3%",
+                            "7": "Урон заряженной атаки 105.6%",
+                            "8": "Потребление выносливости 25 ед.",
+                            "9": "Потребление выносливости на стремительное перемещение 40 ед./сек.",
+                            "10": "Урон в падении 74.3%",
+                            "11": "Урон низкого/высокого удара 148.6%/185.7%"
+                        },
+                        "4": {
+                            "0": "Усиление Маски Красной Смерти {param12:F2P}",
+                            "1": "Урон атаки 1 60.8%",
+                            "2": "Урон атаки 2 66.6%",
+                            "3": "Урон атаки 3 83.6%",
+                            "4": "Урон атаки 4 47.5%+47.5%",
+                            "5": "Урон атаки 5 89.5%",
+                            "6": "Урон атаки 6 109.2%",
+                            "7": "Урон заряженной атаки 116.2%",
+                            "8": "Потребление выносливости 25 ед.",
+                            "9": "Потребление выносливости на стремительное перемещение 40 ед./сек.",
+                            "10": "Урон в падении 81.8%",
+                            "11": "Урон низкого/высокого удара 163.5%/204.2%"
+                        },
+                        "5": {
+                            "0": "Усиление Маски Красной Смерти {param12:F2P}",
+                            "1": "Урон атаки 1 64.6%",
+                            "2": "Урон атаки 2 70.9%",
+                            "3": "Урон атаки 3 89%",
+                            "4": "Урон атаки 4 50.5%+50.5%",
+                            "5": "Урон атаки 5 95.2%",
+                            "6": "Урон атаки 6 116.2%",
+                            "7": "Урон заряженной атаки 123.6%",
+                            "8": "Потребление выносливости 25 ед.",
+                            "9": "Потребление выносливости на стремительное перемещение 40 ед./сек.",
+                            "10": "Урон в падении 87%",
+                            "11": "Урон низкого/высокого удара 173.9%/217.2%"
+                        },
+                        "6": {
+                            "0": "Усиление Маски Красной Смерти {param12:F2P}",
+                            "1": "Урон атаки 1 69%",
+                            "2": "Урон атаки 2 75.7%",
+                            "3": "Урон атаки 3 95%",
+                            "4": "Урон атаки 4 54%+54%",
+                            "5": "Урон атаки 5 101.7%",
+                            "6": "Урон атаки 6 124.1%",
+                            "7": "Урон заряженной атаки 132%",
+                            "8": "Потребление выносливости 25 ед.",
+                            "9": "Потребление выносливости на стремительное перемещение 40 ед./сек.",
+                            "10": "Урон в падении 92.9%",
+                            "11": "Урон низкого/высокого удара 185.8%/232.1%"
+                        },
+                        "7": {
+                            "0": "Усиление Маски Красной Смерти {param12:F2P}",
+                            "1": "Урон атаки 1 75.1%",
+                            "2": "Урон атаки 2 82.4%",
+                            "3": "Урон атаки 3 103.4%",
+                            "4": "Урон атаки 4 58.7%+58.7%",
+                            "5": "Урон атаки 5 110.7%",
+                            "6": "Урон атаки 6 135%",
+                            "7": "Урон заряженной атаки 143.6%",
+                            "8": "Потребление выносливости 25 ед.",
+                            "9": "Потребление выносливости на стремительное перемещение 40 ед./сек.",
+                            "10": "Урон в падении 101.1%",
+                            "11": "Урон низкого/высокого удара 202.2%/252.5%"
+                        },
+                        "8": {
+                            "0": "Усиление Маски Красной Смерти {param12:F2P}",
+                            "1": "Урон атаки 1 81.2%",
+                            "2": "Урон атаки 2 89.1%",
+                            "3": "Урон атаки 3 111.8%",
+                            "4": "Урон атаки 4 63.5%+63.5%",
+                            "5": "Урон атаки 5 119.6%",
+                            "6": "Урон атаки 6 145.9%",
+                            "7": "Урон заряженной атаки 155.2%",
+                            "8": "Потребление выносливости 25 ед.",
+                            "9": "Потребление выносливости на стремительное перемещение 40 ед./сек.",
+                            "10": "Урон в падении 109.3%",
+                            "11": "Урон низкого/высокого удара 218.5%/272.9%"
+                        },
+                        "9": {
+                            "0": "Усиление Маски Красной Смерти {param12:F2P}",
+                            "1": "Урон атаки 1 87.3%",
+                            "2": "Урон атаки 2 95.7%",
+                            "3": "Урон атаки 3 120.1%",
+                            "4": "Урон атаки 4 68.2%+68.2%",
+                            "5": "Урон атаки 5 128.6%",
+                            "6": "Урон атаки 6 156.9%",
+                            "7": "Урон заряженной атаки 166.8%",
+                            "8": "Потребление выносливости 25 ед.",
+                            "9": "Потребление выносливости на стремительное перемещение 40 ед./сек.",
+                            "10": "Урон в падении 117.5%",
+                            "11": "Урон низкого/высокого удара 234.9%/293.4%"
+                        },
+                        "10": {
+                            "0": "Усиление Маски Красной Смерти {param12:F2P}",
+                            "1": "Урон атаки 1 93.9%",
+                            "2": "Урон атаки 2 103%",
+                            "3": "Урон атаки 3 129.3%",
+                            "4": "Урон атаки 4 73.4%+73.4%",
+                            "5": "Урон атаки 5 138.3%",
+                            "6": "Урон атаки 6 168.8%",
+                            "7": "Урон заряженной атаки 179.5%",
+                            "8": "Потребление выносливости 25 ед.",
+                            "9": "Потребление выносливости на стремительное перемещение 40 ед./сек.",
+                            "10": "Урон в падении 126.4%",
+                            "11": "Урон низкого/высокого удара 252.7%/315.6%"
+                        },
+                        "11": {
+                            "0": "Усиление Маски Красной Смерти {param12:F2P}",
+                            "1": "Урон атаки 1 100.5%",
+                            "2": "Урон атаки 2 110.3%",
+                            "3": "Урон атаки 3 138.4%",
+                            "4": "Урон атаки 4 78.6%+78.6%",
+                            "5": "Урон атаки 5 148.1%",
+                            "6": "Урон атаки 6 180.7%",
+                            "7": "Урон заряженной атаки 192.2%",
+                            "8": "Потребление выносливости 25 ед.",
+                            "9": "Потребление выносливости на стремительное перемещение 40 ед./сек.",
+                            "10": "Урон в падении 135.3%",
+                            "11": "Урон низкого/высокого удара 270.5%/337.9%"
+                        },
+                        "12": {
+                            "0": "Усиление Маски Красной Смерти {param12:F2P}",
+                            "1": "Урон атаки 1 107.2%",
+                            "2": "Урон атаки 2 117.5%",
+                            "3": "Урон атаки 3 147.5%",
+                            "4": "Урон атаки 4 83.8%+83.8%",
+                            "5": "Урон атаки 5 157.9%",
+                            "6": "Урон атаки 6 192.6%",
+                            "7": "Урон заряженной атаки 204.9%",
+                            "8": "Потребление выносливости 25 ед.",
+                            "9": "Потребление выносливости на стремительное перемещение 40 ед./сек.",
+                            "10": "Урон в падении 144.2%",
+                            "11": "Урон низкого/высокого удара 288.4%/360.2%"
+                        },
+                        "13": {
+                            "0": "Усиление Маски Красной Смерти {param12:F2P}",
+                            "1": "Урон атаки 1 113.8%",
+                            "2": "Урон атаки 2 124.8%",
+                            "3": "Урон атаки 3 156.6%",
+                            "4": "Урон атаки 4 89%+89%",
+                            "5": "Урон атаки 5 167.6%",
+                            "6": "Урон атаки 6 204.5%",
+                            "7": "Урон заряженной атаки 217.5%",
+                            "8": "Потребление выносливости 25 ед.",
+                            "9": "Потребление выносливости на стремительное перемещение 40 ед./сек.",
+                            "10": "Урон в падении 153.1%",
+                            "11": "Урон низкого/высокого удара 306.2%/382.5%"
+                        },
+                        "14": {
+                            "0": "Усиление Маски Красной Смерти {param12:F2P}",
+                            "1": "Урон атаки 1 120.4%",
+                            "2": "Урон атаки 2 132.1%",
+                            "3": "Урон атаки 3 165.7%",
+                            "4": "Урон атаки 4 94.2%+94.2%",
+                            "5": "Урон атаки 5 177.4%",
+                            "6": "Урон атаки 6 216.4%",
+                            "7": "Урон заряженной атаки 230.2%",
+                            "8": "Потребление выносливости 25 ед.",
+                            "9": "Потребление выносливости на стремительное перемещение 40 ед./сек.",
+                            "10": "Урон в падении 162.1%",
+                            "11": "Урон низкого/высокого удара 324.1%/404.8%"
+                        },
+                        "15": {
+                            "0": "Усиление Маски Красной Смерти {param12:F2P}",
+                            "1": "Урон атаки 1 127%",
+                            "2": "Урон атаки 2 139.4%",
+                            "3": "Урон атаки 3 174.9%",
+                            "4": "Урон атаки 4 99.3%+99.3%",
+                            "5": "Урон атаки 5 187.2%",
+                            "6": "Урон атаки 6 228.3%",
+                            "7": "Урон заряженной атаки 242.9%",
+                            "8": "Потребление выносливости 25 ед.",
+                            "9": "Потребление выносливости на стремительное перемещение 40 ед./сек.",
+                            "10": "Урон в падении 171%",
+                            "11": "Урон низкого/высокого удара 341.9%/427%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104344",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113060",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113060",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113060",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104346",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113060",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Всё превращается в прах",
+                    "description": "Призывает Пламя роковой луны, нанося нескольким противникам поблизости <color=#FF9999FF>Пиро урон</color>, и против одного из них выполняет выпад, который наносит <color=#FF9999FF>Пиро урон по площади</color>. На поражённых такой атакой врагов накладывается Веление кровавого долга.\\n\\n<color=#FFD780FF>Веление кровавого долга</color>\\n· Длится 30 сек. Каждые 5 сек. наносит врагу однократный <color=#FF9999FF>Пиро урон</color>. Такой урон наносится до 2 раз и считается уроном элементального навыка.\\n· Применяя заряженную атаку или взрыв стихии Восхождения роковой луны, Арлекино поглощает и снимает Веления кровавого долга поблизости. Каждое поглощённое Веление кровавого долга наделяет её Долгом жизни, равным 65% от её макс. HP.\\n· В течение 35 сек. после активации элементального навыка Арлекино с помощью Веления кровавого долга может получить Долг жизни, не превышающий 145% от её макс. HP. Если в это время применить элементальный навык повторно, расчёт длительности и максимума значения Долга жизни от Веления кровавого долга начнётся сначала.\\n\\n<i>В её понимании, одинокое пшеничное зерно, упавшее в землю, не всегда прорастает колосом и может беззвучно сгнить. А если всех тех, кто встанет у неё на пути, сжечь дотла, оставшийся от них пепел станет пищей цветам.</i>",
+                    "icon": "Skill_S_Arlecchino_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон шипов 14.8%",
+                            "1": "Урон выпада 133.6%",
+                            "2": "Урон Веления кровавого долга 31.8%",
+                            "3": "Время отката 30 сек."
+                        },
+                        "2": {
+                            "0": "Урон шипов 16%",
+                            "1": "Урон выпада 143.6%",
+                            "2": "Урон Веления кровавого долга 34.2%",
+                            "3": "Время отката 30 сек."
+                        },
+                        "3": {
+                            "0": "Урон шипов 17.1%",
+                            "1": "Урон выпада 153.6%",
+                            "2": "Урон Веления кровавого долга 36.6%",
+                            "3": "Время отката 30 сек."
+                        },
+                        "4": {
+                            "0": "Урон шипов 18.6%",
+                            "1": "Урон выпада 166.9%",
+                            "2": "Урон Веления кровавого долга 39.8%",
+                            "3": "Время отката 30 сек."
+                        },
+                        "5": {
+                            "0": "Урон шипов 19.7%",
+                            "1": "Урон выпада 177%",
+                            "2": "Урон Веления кровавого долга 42.1%",
+                            "3": "Время отката 30 сек."
+                        },
+                        "6": {
+                            "0": "Урон шипов 20.8%",
+                            "1": "Урон выпада 187%",
+                            "2": "Урон Веления кровавого долга 44.5%",
+                            "3": "Время отката 30 сек."
+                        },
+                        "7": {
+                            "0": "Урон шипов 22.3%",
+                            "1": "Урон выпада 200.3%",
+                            "2": "Урон Веления кровавого долга 47.7%",
+                            "3": "Время отката 30 сек."
+                        },
+                        "8": {
+                            "0": "Урон шипов 23.7%",
+                            "1": "Урон выпада 213.7%",
+                            "2": "Урон Веления кровавого долга 50.9%",
+                            "3": "Время отката 30 сек."
+                        },
+                        "9": {
+                            "0": "Урон шипов 25.2%",
+                            "1": "Урон выпада 227.1%",
+                            "2": "Урон Веления кровавого долга 54.1%",
+                            "3": "Время отката 30 сек."
+                        },
+                        "10": {
+                            "0": "Урон шипов 26.7%",
+                            "1": "Урон выпада 240.4%",
+                            "2": "Урон Веления кровавого долга 57.2%",
+                            "3": "Время отката 30 сек."
+                        },
+                        "11": {
+                            "0": "Урон шипов 28.2%",
+                            "1": "Урон выпада 253.8%",
+                            "2": "Урон Веления кровавого долга 60.4%",
+                            "3": "Время отката 30 сек."
+                        },
+                        "12": {
+                            "0": "Урон шипов 29.7%",
+                            "1": "Урон выпада 267.1%",
+                            "2": "Урон Веления кровавого долга 63.6%",
+                            "3": "Время отката 30 сек."
+                        },
+                        "13": {
+                            "0": "Урон шипов 31.5%",
+                            "1": "Урон выпада 283.8%",
+                            "2": "Урон Веления кровавого долга 67.6%",
+                            "3": "Время отката 30 сек."
+                        },
+                        "14": {
+                            "0": "Урон шипов 33.4%",
+                            "1": "Урон выпада 300.5%",
+                            "2": "Урон Веления кровавого долга 71.5%",
+                            "3": "Время отката 30 сек."
+                        },
+                        "15": {
+                            "0": "Урон шипов 35.2%",
+                            "1": "Урон выпада 317.2%",
+                            "2": "Урон Веления кровавого долга 75.5%",
+                            "3": "Время отката 30 сек."
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104344",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113060",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113060",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113060",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104346",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113060",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Восхождение роковой луны",
+                    "description": "Арлекино взмахивает великими крыльями Пламени роковой луны, поглощает и снимает Веления кровавого долга поблизости, нанося <color=#FF9999FF>Пиро урон по площади</color>, после чего сбрасывает откат элементального навыка Всё превращается в прах и восстанавливает HP пропорционально значению собственного Долга жизни и силы атаки.\\n\\n<i>Все фазы луны, за исключением полнолуния, в Тейвате считаются дурными предзнаменованиями, которые используют лишь алхимики и астрологи.\\nСколько раз являлась багровая луна ей во снах... Сулила ли она бедствия? Да, но выпадали они на долю тех, кто приводил её в ярость.</i>",
+                    "icon": "Skill_E_Arlecchino_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 370.4%",
+                            "1": "Восстанавливаемое HP 150% Долга жизни +150% силы атаки",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "2": {
+                            "0": "Урон навыка 398.2%",
+                            "1": "Восстанавливаемое HP 150% Долга жизни +150% силы атаки",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "3": {
+                            "0": "Урон навыка 426%",
+                            "1": "Восстанавливаемое HP 150% Долга жизни +150% силы атаки",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "4": {
+                            "0": "Урон навыка 463%",
+                            "1": "Восстанавливаемое HP 150% Долга жизни +150% силы атаки",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "5": {
+                            "0": "Урон навыка 490.8%",
+                            "1": "Восстанавливаемое HP 150% Долга жизни +150% силы атаки",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "6": {
+                            "0": "Урон навыка 518.6%",
+                            "1": "Восстанавливаемое HP 150% Долга жизни +150% силы атаки",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "7": {
+                            "0": "Урон навыка 555.6%",
+                            "1": "Восстанавливаемое HP 150% Долга жизни +150% силы атаки",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "8": {
+                            "0": "Урон навыка 592.6%",
+                            "1": "Восстанавливаемое HP 150% Долга жизни +150% силы атаки",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "9": {
+                            "0": "Урон навыка 629.7%",
+                            "1": "Восстанавливаемое HP 150% Долга жизни +150% силы атаки",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "10": {
+                            "0": "Урон навыка 666.7%",
+                            "1": "Восстанавливаемое HP 150% Долга жизни +150% силы атаки",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "11": {
+                            "0": "Урон навыка 703.8%",
+                            "1": "Восстанавливаемое HP 150% Долга жизни +150% силы атаки",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "12": {
+                            "0": "Урон навыка 740.8%",
+                            "1": "Восстанавливаемое HP 150% Долга жизни +150% силы атаки",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "13": {
+                            "0": "Урон навыка 787.1%",
+                            "1": "Восстанавливаемое HP 150% Долга жизни +150% силы атаки",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "14": {
+                            "0": "Урон навыка 833.4%",
+                            "1": "Восстанавливаемое HP 150% Долга жизни +150% силы атаки",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "15": {
+                            "0": "Урон навыка 879.7%",
+                            "1": "Восстанавливаемое HP 150% Долга жизни +150% силы атаки",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104344",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113060",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113060",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113060",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104346",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113060",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Восхождение роковой луны",
+                    "description": "Арлекино взмахивает великими крыльями Пламени роковой луны, поглощает и снимает Веления кровавого долга поблизости, нанося <color=#FF9999FF>Пиро урон по площади</color>, после чего сбрасывает откат элементального навыка Всё превращается в прах и восстанавливает HP пропорционально значению собственного Долга жизни и силы атаки.\\n\\n<i>Все фазы луны, за исключением полнолуния, в Тейвате считаются дурными предзнаменованиями, которые используют лишь алхимики и астрологи.\\nСколько раз являлась багровая луна ей во снах... Сулила ли она бедствия? Да, но выпадали они на долю тех, кто приводил её в ярость.</i>",
+                    "icon": "Skill_E_Arlecchino_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 370.4%",
+                            "1": "Восстанавливаемое HP 150% Долга жизни +150% силы атаки",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "2": {
+                            "0": "Урон навыка 398.2%",
+                            "1": "Восстанавливаемое HP 150% Долга жизни +150% силы атаки",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "3": {
+                            "0": "Урон навыка 426%",
+                            "1": "Восстанавливаемое HP 150% Долга жизни +150% силы атаки",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "4": {
+                            "0": "Урон навыка 463%",
+                            "1": "Восстанавливаемое HP 150% Долга жизни +150% силы атаки",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "5": {
+                            "0": "Урон навыка 490.8%",
+                            "1": "Восстанавливаемое HP 150% Долга жизни +150% силы атаки",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "6": {
+                            "0": "Урон навыка 518.6%",
+                            "1": "Восстанавливаемое HP 150% Долга жизни +150% силы атаки",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "7": {
+                            "0": "Урон навыка 555.6%",
+                            "1": "Восстанавливаемое HP 150% Долга жизни +150% силы атаки",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "8": {
+                            "0": "Урон навыка 592.6%",
+                            "1": "Восстанавливаемое HP 150% Долга жизни +150% силы атаки",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "9": {
+                            "0": "Урон навыка 629.7%",
+                            "1": "Восстанавливаемое HP 150% Долга жизни +150% силы атаки",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "10": {
+                            "0": "Урон навыка 666.7%",
+                            "1": "Восстанавливаемое HP 150% Долга жизни +150% силы атаки",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "11": {
+                            "0": "Урон навыка 703.8%",
+                            "1": "Восстанавливаемое HP 150% Долга жизни +150% силы атаки",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "12": {
+                            "0": "Урон навыка 740.8%",
+                            "1": "Восстанавливаемое HP 150% Долга жизни +150% силы атаки",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "13": {
+                            "0": "Урон навыка 787.1%",
+                            "1": "Восстанавливаемое HP 150% Долга жизни +150% силы атаки",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "14": {
+                            "0": "Урон навыка 833.4%",
+                            "1": "Восстанавливаемое HP 150% Долга жизни +150% силы атаки",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        },
+                        "15": {
+                            "0": "Урон навыка 879.7%",
+                            "1": "Восстанавливаемое HP 150% Долга жизни +150% силы атаки",
+                            "2": "Время отката 15 сек.",
+                            "3": "Потребление энергии 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104344",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104345",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113060",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113060",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104346",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113060",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104346",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113060",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Лишь страдания искупят",
+                    "description": "<color=#FFD780FF>Веление кровавого долга</color> обладает следующими характеристиками:\\n· Победа над врагом с наложенным самой Арлекино Велением кровавого долга даёт ей Долг жизни, равный 130% от её макс. HP.\\n· Через 5 сек. после наложения он повышается до Кровавого долга: Взыскание, который при поглощении наделяет Арлекино Долгом жизни в размере 130%.\\nКоличество Долга жизни, получаемого этими способами, не может превышать исходного лимита Долга жизни навыка <color=#FFD780FF>Всё превращается в прах</color>.",
+                    "icon": "UI_Talent_S_Arlecchino_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Лишь сила защитит",
+                    "description": "За каждые 100 ед. силы атаки свыше 1000 ед. Арлекино получает 1% сопротивления всем элементам и физ. сопротивления. Максимум сопротивления всем элементам и физ. сопротивления, которое Арлекино может получить таким образом, не превышает 20%.",
+                    "icon": "UI_Talent_S_Arlecchino_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Лишь роковой луне известно",
+                    "description": "В бою Арлекино получает 40% <color=#FF9999FF>бонус Пиро урона</color> и может исцеляться только <color=#FFD780FF>Восхождением роковой луны</color>.",
+                    "icon": "UI_Talent_S_Arlecchino_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "«Все возмездия и повинности понесу я...»",
+                    "description": "Маска Красной Смерти дополнительно усиливается на 100%. Кроме того, когда Арлекино со статусом Маски Красной Смерти выполняет обычные или заряженные атаки, её сопротивление прерыванию увеличивается.",
+                    "icon": "UI_Talent_S_Arlecchino_01"
+                },
+                "1": {
+                    "name": "«За добрые деяния и прегрешения воздам я...»",
+                    "description": "Налагаемое <color=#FFD780FF>Веление кровавого долга</color> сразу становится Кровавым долгом: Взыскание.\\nПоглощая Кровавый долг: Взыскание, Арлекино выпускает перед собой Пламя роковой луны, которое наносит <color=#FF9999FF>Пиро урон по площади</color>, равный 900% от её силы атаки, а также на 15 сек. повышает элементальное и физическое сопротивление на 20%. Этот эффект может возникнуть один раз в 10 сек.\\nТребуется разблокировать пассивный талант «Лишь страдания искупят».",
+                    "icon": "UI_Talent_S_Arlecchino_02"
+                },
+                "2": {
+                    "name": "«Ты станешь новым членом нашей семьи...»",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Приглашение на казнь</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Arlecchino_01"
+                },
+                "3": {
+                    "name": "«Впредь любите и защищайте друг друга...»",
+                    "description": "Когда Арлекино поглощает Веление кровавого долга, откат <color=#FFD780FF>Восхождения роковой луны</color> сокращается на 2 сек., и 15 ед. её энергии восстанавливается. Эффект может возникнуть один раз в 10 сек.",
+                    "icon": "UI_Talent_S_Arlecchino_03"
+                },
+                "4": {
+                    "name": "«По одиночке мы всё равно что мертвы...»",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Восхождение роковой луны</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Arlecchino_02"
+                },
+                "5": {
+                    "name": "«Возрадуемся новой жизни вместе»",
+                    "description": "Урон навыка <color=#FFD780FF>Восхождение роковой луны</color> увеличивается пропорционально силе атаки Арлекино, умноженной на 700% процентного значения текущего Долга жизни.\\nВ течение 20 сек. после использования навыка <color=#FFD780FF>Всё превращается в прах</color> у её обычных атак и взрыва стихии шанс крит. попадания повышается на 10%, а крит. урон повышается на 70%. Эффект может возникнуть один раз в 15 сек.",
+                    "icon": "UI_Talent_S_Arlecchino_04"
+                }
+            },
+            "elevation": {
+                "sub": "Крит. урон %",
+                "0": {
+                    "stats": {
+                        "HP": 1020,
+                        "ATK": 27,
+                        "DEF": 60,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2646,
+                        "ATK": 69,
+                        "DEF": 154,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101236",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104111",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112032",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 3521,
+                        "ATK": 92,
+                        "DEF": 205,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 5268,
+                        "ATK": 138,
+                        "DEF": 307,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101236",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104112",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112032",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113059",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 5889,
+                        "ATK": 154,
+                        "DEF": 344,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 6776,
+                        "ATK": 177,
+                        "DEF": 395,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101236",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104112",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112033",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113059",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 7604,
+                        "ATK": 198,
+                        "DEF": 444,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 8410,
+                        "ATK": 220,
+                        "DEF": 491,
+                        "sub": 19.2
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101236",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104113",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112033",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113059",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 9032,
+                        "ATK": 236,
+                        "DEF": 527,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 10116,
+                        "ATK": 264,
+                        "DEF": 590,
+                        "sub": 19.2
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101236",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104113",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112034",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113059",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 10737,
+                        "ATK": 280,
+                        "DEF": 627,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 11561,
+                        "ATK": 302,
+                        "DEF": 675,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101236",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104114",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112034",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113059",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 12182,
+                        "ATK": 318,
+                        "DEF": 711,
+                        "sub": 38.4
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 13103,
+                        "ATK": 342,
+                        "DEF": 765,
+                        "sub": 38.4
+                    },
+                    "res": {}
+                }
+            }
+        }
+    }
+}

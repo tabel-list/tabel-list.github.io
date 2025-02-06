@@ -1,0 +1,2904 @@
+{
+    "Gorou": {
+        "en": {
+            "name": "Gorou",
+            "name_ru": "Горо",
+            "id": 10000055,
+            "rarity": 4,
+            "weapon": "Bow",
+            "element": "Geo",
+            "region": "Inazuma",
+            "more": {
+                "title": "Canine Warrior",
+                "detail": "The great general of Watatsumi Island's forces. He is deeply trusted by his subordinates.",
+                "constellation": "Canis Bellatoris",
+                "group": "Watatsumi Island",
+                "birthday": "18.5",
+                "release": "14.12.2021",
+                "cv": {
+                    "en": "Cory Yee",
+                    "chs": "杨昕燃",
+                    "jp": "畠中祐",
+                    "kr": "Lee Sae-byeok"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Normal Attack: Ripping Fang Fletching",
+                    "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, stone crystals will accumulate on the arrowhead. A fully charged crystalline arrow will deal <color=#FFE699FF>Geo DMG</color>.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+                    "icon": "Skill_A_02",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "1-Hit DMG 37.8%",
+                            "1": "2-Hit DMG 37.2%",
+                            "2": "3-Hit DMG 49.5%",
+                            "3": "4-Hit DMG 59%",
+                            "4": "Aimed Shot 43.9%",
+                            "5": "Fully-Charged Aimed Shot 124%",
+                            "6": "Plunge DMG 56.8%",
+                            "7": "Low/High Plunge DMG 113.6%/141.9%"
+                        },
+                        "2": {
+                            "0": "1-Hit DMG 40.8%",
+                            "1": "2-Hit DMG 40.2%",
+                            "2": "3-Hit DMG 53.5%",
+                            "3": "4-Hit DMG 63.8%",
+                            "4": "Aimed Shot 47.4%",
+                            "5": "Fully-Charged Aimed Shot 133.3%",
+                            "6": "Plunge DMG 61.5%",
+                            "7": "Low/High Plunge DMG 122.9%/153.5%"
+                        },
+                        "3": {
+                            "0": "1-Hit DMG 43.9%",
+                            "1": "2-Hit DMG 43.2%",
+                            "2": "3-Hit DMG 57.5%",
+                            "3": "4-Hit DMG 68.6%",
+                            "4": "Aimed Shot 51%",
+                            "5": "Fully-Charged Aimed Shot 142.6%",
+                            "6": "Plunge DMG 66.1%",
+                            "7": "Low/High Plunge DMG 132.1%/165%"
+                        },
+                        "4": {
+                            "0": "1-Hit DMG 48.3%",
+                            "1": "2-Hit DMG 47.5%",
+                            "2": "3-Hit DMG 63.2%",
+                            "3": "4-Hit DMG 75.5%",
+                            "4": "Aimed Shot 56.1%",
+                            "5": "Fully-Charged Aimed Shot 155%",
+                            "6": "Plunge DMG 72.7%",
+                            "7": "Low/High Plunge DMG 145.3%/181.5%"
+                        },
+                        "5": {
+                            "0": "1-Hit DMG 51.4%",
+                            "1": "2-Hit DMG 50.5%",
+                            "2": "3-Hit DMG 67.3%",
+                            "3": "4-Hit DMG 80.3%",
+                            "4": "Aimed Shot 59.7%",
+                            "5": "Fully-Charged Aimed Shot 164.3%",
+                            "6": "Plunge DMG 77.3%",
+                            "7": "Low/High Plunge DMG 154.6%/193.1%"
+                        },
+                        "6": {
+                            "0": "1-Hit DMG 54.9%",
+                            "1": "2-Hit DMG 54%",
+                            "2": "3-Hit DMG 71.9%",
+                            "3": "4-Hit DMG 85.8%",
+                            "4": "Aimed Shot 63.7%",
+                            "5": "Fully-Charged Aimed Shot 173.6%",
+                            "6": "Plunge DMG 82.6%",
+                            "7": "Low/High Plunge DMG 165.2%/206.3%"
+                        },
+                        "7": {
+                            "0": "1-Hit DMG 59.7%",
+                            "1": "2-Hit DMG 58.8%",
+                            "2": "3-Hit DMG 78.2%",
+                            "3": "4-Hit DMG 93.3%",
+                            "4": "Aimed Shot 69.4%",
+                            "5": "Fully-Charged Aimed Shot 186%",
+                            "6": "Plunge DMG 89.9%",
+                            "7": "Low/High Plunge DMG 179.7%/224.5%"
+                        },
+                        "8": {
+                            "0": "1-Hit DMG 64.5%",
+                            "1": "2-Hit DMG 63.5%",
+                            "2": "3-Hit DMG 84.5%",
+                            "3": "4-Hit DMG 100.8%",
+                            "4": "Aimed Shot 75%",
+                            "5": "Fully-Charged Aimed Shot 198.4%",
+                            "6": "Plunge DMG 97.1%",
+                            "7": "Low/High Plunge DMG 194.2%/242.6%"
+                        },
+                        "9": {
+                            "0": "1-Hit DMG 69.4%",
+                            "1": "2-Hit DMG 68.3%",
+                            "2": "3-Hit DMG 90.8%",
+                            "3": "4-Hit DMG 108.4%",
+                            "4": "Aimed Shot 80.6%",
+                            "5": "Fully-Charged Aimed Shot 210.8%",
+                            "6": "Plunge DMG 104.4%",
+                            "7": "Low/High Plunge DMG 208.8%/260.8%"
+                        },
+                        "10": {
+                            "0": "1-Hit DMG 74.6%",
+                            "1": "2-Hit DMG 73.4%",
+                            "2": "3-Hit DMG 97.8%",
+                            "3": "4-Hit DMG 116.6%",
+                            "4": "Aimed Shot 86.7%",
+                            "5": "Fully-Charged Aimed Shot 223.2%",
+                            "6": "Plunge DMG 112.3%",
+                            "7": "Low/High Plunge DMG 224.6%/280.6%"
+                        },
+                        "11": {
+                            "0": "1-Hit DMG 79.9%",
+                            "1": "2-Hit DMG 78.6%",
+                            "2": "3-Hit DMG 104.7%",
+                            "3": "4-Hit DMG 124.9%",
+                            "4": "Aimed Shot 92.8%",
+                            "5": "Fully-Charged Aimed Shot 235.6%",
+                            "6": "Plunge DMG 120.3%",
+                            "7": "Low/High Plunge DMG 240.5%/300.4%"
+                        },
+                        "12": {
+                            "0": "1-Hit DMG 85.2%",
+                            "1": "2-Hit DMG 83.8%",
+                            "2": "3-Hit DMG 111.5%",
+                            "3": "4-Hit DMG 133.1%",
+                            "4": "Aimed Shot 98.9%",
+                            "5": "Fully-Charged Aimed Shot 248%",
+                            "6": "Plunge DMG 128.2%",
+                            "7": "Low/High Plunge DMG 256.3%/320.2%"
+                        },
+                        "13": {
+                            "0": "1-Hit DMG 90.4%",
+                            "1": "2-Hit DMG 89%",
+                            "2": "3-Hit DMG 118.5%",
+                            "3": "4-Hit DMG 141.3%",
+                            "4": "Aimed Shot 105.1%",
+                            "5": "Fully-Charged Aimed Shot 263.5%",
+                            "6": "Plunge DMG 136.1%",
+                            "7": "Low/High Plunge DMG 272.2%/340%"
+                        },
+                        "14": {
+                            "0": "1-Hit DMG 95.7%",
+                            "1": "2-Hit DMG 94.2%",
+                            "2": "3-Hit DMG 125.4%",
+                            "3": "4-Hit DMG 149.5%",
+                            "4": "Aimed Shot 111.2%",
+                            "5": "Fully-Charged Aimed Shot 279%",
+                            "6": "Plunge DMG 144.1%",
+                            "7": "Low/High Plunge DMG 288%/359.8%"
+                        },
+                        "15": {
+                            "0": "1-Hit DMG 101%",
+                            "1": "2-Hit DMG 99.4%",
+                            "2": "3-Hit DMG 132.2%",
+                            "3": "4-Hit DMG 157.8%",
+                            "4": "Aimed Shot 117.3%",
+                            "5": "Fully-Charged Aimed Shot 294.5%",
+                            "6": "Plunge DMG 152%",
+                            "7": "Low/High Plunge DMG 303.9%/379.6%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104326",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112053",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113025",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113025",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113025",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104328",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112055",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113025",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Inuzaka All-Round Defense",
+                    "description": "Deals <color=#FFE699FF>AoE Geo DMG</color> and sets up a General's War Banner.\\n\\n<color=#FFD780FF>General's War Banner</color>\\nProvides up to 3 buffs to active characters within the skill's AoE based on the number of <color=#FFE699FF>Geo</color> characters in the party at the time of casting:\\n· 1 Geo character: Adds \"Standing Firm\" - DEF Bonus.\\n· 2 Geo characters: Adds \"Impregnable\" - Increased resistance to interruption.\\n· 3 Geo characters: Adds \"Crunch\" - <color=#FFE699FF>Geo DMG Bonus</color>.\\n\\nGorou can deploy only 1 General's War Banner on the field at any one time. Characters can only benefit from 1 General's War Banner at a time. When a party member leaves the field, the active buff will last for 2s.\\n\\n<color=#FFD780FF>Hold</color>\\nAdjust the location of the skill.\\n\\n<i>\"Take up this formation and we'll be safe — I guarantee it!\" As a general and a leader of troops, the last thing Gorou wants is to see is those who follow him getting hurt.</i>",
+                    "icon": "Skill_S_Gorou_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 107.2%",
+                            "1": "DEF Increase 206",
+                            "2": "Geo DMG Bonus 15%",
+                            "3": "Duration 10s",
+                            "4": "CD 10s"
+                        },
+                        "2": {
+                            "0": "Skill DMG 115.2%",
+                            "1": "DEF Increase 221",
+                            "2": "Geo DMG Bonus 15%",
+                            "3": "Duration 10s",
+                            "4": "CD 10s"
+                        },
+                        "3": {
+                            "0": "Skill DMG 123.3%",
+                            "1": "DEF Increase 237",
+                            "2": "Geo DMG Bonus 15%",
+                            "3": "Duration 10s",
+                            "4": "CD 10s"
+                        },
+                        "4": {
+                            "0": "Skill DMG 134%",
+                            "1": "DEF Increase 257",
+                            "2": "Geo DMG Bonus 15%",
+                            "3": "Duration 10s",
+                            "4": "CD 10s"
+                        },
+                        "5": {
+                            "0": "Skill DMG 142%",
+                            "1": "DEF Increase 273",
+                            "2": "Geo DMG Bonus 15%",
+                            "3": "Duration 10s",
+                            "4": "CD 10s"
+                        },
+                        "6": {
+                            "0": "Skill DMG 150.1%",
+                            "1": "DEF Increase 288",
+                            "2": "Geo DMG Bonus 15%",
+                            "3": "Duration 10s",
+                            "4": "CD 10s"
+                        },
+                        "7": {
+                            "0": "Skill DMG 160.8%",
+                            "1": "DEF Increase 309",
+                            "2": "Geo DMG Bonus 15%",
+                            "3": "Duration 10s",
+                            "4": "CD 10s"
+                        },
+                        "8": {
+                            "0": "Skill DMG 171.5%",
+                            "1": "DEF Increase 329",
+                            "2": "Geo DMG Bonus 15%",
+                            "3": "Duration 10s",
+                            "4": "CD 10s"
+                        },
+                        "9": {
+                            "0": "Skill DMG 182.2%",
+                            "1": "DEF Increase 350",
+                            "2": "Geo DMG Bonus 15%",
+                            "3": "Duration 10s",
+                            "4": "CD 10s"
+                        },
+                        "10": {
+                            "0": "Skill DMG 193%",
+                            "1": "DEF Increase 371",
+                            "2": "Geo DMG Bonus 15%",
+                            "3": "Duration 10s",
+                            "4": "CD 10s"
+                        },
+                        "11": {
+                            "0": "Skill DMG 203.7%",
+                            "1": "DEF Increase 391",
+                            "2": "Geo DMG Bonus 15%",
+                            "3": "Duration 10s",
+                            "4": "CD 10s"
+                        },
+                        "12": {
+                            "0": "Skill DMG 214.4%",
+                            "1": "DEF Increase 412",
+                            "2": "Geo DMG Bonus 15%",
+                            "3": "Duration 10s",
+                            "4": "CD 10s"
+                        },
+                        "13": {
+                            "0": "Skill DMG 227.8%",
+                            "1": "DEF Increase 438",
+                            "2": "Geo DMG Bonus 15%",
+                            "3": "Duration 10s",
+                            "4": "CD 10s"
+                        },
+                        "14": {
+                            "0": "Skill DMG 241.2%",
+                            "1": "DEF Increase 463",
+                            "2": "Geo DMG Bonus 15%",
+                            "3": "Duration 10s",
+                            "4": "CD 10s"
+                        },
+                        "15": {
+                            "0": "Skill DMG 254.6%",
+                            "1": "DEF Increase 489",
+                            "2": "Geo DMG Bonus 15%",
+                            "3": "Duration 10s",
+                            "4": "CD 10s"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104326",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112053",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113025",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113025",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113025",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104328",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112055",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113025",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Juuga: Forward Unto Victory",
+                    "description": "Displaying his valor as a general, Gorou deals <color=#FFE699FF>AoE Geo DMG</color> and creates a field known as General's Glory to embolden his comrades.\\n\\n<color=#FFD780FF>General's Glory</color>\\nThis field has the following properties:\\n· Like the General's War Banner created by Inuzaka All-Round Defense, provides buffs to active characters within the skill's AoE based on the number of <color=#FFE699FF>Geo</color> characters in the party. Also moves together with your active character.\\n· Generates 1 Crystal Collapse every 1.5s that deals <color=#FFE699FF>AoE Geo DMG</color> to 1 opponent within the skill's AoE.\\n· Pulls 1 elemental shard in the skill's AoE to your active character's position every 1.5s (elemental shards are created by Crystallize reactions).\\n\\nIf a General's War Banner created by Gorou currently exists on the field when this ability is used, it will be destroyed. In addition, for the duration of General's Glory, Gorou's Elemental Skill \"Inuzaka All-Round Defense\" will not create the General's War Banner.\\n If Gorou falls, the effects of General's Glory will be cleared.\\n\\n<i>\"We have the high ground!\" Gorou can ever so slightly change the terrain of the battlefield to help win victory. This technique has seen him through many battles against seemingly superior opposition.</i>",
+                    "icon": "Skill_E_Gorou_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 98.2% DEF",
+                            "1": "Crystal Collapse DMG 61.3% DEF",
+                            "2": "Duration 9s",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "2": {
+                            "0": "Skill DMG 105.6% DEF",
+                            "1": "Crystal Collapse DMG 65.9% DEF",
+                            "2": "Duration 9s",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "3": {
+                            "0": "Skill DMG 112.9% DEF",
+                            "1": "Crystal Collapse DMG 70.5% DEF",
+                            "2": "Duration 9s",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "4": {
+                            "0": "Skill DMG 122.8% DEF",
+                            "1": "Crystal Collapse DMG 76.6% DEF",
+                            "2": "Duration 9s",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "5": {
+                            "0": "Skill DMG 130.1% DEF",
+                            "1": "Crystal Collapse DMG 81.2% DEF",
+                            "2": "Duration 9s",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "6": {
+                            "0": "Skill DMG 137.5% DEF",
+                            "1": "Crystal Collapse DMG 85.8% DEF",
+                            "2": "Duration 9s",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "7": {
+                            "0": "Skill DMG 147.3% DEF",
+                            "1": "Crystal Collapse DMG 92% DEF",
+                            "2": "Duration 9s",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "8": {
+                            "0": "Skill DMG 157.1% DEF",
+                            "1": "Crystal Collapse DMG 98.1% DEF",
+                            "2": "Duration 9s",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "9": {
+                            "0": "Skill DMG 167% DEF",
+                            "1": "Crystal Collapse DMG 104.2% DEF",
+                            "2": "Duration 9s",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "10": {
+                            "0": "Skill DMG 176.8% DEF",
+                            "1": "Crystal Collapse DMG 110.3% DEF",
+                            "2": "Duration 9s",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "11": {
+                            "0": "Skill DMG 186.6% DEF",
+                            "1": "Crystal Collapse DMG 116.5% DEF",
+                            "2": "Duration 9s",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "12": {
+                            "0": "Skill DMG 196.4% DEF",
+                            "1": "Crystal Collapse DMG 122.6% DEF",
+                            "2": "Duration 9s",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "13": {
+                            "0": "Skill DMG 208.7% DEF",
+                            "1": "Crystal Collapse DMG 130.3% DEF",
+                            "2": "Duration 9s",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "14": {
+                            "0": "Skill DMG 221% DEF",
+                            "1": "Crystal Collapse DMG 137.9% DEF",
+                            "2": "Duration 9s",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "15": {
+                            "0": "Skill DMG 233.3% DEF",
+                            "1": "Crystal Collapse DMG 145.6% DEF",
+                            "2": "Duration 9s",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104326",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112053",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113025",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113025",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113025",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104328",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112055",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113025",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Juuga: Forward Unto Victory",
+                    "description": "Displaying his valor as a general, Gorou deals <color=#FFE699FF>AoE Geo DMG</color> and creates a field known as General's Glory to embolden his comrades.\\n\\n<color=#FFD780FF>General's Glory</color>\\nThis field has the following properties:\\n· Like the General's War Banner created by Inuzaka All-Round Defense, provides buffs to active characters within the skill's AoE based on the number of <color=#FFE699FF>Geo</color> characters in the party. Also moves together with your active character.\\n· Generates 1 Crystal Collapse every 1.5s that deals <color=#FFE699FF>AoE Geo DMG</color> to 1 opponent within the skill's AoE.\\n· Pulls 1 elemental shard in the skill's AoE to your active character's position every 1.5s (elemental shards are created by Crystallize reactions).\\n\\nIf a General's War Banner created by Gorou currently exists on the field when this ability is used, it will be destroyed. In addition, for the duration of General's Glory, Gorou's Elemental Skill \"Inuzaka All-Round Defense\" will not create the General's War Banner.\\n If Gorou falls, the effects of General's Glory will be cleared.\\n\\n<i>\"We have the high ground!\" Gorou can ever so slightly change the terrain of the battlefield to help win victory. This technique has seen him through many battles against seemingly superior opposition.</i>",
+                    "icon": "Skill_E_Gorou_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 98.2% DEF",
+                            "1": "Crystal Collapse DMG 61.3% DEF",
+                            "2": "Duration 9s",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "2": {
+                            "0": "Skill DMG 105.6% DEF",
+                            "1": "Crystal Collapse DMG 65.9% DEF",
+                            "2": "Duration 9s",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "3": {
+                            "0": "Skill DMG 112.9% DEF",
+                            "1": "Crystal Collapse DMG 70.5% DEF",
+                            "2": "Duration 9s",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "4": {
+                            "0": "Skill DMG 122.8% DEF",
+                            "1": "Crystal Collapse DMG 76.6% DEF",
+                            "2": "Duration 9s",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "5": {
+                            "0": "Skill DMG 130.1% DEF",
+                            "1": "Crystal Collapse DMG 81.2% DEF",
+                            "2": "Duration 9s",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "6": {
+                            "0": "Skill DMG 137.5% DEF",
+                            "1": "Crystal Collapse DMG 85.8% DEF",
+                            "2": "Duration 9s",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "7": {
+                            "0": "Skill DMG 147.3% DEF",
+                            "1": "Crystal Collapse DMG 92% DEF",
+                            "2": "Duration 9s",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "8": {
+                            "0": "Skill DMG 157.1% DEF",
+                            "1": "Crystal Collapse DMG 98.1% DEF",
+                            "2": "Duration 9s",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "9": {
+                            "0": "Skill DMG 167% DEF",
+                            "1": "Crystal Collapse DMG 104.2% DEF",
+                            "2": "Duration 9s",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "10": {
+                            "0": "Skill DMG 176.8% DEF",
+                            "1": "Crystal Collapse DMG 110.3% DEF",
+                            "2": "Duration 9s",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "11": {
+                            "0": "Skill DMG 186.6% DEF",
+                            "1": "Crystal Collapse DMG 116.5% DEF",
+                            "2": "Duration 9s",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "12": {
+                            "0": "Skill DMG 196.4% DEF",
+                            "1": "Crystal Collapse DMG 122.6% DEF",
+                            "2": "Duration 9s",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "13": {
+                            "0": "Skill DMG 208.7% DEF",
+                            "1": "Crystal Collapse DMG 130.3% DEF",
+                            "2": "Duration 9s",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "14": {
+                            "0": "Skill DMG 221% DEF",
+                            "1": "Crystal Collapse DMG 137.9% DEF",
+                            "2": "Duration 9s",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        },
+                        "15": {
+                            "0": "Skill DMG 233.3% DEF",
+                            "1": "Crystal Collapse DMG 145.6% DEF",
+                            "2": "Duration 9s",
+                            "3": "CD 20s",
+                            "4": "Energy Cost 80"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104326",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112053",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113025",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113025",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113025",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104328",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112055",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113025",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Heedless of the Wind and Weather",
+                    "description": "After using <color=#FFD780FF>Juuga: Forward Unto Victory</color>, all nearby party members' DEF is increased by 25% for 12s.",
+                    "icon": "UI_Talent_S_Gorou_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "A Favor Repaid",
+                    "description": "Gorou receives the following DMG Bonuses to his attacks based on his DEF:\\n· <color=#FFD780FF>Inuzaka All-Round Defense</color>: Skill DMG increased by 156% of DEF\\n· <color=#FFD780FF>Juuga: Forward Unto Victory</color>: Skill DMG and Crystal Collapse DMG increased by 15.6% of DEF",
+                    "icon": "UI_Talent_S_Gorou_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Seeker of Shinies",
+                    "description": "Displays the location of nearby <color=#FFD780FF>resources unique to Inazuma</color> on the mini-map.",
+                    "icon": "UI_Talent_S_Gorou_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Rushing Hound: Swift as the Wind",
+                    "description": "When characters (other than Gorou) within the AoE of Gorou's <color=#FFD780FF>General's War Banner</color> or <color=#FFD780FF>General's Glory</color> deal Geo DMG to opponents, the CD of Gorou's <color=#FFD780FF>Inuzaka All-Round Defense</color> is decreased by 2s.\\nThis effect can occur once every 10s.",
+                    "icon": "UI_Talent_S_Gorou_01"
+                },
+                "1": {
+                    "name": "Sitting Hound: Steady as a Clock",
+                    "description": "While <color=#FFD780FF>General's Glory</color> is in effect, its duration is extended by 1s when a nearby active character obtains an Elemental Shard from a Crystallize reaction. \\nThis effect can occur once every 0.1s. Max extension is 3s.",
+                    "icon": "UI_Talent_S_Gorou_02"
+                },
+                "2": {
+                    "name": "Mauling Hound: Fierce as Fire",
+                    "description": "Increases the Level of <color=#FFD780FF>Inuzaka All-Round Defense</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Gorou_01"
+                },
+                "3": {
+                    "name": "Lapping Hound: Warm as Water",
+                    "description": "When <color=#FFD780FF>General's Glory</color> is in the \"Impregnable\" or \"Crunch\" states, it will also heal active characters within its AoE by 50% of Gorou's own DEF every 1.5s.",
+                    "icon": "UI_Talent_S_Gorou_03"
+                },
+                "4": {
+                    "name": "Striking Hound: Thunderous Force",
+                    "description": "Increases the Level of <color=#FFD780FF>Juuga: Forward Unto Victory</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Gorou_02"
+                },
+                "5": {
+                    "name": "Valiant Hound: Mountainous Fealty",
+                    "description": "For 12s after using <color=#FFD780FF>Inuzaka All-Round Defense</color> or <color=#FFD780FF>Juuga: Forward Unto Victory</color>, increases the CRIT DMG of all nearby party members' <color=#FFE699FF>Geo DMG</color> based on the buff level of the skill's field at the time of use:\\n· \"Standing Firm\": +10%\\n· \"Impregnable\": +20%\\n· \"Crunch\": +40%\\n\\nThis effect cannot stack and will take reference from the last instance of the effect that is triggered.",
+                    "icon": "UI_Talent_S_Gorou_04"
+                }
+            },
+            "elevation": {
+                "sub": "Geo DMG Bonus %",
+                "0": {
+                    "stats": {
+                        "HP": 802,
+                        "ATK": 15,
+                        "DEF": 54,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2061,
+                        "ATK": 39,
+                        "DEF": 140,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101207",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104171",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112053",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 2661,
+                        "ATK": 51,
+                        "DEF": 180,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 3985,
+                        "ATK": 76,
+                        "DEF": 270,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101207",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104172",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112053",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113023",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 4411,
+                        "ATK": 84,
+                        "DEF": 299,
+                        "sub": 6.0
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 5074,
+                        "ATK": 97,
+                        "DEF": 344,
+                        "sub": 6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101207",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104172",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112054",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113023",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 5642,
+                        "ATK": 108,
+                        "DEF": 382,
+                        "sub": 12
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 6305,
+                        "ATK": 120,
+                        "DEF": 427,
+                        "sub": 12
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101207",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104173",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112054",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113023",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 6731,
+                        "ATK": 128,
+                        "DEF": 456,
+                        "sub": 12
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 7393,
+                        "ATK": 141,
+                        "DEF": 501,
+                        "sub": 12
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101207",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104173",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112055",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113023",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 7818,
+                        "ATK": 149,
+                        "DEF": 530,
+                        "sub": 18
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 8481,
+                        "ATK": 162,
+                        "DEF": 575,
+                        "sub": 18
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101207",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104174",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112055",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113023",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 8907,
+                        "ATK": 170,
+                        "DEF": 603,
+                        "sub": 24
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 9570,
+                        "ATK": 183,
+                        "DEF": 648,
+                        "sub": 24
+                    },
+                    "res": {}
+                }
+            }
+        },
+        "ru": {
+            "name": "Gorou",
+            "name_ru": "Горо",
+            "id": 10000055,
+            "rarity": 4,
+            "weapon": "Bow",
+            "element": "Geo",
+            "region": "Inazuma",
+            "more": {
+                "title": "Пёс войны",
+                "detail": "Великий генерал армии Ватацуми. Пользуется безграничным доверием своих подчинённых.",
+                "constellation": "Сиба-ину",
+                "group": "Ватацуми",
+                "birthday": "18.5",
+                "release": "14.12.2021",
+                "cv": {
+                    "en": "Cory Yee",
+                    "chs": "杨昕燃",
+                    "jp": "畠中祐",
+                    "kr": "Lee Sae-byeok"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Оперение терзающего клыка",
+                    "description": "<color=#FFD780FF>Обычная атака</color>\\nДо четырёх выстрелов из лука.\\n\\n<color=#FFD780FF>Заряженная атака</color>\\nБолее меткий <color=#FFD780FF>прицельный выстрел</color> с увеличенным уроном.\\nВо время прицеливания стрела накапливает энергию земли. Полностью заряженная энергией земли стрела наносит <color=#FFE699FF>Гео урон</color>.\\n\\n<color=#FFD780FF>Атака в падении</color>\\nВыпускает град стрел, которые при приземлении персонажа наносят урон по площади.",
+                    "icon": "Skill_A_02",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон атаки 1 37.8%",
+                            "1": "Урон атаки 2 37.2%",
+                            "2": "Урон атаки 3 49.5%",
+                            "3": "Урон атаки 4 59%",
+                            "4": "Прицельный выстрел 43.9%",
+                            "5": "Заряженный выстрел 124%",
+                            "6": "Урон в падении 56.8%",
+                            "7": "Урон низкого/высокого удара 113.6%/141.9%"
+                        },
+                        "2": {
+                            "0": "Урон атаки 1 40.8%",
+                            "1": "Урон атаки 2 40.2%",
+                            "2": "Урон атаки 3 53.5%",
+                            "3": "Урон атаки 4 63.8%",
+                            "4": "Прицельный выстрел 47.4%",
+                            "5": "Заряженный выстрел 133.3%",
+                            "6": "Урон в падении 61.5%",
+                            "7": "Урон низкого/высокого удара 122.9%/153.5%"
+                        },
+                        "3": {
+                            "0": "Урон атаки 1 43.9%",
+                            "1": "Урон атаки 2 43.2%",
+                            "2": "Урон атаки 3 57.5%",
+                            "3": "Урон атаки 4 68.6%",
+                            "4": "Прицельный выстрел 51%",
+                            "5": "Заряженный выстрел 142.6%",
+                            "6": "Урон в падении 66.1%",
+                            "7": "Урон низкого/высокого удара 132.1%/165%"
+                        },
+                        "4": {
+                            "0": "Урон атаки 1 48.3%",
+                            "1": "Урон атаки 2 47.5%",
+                            "2": "Урон атаки 3 63.2%",
+                            "3": "Урон атаки 4 75.5%",
+                            "4": "Прицельный выстрел 56.1%",
+                            "5": "Заряженный выстрел 155%",
+                            "6": "Урон в падении 72.7%",
+                            "7": "Урон низкого/высокого удара 145.3%/181.5%"
+                        },
+                        "5": {
+                            "0": "Урон атаки 1 51.4%",
+                            "1": "Урон атаки 2 50.5%",
+                            "2": "Урон атаки 3 67.3%",
+                            "3": "Урон атаки 4 80.3%",
+                            "4": "Прицельный выстрел 59.7%",
+                            "5": "Заряженный выстрел 164.3%",
+                            "6": "Урон в падении 77.3%",
+                            "7": "Урон низкого/высокого удара 154.6%/193.1%"
+                        },
+                        "6": {
+                            "0": "Урон атаки 1 54.9%",
+                            "1": "Урон атаки 2 54%",
+                            "2": "Урон атаки 3 71.9%",
+                            "3": "Урон атаки 4 85.8%",
+                            "4": "Прицельный выстрел 63.7%",
+                            "5": "Заряженный выстрел 173.6%",
+                            "6": "Урон в падении 82.6%",
+                            "7": "Урон низкого/высокого удара 165.2%/206.3%"
+                        },
+                        "7": {
+                            "0": "Урон атаки 1 59.7%",
+                            "1": "Урон атаки 2 58.8%",
+                            "2": "Урон атаки 3 78.2%",
+                            "3": "Урон атаки 4 93.3%",
+                            "4": "Прицельный выстрел 69.4%",
+                            "5": "Заряженный выстрел 186%",
+                            "6": "Урон в падении 89.9%",
+                            "7": "Урон низкого/высокого удара 179.7%/224.5%"
+                        },
+                        "8": {
+                            "0": "Урон атаки 1 64.5%",
+                            "1": "Урон атаки 2 63.5%",
+                            "2": "Урон атаки 3 84.5%",
+                            "3": "Урон атаки 4 100.8%",
+                            "4": "Прицельный выстрел 75%",
+                            "5": "Заряженный выстрел 198.4%",
+                            "6": "Урон в падении 97.1%",
+                            "7": "Урон низкого/высокого удара 194.2%/242.6%"
+                        },
+                        "9": {
+                            "0": "Урон атаки 1 69.4%",
+                            "1": "Урон атаки 2 68.3%",
+                            "2": "Урон атаки 3 90.8%",
+                            "3": "Урон атаки 4 108.4%",
+                            "4": "Прицельный выстрел 80.6%",
+                            "5": "Заряженный выстрел 210.8%",
+                            "6": "Урон в падении 104.4%",
+                            "7": "Урон низкого/высокого удара 208.8%/260.8%"
+                        },
+                        "10": {
+                            "0": "Урон атаки 1 74.6%",
+                            "1": "Урон атаки 2 73.4%",
+                            "2": "Урон атаки 3 97.8%",
+                            "3": "Урон атаки 4 116.6%",
+                            "4": "Прицельный выстрел 86.7%",
+                            "5": "Заряженный выстрел 223.2%",
+                            "6": "Урон в падении 112.3%",
+                            "7": "Урон низкого/высокого удара 224.6%/280.6%"
+                        },
+                        "11": {
+                            "0": "Урон атаки 1 79.9%",
+                            "1": "Урон атаки 2 78.6%",
+                            "2": "Урон атаки 3 104.7%",
+                            "3": "Урон атаки 4 124.9%",
+                            "4": "Прицельный выстрел 92.8%",
+                            "5": "Заряженный выстрел 235.6%",
+                            "6": "Урон в падении 120.3%",
+                            "7": "Урон низкого/высокого удара 240.5%/300.4%"
+                        },
+                        "12": {
+                            "0": "Урон атаки 1 85.2%",
+                            "1": "Урон атаки 2 83.8%",
+                            "2": "Урон атаки 3 111.5%",
+                            "3": "Урон атаки 4 133.1%",
+                            "4": "Прицельный выстрел 98.9%",
+                            "5": "Заряженный выстрел 248%",
+                            "6": "Урон в падении 128.2%",
+                            "7": "Урон низкого/высокого удара 256.3%/320.2%"
+                        },
+                        "13": {
+                            "0": "Урон атаки 1 90.4%",
+                            "1": "Урон атаки 2 89%",
+                            "2": "Урон атаки 3 118.5%",
+                            "3": "Урон атаки 4 141.3%",
+                            "4": "Прицельный выстрел 105.1%",
+                            "5": "Заряженный выстрел 263.5%",
+                            "6": "Урон в падении 136.1%",
+                            "7": "Урон низкого/высокого удара 272.2%/340%"
+                        },
+                        "14": {
+                            "0": "Урон атаки 1 95.7%",
+                            "1": "Урон атаки 2 94.2%",
+                            "2": "Урон атаки 3 125.4%",
+                            "3": "Урон атаки 4 149.5%",
+                            "4": "Прицельный выстрел 111.2%",
+                            "5": "Заряженный выстрел 279%",
+                            "6": "Урон в падении 144.1%",
+                            "7": "Урон низкого/высокого удара 288%/359.8%"
+                        },
+                        "15": {
+                            "0": "Урон атаки 1 101%",
+                            "1": "Урон атаки 2 99.4%",
+                            "2": "Урон атаки 3 132.2%",
+                            "3": "Урон атаки 4 157.8%",
+                            "4": "Прицельный выстрел 117.3%",
+                            "5": "Заряженный выстрел 294.5%",
+                            "6": "Урон в падении 152%",
+                            "7": "Урон низкого/высокого удара 303.9%/379.6%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104326",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112053",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113025",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113025",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113025",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104328",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112055",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113025",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Всесторонняя защита Инудзаки",
+                    "description": "Наносит <color=#FFE699FF>Гео урон по площади</color> и устанавливает Боевой штандарт генерала.\\n\\n<color=#FFD780FF>Боевой штандарт генерала</color>\\nДаёт усиления активному персонажу в области действия штандарта в зависимости от числа персонажей <color=#FFE699FF>Гео</color> в отряде:\\n· Если в отряде есть один персонаж Гео, даётся эффект Стойкость, увеличивающий защиту.\\n· При наличии двух персонажей Гео в отряде действует Крепость: к эффекту Стойкости добавляется сопротивление прерыванию.\\n· Три персонажа Гео в отряде дают эффект Ярость: к прошлым эффектам прибавляется <color=#FFE699FF>бонус Гео урона</color>.\\n\\nГоро не может установить больше одного своего Боевого штандарта генерала на поле боя одновременно. Персонажи могут одновременно использовать эффекты только одного Боевого штандарта генерала. Эффект области действует в течение 2 сек. после выхода из области.\\n\\n<color=#FFD780FF>Долгое нажатие</color>\\nИспользуется для выбора места действия навыка.\\n\\n<i>«Займите места в этом построении, и мы будем в безопасности - я гарантирую это!» - как генерал и настоящий лидер Горо меньше всего хочет, чтобы те, кто следует за ним, пострадали.</i>",
+                    "icon": "Skill_S_Gorou_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 107.2%",
+                            "1": "Повышение защиты 206",
+                            "2": "Бонус Гео урона 15%",
+                            "3": "Длительность 10 сек.",
+                            "4": "Время отката 10 сек."
+                        },
+                        "2": {
+                            "0": "Урон навыка 115.2%",
+                            "1": "Повышение защиты 221",
+                            "2": "Бонус Гео урона 15%",
+                            "3": "Длительность 10 сек.",
+                            "4": "Время отката 10 сек."
+                        },
+                        "3": {
+                            "0": "Урон навыка 123.3%",
+                            "1": "Повышение защиты 237",
+                            "2": "Бонус Гео урона 15%",
+                            "3": "Длительность 10 сек.",
+                            "4": "Время отката 10 сек."
+                        },
+                        "4": {
+                            "0": "Урон навыка 134%",
+                            "1": "Повышение защиты 257",
+                            "2": "Бонус Гео урона 15%",
+                            "3": "Длительность 10 сек.",
+                            "4": "Время отката 10 сек."
+                        },
+                        "5": {
+                            "0": "Урон навыка 142%",
+                            "1": "Повышение защиты 273",
+                            "2": "Бонус Гео урона 15%",
+                            "3": "Длительность 10 сек.",
+                            "4": "Время отката 10 сек."
+                        },
+                        "6": {
+                            "0": "Урон навыка 150.1%",
+                            "1": "Повышение защиты 288",
+                            "2": "Бонус Гео урона 15%",
+                            "3": "Длительность 10 сек.",
+                            "4": "Время отката 10 сек."
+                        },
+                        "7": {
+                            "0": "Урон навыка 160.8%",
+                            "1": "Повышение защиты 309",
+                            "2": "Бонус Гео урона 15%",
+                            "3": "Длительность 10 сек.",
+                            "4": "Время отката 10 сек."
+                        },
+                        "8": {
+                            "0": "Урон навыка 171.5%",
+                            "1": "Повышение защиты 329",
+                            "2": "Бонус Гео урона 15%",
+                            "3": "Длительность 10 сек.",
+                            "4": "Время отката 10 сек."
+                        },
+                        "9": {
+                            "0": "Урон навыка 182.2%",
+                            "1": "Повышение защиты 350",
+                            "2": "Бонус Гео урона 15%",
+                            "3": "Длительность 10 сек.",
+                            "4": "Время отката 10 сек."
+                        },
+                        "10": {
+                            "0": "Урон навыка 193%",
+                            "1": "Повышение защиты 371",
+                            "2": "Бонус Гео урона 15%",
+                            "3": "Длительность 10 сек.",
+                            "4": "Время отката 10 сек."
+                        },
+                        "11": {
+                            "0": "Урон навыка 203.7%",
+                            "1": "Повышение защиты 391",
+                            "2": "Бонус Гео урона 15%",
+                            "3": "Длительность 10 сек.",
+                            "4": "Время отката 10 сек."
+                        },
+                        "12": {
+                            "0": "Урон навыка 214.4%",
+                            "1": "Повышение защиты 412",
+                            "2": "Бонус Гео урона 15%",
+                            "3": "Длительность 10 сек.",
+                            "4": "Время отката 10 сек."
+                        },
+                        "13": {
+                            "0": "Урон навыка 227.8%",
+                            "1": "Повышение защиты 438",
+                            "2": "Бонус Гео урона 15%",
+                            "3": "Длительность 10 сек.",
+                            "4": "Время отката 10 сек."
+                        },
+                        "14": {
+                            "0": "Урон навыка 241.2%",
+                            "1": "Повышение защиты 463",
+                            "2": "Бонус Гео урона 15%",
+                            "3": "Длительность 10 сек.",
+                            "4": "Время отката 10 сек."
+                        },
+                        "15": {
+                            "0": "Урон навыка 254.6%",
+                            "1": "Повышение защиты 489",
+                            "2": "Бонус Гео урона 15%",
+                            "3": "Длительность 10 сек.",
+                            "4": "Время отката 10 сек."
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104326",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112053",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113025",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113025",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113025",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104328",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112055",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113025",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Дзюга: Вперёд к победе",
+                    "description": "Демонстрируя свой талант полководца, Горо наносит <color=#FFE699FF>Гео урон по площади</color> и создаёт область Влияния генерала для поддержки соратников.\\n\\n<color=#FFD780FF>Влияние генерала</color>\\nОбладает следующими свойствами:\\n· Даёт те же эффекты, что элементальный навык «Всесторонняя защита Инудзаки», в зависимости от количества <color=#FFE699FF>Гео</color> персонажей в отряде на момент запуска. Область перемещается вместе с активным персонажем.\\n· Каждые 1,5 сек. запускает Кристальный обвал, нанося <color=#FFE699FF>Гео урон по площади</color>.\\n· Каждые 1,5 сек. 1 элементальный осколок, созданный реакцией Кристалл притягивается к активному персонажу.\\n\\nЕсли при запуске Влияния генерала на поле есть установленный самим Горо Боевой штандарт генерала, штандарт исчезает. Если Горо запускает элементальный навык Всесторонняя защита Инудзаки во время действия Влияния генерала, Боевой штандарт не создаётся.\\nСобственный эффект Влияния генерала Горо исчезает, если Горо повержен.\\n\\n<i>«Преимущество у нас!» - чтобы одержать победу, Горо может в некоторой степени изменять рельеф поля боя. Благодаря этому он выстоял во множестве битв против превосходящих сил противника.</i>",
+                    "icon": "Skill_E_Gorou_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 98.2% защиты",
+                            "1": "Урон Кристального обвала 61.3% защиты",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "2": {
+                            "0": "Урон навыка 105.6% защиты",
+                            "1": "Урон Кристального обвала 65.9% защиты",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "3": {
+                            "0": "Урон навыка 112.9% защиты",
+                            "1": "Урон Кристального обвала 70.5% защиты",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "4": {
+                            "0": "Урон навыка 122.8% защиты",
+                            "1": "Урон Кристального обвала 76.6% защиты",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "5": {
+                            "0": "Урон навыка 130.1% защиты",
+                            "1": "Урон Кристального обвала 81.2% защиты",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "6": {
+                            "0": "Урон навыка 137.5% защиты",
+                            "1": "Урон Кристального обвала 85.8% защиты",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "7": {
+                            "0": "Урон навыка 147.3% защиты",
+                            "1": "Урон Кристального обвала 92% защиты",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "8": {
+                            "0": "Урон навыка 157.1% защиты",
+                            "1": "Урон Кристального обвала 98.1% защиты",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "9": {
+                            "0": "Урон навыка 167% защиты",
+                            "1": "Урон Кристального обвала 104.2% защиты",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "10": {
+                            "0": "Урон навыка 176.8% защиты",
+                            "1": "Урон Кристального обвала 110.3% защиты",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "11": {
+                            "0": "Урон навыка 186.6% защиты",
+                            "1": "Урон Кристального обвала 116.5% защиты",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "12": {
+                            "0": "Урон навыка 196.4% защиты",
+                            "1": "Урон Кристального обвала 122.6% защиты",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "13": {
+                            "0": "Урон навыка 208.7% защиты",
+                            "1": "Урон Кристального обвала 130.3% защиты",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "14": {
+                            "0": "Урон навыка 221% защиты",
+                            "1": "Урон Кристального обвала 137.9% защиты",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "15": {
+                            "0": "Урон навыка 233.3% защиты",
+                            "1": "Урон Кристального обвала 145.6% защиты",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104326",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112053",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113025",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113025",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113025",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104328",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112055",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113025",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Дзюга: Вперёд к победе",
+                    "description": "Демонстрируя свой талант полководца, Горо наносит <color=#FFE699FF>Гео урон по площади</color> и создаёт область Влияния генерала для поддержки соратников.\\n\\n<color=#FFD780FF>Влияние генерала</color>\\nОбладает следующими свойствами:\\n· Даёт те же эффекты, что элементальный навык «Всесторонняя защита Инудзаки», в зависимости от количества <color=#FFE699FF>Гео</color> персонажей в отряде на момент запуска. Область перемещается вместе с активным персонажем.\\n· Каждые 1,5 сек. запускает Кристальный обвал, нанося <color=#FFE699FF>Гео урон по площади</color>.\\n· Каждые 1,5 сек. 1 элементальный осколок, созданный реакцией Кристалл притягивается к активному персонажу.\\n\\nЕсли при запуске Влияния генерала на поле есть установленный самим Горо Боевой штандарт генерала, штандарт исчезает. Если Горо запускает элементальный навык Всесторонняя защита Инудзаки во время действия Влияния генерала, Боевой штандарт не создаётся.\\nСобственный эффект Влияния генерала Горо исчезает, если Горо повержен.\\n\\n<i>«Преимущество у нас!» - чтобы одержать победу, Горо может в некоторой степени изменять рельеф поля боя. Благодаря этому он выстоял во множестве битв против превосходящих сил противника.</i>",
+                    "icon": "Skill_E_Gorou_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 98.2% защиты",
+                            "1": "Урон Кристального обвала 61.3% защиты",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "2": {
+                            "0": "Урон навыка 105.6% защиты",
+                            "1": "Урон Кристального обвала 65.9% защиты",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "3": {
+                            "0": "Урон навыка 112.9% защиты",
+                            "1": "Урон Кристального обвала 70.5% защиты",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "4": {
+                            "0": "Урон навыка 122.8% защиты",
+                            "1": "Урон Кристального обвала 76.6% защиты",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "5": {
+                            "0": "Урон навыка 130.1% защиты",
+                            "1": "Урон Кристального обвала 81.2% защиты",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "6": {
+                            "0": "Урон навыка 137.5% защиты",
+                            "1": "Урон Кристального обвала 85.8% защиты",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "7": {
+                            "0": "Урон навыка 147.3% защиты",
+                            "1": "Урон Кристального обвала 92% защиты",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "8": {
+                            "0": "Урон навыка 157.1% защиты",
+                            "1": "Урон Кристального обвала 98.1% защиты",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "9": {
+                            "0": "Урон навыка 167% защиты",
+                            "1": "Урон Кристального обвала 104.2% защиты",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "10": {
+                            "0": "Урон навыка 176.8% защиты",
+                            "1": "Урон Кристального обвала 110.3% защиты",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "11": {
+                            "0": "Урон навыка 186.6% защиты",
+                            "1": "Урон Кристального обвала 116.5% защиты",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "12": {
+                            "0": "Урон навыка 196.4% защиты",
+                            "1": "Урон Кристального обвала 122.6% защиты",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "13": {
+                            "0": "Урон навыка 208.7% защиты",
+                            "1": "Урон Кристального обвала 130.3% защиты",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "14": {
+                            "0": "Урон навыка 221% защиты",
+                            "1": "Урон Кристального обвала 137.9% защиты",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        },
+                        "15": {
+                            "0": "Урон навыка 233.3% защиты",
+                            "1": "Урон Кристального обвала 145.6% защиты",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 20 сек.",
+                            "4": "Потребление энергии 80"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104326",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112053",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104327",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113025",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113025",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104328",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113025",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104328",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112055",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113025",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Бросая вызов стихии",
+                    "description": "В течение 12 сек. после запуска навыка <color=#FFD780FF>Дзюга: Вперёд к победе</color> защита всех членов отряда поблизости увеличивается на 25%.",
+                    "icon": "UI_Talent_S_Gorou_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Ответная услуга",
+                    "description": "Урон атак Горо увеличивается пропорционально его защите:\\n· Урон навыка <color=#FFD780FF>Всесторонняя защита Инудзаки</color> повышается на 156% защиты.\\n· Урон навыка <color=#FFD780FF>Дзюга: Вперёд к победе</color> и кристального обвала увеличивается на 15,6% защиты.",
+                    "icon": "UI_Talent_S_Gorou_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Искатель сияния",
+                    "description": "Отмечает <color=#FFD780FF>диковинки Инадзумы</color> на мини-карте.",
+                    "icon": "UI_Talent_S_Gorou_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Бег собаки: Скорость ветра",
+                    "description": "Когда активный персонаж (не Горо), находясь под действием созданного самим Горо <color=#FFD780FF>Боевого штандарта генерала</color> или области <color=#FFD780FF>Влияния генерала</color>, наносит Гео урон врагу, время отката <color=#FFD780FF>Всесторонней защиты Инудзаки</color> Горо снижается на 2 сек.\\nЭффект возникает раз в 10 сек.",
+                    "icon": "UI_Talent_S_Gorou_01"
+                },
+                "1": {
+                    "name": "Ожидание собаки: Точность часов",
+                    "description": "Если активный персонаж поблизости во время действия <color=#FFD780FF>Влияния генерала</color> получает созданный реакцией Кристалл элементальный осколок, то длительность Влияния генерала Горо увеличивается на 1 сек.\\nЭффект может возникнуть раз в 0,1 сек. Нельзя увеличить длительность больше чем на 3 сек.",
+                    "icon": "UI_Talent_S_Gorou_02"
+                },
+                "2": {
+                    "name": "Укус собаки: Ярость огня",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Всесторонняя защита Инудзаки</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Gorou_01"
+                },
+                "3": {
+                    "name": "Забота собаки: Нежность воды",
+                    "description": "У активного персонажа в области <color=#FFD780FF>Влияния генерала</color> при наличии эффектов Крепость или Ярость каждые 1,5 сек. восстанавливается HP в размере 50% защиты самого Горо.",
+                    "icon": "UI_Talent_S_Gorou_03"
+                },
+                "4": {
+                    "name": "Удар собаки: Сила грома",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Дзюга: Вперёд к победе</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Gorou_02"
+                },
+                "5": {
+                    "name": "Доблесть собаки: Надёжность гор",
+                    "description": "В течение 12 сек. после запуска <color=#FFD780FF>Всесторонней защиты Инудзаки</color> или <color=#FFD780FF>Дзюга: Вперёд к победе</color> у всех членов отряда поблизости увеличивается крит. <color=#FFE699FF>Гео урон</color> в соответствии с уровнем области:\\n· Стойкость - на 10%;\\n· Крепость - на 20%;\\n· Ярость - на 40%.\\n\\nЭффект не складывается, действует последний сработавший эффект.",
+                    "icon": "UI_Talent_S_Gorou_04"
+                }
+            },
+            "elevation": {
+                "sub": "Бонус Гео урона %",
+                "0": {
+                    "stats": {
+                        "HP": 802,
+                        "ATK": 15,
+                        "DEF": 54,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2061,
+                        "ATK": 39,
+                        "DEF": 140,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101207",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104171",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112053",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 2661,
+                        "ATK": 51,
+                        "DEF": 180,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 3985,
+                        "ATK": 76,
+                        "DEF": 270,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101207",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104172",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112053",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113023",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 4411,
+                        "ATK": 84,
+                        "DEF": 299,
+                        "sub": 6.0
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 5074,
+                        "ATK": 97,
+                        "DEF": 344,
+                        "sub": 6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101207",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104172",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112054",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113023",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 5642,
+                        "ATK": 108,
+                        "DEF": 382,
+                        "sub": 12
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 6305,
+                        "ATK": 120,
+                        "DEF": 427,
+                        "sub": 12
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101207",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104173",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112054",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113023",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 6731,
+                        "ATK": 128,
+                        "DEF": 456,
+                        "sub": 12
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 7393,
+                        "ATK": 141,
+                        "DEF": 501,
+                        "sub": 12
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101207",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104173",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112055",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113023",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 7818,
+                        "ATK": 149,
+                        "DEF": 530,
+                        "sub": 18
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 8481,
+                        "ATK": 162,
+                        "DEF": 575,
+                        "sub": 18
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101207",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104174",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112055",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113023",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 8907,
+                        "ATK": 170,
+                        "DEF": 603,
+                        "sub": 24
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 9570,
+                        "ATK": 183,
+                        "DEF": 648,
+                        "sub": 24
+                    },
+                    "res": {}
+                }
+            }
+        }
+    }
+}

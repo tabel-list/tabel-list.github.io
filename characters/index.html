@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AWARiN</title>
+    <link rel="icon" href="../favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="../styles.css">
-    <script defer src="script.js"></script>
-    <script defer src="../script.js"></script>
+    <script defer src="../data/titlebar.js"></script>
+    <script type="module" defer src="script.js"></script>
 </head>
 <body>
+    <div class="overlay" id="overlay"></div>
+    <div class="overlay2" id="overlay2"></div>
     <div class="titlebar">
         <div class="logo"><b>AWARiN</b></div>
         <button class="menu-button" onclick="toggleMenu()">menu</button>
@@ -16,14 +19,36 @@
     <div class="menu" id="menu">
         <div class="menu-items">Меню</div>
         <div class="menu-cont">
-            <a style="text-decoration: none;" href=""><div class="menu-item">Персонажи</div></a>
-            <a style="text-decoration: none;" href=""><div class="menu-item">Персонажи</div></a>
-            <a style="text-decoration: none;" href=""><div class="menu-item">Персонажи</div></a>
+            <a style="text-decoration: none;" href="../">
+                <div class="menu-item">
+                    <img class="menu-icons" src="../data/main.png" alt="">
+                    <span>Главная</span>
+                </div>
+            </a>
+            <a style="text-decoration: none;" href="">
+                <div class="menu-item">
+                    <img class="menu-icons" src="../data/weapons.png" alt="">
+                    <span>Оружия</span>
+                </div>
+            </a>
+            <a style="text-decoration: none;" href="">
+                <div class="menu-item">
+                    <img class="menu-icons" src="../data/artifacts.png" alt="">
+                    <span>Артефакты</span>
+                </div>
+            </a>
+            <a style="text-decoration: none;" href="">
+                <div class="menu-item">
+                    <img class="menu-icons" src="../data/events.png" alt="">
+                    <span>Ивенты</span>
+                </div>
+            </a>
         </div>
     </div>
     <div class="container">
+        <!-- Кнопка для открытия фильтра, будет скрыта по умолчанию -->
+        <button id="filters-toggle-button" class="filters-toggle-button mat">search</button>
         <div class="filters">
-            <input type="text" id="search" placeholder="Поиск по имени...">
             <select id="sort-element">
                 <option value="">Элемент</option>
                 <option value="Pyro">Pyro</option>
@@ -47,6 +72,7 @@
                 <option value="5">5★</option>
                 <option value="4">4★</option>
             </select>
+            <input type="text" id="search" placeholder="Поиск по имени...">
         </div>
         <div id="characters-list" class="characters-grid"></div>
     </div>

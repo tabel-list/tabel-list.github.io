@@ -1,0 +1,3234 @@
+{
+    "Furina": {
+        "en": {
+            "name": "Furina",
+            "name_ru": "Фурина",
+            "id": 10000089,
+            "rarity": 5,
+            "weapon": "Sword",
+            "element": "Hydro",
+            "region": "Fontaine",
+            "more": {
+                "title": "Endless Solo of Solitude",
+                "detail": "The absolute focus of the stage of judgment, until the final applause sounds.",
+                "constellation": "Animula Choragi",
+                "group": "Court of Fontaine",
+                "birthday": "13.10",
+                "release": "06.11.2023",
+                "cv": {
+                    "en": "Amber Lee Connors",
+                    "chs": "钱琛",
+                    "jp": "水瀬いのり",
+                    "kr": "Kim Ha-young"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Normal Attack: Soloist's Solicitation",
+                    "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash a solo dance, dealing Physical DMG to nearby opponents and changing her Arkhe alignment. If Salon Members or the Singer of Many Waters summoned by her Elemental Skill \"Salon Solitaire\" is present, their lineup will switch in response.\\n\\n<color=#FFD780FF>Arkhe: Seats Sacred and Secular</color>\\nAt intervals, when Furina's Normal Attacks hit, a Spiritbreath Thorn or a Surging Blade will descend based on her current Arkhe alignment, dealing Pneuma- or Ousia-aligned <color=#80C0FFFF>Hydro DMG</color>.\\nWhen Furina takes the field, her starting Arkhe alignment will be Ousia.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+                    "icon": "Skill_A_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "1-Hit DMG 48.4%",
+                            "1": "2-Hit DMG 43.7%",
+                            "2": "3-Hit DMG 55.1%",
+                            "3": "4-Hit DMG 73.3%",
+                            "4": "Charged Attack DMG 74.2%",
+                            "5": "Charged Attack Stamina Cost 20",
+                            "6": "Plunge DMG 63.9%",
+                            "7": "Low/High Plunge DMG 127.8%/159.7%",
+                            "8": "Spiritbreath Thorn/Surging Blade DMG 9.5%",
+                            "9": "Spiritbreath Thorn/Surging Blade DMG Interval 6s/6s"
+                        },
+                        "2": {
+                            "0": "1-Hit DMG 52.3%",
+                            "1": "2-Hit DMG 47.3%",
+                            "2": "3-Hit DMG 59.6%",
+                            "3": "4-Hit DMG 79.3%",
+                            "4": "Charged Attack DMG 80.3%",
+                            "5": "Charged Attack Stamina Cost 20",
+                            "6": "Plunge DMG 69.1%",
+                            "7": "Low/High Plunge DMG 138.2%/172.7%",
+                            "8": "Spiritbreath Thorn/Surging Blade DMG 10.2%",
+                            "9": "Spiritbreath Thorn/Surging Blade DMG Interval 6s/6s"
+                        },
+                        "3": {
+                            "0": "1-Hit DMG 56.3%",
+                            "1": "2-Hit DMG 50.8%",
+                            "2": "3-Hit DMG 64.1%",
+                            "3": "4-Hit DMG 85.2%",
+                            "4": "Charged Attack DMG 86.3%",
+                            "5": "Charged Attack Stamina Cost 20",
+                            "6": "Plunge DMG 74.3%",
+                            "7": "Low/High Plunge DMG 148.6%/185.7%",
+                            "8": "Spiritbreath Thorn/Surging Blade DMG 11%",
+                            "9": "Spiritbreath Thorn/Surging Blade DMG Interval 6s/6s"
+                        },
+                        "4": {
+                            "0": "1-Hit DMG 61.9%",
+                            "1": "2-Hit DMG 55.9%",
+                            "2": "3-Hit DMG 70.5%",
+                            "3": "4-Hit DMG 93.8%",
+                            "4": "Charged Attack DMG 94.9%",
+                            "5": "Charged Attack Stamina Cost 20",
+                            "6": "Plunge DMG 81.8%",
+                            "7": "Low/High Plunge DMG 163.5%/204.2%",
+                            "8": "Spiritbreath Thorn/Surging Blade DMG 12.1%",
+                            "9": "Spiritbreath Thorn/Surging Blade DMG Interval 6s/6s"
+                        },
+                        "5": {
+                            "0": "1-Hit DMG 65.8%",
+                            "1": "2-Hit DMG 59.5%",
+                            "2": "3-Hit DMG 75%",
+                            "3": "4-Hit DMG 99.7%",
+                            "4": "Charged Attack DMG 101%",
+                            "5": "Charged Attack Stamina Cost 20",
+                            "6": "Plunge DMG 87%",
+                            "7": "Low/High Plunge DMG 173.9%/217.2%",
+                            "8": "Spiritbreath Thorn/Surging Blade DMG 12.9%",
+                            "9": "Spiritbreath Thorn/Surging Blade DMG Interval 6s/6s"
+                        },
+                        "6": {
+                            "0": "1-Hit DMG 70.3%",
+                            "1": "2-Hit DMG 63.6%",
+                            "2": "3-Hit DMG 80.1%",
+                            "3": "4-Hit DMG 106.5%",
+                            "4": "Charged Attack DMG 107.9%",
+                            "5": "Charged Attack Stamina Cost 20",
+                            "6": "Plunge DMG 92.9%",
+                            "7": "Low/High Plunge DMG 185.8%/232.1%",
+                            "8": "Spiritbreath Thorn/Surging Blade DMG 13.8%",
+                            "9": "Spiritbreath Thorn/Surging Blade DMG Interval 6s/6s"
+                        },
+                        "7": {
+                            "0": "1-Hit DMG 76.5%",
+                            "1": "2-Hit DMG 69.2%",
+                            "2": "3-Hit DMG 87.2%",
+                            "3": "4-Hit DMG 115.9%",
+                            "4": "Charged Attack DMG 117.4%",
+                            "5": "Charged Attack Stamina Cost 20",
+                            "6": "Plunge DMG 101.1%",
+                            "7": "Low/High Plunge DMG 202.2%/252.5%",
+                            "8": "Spiritbreath Thorn/Surging Blade DMG 15%",
+                            "9": "Spiritbreath Thorn/Surging Blade DMG Interval 6s/6s"
+                        },
+                        "8": {
+                            "0": "1-Hit DMG 82.7%",
+                            "1": "2-Hit DMG 74.7%",
+                            "2": "3-Hit DMG 94.2%",
+                            "3": "4-Hit DMG 125.3%",
+                            "4": "Charged Attack DMG 126.9%",
+                            "5": "Charged Attack Stamina Cost 20",
+                            "6": "Plunge DMG 109.3%",
+                            "7": "Low/High Plunge DMG 218.5%/272.9%",
+                            "8": "Spiritbreath Thorn/Surging Blade DMG 16.2%",
+                            "9": "Spiritbreath Thorn/Surging Blade DMG Interval 6s/6s"
+                        },
+                        "9": {
+                            "0": "1-Hit DMG 88.9%",
+                            "1": "2-Hit DMG 80.3%",
+                            "2": "3-Hit DMG 101.3%",
+                            "3": "4-Hit DMG 134.7%",
+                            "4": "Charged Attack DMG 136.4%",
+                            "5": "Charged Attack Stamina Cost 20",
+                            "6": "Plunge DMG 117.5%",
+                            "7": "Low/High Plunge DMG 234.9%/293.4%",
+                            "8": "Spiritbreath Thorn/Surging Blade DMG 17.4%",
+                            "9": "Spiritbreath Thorn/Surging Blade DMG Interval 6s/6s"
+                        },
+                        "10": {
+                            "0": "1-Hit DMG 95.6%",
+                            "1": "2-Hit DMG 86.4%",
+                            "2": "3-Hit DMG 109%",
+                            "3": "4-Hit DMG 144.9%",
+                            "4": "Charged Attack DMG 146.7%",
+                            "5": "Charged Attack Stamina Cost 20",
+                            "6": "Plunge DMG 126.4%",
+                            "7": "Low/High Plunge DMG 252.7%/315.6%",
+                            "8": "Spiritbreath Thorn/Surging Blade DMG 18.7%",
+                            "9": "Spiritbreath Thorn/Surging Blade DMG Interval 6s/6s"
+                        },
+                        "11": {
+                            "0": "1-Hit DMG 102.4%",
+                            "1": "2-Hit DMG 92.5%",
+                            "2": "3-Hit DMG 116.6%",
+                            "3": "4-Hit DMG 155.1%",
+                            "4": "Charged Attack DMG 157.1%",
+                            "5": "Charged Attack Stamina Cost 20",
+                            "6": "Plunge DMG 135.3%",
+                            "7": "Low/High Plunge DMG 270.5%/337.9%",
+                            "8": "Spiritbreath Thorn/Surging Blade DMG 20%",
+                            "9": "Spiritbreath Thorn/Surging Blade DMG Interval 6s/6s"
+                        },
+                        "12": {
+                            "0": "1-Hit DMG 109.1%",
+                            "1": "2-Hit DMG 98.6%",
+                            "2": "3-Hit DMG 124.3%",
+                            "3": "4-Hit DMG 165.3%",
+                            "4": "Charged Attack DMG 167.4%",
+                            "5": "Charged Attack Stamina Cost 20",
+                            "6": "Plunge DMG 144.2%",
+                            "7": "Low/High Plunge DMG 288.4%/360.2%",
+                            "8": "Spiritbreath Thorn/Surging Blade DMG 21.3%",
+                            "9": "Spiritbreath Thorn/Surging Blade DMG Interval 6s/6s"
+                        },
+                        "13": {
+                            "0": "1-Hit DMG 115.9%",
+                            "1": "2-Hit DMG 104.7%",
+                            "2": "3-Hit DMG 132%",
+                            "3": "4-Hit DMG 175.6%",
+                            "4": "Charged Attack DMG 177.8%",
+                            "5": "Charged Attack Stamina Cost 20",
+                            "6": "Plunge DMG 153.1%",
+                            "7": "Low/High Plunge DMG 306.2%/382.5%",
+                            "8": "Spiritbreath Thorn/Surging Blade DMG 22.7%",
+                            "9": "Spiritbreath Thorn/Surging Blade DMG Interval 6s/6s"
+                        },
+                        "14": {
+                            "0": "1-Hit DMG 122.7%",
+                            "1": "2-Hit DMG 110.8%",
+                            "2": "3-Hit DMG 139.7%",
+                            "3": "4-Hit DMG 185.8%",
+                            "4": "Charged Attack DMG 188.1%",
+                            "5": "Charged Attack Stamina Cost 20",
+                            "6": "Plunge DMG 162.1%",
+                            "7": "Low/High Plunge DMG 324.1%/404.8%",
+                            "8": "Spiritbreath Thorn/Surging Blade DMG 24%",
+                            "9": "Spiritbreath Thorn/Surging Blade DMG Interval 6s/6s"
+                        },
+                        "15": {
+                            "0": "1-Hit DMG 129.4%",
+                            "1": "2-Hit DMG 117%",
+                            "2": "3-Hit DMG 147.4%",
+                            "3": "4-Hit DMG 196%",
+                            "4": "Charged Attack DMG 198.5%",
+                            "5": "Charged Attack Stamina Cost 20",
+                            "6": "Plunge DMG 171%",
+                            "7": "Low/High Plunge DMG 341.9%/427%",
+                            "8": "Spiritbreath Thorn/Surging Blade DMG 25.3%",
+                            "9": "Spiritbreath Thorn/Surging Blade DMG Interval 6s/6s"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104341",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112038",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104343",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113056",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104343",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113056",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104343",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113056",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104343",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112040",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113056",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Salon Solitaire",
+                    "description": "Invites the guests of the Salon Solitaire to come forth and aid in Furina's performance. Will summon either the Salon Members or the Singer of Many Waters based on Furina's current <color=#FFD780FF>Arkhe alignment</color>.\\n\\n<color=#FFD780FF>Ousia</color>\\nFoaming bubbles like celebrants shall dance, dealing <color=#80C0FFFF>AoE Hydro DMG</color> based on Furina's Max HP and summoning 3 Salon Members: the Ball Octopus-shaped Gentilhomme Usher, the Bubbly Seahorse-shaped Surintendante Chevalmarin, and the Armored Crab-shaped Mademoiselle Crabaletta.\\nThey will attack nearby opponents at intervals, prioritizing the target of the active character, dealing <color=#80C0FFFF>Hydro</color> DMG based on Max HP.\\nWhen they attack, if character(s) with more than 50% HP are nearby, the Members will increase their current attack's power based on the number of such characters, and consume said characters' HP. If 1/2/3/4 (or more) characters meet these requirements, the Members' attacks will deal 110%/120%/130%/140% of their original DMG.\\n\\n<color=#FFD780FF>Pneuma</color>\\nSummons the Singer of Many Waters, who will heal nearby active character(s) based on Max HP at intervals.\\n\\nThe Salon Members and Singer of Many Waters share a duration, and when Furina uses her Charged Attack to change the guest type, the new guests will inherit the remaining duration.\\nWhile the Salon Members or the Singer of Many Waters is on the field, Furina can move on the water's surface.\\n\\n<i>A fixed roster of regulars frequent Furina's Salon Solitaire. At other times, Mademoiselle Crabaletta, Surintendante Chevalmarin, and Gentilhomme Usher shall visit, and on gloomy Wednesdays, it is the singer who comes by.</i>",
+                    "icon": "Skill_S_Furina_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Ousia Bubble DMG 7.9% Max HP",
+                            "1": "Duration 30s",
+                            "2": "Gentilhomme Usher DMG {param3:F2P} Max HP",
+                            "3": "Surintendante Chevalmarin DMG {param4:F2P} Max HP",
+                            "4": "Mademoiselle Crabaletta DMG {param5:F2P} Max HP",
+                            "5": "Gentilhomme Usher HP Consumption 2.4% Max HP",
+                            "6": "Surintendante Chevalmarin HP Consumption 1.6% Max HP",
+                            "7": "Mademoiselle Crabaletta HP Consumption 3.6% Max HP",
+                            "8": "Singer of Many Waters Healing {param9:F2P} Max HP+462",
+                            "9": "CD 20s"
+                        },
+                        "2": {
+                            "0": "Ousia Bubble DMG 8.5% Max HP",
+                            "1": "Duration 30s",
+                            "2": "Gentilhomme Usher DMG {param3:F2P} Max HP",
+                            "3": "Surintendante Chevalmarin DMG {param4:F2P} Max HP",
+                            "4": "Mademoiselle Crabaletta DMG {param5:F2P} Max HP",
+                            "5": "Gentilhomme Usher HP Consumption 2.4% Max HP",
+                            "6": "Surintendante Chevalmarin HP Consumption 1.6% Max HP",
+                            "7": "Mademoiselle Crabaletta HP Consumption 3.6% Max HP",
+                            "8": "Singer of Many Waters Healing {param9:F2P} Max HP+508",
+                            "9": "CD 20s"
+                        },
+                        "3": {
+                            "0": "Ousia Bubble DMG 9% Max HP",
+                            "1": "Duration 30s",
+                            "2": "Gentilhomme Usher DMG {param3:F2P} Max HP",
+                            "3": "Surintendante Chevalmarin DMG {param4:F2P} Max HP",
+                            "4": "Mademoiselle Crabaletta DMG {param5:F2P} Max HP",
+                            "5": "Gentilhomme Usher HP Consumption 2.4% Max HP",
+                            "6": "Surintendante Chevalmarin HP Consumption 1.6% Max HP",
+                            "7": "Mademoiselle Crabaletta HP Consumption 3.6% Max HP",
+                            "8": "Singer of Many Waters Healing {param9:F2P} Max HP+558",
+                            "9": "CD 20s"
+                        },
+                        "4": {
+                            "0": "Ousia Bubble DMG 9.8% Max HP",
+                            "1": "Duration 30s",
+                            "2": "Gentilhomme Usher DMG {param3:F2P} Max HP",
+                            "3": "Surintendante Chevalmarin DMG {param4:F2P} Max HP",
+                            "4": "Mademoiselle Crabaletta DMG {param5:F2P} Max HP",
+                            "5": "Gentilhomme Usher HP Consumption 2.4% Max HP",
+                            "6": "Surintendante Chevalmarin HP Consumption 1.6% Max HP",
+                            "7": "Mademoiselle Crabaletta HP Consumption 3.6% Max HP",
+                            "8": "Singer of Many Waters Healing {param9:F2P} Max HP+612",
+                            "9": "CD 20s"
+                        },
+                        "5": {
+                            "0": "Ousia Bubble DMG 10.4% Max HP",
+                            "1": "Duration 30s",
+                            "2": "Gentilhomme Usher DMG {param3:F2P} Max HP",
+                            "3": "Surintendante Chevalmarin DMG {param4:F2P} Max HP",
+                            "4": "Mademoiselle Crabaletta DMG {param5:F2P} Max HP",
+                            "5": "Gentilhomme Usher HP Consumption 2.4% Max HP",
+                            "6": "Surintendante Chevalmarin HP Consumption 1.6% Max HP",
+                            "7": "Mademoiselle Crabaletta HP Consumption 3.6% Max HP",
+                            "8": "Singer of Many Waters Healing {param9:F2P} Max HP+670",
+                            "9": "CD 20s"
+                        },
+                        "6": {
+                            "0": "Ousia Bubble DMG 11% Max HP",
+                            "1": "Duration 30s",
+                            "2": "Gentilhomme Usher DMG {param3:F2P} Max HP",
+                            "3": "Surintendante Chevalmarin DMG {param4:F2P} Max HP",
+                            "4": "Mademoiselle Crabaletta DMG {param5:F2P} Max HP",
+                            "5": "Gentilhomme Usher HP Consumption 2.4% Max HP",
+                            "6": "Surintendante Chevalmarin HP Consumption 1.6% Max HP",
+                            "7": "Mademoiselle Crabaletta HP Consumption 3.6% Max HP",
+                            "8": "Singer of Many Waters Healing {param9:F2P} Max HP+731",
+                            "9": "CD 20s"
+                        },
+                        "7": {
+                            "0": "Ousia Bubble DMG 11.8% Max HP",
+                            "1": "Duration 30s",
+                            "2": "Gentilhomme Usher DMG {param3:F2P} Max HP",
+                            "3": "Surintendante Chevalmarin DMG {param4:F2P} Max HP",
+                            "4": "Mademoiselle Crabaletta DMG {param5:F2P} Max HP",
+                            "5": "Gentilhomme Usher HP Consumption 2.4% Max HP",
+                            "6": "Surintendante Chevalmarin HP Consumption 1.6% Max HP",
+                            "7": "Mademoiselle Crabaletta HP Consumption 3.6% Max HP",
+                            "8": "Singer of Many Waters Healing {param9:F2P} Max HP+797",
+                            "9": "CD 20s"
+                        },
+                        "8": {
+                            "0": "Ousia Bubble DMG 12.6% Max HP",
+                            "1": "Duration 30s",
+                            "2": "Gentilhomme Usher DMG {param3:F2P} Max HP",
+                            "3": "Surintendante Chevalmarin DMG {param4:F2P} Max HP",
+                            "4": "Mademoiselle Crabaletta DMG {param5:F2P} Max HP",
+                            "5": "Gentilhomme Usher HP Consumption 2.4% Max HP",
+                            "6": "Surintendante Chevalmarin HP Consumption 1.6% Max HP",
+                            "7": "Mademoiselle Crabaletta HP Consumption 3.6% Max HP",
+                            "8": "Singer of Many Waters Healing {param9:F2P} Max HP+866",
+                            "9": "CD 20s"
+                        },
+                        "9": {
+                            "0": "Ousia Bubble DMG 13.4% Max HP",
+                            "1": "Duration 30s",
+                            "2": "Gentilhomme Usher DMG {param3:F2P} Max HP",
+                            "3": "Surintendante Chevalmarin DMG {param4:F2P} Max HP",
+                            "4": "Mademoiselle Crabaletta DMG {param5:F2P} Max HP",
+                            "5": "Gentilhomme Usher HP Consumption 2.4% Max HP",
+                            "6": "Surintendante Chevalmarin HP Consumption 1.6% Max HP",
+                            "7": "Mademoiselle Crabaletta HP Consumption 3.6% Max HP",
+                            "8": "Singer of Many Waters Healing {param9:F2P} Max HP+939",
+                            "9": "CD 20s"
+                        },
+                        "10": {
+                            "0": "Ousia Bubble DMG 14.2% Max HP",
+                            "1": "Duration 30s",
+                            "2": "Gentilhomme Usher DMG {param3:F2P} Max HP",
+                            "3": "Surintendante Chevalmarin DMG {param4:F2P} Max HP",
+                            "4": "Mademoiselle Crabaletta DMG {param5:F2P} Max HP",
+                            "5": "Gentilhomme Usher HP Consumption 2.4% Max HP",
+                            "6": "Surintendante Chevalmarin HP Consumption 1.6% Max HP",
+                            "7": "Mademoiselle Crabaletta HP Consumption 3.6% Max HP",
+                            "8": "Singer of Many Waters Healing {param9:F2P} Max HP+1016",
+                            "9": "CD 20s"
+                        },
+                        "11": {
+                            "0": "Ousia Bubble DMG 14.9% Max HP",
+                            "1": "Duration 30s",
+                            "2": "Gentilhomme Usher DMG {param3:F2P} Max HP",
+                            "3": "Surintendante Chevalmarin DMG {param4:F2P} Max HP",
+                            "4": "Mademoiselle Crabaletta DMG {param5:F2P} Max HP",
+                            "5": "Gentilhomme Usher HP Consumption 2.4% Max HP",
+                            "6": "Surintendante Chevalmarin HP Consumption 1.6% Max HP",
+                            "7": "Mademoiselle Crabaletta HP Consumption 3.6% Max HP",
+                            "8": "Singer of Many Waters Healing {param9:F2P} Max HP+1097",
+                            "9": "CD 20s"
+                        },
+                        "12": {
+                            "0": "Ousia Bubble DMG 15.7% Max HP",
+                            "1": "Duration 30s",
+                            "2": "Gentilhomme Usher DMG {param3:F2P} Max HP",
+                            "3": "Surintendante Chevalmarin DMG {param4:F2P} Max HP",
+                            "4": "Mademoiselle Crabaletta DMG {param5:F2P} Max HP",
+                            "5": "Gentilhomme Usher HP Consumption 2.4% Max HP",
+                            "6": "Surintendante Chevalmarin HP Consumption 1.6% Max HP",
+                            "7": "Mademoiselle Crabaletta HP Consumption 3.6% Max HP",
+                            "8": "Singer of Many Waters Healing {param9:F2P} Max HP+1182",
+                            "9": "CD 20s"
+                        },
+                        "13": {
+                            "0": "Ousia Bubble DMG 16.7% Max HP",
+                            "1": "Duration 30s",
+                            "2": "Gentilhomme Usher DMG {param3:F2P} Max HP",
+                            "3": "Surintendante Chevalmarin DMG {param4:F2P} Max HP",
+                            "4": "Mademoiselle Crabaletta DMG {param5:F2P} Max HP",
+                            "5": "Gentilhomme Usher HP Consumption 2.4% Max HP",
+                            "6": "Surintendante Chevalmarin HP Consumption 1.6% Max HP",
+                            "7": "Mademoiselle Crabaletta HP Consumption 3.6% Max HP",
+                            "8": "Singer of Many Waters Healing {param9:F2P} Max HP+1271",
+                            "9": "CD 20s"
+                        },
+                        "14": {
+                            "0": "Ousia Bubble DMG 17.7% Max HP",
+                            "1": "Duration 30s",
+                            "2": "Gentilhomme Usher DMG {param3:F2P} Max HP",
+                            "3": "Surintendante Chevalmarin DMG {param4:F2P} Max HP",
+                            "4": "Mademoiselle Crabaletta DMG {param5:F2P} Max HP",
+                            "5": "Gentilhomme Usher HP Consumption 2.4% Max HP",
+                            "6": "Surintendante Chevalmarin HP Consumption 1.6% Max HP",
+                            "7": "Mademoiselle Crabaletta HP Consumption 3.6% Max HP",
+                            "8": "Singer of Many Waters Healing {param9:F2P} Max HP+1363",
+                            "9": "CD 20s"
+                        },
+                        "15": {
+                            "0": "Ousia Bubble DMG 18.7% Max HP",
+                            "1": "Duration 30s",
+                            "2": "Gentilhomme Usher DMG {param3:F2P} Max HP",
+                            "3": "Surintendante Chevalmarin DMG {param4:F2P} Max HP",
+                            "4": "Mademoiselle Crabaletta DMG {param5:F2P} Max HP",
+                            "5": "Gentilhomme Usher HP Consumption 2.4% Max HP",
+                            "6": "Surintendante Chevalmarin HP Consumption 1.6% Max HP",
+                            "7": "Mademoiselle Crabaletta HP Consumption 3.6% Max HP",
+                            "8": "Singer of Many Waters Healing {param9:F2P} Max HP+1460",
+                            "9": "CD 20s"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104341",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112038",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104343",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113056",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104343",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113056",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104343",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113056",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104343",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112040",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113056",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Let the People Rejoice",
+                    "description": "Rouses the impulse to revel, creating a stage of foam that will deal <color=#80C0FFFF>AoE Hydro DMG</color> based on Furina's Max HP and cause nearby party members to enter the Universal Revelry state: During this time, when nearby party members' HP increases or decreases, 1 Fanfare point will be granted to Furina for each percentage point of their Max HP by which their HP changes.\\nAt the same time, Furina will increase the DMG dealt by and Incoming Healing Bonus of all nearby party members based on the amount of Fanfare she has.\\nWhen the duration ends, Furina's Fanfare points will be cleared.\\n\\n<i>\"Cheer! Give praise! Be awed! Raise your glasses! Every night bereft of banqueting is a sordid squandering of sore, sober daylight... And, uh, those who are not yet of age may have grape juice instead!\"</i>",
+                    "icon": "Skill_E_Furina_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 11.4% Max HP",
+                            "1": "Duration 18s",
+                            "2": "Maximum Fanfare 300",
+                            "3": "Fanfare to DMG Increase Conversion Ratio {param5:F2P}",
+                            "4": "Fanfare to Incoming Healing Bonus Conversion Ratio {param6:F2P}",
+                            "5": "CD 15s",
+                            "6": "Energy Cost 60"
+                        },
+                        "2": {
+                            "0": "Skill DMG 12.3% Max HP",
+                            "1": "Duration 18s",
+                            "2": "Maximum Fanfare 300",
+                            "3": "Fanfare to DMG Increase Conversion Ratio {param5:F2P}",
+                            "4": "Fanfare to Incoming Healing Bonus Conversion Ratio {param6:F2P}",
+                            "5": "CD 15s",
+                            "6": "Energy Cost 60"
+                        },
+                        "3": {
+                            "0": "Skill DMG 13.1% Max HP",
+                            "1": "Duration 18s",
+                            "2": "Maximum Fanfare 300",
+                            "3": "Fanfare to DMG Increase Conversion Ratio {param5:F2P}",
+                            "4": "Fanfare to Incoming Healing Bonus Conversion Ratio {param6:F2P}",
+                            "5": "CD 15s",
+                            "6": "Energy Cost 60"
+                        },
+                        "4": {
+                            "0": "Skill DMG 14.3% Max HP",
+                            "1": "Duration 18s",
+                            "2": "Maximum Fanfare 300",
+                            "3": "Fanfare to DMG Increase Conversion Ratio {param5:F2P}",
+                            "4": "Fanfare to Incoming Healing Bonus Conversion Ratio {param6:F2P}",
+                            "5": "CD 15s",
+                            "6": "Energy Cost 60"
+                        },
+                        "5": {
+                            "0": "Skill DMG 15.1% Max HP",
+                            "1": "Duration 18s",
+                            "2": "Maximum Fanfare 300",
+                            "3": "Fanfare to DMG Increase Conversion Ratio {param5:F2P}",
+                            "4": "Fanfare to Incoming Healing Bonus Conversion Ratio {param6:F2P}",
+                            "5": "CD 15s",
+                            "6": "Energy Cost 60"
+                        },
+                        "6": {
+                            "0": "Skill DMG 16% Max HP",
+                            "1": "Duration 18s",
+                            "2": "Maximum Fanfare 300",
+                            "3": "Fanfare to DMG Increase Conversion Ratio {param5:F2P}",
+                            "4": "Fanfare to Incoming Healing Bonus Conversion Ratio {param6:F2P}",
+                            "5": "CD 15s",
+                            "6": "Energy Cost 60"
+                        },
+                        "7": {
+                            "0": "Skill DMG 17.1% Max HP",
+                            "1": "Duration 18s",
+                            "2": "Maximum Fanfare 300",
+                            "3": "Fanfare to DMG Increase Conversion Ratio {param5:F2P}",
+                            "4": "Fanfare to Incoming Healing Bonus Conversion Ratio {param6:F2P}",
+                            "5": "CD 15s",
+                            "6": "Energy Cost 60"
+                        },
+                        "8": {
+                            "0": "Skill DMG 18.2% Max HP",
+                            "1": "Duration 18s",
+                            "2": "Maximum Fanfare 300",
+                            "3": "Fanfare to DMG Increase Conversion Ratio {param5:F2P}",
+                            "4": "Fanfare to Incoming Healing Bonus Conversion Ratio {param6:F2P}",
+                            "5": "CD 15s",
+                            "6": "Energy Cost 60"
+                        },
+                        "9": {
+                            "0": "Skill DMG 19.4% Max HP",
+                            "1": "Duration 18s",
+                            "2": "Maximum Fanfare 300",
+                            "3": "Fanfare to DMG Increase Conversion Ratio {param5:F2P}",
+                            "4": "Fanfare to Incoming Healing Bonus Conversion Ratio {param6:F2P}",
+                            "5": "CD 15s",
+                            "6": "Energy Cost 60"
+                        },
+                        "10": {
+                            "0": "Skill DMG 20.5% Max HP",
+                            "1": "Duration 18s",
+                            "2": "Maximum Fanfare 300",
+                            "3": "Fanfare to DMG Increase Conversion Ratio {param5:F2P}",
+                            "4": "Fanfare to Incoming Healing Bonus Conversion Ratio {param6:F2P}",
+                            "5": "CD 15s",
+                            "6": "Energy Cost 60"
+                        },
+                        "11": {
+                            "0": "Skill DMG 21.7% Max HP",
+                            "1": "Duration 18s",
+                            "2": "Maximum Fanfare 300",
+                            "3": "Fanfare to DMG Increase Conversion Ratio {param5:F2P}",
+                            "4": "Fanfare to Incoming Healing Bonus Conversion Ratio {param6:F2P}",
+                            "5": "CD 15s",
+                            "6": "Energy Cost 60"
+                        },
+                        "12": {
+                            "0": "Skill DMG 22.8% Max HP",
+                            "1": "Duration 18s",
+                            "2": "Maximum Fanfare 300",
+                            "3": "Fanfare to DMG Increase Conversion Ratio {param5:F2P}",
+                            "4": "Fanfare to Incoming Healing Bonus Conversion Ratio {param6:F2P}",
+                            "5": "CD 15s",
+                            "6": "Energy Cost 60"
+                        },
+                        "13": {
+                            "0": "Skill DMG 24.2% Max HP",
+                            "1": "Duration 18s",
+                            "2": "Maximum Fanfare 300",
+                            "3": "Fanfare to DMG Increase Conversion Ratio {param5:F2P}",
+                            "4": "Fanfare to Incoming Healing Bonus Conversion Ratio {param6:F2P}",
+                            "5": "CD 15s",
+                            "6": "Energy Cost 60"
+                        },
+                        "14": {
+                            "0": "Skill DMG 25.7% Max HP",
+                            "1": "Duration 18s",
+                            "2": "Maximum Fanfare 300",
+                            "3": "Fanfare to DMG Increase Conversion Ratio {param5:F2P}",
+                            "4": "Fanfare to Incoming Healing Bonus Conversion Ratio {param6:F2P}",
+                            "5": "CD 15s",
+                            "6": "Energy Cost 60"
+                        },
+                        "15": {
+                            "0": "Skill DMG 27.1% Max HP",
+                            "1": "Duration 18s",
+                            "2": "Maximum Fanfare 300",
+                            "3": "Fanfare to DMG Increase Conversion Ratio {param5:F2P}",
+                            "4": "Fanfare to Incoming Healing Bonus Conversion Ratio {param6:F2P}",
+                            "5": "CD 15s",
+                            "6": "Energy Cost 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104341",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112038",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104343",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113056",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104343",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113056",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104343",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113056",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104343",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112040",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113056",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Let the People Rejoice",
+                    "description": "Rouses the impulse to revel, creating a stage of foam that will deal <color=#80C0FFFF>AoE Hydro DMG</color> based on Furina's Max HP and cause nearby party members to enter the Universal Revelry state: During this time, when nearby party members' HP increases or decreases, 1 Fanfare point will be granted to Furina for each percentage point of their Max HP by which their HP changes.\\nAt the same time, Furina will increase the DMG dealt by and Incoming Healing Bonus of all nearby party members based on the amount of Fanfare she has.\\nWhen the duration ends, Furina's Fanfare points will be cleared.\\n\\n<i>\"Cheer! Give praise! Be awed! Raise your glasses! Every night bereft of banqueting is a sordid squandering of sore, sober daylight... And, uh, those who are not yet of age may have grape juice instead!\"</i>",
+                    "icon": "Skill_E_Furina_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 11.4% Max HP",
+                            "1": "Duration 18s",
+                            "2": "Maximum Fanfare 300",
+                            "3": "Fanfare to DMG Increase Conversion Ratio {param5:F2P}",
+                            "4": "Fanfare to Incoming Healing Bonus Conversion Ratio {param6:F2P}",
+                            "5": "CD 15s",
+                            "6": "Energy Cost 60"
+                        },
+                        "2": {
+                            "0": "Skill DMG 12.3% Max HP",
+                            "1": "Duration 18s",
+                            "2": "Maximum Fanfare 300",
+                            "3": "Fanfare to DMG Increase Conversion Ratio {param5:F2P}",
+                            "4": "Fanfare to Incoming Healing Bonus Conversion Ratio {param6:F2P}",
+                            "5": "CD 15s",
+                            "6": "Energy Cost 60"
+                        },
+                        "3": {
+                            "0": "Skill DMG 13.1% Max HP",
+                            "1": "Duration 18s",
+                            "2": "Maximum Fanfare 300",
+                            "3": "Fanfare to DMG Increase Conversion Ratio {param5:F2P}",
+                            "4": "Fanfare to Incoming Healing Bonus Conversion Ratio {param6:F2P}",
+                            "5": "CD 15s",
+                            "6": "Energy Cost 60"
+                        },
+                        "4": {
+                            "0": "Skill DMG 14.3% Max HP",
+                            "1": "Duration 18s",
+                            "2": "Maximum Fanfare 300",
+                            "3": "Fanfare to DMG Increase Conversion Ratio {param5:F2P}",
+                            "4": "Fanfare to Incoming Healing Bonus Conversion Ratio {param6:F2P}",
+                            "5": "CD 15s",
+                            "6": "Energy Cost 60"
+                        },
+                        "5": {
+                            "0": "Skill DMG 15.1% Max HP",
+                            "1": "Duration 18s",
+                            "2": "Maximum Fanfare 300",
+                            "3": "Fanfare to DMG Increase Conversion Ratio {param5:F2P}",
+                            "4": "Fanfare to Incoming Healing Bonus Conversion Ratio {param6:F2P}",
+                            "5": "CD 15s",
+                            "6": "Energy Cost 60"
+                        },
+                        "6": {
+                            "0": "Skill DMG 16% Max HP",
+                            "1": "Duration 18s",
+                            "2": "Maximum Fanfare 300",
+                            "3": "Fanfare to DMG Increase Conversion Ratio {param5:F2P}",
+                            "4": "Fanfare to Incoming Healing Bonus Conversion Ratio {param6:F2P}",
+                            "5": "CD 15s",
+                            "6": "Energy Cost 60"
+                        },
+                        "7": {
+                            "0": "Skill DMG 17.1% Max HP",
+                            "1": "Duration 18s",
+                            "2": "Maximum Fanfare 300",
+                            "3": "Fanfare to DMG Increase Conversion Ratio {param5:F2P}",
+                            "4": "Fanfare to Incoming Healing Bonus Conversion Ratio {param6:F2P}",
+                            "5": "CD 15s",
+                            "6": "Energy Cost 60"
+                        },
+                        "8": {
+                            "0": "Skill DMG 18.2% Max HP",
+                            "1": "Duration 18s",
+                            "2": "Maximum Fanfare 300",
+                            "3": "Fanfare to DMG Increase Conversion Ratio {param5:F2P}",
+                            "4": "Fanfare to Incoming Healing Bonus Conversion Ratio {param6:F2P}",
+                            "5": "CD 15s",
+                            "6": "Energy Cost 60"
+                        },
+                        "9": {
+                            "0": "Skill DMG 19.4% Max HP",
+                            "1": "Duration 18s",
+                            "2": "Maximum Fanfare 300",
+                            "3": "Fanfare to DMG Increase Conversion Ratio {param5:F2P}",
+                            "4": "Fanfare to Incoming Healing Bonus Conversion Ratio {param6:F2P}",
+                            "5": "CD 15s",
+                            "6": "Energy Cost 60"
+                        },
+                        "10": {
+                            "0": "Skill DMG 20.5% Max HP",
+                            "1": "Duration 18s",
+                            "2": "Maximum Fanfare 300",
+                            "3": "Fanfare to DMG Increase Conversion Ratio {param5:F2P}",
+                            "4": "Fanfare to Incoming Healing Bonus Conversion Ratio {param6:F2P}",
+                            "5": "CD 15s",
+                            "6": "Energy Cost 60"
+                        },
+                        "11": {
+                            "0": "Skill DMG 21.7% Max HP",
+                            "1": "Duration 18s",
+                            "2": "Maximum Fanfare 300",
+                            "3": "Fanfare to DMG Increase Conversion Ratio {param5:F2P}",
+                            "4": "Fanfare to Incoming Healing Bonus Conversion Ratio {param6:F2P}",
+                            "5": "CD 15s",
+                            "6": "Energy Cost 60"
+                        },
+                        "12": {
+                            "0": "Skill DMG 22.8% Max HP",
+                            "1": "Duration 18s",
+                            "2": "Maximum Fanfare 300",
+                            "3": "Fanfare to DMG Increase Conversion Ratio {param5:F2P}",
+                            "4": "Fanfare to Incoming Healing Bonus Conversion Ratio {param6:F2P}",
+                            "5": "CD 15s",
+                            "6": "Energy Cost 60"
+                        },
+                        "13": {
+                            "0": "Skill DMG 24.2% Max HP",
+                            "1": "Duration 18s",
+                            "2": "Maximum Fanfare 300",
+                            "3": "Fanfare to DMG Increase Conversion Ratio {param5:F2P}",
+                            "4": "Fanfare to Incoming Healing Bonus Conversion Ratio {param6:F2P}",
+                            "5": "CD 15s",
+                            "6": "Energy Cost 60"
+                        },
+                        "14": {
+                            "0": "Skill DMG 25.7% Max HP",
+                            "1": "Duration 18s",
+                            "2": "Maximum Fanfare 300",
+                            "3": "Fanfare to DMG Increase Conversion Ratio {param5:F2P}",
+                            "4": "Fanfare to Incoming Healing Bonus Conversion Ratio {param6:F2P}",
+                            "5": "CD 15s",
+                            "6": "Energy Cost 60"
+                        },
+                        "15": {
+                            "0": "Skill DMG 27.1% Max HP",
+                            "1": "Duration 18s",
+                            "2": "Maximum Fanfare 300",
+                            "3": "Fanfare to DMG Increase Conversion Ratio {param5:F2P}",
+                            "4": "Fanfare to Incoming Healing Bonus Conversion Ratio {param6:F2P}",
+                            "5": "CD 15s",
+                            "6": "Energy Cost 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104341",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112038",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104343",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113056",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104343",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113056",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104343",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113056",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104343",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112040",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113056",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Endless Waltz",
+                    "description": "When the active character in your party receives healing, if the source of the healing is not Furina herself and the healing overflows, then Furina will heal nearby party members for 2% of their Max HP once every 2s for the next 4s.",
+                    "icon": "UI_Talent_S_Furina_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Unheard Confession",
+                    "description": "Every 1,000 points of Furina's Max HP can buff the different Arkhe-aligned <color=#FFD780FF>Salon Solitaire</color> in the following ways:\\nWill increase Salon Members' DMG dealt by 0.7%, up to a maximum of 28%.\\nWill decrease the Singer of Many Waters' healing interval for nearby active characters by 0.4%, up to a maximum of 16%.",
+                    "icon": "UI_Talent_S_Furina_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "The Sea Is My Stage",
+                    "description": "Xenochromatic Fontemer Aberrant ability CD decreased by 30%.",
+                    "icon": "UI_Talent_S_Furina_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "\"Love Is a Rebellious Bird That None Can Tame\"",
+                    "description": "When using <color=#FFD780FF>Let the People Rejoice</color>, Furina will gain 150 Fanfare.\\nAdditionally, Furina's Fanfare limit is increased by 100.",
+                    "icon": "UI_Talent_S_Furina_01"
+                },
+                "1": {
+                    "name": "\"A Woman Adapts Like Duckweed in Water\"",
+                    "description": "While <color=#FFD780FF>Let the People Rejoice</color> lasts, Furina's Fanfare gain from increases or decreases in nearby characters' HP is increased by 250%. Each point of Fanfare above the limit will increase Furina's Max HP by 0.35%. Her maximum Max HP increase is 140%.",
+                    "icon": "UI_Talent_S_Furina_04"
+                },
+                "2": {
+                    "name": "\"My Secret Is Hidden Within Me, No One Will Know My Name\"",
+                    "description": "Increases the Level of <color=#FFD780FF>Let the People Rejoice</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Furina_02"
+                },
+                "3": {
+                    "name": "\"They Know Not Life, Who Dwelt in the Netherworld Not!\"",
+                    "description": "When the Salon Members from <color=#FFD780FF>Salon Solitaire</color> hit an opponent, or the Singer of Many Waters restores HP to nearby active characters, Furina will restore 4 Energy. This effect can be triggered once every 5s.",
+                    "icon": "UI_Talent_S_Furina_03"
+                },
+                "4": {
+                    "name": "\"His Name I Now Know, It Is...!\"",
+                    "description": "Increases the Level of <color=#FFD780FF>Salon Solitaire</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Furina_01"
+                },
+                "5": {
+                    "name": "\"Hear Me — Let Us Raise the Chalice of Love!\"",
+                    "description": "When using <color=#FFD780FF>Salon Solitaire</color>, Furina gains \"Center of Attention\" for 10s.\\nThroughout the duration, Furina's Normal Attacks, Charged Attacks, and Plunging Attacks are converted into <color=#80C0FFFF>Hydro DMG</color> which cannot be overridden by any other elemental infusion. DMG is also increased by an amount equivalent to 18% of Furina's max HP.\\nThroughout the duration, Furina's Normal Attacks (not including Arkhe: Seats Sacred and Secular Attacks), Charged Attacks, and the impact of Plunging Attacks will cause different effects up to every 0.1s after hitting opponents depending on her current Arkhe alignment:\\n\\nArkhe: Ousia\\nEvery 1s, all nearby characters in the party will be healed by 4% of Furina's max HP, for a duration of 2.9s. Triggering this effect again will extend its duration.\\nArkhe: Pneuma\\nThis Normal Attack (not including Arkhe: Seats Sacred and Secular Attacks), Charged Attack, or Plunging Attack ground impact DMG will be further increased by an amount equivalent to 25% of Furina's max HP. When any of the attacks mentioned previously hit an opponent, all nearby characters in the party will consume 1% of their current HP.\\n\\nDuring the duration of each instance of \"Center of Attention,\" the above effects can be triggered up to 6 times. \"Center of Attention\" will end when its effects have triggered 6 times or when the duration expires.",
+                    "icon": "UI_Talent_S_Furina_02"
+                }
+            },
+            "elevation": {
+                "sub": "CRIT Rate %",
+                "0": {
+                    "stats": {
+                        "HP": 1192,
+                        "ATK": 19,
+                        "DEF": 54,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 3091,
+                        "ATK": 49,
+                        "DEF": 140,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101238",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104121",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112038",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 4113,
+                        "ATK": 66,
+                        "DEF": 187,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 6154,
+                        "ATK": 98,
+                        "DEF": 280,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101238",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104122",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112038",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113057",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 6880,
+                        "ATK": 110,
+                        "DEF": 313,
+                        "sub": 4.8
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 7916,
+                        "ATK": 126,
+                        "DEF": 360,
+                        "sub": 4.8
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101238",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104122",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112039",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113057",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 8884,
+                        "ATK": 142,
+                        "DEF": 404,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 9825,
+                        "ATK": 157,
+                        "DEF": 446,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101238",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104123",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112039",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113057",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 10551,
+                        "ATK": 168,
+                        "DEF": 479,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 11818,
+                        "ATK": 188,
+                        "DEF": 537,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101238",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104123",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112040",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113057",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 12544,
+                        "ATK": 200,
+                        "DEF": 570,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 13505,
+                        "ATK": 215,
+                        "DEF": 614,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101238",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104124",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112040",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113057",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 14231,
+                        "ATK": 227,
+                        "DEF": 647,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 15307,
+                        "ATK": 244,
+                        "DEF": 696,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                }
+            }
+        },
+        "ru": {
+            "name": "Furina",
+            "name_ru": "Фурина",
+            "id": 10000089,
+            "rarity": 5,
+            "weapon": "Sword",
+            "element": "Hydro",
+            "region": "Fontaine",
+            "more": {
+                "title": "Бесконечный танец одиночества",
+                "detail": "В центре внимания на сцене театра правосудия вплоть до финального занавеса и оваций.",
+                "constellation": "Капельмейстер",
+                "group": "Кур-де-Фонтейн",
+                "birthday": "13.10",
+                "release": "06.11.2023",
+                "cv": {
+                    "en": "Amber Lee Connors",
+                    "chs": "钱琛",
+                    "jp": "水瀬いのり",
+                    "kr": "Kim Ha-young"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Приглашение на одиночный танец",
+                    "description": "<color=#FFD780FF>Обычная атака:</color>\\nВыполняет до четырёх последовательных ударов.\\n\\n<color=#FFD780FF>Заряженная атака:</color>\\nТратит определённое количество выносливости и начинает одиночный танец, который наносит физ. урон противникам поблизости и меняет вид архэ. Если на поле боя есть участники салона или Певец Потоков, вызванные её элементальным навыком Салон одиноких сердец, то они сменяются на другой тип гостей.\\n\\n<color=#FFD780FF>Архэ: Священные и мирские места</color>\\nС некоторым интервалом, когда обычная атака Фурины попадает по противнику, на его месте, в зависимости от вида архэ Фурины, появляется Игла дыхания душ или Клинок бурных вод, которые наносят соответственно <color=#80C0FFFF>Гидро урон</color> пневмы или усии.\\nКогда Фурина выходит на поле боя, у неё архэ усии.\\n\\n<color=#FFD780FF>Атака в падении</color>:\\nСтремительно падает на землю, атакуя всех врагов на пути. Приземлившись, наносит урон по площади.",
+                    "icon": "Skill_A_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон атаки 1 48.4%",
+                            "1": "Урон атаки 2 43.7%",
+                            "2": "Урон атаки 3 55.1%",
+                            "3": "Урон атаки 4 73.3%",
+                            "4": "Урон заряженной атаки 74.2%",
+                            "5": "Потребление выносливости 20 ед.",
+                            "6": "Урон в падении 63.9%",
+                            "7": "Урон низкого/высокого удара 127.8%/159.7%",
+                            "8": "Урон Иглы дыхания душ/Клинка бурных вод 9.5%",
+                            "9": "Интервал урона Иглы дыхания душ/Клинка бурных вод 6 сек./6 сек."
+                        },
+                        "2": {
+                            "0": "Урон атаки 1 52.3%",
+                            "1": "Урон атаки 2 47.3%",
+                            "2": "Урон атаки 3 59.6%",
+                            "3": "Урон атаки 4 79.3%",
+                            "4": "Урон заряженной атаки 80.3%",
+                            "5": "Потребление выносливости 20 ед.",
+                            "6": "Урон в падении 69.1%",
+                            "7": "Урон низкого/высокого удара 138.2%/172.7%",
+                            "8": "Урон Иглы дыхания душ/Клинка бурных вод 10.2%",
+                            "9": "Интервал урона Иглы дыхания душ/Клинка бурных вод 6 сек./6 сек."
+                        },
+                        "3": {
+                            "0": "Урон атаки 1 56.3%",
+                            "1": "Урон атаки 2 50.8%",
+                            "2": "Урон атаки 3 64.1%",
+                            "3": "Урон атаки 4 85.2%",
+                            "4": "Урон заряженной атаки 86.3%",
+                            "5": "Потребление выносливости 20 ед.",
+                            "6": "Урон в падении 74.3%",
+                            "7": "Урон низкого/высокого удара 148.6%/185.7%",
+                            "8": "Урон Иглы дыхания душ/Клинка бурных вод 11%",
+                            "9": "Интервал урона Иглы дыхания душ/Клинка бурных вод 6 сек./6 сек."
+                        },
+                        "4": {
+                            "0": "Урон атаки 1 61.9%",
+                            "1": "Урон атаки 2 55.9%",
+                            "2": "Урон атаки 3 70.5%",
+                            "3": "Урон атаки 4 93.8%",
+                            "4": "Урон заряженной атаки 94.9%",
+                            "5": "Потребление выносливости 20 ед.",
+                            "6": "Урон в падении 81.8%",
+                            "7": "Урон низкого/высокого удара 163.5%/204.2%",
+                            "8": "Урон Иглы дыхания душ/Клинка бурных вод 12.1%",
+                            "9": "Интервал урона Иглы дыхания душ/Клинка бурных вод 6 сек./6 сек."
+                        },
+                        "5": {
+                            "0": "Урон атаки 1 65.8%",
+                            "1": "Урон атаки 2 59.5%",
+                            "2": "Урон атаки 3 75%",
+                            "3": "Урон атаки 4 99.7%",
+                            "4": "Урон заряженной атаки 101%",
+                            "5": "Потребление выносливости 20 ед.",
+                            "6": "Урон в падении 87%",
+                            "7": "Урон низкого/высокого удара 173.9%/217.2%",
+                            "8": "Урон Иглы дыхания душ/Клинка бурных вод 12.9%",
+                            "9": "Интервал урона Иглы дыхания душ/Клинка бурных вод 6 сек./6 сек."
+                        },
+                        "6": {
+                            "0": "Урон атаки 1 70.3%",
+                            "1": "Урон атаки 2 63.6%",
+                            "2": "Урон атаки 3 80.1%",
+                            "3": "Урон атаки 4 106.5%",
+                            "4": "Урон заряженной атаки 107.9%",
+                            "5": "Потребление выносливости 20 ед.",
+                            "6": "Урон в падении 92.9%",
+                            "7": "Урон низкого/высокого удара 185.8%/232.1%",
+                            "8": "Урон Иглы дыхания душ/Клинка бурных вод 13.8%",
+                            "9": "Интервал урона Иглы дыхания душ/Клинка бурных вод 6 сек./6 сек."
+                        },
+                        "7": {
+                            "0": "Урон атаки 1 76.5%",
+                            "1": "Урон атаки 2 69.2%",
+                            "2": "Урон атаки 3 87.2%",
+                            "3": "Урон атаки 4 115.9%",
+                            "4": "Урон заряженной атаки 117.4%",
+                            "5": "Потребление выносливости 20 ед.",
+                            "6": "Урон в падении 101.1%",
+                            "7": "Урон низкого/высокого удара 202.2%/252.5%",
+                            "8": "Урон Иглы дыхания душ/Клинка бурных вод 15%",
+                            "9": "Интервал урона Иглы дыхания душ/Клинка бурных вод 6 сек./6 сек."
+                        },
+                        "8": {
+                            "0": "Урон атаки 1 82.7%",
+                            "1": "Урон атаки 2 74.7%",
+                            "2": "Урон атаки 3 94.2%",
+                            "3": "Урон атаки 4 125.3%",
+                            "4": "Урон заряженной атаки 126.9%",
+                            "5": "Потребление выносливости 20 ед.",
+                            "6": "Урон в падении 109.3%",
+                            "7": "Урон низкого/высокого удара 218.5%/272.9%",
+                            "8": "Урон Иглы дыхания душ/Клинка бурных вод 16.2%",
+                            "9": "Интервал урона Иглы дыхания душ/Клинка бурных вод 6 сек./6 сек."
+                        },
+                        "9": {
+                            "0": "Урон атаки 1 88.9%",
+                            "1": "Урон атаки 2 80.3%",
+                            "2": "Урон атаки 3 101.3%",
+                            "3": "Урон атаки 4 134.7%",
+                            "4": "Урон заряженной атаки 136.4%",
+                            "5": "Потребление выносливости 20 ед.",
+                            "6": "Урон в падении 117.5%",
+                            "7": "Урон низкого/высокого удара 234.9%/293.4%",
+                            "8": "Урон Иглы дыхания душ/Клинка бурных вод 17.4%",
+                            "9": "Интервал урона Иглы дыхания душ/Клинка бурных вод 6 сек./6 сек."
+                        },
+                        "10": {
+                            "0": "Урон атаки 1 95.6%",
+                            "1": "Урон атаки 2 86.4%",
+                            "2": "Урон атаки 3 109%",
+                            "3": "Урон атаки 4 144.9%",
+                            "4": "Урон заряженной атаки 146.7%",
+                            "5": "Потребление выносливости 20 ед.",
+                            "6": "Урон в падении 126.4%",
+                            "7": "Урон низкого/высокого удара 252.7%/315.6%",
+                            "8": "Урон Иглы дыхания душ/Клинка бурных вод 18.7%",
+                            "9": "Интервал урона Иглы дыхания душ/Клинка бурных вод 6 сек./6 сек."
+                        },
+                        "11": {
+                            "0": "Урон атаки 1 102.4%",
+                            "1": "Урон атаки 2 92.5%",
+                            "2": "Урон атаки 3 116.6%",
+                            "3": "Урон атаки 4 155.1%",
+                            "4": "Урон заряженной атаки 157.1%",
+                            "5": "Потребление выносливости 20 ед.",
+                            "6": "Урон в падении 135.3%",
+                            "7": "Урон низкого/высокого удара 270.5%/337.9%",
+                            "8": "Урон Иглы дыхания душ/Клинка бурных вод 20%",
+                            "9": "Интервал урона Иглы дыхания душ/Клинка бурных вод 6 сек./6 сек."
+                        },
+                        "12": {
+                            "0": "Урон атаки 1 109.1%",
+                            "1": "Урон атаки 2 98.6%",
+                            "2": "Урон атаки 3 124.3%",
+                            "3": "Урон атаки 4 165.3%",
+                            "4": "Урон заряженной атаки 167.4%",
+                            "5": "Потребление выносливости 20 ед.",
+                            "6": "Урон в падении 144.2%",
+                            "7": "Урон низкого/высокого удара 288.4%/360.2%",
+                            "8": "Урон Иглы дыхания душ/Клинка бурных вод 21.3%",
+                            "9": "Интервал урона Иглы дыхания душ/Клинка бурных вод 6 сек./6 сек."
+                        },
+                        "13": {
+                            "0": "Урон атаки 1 115.9%",
+                            "1": "Урон атаки 2 104.7%",
+                            "2": "Урон атаки 3 132%",
+                            "3": "Урон атаки 4 175.6%",
+                            "4": "Урон заряженной атаки 177.8%",
+                            "5": "Потребление выносливости 20 ед.",
+                            "6": "Урон в падении 153.1%",
+                            "7": "Урон низкого/высокого удара 306.2%/382.5%",
+                            "8": "Урон Иглы дыхания душ/Клинка бурных вод 22.7%",
+                            "9": "Интервал урона Иглы дыхания душ/Клинка бурных вод 6 сек./6 сек."
+                        },
+                        "14": {
+                            "0": "Урон атаки 1 122.7%",
+                            "1": "Урон атаки 2 110.8%",
+                            "2": "Урон атаки 3 139.7%",
+                            "3": "Урон атаки 4 185.8%",
+                            "4": "Урон заряженной атаки 188.1%",
+                            "5": "Потребление выносливости 20 ед.",
+                            "6": "Урон в падении 162.1%",
+                            "7": "Урон низкого/высокого удара 324.1%/404.8%",
+                            "8": "Урон Иглы дыхания душ/Клинка бурных вод 24%",
+                            "9": "Интервал урона Иглы дыхания душ/Клинка бурных вод 6 сек./6 сек."
+                        },
+                        "15": {
+                            "0": "Урон атаки 1 129.4%",
+                            "1": "Урон атаки 2 117%",
+                            "2": "Урон атаки 3 147.4%",
+                            "3": "Урон атаки 4 196%",
+                            "4": "Урон заряженной атаки 198.5%",
+                            "5": "Потребление выносливости 20 ед.",
+                            "6": "Урон в падении 171%",
+                            "7": "Урон низкого/высокого удара 341.9%/427%",
+                            "8": "Урон Иглы дыхания душ/Клинка бурных вод 25.3%",
+                            "9": "Интервал урона Иглы дыхания душ/Клинка бурных вод 6 сек./6 сек."
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104341",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112038",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104343",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113056",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104343",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113056",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104343",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113056",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104343",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112040",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113056",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Салон одиноких сердец",
+                    "description": "Приглашает гостей «Салона одиноких сердец» поучаствовать в выступлении Фурины. Призывает либо участников салона, либо Певца Потоков в зависимости от текущего <color=#FFD780FF>типа архэ</color> Фурины.\\n\\n<color=#FFD780FF>Усия</color>\\nКружащиеся в вихре танца пузырьки наносят <color=#80C0FFFF>Гидро урон по площади</color> пропорционально макс. HP Фурины и призывают трёх участников салона: Месье Уше в образе шаровидного осьминога, Управляющую Шевальмарин в образе конька-пузырька и Мадемуазель Крабалетту в образе бронекраба.\\nОни атакуют ближайших противников через определенные промежутки времени с приоритетом на цель активного персонажа, нанося <color=#80C0FFFF>Гидро урон</color> пропорционально макс. HP.\\nЕсли поблизости есть персонажи с уровнем HP выше 50%, участники салона при атаке используют HP этих персонажей, чтобы увеличить свою силу атаки в зависимости от количества персонажей, «одолживших» HP. Если персонажей - доноров HP 1/2/3/4 (или более), наносимый участниками салона урон составляет 110%/120%/130%/140% от их изначального урона.\\n\\n<color=#FFD780FF>Пневма</color>\\nВызывает Певца Потоков, который с определенными интервалами исцеляет ближайших активных персонажей пропорционально макс. HP.\\n\\nУчастники салона и Певец Потоков имеют общую длительность. Когда Фурина использует заряженную атаку, чтобы изменить тип гостей, новые гости наследуют длительность предыдущих.\\nВо время существования участников салона или Певца Потока Фурина может передвигаться по воде.\\n\\n<i>В «Салоне одиноких сердец» Фурины есть круг постоянных посетителей. Порой там бывают Месье Уше, Управляющая Шевальмарин и Мадемуазель Крабалетта, а по мрачным средам заходит Певец.</i>",
+                    "icon": "Skill_S_Furina_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон пузыря усии 7.9% макс. HP",
+                            "1": "Длительность 30 сек.",
+                            "2": "Урон Месье Уше {param3:F2P} макс. HP",
+                            "3": "Урон Управляющей Шевальмарин {param4:F2P} макс. HP",
+                            "4": "Урон Мадемуазель Крабалетты {param5:F2P} макс. HP",
+                            "5": "Потребление HP Месье Уше 2.4% макс. HP",
+                            "6": "Потребление HP Управляющей Шевальмарин 1.6% макс. HP",
+                            "7": "Потребление HP Мадемуазель Крабалетты 3.6% макс. HP",
+                            "8": "Лечение Певца Потоков {param9:F2P} макс. HP + 462",
+                            "9": "Время отката 20 сек."
+                        },
+                        "2": {
+                            "0": "Урон пузыря усии 8.5% макс. HP",
+                            "1": "Длительность 30 сек.",
+                            "2": "Урон Месье Уше {param3:F2P} макс. HP",
+                            "3": "Урон Управляющей Шевальмарин {param4:F2P} макс. HP",
+                            "4": "Урон Мадемуазель Крабалетты {param5:F2P} макс. HP",
+                            "5": "Потребление HP Месье Уше 2.4% макс. HP",
+                            "6": "Потребление HP Управляющей Шевальмарин 1.6% макс. HP",
+                            "7": "Потребление HP Мадемуазель Крабалетты 3.6% макс. HP",
+                            "8": "Лечение Певца Потоков {param9:F2P} макс. HP + 508",
+                            "9": "Время отката 20 сек."
+                        },
+                        "3": {
+                            "0": "Урон пузыря усии 9% макс. HP",
+                            "1": "Длительность 30 сек.",
+                            "2": "Урон Месье Уше {param3:F2P} макс. HP",
+                            "3": "Урон Управляющей Шевальмарин {param4:F2P} макс. HP",
+                            "4": "Урон Мадемуазель Крабалетты {param5:F2P} макс. HP",
+                            "5": "Потребление HP Месье Уше 2.4% макс. HP",
+                            "6": "Потребление HP Управляющей Шевальмарин 1.6% макс. HP",
+                            "7": "Потребление HP Мадемуазель Крабалетты 3.6% макс. HP",
+                            "8": "Лечение Певца Потоков {param9:F2P} макс. HP + 558",
+                            "9": "Время отката 20 сек."
+                        },
+                        "4": {
+                            "0": "Урон пузыря усии 9.8% макс. HP",
+                            "1": "Длительность 30 сек.",
+                            "2": "Урон Месье Уше {param3:F2P} макс. HP",
+                            "3": "Урон Управляющей Шевальмарин {param4:F2P} макс. HP",
+                            "4": "Урон Мадемуазель Крабалетты {param5:F2P} макс. HP",
+                            "5": "Потребление HP Месье Уше 2.4% макс. HP",
+                            "6": "Потребление HP Управляющей Шевальмарин 1.6% макс. HP",
+                            "7": "Потребление HP Мадемуазель Крабалетты 3.6% макс. HP",
+                            "8": "Лечение Певца Потоков {param9:F2P} макс. HP + 612",
+                            "9": "Время отката 20 сек."
+                        },
+                        "5": {
+                            "0": "Урон пузыря усии 10.4% макс. HP",
+                            "1": "Длительность 30 сек.",
+                            "2": "Урон Месье Уше {param3:F2P} макс. HP",
+                            "3": "Урон Управляющей Шевальмарин {param4:F2P} макс. HP",
+                            "4": "Урон Мадемуазель Крабалетты {param5:F2P} макс. HP",
+                            "5": "Потребление HP Месье Уше 2.4% макс. HP",
+                            "6": "Потребление HP Управляющей Шевальмарин 1.6% макс. HP",
+                            "7": "Потребление HP Мадемуазель Крабалетты 3.6% макс. HP",
+                            "8": "Лечение Певца Потоков {param9:F2P} макс. HP + 670",
+                            "9": "Время отката 20 сек."
+                        },
+                        "6": {
+                            "0": "Урон пузыря усии 11% макс. HP",
+                            "1": "Длительность 30 сек.",
+                            "2": "Урон Месье Уше {param3:F2P} макс. HP",
+                            "3": "Урон Управляющей Шевальмарин {param4:F2P} макс. HP",
+                            "4": "Урон Мадемуазель Крабалетты {param5:F2P} макс. HP",
+                            "5": "Потребление HP Месье Уше 2.4% макс. HP",
+                            "6": "Потребление HP Управляющей Шевальмарин 1.6% макс. HP",
+                            "7": "Потребление HP Мадемуазель Крабалетты 3.6% макс. HP",
+                            "8": "Лечение Певца Потоков {param9:F2P} макс. HP + 731",
+                            "9": "Время отката 20 сек."
+                        },
+                        "7": {
+                            "0": "Урон пузыря усии 11.8% макс. HP",
+                            "1": "Длительность 30 сек.",
+                            "2": "Урон Месье Уше {param3:F2P} макс. HP",
+                            "3": "Урон Управляющей Шевальмарин {param4:F2P} макс. HP",
+                            "4": "Урон Мадемуазель Крабалетты {param5:F2P} макс. HP",
+                            "5": "Потребление HP Месье Уше 2.4% макс. HP",
+                            "6": "Потребление HP Управляющей Шевальмарин 1.6% макс. HP",
+                            "7": "Потребление HP Мадемуазель Крабалетты 3.6% макс. HP",
+                            "8": "Лечение Певца Потоков {param9:F2P} макс. HP + 797",
+                            "9": "Время отката 20 сек."
+                        },
+                        "8": {
+                            "0": "Урон пузыря усии 12.6% макс. HP",
+                            "1": "Длительность 30 сек.",
+                            "2": "Урон Месье Уше {param3:F2P} макс. HP",
+                            "3": "Урон Управляющей Шевальмарин {param4:F2P} макс. HP",
+                            "4": "Урон Мадемуазель Крабалетты {param5:F2P} макс. HP",
+                            "5": "Потребление HP Месье Уше 2.4% макс. HP",
+                            "6": "Потребление HP Управляющей Шевальмарин 1.6% макс. HP",
+                            "7": "Потребление HP Мадемуазель Крабалетты 3.6% макс. HP",
+                            "8": "Лечение Певца Потоков {param9:F2P} макс. HP + 866",
+                            "9": "Время отката 20 сек."
+                        },
+                        "9": {
+                            "0": "Урон пузыря усии 13.4% макс. HP",
+                            "1": "Длительность 30 сек.",
+                            "2": "Урон Месье Уше {param3:F2P} макс. HP",
+                            "3": "Урон Управляющей Шевальмарин {param4:F2P} макс. HP",
+                            "4": "Урон Мадемуазель Крабалетты {param5:F2P} макс. HP",
+                            "5": "Потребление HP Месье Уше 2.4% макс. HP",
+                            "6": "Потребление HP Управляющей Шевальмарин 1.6% макс. HP",
+                            "7": "Потребление HP Мадемуазель Крабалетты 3.6% макс. HP",
+                            "8": "Лечение Певца Потоков {param9:F2P} макс. HP + 939",
+                            "9": "Время отката 20 сек."
+                        },
+                        "10": {
+                            "0": "Урон пузыря усии 14.2% макс. HP",
+                            "1": "Длительность 30 сек.",
+                            "2": "Урон Месье Уше {param3:F2P} макс. HP",
+                            "3": "Урон Управляющей Шевальмарин {param4:F2P} макс. HP",
+                            "4": "Урон Мадемуазель Крабалетты {param5:F2P} макс. HP",
+                            "5": "Потребление HP Месье Уше 2.4% макс. HP",
+                            "6": "Потребление HP Управляющей Шевальмарин 1.6% макс. HP",
+                            "7": "Потребление HP Мадемуазель Крабалетты 3.6% макс. HP",
+                            "8": "Лечение Певца Потоков {param9:F2P} макс. HP + 1016",
+                            "9": "Время отката 20 сек."
+                        },
+                        "11": {
+                            "0": "Урон пузыря усии 14.9% макс. HP",
+                            "1": "Длительность 30 сек.",
+                            "2": "Урон Месье Уше {param3:F2P} макс. HP",
+                            "3": "Урон Управляющей Шевальмарин {param4:F2P} макс. HP",
+                            "4": "Урон Мадемуазель Крабалетты {param5:F2P} макс. HP",
+                            "5": "Потребление HP Месье Уше 2.4% макс. HP",
+                            "6": "Потребление HP Управляющей Шевальмарин 1.6% макс. HP",
+                            "7": "Потребление HP Мадемуазель Крабалетты 3.6% макс. HP",
+                            "8": "Лечение Певца Потоков {param9:F2P} макс. HP + 1097",
+                            "9": "Время отката 20 сек."
+                        },
+                        "12": {
+                            "0": "Урон пузыря усии 15.7% макс. HP",
+                            "1": "Длительность 30 сек.",
+                            "2": "Урон Месье Уше {param3:F2P} макс. HP",
+                            "3": "Урон Управляющей Шевальмарин {param4:F2P} макс. HP",
+                            "4": "Урон Мадемуазель Крабалетты {param5:F2P} макс. HP",
+                            "5": "Потребление HP Месье Уше 2.4% макс. HP",
+                            "6": "Потребление HP Управляющей Шевальмарин 1.6% макс. HP",
+                            "7": "Потребление HP Мадемуазель Крабалетты 3.6% макс. HP",
+                            "8": "Лечение Певца Потоков {param9:F2P} макс. HP + 1182",
+                            "9": "Время отката 20 сек."
+                        },
+                        "13": {
+                            "0": "Урон пузыря усии 16.7% макс. HP",
+                            "1": "Длительность 30 сек.",
+                            "2": "Урон Месье Уше {param3:F2P} макс. HP",
+                            "3": "Урон Управляющей Шевальмарин {param4:F2P} макс. HP",
+                            "4": "Урон Мадемуазель Крабалетты {param5:F2P} макс. HP",
+                            "5": "Потребление HP Месье Уше 2.4% макс. HP",
+                            "6": "Потребление HP Управляющей Шевальмарин 1.6% макс. HP",
+                            "7": "Потребление HP Мадемуазель Крабалетты 3.6% макс. HP",
+                            "8": "Лечение Певца Потоков {param9:F2P} макс. HP + 1271",
+                            "9": "Время отката 20 сек."
+                        },
+                        "14": {
+                            "0": "Урон пузыря усии 17.7% макс. HP",
+                            "1": "Длительность 30 сек.",
+                            "2": "Урон Месье Уше {param3:F2P} макс. HP",
+                            "3": "Урон Управляющей Шевальмарин {param4:F2P} макс. HP",
+                            "4": "Урон Мадемуазель Крабалетты {param5:F2P} макс. HP",
+                            "5": "Потребление HP Месье Уше 2.4% макс. HP",
+                            "6": "Потребление HP Управляющей Шевальмарин 1.6% макс. HP",
+                            "7": "Потребление HP Мадемуазель Крабалетты 3.6% макс. HP",
+                            "8": "Лечение Певца Потоков {param9:F2P} макс. HP + 1363",
+                            "9": "Время отката 20 сек."
+                        },
+                        "15": {
+                            "0": "Урон пузыря усии 18.7% макс. HP",
+                            "1": "Длительность 30 сек.",
+                            "2": "Урон Месье Уше {param3:F2P} макс. HP",
+                            "3": "Урон Управляющей Шевальмарин {param4:F2P} макс. HP",
+                            "4": "Урон Мадемуазель Крабалетты {param5:F2P} макс. HP",
+                            "5": "Потребление HP Месье Уше 2.4% макс. HP",
+                            "6": "Потребление HP Управляющей Шевальмарин 1.6% макс. HP",
+                            "7": "Потребление HP Мадемуазель Крабалетты 3.6% макс. HP",
+                            "8": "Лечение Певца потоков {param9:F2P} макс. HP + 1460",
+                            "9": "Время отката 20 сек."
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104341",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112038",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104343",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113056",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104343",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113056",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104343",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113056",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104343",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112040",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113056",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Да возрадуются люди",
+                    "description": "Пробуждается импульс к веселью, который создаёт сцену из пены и наносит <color=#80C0FFFF>Гидро урон по площади</color> пропорционально макс. HP Фурины и переводит членов отряда поблизости в состояние Всемирного веселья: во время действия состояния, когда у персонажей поблизости увеличивается или уменьшается текущее HP, Фурина получает 1 ед. фанфар за каждый 1% изменения HP персонажа в процентах от его макс. HP.\\nВ то же время увеличивается наносимый урон и бонус получаемого лечения всех окружающих членов отряда в зависимости от количества фанфар.\\nКогда время действия истекает, фанфары Фурины сбрасываются.\\n\\n<i>«Ура! Возрадуемся! Поднимем бокалы! Каждая ночь, лишённая застолья, - это гнусная растрата трезвого дня... А тем, кто ещё не достиг совершеннолетия, можно пить виноградный сок!»</i>",
+                    "icon": "Skill_E_Furina_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 11.4% макс. HP",
+                            "1": "Длительность 18 сек.",
+                            "2": "Лимит фанфар 300",
+                            "3": "Отношение фанфар к повышению урона {param5:F2P}",
+                            "4": "Отношение фанфар к бонусу лечения {param6:F2P}",
+                            "5": "Время отката 15 сек.",
+                            "6": "Потребление энергии 60"
+                        },
+                        "2": {
+                            "0": "Урон навыка 12.3% макс. HP",
+                            "1": "Длительность 18 сек.",
+                            "2": "Лимит фанфар 300",
+                            "3": "Отношение фанфар к повышению урона {param5:F2P}",
+                            "4": "Отношение фанфар к бонусу лечения {param6:F2P}",
+                            "5": "Время отката 15 сек.",
+                            "6": "Потребление энергии 60"
+                        },
+                        "3": {
+                            "0": "Урон навыка 13.1% макс. HP",
+                            "1": "Длительность 18 сек.",
+                            "2": "Лимит фанфар 300",
+                            "3": "Отношение фанфар к повышению урона {param5:F2P}",
+                            "4": "Отношение фанфар к бонусу лечения {param6:F2P}",
+                            "5": "Время отката 15 сек.",
+                            "6": "Потребление энергии 60"
+                        },
+                        "4": {
+                            "0": "Урон навыка 14.3% макс. HP",
+                            "1": "Длительность 18 сек.",
+                            "2": "Лимит фанфар 300",
+                            "3": "Отношение фанфар к повышению урона {param5:F2P}",
+                            "4": "Отношение фанфар к бонусу лечения {param6:F2P}",
+                            "5": "Время отката 15 сек.",
+                            "6": "Потребление энергии 60"
+                        },
+                        "5": {
+                            "0": "Урон навыка 15.1% макс. HP",
+                            "1": "Длительность 18 сек.",
+                            "2": "Лимит фанфар 300",
+                            "3": "Отношение фанфар к повышению урона {param5:F2P}",
+                            "4": "Отношение фанфар к бонусу лечения {param6:F2P}",
+                            "5": "Время отката 15 сек.",
+                            "6": "Потребление энергии 60"
+                        },
+                        "6": {
+                            "0": "Урон навыка 16% макс. HP",
+                            "1": "Длительность 18 сек.",
+                            "2": "Лимит фанфар 300",
+                            "3": "Отношение фанфар к повышению урона {param5:F2P}",
+                            "4": "Отношение фанфар к бонусу лечения {param6:F2P}",
+                            "5": "Время отката 15 сек.",
+                            "6": "Потребление энергии 60"
+                        },
+                        "7": {
+                            "0": "Урон навыка 17.1% макс. HP",
+                            "1": "Длительность 18 сек.",
+                            "2": "Лимит фанфар 300",
+                            "3": "Отношение фанфар к повышению урона {param5:F2P}",
+                            "4": "Отношение фанфар к бонусу лечения {param6:F2P}",
+                            "5": "Время отката 15 сек.",
+                            "6": "Потребление энергии 60"
+                        },
+                        "8": {
+                            "0": "Урон навыка 18.2% макс. HP",
+                            "1": "Длительность 18 сек.",
+                            "2": "Лимит фанфар 300",
+                            "3": "Отношение фанфар к повышению урона {param5:F2P}",
+                            "4": "Отношение фанфар к бонусу лечения {param6:F2P}",
+                            "5": "Время отката 15 сек.",
+                            "6": "Потребление энергии 60"
+                        },
+                        "9": {
+                            "0": "Урон навыка 19.4% макс. HP",
+                            "1": "Длительность 18 сек.",
+                            "2": "Лимит фанфар 300",
+                            "3": "Отношение фанфар к повышению урона {param5:F2P}",
+                            "4": "Отношение фанфар к бонусу лечения {param6:F2P}",
+                            "5": "Время отката 15 сек.",
+                            "6": "Потребление энергии 60"
+                        },
+                        "10": {
+                            "0": "Урон навыка 20.5% макс. HP",
+                            "1": "Длительность 18 сек.",
+                            "2": "Лимит фанфар 300",
+                            "3": "Отношение фанфар к повышению урона {param5:F2P}",
+                            "4": "Отношение фанфар к бонусу лечения {param6:F2P}",
+                            "5": "Время отката 15 сек.",
+                            "6": "Потребление энергии 60"
+                        },
+                        "11": {
+                            "0": "Урон навыка 21.7% макс. HP",
+                            "1": "Длительность 18 сек.",
+                            "2": "Лимит фанфар 300",
+                            "3": "Отношение фанфар к повышению урона {param5:F2P}",
+                            "4": "Отношение фанфар к бонусу лечения {param6:F2P}",
+                            "5": "Время отката 15 сек.",
+                            "6": "Потребление энергии 60"
+                        },
+                        "12": {
+                            "0": "Урон навыка 22.8% макс. HP",
+                            "1": "Длительность 18 сек.",
+                            "2": "Лимит фанфар 300",
+                            "3": "Отношение фанфар к повышению урона {param5:F2P}",
+                            "4": "Отношение фанфар к бонусу лечения {param6:F2P}",
+                            "5": "Время отката 15 сек.",
+                            "6": "Потребление энергии 60"
+                        },
+                        "13": {
+                            "0": "Урон навыка 24.2% макс. HP",
+                            "1": "Длительность 18 сек.",
+                            "2": "Лимит фанфар 300",
+                            "3": "Отношение фанфар к повышению урона {param5:F2P}",
+                            "4": "Отношение фанфар к бонусу лечения {param6:F2P}",
+                            "5": "Время отката 15 сек.",
+                            "6": "Потребление энергии 60"
+                        },
+                        "14": {
+                            "0": "Урон навыка 25.7% макс. HP",
+                            "1": "Длительность 18 сек.",
+                            "2": "Лимит фанфар 300",
+                            "3": "Отношение фанфар к повышению урона {param5:F2P}",
+                            "4": "Отношение фанфар к бонусу лечения {param6:F2P}",
+                            "5": "Время отката 15 сек.",
+                            "6": "Потребление энергии 60"
+                        },
+                        "15": {
+                            "0": "Урон навыка 27.1% макс. HP",
+                            "1": "Длительность 18 сек.",
+                            "2": "Лимит фанфар 300",
+                            "3": "Отношение фанфар к повышению урона {param5:F2P}",
+                            "4": "Отношение фанфар к бонусу лечения {param6:F2P}",
+                            "5": "Время отката 15 сек.",
+                            "6": "Потребление энергии 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104341",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112038",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104343",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113056",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104343",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113056",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104343",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113056",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104343",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112040",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113056",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Да возрадуются люди",
+                    "description": "Пробуждается импульс к веселью, который создаёт сцену из пены и наносит <color=#80C0FFFF>Гидро урон по площади</color> пропорционально макс. HP Фурины и переводит членов отряда поблизости в состояние Всемирного веселья: во время действия состояния, когда у персонажей поблизости увеличивается или уменьшается текущее HP, Фурина получает 1 ед. фанфар за каждый 1% изменения HP персонажа в процентах от его макс. HP.\\nВ то же время увеличивается наносимый урон и бонус получаемого лечения всех окружающих членов отряда в зависимости от количества фанфар.\\nКогда время действия истекает, фанфары Фурины сбрасываются.\\n\\n<i>«Ура! Возрадуемся! Поднимем бокалы! Каждая ночь, лишённая застолья, - это гнусная растрата трезвого дня... А тем, кто ещё не достиг совершеннолетия, можно пить виноградный сок!»</i>",
+                    "icon": "Skill_E_Furina_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 11.4% макс. HP",
+                            "1": "Длительность 18 сек.",
+                            "2": "Лимит фанфар 300",
+                            "3": "Отношение фанфар к повышению урона {param5:F2P}",
+                            "4": "Отношение фанфар к бонусу лечения {param6:F2P}",
+                            "5": "Время отката 15 сек.",
+                            "6": "Потребление энергии 60"
+                        },
+                        "2": {
+                            "0": "Урон навыка 12.3% макс. HP",
+                            "1": "Длительность 18 сек.",
+                            "2": "Лимит фанфар 300",
+                            "3": "Отношение фанфар к повышению урона {param5:F2P}",
+                            "4": "Отношение фанфар к бонусу лечения {param6:F2P}",
+                            "5": "Время отката 15 сек.",
+                            "6": "Потребление энергии 60"
+                        },
+                        "3": {
+                            "0": "Урон навыка 13.1% макс. HP",
+                            "1": "Длительность 18 сек.",
+                            "2": "Лимит фанфар 300",
+                            "3": "Отношение фанфар к повышению урона {param5:F2P}",
+                            "4": "Отношение фанфар к бонусу лечения {param6:F2P}",
+                            "5": "Время отката 15 сек.",
+                            "6": "Потребление энергии 60"
+                        },
+                        "4": {
+                            "0": "Урон навыка 14.3% макс. HP",
+                            "1": "Длительность 18 сек.",
+                            "2": "Лимит фанфар 300",
+                            "3": "Отношение фанфар к повышению урона {param5:F2P}",
+                            "4": "Отношение фанфар к бонусу лечения {param6:F2P}",
+                            "5": "Время отката 15 сек.",
+                            "6": "Потребление энергии 60"
+                        },
+                        "5": {
+                            "0": "Урон навыка 15.1% макс. HP",
+                            "1": "Длительность 18 сек.",
+                            "2": "Лимит фанфар 300",
+                            "3": "Отношение фанфар к повышению урона {param5:F2P}",
+                            "4": "Отношение фанфар к бонусу лечения {param6:F2P}",
+                            "5": "Время отката 15 сек.",
+                            "6": "Потребление энергии 60"
+                        },
+                        "6": {
+                            "0": "Урон навыка 16% макс. HP",
+                            "1": "Длительность 18 сек.",
+                            "2": "Лимит фанфар 300",
+                            "3": "Отношение фанфар к повышению урона {param5:F2P}",
+                            "4": "Отношение фанфар к бонусу лечения {param6:F2P}",
+                            "5": "Время отката 15 сек.",
+                            "6": "Потребление энергии 60"
+                        },
+                        "7": {
+                            "0": "Урон навыка 17.1% макс. HP",
+                            "1": "Длительность 18 сек.",
+                            "2": "Лимит фанфар 300",
+                            "3": "Отношение фанфар к повышению урона {param5:F2P}",
+                            "4": "Отношение фанфар к бонусу лечения {param6:F2P}",
+                            "5": "Время отката 15 сек.",
+                            "6": "Потребление энергии 60"
+                        },
+                        "8": {
+                            "0": "Урон навыка 18.2% макс. HP",
+                            "1": "Длительность 18 сек.",
+                            "2": "Лимит фанфар 300",
+                            "3": "Отношение фанфар к повышению урона {param5:F2P}",
+                            "4": "Отношение фанфар к бонусу лечения {param6:F2P}",
+                            "5": "Время отката 15 сек.",
+                            "6": "Потребление энергии 60"
+                        },
+                        "9": {
+                            "0": "Урон навыка 19.4% макс. HP",
+                            "1": "Длительность 18 сек.",
+                            "2": "Лимит фанфар 300",
+                            "3": "Отношение фанфар к повышению урона {param5:F2P}",
+                            "4": "Отношение фанфар к бонусу лечения {param6:F2P}",
+                            "5": "Время отката 15 сек.",
+                            "6": "Потребление энергии 60"
+                        },
+                        "10": {
+                            "0": "Урон навыка 20.5% макс. HP",
+                            "1": "Длительность 18 сек.",
+                            "2": "Лимит фанфар 300",
+                            "3": "Отношение фанфар к повышению урона {param5:F2P}",
+                            "4": "Отношение фанфар к бонусу лечения {param6:F2P}",
+                            "5": "Время отката 15 сек.",
+                            "6": "Потребление энергии 60"
+                        },
+                        "11": {
+                            "0": "Урон навыка 21.7% макс. HP",
+                            "1": "Длительность 18 сек.",
+                            "2": "Лимит фанфар 300",
+                            "3": "Отношение фанфар к повышению урона {param5:F2P}",
+                            "4": "Отношение фанфар к бонусу лечения {param6:F2P}",
+                            "5": "Время отката 15 сек.",
+                            "6": "Потребление энергии 60"
+                        },
+                        "12": {
+                            "0": "Урон навыка 22.8% макс. HP",
+                            "1": "Длительность 18 сек.",
+                            "2": "Лимит фанфар 300",
+                            "3": "Отношение фанфар к повышению урона {param5:F2P}",
+                            "4": "Отношение фанфар к бонусу лечения {param6:F2P}",
+                            "5": "Время отката 15 сек.",
+                            "6": "Потребление энергии 60"
+                        },
+                        "13": {
+                            "0": "Урон навыка 24.2% макс. HP",
+                            "1": "Длительность 18 сек.",
+                            "2": "Лимит фанфар 300",
+                            "3": "Отношение фанфар к повышению урона {param5:F2P}",
+                            "4": "Отношение фанфар к бонусу лечения {param6:F2P}",
+                            "5": "Время отката 15 сек.",
+                            "6": "Потребление энергии 60"
+                        },
+                        "14": {
+                            "0": "Урон навыка 25.7% макс. HP",
+                            "1": "Длительность 18 сек.",
+                            "2": "Лимит фанфар 300",
+                            "3": "Отношение фанфар к повышению урона {param5:F2P}",
+                            "4": "Отношение фанфар к бонусу лечения {param6:F2P}",
+                            "5": "Время отката 15 сек.",
+                            "6": "Потребление энергии 60"
+                        },
+                        "15": {
+                            "0": "Урон навыка 27.1% макс. HP",
+                            "1": "Длительность 18 сек.",
+                            "2": "Лимит фанфар 300",
+                            "3": "Отношение фанфар к повышению урона {param5:F2P}",
+                            "4": "Отношение фанфар к бонусу лечения {param6:F2P}",
+                            "5": "Время отката 15 сек.",
+                            "6": "Потребление энергии 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104341",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112038",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104342",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112039",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104343",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113056",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104343",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113056",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104343",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112040",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113056",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104343",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112040",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113056",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Бесконечный вальс",
+                    "description": "Когда активный персонаж в отряде получает лечение с избытком и его источник не сама Фурина, Фурина в течение 4 сек. каждые 2 сек. восстанавливает HP членам отряда поблизости в количестве 2% от макс. HP каждого из них.",
+                    "icon": "UI_Talent_S_Furina_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Неуслышанное признание",
+                    "description": "Каждые 1000 ед. макс. HP усиливают <color=#FFD780FF>Салон одиноких сердец</color> Фурины другого архэ следующим образом:\\nУрон, наносимый участниками салона, увеличивается на 0,7%, макс. 28%.\\nИнтервал, с которым Певец Потоков лечит активного персонажа поблизости понижается на 0,4%. Интервал этим способом можно понизить макс. на 16%.",
+                    "icon": "UI_Talent_S_Furina_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Море - моя сцена",
+                    "description": "Время отката способностей ксенохромных инородов Фонтмера снижается на 30%.",
+                    "icon": "UI_Talent_S_Furina_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "«У любви, как у пташки, крылья, её нельзя никак поймать»",
+                    "description": "При использовании <color=#FFD780FF>Да возрадуются люди</color> Фурина получает 150 ед. фанфар.\\nТакже лимит фанфар Фурины увеличивается на 100 ед.",
+                    "icon": "UI_Talent_S_Furina_01"
+                },
+                "1": {
+                    "name": "«Сердце красавиц склонно к измене»",
+                    "description": "Пока действует навык <color=#FFD780FF>Да возрадуются люди</color>, прирост фанфар Фурины от увеличения или уменьшения HP персонажей поблизости увеличивается на 250%. Каждая ед. фанфар сверх лимита увеличивает макс. HP Фурины на 0,35%. Предельное увеличение макс. HP таким способом составляет 140%.",
+                    "icon": "UI_Talent_S_Furina_04"
+                },
+                "2": {
+                    "name": "«Но секрет мой скрыт во мне, никто не узнает моё имя!»",
+                    "description": "Повышает уровень навыка <color=#FFD780FF>Да возрадуются люди</color> на 3.\\nМакс. уровень: 15.",
+                    "icon": "UI_Talent_U_Furina_02"
+                },
+                "3": {
+                    "name": "«Не знает жизни тот, кто не был в царстве смерти!»",
+                    "description": "Когда участники салона из <color=#FFD780FF>Салона одиноких сердец</color> попадают по противнику или Певец Потоков восстанавливает HP активному персонажу, Фурина восстанавливает 4 ед. энергии. Этот эффект может возникнуть один раз в 5 сек.",
+                    "icon": "UI_Talent_S_Furina_03"
+                },
+                "4": {
+                    "name": "«Я знаю имя чужестранца! Это имя...»",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Салон одиноких сердец</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Furina_01"
+                },
+                "5": {
+                    "name": "«Высоко поднимем все кубок веселья!»",
+                    "description": "После использования <color=#FFD780FF>Салона одиноких сердец</color>, Фурина получает Центр внимания на 10 сек.\\nВо время его действия урон обычных атак, заряженных атак и атак в падении Фурины конвертируется в <color=#80C0FFFF>Гидро урон</color>. Этот эффект не может быть отменён какой-либо элементальной инфузией. Кроме того, наносимый урон повышается на значение, равное 18% от макс. HP Фурины.\\nВо время действия обычные атаки (кроме атаки «Архэ: Священные и мирские места»), заряженные атаки и удары о землю атак в падении при попадании по противнику до 1 раза в 0,1 сек. активируют разные эффекты в зависимости от текущего вида архэ Фурины:\\n\\nАрхэ: Усия\\nКаждую сек. все окружающие члены отряда восстанавливают HP, равное 4% от макс. HP Фурины. Действует 2,9 сек. При повторной активации эффекта время действия продлевается.\\nАрхэ: Пневма\\nУрон последующей обычной атаки (кроме атаки Архэ: Священные и мирские места), заряженной атаки или удара о землю атаки в падении дополнительно увеличивается на 25% от макс. HP Фурины. Если вышеперечисленные атаки попадают по противнику, все окружающие члены отряда теряют 1% от своего текущего HP.\\n\\nВо время действия каждого Центра внимания эти эффекты могут активироваться до 6 раз. Центр внимания прекращается, когда его эффекты активируются 6 раз или когда заканчивается время действия.",
+                    "icon": "UI_Talent_S_Furina_02"
+                }
+            },
+            "elevation": {
+                "sub": "Шанс крит. попадания %",
+                "0": {
+                    "stats": {
+                        "HP": 1192,
+                        "ATK": 19,
+                        "DEF": 54,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 3091,
+                        "ATK": 49,
+                        "DEF": 140,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101238",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104121",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112038",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 4113,
+                        "ATK": 66,
+                        "DEF": 187,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 6154,
+                        "ATK": 98,
+                        "DEF": 280,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101238",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104122",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112038",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113057",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 6880,
+                        "ATK": 110,
+                        "DEF": 313,
+                        "sub": 4.8
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 7916,
+                        "ATK": 126,
+                        "DEF": 360,
+                        "sub": 4.8
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101238",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104122",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112039",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113057",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 8884,
+                        "ATK": 142,
+                        "DEF": 404,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 9825,
+                        "ATK": 157,
+                        "DEF": 446,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101238",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104123",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112039",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113057",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 10551,
+                        "ATK": 168,
+                        "DEF": 479,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 11818,
+                        "ATK": 188,
+                        "DEF": 537,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101238",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104123",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112040",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113057",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 12544,
+                        "ATK": 200,
+                        "DEF": 570,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 13505,
+                        "ATK": 215,
+                        "DEF": 614,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101238",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104124",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112040",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113057",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 14231,
+                        "ATK": 227,
+                        "DEF": 647,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 15307,
+                        "ATK": 244,
+                        "DEF": 696,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                }
+            }
+        }
+    }
+}

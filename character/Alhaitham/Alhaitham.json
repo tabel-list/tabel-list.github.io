@@ -1,0 +1,3114 @@
+{
+    "Alhaitham": {
+        "en": {
+            "name": "Alhaitham",
+            "name_ru": "Аль-Хайтам",
+            "id": 10000078,
+            "rarity": 5,
+            "weapon": "Sword",
+            "element": "Dendro",
+            "region": "Sumeru",
+            "more": {
+                "title": "Admonishing Instruction",
+                "detail": "The current scribe of the Sumeru Akademiya, a man endowed with extraordinary intelligence and talent. He lives free — free from the searching eyes of ordinary people, anyway.",
+                "constellation": "Vultur Volans",
+                "group": "Sumeru Akademiya",
+                "birthday": "11.2",
+                "release": "16.01.2023",
+                "cv": {
+                    "en": "Nazeeh Tarsha",
+                    "chs": "杨超然",
+                    "jp": "梅原裕一郎",
+                    "kr": "Jun Seung-hwa"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Normal Attack: Abductive Reasoning",
+                    "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 5 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+                    "icon": "Skill_A_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "1-Hit DMG 49.5%",
+                            "1": "2-Hit DMG 50.7%",
+                            "2": "3-Hit DMG 34.2%+34.2%",
+                            "3": "4-Hit DMG 66.8%",
+                            "4": "5-Hit DMG 83.9%",
+                            "5": "Charged Attack DMG 55.3%+55.3%",
+                            "6": "Charged Attack Stamina Cost 20",
+                            "7": "Plunge DMG 63.9%",
+                            "8": "Low/High Plunge DMG 127.8%/159.7%"
+                        },
+                        "2": {
+                            "0": "1-Hit DMG 53.6%",
+                            "1": "2-Hit DMG 54.9%",
+                            "2": "3-Hit DMG 37%+37%",
+                            "3": "4-Hit DMG 72.2%",
+                            "4": "5-Hit DMG 90.7%",
+                            "5": "Charged Attack DMG 59.8%+59.8%",
+                            "6": "Charged Attack Stamina Cost 20",
+                            "7": "Plunge DMG 69.1%",
+                            "8": "Low/High Plunge DMG 138.2%/172.7%"
+                        },
+                        "3": {
+                            "0": "1-Hit DMG 57.6%",
+                            "1": "2-Hit DMG 59%",
+                            "2": "3-Hit DMG 39.7%+39.7%",
+                            "3": "4-Hit DMG 77.6%",
+                            "4": "5-Hit DMG 97.5%",
+                            "5": "Charged Attack DMG 64.2%+64.2%",
+                            "6": "Charged Attack Stamina Cost 20",
+                            "7": "Plunge DMG 74.3%",
+                            "8": "Low/High Plunge DMG 148.6%/185.7%"
+                        },
+                        "4": {
+                            "0": "1-Hit DMG 63.3%",
+                            "1": "2-Hit DMG 64.9%",
+                            "2": "3-Hit DMG 43.7%+43.7%",
+                            "3": "4-Hit DMG 85.4%",
+                            "4": "5-Hit DMG 107.3%",
+                            "5": "Charged Attack DMG 70.7%+70.7%",
+                            "6": "Charged Attack Stamina Cost 20",
+                            "7": "Plunge DMG 81.8%",
+                            "8": "Low/High Plunge DMG 163.5%/204.2%"
+                        },
+                        "5": {
+                            "0": "1-Hit DMG 67.4%",
+                            "1": "2-Hit DMG 69%",
+                            "2": "3-Hit DMG 46.5%+46.5%",
+                            "3": "4-Hit DMG 90.8%",
+                            "4": "5-Hit DMG 114.1%",
+                            "5": "Charged Attack DMG 75.2%+75.2%",
+                            "6": "Charged Attack Stamina Cost 20",
+                            "7": "Plunge DMG 87%",
+                            "8": "Low/High Plunge DMG 173.9%/217.2%"
+                        },
+                        "6": {
+                            "0": "1-Hit DMG 72%",
+                            "1": "2-Hit DMG 73.8%",
+                            "2": "3-Hit DMG 49.7%+49.7%",
+                            "3": "4-Hit DMG 97%",
+                            "4": "5-Hit DMG 121.9%",
+                            "5": "Charged Attack DMG 80.3%+80.3%",
+                            "6": "Charged Attack Stamina Cost 20",
+                            "7": "Plunge DMG 92.9%",
+                            "8": "Low/High Plunge DMG 185.8%/232.1%"
+                        },
+                        "7": {
+                            "0": "1-Hit DMG 78.3%",
+                            "1": "2-Hit DMG 80.3%",
+                            "2": "3-Hit DMG 54%+54%",
+                            "3": "4-Hit DMG 105.6%",
+                            "4": "5-Hit DMG 132.6%",
+                            "5": "Charged Attack DMG 87.4%+87.4%",
+                            "6": "Charged Attack Stamina Cost 20",
+                            "7": "Plunge DMG 101.1%",
+                            "8": "Low/High Plunge DMG 202.2%/252.5%"
+                        },
+                        "8": {
+                            "0": "1-Hit DMG 84.7%",
+                            "1": "2-Hit DMG 86.7%",
+                            "2": "3-Hit DMG 58.4%+58.4%",
+                            "3": "4-Hit DMG 114.1%",
+                            "4": "5-Hit DMG 143.3%",
+                            "5": "Charged Attack DMG 94.4%+94.4%",
+                            "6": "Charged Attack Stamina Cost 20",
+                            "7": "Plunge DMG 109.3%",
+                            "8": "Low/High Plunge DMG 218.5%/272.9%"
+                        },
+                        "9": {
+                            "0": "1-Hit DMG 91%",
+                            "1": "2-Hit DMG 93.2%",
+                            "2": "3-Hit DMG 62.8%+62.8%",
+                            "3": "4-Hit DMG 122.7%",
+                            "4": "5-Hit DMG 154.1%",
+                            "5": "Charged Attack DMG 101.5%+101.5%",
+                            "6": "Charged Attack Stamina Cost 20",
+                            "7": "Plunge DMG 117.5%",
+                            "8": "Low/High Plunge DMG 234.9%/293.4%"
+                        },
+                        "10": {
+                            "0": "1-Hit DMG 97.9%",
+                            "1": "2-Hit DMG 100.3%",
+                            "2": "3-Hit DMG 67.6%+67.6%",
+                            "3": "4-Hit DMG 132%",
+                            "4": "5-Hit DMG 165.8%",
+                            "5": "Charged Attack DMG 109.2%+109.2%",
+                            "6": "Charged Attack Stamina Cost 20",
+                            "7": "Plunge DMG 126.4%",
+                            "8": "Low/High Plunge DMG 252.7%/315.6%"
+                        },
+                        "11": {
+                            "0": "1-Hit DMG 104.8%",
+                            "1": "2-Hit DMG 107.4%",
+                            "2": "3-Hit DMG 72.3%+72.3%",
+                            "3": "4-Hit DMG 141.3%",
+                            "4": "5-Hit DMG 177.5%",
+                            "5": "Charged Attack DMG 116.9%+116.9%",
+                            "6": "Charged Attack Stamina Cost 20",
+                            "7": "Plunge DMG 135.3%",
+                            "8": "Low/High Plunge DMG 270.5%/337.9%"
+                        },
+                        "12": {
+                            "0": "1-Hit DMG 111.7%",
+                            "1": "2-Hit DMG 114.5%",
+                            "2": "3-Hit DMG 77.1%+77.1%",
+                            "3": "4-Hit DMG 150.6%",
+                            "4": "5-Hit DMG 189.2%",
+                            "5": "Charged Attack DMG 124.6%+124.6%",
+                            "6": "Charged Attack Stamina Cost 20",
+                            "7": "Plunge DMG 144.2%",
+                            "8": "Low/High Plunge DMG 288.4%/360.2%"
+                        },
+                        "13": {
+                            "0": "1-Hit DMG 118.6%",
+                            "1": "2-Hit DMG 121.6%",
+                            "2": "3-Hit DMG 81.9%+81.9%",
+                            "3": "4-Hit DMG 159.9%",
+                            "4": "5-Hit DMG 200.9%",
+                            "5": "Charged Attack DMG 132.4%+132.4%",
+                            "6": "Charged Attack Stamina Cost 20",
+                            "7": "Plunge DMG 153.1%",
+                            "8": "Low/High Plunge DMG 306.2%/382.5%"
+                        },
+                        "14": {
+                            "0": "1-Hit DMG 125.5%",
+                            "1": "2-Hit DMG 128.6%",
+                            "2": "3-Hit DMG 86.6%+86.6%",
+                            "3": "4-Hit DMG 169.2%",
+                            "4": "5-Hit DMG 212.6%",
+                            "5": "Charged Attack DMG 140.1%+140.1%",
+                            "6": "Charged Attack Stamina Cost 20",
+                            "7": "Plunge DMG 162.1%",
+                            "8": "Low/High Plunge DMG 324.1%/404.8%"
+                        },
+                        "15": {
+                            "0": "1-Hit DMG 132.5%",
+                            "1": "2-Hit DMG 135.7%",
+                            "2": "3-Hit DMG 91.4%+91.4%",
+                            "3": "4-Hit DMG 178.6%",
+                            "4": "5-Hit DMG 224.3%",
+                            "5": "Charged Attack DMG 147.8%+147.8%",
+                            "6": "Charged Attack Stamina Cost 20",
+                            "7": "Plunge DMG 171%",
+                            "8": "Low/High Plunge DMG 341.9%/427%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104332",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112065",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113042",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113042",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113042",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104334",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112067",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113042",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Universality: An Elaboration on Form",
+                    "description": "Rushes forward, dealing <color=#99FF88FF>Dendro DMG</color> to nearby opponents when the rush ends, causing a Chisel-Light Mirror to form.\\nHolding this skill will cause it to behave differently.\\n\\n<color=#FFD780FF>Hold</color>\\nEnters Aiming Mode to adjust the direction of Alhaitham's rush attack.\\n\\n<color=#FFD780FF>Chisel-Light Mirror</color>\\nWhen this skill is unleashed, Alhaitham will generate 1 Chisel-Light Mirror. If there are no Mirrors at this time, he will generate 1 additional Mirror. Chisel-Light Mirrors will have the following properties:\\n·When he possesses Chisel-Light Mirrors, Alhaitham's Normal, Charged, and Plunging Attacks will be converted to <color=#99FF88FF>Dendro DMG</color>. This cannot be overridden.\\n·When attacks of the aforementioned kind hit opponents, the Chisel-Light Mirrors will unleash a Projection Attack that deals <color=#99FF88FF>AoE Dendro DMG</color> based on the number of Mirrors on the field.\\n·A total of 3 Chisel-Light Mirrors can exist at once.\\n·The Chisel-Light Mirrors will disappear one after the other over time, and will all disappear when Alhaitham leaves the field.\\n\\n<i>\"Truth inherently exists amidst uncertainty. Even the greatest of scholars are not immune to error.\"</i>",
+                    "icon": "Skill_S_Alhatham_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Rush Attack DMG 193.6% ATK+154.9% Elemental Mastery",
+                            "1": "Projection Attack Interval 1.6s",
+                            "2": "1-Mirror Projection Attack DMG 67.2% ATK+134.4% Elemental Mastery",
+                            "3": "2-Mirror Projection Attack DMG (67.2% ATK+134.4% Elemental Mastery)×2",
+                            "4": "3-Mirror Projection Attack DMG (67.2% ATK+134.4% Elemental Mastery)×3",
+                            "5": "Chisel-Light Mirror Removal Interval 4s",
+                            "6": "CD 18s"
+                        },
+                        "2": {
+                            "0": "Rush Attack DMG 208.1% ATK+166.5% Elemental Mastery",
+                            "1": "Projection Attack Interval 1.6s",
+                            "2": "1-Mirror Projection Attack DMG 72.2% ATK+144.5% Elemental Mastery",
+                            "3": "2-Mirror Projection Attack DMG (72.2% ATK+144.5% Elemental Mastery)×2",
+                            "4": "3-Mirror Projection Attack DMG (72.2% ATK+144.5% Elemental Mastery)×3",
+                            "5": "Chisel-Light Mirror Removal Interval 4s",
+                            "6": "CD 18s"
+                        },
+                        "3": {
+                            "0": "Rush Attack DMG 222.6% ATK+178.1% Elemental Mastery",
+                            "1": "Projection Attack Interval 1.6s",
+                            "2": "1-Mirror Projection Attack DMG 77.3% ATK+154.6% Elemental Mastery",
+                            "3": "2-Mirror Projection Attack DMG (77.3% ATK+154.6% Elemental Mastery)×2",
+                            "4": "3-Mirror Projection Attack DMG (77.3% ATK+154.6% Elemental Mastery)×3",
+                            "5": "Chisel-Light Mirror Removal Interval 4s",
+                            "6": "CD 18s"
+                        },
+                        "4": {
+                            "0": "Rush Attack DMG 242% ATK+193.6% Elemental Mastery",
+                            "1": "Projection Attack Interval 1.6s",
+                            "2": "1-Mirror Projection Attack DMG 84% ATK+168% Elemental Mastery",
+                            "3": "2-Mirror Projection Attack DMG (84% ATK+168% Elemental Mastery)×2",
+                            "4": "3-Mirror Projection Attack DMG (84% ATK+168% Elemental Mastery)×3",
+                            "5": "Chisel-Light Mirror Removal Interval 4s",
+                            "6": "CD 18s"
+                        },
+                        "5": {
+                            "0": "Rush Attack DMG 256.5% ATK+205.2% Elemental Mastery",
+                            "1": "Projection Attack Interval 1.6s",
+                            "2": "1-Mirror Projection Attack DMG 89% ATK+178.1% Elemental Mastery",
+                            "3": "2-Mirror Projection Attack DMG (89% ATK+178.1% Elemental Mastery)×2",
+                            "4": "3-Mirror Projection Attack DMG (89% ATK+178.1% Elemental Mastery)×3",
+                            "5": "Chisel-Light Mirror Removal Interval 4s",
+                            "6": "CD 18s"
+                        },
+                        "6": {
+                            "0": "Rush Attack DMG 271% ATK+216.8% Elemental Mastery",
+                            "1": "Projection Attack Interval 1.6s",
+                            "2": "1-Mirror Projection Attack DMG 94.1% ATK+188.2% Elemental Mastery",
+                            "3": "2-Mirror Projection Attack DMG (94.1% ATK+188.2% Elemental Mastery)×2",
+                            "4": "3-Mirror Projection Attack DMG (94.1% ATK+188.2% Elemental Mastery)×3",
+                            "5": "Chisel-Light Mirror Removal Interval 4s",
+                            "6": "CD 18s"
+                        },
+                        "7": {
+                            "0": "Rush Attack DMG 290.4% ATK+232.3% Elemental Mastery",
+                            "1": "Projection Attack Interval 1.6s",
+                            "2": "1-Mirror Projection Attack DMG 100.8% ATK+201.6% Elemental Mastery",
+                            "3": "2-Mirror Projection Attack DMG (100.8% ATK+201.6% Elemental Mastery)×2",
+                            "4": "3-Mirror Projection Attack DMG (100.8% ATK+201.6% Elemental Mastery)×3",
+                            "5": "Chisel-Light Mirror Removal Interval 4s",
+                            "6": "CD 18s"
+                        },
+                        "8": {
+                            "0": "Rush Attack DMG 309.8% ATK+247.8% Elemental Mastery",
+                            "1": "Projection Attack Interval 1.6s",
+                            "2": "1-Mirror Projection Attack DMG 107.5% ATK+215% Elemental Mastery",
+                            "3": "2-Mirror Projection Attack DMG (107.5% ATK+215% Elemental Mastery)×2",
+                            "4": "3-Mirror Projection Attack DMG (107.5% ATK+215% Elemental Mastery)×3",
+                            "5": "Chisel-Light Mirror Removal Interval 4s",
+                            "6": "CD 18s"
+                        },
+                        "9": {
+                            "0": "Rush Attack DMG 329.1% ATK+263.3% Elemental Mastery",
+                            "1": "Projection Attack Interval 1.6s",
+                            "2": "1-Mirror Projection Attack DMG 114.2% ATK+228.5% Elemental Mastery",
+                            "3": "2-Mirror Projection Attack DMG (114.2% ATK+228.5% Elemental Mastery)×2",
+                            "4": "3-Mirror Projection Attack DMG (114.2% ATK+228.5% Elemental Mastery)×3",
+                            "5": "Chisel-Light Mirror Removal Interval 4s",
+                            "6": "CD 18s"
+                        },
+                        "10": {
+                            "0": "Rush Attack DMG 348.5% ATK+278.8% Elemental Mastery",
+                            "1": "Projection Attack Interval 1.6s",
+                            "2": "1-Mirror Projection Attack DMG 121% ATK+241.9% Elemental Mastery",
+                            "3": "2-Mirror Projection Attack DMG (121% ATK+241.9% Elemental Mastery)×2",
+                            "4": "3-Mirror Projection Attack DMG (121% ATK+241.9% Elemental Mastery)×3",
+                            "5": "Chisel-Light Mirror Removal Interval 4s",
+                            "6": "CD 18s"
+                        },
+                        "11": {
+                            "0": "Rush Attack DMG 367.8% ATK+294.3% Elemental Mastery",
+                            "1": "Projection Attack Interval 1.6s",
+                            "2": "1-Mirror Projection Attack DMG 127.7% ATK+255.4% Elemental Mastery",
+                            "3": "2-Mirror Projection Attack DMG (127.7% ATK+255.4% Elemental Mastery)×2",
+                            "4": "3-Mirror Projection Attack DMG (127.7% ATK+255.4% Elemental Mastery)×3",
+                            "5": "Chisel-Light Mirror Removal Interval 4s",
+                            "6": "CD 18s"
+                        },
+                        "12": {
+                            "0": "Rush Attack DMG 387.2% ATK+309.8% Elemental Mastery",
+                            "1": "Projection Attack Interval 1.6s",
+                            "2": "1-Mirror Projection Attack DMG 134.4% ATK+268.8% Elemental Mastery",
+                            "3": "2-Mirror Projection Attack DMG (134.4% ATK+268.8% Elemental Mastery)×2",
+                            "4": "3-Mirror Projection Attack DMG (134.4% ATK+268.8% Elemental Mastery)×3",
+                            "5": "Chisel-Light Mirror Removal Interval 4s",
+                            "6": "CD 18s"
+                        },
+                        "13": {
+                            "0": "Rush Attack DMG 411.4% ATK+329.1% Elemental Mastery",
+                            "1": "Projection Attack Interval 1.6s",
+                            "2": "1-Mirror Projection Attack DMG 142.8% ATK+285.6% Elemental Mastery",
+                            "3": "2-Mirror Projection Attack DMG (142.8% ATK+285.6% Elemental Mastery)×2",
+                            "4": "3-Mirror Projection Attack DMG (142.8% ATK+285.6% Elemental Mastery)×3",
+                            "5": "Chisel-Light Mirror Removal Interval 4s",
+                            "6": "CD 18s"
+                        },
+                        "14": {
+                            "0": "Rush Attack DMG 435.6% ATK+348.5% Elemental Mastery",
+                            "1": "Projection Attack Interval 1.6s",
+                            "2": "1-Mirror Projection Attack DMG 151.2% ATK+302.4% Elemental Mastery",
+                            "3": "2-Mirror Projection Attack DMG (151.2% ATK+302.4% Elemental Mastery)×2",
+                            "4": "3-Mirror Projection Attack DMG (151.2% ATK+302.4% Elemental Mastery)×3",
+                            "5": "Chisel-Light Mirror Removal Interval 4s",
+                            "6": "CD 18s"
+                        },
+                        "15": {
+                            "0": "Rush Attack DMG 459.8% ATK+367.8% Elemental Mastery",
+                            "1": "Projection Attack Interval 1.6s",
+                            "2": "1-Mirror Projection Attack DMG 159.6% ATK+319.2% Elemental Mastery",
+                            "3": "2-Mirror Projection Attack DMG (159.6% ATK+319.2% Elemental Mastery)×2",
+                            "4": "3-Mirror Projection Attack DMG (159.6% ATK+319.2% Elemental Mastery)×3",
+                            "5": "Chisel-Light Mirror Removal Interval 4s",
+                            "6": "CD 18s"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104332",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112065",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113042",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113042",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113042",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104334",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112067",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113042",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Particular Field: Fetters of Phenomena",
+                    "description": "Creates a Particular Binding Field and deals multiple instances of <color=#99FF88FF>AoE Dendro DMG</color>.\\nIf Chisel-Light Mirrors exist when this ability is unleashed, all such Mirrors will be consumed and increase the number of DMG instances dealt.\\n2s after this ability is unleashed, if 0/1/2/3 Mirrors were consumed, Alhaitham will generate 3/2/1/0 new Mirrors in turn.\\n\\n<i>\"If a researcher makes wisdom their goal, then they should be prepared to make an enemy of every word they read. Only then can they avoid bias.\"</i>",
+                    "icon": "Skill_E_Alhatham_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Single-Instance DMG 121.6% ATK+97.3% Elemental Mastery",
+                            "1": "Basic Attack Instances 4",
+                            "2": "1-Mirror Attack Instances 6",
+                            "3": "2-Mirror Attack Instances 8",
+                            "4": "3-Mirror Attack Instances 10",
+                            "5": "CD 18s",
+                            "6": "Energy Cost 70"
+                        },
+                        "2": {
+                            "0": "Single-Instance DMG 130.7% ATK+104.6% Elemental Mastery",
+                            "1": "Basic Attack Instances 4",
+                            "2": "1-Mirror Attack Instances 6",
+                            "3": "2-Mirror Attack Instances 8",
+                            "4": "3-Mirror Attack Instances 10",
+                            "5": "CD 18s",
+                            "6": "Energy Cost 70"
+                        },
+                        "3": {
+                            "0": "Single-Instance DMG 139.8% ATK+111.9% Elemental Mastery",
+                            "1": "Basic Attack Instances 4",
+                            "2": "1-Mirror Attack Instances 6",
+                            "3": "2-Mirror Attack Instances 8",
+                            "4": "3-Mirror Attack Instances 10",
+                            "5": "CD 18s",
+                            "6": "Energy Cost 70"
+                        },
+                        "4": {
+                            "0": "Single-Instance DMG 152% ATK+121.6% Elemental Mastery",
+                            "1": "Basic Attack Instances 4",
+                            "2": "1-Mirror Attack Instances 6",
+                            "3": "2-Mirror Attack Instances 8",
+                            "4": "3-Mirror Attack Instances 10",
+                            "5": "CD 18s",
+                            "6": "Energy Cost 70"
+                        },
+                        "5": {
+                            "0": "Single-Instance DMG 161.1% ATK+128.9% Elemental Mastery",
+                            "1": "Basic Attack Instances 4",
+                            "2": "1-Mirror Attack Instances 6",
+                            "3": "2-Mirror Attack Instances 8",
+                            "4": "3-Mirror Attack Instances 10",
+                            "5": "CD 18s",
+                            "6": "Energy Cost 70"
+                        },
+                        "6": {
+                            "0": "Single-Instance DMG 170.2% ATK+136.2% Elemental Mastery",
+                            "1": "Basic Attack Instances 4",
+                            "2": "1-Mirror Attack Instances 6",
+                            "3": "2-Mirror Attack Instances 8",
+                            "4": "3-Mirror Attack Instances 10",
+                            "5": "CD 18s",
+                            "6": "Energy Cost 70"
+                        },
+                        "7": {
+                            "0": "Single-Instance DMG 182.4% ATK+145.9% Elemental Mastery",
+                            "1": "Basic Attack Instances 4",
+                            "2": "1-Mirror Attack Instances 6",
+                            "3": "2-Mirror Attack Instances 8",
+                            "4": "3-Mirror Attack Instances 10",
+                            "5": "CD 18s",
+                            "6": "Energy Cost 70"
+                        },
+                        "8": {
+                            "0": "Single-Instance DMG 194.6% ATK+155.6% Elemental Mastery",
+                            "1": "Basic Attack Instances 4",
+                            "2": "1-Mirror Attack Instances 6",
+                            "3": "2-Mirror Attack Instances 8",
+                            "4": "3-Mirror Attack Instances 10",
+                            "5": "CD 18s",
+                            "6": "Energy Cost 70"
+                        },
+                        "9": {
+                            "0": "Single-Instance DMG 206.7% ATK+165.4% Elemental Mastery",
+                            "1": "Basic Attack Instances 4",
+                            "2": "1-Mirror Attack Instances 6",
+                            "3": "2-Mirror Attack Instances 8",
+                            "4": "3-Mirror Attack Instances 10",
+                            "5": "CD 18s",
+                            "6": "Energy Cost 70"
+                        },
+                        "10": {
+                            "0": "Single-Instance DMG 218.9% ATK+175.1% Elemental Mastery",
+                            "1": "Basic Attack Instances 4",
+                            "2": "1-Mirror Attack Instances 6",
+                            "3": "2-Mirror Attack Instances 8",
+                            "4": "3-Mirror Attack Instances 10",
+                            "5": "CD 18s",
+                            "6": "Energy Cost 70"
+                        },
+                        "11": {
+                            "0": "Single-Instance DMG 231% ATK+184.8% Elemental Mastery",
+                            "1": "Basic Attack Instances 4",
+                            "2": "1-Mirror Attack Instances 6",
+                            "3": "2-Mirror Attack Instances 8",
+                            "4": "3-Mirror Attack Instances 10",
+                            "5": "CD 18s",
+                            "6": "Energy Cost 70"
+                        },
+                        "12": {
+                            "0": "Single-Instance DMG 243.2% ATK+194.6% Elemental Mastery",
+                            "1": "Basic Attack Instances 4",
+                            "2": "1-Mirror Attack Instances 6",
+                            "3": "2-Mirror Attack Instances 8",
+                            "4": "3-Mirror Attack Instances 10",
+                            "5": "CD 18s",
+                            "6": "Energy Cost 70"
+                        },
+                        "13": {
+                            "0": "Single-Instance DMG 258.4% ATK+206.7% Elemental Mastery",
+                            "1": "Basic Attack Instances 4",
+                            "2": "1-Mirror Attack Instances 6",
+                            "3": "2-Mirror Attack Instances 8",
+                            "4": "3-Mirror Attack Instances 10",
+                            "5": "CD 18s",
+                            "6": "Energy Cost 70"
+                        },
+                        "14": {
+                            "0": "Single-Instance DMG 273.6% ATK+218.9% Elemental Mastery",
+                            "1": "Basic Attack Instances 4",
+                            "2": "1-Mirror Attack Instances 6",
+                            "3": "2-Mirror Attack Instances 8",
+                            "4": "3-Mirror Attack Instances 10",
+                            "5": "CD 18s",
+                            "6": "Energy Cost 70"
+                        },
+                        "15": {
+                            "0": "Single-Instance DMG 288.8% ATK+231% Elemental Mastery",
+                            "1": "Basic Attack Instances 4",
+                            "2": "1-Mirror Attack Instances 6",
+                            "3": "2-Mirror Attack Instances 8",
+                            "4": "3-Mirror Attack Instances 10",
+                            "5": "CD 18s",
+                            "6": "Energy Cost 70"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104332",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112065",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113042",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113042",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113042",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104334",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112067",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113042",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Particular Field: Fetters of Phenomena",
+                    "description": "Creates a Particular Binding Field and deals multiple instances of <color=#99FF88FF>AoE Dendro DMG</color>.\\nIf Chisel-Light Mirrors exist when this ability is unleashed, all such Mirrors will be consumed and increase the number of DMG instances dealt.\\n2s after this ability is unleashed, if 0/1/2/3 Mirrors were consumed, Alhaitham will generate 3/2/1/0 new Mirrors in turn.\\n\\n<i>\"If a researcher makes wisdom their goal, then they should be prepared to make an enemy of every word they read. Only then can they avoid bias.\"</i>",
+                    "icon": "Skill_E_Alhatham_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Single-Instance DMG 121.6% ATK+97.3% Elemental Mastery",
+                            "1": "Basic Attack Instances 4",
+                            "2": "1-Mirror Attack Instances 6",
+                            "3": "2-Mirror Attack Instances 8",
+                            "4": "3-Mirror Attack Instances 10",
+                            "5": "CD 18s",
+                            "6": "Energy Cost 70"
+                        },
+                        "2": {
+                            "0": "Single-Instance DMG 130.7% ATK+104.6% Elemental Mastery",
+                            "1": "Basic Attack Instances 4",
+                            "2": "1-Mirror Attack Instances 6",
+                            "3": "2-Mirror Attack Instances 8",
+                            "4": "3-Mirror Attack Instances 10",
+                            "5": "CD 18s",
+                            "6": "Energy Cost 70"
+                        },
+                        "3": {
+                            "0": "Single-Instance DMG 139.8% ATK+111.9% Elemental Mastery",
+                            "1": "Basic Attack Instances 4",
+                            "2": "1-Mirror Attack Instances 6",
+                            "3": "2-Mirror Attack Instances 8",
+                            "4": "3-Mirror Attack Instances 10",
+                            "5": "CD 18s",
+                            "6": "Energy Cost 70"
+                        },
+                        "4": {
+                            "0": "Single-Instance DMG 152% ATK+121.6% Elemental Mastery",
+                            "1": "Basic Attack Instances 4",
+                            "2": "1-Mirror Attack Instances 6",
+                            "3": "2-Mirror Attack Instances 8",
+                            "4": "3-Mirror Attack Instances 10",
+                            "5": "CD 18s",
+                            "6": "Energy Cost 70"
+                        },
+                        "5": {
+                            "0": "Single-Instance DMG 161.1% ATK+128.9% Elemental Mastery",
+                            "1": "Basic Attack Instances 4",
+                            "2": "1-Mirror Attack Instances 6",
+                            "3": "2-Mirror Attack Instances 8",
+                            "4": "3-Mirror Attack Instances 10",
+                            "5": "CD 18s",
+                            "6": "Energy Cost 70"
+                        },
+                        "6": {
+                            "0": "Single-Instance DMG 170.2% ATK+136.2% Elemental Mastery",
+                            "1": "Basic Attack Instances 4",
+                            "2": "1-Mirror Attack Instances 6",
+                            "3": "2-Mirror Attack Instances 8",
+                            "4": "3-Mirror Attack Instances 10",
+                            "5": "CD 18s",
+                            "6": "Energy Cost 70"
+                        },
+                        "7": {
+                            "0": "Single-Instance DMG 182.4% ATK+145.9% Elemental Mastery",
+                            "1": "Basic Attack Instances 4",
+                            "2": "1-Mirror Attack Instances 6",
+                            "3": "2-Mirror Attack Instances 8",
+                            "4": "3-Mirror Attack Instances 10",
+                            "5": "CD 18s",
+                            "6": "Energy Cost 70"
+                        },
+                        "8": {
+                            "0": "Single-Instance DMG 194.6% ATK+155.6% Elemental Mastery",
+                            "1": "Basic Attack Instances 4",
+                            "2": "1-Mirror Attack Instances 6",
+                            "3": "2-Mirror Attack Instances 8",
+                            "4": "3-Mirror Attack Instances 10",
+                            "5": "CD 18s",
+                            "6": "Energy Cost 70"
+                        },
+                        "9": {
+                            "0": "Single-Instance DMG 206.7% ATK+165.4% Elemental Mastery",
+                            "1": "Basic Attack Instances 4",
+                            "2": "1-Mirror Attack Instances 6",
+                            "3": "2-Mirror Attack Instances 8",
+                            "4": "3-Mirror Attack Instances 10",
+                            "5": "CD 18s",
+                            "6": "Energy Cost 70"
+                        },
+                        "10": {
+                            "0": "Single-Instance DMG 218.9% ATK+175.1% Elemental Mastery",
+                            "1": "Basic Attack Instances 4",
+                            "2": "1-Mirror Attack Instances 6",
+                            "3": "2-Mirror Attack Instances 8",
+                            "4": "3-Mirror Attack Instances 10",
+                            "5": "CD 18s",
+                            "6": "Energy Cost 70"
+                        },
+                        "11": {
+                            "0": "Single-Instance DMG 231% ATK+184.8% Elemental Mastery",
+                            "1": "Basic Attack Instances 4",
+                            "2": "1-Mirror Attack Instances 6",
+                            "3": "2-Mirror Attack Instances 8",
+                            "4": "3-Mirror Attack Instances 10",
+                            "5": "CD 18s",
+                            "6": "Energy Cost 70"
+                        },
+                        "12": {
+                            "0": "Single-Instance DMG 243.2% ATK+194.6% Elemental Mastery",
+                            "1": "Basic Attack Instances 4",
+                            "2": "1-Mirror Attack Instances 6",
+                            "3": "2-Mirror Attack Instances 8",
+                            "4": "3-Mirror Attack Instances 10",
+                            "5": "CD 18s",
+                            "6": "Energy Cost 70"
+                        },
+                        "13": {
+                            "0": "Single-Instance DMG 258.4% ATK+206.7% Elemental Mastery",
+                            "1": "Basic Attack Instances 4",
+                            "2": "1-Mirror Attack Instances 6",
+                            "3": "2-Mirror Attack Instances 8",
+                            "4": "3-Mirror Attack Instances 10",
+                            "5": "CD 18s",
+                            "6": "Energy Cost 70"
+                        },
+                        "14": {
+                            "0": "Single-Instance DMG 273.6% ATK+218.9% Elemental Mastery",
+                            "1": "Basic Attack Instances 4",
+                            "2": "1-Mirror Attack Instances 6",
+                            "3": "2-Mirror Attack Instances 8",
+                            "4": "3-Mirror Attack Instances 10",
+                            "5": "CD 18s",
+                            "6": "Energy Cost 70"
+                        },
+                        "15": {
+                            "0": "Single-Instance DMG 288.8% ATK+231% Elemental Mastery",
+                            "1": "Basic Attack Instances 4",
+                            "2": "1-Mirror Attack Instances 6",
+                            "3": "2-Mirror Attack Instances 8",
+                            "4": "3-Mirror Attack Instances 10",
+                            "5": "CD 18s",
+                            "6": "Energy Cost 70"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104332",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112065",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113042",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113042",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113042",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104334",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112067",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113042",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Four-Causal Correction",
+                    "description": "When Alhaitham's Charged or Plunging Attacks hit opponents, they will generate 1 Chisel-Light Mirror. This effect can be triggered once every 12s.",
+                    "icon": "UI_Talent_S_Alhatham_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Mysteries Laid Bare",
+                    "description": "Each point of Alhaitham's Elemental Mastery will increase the DMG dealt by Projection Attacks and <color=#FFD780FF>Particular Field: Fetters of Phenomena</color> by 0.1%.\\nThe DMG of both aforementioned abilities can be increased by a maximum of 100% this way.",
+                    "icon": "UI_Talent_S_Alhatham_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Law of Reductive Overdetermination",
+                    "description": "When Alhaitham crafts Weapon Ascension Materials, he has a 10% chance to receive double the product.",
+                    "icon": "UI_Talent_S_Alhatham_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Intuition",
+                    "description": "When a Projection Attack hits an opponent, <color=#FFD780FF>Universality: An Elaboration on Form</color>'s CD is decreased by 1.2s. This effect can be triggered once every 1s.",
+                    "icon": "UI_Talent_S_Alhatham_02"
+                },
+                "1": {
+                    "name": "Debate",
+                    "description": "When Alhaitham generates a Chisel-Light Mirror, his Elemental Mastery will be increased by 50 for 8 seconds, max 4 stacks. Each stack's duration is counted independently. This effect can be triggered even when the maximum number of Chisel-Light Mirrors has been reached.",
+                    "icon": "UI_Talent_S_Alhatham_01"
+                },
+                "2": {
+                    "name": "Negation",
+                    "description": "Increases the Level of <color=#FFD780FF>Universality: An Elaboration on Form</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Alhatham_01"
+                },
+                "3": {
+                    "name": "Elucidation",
+                    "description": "When <color=#FFD780FF>Particular Field: Fetters of Phenomena</color> is unleashed, the following effects will become active based on the number of Chisel-Light Mirrors consumed and created this time around:\\n·Each Mirror consumed will increase the Elemental Mastery of all other nearby party members by 30 for 15s.\\n·Each Mirror generated will grant Alhaitham a 10% <color=#99FF88FF>Dendro DMG Bonus</color> for 15s.\\n\\nThe pre-existing duration of the aforementioned effects will be cleared if you use Particular Field: Fetters of Phenomena again while they are in effect.",
+                    "icon": "UI_Talent_S_Alhatham_03"
+                },
+                "4": {
+                    "name": "Sagacity",
+                    "description": "Increases the Level of <color=#FFD780FF>Particular Field: Fetters of Phenomena</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Alhatham_02"
+                },
+                "5": {
+                    "name": "Structuration",
+                    "description": "Alhaitham gains the following effects:\\n· 2 seconds after <color=#FFD780FF>Particular Field: Fetters of Phenomena</color> is unleashed, he will generate 3 Chisel-Light Mirrors regardless of the number of mirrors consumed.\\n· If Alhaitham generates Chisel-Light Mirrors when their numbers have already maxed out, his CRIT Rate and CRIT DMG will increase by 10% and 70% respectively for 6s. If this effect is triggered again during its initial duration, the duration remaining will be increased by 6s.",
+                    "icon": "UI_Talent_S_Alhatham_04"
+                }
+            },
+            "elevation": {
+                "sub": "Dendro DMG Bonus %",
+                "0": {
+                    "stats": {
+                        "HP": 1039,
+                        "ATK": 24,
+                        "DEF": 61,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2695,
+                        "ATK": 63,
+                        "DEF": 158,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101222",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104131",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112065",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 3586,
+                        "ATK": 84,
+                        "DEF": 210,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 5366,
+                        "ATK": 126,
+                        "DEF": 314,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101222",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104132",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112065",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113044",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 5999,
+                        "ATK": 141,
+                        "DEF": 351,
+                        "sub": 7.199999999999999
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 6902,
+                        "ATK": 162,
+                        "DEF": 404,
+                        "sub": 7.199999999999999
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101222",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104132",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112066",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113044",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 7747,
+                        "ATK": 182,
+                        "DEF": 454,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 8567,
+                        "ATK": 201,
+                        "DEF": 502,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101222",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104133",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112066",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113044",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 9200,
+                        "ATK": 216,
+                        "DEF": 539,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 10305,
+                        "ATK": 242,
+                        "DEF": 603,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101222",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104133",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112067",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113044",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 10938,
+                        "ATK": 257,
+                        "DEF": 641,
+                        "sub": 21.6
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 11777,
+                        "ATK": 276,
+                        "DEF": 690,
+                        "sub": 21.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101222",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104134",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112067",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113044",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 12410,
+                        "ATK": 291,
+                        "DEF": 727,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 13348,
+                        "ATK": 313,
+                        "DEF": 782,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {}
+                }
+            }
+        },
+        "ru": {
+            "name": "Alhaitham",
+            "name_ru": "Аль-Хайтам",
+            "id": 10000078,
+            "rarity": 5,
+            "weapon": "Sword",
+            "element": "Dendro",
+            "region": "Sumeru",
+            "more": {
+                "title": "Голос разума",
+                "detail": "Нынешний секретарь Академии Сумеру, наделённый выдающимся умом и способностями. Свободолюбивый человек, которого не найти, если он сам того не пожелает.",
+                "constellation": "Сокол",
+                "group": "Академия Сумеру",
+                "birthday": "11.2",
+                "release": "16.01.2023",
+                "cv": {
+                    "en": "Nazeeh Tarsha",
+                    "chs": "杨超然",
+                    "jp": "梅原裕一郎",
+                    "kr": "Jun Seung-hwa"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Абдуктивная аргументация",
+                    "description": "<color=#FFD780FF>Обычная атака:</color>\\nДо пяти быстрых ударов мечом.\\n\\n<color=#FFD780FF>Заряженная атака:</color>\\nДва быстрых взмаха мечом, на которые тратится определённое количество выносливости.\\n\\n<color=#FFD780FF>Атака в падении:</color>\\nСтремительно падает на землю, атакуя всех врагов на пути. Приземлившись, наносит урон по площади.",
+                    "icon": "Skill_A_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон атаки 1 49.5%",
+                            "1": "Урон атаки 2 50.7%",
+                            "2": "Урон атаки 3 34.2%+34.2%",
+                            "3": "Урон атаки 4 66.8%",
+                            "4": "Урон атаки 5 83.9%",
+                            "5": "Урон заряженной атаки 55.3%+55.3%",
+                            "6": "Потребление выносливости 20 ед.",
+                            "7": "Урон в падении 63.9%",
+                            "8": "Урон низкого/высокого удара 127.8%/159.7%"
+                        },
+                        "2": {
+                            "0": "Урон атаки 1 53.6%",
+                            "1": "Урон атаки 2 54.9%",
+                            "2": "Урон атаки 3 37%+37%",
+                            "3": "Урон атаки 4 72.2%",
+                            "4": "Урон атаки 5 90.7%",
+                            "5": "Урон заряженной атаки 59.8%+59.8%",
+                            "6": "Потребление выносливости 20 ед.",
+                            "7": "Урон в падении 69.1%",
+                            "8": "Урон низкого/высокого удара 138.2%/172.7%"
+                        },
+                        "3": {
+                            "0": "Урон атаки 1 57.6%",
+                            "1": "Урон атаки 2 59%",
+                            "2": "Урон атаки 3 39.7%+39.7%",
+                            "3": "Урон атаки 4 77.6%",
+                            "4": "Урон атаки 5 97.5%",
+                            "5": "Урон заряженной атаки 64.2%+64.2%",
+                            "6": "Потребление выносливости 20 ед.",
+                            "7": "Урон в падении 74.3%",
+                            "8": "Урон низкого/высокого удара 148.6%/185.7%"
+                        },
+                        "4": {
+                            "0": "Урон атаки 1 63.3%",
+                            "1": "Урон атаки 2 64.9%",
+                            "2": "Урон атаки 3 43.7%+43.7%",
+                            "3": "Урон атаки 4 85.4%",
+                            "4": "Урон атаки 5 107.3%",
+                            "5": "Урон заряженной атаки 70.7%+70.7%",
+                            "6": "Потребление выносливости 20 ед.",
+                            "7": "Урон в падении 81.8%",
+                            "8": "Урон низкого/высокого удара 163.5%/204.2%"
+                        },
+                        "5": {
+                            "0": "Урон атаки 1 67.4%",
+                            "1": "Урон атаки 2 69%",
+                            "2": "Урон атаки 3 46.5%+46.5%",
+                            "3": "Урон атаки 4 90.8%",
+                            "4": "Урон атаки 5 114.1%",
+                            "5": "Урон заряженной атаки 75.2%+75.2%",
+                            "6": "Потребление выносливости 20 ед.",
+                            "7": "Урон в падении 87%",
+                            "8": "Урон низкого/высокого удара 173.9%/217.2%"
+                        },
+                        "6": {
+                            "0": "Урон атаки 1 72%",
+                            "1": "Урон атаки 2 73.8%",
+                            "2": "Урон атаки 3 49.7%+49.7%",
+                            "3": "Урон атаки 4 97%",
+                            "4": "Урон атаки 5 121.9%",
+                            "5": "Урон заряженной атаки 80.3%+80.3%",
+                            "6": "Потребление выносливости 20 ед.",
+                            "7": "Урон в падении 92.9%",
+                            "8": "Урон низкого/высокого удара 185.8%/232.1%"
+                        },
+                        "7": {
+                            "0": "Урон атаки 1 78.3%",
+                            "1": "Урон атаки 2 80.3%",
+                            "2": "Урон атаки 3 54%+54%",
+                            "3": "Урон атаки 4 105.6%",
+                            "4": "Урон атаки 5 132.6%",
+                            "5": "Урон заряженной атаки 87.4%+87.4%",
+                            "6": "Потребление выносливости 20 ед.",
+                            "7": "Урон в падении 101.1%",
+                            "8": "Урон низкого/высокого удара 202.2%/252.5%"
+                        },
+                        "8": {
+                            "0": "Урон атаки 1 84.7%",
+                            "1": "Урон атаки 2 86.7%",
+                            "2": "Урон атаки 3 58.4%+58.4%",
+                            "3": "Урон атаки 4 114.1%",
+                            "4": "Урон атаки 5 143.3%",
+                            "5": "Урон заряженной атаки 94.4%+94.4%",
+                            "6": "Потребление выносливости 20 ед.",
+                            "7": "Урон в падении 109.3%",
+                            "8": "Урон низкого/высокого удара 218.5%/272.9%"
+                        },
+                        "9": {
+                            "0": "Урон атаки 1 91%",
+                            "1": "Урон атаки 2 93.2%",
+                            "2": "Урон атаки 3 62.8%+62.8%",
+                            "3": "Урон атаки 4 122.7%",
+                            "4": "Урон атаки 5 154.1%",
+                            "5": "Урон заряженной атаки 101.5%+101.5%",
+                            "6": "Потребление выносливости 20 ед.",
+                            "7": "Урон в падении 117.5%",
+                            "8": "Урон низкого/высокого удара 234.9%/293.4%"
+                        },
+                        "10": {
+                            "0": "Урон атаки 1 97.9%",
+                            "1": "Урон атаки 2 100.3%",
+                            "2": "Урон атаки 3 67.6%+67.6%",
+                            "3": "Урон атаки 4 132%",
+                            "4": "Урон атаки 5 165.8%",
+                            "5": "Урон заряженной атаки 109.2%+109.2%",
+                            "6": "Потребление выносливости 20 ед.",
+                            "7": "Урон в падении 126.4%",
+                            "8": "Урон низкого/высокого удара 252.7%/315.6%"
+                        },
+                        "11": {
+                            "0": "Урон атаки 1 104.8%",
+                            "1": "Урон атаки 2 107.4%",
+                            "2": "Урон атаки 3 72.3%+72.3%",
+                            "3": "Урон атаки 4 141.3%",
+                            "4": "Урон атаки 5 177.5%",
+                            "5": "Урон заряженной атаки 116.9%+116.9%",
+                            "6": "Потребление выносливости 20 ед.",
+                            "7": "Урон в падении 135.3%",
+                            "8": "Урон низкого/высокого удара 270.5%/337.9%"
+                        },
+                        "12": {
+                            "0": "Урон атаки 1 111.7%",
+                            "1": "Урон атаки 2 114.5%",
+                            "2": "Урон атаки 3 77.1%+77.1%",
+                            "3": "Урон атаки 4 150.6%",
+                            "4": "Урон атаки 5 189.2%",
+                            "5": "Урон заряженной атаки 124.6%+124.6%",
+                            "6": "Потребление выносливости 20 ед.",
+                            "7": "Урон в падении 144.2%",
+                            "8": "Урон низкого/высокого удара 288.4%/360.2%"
+                        },
+                        "13": {
+                            "0": "Урон атаки 1 118.6%",
+                            "1": "Урон атаки 2 121.6%",
+                            "2": "Урон атаки 3 81.9%+81.9%",
+                            "3": "Урон атаки 4 159.9%",
+                            "4": "Урон атаки 5 200.9%",
+                            "5": "Урон заряженной атаки 132.4%+132.4%",
+                            "6": "Потребление выносливости 20 ед.",
+                            "7": "Урон в падении 153.1%",
+                            "8": "Урон низкого/высокого удара 306.2%/382.5%"
+                        },
+                        "14": {
+                            "0": "Урон атаки 1 125.5%",
+                            "1": "Урон атаки 2 128.6%",
+                            "2": "Урон атаки 3 86.6%+86.6%",
+                            "3": "Урон атаки 4 169.2%",
+                            "4": "Урон атаки 5 212.6%",
+                            "5": "Урон заряженной атаки 140.1%+140.1%",
+                            "6": "Потребление выносливости 20 ед.",
+                            "7": "Урон в падении 162.1%",
+                            "8": "Урон низкого/высокого удара 324.1%/404.8%"
+                        },
+                        "15": {
+                            "0": "Урон атаки 1 132.5%",
+                            "1": "Урон атаки 2 135.7%",
+                            "2": "Урон атаки 3 91.4%+91.4%",
+                            "3": "Урон атаки 4 178.6%",
+                            "4": "Урон атаки 5 224.3%",
+                            "5": "Урон заряженной атаки 147.8%+147.8%",
+                            "6": "Потребление выносливости 20 ед.",
+                            "7": "Урон в падении 171%",
+                            "8": "Урон низкого/высокого удара 341.9%/427%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104332",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112065",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113042",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113042",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113042",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104334",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112067",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113042",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Универсалия: Совершенствование формы",
+                    "description": "Совершает рывок, по окончании которого наносит противникам поблизости <color=#99FF88FF>Дендро урон</color> и создаёт Зеркало света.\\nПри долгом нажатии способ активации навыка меняется.\\n\\n<color=#FFD780FF>Долгое нажатие</color>\\nПереходит в режим прицеливания, в котором можно выбрать направление рывка аль-Хайтама.\\n\\n<color=#FFD780FF>Зеркало света</color>\\nПри активации навыка аль-Хайтам создаёт 1 Зеркало света. Если в данный момент Зеркал света нет, он создаст 1 дополнительное Зеркало света. Зеркала света обладают следующими свойствами:\\n· Когда существуют Зеркала света, обычные атаки, заряженные атаки и атаки в падении аль-Хайтама конвертируются в <color=#99FF88FF>Дендро урон</color>, который не может быть отменён другими инфузиями.\\n· Если такие атаки попадают по противнику, то Зеркала света выполняют Проекционный удар, наносящий <color=#99FF88FF>Дендро урон по площади</color>, размер которого зависит от количества существующих Зеркал света.\\n· Одновременно может существовать до 3 Зеркал света.\\n· Со временем Зеркала света по очереди исчезают. Все зеркала исчезнут, если аль-Хайтам покинет поле боя.\\n\\n<i>«Истина по своей природе существует среди неопределённости, и даже величайшие умы не застрахованы от ошибок».</i>",
+                    "icon": "Skill_S_Alhatham_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон рывка 193.6% силы атаки + 154.9% мастерства стихий",
+                            "1": "Интервал Проекционного удара 1.6 сек.",
+                            "2": "Урон Проекционного удара 1 Зеркала 67.2% силы атаки + 134.4% мастерства стихий",
+                            "3": "Урон Проекционного удара 2 Зеркал (67.2% силы атаки + 134.4% мастерства стихий) ×2",
+                            "4": "Урон Проекционного удара 3 Зеркал (67.2% силы атаки + 134.4% мастерства стихий) ×3",
+                            "5": "Интервал исчезновения Зеркал света 4 сек.",
+                            "6": "Время отката 18 сек."
+                        },
+                        "2": {
+                            "0": "Урон рывка 208.1% силы атаки + 166.5% мастерства стихий",
+                            "1": "Интервал Проекционного удара 1.6 сек.",
+                            "2": "Урон Проекционного удара 1 Зеркала 72.2% силы атаки + 144.5% мастерства стихий",
+                            "3": "Урон Проекционного удара 2 Зеркал (72.2% силы атаки + 144.5% мастерства стихий) ×2",
+                            "4": "Урон Проекционного удара 3 Зеркал (72.2% силы атаки + 144.5% мастерства стихий) ×3",
+                            "5": "Интервал исчезновения Зеркал света 4 сек.",
+                            "6": "Время отката 18 сек."
+                        },
+                        "3": {
+                            "0": "Урон рывка 222.6% силы атаки + 178.1% мастерства стихий",
+                            "1": "Интервал Проекционного удара 1.6 сек.",
+                            "2": "Урон Проекционного удара 1 Зеркала 77.3% силы атаки + 154.6% мастерства стихий",
+                            "3": "Урон Проекционного удара 2 Зеркал (77.3% силы атаки + 154.6% мастерства стихий) ×2",
+                            "4": "Урон Проекционного удара 3 Зеркал (77.3% силы атаки + 154.6% мастерства стихий) ×3",
+                            "5": "Интервал исчезновения Зеркал света 4 сек.",
+                            "6": "Время отката 18 сек."
+                        },
+                        "4": {
+                            "0": "Урон рывка 242% силы атаки + 193.6% мастерства стихий",
+                            "1": "Интервал Проекционного удара 1.6 сек.",
+                            "2": "Урон Проекционного удара 1 Зеркала 84% силы атаки + 168% мастерства стихий",
+                            "3": "Урон Проекционного удара 2 Зеркал (84% силы атаки + 168% мастерства стихий) ×2",
+                            "4": "Урон Проекционного удара 3 Зеркал (84% силы атаки + 168% мастерства стихий) ×3",
+                            "5": "Интервал исчезновения Зеркал света 4 сек.",
+                            "6": "Время отката 18 сек."
+                        },
+                        "5": {
+                            "0": "Урон рывка 256.5% силы атаки + 205.2% мастерства стихий",
+                            "1": "Интервал Проекционного удара 1.6 сек.",
+                            "2": "Урон Проекционного удара 1 Зеркала 89% силы атаки + 178.1% мастерства стихий",
+                            "3": "Урон Проекционного удара 2 Зеркал (89% силы атаки + 178.1% мастерства стихий) ×2",
+                            "4": "Урон Проекционного удара 3 Зеркал (89% силы атаки + 178.1% мастерства стихий) ×3",
+                            "5": "Интервал исчезновения Зеркал света 4 сек.",
+                            "6": "Время отката 18 сек."
+                        },
+                        "6": {
+                            "0": "Урон рывка 271% силы атаки + 216.8% мастерства стихий",
+                            "1": "Интервал Проекционного удара 1.6 сек.",
+                            "2": "Урон Проекционного удара 1 Зеркала 94.1% силы атаки + 188.2% мастерства стихий",
+                            "3": "Урон Проекционного удара 2 Зеркал (94.1% силы атаки + 188.2% мастерства стихий) ×2",
+                            "4": "Урон Проекционного удара 3 Зеркал (94.1% силы атаки + 188.2% мастерства стихий) ×3",
+                            "5": "Интервал исчезновения Зеркал света 4 сек.",
+                            "6": "Время отката 18 сек."
+                        },
+                        "7": {
+                            "0": "Урон рывка 290.4% силы атаки + 232.3% мастерства стихий",
+                            "1": "Интервал Проекционного удара 1.6 сек.",
+                            "2": "Урон Проекционного удара 1 Зеркала 100.8% силы атаки + 201.6% мастерства стихий",
+                            "3": "Урон Проекционного удара 2 Зеркал (100.8% силы атаки + 201.6% мастерства стихий) ×2",
+                            "4": "Урон Проекционного удара 3 Зеркал (100.8% силы атаки + 201.6% мастерства стихий) ×3",
+                            "5": "Интервал исчезновения Зеркал света 4 сек.",
+                            "6": "Время отката 18 сек."
+                        },
+                        "8": {
+                            "0": "Урон рывка 309.8% силы атаки + 247.8% мастерства стихий",
+                            "1": "Интервал Проекционного удара 1.6 сек.",
+                            "2": "Урон Проекционного удара 1 Зеркала 107.5% силы атаки + 215% мастерства стихий",
+                            "3": "Урон Проекционного удара 2 Зеркал (107.5% силы атаки + 215% мастерства стихий) ×2",
+                            "4": "Урон Проекционного удара 3 Зеркал (107.5% силы атаки + 215% мастерства стихий) ×3",
+                            "5": "Интервал исчезновения Зеркал света 4 сек.",
+                            "6": "Время отката 18 сек."
+                        },
+                        "9": {
+                            "0": "Урон рывка 329.1% силы атаки + 263.3% мастерства стихий",
+                            "1": "Интервал Проекционного удара 1.6 сек.",
+                            "2": "Урон Проекционного удара 1 Зеркала 114.2% силы атаки + 228.5% мастерства стихий",
+                            "3": "Урон Проекционного удара 2 Зеркал (114.2% силы атаки + 228.5% мастерства стихий) ×2",
+                            "4": "Урон Проекционного удара 3 Зеркал (114.2% силы атаки + 228.5% мастерства стихий) ×3",
+                            "5": "Интервал исчезновения Зеркал света 4 сек.",
+                            "6": "Время отката 18 сек."
+                        },
+                        "10": {
+                            "0": "Урон рывка 348.5% силы атаки + 278.8% мастерства стихий",
+                            "1": "Интервал Проекционного удара 1.6 сек.",
+                            "2": "Урон Проекционного удара 1 Зеркала 121% силы атаки + 241.9% мастерства стихий",
+                            "3": "Урон Проекционного удара 2 Зеркал (121% силы атаки + 241.9% мастерства стихий) ×2",
+                            "4": "Урон Проекционного удара 3 Зеркал (121% силы атаки + 241.9% мастерства стихий) ×3",
+                            "5": "Интервал исчезновения Зеркал света 4 сек.",
+                            "6": "Время отката 18 сек."
+                        },
+                        "11": {
+                            "0": "Урон рывка 367.8% силы атаки + 294.3% мастерства стихий",
+                            "1": "Интервал Проекционного удара 1.6 сек.",
+                            "2": "Урон Проекционного удара 1 Зеркала 127.7% силы атаки + 255.4% мастерства стихий",
+                            "3": "Урон Проекционного удара 2 Зеркал (127.7% силы атаки + 255.4% мастерства стихий) ×2",
+                            "4": "Урон Проекционного удара 3 Зеркал (127.7% силы атаки + 255.4% мастерства стихий) ×3",
+                            "5": "Интервал исчезновения Зеркал света 4 сек.",
+                            "6": "Время отката 18 сек."
+                        },
+                        "12": {
+                            "0": "Урон рывка 387.2% силы атаки + 309.8% мастерства стихий",
+                            "1": "Интервал Проекционного удара 1.6 сек.",
+                            "2": "Урон Проекционного удара 1 Зеркала 134.4% силы атаки + 268.8% мастерства стихий",
+                            "3": "Урон Проекционного удара 2 Зеркал (134.4% силы атаки + 268.8% мастерства стихий) ×2",
+                            "4": "Урон Проекционного удара 3 Зеркал (134.4% силы атаки + 268.8% мастерства стихий) ×3",
+                            "5": "Интервал исчезновения Зеркал света 4 сек.",
+                            "6": "Время отката 18 сек."
+                        },
+                        "13": {
+                            "0": "Урон рывка 411.4% силы атаки + 329.1% мастерства стихий",
+                            "1": "Интервал Проекционного удара 1.6 сек.",
+                            "2": "Урон Проекционного удара 1 Зеркала 142.8% силы атаки + 285.6% мастерства стихий",
+                            "3": "Урон Проекционного удара 2 Зеркал (142.8% силы атаки + 285.6% мастерства стихий) ×2",
+                            "4": "Урон Проекционного удара 3 Зеркал (142.8% силы атаки + 285.6% мастерства стихий) ×3",
+                            "5": "Интервал исчезновения Зеркал света 4 сек.",
+                            "6": "Время отката 18 сек."
+                        },
+                        "14": {
+                            "0": "Урон рывка 435.6% силы атаки + 348.5% мастерства стихий",
+                            "1": "Интервал Проекционного удара 1.6 сек.",
+                            "2": "Урон Проекционного удара 1 Зеркала 151.2% силы атаки + 302.4% мастерства стихий",
+                            "3": "Урон Проекционного удара 2 Зеркал (151.2% силы атаки + 302.4% мастерства стихий) ×2",
+                            "4": "Урон Проекционного удара 3 Зеркал (151.2% силы атаки + 302.4% мастерства стихий) ×3",
+                            "5": "Интервал исчезновения Зеркал света 4 сек.",
+                            "6": "Время отката 18 сек."
+                        },
+                        "15": {
+                            "0": "Урон рывка 459.8% силы атаки + 367.8% мастерства стихий",
+                            "1": "Интервал Проекционного удара 1.6 сек.",
+                            "2": "Урон Проекционного удара 1 Зеркала 159.6% силы атаки + 319.2% мастерства стихий",
+                            "3": "Урон Проекционного удара 2 Зеркал (159.6% силы атаки + 319.2% мастерства стихий) ×2",
+                            "4": "Урон Проекционного удара 3 Зеркал (159.6% силы атаки + 319.2% мастерства стихий) ×3",
+                            "5": "Интервал исчезновения Зеркал света 4 сек.",
+                            "6": "Время отката 18 сек."
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104332",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112065",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113042",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113042",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113042",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104334",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112067",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113042",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Особое поле: Взаимосвязь феноменов",
+                    "description": "Создаёт Особое связующее поле и наносит многократный <color=#99FF88FF>Дендро урон по площади</color>.\\nЕсли во время активации навыка существуют Зеркала света, все зеркала израсходуются, увеличивая количество раз нанесения урона.\\nЧерез 2 сек. после активации этого навыка, если израсходованных зеркал 0/1/2/3, создаётся 3/2/1/0 новых Зеркал света соответственно.\\n\\n<i>«Учёный, который стремится к мудрости, должен быть готов видеть в каждом прочтённом слове врага. Только так можно избавиться от предрассудков».</i>",
+                    "icon": "Skill_E_Alhatham_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Однократный урон 121.6% силы атаки + 97.3% мастерства стихий",
+                            "1": "Базовое количество атак 4",
+                            "2": "Количество атак 1 Зеркала света 6",
+                            "3": "Количество атак 2 Зеркал света 8",
+                            "4": "Количество атак 3 Зеркал света 10",
+                            "5": "Время отката 18 сек.",
+                            "6": "Потребление энергии 70"
+                        },
+                        "2": {
+                            "0": "Однократный урон 130.7% силы атаки + 104.6% мастерства стихий",
+                            "1": "Базовое количество атак 4",
+                            "2": "Количество атак 1 Зеркала света 6",
+                            "3": "Количество атак 2 Зеркал света 8",
+                            "4": "Количество атак 3 Зеркал света 10",
+                            "5": "Время отката 18 сек.",
+                            "6": "Потребление энергии 70"
+                        },
+                        "3": {
+                            "0": "Однократный урон 139.8% силы атаки + 111.9% мастерства стихий",
+                            "1": "Базовое количество атак 4",
+                            "2": "Количество атак 1 Зеркала света 6",
+                            "3": "Количество атак 2 Зеркал света 8",
+                            "4": "Количество атак 3 Зеркал света 10",
+                            "5": "Время отката 18 сек.",
+                            "6": "Потребление энергии 70"
+                        },
+                        "4": {
+                            "0": "Однократный урон 152% силы атаки + 121.6% мастерства стихий",
+                            "1": "Базовое количество атак 4",
+                            "2": "Количество атак 1 Зеркала света 6",
+                            "3": "Количество атак 2 Зеркал света 8",
+                            "4": "Количество атак 3 Зеркал света 10",
+                            "5": "Время отката 18 сек.",
+                            "6": "Потребление энергии 70"
+                        },
+                        "5": {
+                            "0": "Однократный урон 161.1% силы атаки + 128.9% мастерства стихий",
+                            "1": "Базовое количество атак 4",
+                            "2": "Количество атак 1 Зеркала света 6",
+                            "3": "Количество атак 2 Зеркал света 8",
+                            "4": "Количество атак 3 Зеркал света 10",
+                            "5": "Время отката 18 сек.",
+                            "6": "Потребление энергии 70"
+                        },
+                        "6": {
+                            "0": "Однократный урон 170.2% силы атаки + 136.2% мастерства стихий",
+                            "1": "Базовое количество атак 4",
+                            "2": "Количество атак 1 Зеркала света 6",
+                            "3": "Количество атак 2 Зеркал света 8",
+                            "4": "Количество атак 3 Зеркал света 10",
+                            "5": "Время отката 18 сек.",
+                            "6": "Потребление энергии 70"
+                        },
+                        "7": {
+                            "0": "Однократный урон 182.4% силы атаки + 145.9% мастерства стихий",
+                            "1": "Базовое количество атак 4",
+                            "2": "Количество атак 1 Зеркала света 6",
+                            "3": "Количество атак 2 Зеркал света 8",
+                            "4": "Количество атак 3 Зеркал света 10",
+                            "5": "Время отката 18 сек.",
+                            "6": "Потребление энергии 70"
+                        },
+                        "8": {
+                            "0": "Однократный урон 194.6% силы атаки + 155.6% мастерства стихий",
+                            "1": "Базовое количество атак 4",
+                            "2": "Количество атак 1 Зеркала света 6",
+                            "3": "Количество атак 2 Зеркал света 8",
+                            "4": "Количество атак 3 Зеркал света 10",
+                            "5": "Время отката 18 сек.",
+                            "6": "Потребление энергии 70"
+                        },
+                        "9": {
+                            "0": "Однократный урон 206.7% силы атаки + 165.4% мастерства стихий",
+                            "1": "Базовое количество атак 4",
+                            "2": "Количество атак 1 Зеркала света 6",
+                            "3": "Количество атак 2 Зеркал света 8",
+                            "4": "Количество атак 3 Зеркал света 10",
+                            "5": "Время отката 18 сек.",
+                            "6": "Потребление энергии 70"
+                        },
+                        "10": {
+                            "0": "Однократный урон 218.9% силы атаки + 175.1% мастерства стихий",
+                            "1": "Базовое количество атак 4",
+                            "2": "Количество атак 1 Зеркала света 6",
+                            "3": "Количество атак 2 Зеркал света 8",
+                            "4": "Количество атак 3 Зеркал света 10",
+                            "5": "Время отката 18 сек.",
+                            "6": "Потребление энергии 70"
+                        },
+                        "11": {
+                            "0": "Однократный урон 231% силы атаки + 184.8% мастерства стихий",
+                            "1": "Базовое количество атак 4",
+                            "2": "Количество атак 1 Зеркала света 6",
+                            "3": "Количество атак 2 Зеркал света 8",
+                            "4": "Количество атак 3 Зеркал света 10",
+                            "5": "Время отката 18 сек.",
+                            "6": "Потребление энергии 70"
+                        },
+                        "12": {
+                            "0": "Однократный урон 243.2% силы атаки + 194.6% мастерства стихий",
+                            "1": "Базовое количество атак 4",
+                            "2": "Количество атак 1 Зеркала света 6",
+                            "3": "Количество атак 2 Зеркал света 8",
+                            "4": "Количество атак 3 Зеркал света 10",
+                            "5": "Время отката 18 сек.",
+                            "6": "Потребление энергии 70"
+                        },
+                        "13": {
+                            "0": "Однократный урон 258.4% силы атаки + 206.7% мастерства стихий",
+                            "1": "Базовое количество атак 4",
+                            "2": "Количество атак 1 Зеркала света 6",
+                            "3": "Количество атак 2 Зеркал света 8",
+                            "4": "Количество атак 3 Зеркал света 10",
+                            "5": "Время отката 18 сек.",
+                            "6": "Потребление энергии 70"
+                        },
+                        "14": {
+                            "0": "Однократный урон 273.6% силы атаки + 218.9% мастерства стихий",
+                            "1": "Базовое количество атак 4",
+                            "2": "Количество атак 1 Зеркала света 6",
+                            "3": "Количество атак 2 Зеркал света 8",
+                            "4": "Количество атак 3 Зеркал света 10",
+                            "5": "Время отката 18 сек.",
+                            "6": "Потребление энергии 70"
+                        },
+                        "15": {
+                            "0": "Однократный урон 288.8% силы атаки + 231% мастерства стихий",
+                            "1": "Базовое количество атак 4",
+                            "2": "Количество атак 1 Зеркала света 6",
+                            "3": "Количество атак 2 Зеркал света 8",
+                            "4": "Количество атак 3 Зеркал света 10",
+                            "5": "Время отката 18 сек.",
+                            "6": "Потребление энергии 70"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104332",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112065",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113042",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113042",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113042",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104334",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112067",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113042",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Особое поле: Взаимосвязь феноменов",
+                    "description": "Создаёт Особое связующее поле и наносит многократный <color=#99FF88FF>Дендро урон по площади</color>.\\nЕсли во время активации навыка существуют Зеркала света, все зеркала израсходуются, увеличивая количество раз нанесения урона.\\nЧерез 2 сек. после активации этого навыка, если израсходованных зеркал 0/1/2/3, создаётся 3/2/1/0 новых Зеркал света соответственно.\\n\\n<i>«Учёный, который стремится к мудрости, должен быть готов видеть в каждом прочтённом слове врага. Только так можно избавиться от предрассудков».</i>",
+                    "icon": "Skill_E_Alhatham_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Однократный урон 121.6% силы атаки + 97.3% мастерства стихий",
+                            "1": "Базовое количество атак 4",
+                            "2": "Количество атак 1 Зеркала света 6",
+                            "3": "Количество атак 2 Зеркал света 8",
+                            "4": "Количество атак 3 Зеркал света 10",
+                            "5": "Время отката 18 сек.",
+                            "6": "Потребление энергии 70"
+                        },
+                        "2": {
+                            "0": "Однократный урон 130.7% силы атаки + 104.6% мастерства стихий",
+                            "1": "Базовое количество атак 4",
+                            "2": "Количество атак 1 Зеркала света 6",
+                            "3": "Количество атак 2 Зеркал света 8",
+                            "4": "Количество атак 3 Зеркал света 10",
+                            "5": "Время отката 18 сек.",
+                            "6": "Потребление энергии 70"
+                        },
+                        "3": {
+                            "0": "Однократный урон 139.8% силы атаки + 111.9% мастерства стихий",
+                            "1": "Базовое количество атак 4",
+                            "2": "Количество атак 1 Зеркала света 6",
+                            "3": "Количество атак 2 Зеркал света 8",
+                            "4": "Количество атак 3 Зеркал света 10",
+                            "5": "Время отката 18 сек.",
+                            "6": "Потребление энергии 70"
+                        },
+                        "4": {
+                            "0": "Однократный урон 152% силы атаки + 121.6% мастерства стихий",
+                            "1": "Базовое количество атак 4",
+                            "2": "Количество атак 1 Зеркала света 6",
+                            "3": "Количество атак 2 Зеркал света 8",
+                            "4": "Количество атак 3 Зеркал света 10",
+                            "5": "Время отката 18 сек.",
+                            "6": "Потребление энергии 70"
+                        },
+                        "5": {
+                            "0": "Однократный урон 161.1% силы атаки + 128.9% мастерства стихий",
+                            "1": "Базовое количество атак 4",
+                            "2": "Количество атак 1 Зеркала света 6",
+                            "3": "Количество атак 2 Зеркал света 8",
+                            "4": "Количество атак 3 Зеркал света 10",
+                            "5": "Время отката 18 сек.",
+                            "6": "Потребление энергии 70"
+                        },
+                        "6": {
+                            "0": "Однократный урон 170.2% силы атаки + 136.2% мастерства стихий",
+                            "1": "Базовое количество атак 4",
+                            "2": "Количество атак 1 Зеркала света 6",
+                            "3": "Количество атак 2 Зеркал света 8",
+                            "4": "Количество атак 3 Зеркал света 10",
+                            "5": "Время отката 18 сек.",
+                            "6": "Потребление энергии 70"
+                        },
+                        "7": {
+                            "0": "Однократный урон 182.4% силы атаки + 145.9% мастерства стихий",
+                            "1": "Базовое количество атак 4",
+                            "2": "Количество атак 1 Зеркала света 6",
+                            "3": "Количество атак 2 Зеркал света 8",
+                            "4": "Количество атак 3 Зеркал света 10",
+                            "5": "Время отката 18 сек.",
+                            "6": "Потребление энергии 70"
+                        },
+                        "8": {
+                            "0": "Однократный урон 194.6% силы атаки + 155.6% мастерства стихий",
+                            "1": "Базовое количество атак 4",
+                            "2": "Количество атак 1 Зеркала света 6",
+                            "3": "Количество атак 2 Зеркал света 8",
+                            "4": "Количество атак 3 Зеркал света 10",
+                            "5": "Время отката 18 сек.",
+                            "6": "Потребление энергии 70"
+                        },
+                        "9": {
+                            "0": "Однократный урон 206.7% силы атаки + 165.4% мастерства стихий",
+                            "1": "Базовое количество атак 4",
+                            "2": "Количество атак 1 Зеркала света 6",
+                            "3": "Количество атак 2 Зеркал света 8",
+                            "4": "Количество атак 3 Зеркал света 10",
+                            "5": "Время отката 18 сек.",
+                            "6": "Потребление энергии 70"
+                        },
+                        "10": {
+                            "0": "Однократный урон 218.9% силы атаки + 175.1% мастерства стихий",
+                            "1": "Базовое количество атак 4",
+                            "2": "Количество атак 1 Зеркала света 6",
+                            "3": "Количество атак 2 Зеркал света 8",
+                            "4": "Количество атак 3 Зеркал света 10",
+                            "5": "Время отката 18 сек.",
+                            "6": "Потребление энергии 70"
+                        },
+                        "11": {
+                            "0": "Однократный урон 231% силы атаки + 184.8% мастерства стихий",
+                            "1": "Базовое количество атак 4",
+                            "2": "Количество атак 1 Зеркала света 6",
+                            "3": "Количество атак 2 Зеркал света 8",
+                            "4": "Количество атак 3 Зеркал света 10",
+                            "5": "Время отката 18 сек.",
+                            "6": "Потребление энергии 70"
+                        },
+                        "12": {
+                            "0": "Однократный урон 243.2% силы атаки + 194.6% мастерства стихий",
+                            "1": "Базовое количество атак 4",
+                            "2": "Количество атак 1 Зеркала света 6",
+                            "3": "Количество атак 2 Зеркал света 8",
+                            "4": "Количество атак 3 Зеркал света 10",
+                            "5": "Время отката 18 сек.",
+                            "6": "Потребление энергии 70"
+                        },
+                        "13": {
+                            "0": "Однократный урон 258.4% силы атаки + 206.7% мастерства стихий",
+                            "1": "Базовое количество атак 4",
+                            "2": "Количество атак 1 Зеркала света 6",
+                            "3": "Количество атак 2 Зеркал света 8",
+                            "4": "Количество атак 3 Зеркал света 10",
+                            "5": "Время отката 18 сек.",
+                            "6": "Потребление энергии 70"
+                        },
+                        "14": {
+                            "0": "Однократный урон 273.6% силы атаки + 218.9% мастерства стихий",
+                            "1": "Базовое количество атак 4",
+                            "2": "Количество атак 1 Зеркала света 6",
+                            "3": "Количество атак 2 Зеркал света 8",
+                            "4": "Количество атак 3 Зеркал света 10",
+                            "5": "Время отката 18 сек.",
+                            "6": "Потребление энергии 70"
+                        },
+                        "15": {
+                            "0": "Однократный урон 288.8% силы атаки + 231% мастерства стихий",
+                            "1": "Базовое количество атак 4",
+                            "2": "Количество атак 1 Зеркала света 6",
+                            "3": "Количество атак 2 Зеркал света 8",
+                            "4": "Количество атак 3 Зеркал света 10",
+                            "5": "Время отката 18 сек.",
+                            "6": "Потребление энергии 70"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104332",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112065",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104333",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112066",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113042",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113042",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104334",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112067",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113042",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104334",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112067",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113042",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Коррекция по четырём причинам",
+                    "description": "Заряженные атаки или атаки в падении аль-Хайтама при попадании создают 1 Зеркало света. Этот эффект может возникнуть один раз в 12 сек.",
+                    "icon": "UI_Talent_S_Alhatham_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Раскрытие тайн",
+                    "description": "Каждая единица мастерства стихий аль-Хайтама увеличивает урон его Проекционного удара и навыка <color=#FFD780FF>Особое поле: Взаимосвязь феноменов</color> на 0,1%.\\nБонус урона этих навыков, полученный таким образом, не может превышать 100%.",
+                    "icon": "UI_Talent_S_Alhatham_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Закон редуктивной переопределённости",
+                    "description": "При создании материалов возвышения оружия имеет 10% шанс создать дополнительный предмет.",
+                    "icon": "UI_Talent_S_Alhatham_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Интуиция",
+                    "description": "Когда Проекционный удар попадает по противнику, откат навыка <color=#FFD780FF>Универсалия: Совершенствование формы</color> уменьшается на 1,2 сек. Эффект активируется не чаще одного раза в 1 сек.",
+                    "icon": "UI_Talent_S_Alhatham_02"
+                },
+                "1": {
+                    "name": "Полемика",
+                    "description": "Когда аль-Хайтам создаёт Зеркало света, его мастерство стихий повышается на 50 ед. на 8 сек. Эффект может складываться до 4 раз. Длительность каждого уровня рассчитывается отдельно. Эффект срабатывает, даже если достигнуто максимальное количество Зеркал света.",
+                    "icon": "UI_Talent_S_Alhatham_01"
+                },
+                "2": {
+                    "name": "Отрицание",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Универсалия: Совершенствование формы</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Alhatham_01"
+                },
+                "3": {
+                    "name": "Толкование",
+                    "description": "Во время применения навыка <color=#FFD780FF>Особое поле: Взаимосвязь феноменов</color> в зависимости от количества израсходованных и созданных в этот раз Зеркал света активируются следующие эффекты:\\n· Каждое израсходованное Зеркало света повышает мастерство стихий остальных членов отряда поблизости на 30 ед. на 15 сек.\\n· Каждое созданное Зеркало света даёт аль-Хайтаму 10% <color=#99FF88FF>бонус Дендро урона</color> на 15 сек.\\n\\nСуществующие эффекты, описанные выше, будут сняты, если во время их действия повторно активировать Особое поле: Взаимосвязь феноменов.",
+                    "icon": "UI_Talent_S_Alhatham_03"
+                },
+                "4": {
+                    "name": "Проницательность",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Особое поле: Взаимосвязь феноменов</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Alhatham_02"
+                },
+                "5": {
+                    "name": "Структурирование",
+                    "description": "Аль-Хайтам получает следующие эффекты:\\n· Через 2 сек. после применения навыка <color=#FFD780FF>Особое поле: Взаимосвязь феноменов</color> вне зависимости от числа израсходованных Зеркал света создаётся 3 Зеркала света.\\n· Если аль-Хайтам создаёт Зеркала света, когда достигнуто их максимальное количество, его шанс крит. попадания повысится на 10%, а крит. урон - на 70% на 6 сек. Если эффект во время его исходного действия активируется повторно, его остающаяся длительность увеличится на 6 сек.",
+                    "icon": "UI_Talent_S_Alhatham_04"
+                }
+            },
+            "elevation": {
+                "sub": "Бонус Дендро урона %",
+                "0": {
+                    "stats": {
+                        "HP": 1039,
+                        "ATK": 24,
+                        "DEF": 61,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2695,
+                        "ATK": 63,
+                        "DEF": 158,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101222",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104131",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112065",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 3586,
+                        "ATK": 84,
+                        "DEF": 210,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 5366,
+                        "ATK": 126,
+                        "DEF": 314,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101222",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104132",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112065",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113044",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 5999,
+                        "ATK": 141,
+                        "DEF": 351,
+                        "sub": 7.199999999999999
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 6902,
+                        "ATK": 162,
+                        "DEF": 404,
+                        "sub": 7.199999999999999
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101222",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104132",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112066",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113044",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 7747,
+                        "ATK": 182,
+                        "DEF": 454,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 8567,
+                        "ATK": 201,
+                        "DEF": 502,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101222",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104133",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112066",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113044",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 9200,
+                        "ATK": 216,
+                        "DEF": 539,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 10305,
+                        "ATK": 242,
+                        "DEF": 603,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101222",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104133",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112067",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113044",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 10938,
+                        "ATK": 257,
+                        "DEF": 641,
+                        "sub": 21.6
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 11777,
+                        "ATK": 276,
+                        "DEF": 690,
+                        "sub": 21.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101222",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104134",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112067",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113044",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 12410,
+                        "ATK": 291,
+                        "DEF": 727,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 13348,
+                        "ATK": 313,
+                        "DEF": 782,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {}
+                }
+            }
+        }
+    }
+}

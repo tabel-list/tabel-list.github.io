@@ -1,0 +1,2276 @@
+{
+    "Ororon": {
+        "en": {
+            "name": "Ororon",
+            "name_ru": "Оророн",
+            "id": 10000105,
+            "rarity": 4,
+            "weapon": "Bow",
+            "element": "Electro",
+            "region": "Natlan",
+            "more": {
+                "title": "Shadow of the Night-Wind",
+                "detail": "A young man from the Masters of the Night-Wind who instead lives in the wild alongside all manner of life.",
+                "constellation": "Vampyrum Spectrum",
+                "group": "Mictlan",
+                "birthday": "14.10",
+                "release": "18.11.2024",
+                "cv": {
+                    "en": "Nathan Nokes",
+                    "chs": "梁达伟",
+                    "jp": "近藤隆",
+                    "kr": "Seo Joung-ik"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Normal Attack: Spiritvessel Snapshot",
+                    "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 3 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, Electro energy will accumulate on the arrowhead. A fully charged arrow will deal <color=#FFACFFFF>Electro DMG</color>.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+                    "icon": "Skill_A_02",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "1-Hit DMG 50.6%",
+                            "1": "2-Hit DMG 44.4%",
+                            "2": "3-Hit DMG 69.8%",
+                            "3": "Aimed Shot 43.9%",
+                            "4": "Fully-Charged Aimed Shot 124%",
+                            "5": "Plunge DMG 56.8%",
+                            "6": "Low/High Plunge DMG 113.6%/141.9%"
+                        },
+                        "2": {
+                            "0": "1-Hit DMG 54.8%",
+                            "1": "2-Hit DMG 48%",
+                            "2": "3-Hit DMG 75.5%",
+                            "3": "Aimed Shot 47.4%",
+                            "4": "Fully-Charged Aimed Shot 133.3%",
+                            "5": "Plunge DMG 61.5%",
+                            "6": "Low/High Plunge DMG 122.9%/153.5%"
+                        },
+                        "3": {
+                            "0": "1-Hit DMG 58.9%",
+                            "1": "2-Hit DMG 51.6%",
+                            "2": "3-Hit DMG 81.2%",
+                            "3": "Aimed Shot 51%",
+                            "4": "Fully-Charged Aimed Shot 142.6%",
+                            "5": "Plunge DMG 66.1%",
+                            "6": "Low/High Plunge DMG 132.1%/165%"
+                        },
+                        "4": {
+                            "0": "1-Hit DMG 64.8%",
+                            "1": "2-Hit DMG 56.8%",
+                            "2": "3-Hit DMG 89.3%",
+                            "3": "Aimed Shot 56.1%",
+                            "4": "Fully-Charged Aimed Shot 155%",
+                            "5": "Plunge DMG 72.7%",
+                            "6": "Low/High Plunge DMG 145.3%/181.5%"
+                        },
+                        "5": {
+                            "0": "1-Hit DMG 68.9%",
+                            "1": "2-Hit DMG 60.4%",
+                            "2": "3-Hit DMG 95%",
+                            "3": "Aimed Shot 59.7%",
+                            "4": "Fully-Charged Aimed Shot 164.3%",
+                            "5": "Plunge DMG 77.3%",
+                            "6": "Low/High Plunge DMG 154.6%/193.1%"
+                        },
+                        "6": {
+                            "0": "1-Hit DMG 73.6%",
+                            "1": "2-Hit DMG 64.5%",
+                            "2": "3-Hit DMG 101.5%",
+                            "3": "Aimed Shot 63.7%",
+                            "4": "Fully-Charged Aimed Shot 173.6%",
+                            "5": "Plunge DMG 82.6%",
+                            "6": "Low/High Plunge DMG 165.2%/206.3%"
+                        },
+                        "7": {
+                            "0": "1-Hit DMG 80.1%",
+                            "1": "2-Hit DMG 70.2%",
+                            "2": "3-Hit DMG 110.4%",
+                            "3": "Aimed Shot 69.4%",
+                            "4": "Fully-Charged Aimed Shot 186%",
+                            "5": "Plunge DMG 89.9%",
+                            "6": "Low/High Plunge DMG 179.7%/224.5%"
+                        },
+                        "8": {
+                            "0": "1-Hit DMG 86.6%",
+                            "1": "2-Hit DMG 75.8%",
+                            "2": "3-Hit DMG 119.3%",
+                            "3": "Aimed Shot 75%",
+                            "4": "Fully-Charged Aimed Shot 198.4%",
+                            "5": "Plunge DMG 97.1%",
+                            "6": "Low/High Plunge DMG 194.2%/242.6%"
+                        },
+                        "9": {
+                            "0": "1-Hit DMG 93%",
+                            "1": "2-Hit DMG 81.5%",
+                            "2": "3-Hit DMG 128.3%",
+                            "3": "Aimed Shot 80.6%",
+                            "4": "Fully-Charged Aimed Shot 210.8%",
+                            "5": "Plunge DMG 104.4%",
+                            "6": "Low/High Plunge DMG 208.8%/260.8%"
+                        },
+                        "10": {
+                            "0": "1-Hit DMG 100.1%",
+                            "1": "2-Hit DMG 87.7%",
+                            "2": "3-Hit DMG 138%",
+                            "3": "Aimed Shot 86.7%",
+                            "4": "Fully-Charged Aimed Shot 223.2%",
+                            "5": "Plunge DMG 112.3%",
+                            "6": "Low/High Plunge DMG 224.6%/280.6%"
+                        },
+                        "11": {
+                            "0": "1-Hit DMG 107.2%",
+                            "1": "2-Hit DMG 93.9%",
+                            "2": "3-Hit DMG 147.8%",
+                            "3": "Aimed Shot 92.8%",
+                            "4": "Fully-Charged Aimed Shot 235.6%",
+                            "5": "Plunge DMG 120.3%",
+                            "6": "Low/High Plunge DMG 240.5%/300.4%"
+                        },
+                        "12": {
+                            "0": "1-Hit DMG 114.2%",
+                            "1": "2-Hit DMG 100.1%",
+                            "2": "3-Hit DMG 157.5%",
+                            "3": "Aimed Shot 98.9%",
+                            "4": "Fully-Charged Aimed Shot 248%",
+                            "5": "Plunge DMG 128.2%",
+                            "6": "Low/High Plunge DMG 256.3%/320.2%"
+                        },
+                        "13": {
+                            "0": "1-Hit DMG 121.3%",
+                            "1": "2-Hit DMG 106.3%",
+                            "2": "3-Hit DMG 167.2%",
+                            "3": "Aimed Shot 105.1%",
+                            "4": "Fully-Charged Aimed Shot 263.5%",
+                            "5": "Plunge DMG 136.1%",
+                            "6": "Low/High Plunge DMG 272.2%/340%"
+                        },
+                        "14": {
+                            "0": "1-Hit DMG 128.4%",
+                            "1": "2-Hit DMG 112.5%",
+                            "2": "3-Hit DMG 177%",
+                            "3": "Aimed Shot 111.2%",
+                            "4": "Fully-Charged Aimed Shot 279%",
+                            "5": "Plunge DMG 144.1%",
+                            "6": "Low/High Plunge DMG 288%/359.8%"
+                        },
+                        "15": {
+                            "0": "1-Hit DMG 135.4%",
+                            "1": "2-Hit DMG 118.7%",
+                            "2": "3-Hit DMG 186.7%",
+                            "3": "Aimed Shot 117.3%",
+                            "4": "Fully-Charged Aimed Shot 294.5%",
+                            "5": "Plunge DMG 152%",
+                            "6": "Low/High Plunge DMG 303.9%/379.6%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104350",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112101",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104351",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104351",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104351",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104351",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104352",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104352",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104352",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104352",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112103",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113054",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Night's Sling",
+                    "description": "Ororon manifests an ancient mystical technique from the Masters of the Night-Wind as a <color=#FFD780FF>Spirit Orb</color> of midnight shade and throws it at his foe, dealing Nightsoul-aligned <color=#FFACFFFF>Electro DMG</color>.\\nWhen other opponents are nearby, the Spirit Orb will bounce between them, dealing Nightsoul-aligned <color=#FFACFFFF>Electro DMG</color>. Each time Night's Sling is used, each opponent can only be selected as a target once.\\nAfter 3 bounces, or if there are no eligible targets left, the Orb will disappear.\\n\\n<i>\"People always wish to foretell the future, but that might be because they have yet to discover that which they must do... Sorry, I'm saying complicated things again, aren't I...\"</i>",
+                    "icon": "Skill_S_Olorun_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Spirit Orb DMG 197.6%",
+                            "1": "CD 15s"
+                        },
+                        "2": {
+                            "0": "Spirit Orb DMG 212.4%",
+                            "1": "CD 15s"
+                        },
+                        "3": {
+                            "0": "Spirit Orb DMG 227.2%",
+                            "1": "CD 15s"
+                        },
+                        "4": {
+                            "0": "Spirit Orb DMG 247%",
+                            "1": "CD 15s"
+                        },
+                        "5": {
+                            "0": "Spirit Orb DMG 261.8%",
+                            "1": "CD 15s"
+                        },
+                        "6": {
+                            "0": "Spirit Orb DMG 276.6%",
+                            "1": "CD 15s"
+                        },
+                        "7": {
+                            "0": "Spirit Orb DMG 296.4%",
+                            "1": "CD 15s"
+                        },
+                        "8": {
+                            "0": "Spirit Orb DMG 316.2%",
+                            "1": "CD 15s"
+                        },
+                        "9": {
+                            "0": "Spirit Orb DMG 335.9%",
+                            "1": "CD 15s"
+                        },
+                        "10": {
+                            "0": "Spirit Orb DMG 355.7%",
+                            "1": "CD 15s"
+                        },
+                        "11": {
+                            "0": "Spirit Orb DMG 375.4%",
+                            "1": "CD 15s"
+                        },
+                        "12": {
+                            "0": "Spirit Orb DMG 395.2%",
+                            "1": "CD 15s"
+                        },
+                        "13": {
+                            "0": "Spirit Orb DMG 419.9%",
+                            "1": "CD 15s"
+                        },
+                        "14": {
+                            "0": "Spirit Orb DMG 444.6%",
+                            "1": "CD 15s"
+                        },
+                        "15": {
+                            "0": "Spirit Orb DMG 469.3%",
+                            "1": "CD 15s"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104350",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112101",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104351",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104351",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104351",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104351",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104352",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104352",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104352",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104352",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112103",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113054",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Special Jump",
+                    "description": "If this character is in Natlan, Hold to consume Phlogiston and execute a Rocket Double Jump. When Phlogiston is completely depleted, it will consume Stamina to execute the Double Jump instead.",
+                    "icon": "Skill_E_Olorun_03",
+                    "descriptionStat": {},
+                    "costItems": {}
+                },
+                "3": {
+                    "name": "Special Jump",
+                    "description": "If this character is in Natlan, Hold to consume Phlogiston and execute a Rocket Double Jump. When Phlogiston is completely depleted, it will consume Stamina to execute the Double Jump instead.",
+                    "icon": "Skill_E_Olorun_03",
+                    "descriptionStat": {},
+                    "costItems": {}
+                },
+                "4": {
+                    "name": "Dark Voices Echo",
+                    "description": "Ororon works an ancient ritual, dealing Nightsoul-aligned <color=#FFACFFFF>AoE Electro DMG</color>, summoning forth a Supersonic Oculus.\\n\\n<color=#FFD780FF>Supersonic Oculus</color>\\n·Continuously taunts nearby opponents and attracts attacks from them.\\n·Continuously rotates and fires off sonic waves that deal Nightsoul-aligned <color=#FFACFFFF>Electro DMG</color>.\\n\\n<i>Those with sharp enough senses can hear the minute voices with which all things speak. That way, they will never lose their way — not even on long, lightless nights.</i>",
+                    "icon": "Skill_E_Olorun_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Ritual DMG 174.4%",
+                            "1": "Soundwave Collision DMG 33.2%",
+                            "2": "Duration 9s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "2": {
+                            "0": "Ritual DMG 187.5%",
+                            "1": "Soundwave Collision DMG 35.7%",
+                            "2": "Duration 9s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "3": {
+                            "0": "Ritual DMG 200.5%",
+                            "1": "Soundwave Collision DMG 38.2%",
+                            "2": "Duration 9s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "4": {
+                            "0": "Ritual DMG 218%",
+                            "1": "Soundwave Collision DMG 41.5%",
+                            "2": "Duration 9s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "5": {
+                            "0": "Ritual DMG 231.1%",
+                            "1": "Soundwave Collision DMG 44%",
+                            "2": "Duration 9s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "6": {
+                            "0": "Ritual DMG 244.1%",
+                            "1": "Soundwave Collision DMG 46.5%",
+                            "2": "Duration 9s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "7": {
+                            "0": "Ritual DMG 261.6%",
+                            "1": "Soundwave Collision DMG 49.8%",
+                            "2": "Duration 9s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "8": {
+                            "0": "Ritual DMG 279%",
+                            "1": "Soundwave Collision DMG 53.1%",
+                            "2": "Duration 9s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "9": {
+                            "0": "Ritual DMG 296.5%",
+                            "1": "Soundwave Collision DMG 56.4%",
+                            "2": "Duration 9s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "10": {
+                            "0": "Ritual DMG 313.9%",
+                            "1": "Soundwave Collision DMG 59.8%",
+                            "2": "Duration 9s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "11": {
+                            "0": "Ritual DMG 331.3%",
+                            "1": "Soundwave Collision DMG 63.1%",
+                            "2": "Duration 9s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "12": {
+                            "0": "Ritual DMG 348.8%",
+                            "1": "Soundwave Collision DMG 66.4%",
+                            "2": "Duration 9s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "13": {
+                            "0": "Ritual DMG 370.6%",
+                            "1": "Soundwave Collision DMG 70.5%",
+                            "2": "Duration 9s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "14": {
+                            "0": "Ritual DMG 392.4%",
+                            "1": "Soundwave Collision DMG 74.7%",
+                            "2": "Duration 9s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "15": {
+                            "0": "Ritual DMG 414.2%",
+                            "1": "Soundwave Collision DMG 78.8%",
+                            "2": "Duration 9s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104350",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112101",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104351",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104351",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104351",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104351",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104352",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104352",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104352",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104352",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112103",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113054",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "5": {
+                    "name": "Nightshade Synesthesia",
+                    "description": "After a nearby party member triggers Nightsoul Burst, Ororon will gain 40 Nightsoul points. Within 15s after using his Elemental Skill, when other party members' <color=#80C0FFFF>Hydro</color> or <color=#FFACFFFF>Electro</color> attacks hit opponents, Ororon will gain 5 Nightsoul points, an effect that can occur every 0.3s for a maximum of 10 times during this 15s duration.\\nOroron can have a maximum of 80 Nightsoul points.\\n\\nAlso, when nearby opponents take <color=#FFACFFFF>Electro-Charged</color> reaction DMG or Nightsoul-aligned DMG dealt by other nearby characters, Ororon will consume 10 Nightsoul points (provided he has at least that amount), entering the Nightsoul's Blessing state and triggering the Hypersense effect: Deal Nightsoul-aligned <color=#FFACFFFF>Electro DMG</color> based on 160% of Ororon's ATK to at most 4 nearby opponents. The aforementioned effect can trigger once every 1.8s.\\n\\n<color=#FFD780FF>Nightsoul's Blessing: Ororon</color>\\nOroron's Nightsoul's Blessing state lasts 6s.",
+                    "icon": "UI_Talent_S_Olorun_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Aspect Catalyst",
+                    "description": "After the Elemental Skill <color=#FFD780FF>Night's Sling</color>'s <color=#FFD780FF>Spirit Orb</color> hits an opponent, Ororon will gain the Aspect Sigil effect for 15s.\\n\\n<color=#FFD780FF>Aspect Sigil</color>\\nWhen a nearby active party member hits an opponent with Normal, Charged, or Plunging Attacks, that character will restore 3 Energy. If Ororon is off-field, Ororon will also restore 3 Energy. This effect can trigger once every 1s, and can trigger 3 times per duration.",
+                    "icon": "UI_Talent_S_Olorun_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "7": {
+                    "name": "Night Realm's Gift: Flowing Fog, Spritely Shadows",
+                    "description": "While in an area with Phlogiston Mechanics within Natlan, he can use Nightsoul Transmission: Ororon. When the active character is currently in the air, the following will trigger when switching to Ororon: Ororon will leap up high. Nightsoul Transmission can be triggered once every 10s by your party.\\n\\nHolding Aiming Mode will cause Ororon to enter the \"Spiritspeaker\" state, which will allow him to interact with \"Nightspirit Graffiti\" and \"Nightspirit Sigils,\" extracting information and power from them. The rules for interacting with these objects follow the same rules as those governing Iktomisaurus interactions.\\n\\nAdditionally, holding the jump button will cause Ororon to consume 75 Stamina and leap. In areas within Natlan where Phlogiston mechanics are present, Ororon will prioritize consuming 5 Phlogiston to leap to a height higher still.\\nWhen in the air, Ororon can Hold his Normal Attack to consume Phlogiston or Stamina and enter Aiming Mode.",
+                    "icon": "UI_Talent_S_Olorun_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "8": {
+                    "name": "The Art of Skinchanging",
+                    "description": "Increases gliding SPD for your own party members by 15%.\\nNot stackable with Passive Talents that provide the exact same effects.",
+                    "icon": "UI_Talent_S_Olorun_08",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Trails Amidst the Forest Fog",
+                    "description": "The Elemental Skill <color=#FFD780FF>Night's Sling</color>'s <color=#FFD780FF>Spirit Orb</color> can bounce 2 additional times.\\nAdditionally, after the <color=#FFD780FF>Spirit Orb</color> hits an opponent, it will apply the Nighttide effect to them for 12s. Opponents affected by Nighttide take 50% increased DMG from Hypersense triggered by the Passive Talent, \"Nightshade Synesthesia.\" Unlock the aforementioned Passive Talent to trigger this effect.",
+                    "icon": "UI_Talent_S_Olorun_01"
+                },
+                "1": {
+                    "name": "King Bee of the Hidden Honeyed Wine",
+                    "description": "After using his Elemental Burst, <color=#FFD780FF>Dark Voices Echo</color>, Ororon will obtain the Spiritual Supersense effect for 9s.\\n\\n<color=#FFD780FF>Spiritual Supersense</color>\\nGain 8% <color=#FFACFFFF>Electro DMG Bonus</color>.\\nAdditionally, during this time, every additional opponent hit by the Elemental Burst <color=#FFD780FF>Dark Voices Echo</color> or <color=#FFD780FF>Supersonic Oculus</color> will grant Ororon a further 8% <color=#FFACFFFF>Electro DMG Bonus</color>. The maximum that can be gained this way is 32% <color=#FFACFFFF>Electro DMG Bonus</color>.",
+                    "icon": "UI_Talent_S_Olorun_02"
+                },
+                "2": {
+                    "name": "Roosting Bat's Spiritcage",
+                    "description": "Increases the Level of <color=#FFD780FF>Dark Voices Echo</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Olorun_01"
+                },
+                "3": {
+                    "name": "As the Mysteries of the Night Wind",
+                    "description": "The <color=#FFD780FF>Supersonic Oculus</color> summoned by the Elemental Burst <color=#FFD780FF>Dark Voices Echo</color> rotates 25% faster.\\nAdditionally, Ororon will restore 8 Energy to himself after using <color=#FFD780FF>Dark Voices Echo</color>.",
+                    "icon": "UI_Talent_S_Olorun_03"
+                },
+                "4": {
+                    "name": "A Gift For the Soul",
+                    "description": "Increases the Level of <color=#FFD780FF>Night's Sling</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Olorun_02"
+                },
+                "5": {
+                    "name": "Ode to Deep Springs",
+                    "description": "After triggering Hypersense through the Passive Talent, Nightshade Synesthesia, your current active character's ATK is increased by 10% for 9s. Max 3 stacks, each stack is counted independently.\\nAdditionally, when you use the Elemental Burst <color=#FFD780FF>Dark Voices Echo</color>, you will trigger one instance of an effect equivalent to Hypersense, dealing 200% of its original DMG.\\nYou must unlock the Passive Talent \"Nightshade Synesthesia\" first.",
+                    "icon": "UI_Talent_S_Olorun_04"
+                }
+            },
+            "elevation": {
+                "sub": "ATK %",
+                "0": {
+                    "stats": {
+                        "HP": 775,
+                        "ATK": 20,
+                        "DEF": 49,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 1991,
+                        "ATK": 53,
+                        "DEF": 126,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101252",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104141",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112101",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 2570,
+                        "ATK": 68,
+                        "DEF": 163,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 3850,
+                        "ATK": 102,
+                        "DEF": 244,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101252",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104142",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112101",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113064",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 4261,
+                        "ATK": 113,
+                        "DEF": 271,
+                        "sub": 6.0
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 4901,
+                        "ATK": 130,
+                        "DEF": 311,
+                        "sub": 6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101252",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104142",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112102",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113064",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 5450,
+                        "ATK": 144,
+                        "DEF": 346,
+                        "sub": 12
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 6090,
+                        "ATK": 161,
+                        "DEF": 387,
+                        "sub": 12
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101252",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104143",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112102",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113064",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 6501,
+                        "ATK": 172,
+                        "DEF": 413,
+                        "sub": 12
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 7141,
+                        "ATK": 189,
+                        "DEF": 453,
+                        "sub": 12
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101252",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104143",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112103",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113064",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 7552,
+                        "ATK": 200,
+                        "DEF": 480,
+                        "sub": 18
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 8192,
+                        "ATK": 216,
+                        "DEF": 520,
+                        "sub": 18
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101252",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104144",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112103",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113064",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 8604,
+                        "ATK": 227,
+                        "DEF": 546,
+                        "sub": 24
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 9244,
+                        "ATK": 244,
+                        "DEF": 587,
+                        "sub": 24
+                    },
+                    "res": {}
+                }
+            }
+        },
+        "ru": {
+            "name": "Ororon",
+            "name_ru": "Оророн",
+            "id": 10000105,
+            "rarity": 4,
+            "weapon": "Bow",
+            "element": "Electro",
+            "region": "Natlan",
+            "more": {
+                "title": "Тень Ночного Ветра",
+                "detail": "Юноша из Повелителей Ночного Ветра, живущий в глуши вместе со всевозможными существами.",
+                "constellation": "Вечерница",
+                "group": "Миктлан",
+                "birthday": "14.10",
+                "release": "18.11.2024",
+                "cv": {
+                    "en": "Nathan Nokes",
+                    "chs": "梁达伟",
+                    "jp": "KONDO Takashi",
+                    "kr": "Seo Joung-ik"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Выстрел пристанища духов",
+                    "description": "<color=#FFD780FF>Обычная атака:</color>\\nДо трёх выстрелов из лука.\\n\\n<color=#FFD780FF>Заряженная атака:</color>\\nБолее меткий <color=#FFD780FF>прицельный выстрел</color> с увеличенным уроном.\\nВо время прицеливания наконечник стрелы заряжается стихией Электро. Полностью заряженная стрела наносит <color=#FFACFFFF>Электро урон</color>.\\n\\n<color=#FFD780FF>Атака в падении:</color>\\nВыпускает град стрел в воздухе, которые при приземлении персонажа наносят урон по площади.",
+                    "icon": "Skill_A_02",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон атаки 1 50.6%",
+                            "1": "Урон атаки 2 44.4%",
+                            "2": "Урон атаки 3 69.8%",
+                            "3": "Прицельный выстрел 43.9%",
+                            "4": "Заряженный выстрел 124%",
+                            "5": "Урон в падении 56.8%",
+                            "6": "Урон низкого/высокого удара 113.6%/141.9%"
+                        },
+                        "2": {
+                            "0": "Урон атаки 1 54.8%",
+                            "1": "Урон атаки 2 48%",
+                            "2": "Урон атаки 3 75.5%",
+                            "3": "Прицельный выстрел 47.4%",
+                            "4": "Заряженный выстрел 133.3%",
+                            "5": "Урон в падении 61.5%",
+                            "6": "Урон низкого/высокого удара 122.9%/153.5%"
+                        },
+                        "3": {
+                            "0": "Урон атаки 1 58.9%",
+                            "1": "Урон атаки 2 51.6%",
+                            "2": "Урон атаки 3 81.2%",
+                            "3": "Прицельный выстрел 51%",
+                            "4": "Заряженный выстрел 142.6%",
+                            "5": "Урон в падении 66.1%",
+                            "6": "Урон низкого/высокого удара 132.1%/165%"
+                        },
+                        "4": {
+                            "0": "Урон атаки 1 64.8%",
+                            "1": "Урон атаки 2 56.8%",
+                            "2": "Урон атаки 3 89.3%",
+                            "3": "Прицельный выстрел 56.1%",
+                            "4": "Заряженный выстрел 155%",
+                            "5": "Урон в падении 72.7%",
+                            "6": "Урон низкого/высокого удара 145.3%/181.5%"
+                        },
+                        "5": {
+                            "0": "Урон атаки 1 68.9%",
+                            "1": "Урон атаки 2 60.4%",
+                            "2": "Урон атаки 3 95%",
+                            "3": "Прицельный выстрел 59.7%",
+                            "4": "Заряженный выстрел 164.3%",
+                            "5": "Урон в падении 77.3%",
+                            "6": "Урон низкого/высокого удара 154.6%/193.1%"
+                        },
+                        "6": {
+                            "0": "Урон атаки 1 73.6%",
+                            "1": "Урон атаки 2 64.5%",
+                            "2": "Урон атаки 3 101.5%",
+                            "3": "Прицельный выстрел 63.7%",
+                            "4": "Заряженный выстрел 173.6%",
+                            "5": "Урон в падении 82.6%",
+                            "6": "Урон низкого/высокого удара 165.2%/206.3%"
+                        },
+                        "7": {
+                            "0": "Урон атаки 1 80.1%",
+                            "1": "Урон атаки 2 70.2%",
+                            "2": "Урон атаки 3 110.4%",
+                            "3": "Прицельный выстрел 69.4%",
+                            "4": "Заряженный выстрел 186%",
+                            "5": "Урон в падении 89.9%",
+                            "6": "Урон низкого/высокого удара 179.7%/224.5%"
+                        },
+                        "8": {
+                            "0": "Урон атаки 1 86.6%",
+                            "1": "Урон атаки 2 75.8%",
+                            "2": "Урон атаки 3 119.3%",
+                            "3": "Прицельный выстрел 75%",
+                            "4": "Заряженный выстрел 198.4%",
+                            "5": "Урон в падении 97.1%",
+                            "6": "Урон низкого/высокого удара 194.2%/242.6%"
+                        },
+                        "9": {
+                            "0": "Урон атаки 1 93%",
+                            "1": "Урон атаки 2 81.5%",
+                            "2": "Урон атаки 3 128.3%",
+                            "3": "Прицельный выстрел 80.6%",
+                            "4": "Заряженный выстрел 210.8%",
+                            "5": "Урон в падении 104.4%",
+                            "6": "Урон низкого/высокого удара 208.8%/260.8%"
+                        },
+                        "10": {
+                            "0": "Урон атаки 1 100.1%",
+                            "1": "Урон атаки 2 87.7%",
+                            "2": "Урон атаки 3 138%",
+                            "3": "Прицельный выстрел 86.7%",
+                            "4": "Заряженный выстрел 223.2%",
+                            "5": "Урон в падении 112.3%",
+                            "6": "Урон низкого/высокого удара 224.6%/280.6%"
+                        },
+                        "11": {
+                            "0": "Урон атаки 1 107.2%",
+                            "1": "Урон атаки 2 93.9%",
+                            "2": "Урон атаки 3 147.8%",
+                            "3": "Прицельный выстрел 92.8%",
+                            "4": "Заряженный выстрел 235.6%",
+                            "5": "Урон в падении 120.3%",
+                            "6": "Урон низкого/высокого удара 240.5%/300.4%"
+                        },
+                        "12": {
+                            "0": "Урон атаки 1 114.2%",
+                            "1": "Урон атаки 2 100.1%",
+                            "2": "Урон атаки 3 157.5%",
+                            "3": "Прицельный выстрел 98.9%",
+                            "4": "Заряженный выстрел 248%",
+                            "5": "Урон в падении 128.2%",
+                            "6": "Урон низкого/высокого удара 256.3%/320.2%"
+                        },
+                        "13": {
+                            "0": "Урон атаки 1 121.3%",
+                            "1": "Урон атаки 2 106.3%",
+                            "2": "Урон атаки 3 167.2%",
+                            "3": "Прицельный выстрел 105.1%",
+                            "4": "Заряженный выстрел 263.5%",
+                            "5": "Урон в падении 136.1%",
+                            "6": "Урон низкого/высокого удара 272.2%/340%"
+                        },
+                        "14": {
+                            "0": "Урон атаки 1 128.4%",
+                            "1": "Урон атаки 2 112.5%",
+                            "2": "Урон атаки 3 177%",
+                            "3": "Прицельный выстрел 111.2%",
+                            "4": "Заряженный выстрел 279%",
+                            "5": "Урон в падении 144.1%",
+                            "6": "Урон низкого/высокого удара 288%/359.8%"
+                        },
+                        "15": {
+                            "0": "Урон атаки 1 135.4%",
+                            "1": "Урон атаки 2 118.7%",
+                            "2": "Урон атаки 3 186.7%",
+                            "3": "Прицельный выстрел 117.3%",
+                            "4": "Заряженный выстрел 294.5%",
+                            "5": "Урон в падении 152%",
+                            "6": "Урон низкого/высокого удара 303.9%/379.6%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104350",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112101",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104351",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104351",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104351",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104351",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104352",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104352",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104352",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104352",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112103",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113054",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Праща ночи",
+                    "description": "Оророн применяет древнюю секретную технику Повелителей Ночного Ветра в виде <color=#FFD780FF>Сферы душ</color> цвета ночи, которая выпускается в противника и наносит <color=#FFACFFFF>Электро урон</color> с характеристикой Ночного духа.\\nЕсли поблизости есть другие враги, Сфера душ будет перескакивать между врагами, нанося <color=#FFACFFFF>Электро урон</color> с характеристикой Ночного духа. С каждым использованием Пращи ночи один враг может быть выбран в качестве цели один раз.\\nПосле трёх отскоков или если поблизости не осталось подходящих целей, Сфера исчезает.\\n\\n<i>«Всем хочется предвидеть будущее. Это, видимо, потому, что они не нашли собственного призвания... Прости, я опять говорю о сложных вещах».</i>",
+                    "icon": "Skill_S_Olorun_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон Сферы душ 197.6%",
+                            "1": "Время отката 15 сек."
+                        },
+                        "2": {
+                            "0": "Урон Сферы душ 212.4%",
+                            "1": "Время отката 15 сек."
+                        },
+                        "3": {
+                            "0": "Урон Сферы душ 227.2%",
+                            "1": "Время отката 15 сек."
+                        },
+                        "4": {
+                            "0": "Урон Сферы душ 247%",
+                            "1": "Время отката 15 сек."
+                        },
+                        "5": {
+                            "0": "Урон Сферы душ 261.8%",
+                            "1": "Время отката 15 сек."
+                        },
+                        "6": {
+                            "0": "Урон Сферы душ 276.6%",
+                            "1": "Время отката 15 сек."
+                        },
+                        "7": {
+                            "0": "Урон Сферы душ 296.4%",
+                            "1": "Время отката 15 сек."
+                        },
+                        "8": {
+                            "0": "Урон Сферы душ 316.2%",
+                            "1": "Время отката 15 сек."
+                        },
+                        "9": {
+                            "0": "Урон Сферы душ 335.9%",
+                            "1": "Время отката 15 сек."
+                        },
+                        "10": {
+                            "0": "Урон Сферы душ 355.7%",
+                            "1": "Время отката 15 сек."
+                        },
+                        "11": {
+                            "0": "Урон Сферы душ 375.4%",
+                            "1": "Время отката 15 сек."
+                        },
+                        "12": {
+                            "0": "Урон Сферы душ 395.2%",
+                            "1": "Время отката 15 сек."
+                        },
+                        "13": {
+                            "0": "Урон Сферы душ 419.9%",
+                            "1": "Время отката 15 сек."
+                        },
+                        "14": {
+                            "0": "Урон Сферы душ 444.6%",
+                            "1": "Время отката 15 сек."
+                        },
+                        "15": {
+                            "0": "Урон Сферы душ 469.3%",
+                            "1": "Время отката 15 сек."
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104350",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112101",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104351",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104351",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104351",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104351",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104352",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104352",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104352",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104352",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112103",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113054",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Особый прыжок",
+                    "description": "Если персонаж находится в Натлане, долгое нажатие позволит выполнить Двойной ракетный прыжок, который расходует флогистон. Когда флогистон исчерпан, Двойной прыжок расходует выносливость.",
+                    "icon": "Skill_E_Olorun_03",
+                    "descriptionStat": {},
+                    "costItems": {}
+                },
+                "3": {
+                    "name": "Особый прыжок",
+                    "description": "Если персонаж находится в Натлане, долгое нажатие позволит выполнить Двойной ракетный прыжок, который расходует флогистон. Когда флогистон исчерпан, Двойной прыжок расходует выносливость.",
+                    "icon": "Skill_E_Olorun_03",
+                    "descriptionStat": {},
+                    "costItems": {}
+                },
+                "4": {
+                    "name": "Эхо мрачных голосов",
+                    "description": "Оророн пробуждает древний ритуал, который наносит <color=#FFACFFFF>Электро урон по площади</color> с характеристикой Ночного духа, призывая Сверхзвуковое око.\\n\\n<color=#FFD780FF>Сверхзвуковое око</color>\\n· Привлекает атаки врагов поблизости на себя.\\n· Постоянно вращается и выпускает во врагов поблизости звуковые волны, которые наносят врагам поблизости <color=#FFACFFFF>Электро урон</color> с характеристикой Ночного духа.\\n\\n<i>Достаточно восприимчивые слышат тончайшие звуки всего сущего. Таким образом они не собьются с пути даже в долгие, беспросветные ночи.</i>",
+                    "icon": "Skill_E_Olorun_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон ритуала 174.4%",
+                            "1": "Урон звуковой волны 33.2%",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "2": {
+                            "0": "Урон ритуала 187.5%",
+                            "1": "Урон звуковой волны 35.7%",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "3": {
+                            "0": "Урон ритуала 200.5%",
+                            "1": "Урон звуковой волны 38.2%",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "4": {
+                            "0": "Урон ритуала 218%",
+                            "1": "Урон звуковой волны 41.5%",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "5": {
+                            "0": "Урон ритуала 231.1%",
+                            "1": "Урон звуковой волны 44%",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "6": {
+                            "0": "Урон ритуала 244.1%",
+                            "1": "Урон звуковой волны 46.5%",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "7": {
+                            "0": "Урон ритуала 261.6%",
+                            "1": "Урон звуковой волны 49.8%",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "8": {
+                            "0": "Урон ритуала 279%",
+                            "1": "Урон звуковой волны 53.1%",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "9": {
+                            "0": "Урон ритуала 296.5%",
+                            "1": "Урон звуковой волны 56.4%",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "10": {
+                            "0": "Урон ритуала 313.9%",
+                            "1": "Урон звуковой волны 59.8%",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "11": {
+                            "0": "Урон ритуала 331.3%",
+                            "1": "Урон звуковой волны 63.1%",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "12": {
+                            "0": "Урон ритуала 348.8%",
+                            "1": "Урон звуковой волны 66.4%",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "13": {
+                            "0": "Урон ритуала 370.6%",
+                            "1": "Урон звуковой волны 70.5%",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "14": {
+                            "0": "Урон ритуала 392.4%",
+                            "1": "Урон звуковой волны 74.7%",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "15": {
+                            "0": "Урон ритуала 414.2%",
+                            "1": "Урон звуковой волны 78.8%",
+                            "2": "Длительность 9 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104350",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112101",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104351",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104351",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104351",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104351",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112102",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104352",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104352",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104352",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112103",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104352",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112103",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113054",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "5": {
+                    "name": "Синестезия ночного укрытия",
+                    "description": "После того как члены отряда поблизости активируют Вспышку Ночного духа, Оророн получает 40 очков Ночного духа. В течение 15 сек. после применения элементального навыка, когда атаки с элементами <color=#80C0FFFF>Гидро</color> или <color=#FFACFFFF>Электро</color> других членов отряда поражают противников, Оророн получает 5 очков Ночного духа. Этот эффект может возникнуть один раз в 0,3 сек. и за это время может возникнуть до 10 раз.\\nМаксимум очков Ночного духа Оророна составляет 80.\\n\\nКроме того, когда враги поблизости получают урон от реакции <color=#FFACFFFF>Заряжен</color> или другие персонажи поблизости наносят урон с характеристикой Ночного духа, а у Оророна есть не менее 10 очков Ночного духа, то Оророн расходует эти 10 очков, входит в состояние Благословения Ночного духа и активирует Сверхчувствительность: до 4 врагов поблизости получают <color=#FFACFFFF>Электро урон</color> с характеристикой Ночного духа, равный 160% от силы атаки Оророна. Этот эффект может возникнуть один раз в 1,8 сек.\\n\\n<color=#FFD780FF>Благословение Ночного духа: Оророн</color>\\nСостояние Благословения Ночного духа Оророна длится до 6 сек.",
+                    "icon": "UI_Talent_S_Olorun_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Катализатор явления",
+                    "description": "После попадания <color=#FFD780FF>Сферы душ</color> элементального навыка <color=#FFD780FF>Праща ночи</color> по противнику Оророн на 15 сек. получает Печать явления.\\n\\n<color=#FFD780FF>Печать явления</color>\\nПосле того как активный член отряда поблизости поражает противника обычной атакой, заряженной атакой или атакой в падении, он восстанавливает 3 ед. энергии. Если Оророн не на поле боя, он также восстанавливает 3 ед. энергии. Этот эффект может возникнуть один раз в 1 сек. и до 3 раз во время действия.",
+                    "icon": "UI_Talent_S_Olorun_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "7": {
+                    "name": "Дар владений ночи: Тени в текучем тумане",
+                    "description": "Когда Оророн находится в областях Натлана с флогистоновыми механиками, он способен применять Передачу Ночного духа: Оророн. Когда активный персонаж находится в воздухе, при смене персонажа на Оророна активируется следующий эффект: Оророн высоко подпрыгивает. Передача Ночного духа может активироваться вашим отрядом один раз в 10 сек.\\n\\nВо время удерживания прицеливания Оророн входит в состояние Говорящего с духами, которое позволяет ему взаимодействовать с граффити Ночного духа и символами Ночного духа, извлекая из них сведения и силу. Правила взаимодействия с этими предметами следуют правилам взаимодействия иктомизавров.\\n\\nКроме того, при удержании прыжка Оророн тратит 75 очков выносливости и подпрыгивает. В областях Натлана с флогистоновыми механиками Оророн в первую очередь расходует 5 ед. флогистона на ещё более высокий прыжок.\\nНаходясь в воздухе, удерживанием обычной атаки Оророн может переходить в режим прицеливания, расходуя флогистон или выносливость.",
+                    "icon": "UI_Talent_S_Olorun_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "8": {
+                    "name": "Искусство изменения кожи",
+                    "description": "Увеличивает скорость парения всех своих членов отряда на 15%.\\nНе суммируется с пассивными талантами, дающими точно такие же эффекты.",
+                    "icon": "UI_Talent_S_Olorun_08",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Следы в лесном тумане",
+                    "description": "<color=#FFD780FF>Сфера душ</color> элементального навыка <color=#FFD780FF>Праща ночи</color> может отскочить два дополнительных раза.\\nКроме того, <color=#FFD780FF>Сфера душ</color> после попадания по врагу на 12 сек. накладывает на него эффект Ночной волны: урон, который получают враги под воздействием Ночной волны от Сверхчувствительности пассивного таланта Синестезия ночного укрытия, увеличивается на 50%. Требуется разблокировать пассивный талант Синестезия ночного укрытия.",
+                    "icon": "UI_Talent_S_Olorun_01"
+                },
+                "1": {
+                    "name": "Пчелиный король скрытого медового вина",
+                    "description": "После применения взрыва стихии <color=#FFD780FF>Эхо мрачных голосов</color> Оророн на 9 сек. получает Духовную сверхчувствительность.\\n\\n<color=#FFD780FF>Духовная сверхчувствительность</color>\\nДаёт 8% <color=#FFACFFFF>бонус Электро урона</color>.\\nКроме того, во время действия каждый дополнительный враг, поражённый взрывом стихии <color=#FFD780FF>Эхо мрачных голосов</color> или <color=#FFD780FF>Сверхзвуковым оком</color>, сверх того наделяет Оророна 8% <color=#FFACFFFF>бонусом Электро урона</color>. Таким способом можно получить до 32% <color=#FFACFFFF>бонуса Электро урона</color>.",
+                    "icon": "UI_Talent_S_Olorun_02"
+                },
+                "2": {
+                    "name": "Духовная клеть гнездящейся летучей мыши",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Эхо мрачных голосов</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Olorun_01"
+                },
+                "3": {
+                    "name": "Как таинства ночного ветра",
+                    "description": "<color=#FFD780FF>Сверхзвуковое око</color> взрыва стихии <color=#FFD780FF>Эхо мрачных голосов</color> вращается на 25% быстрее. Кроме того, после применения <color=#FFD780FF>Эха мрачных голосов</color> Оророн восстанавливает 8 ед. своей энергии.",
+                    "icon": "UI_Talent_S_Olorun_03"
+                },
+                "4": {
+                    "name": "Подношение душе",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Праща ночи</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Olorun_02"
+                },
+                "5": {
+                    "name": "Ода глубоким ручьям",
+                    "description": "После активации Сверхчувствительности пассивного таланта Синестезия ночного укрытия сила атаки вашего активного персонажа повышается на 10% на 9 сек. Этот эффект может складываться до 3 раз. Длительность каждого уровня рассчитывается отдельно.\\nКроме того, при использовании взрыва стихии <color=#FFD780FF>Эхо мрачных голосов</color> один раз активируется эффект, аналогичный Сверхчувствительности, нанося 200% от её исходного урона.\\nТребуется разблокировать пассивный талант Синестезия ночного укрытия.",
+                    "icon": "UI_Talent_S_Olorun_04"
+                }
+            },
+            "elevation": {
+                "sub": "Сила атаки %",
+                "0": {
+                    "stats": {
+                        "HP": 775,
+                        "ATK": 20,
+                        "DEF": 49,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 1991,
+                        "ATK": 53,
+                        "DEF": 126,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101252",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104141",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112101",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 2570,
+                        "ATK": 68,
+                        "DEF": 163,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 3850,
+                        "ATK": 102,
+                        "DEF": 244,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101252",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104142",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112101",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113064",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 4261,
+                        "ATK": 113,
+                        "DEF": 271,
+                        "sub": 6.0
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 4901,
+                        "ATK": 130,
+                        "DEF": 311,
+                        "sub": 6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101252",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104142",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112102",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113064",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 5450,
+                        "ATK": 144,
+                        "DEF": 346,
+                        "sub": 12
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 6090,
+                        "ATK": 161,
+                        "DEF": 387,
+                        "sub": 12
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101252",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104143",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112102",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113064",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 6501,
+                        "ATK": 172,
+                        "DEF": 413,
+                        "sub": 12
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 7141,
+                        "ATK": 189,
+                        "DEF": 453,
+                        "sub": 12
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101252",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104143",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112103",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113064",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 7552,
+                        "ATK": 200,
+                        "DEF": 480,
+                        "sub": 18
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 8192,
+                        "ATK": 216,
+                        "DEF": 520,
+                        "sub": 18
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101252",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104144",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112103",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113064",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 8604,
+                        "ATK": 227,
+                        "DEF": 546,
+                        "sub": 24
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 9244,
+                        "ATK": 244,
+                        "DEF": 587,
+                        "sub": 24
+                    },
+                    "res": {}
+                }
+            }
+        }
+    }
+}

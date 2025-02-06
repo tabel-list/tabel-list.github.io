@@ -1,0 +1,2904 @@
+{
+    "Yanfei": {
+        "en": {
+            "name": "Yanfei",
+            "name_ru": "Янь Фэй",
+            "id": 10000048,
+            "rarity": 4,
+            "weapon": "Catalyst",
+            "element": "Pyro",
+            "region": "Liyue",
+            "more": {
+                "title": "Wise Innocence",
+                "detail": "A well-known legal adviser active in Liyue Harbor. A brilliant young lady in whose veins runs the blood of an illuminated beast.",
+                "constellation": "Bestia Iustitia",
+                "group": "Yanfei Legal Consultancy",
+                "birthday": "28.7",
+                "release": "26.04.2021",
+                "cv": {
+                    "en": "Lizzie Freeman",
+                    "chs": "苏子芜",
+                    "jp": "花守ゆみり",
+                    "kr": "Jo Kyeong-lee"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Normal Attack: Seal of Approval",
+                    "description": "<color=#FFD780FF>Normal Attack</color>\\nShoots fireballs that deal up to three counts of <color=#FF9999FF>Pyro DMG</color>.\\nWhen Yanfei's Normal Attacks hit enemies, they will grant her a single Scarlet Seal. Yanfei may possess a maximum of 3 Scarlet Seals, and each time this effect is triggered, the duration of currently possessed Scarlet Seals will refresh.\\nEach Scarlet Seal will decrease Yanfei's Stamina consumption and will disappear when she leaves the field.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes Stamina and all Scarlet Seals before dealing <color=#FF9999FF>AoE Pyro DMG</color> to opponents after a short casting time.\\nThis Charged Attack's AoE and DMG will increase according to the amount of Scarlet Seals consumed.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nGathering the power of Pyro, Yanfei plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#FF9999FF>AoE Pyro DMG</color> upon impact with the ground.",
+                    "icon": "Skill_A_Catalyst_MD",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "1-Hit DMG 58.3%",
+                            "1": "2-Hit DMG 52.1%",
+                            "2": "3-Hit DMG 76%",
+                            "3": "Charged Attack 98.2%/115.6%/132.9%/150.2%/167.6%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Scarlet Seal Stamina Consumption Decrease 15% Per Seal",
+                            "6": "Scarlet Seal Duration 10s",
+                            "7": "Plunge DMG 56.8%",
+                            "8": "Low/High Plunge DMG 113.6%/141.9%"
+                        },
+                        "2": {
+                            "0": "1-Hit DMG 62.7%",
+                            "1": "2-Hit DMG 56%",
+                            "2": "3-Hit DMG 81.7%",
+                            "3": "Charged Attack 104.1%/122.5%/140.9%/159.2%/177.6%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Scarlet Seal Stamina Consumption Decrease 15% Per Seal",
+                            "6": "Scarlet Seal Duration 10s",
+                            "7": "Plunge DMG 61.5%",
+                            "8": "Low/High Plunge DMG 122.9%/153.5%"
+                        },
+                        "3": {
+                            "0": "1-Hit DMG 67.1%",
+                            "1": "2-Hit DMG 59.9%",
+                            "2": "3-Hit DMG 87.4%",
+                            "3": "Charged Attack 110%/129.4%/148.8%/168.2%/187.6%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Scarlet Seal Stamina Consumption Decrease 15% Per Seal",
+                            "6": "Scarlet Seal Duration 10s",
+                            "7": "Plunge DMG 66.1%",
+                            "8": "Low/High Plunge DMG 132.1%/165%"
+                        },
+                        "4": {
+                            "0": "1-Hit DMG 72.9%",
+                            "1": "2-Hit DMG 65.2%",
+                            "2": "3-Hit DMG 95%",
+                            "3": "Charged Attack 117.6%/138.4%/159.2%/179.9%/200.7%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Scarlet Seal Stamina Consumption Decrease 15% Per Seal",
+                            "6": "Scarlet Seal Duration 10s",
+                            "7": "Plunge DMG 72.7%",
+                            "8": "Low/High Plunge DMG 145.3%/181.5%"
+                        },
+                        "5": {
+                            "0": "1-Hit DMG 77.3%",
+                            "1": "2-Hit DMG 69.1%",
+                            "2": "3-Hit DMG 100.7%",
+                            "3": "Charged Attack 123.5%/145.3%/167.1%/188.9%/210.7%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Scarlet Seal Stamina Consumption Decrease 15% Per Seal",
+                            "6": "Scarlet Seal Duration 10s",
+                            "7": "Plunge DMG 77.3%",
+                            "8": "Low/High Plunge DMG 154.6%/193.1%"
+                        },
+                        "6": {
+                            "0": "1-Hit DMG 81.7%",
+                            "1": "2-Hit DMG 73%",
+                            "2": "3-Hit DMG 106.4%",
+                            "3": "Charged Attack 129.4%/152.2%/175.1%/197.9%/220.7%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Scarlet Seal Stamina Consumption Decrease 15% Per Seal",
+                            "6": "Scarlet Seal Duration 10s",
+                            "7": "Plunge DMG 82.6%",
+                            "8": "Low/High Plunge DMG 165.2%/206.3%"
+                        },
+                        "7": {
+                            "0": "1-Hit DMG 87.5%",
+                            "1": "2-Hit DMG 78.2%",
+                            "2": "3-Hit DMG 114%",
+                            "3": "Charged Attack 137.1%/161.2%/185.4%/209.6%/233.8%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Scarlet Seal Stamina Consumption Decrease 15% Per Seal",
+                            "6": "Scarlet Seal Duration 10s",
+                            "7": "Plunge DMG 89.9%",
+                            "8": "Low/High Plunge DMG 179.7%/224.5%"
+                        },
+                        "8": {
+                            "0": "1-Hit DMG 93.3%",
+                            "1": "2-Hit DMG 83.4%",
+                            "2": "3-Hit DMG 121.6%",
+                            "3": "Charged Attack 144.7%/170.2%/195.8%/221.3%/246.8%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Scarlet Seal Stamina Consumption Decrease 15% Per Seal",
+                            "6": "Scarlet Seal Duration 10s",
+                            "7": "Plunge DMG 97.1%",
+                            "8": "Low/High Plunge DMG 194.2%/242.6%"
+                        },
+                        "9": {
+                            "0": "1-Hit DMG 99.2%",
+                            "1": "2-Hit DMG 88.6%",
+                            "2": "3-Hit DMG 129.2%",
+                            "3": "Charged Attack 152.3%/179.2%/206.1%/233%/259.9%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Scarlet Seal Stamina Consumption Decrease 15% Per Seal",
+                            "6": "Scarlet Seal Duration 10s",
+                            "7": "Plunge DMG 104.4%",
+                            "8": "Low/High Plunge DMG 208.8%/260.8%"
+                        },
+                        "10": {
+                            "0": "1-Hit DMG 105%",
+                            "1": "2-Hit DMG 93.8%",
+                            "2": "3-Hit DMG 136.8%",
+                            "3": "Charged Attack 160%/188.2%/216.5%/244.7%/272.9%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Scarlet Seal Stamina Consumption Decrease 15% Per Seal",
+                            "6": "Scarlet Seal Duration 10s",
+                            "7": "Plunge DMG 112.3%",
+                            "8": "Low/High Plunge DMG 224.6%/280.6%"
+                        },
+                        "11": {
+                            "0": "1-Hit DMG 110.8%",
+                            "1": "2-Hit DMG 99%",
+                            "2": "3-Hit DMG 144.4%",
+                            "3": "Charged Attack 167.6%/197.2%/226.8%/256.4%/286%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Scarlet Seal Stamina Consumption Decrease 15% Per Seal",
+                            "6": "Scarlet Seal Duration 10s",
+                            "7": "Plunge DMG 120.3%",
+                            "8": "Low/High Plunge DMG 240.5%/300.4%"
+                        },
+                        "12": {
+                            "0": "1-Hit DMG 116.7%",
+                            "1": "2-Hit DMG 104.3%",
+                            "2": "3-Hit DMG 152%",
+                            "3": "Charged Attack 175.3%/206.2%/237.1%/268.1%/299%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Scarlet Seal Stamina Consumption Decrease 15% Per Seal",
+                            "6": "Scarlet Seal Duration 10s",
+                            "7": "Plunge DMG 128.2%",
+                            "8": "Low/High Plunge DMG 256.3%/320.2%"
+                        },
+                        "13": {
+                            "0": "1-Hit DMG 124%",
+                            "1": "2-Hit DMG 110.8%",
+                            "2": "3-Hit DMG 161.5%",
+                            "3": "Charged Attack 182.9%/215.2%/247.5%/279.8%/312.1%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Scarlet Seal Stamina Consumption Decrease 15% Per Seal",
+                            "6": "Scarlet Seal Duration 10s",
+                            "7": "Plunge DMG 136.1%",
+                            "8": "Low/High Plunge DMG 272.2%/340%"
+                        },
+                        "14": {
+                            "0": "1-Hit DMG 131.3%",
+                            "1": "2-Hit DMG 117.3%",
+                            "2": "3-Hit DMG 171%",
+                            "3": "Charged Attack 190.6%/224.2%/257.8%/291.5%/325.1%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Scarlet Seal Stamina Consumption Decrease 15% Per Seal",
+                            "6": "Scarlet Seal Duration 10s",
+                            "7": "Plunge DMG 144.1%",
+                            "8": "Low/High Plunge DMG 288%/359.8%"
+                        },
+                        "15": {
+                            "0": "1-Hit DMG 138.6%",
+                            "1": "2-Hit DMG 123.8%",
+                            "2": "3-Hit DMG 180.5%",
+                            "3": "Charged Attack 198.2%/233.2%/268.2%/303.2%/338.1%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Scarlet Seal Stamina Consumption Decrease 15% Per Seal",
+                            "6": "Scarlet Seal Duration 10s",
+                            "7": "Plunge DMG 152%",
+                            "8": "Low/High Plunge DMG 303.9%/379.6%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104316",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112035",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112037",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112037",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112037",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112037",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Signed Edict",
+                    "description": "Summons blistering flames that deal <color=#FF9999FF>AoE Pyro DMG</color>.\\nOpponents hit by the flames will grant Yanfei the maximum number of Scarlet Seals.\\n\\n<i>Apart from their legal uses, Yanfei's seals also come with her customized additional terms and conditions. Well, it's not as if the Ministry of Civil Affairs can change the laws of nature.</i>",
+                    "icon": "Skill_S_Feiyan_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 169.6%",
+                            "1": "CD 9s"
+                        },
+                        "2": {
+                            "0": "Skill DMG 182.3%",
+                            "1": "CD 9s"
+                        },
+                        "3": {
+                            "0": "Skill DMG 195%",
+                            "1": "CD 9s"
+                        },
+                        "4": {
+                            "0": "Skill DMG 212%",
+                            "1": "CD 9s"
+                        },
+                        "5": {
+                            "0": "Skill DMG 224.7%",
+                            "1": "CD 9s"
+                        },
+                        "6": {
+                            "0": "Skill DMG 237.4%",
+                            "1": "CD 9s"
+                        },
+                        "7": {
+                            "0": "Skill DMG 254.4%",
+                            "1": "CD 9s"
+                        },
+                        "8": {
+                            "0": "Skill DMG 271.4%",
+                            "1": "CD 9s"
+                        },
+                        "9": {
+                            "0": "Skill DMG 288.3%",
+                            "1": "CD 9s"
+                        },
+                        "10": {
+                            "0": "Skill DMG 305.3%",
+                            "1": "CD 9s"
+                        },
+                        "11": {
+                            "0": "Skill DMG 322.2%",
+                            "1": "CD 9s"
+                        },
+                        "12": {
+                            "0": "Skill DMG 339.2%",
+                            "1": "CD 9s"
+                        },
+                        "13": {
+                            "0": "Skill DMG 360.4%",
+                            "1": "CD 9s"
+                        },
+                        "14": {
+                            "0": "Skill DMG 381.6%",
+                            "1": "CD 9s"
+                        },
+                        "15": {
+                            "0": "Skill DMG 402.8%",
+                            "1": "CD 9s"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104316",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112035",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112037",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112037",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112037",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112037",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Done Deal",
+                    "description": "Triggers a spray of intense flames that rush at nearby opponents, dealing <color=#FF9999FF>AoE Pyro DMG</color>, granting Yanfei the maximum number of Scarlet Seals, and applying Brilliance to her.\\n\\n<color=#FFD780FF>Brilliance</color>\\nHas the following effects:\\n·Grants Yanfei a Scarlet Seal at fixed intervals.\\n·Increases the DMG dealt by her Charged Attacks.\\nThe effects of Brilliance will end if Yanfei leaves the field or falls in battle.\\n\\n<i>\"Here are the full terms for this matter of life and death — by which I mean my life and your death!\"</i>",
+                    "icon": "Skill_E_Feiyan_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 182.4%",
+                            "2": "Scarlet Seal Grant Interval 1s",
+                            "3": "Charged Attack DMG Bonus 33.4%",
+                            "4": "Duration 15s",
+                            "5": "CD 20s",
+                            "6": "Energy Cost 80"
+                        },
+                        "2": {
+                            "0": "Skill DMG 196.1%",
+                            "2": "Scarlet Seal Grant Interval 1s",
+                            "3": "Charged Attack DMG Bonus 35.4%",
+                            "4": "Duration 15s",
+                            "5": "CD 20s",
+                            "6": "Energy Cost 80"
+                        },
+                        "3": {
+                            "0": "Skill DMG 209.8%",
+                            "2": "Scarlet Seal Grant Interval 1s",
+                            "3": "Charged Attack DMG Bonus 37.4%",
+                            "4": "Duration 15s",
+                            "5": "CD 20s",
+                            "6": "Energy Cost 80"
+                        },
+                        "4": {
+                            "0": "Skill DMG 228%",
+                            "2": "Scarlet Seal Grant Interval 1s",
+                            "3": "Charged Attack DMG Bonus 40%",
+                            "4": "Duration 15s",
+                            "5": "CD 20s",
+                            "6": "Energy Cost 80"
+                        },
+                        "5": {
+                            "0": "Skill DMG 241.7%",
+                            "2": "Scarlet Seal Grant Interval 1s",
+                            "3": "Charged Attack DMG Bonus 42%",
+                            "4": "Duration 15s",
+                            "5": "CD 20s",
+                            "6": "Energy Cost 80"
+                        },
+                        "6": {
+                            "0": "Skill DMG 255.4%",
+                            "2": "Scarlet Seal Grant Interval 1s",
+                            "3": "Charged Attack DMG Bonus 44%",
+                            "4": "Duration 15s",
+                            "5": "CD 20s",
+                            "6": "Energy Cost 80"
+                        },
+                        "7": {
+                            "0": "Skill DMG 273.6%",
+                            "2": "Scarlet Seal Grant Interval 1s",
+                            "3": "Charged Attack DMG Bonus 46.6%",
+                            "4": "Duration 15s",
+                            "5": "CD 20s",
+                            "6": "Energy Cost 80"
+                        },
+                        "8": {
+                            "0": "Skill DMG 291.8%",
+                            "2": "Scarlet Seal Grant Interval 1s",
+                            "3": "Charged Attack DMG Bonus 49.2%",
+                            "4": "Duration 15s",
+                            "5": "CD 20s",
+                            "6": "Energy Cost 80"
+                        },
+                        "9": {
+                            "0": "Skill DMG 310.1%",
+                            "2": "Scarlet Seal Grant Interval 1s",
+                            "3": "Charged Attack DMG Bonus 51.8%",
+                            "4": "Duration 15s",
+                            "5": "CD 20s",
+                            "6": "Energy Cost 80"
+                        },
+                        "10": {
+                            "0": "Skill DMG 328.3%",
+                            "2": "Scarlet Seal Grant Interval 1s",
+                            "3": "Charged Attack DMG Bonus 54.4%",
+                            "4": "Duration 15s",
+                            "5": "CD 20s",
+                            "6": "Energy Cost 80"
+                        },
+                        "11": {
+                            "0": "Skill DMG 346.6%",
+                            "2": "Scarlet Seal Grant Interval 1s",
+                            "3": "Charged Attack DMG Bonus 57%",
+                            "4": "Duration 15s",
+                            "5": "CD 20s",
+                            "6": "Energy Cost 80"
+                        },
+                        "12": {
+                            "0": "Skill DMG 364.8%",
+                            "2": "Scarlet Seal Grant Interval 1s",
+                            "3": "Charged Attack DMG Bonus 59.6%",
+                            "4": "Duration 15s",
+                            "5": "CD 20s",
+                            "6": "Energy Cost 80"
+                        },
+                        "13": {
+                            "0": "Skill DMG 387.6%",
+                            "2": "Scarlet Seal Grant Interval 1s",
+                            "3": "Charged Attack DMG Bonus 62.2%",
+                            "4": "Duration 15s",
+                            "5": "CD 20s",
+                            "6": "Energy Cost 80"
+                        },
+                        "14": {
+                            "0": "Skill DMG 410.4%",
+                            "2": "Scarlet Seal Grant Interval 1s",
+                            "3": "Charged Attack DMG Bonus 64.8%",
+                            "4": "Duration 15s",
+                            "5": "CD 20s",
+                            "6": "Energy Cost 80"
+                        },
+                        "15": {
+                            "0": "Skill DMG 433.2%",
+                            "2": "Scarlet Seal Grant Interval 1s",
+                            "3": "Charged Attack DMG Bonus 67.4%",
+                            "4": "Duration 15s",
+                            "5": "CD 20s",
+                            "6": "Energy Cost 80"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104316",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112035",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112037",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112037",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112037",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112037",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Done Deal",
+                    "description": "Triggers a spray of intense flames that rush at nearby opponents, dealing <color=#FF9999FF>AoE Pyro DMG</color>, granting Yanfei the maximum number of Scarlet Seals, and applying Brilliance to her.\\n\\n<color=#FFD780FF>Brilliance</color>\\nHas the following effects:\\n·Grants Yanfei a Scarlet Seal at fixed intervals.\\n·Increases the DMG dealt by her Charged Attacks.\\nThe effects of Brilliance will end if Yanfei leaves the field or falls in battle.\\n\\n<i>\"Here are the full terms for this matter of life and death — by which I mean my life and your death!\"</i>",
+                    "icon": "Skill_E_Feiyan_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 182.4%",
+                            "2": "Scarlet Seal Grant Interval 1s",
+                            "3": "Charged Attack DMG Bonus 33.4%",
+                            "4": "Duration 15s",
+                            "5": "CD 20s",
+                            "6": "Energy Cost 80"
+                        },
+                        "2": {
+                            "0": "Skill DMG 196.1%",
+                            "2": "Scarlet Seal Grant Interval 1s",
+                            "3": "Charged Attack DMG Bonus 35.4%",
+                            "4": "Duration 15s",
+                            "5": "CD 20s",
+                            "6": "Energy Cost 80"
+                        },
+                        "3": {
+                            "0": "Skill DMG 209.8%",
+                            "2": "Scarlet Seal Grant Interval 1s",
+                            "3": "Charged Attack DMG Bonus 37.4%",
+                            "4": "Duration 15s",
+                            "5": "CD 20s",
+                            "6": "Energy Cost 80"
+                        },
+                        "4": {
+                            "0": "Skill DMG 228%",
+                            "2": "Scarlet Seal Grant Interval 1s",
+                            "3": "Charged Attack DMG Bonus 40%",
+                            "4": "Duration 15s",
+                            "5": "CD 20s",
+                            "6": "Energy Cost 80"
+                        },
+                        "5": {
+                            "0": "Skill DMG 241.7%",
+                            "2": "Scarlet Seal Grant Interval 1s",
+                            "3": "Charged Attack DMG Bonus 42%",
+                            "4": "Duration 15s",
+                            "5": "CD 20s",
+                            "6": "Energy Cost 80"
+                        },
+                        "6": {
+                            "0": "Skill DMG 255.4%",
+                            "2": "Scarlet Seal Grant Interval 1s",
+                            "3": "Charged Attack DMG Bonus 44%",
+                            "4": "Duration 15s",
+                            "5": "CD 20s",
+                            "6": "Energy Cost 80"
+                        },
+                        "7": {
+                            "0": "Skill DMG 273.6%",
+                            "2": "Scarlet Seal Grant Interval 1s",
+                            "3": "Charged Attack DMG Bonus 46.6%",
+                            "4": "Duration 15s",
+                            "5": "CD 20s",
+                            "6": "Energy Cost 80"
+                        },
+                        "8": {
+                            "0": "Skill DMG 291.8%",
+                            "2": "Scarlet Seal Grant Interval 1s",
+                            "3": "Charged Attack DMG Bonus 49.2%",
+                            "4": "Duration 15s",
+                            "5": "CD 20s",
+                            "6": "Energy Cost 80"
+                        },
+                        "9": {
+                            "0": "Skill DMG 310.1%",
+                            "2": "Scarlet Seal Grant Interval 1s",
+                            "3": "Charged Attack DMG Bonus 51.8%",
+                            "4": "Duration 15s",
+                            "5": "CD 20s",
+                            "6": "Energy Cost 80"
+                        },
+                        "10": {
+                            "0": "Skill DMG 328.3%",
+                            "2": "Scarlet Seal Grant Interval 1s",
+                            "3": "Charged Attack DMG Bonus 54.4%",
+                            "4": "Duration 15s",
+                            "5": "CD 20s",
+                            "6": "Energy Cost 80"
+                        },
+                        "11": {
+                            "0": "Skill DMG 346.6%",
+                            "2": "Scarlet Seal Grant Interval 1s",
+                            "3": "Charged Attack DMG Bonus 57%",
+                            "4": "Duration 15s",
+                            "5": "CD 20s",
+                            "6": "Energy Cost 80"
+                        },
+                        "12": {
+                            "0": "Skill DMG 364.8%",
+                            "2": "Scarlet Seal Grant Interval 1s",
+                            "3": "Charged Attack DMG Bonus 59.6%",
+                            "4": "Duration 15s",
+                            "5": "CD 20s",
+                            "6": "Energy Cost 80"
+                        },
+                        "13": {
+                            "0": "Skill DMG 387.6%",
+                            "2": "Scarlet Seal Grant Interval 1s",
+                            "3": "Charged Attack DMG Bonus 62.2%",
+                            "4": "Duration 15s",
+                            "5": "CD 20s",
+                            "6": "Energy Cost 80"
+                        },
+                        "14": {
+                            "0": "Skill DMG 410.4%",
+                            "2": "Scarlet Seal Grant Interval 1s",
+                            "3": "Charged Attack DMG Bonus 64.8%",
+                            "4": "Duration 15s",
+                            "5": "CD 20s",
+                            "6": "Energy Cost 80"
+                        },
+                        "15": {
+                            "0": "Skill DMG 433.2%",
+                            "2": "Scarlet Seal Grant Interval 1s",
+                            "3": "Charged Attack DMG Bonus 67.4%",
+                            "4": "Duration 15s",
+                            "5": "CD 20s",
+                            "6": "Energy Cost 80"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104316",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112035",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112037",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112037",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112037",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112037",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Proviso",
+                    "description": "When Yanfei consumes Scarlet Seals by using a Charged Attack, each Scarlet Seal will increase Yanfei's <color=#FF9999FF>Pyro DMG Bonus</color> by 5%. This effect lasts for 6s. When a Charged Attack is used again during the effect's duration, it will dispel the previous effect.",
+                    "icon": "UI_Talent_S_Feiyan_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Blazing Eye",
+                    "description": "When Yanfei's Charged Attack deals a CRIT Hit to opponents, she will deal an additional instance of <color=#FF9999FF>AoE Pyro DMG</color> equal to 80% of her ATK. This DMG counts as Charged Attack DMG.",
+                    "icon": "UI_Talent_S_Feiyan_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Encyclopedic Expertise",
+                    "description": "Displays the location of nearby <color=#FFD780FF>resources unique to Liyue</color> on the mini-map.",
+                    "icon": "UI_Talent_Collect_Local_Liyue",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "The Law Knows No Kindness",
+                    "description": "When Yanfei uses her Charged Attack, each existing Scarlet Seal additionally reduces the stamina cost of this Charged Attack by 10% and increases resistance against interruption during its release.",
+                    "icon": "UI_Talent_S_Feiyan_01"
+                },
+                "1": {
+                    "name": "Right of Final Interpretation",
+                    "description": "Increases Yanfei's Charged Attack CRIT Rate by 20% against enemies below 50% HP.",
+                    "icon": "UI_Talent_S_Feiyan_02"
+                },
+                "2": {
+                    "name": "Samadhi Fire-Forged",
+                    "description": "Increases the Level of <color=#FFD780FF>Signed Edict</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Feiyan_01"
+                },
+                "3": {
+                    "name": "Supreme Amnesty",
+                    "description": "When <color=#FFD780FF>Done Deal</color> is used:\\nCreates a shield that absorbs up to 45% of Yanfei's Max HP for 15s.\\nThis shield absorbs <color=#FF9999FF>Pyro DMG</color> 250% more effectively.",
+                    "icon": "UI_Talent_S_Feiyan_03"
+                },
+                "4": {
+                    "name": "Abiding Affidavit",
+                    "description": "Increases the Level of <color=#FFD780FF>Done Deal</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Feiyan_02"
+                },
+                "5": {
+                    "name": "Extra Clause",
+                    "description": "Increases the maximum number of Scarlet Seals by 1.",
+                    "icon": "UI_Talent_S_Feiyan_04"
+                }
+            },
+            "elevation": {
+                "sub": "Pyro DMG Bonus %",
+                "0": {
+                    "stats": {
+                        "HP": 784,
+                        "ATK": 20,
+                        "DEF": 49,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2014,
+                        "ATK": 52,
+                        "DEF": 126,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100028",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104111",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112035",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 2600,
+                        "ATK": 67,
+                        "DEF": 163,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 3895,
+                        "ATK": 100,
+                        "DEF": 244,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100028",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104112",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112035",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113016",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 4311,
+                        "ATK": 111,
+                        "DEF": 271,
+                        "sub": 6.0
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 4959,
+                        "ATK": 127,
+                        "DEF": 311,
+                        "sub": 6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100028",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104112",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112036",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113016",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 5514,
+                        "ATK": 141,
+                        "DEF": 346,
+                        "sub": 12
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 6161,
+                        "ATK": 158,
+                        "DEF": 387,
+                        "sub": 12
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100028",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104113",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112036",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113016",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 6578,
+                        "ATK": 169,
+                        "DEF": 413,
+                        "sub": 12
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 7225,
+                        "ATK": 185,
+                        "DEF": 453,
+                        "sub": 12
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100028",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104113",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112037",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113016",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 7641,
+                        "ATK": 196,
+                        "DEF": 480,
+                        "sub": 18
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 8289,
+                        "ATK": 213,
+                        "DEF": 520,
+                        "sub": 18
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100028",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104114",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112037",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113016",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 8705,
+                        "ATK": 223,
+                        "DEF": 546,
+                        "sub": 24
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 9352,
+                        "ATK": 240,
+                        "DEF": 587,
+                        "sub": 24
+                    },
+                    "res": {}
+                }
+            }
+        },
+        "ru": {
+            "name": "Yanfei",
+            "name_ru": "Янь Фэй",
+            "id": 10000048,
+            "rarity": 4,
+            "weapon": "Catalyst",
+            "element": "Pyro",
+            "region": "Liyue",
+            "more": {
+                "title": "Непорочная мудрость",
+                "detail": "Известный консультант по юридическим вопросам из Ли Юэ. Проницательная девушка, в чьих венах течёт кровь Божественного зверя.",
+                "constellation": "Волшебный Зверь",
+                "group": "Юридическая консультация Янь Фэй",
+                "birthday": "28.7",
+                "release": "26.04.2021",
+                "cv": {
+                    "en": "Lizzie Freeman",
+                    "chs": "苏子芜",
+                    "jp": "花守ゆみり",
+                    "kr": "Jo Kyeong-lee"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Печать одобрения",
+                    "description": "<color=#FFD780FF>Обычная атака:</color>\\nЗапускает до трёх огненных шаров, которые наносят <color=#FF9999FF>Пиро урон</color>.\\nКогда обычная атака попадает по врагу, Янь Фэй получает одну Багровую печать. Изначально может иметь максимум три печати. При каждой активации длительность уже имеющихся Багровых печатей обновляется.\\nКаждая Багровая печать снижает потребление выносливости Янь Фэй. Печати исчезают при смене персонажа.\\n\\n<color=#FFD780FF>Заряженная атака:</color>\\nПосле прочтения краткого заклинания тратит некоторое количество выносливости и все Багровые печати, нанося <color=#FF9999FF>Пиро урон по площади</color> перед собой.\\nЧем больше потрачено Багровых печатей, тем больше урон и радиус заряженной атаки.\\n\\n<color=#FFD780FF>Атака в падении:</color>\\nНакопив энергию огня, стремительно падает на землю, атакуя всех врагов на пути. Приземлившись, наносит <color=#FF9999FF>Пиро урон по площади</color>.",
+                    "icon": "Skill_A_Catalyst_MD",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон атаки 1 58.3%",
+                            "1": "Урон атаки 2 52.1%",
+                            "2": "Урон атаки 3 76%",
+                            "3": "Урон заряженной атаки 98.2%/115.6%/132.9%/150.2%/167.6%",
+                            "4": "Потребление выносливости заряженной атакой 50 ед.",
+                            "5": "Снижение потребления выносливости багровой печатью 15%",
+                            "6": "Длительность Багровой печати 10 сек.",
+                            "7": "Урон в падении 56.8%",
+                            "8": "Урон низкого/высокого удара 113.6%/141.9%"
+                        },
+                        "2": {
+                            "0": "Урон атаки 1 62.7%",
+                            "1": "Урон атаки 2 56%",
+                            "2": "Урон атаки 3 81.7%",
+                            "3": "Урон заряженной атаки 104.1%/122.5%/140.9%/159.2%/177.6%",
+                            "4": "Потребление выносливости заряженной атакой 50 ед.",
+                            "5": "Снижение потребления выносливости багровой печатью 15%",
+                            "6": "Длительность Багровой печати 10 сек.",
+                            "7": "Урон в падении 61.5%",
+                            "8": "Урон низкого/высокого удара 122.9%/153.5%"
+                        },
+                        "3": {
+                            "0": "Урон атаки 1 67.1%",
+                            "1": "Урон атаки 2 59.9%",
+                            "2": "Урон атаки 3 87.4%",
+                            "3": "Урон заряженной атаки 110%/129.4%/148.8%/168.2%/187.6%",
+                            "4": "Потребление выносливости заряженной атакой 50 ед.",
+                            "5": "Снижение потребления выносливости багровой печатью 15%",
+                            "6": "Длительность Багровой печати 10 сек.",
+                            "7": "Урон в падении 66.1%",
+                            "8": "Урон низкого/высокого удара 132.1%/165%"
+                        },
+                        "4": {
+                            "0": "Урон атаки 1 72.9%",
+                            "1": "Урон атаки 2 65.2%",
+                            "2": "Урон атаки 3 95%",
+                            "3": "Урон заряженной атаки 117.6%/138.4%/159.2%/179.9%/200.7%",
+                            "4": "Потребление выносливости заряженной атакой 50 ед.",
+                            "5": "Снижение потребления выносливости багровой печатью 15%",
+                            "6": "Длительность Багровой печати 10 сек.",
+                            "7": "Урон в падении 72.7%",
+                            "8": "Урон низкого/высокого удара 145.3%/181.5%"
+                        },
+                        "5": {
+                            "0": "Урон атаки 1 77.3%",
+                            "1": "Урон атаки 2 69.1%",
+                            "2": "Урон атаки 3 100.7%",
+                            "3": "Урон заряженной атаки 123.5%/145.3%/167.1%/188.9%/210.7%",
+                            "4": "Потребление выносливости заряженной атакой 50 ед.",
+                            "5": "Снижение потребления выносливости багровой печатью 15%",
+                            "6": "Длительность Багровой печати 10 сек.",
+                            "7": "Урон в падении 77.3%",
+                            "8": "Урон низкого/высокого удара 154.6%/193.1%"
+                        },
+                        "6": {
+                            "0": "Урон атаки 1 81.7%",
+                            "1": "Урон атаки 2 73%",
+                            "2": "Урон атаки 3 106.4%",
+                            "3": "Урон заряженной атаки 129.4%/152.2%/175.1%/197.9%/220.7%",
+                            "4": "Потребление выносливости заряженной атакой 50 ед.",
+                            "5": "Снижение потребления выносливости багровой печатью 15%",
+                            "6": "Длительность Багровой печати 10 сек.",
+                            "7": "Урон в падении 82.6%",
+                            "8": "Урон низкого/высокого удара 165.2%/206.3%"
+                        },
+                        "7": {
+                            "0": "Урон атаки 1 87.5%",
+                            "1": "Урон атаки 2 78.2%",
+                            "2": "Урон атаки 3 114%",
+                            "3": "Урон заряженной атаки 137.1%/161.2%/185.4%/209.6%/233.8%",
+                            "4": "Потребление выносливости заряженной атакой 50 ед.",
+                            "5": "Снижение потребления выносливости багровой печатью 15%",
+                            "6": "Длительность Багровой печати 10 сек.",
+                            "7": "Урон в падении 89.9%",
+                            "8": "Урон низкого/высокого удара 179.7%/224.5%"
+                        },
+                        "8": {
+                            "0": "Урон атаки 1 93.3%",
+                            "1": "Урон атаки 2 83.4%",
+                            "2": "Урон атаки 3 121.6%",
+                            "3": "Урон заряженной атаки 144.7%/170.2%/195.8%/221.3%/246.8%",
+                            "4": "Потребление выносливости заряженной атакой 50 ед.",
+                            "5": "Снижение потребления выносливости багровой печатью 15%",
+                            "6": "Длительность Багровой печати 10 сек.",
+                            "7": "Урон в падении 97.1%",
+                            "8": "Урон низкого/высокого удара 194.2%/242.6%"
+                        },
+                        "9": {
+                            "0": "Урон атаки 1 99.2%",
+                            "1": "Урон атаки 2 88.6%",
+                            "2": "Урон атаки 3 129.2%",
+                            "3": "Урон заряженной атаки 152.3%/179.2%/206.1%/233%/259.9%",
+                            "4": "Потребление выносливости заряженной атакой 50 ед.",
+                            "5": "Снижение потребления выносливости багровой печатью 15%",
+                            "6": "Длительность Багровой печати 10 сек.",
+                            "7": "Урон в падении 104.4%",
+                            "8": "Урон низкого/высокого удара 208.8%/260.8%"
+                        },
+                        "10": {
+                            "0": "Урон атаки 1 105%",
+                            "1": "Урон атаки 2 93.8%",
+                            "2": "Урон атаки 3 136.8%",
+                            "3": "Урон заряженной атаки 160%/188.2%/216.5%/244.7%/272.9%",
+                            "4": "Потребление выносливости заряженной атакой 50 ед.",
+                            "5": "Снижение потребления выносливости багровой печатью 15%",
+                            "6": "Длительность Багровой печати 10 сек.",
+                            "7": "Урон в падении 112.3%",
+                            "8": "Урон низкого/высокого удара 224.6%/280.6%"
+                        },
+                        "11": {
+                            "0": "Урон атаки 1 110.8%",
+                            "1": "Урон атаки 2 99%",
+                            "2": "Урон атаки 3 144.4%",
+                            "3": "Урон заряженной атаки 167.6%/197.2%/226.8%/256.4%/286%",
+                            "4": "Потребление выносливости заряженной атакой 50 ед.",
+                            "5": "Снижение потребления выносливости багровой печатью 15%",
+                            "6": "Длительность Багровой печати 10 сек.",
+                            "7": "Урон в падении 120.3%",
+                            "8": "Урон низкого/высокого удара 240.5%/300.4%"
+                        },
+                        "12": {
+                            "0": "Урон атаки 1 116.7%",
+                            "1": "Урон атаки 2 104.3%",
+                            "2": "Урон атаки 3 152%",
+                            "3": "Урон заряженной атаки 175.3%/206.2%/237.1%/268.1%/299%",
+                            "4": "Потребление выносливости заряженной атакой 50 ед.",
+                            "5": "Снижение потребления выносливости багровой печатью 15%",
+                            "6": "Длительность Багровой печати 10 сек.",
+                            "7": "Урон в падении 128.2%",
+                            "8": "Урон низкого/высокого удара 256.3%/320.2%"
+                        },
+                        "13": {
+                            "0": "Урон атаки 1 124%",
+                            "1": "Урон атаки 2 110.8%",
+                            "2": "Урон атаки 3 161.5%",
+                            "3": "Урон заряженной атаки 182.9%/215.2%/247.5%/279.8%/312.1%",
+                            "4": "Потребление выносливости заряженной атакой 50 ед.",
+                            "5": "Снижение потребления выносливости багровой печатью 15%",
+                            "6": "Длительность Багровой печати 10 сек.",
+                            "7": "Урон в падении 136.1%",
+                            "8": "Урон низкого/высокого удара 272.2%/340%"
+                        },
+                        "14": {
+                            "0": "Урон атаки 1 131.3%",
+                            "1": "Урон атаки 2 117.3%",
+                            "2": "Урон атаки 3 171%",
+                            "3": "Урон заряженной атаки 190.6%/224.2%/257.8%/291.5%/325.1%",
+                            "4": "Потребление выносливости заряженной атакой 50 ед.",
+                            "5": "Снижение потребления выносливости багровой печатью 15%",
+                            "6": "Длительность Багровой печати 10 сек.",
+                            "7": "Урон в падении 144.1%",
+                            "8": "Урон низкого/высокого удара 288%/359.8%"
+                        },
+                        "15": {
+                            "0": "Урон атаки 1 138.6%",
+                            "1": "Урон атаки 2 123.8%",
+                            "2": "Урон атаки 3 180.5%",
+                            "3": "Урон заряженной атаки 198.2%/233.2%/268.2%/303.2%/338.1%",
+                            "4": "Потребление выносливости заряженной атакой 50 ед.",
+                            "5": "Снижение потребления выносливости багровой печатью 15%",
+                            "6": "Длительность Багровой печати 10 сек.",
+                            "7": "Урон в падении 152%",
+                            "8": "Урон низкого/высокого удара 303.9%/379.6%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104316",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112035",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112037",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112037",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112037",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112037",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Подписанный указ",
+                    "description": "Призывает языки пламени, которые наносят <color=#FF9999FF>Пиро урон по площади</color>.\\nПри попадании по врагу даёт Янь Фэй максимальное количество Багровых печатей.\\n\\n<i>Печать, нанесённая огнём, имеет не только юридическую силу, но и накладывает дополнительные условия от самой Янь Фэй. Ведь законы природы не изменить, опираясь лишь на авторитет Департамента по делам граждан.</i>",
+                    "icon": "Skill_S_Feiyan_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 169.6%",
+                            "1": "Время отката 9 сек."
+                        },
+                        "2": {
+                            "0": "Урон навыка 182.3%",
+                            "1": "Время отката 9 сек."
+                        },
+                        "3": {
+                            "0": "Урон навыка 195%",
+                            "1": "Время отката 9 сек."
+                        },
+                        "4": {
+                            "0": "Урон навыка 212%",
+                            "1": "Время отката 9 сек."
+                        },
+                        "5": {
+                            "0": "Урон навыка 224.7%",
+                            "1": "Время отката 9 сек."
+                        },
+                        "6": {
+                            "0": "Урон навыка 237.4%",
+                            "1": "Время отката 9 сек."
+                        },
+                        "7": {
+                            "0": "Урон навыка 254.4%",
+                            "1": "Время отката 9 сек."
+                        },
+                        "8": {
+                            "0": "Урон навыка 271.4%",
+                            "1": "Время отката 9 сек."
+                        },
+                        "9": {
+                            "0": "Урон навыка 288.3%",
+                            "1": "Время отката 9 сек."
+                        },
+                        "10": {
+                            "0": "Урон навыка 305.3%",
+                            "1": "Время отката 9 сек."
+                        },
+                        "11": {
+                            "0": "Урон навыка 322.2%",
+                            "1": "Время отката 9 сек."
+                        },
+                        "12": {
+                            "0": "Урон навыка 339.2%",
+                            "1": "Время отката 9 сек."
+                        },
+                        "13": {
+                            "0": "Урон навыка 360.4%",
+                            "1": "Время отката 9 сек."
+                        },
+                        "14": {
+                            "0": "Урон навыка 381.6%",
+                            "1": "Время отката 9 сек."
+                        },
+                        "15": {
+                            "0": "Урон навыка 402.8%",
+                            "1": "Время отката 9 сек."
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104316",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112035",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112037",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112037",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112037",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112037",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "По рукам",
+                    "description": "Вызывает яростный поток огня, который бьёт окружающих врагов, нанося <color=#FF9999FF>Пиро урон по площади</color>. Также даёт Янь Фэй максимальное количество Багровых печатей и эффект Блеска.\\n<color=#FFD780FF>Блеск</color>\\nИмеет следующие эффекты:\\n· Периодически даёт Янь Фэй одну Багровую печать.\\n· Увеличивает урон заряженной атаки.\\nЭффект Блеска пропадает, если Янь Фэй покидает поле боя или погибает.\\n\\n<i>«Условия ясны, договор о жизни и смерти заключён. Ты умрёшь - я буду жить!»</i>",
+                    "icon": "Skill_E_Feiyan_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 182.4%",
+                            "2": "Интервал получения Багровой печати 1 сек.",
+                            "3": "Увеличение урона заряженной атаки 33.4%",
+                            "4": "Длительность 15 сек.",
+                            "5": "Время отката 20 сек.",
+                            "6": "Потребление энергии 80"
+                        },
+                        "2": {
+                            "0": "Урон навыка 196.1%",
+                            "2": "Интервал получения Багровой печати 1 сек.",
+                            "3": "Увеличение урона заряженной атаки 35.4%",
+                            "4": "Длительность 15 сек.",
+                            "5": "Время отката 20 сек.",
+                            "6": "Потребление энергии 80"
+                        },
+                        "3": {
+                            "0": "Урон навыка 209.8%",
+                            "2": "Интервал получения Багровой печати 1 сек.",
+                            "3": "Увеличение урона заряженной атаки 37.4%",
+                            "4": "Длительность 15 сек.",
+                            "5": "Время отката 20 сек.",
+                            "6": "Потребление энергии 80"
+                        },
+                        "4": {
+                            "0": "Урон навыка 228%",
+                            "2": "Интервал получения Багровой печати 1 сек.",
+                            "3": "Увеличение урона заряженной атаки 40%",
+                            "4": "Длительность 15 сек.",
+                            "5": "Время отката 20 сек.",
+                            "6": "Потребление энергии 80"
+                        },
+                        "5": {
+                            "0": "Урон навыка 241.7%",
+                            "2": "Интервал получения Багровой печати 1 сек.",
+                            "3": "Увеличение урона заряженной атаки 42%",
+                            "4": "Длительность 15 сек.",
+                            "5": "Время отката 20 сек.",
+                            "6": "Потребление энергии 80"
+                        },
+                        "6": {
+                            "0": "Урон навыка 255.4%",
+                            "2": "Интервал получения Багровой печати 1 сек.",
+                            "3": "Увеличение урона заряженной атаки 44%",
+                            "4": "Длительность 15 сек.",
+                            "5": "Время отката 20 сек.",
+                            "6": "Потребление энергии 80"
+                        },
+                        "7": {
+                            "0": "Урон навыка 273.6%",
+                            "2": "Интервал получения Багровой печати 1 сек.",
+                            "3": "Увеличение урона заряженной атаки 46.6%",
+                            "4": "Длительность 15 сек.",
+                            "5": "Время отката 20 сек.",
+                            "6": "Потребление энергии 80"
+                        },
+                        "8": {
+                            "0": "Урон навыка 291.8%",
+                            "2": "Интервал получения Багровой печати 1 сек.",
+                            "3": "Увеличение урона заряженной атаки 49.2%",
+                            "4": "Длительность 15 сек.",
+                            "5": "Время отката 20 сек.",
+                            "6": "Потребление энергии 80"
+                        },
+                        "9": {
+                            "0": "Урон навыка 310.1%",
+                            "2": "Интервал получения Багровой печати 1 сек.",
+                            "3": "Увеличение урона заряженной атаки 51.8%",
+                            "4": "Длительность 15 сек.",
+                            "5": "Время отката 20 сек.",
+                            "6": "Потребление энергии 80"
+                        },
+                        "10": {
+                            "0": "Урон навыка 328.3%",
+                            "2": "Интервал получения Багровой печати 1 сек.",
+                            "3": "Увеличение урона заряженной атаки 54.4%",
+                            "4": "Длительность 15 сек.",
+                            "5": "Время отката 20 сек.",
+                            "6": "Потребление энергии 80"
+                        },
+                        "11": {
+                            "0": "Урон навыка 346.6%",
+                            "2": "Интервал получения Багровой печати 1 сек.",
+                            "3": "Увеличение урона заряженной атаки 57%",
+                            "4": "Длительность 15 сек.",
+                            "5": "Время отката 20 сек.",
+                            "6": "Потребление энергии 80"
+                        },
+                        "12": {
+                            "0": "Урон навыка 364.8%",
+                            "2": "Интервал получения Багровой печати 1 сек.",
+                            "3": "Увеличение урона заряженной атаки 59.6%",
+                            "4": "Длительность 15 сек.",
+                            "5": "Время отката 20 сек.",
+                            "6": "Потребление энергии 80"
+                        },
+                        "13": {
+                            "0": "Урон навыка 387.6%",
+                            "2": "Интервал получения Багровой печати 1 сек.",
+                            "3": "Увеличение урона заряженной атаки 62.2%",
+                            "4": "Длительность 15 сек.",
+                            "5": "Время отката 20 сек.",
+                            "6": "Потребление энергии 80"
+                        },
+                        "14": {
+                            "0": "Урон навыка 410.4%",
+                            "2": "Интервал получения Багровой печати 1 сек.",
+                            "3": "Увеличение урона заряженной атаки 64.8%",
+                            "4": "Длительность 15 сек.",
+                            "5": "Время отката 20 сек.",
+                            "6": "Потребление энергии 80"
+                        },
+                        "15": {
+                            "0": "Урон навыка 433.2%",
+                            "2": "Интервал получения Багровой печати 1 сек.",
+                            "3": "Увеличение урона заряженной атаки 67.4%",
+                            "4": "Длительность 15 сек.",
+                            "5": "Время отката 20 сек.",
+                            "6": "Потребление энергии 80"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104316",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112035",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112037",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112037",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112037",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112037",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "По рукам",
+                    "description": "Вызывает яростный поток огня, который бьёт окружающих врагов, нанося <color=#FF9999FF>Пиро урон по площади</color>. Также даёт Янь Фэй максимальное количество Багровых печатей и эффект Блеска.\\n<color=#FFD780FF>Блеск</color>\\nИмеет следующие эффекты:\\n· Периодически даёт Янь Фэй одну Багровую печать.\\n· Увеличивает урон заряженной атаки.\\nЭффект Блеска пропадает, если Янь Фэй покидает поле боя или погибает.\\n\\n<i>«Условия ясны, договор о жизни и смерти заключён. Ты умрёшь - я буду жить!»</i>",
+                    "icon": "Skill_E_Feiyan_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 182.4%",
+                            "2": "Интервал получения Багровой печати 1 сек.",
+                            "3": "Увеличение урона заряженной атаки 33.4%",
+                            "4": "Длительность 15 сек.",
+                            "5": "Время отката 20 сек.",
+                            "6": "Потребление энергии 80"
+                        },
+                        "2": {
+                            "0": "Урон навыка 196.1%",
+                            "2": "Интервал получения Багровой печати 1 сек.",
+                            "3": "Увеличение урона заряженной атаки 35.4%",
+                            "4": "Длительность 15 сек.",
+                            "5": "Время отката 20 сек.",
+                            "6": "Потребление энергии 80"
+                        },
+                        "3": {
+                            "0": "Урон навыка 209.8%",
+                            "2": "Интервал получения Багровой печати 1 сек.",
+                            "3": "Увеличение урона заряженной атаки 37.4%",
+                            "4": "Длительность 15 сек.",
+                            "5": "Время отката 20 сек.",
+                            "6": "Потребление энергии 80"
+                        },
+                        "4": {
+                            "0": "Урон навыка 228%",
+                            "2": "Интервал получения Багровой печати 1 сек.",
+                            "3": "Увеличение урона заряженной атаки 40%",
+                            "4": "Длительность 15 сек.",
+                            "5": "Время отката 20 сек.",
+                            "6": "Потребление энергии 80"
+                        },
+                        "5": {
+                            "0": "Урон навыка 241.7%",
+                            "2": "Интервал получения Багровой печати 1 сек.",
+                            "3": "Увеличение урона заряженной атаки 42%",
+                            "4": "Длительность 15 сек.",
+                            "5": "Время отката 20 сек.",
+                            "6": "Потребление энергии 80"
+                        },
+                        "6": {
+                            "0": "Урон навыка 255.4%",
+                            "2": "Интервал получения Багровой печати 1 сек.",
+                            "3": "Увеличение урона заряженной атаки 44%",
+                            "4": "Длительность 15 сек.",
+                            "5": "Время отката 20 сек.",
+                            "6": "Потребление энергии 80"
+                        },
+                        "7": {
+                            "0": "Урон навыка 273.6%",
+                            "2": "Интервал получения Багровой печати 1 сек.",
+                            "3": "Увеличение урона заряженной атаки 46.6%",
+                            "4": "Длительность 15 сек.",
+                            "5": "Время отката 20 сек.",
+                            "6": "Потребление энергии 80"
+                        },
+                        "8": {
+                            "0": "Урон навыка 291.8%",
+                            "2": "Интервал получения Багровой печати 1 сек.",
+                            "3": "Увеличение урона заряженной атаки 49.2%",
+                            "4": "Длительность 15 сек.",
+                            "5": "Время отката 20 сек.",
+                            "6": "Потребление энергии 80"
+                        },
+                        "9": {
+                            "0": "Урон навыка 310.1%",
+                            "2": "Интервал получения Багровой печати 1 сек.",
+                            "3": "Увеличение урона заряженной атаки 51.8%",
+                            "4": "Длительность 15 сек.",
+                            "5": "Время отката 20 сек.",
+                            "6": "Потребление энергии 80"
+                        },
+                        "10": {
+                            "0": "Урон навыка 328.3%",
+                            "2": "Интервал получения Багровой печати 1 сек.",
+                            "3": "Увеличение урона заряженной атаки 54.4%",
+                            "4": "Длительность 15 сек.",
+                            "5": "Время отката 20 сек.",
+                            "6": "Потребление энергии 80"
+                        },
+                        "11": {
+                            "0": "Урон навыка 346.6%",
+                            "2": "Интервал получения Багровой печати 1 сек.",
+                            "3": "Увеличение урона заряженной атаки 57%",
+                            "4": "Длительность 15 сек.",
+                            "5": "Время отката 20 сек.",
+                            "6": "Потребление энергии 80"
+                        },
+                        "12": {
+                            "0": "Урон навыка 364.8%",
+                            "2": "Интервал получения Багровой печати 1 сек.",
+                            "3": "Увеличение урона заряженной атаки 59.6%",
+                            "4": "Длительность 15 сек.",
+                            "5": "Время отката 20 сек.",
+                            "6": "Потребление энергии 80"
+                        },
+                        "13": {
+                            "0": "Урон навыка 387.6%",
+                            "2": "Интервал получения Багровой печати 1 сек.",
+                            "3": "Увеличение урона заряженной атаки 62.2%",
+                            "4": "Длительность 15 сек.",
+                            "5": "Время отката 20 сек.",
+                            "6": "Потребление энергии 80"
+                        },
+                        "14": {
+                            "0": "Урон навыка 410.4%",
+                            "2": "Интервал получения Багровой печати 1 сек.",
+                            "3": "Увеличение урона заряженной атаки 64.8%",
+                            "4": "Длительность 15 сек.",
+                            "5": "Время отката 20 сек.",
+                            "6": "Потребление энергии 80"
+                        },
+                        "15": {
+                            "0": "Урон навыка 433.2%",
+                            "2": "Интервал получения Багровой печати 1 сек.",
+                            "3": "Увеличение урона заряженной атаки 67.4%",
+                            "4": "Длительность 15 сек.",
+                            "5": "Время отката 20 сек.",
+                            "6": "Потребление энергии 80"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104316",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112035",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104317",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112036",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112037",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112037",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112037",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104318",
+                                    "cost": 16
+                                },
+                                "1": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "2": {
+                                    "id": "112037",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113018",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Оговорка",
+                    "description": "Когда заряженная атака Янь Фэй потребляет Багровые печати, каждая потраченная печать увеличивает <color=#FF9999FF>бонус Пиро урона</color> на 5%, эффект длится 6 сек. Если во время действия эффекта снова используется заряженная атака, то она снимает предыдущий эффект.",
+                    "icon": "UI_Talent_S_Feiyan_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Пламенный взгляд",
+                    "description": "При критическом попадании заряженной атаки по противнику Янь Фэй дополнительно наносит <color=#FF9999FF>Пиро урон по площади</color>, равный 80% силы атаки. Урон считается уроном заряженной атаки.",
+                    "icon": "UI_Talent_S_Feiyan_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Энциклопедические знания",
+                    "description": "Отмечает <color=#FFD780FF>диковинки Ли Юэ</color> на мини-карте.",
+                    "icon": "UI_Talent_Collect_Local_Liyue",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Закон суров",
+                    "description": "При проведении заряженной атаки каждая Багровая печать увеличивает сопротивление прерыванию во время чтения заклинания и снижает потребление выносливости этой заряженной атаки на 10%.",
+                    "icon": "UI_Talent_S_Feiyan_01"
+                },
+                "1": {
+                    "name": "Право толкования",
+                    "description": "Увеличивает на 20% шанс критического попадания заряженной атаки Янь Фэй против врагов с HP ниже 50%.",
+                    "icon": "UI_Talent_S_Feiyan_02"
+                },
+                "2": {
+                    "name": "Печать истины",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Подписанный указ</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Feiyan_01"
+                },
+                "3": {
+                    "name": "Охранная грамота",
+                    "description": "При использовании таланта <color=#FFD780FF>По рукам</color>:\\nСоздаёт щит, который в течение 15 сек. поглощает урон, равный 45% от макс. HP Янь Фэй.\\n<color=#FF9999FF>Пиро урон</color> поглощается с эффективностью 250%.",
+                    "icon": "UI_Talent_S_Feiyan_03"
+                },
+                "4": {
+                    "name": "Подчинение закону",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>По рукам</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Feiyan_02"
+                },
+                "5": {
+                    "name": "Дополнительный пункт",
+                    "description": "Увеличивает максимальное количество Багровых печатей на 1.",
+                    "icon": "UI_Talent_S_Feiyan_04"
+                }
+            },
+            "elevation": {
+                "sub": "Бонус Пиро урона %",
+                "0": {
+                    "stats": {
+                        "HP": 784,
+                        "ATK": 20,
+                        "DEF": 49,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2014,
+                        "ATK": 52,
+                        "DEF": 126,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100028",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104111",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112035",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 2600,
+                        "ATK": 67,
+                        "DEF": 163,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 3895,
+                        "ATK": 100,
+                        "DEF": 244,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100028",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104112",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112035",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113016",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 4311,
+                        "ATK": 111,
+                        "DEF": 271,
+                        "sub": 6.0
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 4959,
+                        "ATK": 127,
+                        "DEF": 311,
+                        "sub": 6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100028",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104112",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112036",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113016",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 5514,
+                        "ATK": 141,
+                        "DEF": 346,
+                        "sub": 12
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 6161,
+                        "ATK": 158,
+                        "DEF": 387,
+                        "sub": 12
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100028",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104113",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112036",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113016",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 6578,
+                        "ATK": 169,
+                        "DEF": 413,
+                        "sub": 12
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 7225,
+                        "ATK": 185,
+                        "DEF": 453,
+                        "sub": 12
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100028",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104113",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112037",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113016",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 7641,
+                        "ATK": 196,
+                        "DEF": 480,
+                        "sub": 18
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 8289,
+                        "ATK": 213,
+                        "DEF": 520,
+                        "sub": 18
+                    },
+                    "res": {
+                        "0": {
+                            "id": "100028",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104114",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112037",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113016",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 8705,
+                        "ATK": 223,
+                        "DEF": 546,
+                        "sub": 24
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 9352,
+                        "ATK": 240,
+                        "DEF": 587,
+                        "sub": 24
+                    },
+                    "res": {}
+                }
+            }
+        }
+    }
+}

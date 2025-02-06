@@ -1,0 +1,2904 @@
+{
+    "Neuvillette": {
+        "en": {
+            "name": "Neuvillette",
+            "name_ru": "Нёвиллет",
+            "id": 10000087,
+            "rarity": 5,
+            "weapon": "Catalyst",
+            "element": "Hydro",
+            "region": "Fontaine",
+            "more": {
+                "title": "Ordainer of Inexorable Judgment",
+                "detail": "The Chief Justice of Fontaine, known as the Iudex, is renowned for his unassailable impartiality.",
+                "constellation": "Leviathan Judicator",
+                "group": "Court of Fontaine",
+                "birthday": "18.12",
+                "release": "25.09.2023",
+                "cv": {
+                    "en": "Ray Chase",
+                    "chs": "桑毓泽",
+                    "jp": "神谷浩史",
+                    "kr": "Kwak Yoon-sang"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Normal Attack: As Water Seeks Equilibrium",
+                    "description": "<color=#FFD780FF>Normal Attack</color>\\nWith light flourishes, Neuvillette commands the tides to unleash a maximum of 3 attacks, dealing <color=#80C0FFFF>Hydro DMG</color>.\\n\\n<color=#FFD780FF>Charged Attack Empowerment: Legal Evaluation</color>\\nWhile charging up, Neuvillette will gather the power of water, forming it into a Seal of Arbitration. In this state, Neuvillette can move and change facing, and also absorb any Sourcewater Droplets in a certain AoE.\\nEvery Droplet he absorbs will increase the formation speed of the Seal, and will heal Neuvillette.\\nWhen the charging is stopped, if the Symbol has yet to be formed, then a Charged Attack will be unleashed. If it has been formed, then a Charged Attack: Equitable Judgment will be unleashed.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a fixed amount of Stamina to attack opponents with a rupturing blast of water, dealing <color=#80C0FFFF>AoE Hydro DMG</color>.\\n\\n<color=#FFD780FF>Charged Attack: Equitable Judgment</color>\\nUnleashes surging torrents, dealing continuous <color=#80C0FFFF>AoE Hydro DMG</color> to all opponents in a straight-line area in front of him.\\nEquitable Judgment will not consume any Stamina and lasts 3s.\\nIf Neuvillette's HP is above 50%, he will continuously lose HP while using this attack.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nGathering the might of Hydro, Neuvillette plunges towards the ground from mid-air, damaging all opponents in his path. Deals <color=#80C0FFFF>AoE Hydro DMG</color> upon impact with the ground.",
+                    "icon": "Skill_A_Catalyst_MD",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "1-Hit DMG 54.6%",
+                            "1": "2-Hit DMG 46.2%",
+                            "2": "3-Hit DMG 72.3%",
+                            "3": "Charged Attack DMG 136.8%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Charged Attack: Equitable Judgment {param5:F2P} Max HP",
+                            "6": "HP Restored 16% Max HP/Droplet",
+                            "7": "HP Loss 8% Max HP/0.5s",
+                            "8": "Plunge DMG 56.8%",
+                            "9": "Low/High Plunge DMG 113.6%/141.9%"
+                        },
+                        "2": {
+                            "0": "1-Hit DMG 58.7%",
+                            "1": "2-Hit DMG 49.7%",
+                            "2": "3-Hit DMG 77.8%",
+                            "3": "Charged Attack DMG 147.1%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Charged Attack: Equitable Judgment {param5:F2P} Max HP",
+                            "6": "HP Restored 16% Max HP/Droplet",
+                            "7": "HP Loss 8% Max HP/0.5s",
+                            "8": "Plunge DMG 61.5%",
+                            "9": "Low/High Plunge DMG 122.9%/153.5%"
+                        },
+                        "3": {
+                            "0": "1-Hit DMG 62.8%",
+                            "1": "2-Hit DMG 53.2%",
+                            "2": "3-Hit DMG 83.2%",
+                            "3": "Charged Attack DMG 157.3%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Charged Attack: Equitable Judgment {param5:F2P} Max HP",
+                            "6": "HP Restored 16% Max HP/Droplet",
+                            "7": "HP Loss 8% Max HP/0.5s",
+                            "8": "Plunge DMG 66.1%",
+                            "9": "Low/High Plunge DMG 132.1%/165%"
+                        },
+                        "4": {
+                            "0": "1-Hit DMG 68.2%",
+                            "1": "2-Hit DMG 57.8%",
+                            "2": "3-Hit DMG 90.4%",
+                            "3": "Charged Attack DMG 171%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Charged Attack: Equitable Judgment {param5:F2P} Max HP",
+                            "6": "HP Restored 16% Max HP/Droplet",
+                            "7": "HP Loss 8% Max HP/0.5s",
+                            "8": "Plunge DMG 72.7%",
+                            "9": "Low/High Plunge DMG 145.3%/181.5%"
+                        },
+                        "5": {
+                            "0": "1-Hit DMG 72.3%",
+                            "1": "2-Hit DMG 61.3%",
+                            "2": "3-Hit DMG 95.8%",
+                            "3": "Charged Attack DMG 181.3%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Charged Attack: Equitable Judgment {param5:F2P} Max HP",
+                            "6": "HP Restored 16% Max HP/Droplet",
+                            "7": "HP Loss 8% Max HP/0.5s",
+                            "8": "Plunge DMG 77.3%",
+                            "9": "Low/High Plunge DMG 154.6%/193.1%"
+                        },
+                        "6": {
+                            "0": "1-Hit DMG 76.4%",
+                            "1": "2-Hit DMG 64.7%",
+                            "2": "3-Hit DMG 101.3%",
+                            "3": "Charged Attack DMG 191.5%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Charged Attack: Equitable Judgment {param5:F2P} Max HP",
+                            "6": "HP Restored 16% Max HP/Droplet",
+                            "7": "HP Loss 8% Max HP/0.5s",
+                            "8": "Plunge DMG 82.6%",
+                            "9": "Low/High Plunge DMG 165.2%/206.3%"
+                        },
+                        "7": {
+                            "0": "1-Hit DMG 81.9%",
+                            "1": "2-Hit DMG 69.4%",
+                            "2": "3-Hit DMG 108.5%",
+                            "3": "Charged Attack DMG 205.2%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Charged Attack: Equitable Judgment {param5:F2P} Max HP",
+                            "6": "HP Restored 16% Max HP/Droplet",
+                            "7": "HP Loss 8% Max HP/0.5s",
+                            "8": "Plunge DMG 89.9%",
+                            "9": "Low/High Plunge DMG 179.7%/224.5%"
+                        },
+                        "8": {
+                            "0": "1-Hit DMG 87.3%",
+                            "1": "2-Hit DMG 74%",
+                            "2": "3-Hit DMG 115.7%",
+                            "3": "Charged Attack DMG 218.9%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Charged Attack: Equitable Judgment {param5:F2P} Max HP",
+                            "6": "HP Restored 16% Max HP/Droplet",
+                            "7": "HP Loss 8% Max HP/0.5s",
+                            "8": "Plunge DMG 97.1%",
+                            "9": "Low/High Plunge DMG 194.2%/242.6%"
+                        },
+                        "9": {
+                            "0": "1-Hit DMG 92.8%",
+                            "1": "2-Hit DMG 78.6%",
+                            "2": "3-Hit DMG 123%",
+                            "3": "Charged Attack DMG 232.6%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Charged Attack: Equitable Judgment {param5:F2P} Max HP",
+                            "6": "HP Restored 16% Max HP/Droplet",
+                            "7": "HP Loss 8% Max HP/0.5s",
+                            "8": "Plunge DMG 104.4%",
+                            "9": "Low/High Plunge DMG 208.8%/260.8%"
+                        },
+                        "10": {
+                            "0": "1-Hit DMG 98.2%",
+                            "1": "2-Hit DMG 83.2%",
+                            "2": "3-Hit DMG 130.2%",
+                            "3": "Charged Attack DMG 246.2%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Charged Attack: Equitable Judgment {param5:F2P} Max HP",
+                            "6": "HP Restored 16% Max HP/Droplet",
+                            "7": "HP Loss 8% Max HP/0.5s",
+                            "8": "Plunge DMG 112.3%",
+                            "9": "Low/High Plunge DMG 224.6%/280.6%"
+                        },
+                        "11": {
+                            "0": "1-Hit DMG 103.7%",
+                            "1": "2-Hit DMG 87.9%",
+                            "2": "3-Hit DMG 137.4%",
+                            "3": "Charged Attack DMG 259.9%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Charged Attack: Equitable Judgment {param5:F2P} Max HP",
+                            "6": "HP Restored 16% Max HP/Droplet",
+                            "7": "HP Loss 8% Max HP/0.5s",
+                            "8": "Plunge DMG 120.3%",
+                            "9": "Low/High Plunge DMG 240.5%/300.4%"
+                        },
+                        "12": {
+                            "0": "1-Hit DMG 109.2%",
+                            "1": "2-Hit DMG 92.5%",
+                            "2": "3-Hit DMG 144.7%",
+                            "3": "Charged Attack DMG 273.6%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Charged Attack: Equitable Judgment {param5:F2P} Max HP",
+                            "6": "HP Restored 16% Max HP/Droplet",
+                            "7": "HP Loss 8% Max HP/0.5s",
+                            "8": "Plunge DMG 128.2%",
+                            "9": "Low/High Plunge DMG 256.3%/320.2%"
+                        },
+                        "13": {
+                            "0": "1-Hit DMG 116%",
+                            "1": "2-Hit DMG 98.3%",
+                            "2": "3-Hit DMG 153.7%",
+                            "3": "Charged Attack DMG 290.7%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Charged Attack: Equitable Judgment {param5:F2P} Max HP",
+                            "6": "HP Restored 16% Max HP/Droplet",
+                            "7": "HP Loss 8% Max HP/0.5s",
+                            "8": "Plunge DMG 136.1%",
+                            "9": "Low/High Plunge DMG 272.2%/340%"
+                        },
+                        "14": {
+                            "0": "1-Hit DMG 122.8%",
+                            "1": "2-Hit DMG 104.1%",
+                            "2": "3-Hit DMG 162.8%",
+                            "3": "Charged Attack DMG 307.8%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Charged Attack: Equitable Judgment {param5:F2P} Max HP",
+                            "6": "HP Restored 16% Max HP/Droplet",
+                            "7": "HP Loss 8% Max HP/0.5s",
+                            "8": "Plunge DMG 144.1%",
+                            "9": "Low/High Plunge DMG 288%/359.8%"
+                        },
+                        "15": {
+                            "0": "1-Hit DMG 129.6%",
+                            "1": "2-Hit DMG 109.8%",
+                            "2": "3-Hit DMG 171.8%",
+                            "3": "Charged Attack DMG 324.9%",
+                            "4": "Charged Attack Stamina Cost 50",
+                            "5": "Charged Attack: Equitable Judgment {param5:F2P} Max HP",
+                            "6": "HP Restored 16% Max HP/Droplet",
+                            "7": "HP Loss 8% Max HP/0.5s",
+                            "8": "Plunge DMG 152%",
+                            "9": "Low/High Plunge DMG 303.9%/379.6%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104338",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112080",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104340",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112082",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "O Tears, I Shall Repay",
+                    "description": "Summons a Raging Waterfall that will deal <color=#80C0FFFF>AoE Hydro DMG</color> to opponents in front of Neuvillette based on his Max HP. After hitting an opponent, this skill will generate 3 Sourcewater Droplets near that opponent.\\n\\n<color=#FFD780FF>Arkhe: Pneuma</color>\\nAt certain intervals, when the Raging Waterfall descends, a Spiritbreath Thorn will descend that will pierce opponents, dealing Pneuma-aligned <color=#80C0FFFF>Hydro DMG</color>.\\n\\n<i>\"The law can restrict all manner of crimes, but it cannot extirpate evil itself.</i>",
+                    "icon": "Skill_S_Neuvillette_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Spiritbreath Thorn DMG 20.8%",
+                            "2": "Spiritbreath Thorn Interval 10s",
+                            "3": "Sourcewater Droplet Duration 15s",
+                            "4": "CD 12s"
+                        },
+                        "2": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Spiritbreath Thorn DMG 22.4%",
+                            "2": "Spiritbreath Thorn Interval 10s",
+                            "3": "Sourcewater Droplet Duration 15s",
+                            "4": "CD 12s"
+                        },
+                        "3": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Spiritbreath Thorn DMG 23.9%",
+                            "2": "Spiritbreath Thorn Interval 10s",
+                            "3": "Sourcewater Droplet Duration 15s",
+                            "4": "CD 12s"
+                        },
+                        "4": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Spiritbreath Thorn DMG 26%",
+                            "2": "Spiritbreath Thorn Interval 10s",
+                            "3": "Sourcewater Droplet Duration 15s",
+                            "4": "CD 12s"
+                        },
+                        "5": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Spiritbreath Thorn DMG 27.6%",
+                            "2": "Spiritbreath Thorn Interval 10s",
+                            "3": "Sourcewater Droplet Duration 15s",
+                            "4": "CD 12s"
+                        },
+                        "6": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Spiritbreath Thorn DMG 29.1%",
+                            "2": "Spiritbreath Thorn Interval 10s",
+                            "3": "Sourcewater Droplet Duration 15s",
+                            "4": "CD 12s"
+                        },
+                        "7": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Spiritbreath Thorn DMG 31.2%",
+                            "2": "Spiritbreath Thorn Interval 10s",
+                            "3": "Sourcewater Droplet Duration 15s",
+                            "4": "CD 12s"
+                        },
+                        "8": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Spiritbreath Thorn DMG 33.3%",
+                            "2": "Spiritbreath Thorn Interval 10s",
+                            "3": "Sourcewater Droplet Duration 15s",
+                            "4": "CD 12s"
+                        },
+                        "9": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Spiritbreath Thorn DMG 35.4%",
+                            "2": "Spiritbreath Thorn Interval 10s",
+                            "3": "Sourcewater Droplet Duration 15s",
+                            "4": "CD 12s"
+                        },
+                        "10": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Spiritbreath Thorn DMG 37.4%",
+                            "2": "Spiritbreath Thorn Interval 10s",
+                            "3": "Sourcewater Droplet Duration 15s",
+                            "4": "CD 12s"
+                        },
+                        "11": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Spiritbreath Thorn DMG 39.5%",
+                            "2": "Spiritbreath Thorn Interval 10s",
+                            "3": "Sourcewater Droplet Duration 15s",
+                            "4": "CD 12s"
+                        },
+                        "12": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Spiritbreath Thorn DMG 41.6%",
+                            "2": "Spiritbreath Thorn Interval 10s",
+                            "3": "Sourcewater Droplet Duration 15s",
+                            "4": "CD 12s"
+                        },
+                        "13": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Spiritbreath Thorn DMG 44.2%",
+                            "2": "Spiritbreath Thorn Interval 10s",
+                            "3": "Sourcewater Droplet Duration 15s",
+                            "4": "CD 12s"
+                        },
+                        "14": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Spiritbreath Thorn DMG 46.8%",
+                            "2": "Spiritbreath Thorn Interval 10s",
+                            "3": "Sourcewater Droplet Duration 15s",
+                            "4": "CD 12s"
+                        },
+                        "15": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Spiritbreath Thorn DMG 49.4%",
+                            "2": "Spiritbreath Thorn Interval 10s",
+                            "3": "Sourcewater Droplet Duration 15s",
+                            "4": "CD 12s"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104338",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112080",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104340",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112082",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "O Tides, I Have Returned",
+                    "description": "Unleashes waves that will deal <color=#80C0FFFF>AoE Hydro DMG</color> based on Neuvillette's Max HP. After a short interval, 2 waterfalls will descend and deal <color=#80C0FFFF>Hydro DMG</color> in a somewhat smaller AoE, and will generate 6 Sourcewater Droplets within an area in front.\\n\\n<i>\"The law is only established after its publication, and above that, the laws of nature have governed all species and eras since ancient times.</i>",
+                    "icon": "Skill_E_Neuvillette_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Waterfall DMG {param2:F2P} Max HP",
+                            "2": "CD 18s",
+                            "3": "Energy Cost 70"
+                        },
+                        "2": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Waterfall DMG {param2:F2P} Max HP",
+                            "2": "CD 18s",
+                            "3": "Energy Cost 70"
+                        },
+                        "3": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Waterfall DMG {param2:F2P} Max HP",
+                            "2": "CD 18s",
+                            "3": "Energy Cost 70"
+                        },
+                        "4": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Waterfall DMG {param2:F2P} Max HP",
+                            "2": "CD 18s",
+                            "3": "Energy Cost 70"
+                        },
+                        "5": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Waterfall DMG {param2:F2P} Max HP",
+                            "2": "CD 18s",
+                            "3": "Energy Cost 70"
+                        },
+                        "6": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Waterfall DMG {param2:F2P} Max HP",
+                            "2": "CD 18s",
+                            "3": "Energy Cost 70"
+                        },
+                        "7": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Waterfall DMG {param2:F2P} Max HP",
+                            "2": "CD 18s",
+                            "3": "Energy Cost 70"
+                        },
+                        "8": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Waterfall DMG {param2:F2P} Max HP",
+                            "2": "CD 18s",
+                            "3": "Energy Cost 70"
+                        },
+                        "9": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Waterfall DMG {param2:F2P} Max HP",
+                            "2": "CD 18s",
+                            "3": "Energy Cost 70"
+                        },
+                        "10": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Waterfall DMG {param2:F2P} Max HP",
+                            "2": "CD 18s",
+                            "3": "Energy Cost 70"
+                        },
+                        "11": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Waterfall DMG {param2:F2P} Max HP",
+                            "2": "CD 18s",
+                            "3": "Energy Cost 70"
+                        },
+                        "12": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Waterfall DMG {param2:F2P} Max HP",
+                            "2": "CD 18s",
+                            "3": "Energy Cost 70"
+                        },
+                        "13": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Waterfall DMG {param2:F2P} Max HP",
+                            "2": "CD 18s",
+                            "3": "Energy Cost 70"
+                        },
+                        "14": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Waterfall DMG {param2:F2P} Max HP",
+                            "2": "CD 18s",
+                            "3": "Energy Cost 70"
+                        },
+                        "15": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Waterfall DMG {param2:F2P} Max HP",
+                            "2": "CD 18s",
+                            "3": "Energy Cost 70"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104338",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112080",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104340",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112082",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "O Tides, I Have Returned",
+                    "description": "Unleashes waves that will deal <color=#80C0FFFF>AoE Hydro DMG</color> based on Neuvillette's Max HP. After a short interval, 2 waterfalls will descend and deal <color=#80C0FFFF>Hydro DMG</color> in a somewhat smaller AoE, and will generate 6 Sourcewater Droplets within an area in front.\\n\\n<i>\"The law is only established after its publication, and above that, the laws of nature have governed all species and eras since ancient times.</i>",
+                    "icon": "Skill_E_Neuvillette_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Waterfall DMG {param2:F2P} Max HP",
+                            "2": "CD 18s",
+                            "3": "Energy Cost 70"
+                        },
+                        "2": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Waterfall DMG {param2:F2P} Max HP",
+                            "2": "CD 18s",
+                            "3": "Energy Cost 70"
+                        },
+                        "3": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Waterfall DMG {param2:F2P} Max HP",
+                            "2": "CD 18s",
+                            "3": "Energy Cost 70"
+                        },
+                        "4": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Waterfall DMG {param2:F2P} Max HP",
+                            "2": "CD 18s",
+                            "3": "Energy Cost 70"
+                        },
+                        "5": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Waterfall DMG {param2:F2P} Max HP",
+                            "2": "CD 18s",
+                            "3": "Energy Cost 70"
+                        },
+                        "6": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Waterfall DMG {param2:F2P} Max HP",
+                            "2": "CD 18s",
+                            "3": "Energy Cost 70"
+                        },
+                        "7": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Waterfall DMG {param2:F2P} Max HP",
+                            "2": "CD 18s",
+                            "3": "Energy Cost 70"
+                        },
+                        "8": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Waterfall DMG {param2:F2P} Max HP",
+                            "2": "CD 18s",
+                            "3": "Energy Cost 70"
+                        },
+                        "9": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Waterfall DMG {param2:F2P} Max HP",
+                            "2": "CD 18s",
+                            "3": "Energy Cost 70"
+                        },
+                        "10": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Waterfall DMG {param2:F2P} Max HP",
+                            "2": "CD 18s",
+                            "3": "Energy Cost 70"
+                        },
+                        "11": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Waterfall DMG {param2:F2P} Max HP",
+                            "2": "CD 18s",
+                            "3": "Energy Cost 70"
+                        },
+                        "12": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Waterfall DMG {param2:F2P} Max HP",
+                            "2": "CD 18s",
+                            "3": "Energy Cost 70"
+                        },
+                        "13": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Waterfall DMG {param2:F2P} Max HP",
+                            "2": "CD 18s",
+                            "3": "Energy Cost 70"
+                        },
+                        "14": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Waterfall DMG {param2:F2P} Max HP",
+                            "2": "CD 18s",
+                            "3": "Energy Cost 70"
+                        },
+                        "15": {
+                            "0": "Skill DMG {param1:F2P} Max HP",
+                            "1": "Waterfall DMG {param2:F2P} Max HP",
+                            "2": "CD 18s",
+                            "3": "Energy Cost 70"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104338",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112080",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104340",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112082",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Heir to the Ancient Sea's Authority",
+                    "description": "When a party member triggers a Vaporize, Frozen, Electro-Charged, Bloom, Hydro Swirl, or a Hydro Crystallize reaction on opponents, 1 stack of Past Draconic Glories will be granted to Neuvillette for 30s. Max 3 stacks. Past Draconic Glories causes Charged Attack: Equitable Judgment to deal 110%/125%/160% of its original DMG.\\nThe stacks of Past Draconic Glories created by each kind of Elemental Reaction exist independently.",
+                    "icon": "UI_Talent_S_Neuvillette_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Discipline of the Supreme Arbitration",
+                    "description": "For each 1% of Neuvillette's current HP greater than 30% of Max HP, he will gain 0.6% <color=#80C0FFFF>Hydro DMG Bonus</color>. A maximum bonus of 30% can be obtained this way.",
+                    "icon": "UI_Talent_S_Neuvillette_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Gather Like the Tide",
+                    "description": "Increases underwater Sprint SPD for your own party members by 15%.\\nNot stackable with Passive Talents that provide the exact same effects.",
+                    "icon": "UI_Talent_S_Neuvillette_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Venerable Institution",
+                    "description": "When Neuvillette takes the field, he will obtain 1 stack of Past Draconic Glories from the Passive Talent \"Heir to the Ancient Sea's Authority.\" You must first unlock the Passive Talent \"Heir to the Ancient Sea's Authority.\"\\nAdditionally, his interruption resistance will be increased while using the Charged Attack Empowerment: Legal Evaluation and the Charged Attack: Equitable Judgment.",
+                    "icon": "UI_Talent_S_Neuvillette_01"
+                },
+                "1": {
+                    "name": "Juridical Exhortation",
+                    "description": "The Passive Talent \"Heir to the Ancient Sea's Authority\" will be enhanced: Each stack of Past Draconic Glories will increase the CRIT DMG of Charged Attack: Equitable Judgment by 14%. The maximum increase that can be achieved this way is 42%.\\nYou must first unlock the Passive Talent \"Heir to the Ancient Sea's Authority.\"",
+                    "icon": "UI_Talent_S_Neuvillette_02"
+                },
+                "2": {
+                    "name": "Ancient Postulation",
+                    "description": "Increases the Level of <color=#FFD780FF>Normal Attack: As Water Seeks Equilibrium</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Neuvillette_01"
+                },
+                "3": {
+                    "name": "Crown of Commiseration",
+                    "description": "When Neuvillette is on the field and is healed, 1 Sourcewater Droplet will be generated. This effect can occur once every 4s.",
+                    "icon": "UI_Talent_S_Neuvillette_03"
+                },
+                "4": {
+                    "name": "Axiomatic Judgment",
+                    "description": "Increases the Level of <color=#FFD780FF>O Tides, I Have Returned</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Neuvillette_02"
+                },
+                "5": {
+                    "name": "Wrathful Recompense",
+                    "description": "When using Charged Attack: Equitable Judgment, Neuvillette can absorb nearby Sourcewater Droplets in an AoE. Each absorbed Droplet will increase the duration of Charged Attack: Equitable Judgment by 1s.\\nAdditionally, when Equitable Judgment hits opponents, it will fire off 2 additional currents every 2s, each of which will deal 10% of Neuvillette's Max HP as <color=#80C0FFFF>Hydro DMG</color>. DMG dealt this way will count as DMG dealt by Equitable Judgment.",
+                    "icon": "UI_Talent_S_Neuvillette_04"
+                }
+            },
+            "elevation": {
+                "sub": "CRIT DMG %",
+                "0": {
+                    "stats": {
+                        "HP": 1144,
+                        "ATK": 16,
+                        "DEF": 45,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2967,
+                        "ATK": 42,
+                        "DEF": 116,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101237",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104121",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112080",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 3948,
+                        "ATK": 56,
+                        "DEF": 155,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 5908,
+                        "ATK": 84,
+                        "DEF": 232,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101237",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104122",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112080",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113053",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 6605,
+                        "ATK": 94,
+                        "DEF": 259,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 7599,
+                        "ATK": 108,
+                        "DEF": 298,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101237",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104122",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112081",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113053",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 8528,
+                        "ATK": 121,
+                        "DEF": 335,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 9432,
+                        "ATK": 134,
+                        "DEF": 370,
+                        "sub": 19.2
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101237",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104123",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112081",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113053",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 10129,
+                        "ATK": 144,
+                        "DEF": 397,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 11345,
+                        "ATK": 161,
+                        "DEF": 445,
+                        "sub": 19.2
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101237",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104123",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112082",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113053",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 12042,
+                        "ATK": 171,
+                        "DEF": 472,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 12965,
+                        "ATK": 184,
+                        "DEF": 509,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101237",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104124",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112082",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113053",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 13662,
+                        "ATK": 194,
+                        "DEF": 536,
+                        "sub": 38.4
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 14695,
+                        "ATK": 208,
+                        "DEF": 576,
+                        "sub": 38.4
+                    },
+                    "res": {}
+                }
+            }
+        },
+        "ru": {
+            "name": "Neuvillette",
+            "name_ru": "Нёвиллет",
+            "id": 10000087,
+            "rarity": 5,
+            "weapon": "Catalyst",
+            "element": "Hydro",
+            "region": "Fontaine",
+            "more": {
+                "title": "Распорядитель неумолимого суда",
+                "detail": "Верховный судья Фонтейна, или же юдекс, прославился своей безукоризненной беспристрастностью.",
+                "constellation": "Левиафан-вершитель",
+                "group": "Кур-де-Фонтейн",
+                "birthday": "18.12",
+                "release": "25.09.2023",
+                "cv": {
+                    "en": "Ray Chase",
+                    "chs": "桑毓泽",
+                    "jp": "神谷浩史",
+                    "kr": "Kwak Yoon-sang"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Подобно водной глади",
+                    "description": "<color=#FFD780FF>Обычная атака</color>\\nЛегко помахивает тростью, приказывая волнам выполнить до 3 атак, которые наносят <color=#80C0FFFF>Гидро урон</color>.\\n\\n<color=#FFD780FF>Заряженная атака Облечение: Судебная оценка</color>\\nЗаряжаясь, Нёвиллет собирает силу вод и создаёт Печать арбитража. В этом состоянии Нёвиллет может передвигаться и менять направление перемещения, а также поглощать Капли источника в определённом радиусе.\\nКаждая поглощённая Капля увеличивает скорость создания Печати и восстанавливает HP Нёвиллета.\\nКогда заряжание остановлено, а создание Печати арбитража ещё не завершено, он проведёт заряженную атаку. Если создание завершено, он выполнит заряженную атаку: Взвешенный вердикт.\\n\\n<color=#FFD780FF>Заряженная атака</color>\\nТратит определённое количество выносливости и атакует врагов яростным кольцом воды, нанося <color=#80C0FFFF>Гидро урон по площади</color>.\\n\\n<color=#FFD780FF>Заряженная атака: Взвешенный вердикт</color>\\nВыпускает клокочущие потоки, которые наносят периодический <color=#80C0FFFF>Гидро урон по площади</color> по прямой линии врагам впереди.\\nЗаряженная атака: Взвешенный вердикт не расходует выносливость и длится 3 сек.\\nЕсли HP выше 50%, во время применения этой атаки Нёвиллет постоянно теряет HP.\\n\\n<color=#FFD780FF>Атака в падении</color>\\nСобрав мощь гидро, Нёвиллет Стремительно падает на землю, атакуя всех врагов на пути. Приземлившись, наносит <color=#80C0FFFF>Гидро урон по площади</color>.",
+                    "icon": "Skill_A_Catalyst_MD",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон атаки 1 54.6%",
+                            "1": "Урон атаки 2 46.2%",
+                            "2": "Урон атаки 3 72.3%",
+                            "3": "Урон заряженной атаки 136.8%",
+                            "4": "Потребление выносливости 50 ед.",
+                            "5": "Периодический урон заряженной атаки: Взвешенный вердикт {param5:F2P} макс. HP",
+                            "6": "Восстановление HP 16% макс. HP/капля",
+                            "7": "Потеря HP 8% макс. HP/0.5 сек.",
+                            "8": "Урон в падении 56.8%",
+                            "9": "Урон низкого/высокого удара 113.6%/141.9%"
+                        },
+                        "2": {
+                            "0": "Урон атаки 1 58.7%",
+                            "1": "Урон атаки 2 49.7%",
+                            "2": "Урон атаки 3 77.8%",
+                            "3": "Урон заряженной атаки 147.1%",
+                            "4": "Потребление выносливости 50 ед.",
+                            "5": "Периодический урон заряженной атаки: Взвешенный вердикт {param5:F2P} макс. HP",
+                            "6": "Восстановление HP 16% макс. HP/капля",
+                            "7": "Потеря HP 8% макс. HP/0.5 сек.",
+                            "8": "Урон в падении 61.5%",
+                            "9": "Урон низкого/высокого удара 122.9%/153.5%"
+                        },
+                        "3": {
+                            "0": "Урон атаки 1 62.8%",
+                            "1": "Урон атаки 2 53.2%",
+                            "2": "Урон атаки 3 83.2%",
+                            "3": "Урон заряженной атаки 157.3%",
+                            "4": "Потребление выносливости 50 ед.",
+                            "5": "Периодический урон заряженной атаки: Взвешенный вердикт {param5:F2P} макс. HP",
+                            "6": "Восстановление HP 16% макс. HP/капля",
+                            "7": "Потеря HP 8% макс. HP/0.5 сек.",
+                            "8": "Урон в падении 66.1%",
+                            "9": "Урон низкого/высокого удара 132.1%/165%"
+                        },
+                        "4": {
+                            "0": "Урон атаки 1 68.2%",
+                            "1": "Урон атаки 2 57.8%",
+                            "2": "Урон атаки 3 90.4%",
+                            "3": "Урон заряженной атаки 171%",
+                            "4": "Потребление выносливости 50 ед.",
+                            "5": "Периодический урон заряженной атаки: Взвешенный вердикт {param5:F2P} макс. HP",
+                            "6": "Восстановление HP 16% макс. HP/капля",
+                            "7": "Потеря HP 8% макс. HP/0.5 сек.",
+                            "8": "Урон в падении 72.7%",
+                            "9": "Урон низкого/высокого удара 145.3%/181.5%"
+                        },
+                        "5": {
+                            "0": "Урон атаки 1 72.3%",
+                            "1": "Урон атаки 2 61.3%",
+                            "2": "Урон атаки 3 95.8%",
+                            "3": "Урон заряженной атаки 181.3%",
+                            "4": "Потребление выносливости 50 ед.",
+                            "5": "Периодический урон заряженной атаки: Взвешенный вердикт {param5:F2P} макс. HP",
+                            "6": "Восстановление HP 16% макс. HP/капля",
+                            "7": "Потеря HP 8% макс. HP/0.5 сек.",
+                            "8": "Урон в падении 77.3%",
+                            "9": "Урон низкого/высокого удара 154.6%/193.1%"
+                        },
+                        "6": {
+                            "0": "Урон атаки 1 76.4%",
+                            "1": "Урон атаки 2 64.7%",
+                            "2": "Урон атаки 3 101.3%",
+                            "3": "Урон заряженной атаки 191.5%",
+                            "4": "Потребление выносливости 50 ед.",
+                            "5": "Периодический урон заряженной атаки: Взвешенный вердикт {param5:F2P} макс. HP",
+                            "6": "Восстановление HP 16% макс. HP/капля",
+                            "7": "Потеря HP 8% макс. HP/0.5 сек.",
+                            "8": "Урон в падении 82.6%",
+                            "9": "Урон низкого/высокого удара 165.2%/206.3%"
+                        },
+                        "7": {
+                            "0": "Урон атаки 1 81.9%",
+                            "1": "Урон атаки 2 69.4%",
+                            "2": "Урон атаки 3 108.5%",
+                            "3": "Урон заряженной атаки 205.2%",
+                            "4": "Потребление выносливости 50 ед.",
+                            "5": "Периодический урон заряженной атаки: Взвешенный вердикт {param5:F2P} макс. HP",
+                            "6": "Восстановление HP 16% макс. HP/капля",
+                            "7": "Потеря HP 8% макс. HP/0.5 сек.",
+                            "8": "Урон в падении 89.9%",
+                            "9": "Урон низкого/высокого удара 179.7%/224.5%"
+                        },
+                        "8": {
+                            "0": "Урон атаки 1 87.3%",
+                            "1": "Урон атаки 2 74%",
+                            "2": "Урон атаки 3 115.7%",
+                            "3": "Урон заряженной атаки 218.9%",
+                            "4": "Потребление выносливости 50 ед.",
+                            "5": "Периодический урон заряженной атаки: Взвешенный вердикт {param5:F2P} макс. HP",
+                            "6": "Восстановление HP 16% макс. HP/капля",
+                            "7": "Потеря HP 8% макс. HP/0.5 сек.",
+                            "8": "Урон в падении 97.1%",
+                            "9": "Урон низкого/высокого удара 194.2%/242.6%"
+                        },
+                        "9": {
+                            "0": "Урон атаки 1 92.8%",
+                            "1": "Урон атаки 2 78.6%",
+                            "2": "Урон атаки 3 123%",
+                            "3": "Урон заряженной атаки 232.6%",
+                            "4": "Потребление выносливости 50 ед.",
+                            "5": "Периодический урон заряженной атаки: Взвешенный вердикт {param5:F2P} макс. HP",
+                            "6": "Восстановление HP 16% макс. HP/капля",
+                            "7": "Потеря HP 8% макс. HP/0.5 сек.",
+                            "8": "Урон в падении 104.4%",
+                            "9": "Урон низкого/высокого удара 208.8%/260.8%"
+                        },
+                        "10": {
+                            "0": "Урон атаки 1 98.2%",
+                            "1": "Урон атаки 2 83.2%",
+                            "2": "Урон атаки 3 130.2%",
+                            "3": "Урон заряженной атаки 246.2%",
+                            "4": "Потребление выносливости 50 ед.",
+                            "5": "Периодический урон заряженной атаки: Взвешенный вердикт {param5:F2P} макс. HP",
+                            "6": "Восстановление HP 16% макс. HP/капля",
+                            "7": "Потеря HP 8% макс. HP/0.5 сек.",
+                            "8": "Урон в падении 112.3%",
+                            "9": "Урон низкого/высокого удара 224.6%/280.6%"
+                        },
+                        "11": {
+                            "0": "Урон атаки 1 103.7%",
+                            "1": "Урон атаки 2 87.9%",
+                            "2": "Урон атаки 3 137.4%",
+                            "3": "Урон заряженной атаки 259.9%",
+                            "4": "Потребление выносливости 50 ед.",
+                            "5": "Периодический урон заряженной атаки: Взвешенный вердикт {param5:F2P} макс. HP",
+                            "6": "Восстановление HP 16% макс. HP/капля",
+                            "7": "Потеря HP 8% макс. HP/0.5 сек.",
+                            "8": "Урон в падении 120.3%",
+                            "9": "Урон низкого/высокого удара 240.5%/300.4%"
+                        },
+                        "12": {
+                            "0": "Урон атаки 1 109.2%",
+                            "1": "Урон атаки 2 92.5%",
+                            "2": "Урон атаки 3 144.7%",
+                            "3": "Урон заряженной атаки 273.6%",
+                            "4": "Потребление выносливости 50 ед.",
+                            "5": "Периодический урон заряженной атаки: Взвешенный вердикт {param5:F2P} макс. HP",
+                            "6": "Восстановление HP 16% макс. HP/капля",
+                            "7": "Потеря HP 8% макс. HP/0.5 сек.",
+                            "8": "Урон в падении 128.2%",
+                            "9": "Урон низкого/высокого удара 256.3%/320.2%"
+                        },
+                        "13": {
+                            "0": "Урон атаки 1 116%",
+                            "1": "Урон атаки 2 98.3%",
+                            "2": "Урон атаки 3 153.7%",
+                            "3": "Урон заряженной атаки 290.7%",
+                            "4": "Потребление выносливости 50 ед.",
+                            "5": "Периодический урон заряженной атаки: Взвешенный вердикт {param5:F2P} макс. HP",
+                            "6": "Восстановление HP 16% макс. HP/капля",
+                            "7": "Потеря HP 8% макс. HP/0.5 сек.",
+                            "8": "Урон в падении 136.1%",
+                            "9": "Урон низкого/высокого удара 272.2%/340%"
+                        },
+                        "14": {
+                            "0": "Урон атаки 1 122.8%",
+                            "1": "Урон атаки 2 104.1%",
+                            "2": "Урон атаки 3 162.8%",
+                            "3": "Урон заряженной атаки 307.8%",
+                            "4": "Потребление выносливости 50 ед.",
+                            "5": "Периодический урон заряженной атаки: Взвешенный вердикт {param5:F2P} макс. HP",
+                            "6": "Восстановление HP 16% макс. HP/капля",
+                            "7": "Потеря HP 8% макс. HP/0.5 сек.",
+                            "8": "Урон в падении 144.1%",
+                            "9": "Урон низкого/высокого удара 288%/359.8%"
+                        },
+                        "15": {
+                            "0": "Урон атаки 1 129.6%",
+                            "1": "Урон атаки 2 109.8%",
+                            "2": "Урон атаки 3 171.8%",
+                            "3": "Урон заряженной атаки 324.9%",
+                            "4": "Потребление выносливости 50 ед.",
+                            "5": "Периодический урон заряженной атаки: Взвешенный вердикт {param5:F2P} макс. HP",
+                            "6": "Восстановление HP 16% макс. HP/капля",
+                            "7": "Потеря HP 8% макс. HP/0.5 сек.",
+                            "8": "Урон в падении 152%",
+                            "9": "Урон низкого/высокого удара 303.9%/379.6%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104338",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112080",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104340",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112082",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "О слёзы, я воздам",
+                    "description": "Призывает Бушующий ливень, который наносит врагам впереди <color=#80C0FFFF>Гидро урон по площади</color>, зависящий от макс. HP Нёвиллета. После попадания по врагу будет создано 3 Капли источника поблизости.\\n\\n<color=#FFD780FF>Архэ: Пневма</color>\\nС некоторым интервалом, после Бушующего ливня нисходит пронзающая врагов Игла дыхания душ, которая наносит <color=#80C0FFFF>Гидро урон</color> пневмы.\\n\\n<i>«Закон может пресечь всевозможные преступления, но искоренить само зло он не способен».</i>",
+                    "icon": "Skill_S_Neuvillette_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Иглы дыхания душ 20.8%",
+                            "2": "Интервал Иглы дыхания душ 10 сек.",
+                            "3": "Длительность Капли источника 15 сек.",
+                            "4": "Время отката 12 сек."
+                        },
+                        "2": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Иглы дыхания душ 22.4%",
+                            "2": "Интервал Иглы дыхания душ 10 сек.",
+                            "3": "Длительность Капли источника 15 сек.",
+                            "4": "Время отката 12 сек."
+                        },
+                        "3": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Иглы дыхания душ 23.9%",
+                            "2": "Интервал Иглы дыхания душ 10 сек.",
+                            "3": "Длительность Капли источника 15 сек.",
+                            "4": "Время отката 12 сек."
+                        },
+                        "4": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Иглы дыхания душ 26%",
+                            "2": "Интервал Иглы дыхания душ 10 сек.",
+                            "3": "Длительность Капли источника 15 сек.",
+                            "4": "Время отката 12 сек."
+                        },
+                        "5": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Иглы дыхания душ 27.6%",
+                            "2": "Интервал Иглы дыхания душ 10 сек.",
+                            "3": "Длительность Капли источника 15 сек.",
+                            "4": "Время отката 12 сек."
+                        },
+                        "6": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Иглы дыхания душ 29.1%",
+                            "2": "Интервал Иглы дыхания душ 10 сек.",
+                            "3": "Длительность Капли источника 15 сек.",
+                            "4": "Время отката 12 сек."
+                        },
+                        "7": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Иглы дыхания душ 31.2%",
+                            "2": "Интервал Иглы дыхания душ 10 сек.",
+                            "3": "Длительность Капли источника 15 сек.",
+                            "4": "Время отката 12 сек."
+                        },
+                        "8": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Иглы дыхания душ 33.3%",
+                            "2": "Интервал Иглы дыхания душ 10 сек.",
+                            "3": "Длительность Капли источника 15 сек.",
+                            "4": "Время отката 12 сек."
+                        },
+                        "9": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Иглы дыхания душ 35.4%",
+                            "2": "Интервал Иглы дыхания душ 10 сек.",
+                            "3": "Длительность Капли источника 15 сек.",
+                            "4": "Время отката 12 сек."
+                        },
+                        "10": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Иглы дыхания душ 37.4%",
+                            "2": "Интервал Иглы дыхания душ 10 сек.",
+                            "3": "Длительность Капли источника 15 сек.",
+                            "4": "Время отката 12 сек."
+                        },
+                        "11": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Иглы дыхания душ 39.5%",
+                            "2": "Интервал Иглы дыхания душ 10 сек.",
+                            "3": "Длительность Капли источника 15 сек.",
+                            "4": "Время отката 12 сек."
+                        },
+                        "12": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Иглы дыхания душ 41.6%",
+                            "2": "Интервал Иглы дыхания душ 10 сек.",
+                            "3": "Длительность Капли источника 15 сек.",
+                            "4": "Время отката 12 сек."
+                        },
+                        "13": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Иглы дыхания душ 44.2%",
+                            "2": "Интервал Иглы дыхания душ 10 сек.",
+                            "3": "Длительность Капли источника 15 сек.",
+                            "4": "Время отката 12 сек."
+                        },
+                        "14": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Иглы дыхания душ 46.8%",
+                            "2": "Интервал Иглы дыхания душ 10 сек.",
+                            "3": "Длительность Капли источника 15 сек.",
+                            "4": "Время отката 12 сек."
+                        },
+                        "15": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон Иглы дыхания душ 49.4%",
+                            "2": "Интервал Иглы дыхания душ 10 сек.",
+                            "3": "Длительность Капли источника 15 сек.",
+                            "4": "Время отката 12 сек."
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104338",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112080",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104340",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112082",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "О волны, я возвратился",
+                    "description": "Выпускает сокрушающую волну, которая наносит <color=#80C0FFFF>Гидро урон по площади</color> пропорциональный макс. HP Нёвиллета. Вскоре поблизости нисходит 2 ливня, наносящие <color=#80C0FFFF>Гидро урон</color> по несколько меньшей площади, а в определённом радиусе впереди создаётся 6 Капель источника.\\n\\n<i>«Законы вступают в силу только после их оглашения. Более того, а законы природы управляли жизнью всех созданий с незапамятных времён».</i>",
+                    "icon": "Skill_E_Neuvillette_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон ливня {param2:F2P} макс. HP",
+                            "2": "Время отката 18 сек.",
+                            "3": "Потребление энергии 70"
+                        },
+                        "2": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон ливня {param2:F2P} макс. HP",
+                            "2": "Время отката 18 сек.",
+                            "3": "Потребление энергии 70"
+                        },
+                        "3": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон ливня {param2:F2P} макс. HP",
+                            "2": "Время отката 18 сек.",
+                            "3": "Потребление энергии 70"
+                        },
+                        "4": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон ливня {param2:F2P} макс. HP",
+                            "2": "Время отката 18 сек.",
+                            "3": "Потребление энергии 70"
+                        },
+                        "5": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон ливня {param2:F2P} макс. HP",
+                            "2": "Время отката 18 сек.",
+                            "3": "Потребление энергии 70"
+                        },
+                        "6": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон ливня {param2:F2P} макс. HP",
+                            "2": "Время отката 18 сек.",
+                            "3": "Потребление энергии 70"
+                        },
+                        "7": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон ливня {param2:F2P} макс. HP",
+                            "2": "Время отката 18 сек.",
+                            "3": "Потребление энергии 70"
+                        },
+                        "8": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон ливня {param2:F2P} макс. HP",
+                            "2": "Время отката 18 сек.",
+                            "3": "Потребление энергии 70"
+                        },
+                        "9": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон ливня {param2:F2P} макс. HP",
+                            "2": "Время отката 18 сек.",
+                            "3": "Потребление энергии 70"
+                        },
+                        "10": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон ливня {param2:F2P} макс. HP",
+                            "2": "Время отката 18 сек.",
+                            "3": "Потребление энергии 70"
+                        },
+                        "11": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон ливня {param2:F2P} макс. HP",
+                            "2": "Время отката 18 сек.",
+                            "3": "Потребление энергии 70"
+                        },
+                        "12": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон ливня {param2:F2P} макс. HP",
+                            "2": "Время отката 18 сек.",
+                            "3": "Потребление энергии 70"
+                        },
+                        "13": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон ливня {param2:F2P} макс. HP",
+                            "2": "Время отката 18 сек.",
+                            "3": "Потребление энергии 70"
+                        },
+                        "14": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон ливня {param2:F2P} макс. HP",
+                            "2": "Время отката 18 сек.",
+                            "3": "Потребление энергии 70"
+                        },
+                        "15": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон ливня {param2:F2P} макс. HP",
+                            "2": "Время отката 18 сек.",
+                            "3": "Потребление энергии 70"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104338",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112080",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104340",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112082",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "О волны, я возвратился",
+                    "description": "Выпускает сокрушающую волну, которая наносит <color=#80C0FFFF>Гидро урон по площади</color> пропорциональный макс. HP Нёвиллета. Вскоре поблизости нисходит 2 ливня, наносящие <color=#80C0FFFF>Гидро урон</color> по несколько меньшей площади, а в определённом радиусе впереди создаётся 6 Капель источника.\\n\\n<i>«Законы вступают в силу только после их оглашения. Более того, а законы природы управляли жизнью всех созданий с незапамятных времён».</i>",
+                    "icon": "Skill_E_Neuvillette_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон ливня {param2:F2P} макс. HP",
+                            "2": "Время отката 18 сек.",
+                            "3": "Потребление энергии 70"
+                        },
+                        "2": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон ливня {param2:F2P} макс. HP",
+                            "2": "Время отката 18 сек.",
+                            "3": "Потребление энергии 70"
+                        },
+                        "3": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон ливня {param2:F2P} макс. HP",
+                            "2": "Время отката 18 сек.",
+                            "3": "Потребление энергии 70"
+                        },
+                        "4": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон ливня {param2:F2P} макс. HP",
+                            "2": "Время отката 18 сек.",
+                            "3": "Потребление энергии 70"
+                        },
+                        "5": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон ливня {param2:F2P} макс. HP",
+                            "2": "Время отката 18 сек.",
+                            "3": "Потребление энергии 70"
+                        },
+                        "6": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон ливня {param2:F2P} макс. HP",
+                            "2": "Время отката 18 сек.",
+                            "3": "Потребление энергии 70"
+                        },
+                        "7": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон ливня {param2:F2P} макс. HP",
+                            "2": "Время отката 18 сек.",
+                            "3": "Потребление энергии 70"
+                        },
+                        "8": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон ливня {param2:F2P} макс. HP",
+                            "2": "Время отката 18 сек.",
+                            "3": "Потребление энергии 70"
+                        },
+                        "9": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон ливня {param2:F2P} макс. HP",
+                            "2": "Время отката 18 сек.",
+                            "3": "Потребление энергии 70"
+                        },
+                        "10": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон ливня {param2:F2P} макс. HP",
+                            "2": "Время отката 18 сек.",
+                            "3": "Потребление энергии 70"
+                        },
+                        "11": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон ливня {param2:F2P} макс. HP",
+                            "2": "Время отката 18 сек.",
+                            "3": "Потребление энергии 70"
+                        },
+                        "12": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон ливня {param2:F2P} макс. HP",
+                            "2": "Время отката 18 сек.",
+                            "3": "Потребление энергии 70"
+                        },
+                        "13": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон ливня {param2:F2P} макс. HP",
+                            "2": "Время отката 18 сек.",
+                            "3": "Потребление энергии 70"
+                        },
+                        "14": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон ливня {param2:F2P} макс. HP",
+                            "2": "Время отката 18 сек.",
+                            "3": "Потребление энергии 70"
+                        },
+                        "15": {
+                            "0": "Урон навыка {param1:F2P} макс. HP",
+                            "1": "Урон ливня {param2:F2P} макс. HP",
+                            "2": "Время отката 18 сек.",
+                            "3": "Потребление энергии 70"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104338",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112080",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104340",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112082",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Наследник древнего моря",
+                    "description": "Когда персонаж в отряде активирует на противнике реакции Пар, Заморозка, Заряжен, Бутонизация, Гидро Рассеивание или Гидро Кристалл, Нёвиллет получает 1 уровень Былой славы драконов. Эффект длится 30 сек. и складывается до 3 раз. Эффект повышает урон заряженной атаки: Взвешенный вердикт на 110%/125%/160% соответственно от её первоначального урона.\\nУровни Былой славы драконов каждого типа реакции существуют независимо друг от друга.",
+                    "icon": "UI_Talent_S_Neuvillette_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Дисциплина высшего арбитра",
+                    "description": "За каждый 1% текущего HP свыше 30% макс. HP Нёвиллет получает 0,6% <color=#80C0FFFF>бонус Гидро урона</color>. Полученный таким образом бонус может составлять до 30%.",
+                    "icon": "UI_Talent_S_Neuvillette_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Собирайтесь подобно волнам",
+                    "description": "Увеличивает скорость спринта всех членов отряда под водой на 15%.\\nНе суммируется с пассивными талантами, дающими точно такие же эффекты.",
+                    "icon": "UI_Talent_S_Neuvillette_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Основа почёта",
+                    "description": "Когда Нёвиллет выходит на поле боя, он получает 1 уровень Былой славы драконов пассивного таланта Наследник древнего моря. Требуется разблокировать пассивный талант «Наследник древнего моря».\\nКроме того, во время применения заряженной атаки Облечение: Судебная оценка и заряженной атаки: Взвешенный вердикт его сопротивление прерыванию увеличивается.",
+                    "icon": "UI_Talent_S_Neuvillette_01"
+                },
+                "1": {
+                    "name": "Приказание закона",
+                    "description": "Усиливает пассивный талант Наследник древнего моря: каждый уровень Былой славы драконов повышает крит. урон заряженной атаки: Взвешенный вердикт на 14%. Увеличение, полученное таким образом, не может превышать 42%.\\nТребуется разблокировать пассивный талант «Наследник древнего моря».",
+                    "icon": "UI_Talent_S_Neuvillette_02"
+                },
+                "2": {
+                    "name": "Древний вымысел",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Подобно водной глади</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Neuvillette_01"
+                },
+                "3": {
+                    "name": "Венец сострадания",
+                    "description": "Когда Нёвиллет находится на поле боя и получает лечение, создаётся 1 Капля источника. Эффект может возникнуть раз в 4 сек.",
+                    "icon": "UI_Talent_S_Neuvillette_03"
+                },
+                "4": {
+                    "name": "Общепризнанный приговор",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>О волны, я возвратился</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Neuvillette_02"
+                },
+                "5": {
+                    "name": "Гневное воздаяние",
+                    "description": "Во время применения заряженной атаки: Взвешенный вердикт Нёвиллет может поглощать Капли источника в определённом радиусе. Каждая поглощённая Капля увеличивает длительность заряженной атаки: Взвешенный вердикт на 1 сек.\\nКроме того, при попадании заряженной атаки: Взвешенный вердикт каждые 2 сек. будут дополнительно выпускаться 2 течения, каждое из которых наносит <color=#80C0FFFF>Гидро урон</color>, равный 10% от макс. HP Нёвиллета. Этот урон считается уроном заряженной атаки: Взвешенный вердикт.",
+                    "icon": "UI_Talent_S_Neuvillette_04"
+                }
+            },
+            "elevation": {
+                "sub": "Крит. урон %",
+                "0": {
+                    "stats": {
+                        "HP": 1144,
+                        "ATK": 16,
+                        "DEF": 45,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2967,
+                        "ATK": 42,
+                        "DEF": 116,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101237",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104121",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112080",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 3948,
+                        "ATK": 56,
+                        "DEF": 155,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 5908,
+                        "ATK": 84,
+                        "DEF": 232,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101237",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104122",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112080",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113053",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 6605,
+                        "ATK": 94,
+                        "DEF": 259,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 7599,
+                        "ATK": 108,
+                        "DEF": 298,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101237",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104122",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112081",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113053",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 8528,
+                        "ATK": 121,
+                        "DEF": 335,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 9432,
+                        "ATK": 134,
+                        "DEF": 370,
+                        "sub": 19.2
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101237",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104123",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112081",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113053",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 10129,
+                        "ATK": 144,
+                        "DEF": 397,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 11345,
+                        "ATK": 161,
+                        "DEF": 445,
+                        "sub": 19.2
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101237",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104123",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112082",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113053",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 12042,
+                        "ATK": 171,
+                        "DEF": 472,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 12965,
+                        "ATK": 184,
+                        "DEF": 509,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101237",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104124",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112082",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113053",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 13662,
+                        "ATK": 194,
+                        "DEF": 536,
+                        "sub": 38.4
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 14695,
+                        "ATK": 208,
+                        "DEF": 576,
+                        "sub": 38.4
+                    },
+                    "res": {}
+                }
+            }
+        }
+    }
+}

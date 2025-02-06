@@ -1,0 +1,2964 @@
+{
+    "Navia": {
+        "en": {
+            "name": "Navia",
+            "name_ru": "Навия",
+            "id": 10000091,
+            "rarity": 5,
+            "weapon": "Claymore",
+            "element": "Geo",
+            "region": "Fontaine",
+            "more": {
+                "title": "Helm of the Radiant Rose",
+                "detail": "The current President of Spina di Rosula, who is lovely, dutiful, and a great boss.",
+                "constellation": "Rosa Multiflora",
+                "group": "Spina di Rosula",
+                "birthday": "16.8",
+                "release": "18.12.2023",
+                "cv": {
+                    "en": "Brenna Larsen",
+                    "chs": "小敢",
+                    "jp": "豊崎愛生",
+                    "kr": "Jeong Hae-eun"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Normal Attack: Blunt Refusal",
+                    "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\\nAt the end of the sequence, performs a more powerful slash.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+                    "icon": "Skill_A_04",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "1-Hit DMG 93.5%",
+                            "1": "2-Hit DMG 86.5%",
+                            "2": "3-Hit DMG 34.9%×3",
+                            "3": "4-Hit DMG 133.4%",
+                            "4": "Charged Attack Cyclic DMG 62.5%",
+                            "5": "Charged Attack Final DMG 113.1%",
+                            "6": "Charged Attack Stamina Cost 40/s",
+                            "7": "Max Duration 5s",
+                            "8": "Plunge DMG 74.6%",
+                            "9": "Low/High Plunge DMG 149.1%/186.3%"
+                        },
+                        "2": {
+                            "0": "1-Hit DMG 101.1%",
+                            "1": "2-Hit DMG 93.5%",
+                            "2": "3-Hit DMG 37.7%×3",
+                            "3": "4-Hit DMG 144.3%",
+                            "4": "Charged Attack Cyclic DMG 67.6%",
+                            "5": "Charged Attack Final DMG 122.3%",
+                            "6": "Charged Attack Stamina Cost 40/s",
+                            "7": "Max Duration 5s",
+                            "8": "Plunge DMG 80.7%",
+                            "9": "Low/High Plunge DMG 161.3%/201.5%"
+                        },
+                        "3": {
+                            "0": "1-Hit DMG 108.7%",
+                            "1": "2-Hit DMG 100.6%",
+                            "2": "3-Hit DMG 40.6%×3",
+                            "3": "4-Hit DMG 155.2%",
+                            "4": "Charged Attack Cyclic DMG 72.7%",
+                            "5": "Charged Attack Final DMG 131.5%",
+                            "6": "Charged Attack Stamina Cost 40/s",
+                            "7": "Max Duration 5s",
+                            "8": "Plunge DMG 86.7%",
+                            "9": "Low/High Plunge DMG 173.4%/216.6%"
+                        },
+                        "4": {
+                            "0": "1-Hit DMG 119.6%",
+                            "1": "2-Hit DMG 110.6%",
+                            "2": "3-Hit DMG 44.6%×3",
+                            "3": "4-Hit DMG 170.7%",
+                            "4": "Charged Attack Cyclic DMG 80%",
+                            "5": "Charged Attack Final DMG 144.6%",
+                            "6": "Charged Attack Stamina Cost 40/s",
+                            "7": "Max Duration 5s",
+                            "8": "Plunge DMG 95.4%",
+                            "9": "Low/High Plunge DMG 190.8%/238.3%"
+                        },
+                        "5": {
+                            "0": "1-Hit DMG 127.2%",
+                            "1": "2-Hit DMG 117.7%",
+                            "2": "3-Hit DMG 47.5%×3",
+                            "3": "4-Hit DMG 181.5%",
+                            "4": "Charged Attack Cyclic DMG 85.1%",
+                            "5": "Charged Attack Final DMG 153.9%",
+                            "6": "Charged Attack Stamina Cost 40/s",
+                            "7": "Max Duration 5s",
+                            "8": "Plunge DMG 101.5%",
+                            "9": "Low/High Plunge DMG 202.9%/253.4%"
+                        },
+                        "6": {
+                            "0": "1-Hit DMG 135.9%",
+                            "1": "2-Hit DMG 125.7%",
+                            "2": "3-Hit DMG 50.7%×3",
+                            "3": "4-Hit DMG 193.9%",
+                            "4": "Charged Attack Cyclic DMG 90.9%",
+                            "5": "Charged Attack Final DMG 164.4%",
+                            "6": "Charged Attack Stamina Cost 40/s",
+                            "7": "Max Duration 5s",
+                            "8": "Plunge DMG 108.4%",
+                            "9": "Low/High Plunge DMG 216.8%/270.8%"
+                        },
+                        "7": {
+                            "0": "1-Hit DMG 147.9%",
+                            "1": "2-Hit DMG 136.8%",
+                            "2": "3-Hit DMG 55.2%×3",
+                            "3": "4-Hit DMG 211%",
+                            "4": "Charged Attack Cyclic DMG 98.9%",
+                            "5": "Charged Attack Final DMG 178.8%",
+                            "6": "Charged Attack Stamina Cost 40/s",
+                            "7": "Max Duration 5s",
+                            "8": "Plunge DMG 118%",
+                            "9": "Low/High Plunge DMG 235.9%/294.6%"
+                        },
+                        "8": {
+                            "0": "1-Hit DMG 159.9%",
+                            "1": "2-Hit DMG 147.9%",
+                            "2": "3-Hit DMG 59.6%×3",
+                            "3": "4-Hit DMG 228.1%",
+                            "4": "Charged Attack Cyclic DMG 106.9%",
+                            "5": "Charged Attack Final DMG 193.3%",
+                            "6": "Charged Attack Stamina Cost 40/s",
+                            "7": "Max Duration 5s",
+                            "8": "Plunge DMG 127.5%",
+                            "9": "Low/High Plunge DMG 254.9%/318.4%"
+                        },
+                        "9": {
+                            "0": "1-Hit DMG 171.8%",
+                            "1": "2-Hit DMG 158.9%",
+                            "2": "3-Hit DMG 64.1%×3",
+                            "3": "4-Hit DMG 245.1%",
+                            "4": "Charged Attack Cyclic DMG 114.9%",
+                            "5": "Charged Attack Final DMG 207.8%",
+                            "6": "Charged Attack Stamina Cost 40/s",
+                            "7": "Max Duration 5s",
+                            "8": "Plunge DMG 137%",
+                            "9": "Low/High Plunge DMG 274%/342.3%"
+                        },
+                        "10": {
+                            "0": "1-Hit DMG 184.9%",
+                            "1": "2-Hit DMG 171%",
+                            "2": "3-Hit DMG 69%×3",
+                            "3": "4-Hit DMG 263.8%",
+                            "4": "Charged Attack Cyclic DMG 123.6%",
+                            "5": "Charged Attack Final DMG 223.6%",
+                            "6": "Charged Attack Stamina Cost 40/s",
+                            "7": "Max Duration 5s",
+                            "8": "Plunge DMG 147.4%",
+                            "9": "Low/High Plunge DMG 294.8%/368.2%"
+                        },
+                        "11": {
+                            "0": "1-Hit DMG 197.9%",
+                            "1": "2-Hit DMG 183.1%",
+                            "2": "3-Hit DMG 73.8%×3",
+                            "3": "4-Hit DMG 282.4%",
+                            "4": "Charged Attack Cyclic DMG 132.3%",
+                            "5": "Charged Attack Final DMG 239.3%",
+                            "6": "Charged Attack Stamina Cost 40/s",
+                            "7": "Max Duration 5s",
+                            "8": "Plunge DMG 157.8%",
+                            "9": "Low/High Plunge DMG 315.6%/394.2%"
+                        },
+                        "12": {
+                            "0": "1-Hit DMG 211%",
+                            "1": "2-Hit DMG 195.1%",
+                            "2": "3-Hit DMG 78.7%×3",
+                            "3": "4-Hit DMG 301%",
+                            "4": "Charged Attack Cyclic DMG 141%",
+                            "5": "Charged Attack Final DMG 255.1%",
+                            "6": "Charged Attack Stamina Cost 40/s",
+                            "7": "Max Duration 5s",
+                            "8": "Plunge DMG 168.3%",
+                            "9": "Low/High Plunge DMG 336.4%/420.2%"
+                        },
+                        "13": {
+                            "0": "1-Hit DMG 224%",
+                            "1": "2-Hit DMG 207.2%",
+                            "2": "3-Hit DMG 83.6%×3",
+                            "3": "4-Hit DMG 319.6%",
+                            "4": "Charged Attack Cyclic DMG 149.8%",
+                            "5": "Charged Attack Final DMG 270.9%",
+                            "6": "Charged Attack Stamina Cost 40/s",
+                            "7": "Max Duration 5s",
+                            "8": "Plunge DMG 178.7%",
+                            "9": "Low/High Plunge DMG 357.3%/446.2%"
+                        },
+                        "14": {
+                            "0": "1-Hit DMG 237.1%",
+                            "1": "2-Hit DMG 219.3%",
+                            "2": "3-Hit DMG 88.4%×3",
+                            "3": "4-Hit DMG 338.2%",
+                            "4": "Charged Attack Cyclic DMG 158.5%",
+                            "5": "Charged Attack Final DMG 286.7%",
+                            "6": "Charged Attack Stamina Cost 40/s",
+                            "7": "Max Duration 5s",
+                            "8": "Plunge DMG 189.1%",
+                            "9": "Low/High Plunge DMG 378.1%/472.2%"
+                        },
+                        "15": {
+                            "0": "1-Hit DMG 250.1%",
+                            "1": "2-Hit DMG 231.4%",
+                            "2": "3-Hit DMG 93.3%×3",
+                            "3": "4-Hit DMG 356.9%",
+                            "4": "Charged Attack Cyclic DMG 167.2%",
+                            "5": "Charged Attack Final DMG 302.5%",
+                            "6": "Charged Attack Stamina Cost 40/s",
+                            "7": "Max Duration 5s",
+                            "8": "Plunge DMG 199.5%",
+                            "9": "Low/High Plunge DMG 398.9%/498.2%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104338",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112080",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104340",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112082",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113054",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Ceremonial Crystalshot",
+                    "description": "When a character in the party obtains an Elemental Shard created from the Crystallize reaction, Navia will gain 1 Crystal Shrapnel stack. Navia can have up to 6 stacks of Crystal Shrapnel at once. Each time Crystal Shrapnel gain is triggered, the duration of the Crystal Shrapnel stacks you already have will be reset.\\nWhen she fires, Navia will consume all Crystal Shrapnel stacks and open her elegant yet lethal Gunbrella, firing multiple Rosula Shardshots that can penetrate opponents, dealing <color=#FFE699FF>Geo DMG</color> to opponents hit.\\nWhen 0/1/2/3 or more stacks of Crystal Shrapnel are consumed, 5/7/9/11 Rosula Shardshots will be fired respectively. The more Rosula Shardshots that strike a single opponent, the greater the DMG dealt to them. When all 11 Rosula Shardshots strike, 200% of the original amount of DMG is dealt.\\nIn addition, when more than 3 stacks of Crystal Shrapnel are consumed, every stack consumed beyond those 3 will increase the DMG dealt by this Gunbrella attack by an additional 15%.\\n\\n<color=#FFD780FF>Hold</color>\\nEnter Aiming Mode, continually collecting nearby Elemental Shards created by Crystallize reactions. When released, fire Rosula Shardshots with the same effect as when the skill is Tapped.\\n\\nTwo initial charges.\\n\\n<color=#FFD780FF>Arkhe: Ousia</color>\\nPeriodically, when Navia fires her Gunbrella, a Surging Blade will be summoned, dealing Ousia-aligned <color=#FFE699FF>Geo DMG</color>.\\n\\n<i>\"Maintaining the appropriate distance with those whom distance should be maintained is an essential part of etiquette. Naturally, there are also many ways to do this...\"</i>",
+                    "icon": "Skill_S_Navia_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Rosula Shardshot Base DMG 394.8%",
+                            "1": "Crystal Shrapnel Duration 300s",
+                            "2": "Surging Blade DMG 36%",
+                            "3": "Surging Blade Interval 7s",
+                            "4": "CD 9s"
+                        },
+                        "2": {
+                            "0": "Rosula Shardshot Base DMG 424.4%",
+                            "1": "Crystal Shrapnel Duration 300s",
+                            "2": "Surging Blade DMG 38.7%",
+                            "3": "Surging Blade Interval 7s",
+                            "4": "CD 9s"
+                        },
+                        "3": {
+                            "0": "Rosula Shardshot Base DMG 454%",
+                            "1": "Crystal Shrapnel Duration 300s",
+                            "2": "Surging Blade DMG 41.4%",
+                            "3": "Surging Blade Interval 7s",
+                            "4": "CD 9s"
+                        },
+                        "4": {
+                            "0": "Rosula Shardshot Base DMG 493.5%",
+                            "1": "Crystal Shrapnel Duration 300s",
+                            "2": "Surging Blade DMG 45%",
+                            "3": "Surging Blade Interval 7s",
+                            "4": "CD 9s"
+                        },
+                        "5": {
+                            "0": "Rosula Shardshot Base DMG 523.1%",
+                            "1": "Crystal Shrapnel Duration 300s",
+                            "2": "Surging Blade DMG 47.7%",
+                            "3": "Surging Blade Interval 7s",
+                            "4": "CD 9s"
+                        },
+                        "6": {
+                            "0": "Rosula Shardshot Base DMG 552.7%",
+                            "1": "Crystal Shrapnel Duration 300s",
+                            "2": "Surging Blade DMG 50.4%",
+                            "3": "Surging Blade Interval 7s",
+                            "4": "CD 9s"
+                        },
+                        "7": {
+                            "0": "Rosula Shardshot Base DMG 592.2%",
+                            "1": "Crystal Shrapnel Duration 300s",
+                            "2": "Surging Blade DMG 54%",
+                            "3": "Surging Blade Interval 7s",
+                            "4": "CD 9s"
+                        },
+                        "8": {
+                            "0": "Rosula Shardshot Base DMG 631.7%",
+                            "1": "Crystal Shrapnel Duration 300s",
+                            "2": "Surging Blade DMG 57.6%",
+                            "3": "Surging Blade Interval 7s",
+                            "4": "CD 9s"
+                        },
+                        "9": {
+                            "0": "Rosula Shardshot Base DMG 671.2%",
+                            "1": "Crystal Shrapnel Duration 300s",
+                            "2": "Surging Blade DMG 61.2%",
+                            "3": "Surging Blade Interval 7s",
+                            "4": "CD 9s"
+                        },
+                        "10": {
+                            "0": "Rosula Shardshot Base DMG 710.6%",
+                            "1": "Crystal Shrapnel Duration 300s",
+                            "2": "Surging Blade DMG 64.8%",
+                            "3": "Surging Blade Interval 7s",
+                            "4": "CD 9s"
+                        },
+                        "11": {
+                            "0": "Rosula Shardshot Base DMG 750.1%",
+                            "1": "Crystal Shrapnel Duration 300s",
+                            "2": "Surging Blade DMG 68.4%",
+                            "3": "Surging Blade Interval 7s",
+                            "4": "CD 9s"
+                        },
+                        "12": {
+                            "0": "Rosula Shardshot Base DMG 789.6%",
+                            "1": "Crystal Shrapnel Duration 300s",
+                            "2": "Surging Blade DMG 72%",
+                            "3": "Surging Blade Interval 7s",
+                            "4": "CD 9s"
+                        },
+                        "13": {
+                            "0": "Rosula Shardshot Base DMG 839%",
+                            "1": "Crystal Shrapnel Duration 300s",
+                            "2": "Surging Blade DMG 76.5%",
+                            "3": "Surging Blade Interval 7s",
+                            "4": "CD 9s"
+                        },
+                        "14": {
+                            "0": "Rosula Shardshot Base DMG 888.3%",
+                            "1": "Crystal Shrapnel Duration 300s",
+                            "2": "Surging Blade DMG 81%",
+                            "3": "Surging Blade Interval 7s",
+                            "4": "CD 9s"
+                        },
+                        "15": {
+                            "0": "Rosula Shardshot Base DMG 937.6%",
+                            "1": "Crystal Shrapnel Duration 300s",
+                            "2": "Surging Blade DMG 85.5%",
+                            "3": "Surging Blade Interval 7s",
+                            "4": "CD 9s"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104338",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112080",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104340",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112082",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113054",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "As the Sunlit Sky's Singing Salute",
+                    "description": "On the orders of the President of the Spina di Rosula, call for a magnificent Rosula Dorata Salute. Unleashes a massive cannon bombardment on opponents in front of her, dealing <color=#FFE699FF>AoE Geo DMG</color> and providing Cannon Fire Support for a duration afterward, periodically dealing <color=#FFE699FF>Geo DMG</color> to nearby opponents.\\nWhen cannon attacks hit opponents, Navia will gain 1 stack of Crystal Shrapnel. This effect can be triggered up to once every 2.4s.\\n\\n<i>\"The Spina di Rosula's salute is a preemptive celebration of the successful conclusion of our negotiations and is fired just before talks begin. Don't misunderstand, it isn't in any way, shape, or form some kind of threat.\"</i>",
+                    "icon": "Skill_E_Navia_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 75.2%",
+                            "1": "Cannon Fire Support DMG 43.1%",
+                            "2": "Cannon Fire Support Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "2": {
+                            "0": "Skill DMG 80.8%",
+                            "1": "Cannon Fire Support DMG 46.4%",
+                            "2": "Cannon Fire Support Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "3": {
+                            "0": "Skill DMG 86.5%",
+                            "1": "Cannon Fire Support DMG 49.6%",
+                            "2": "Cannon Fire Support Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "4": {
+                            "0": "Skill DMG 94%",
+                            "1": "Cannon Fire Support DMG 53.9%",
+                            "2": "Cannon Fire Support Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "5": {
+                            "0": "Skill DMG 99.6%",
+                            "1": "Cannon Fire Support DMG 57.2%",
+                            "2": "Cannon Fire Support Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "6": {
+                            "0": "Skill DMG 105.3%",
+                            "1": "Cannon Fire Support DMG 60.4%",
+                            "2": "Cannon Fire Support Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "7": {
+                            "0": "Skill DMG 112.8%",
+                            "1": "Cannon Fire Support DMG 64.7%",
+                            "2": "Cannon Fire Support Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "8": {
+                            "0": "Skill DMG 120.3%",
+                            "1": "Cannon Fire Support DMG 69%",
+                            "2": "Cannon Fire Support Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "9": {
+                            "0": "Skill DMG 127.8%",
+                            "1": "Cannon Fire Support DMG 73.4%",
+                            "2": "Cannon Fire Support Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "10": {
+                            "0": "Skill DMG 135.4%",
+                            "1": "Cannon Fire Support DMG 77.7%",
+                            "2": "Cannon Fire Support Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "11": {
+                            "0": "Skill DMG 142.9%",
+                            "1": "Cannon Fire Support DMG 82%",
+                            "2": "Cannon Fire Support Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "12": {
+                            "0": "Skill DMG 150.4%",
+                            "1": "Cannon Fire Support DMG 86.3%",
+                            "2": "Cannon Fire Support Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "13": {
+                            "0": "Skill DMG 159.8%",
+                            "1": "Cannon Fire Support DMG 91.7%",
+                            "2": "Cannon Fire Support Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "14": {
+                            "0": "Skill DMG 169.2%",
+                            "1": "Cannon Fire Support DMG 97.1%",
+                            "2": "Cannon Fire Support Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "15": {
+                            "0": "Skill DMG 178.6%",
+                            "1": "Cannon Fire Support DMG 102.5%",
+                            "2": "Cannon Fire Support Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104338",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112080",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104340",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112082",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113054",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "As the Sunlit Sky's Singing Salute",
+                    "description": "On the orders of the President of the Spina di Rosula, call for a magnificent Rosula Dorata Salute. Unleashes a massive cannon bombardment on opponents in front of her, dealing <color=#FFE699FF>AoE Geo DMG</color> and providing Cannon Fire Support for a duration afterward, periodically dealing <color=#FFE699FF>Geo DMG</color> to nearby opponents.\\nWhen cannon attacks hit opponents, Navia will gain 1 stack of Crystal Shrapnel. This effect can be triggered up to once every 2.4s.\\n\\n<i>\"The Spina di Rosula's salute is a preemptive celebration of the successful conclusion of our negotiations and is fired just before talks begin. Don't misunderstand, it isn't in any way, shape, or form some kind of threat.\"</i>",
+                    "icon": "Skill_E_Navia_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 75.2%",
+                            "1": "Cannon Fire Support DMG 43.1%",
+                            "2": "Cannon Fire Support Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "2": {
+                            "0": "Skill DMG 80.8%",
+                            "1": "Cannon Fire Support DMG 46.4%",
+                            "2": "Cannon Fire Support Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "3": {
+                            "0": "Skill DMG 86.5%",
+                            "1": "Cannon Fire Support DMG 49.6%",
+                            "2": "Cannon Fire Support Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "4": {
+                            "0": "Skill DMG 94%",
+                            "1": "Cannon Fire Support DMG 53.9%",
+                            "2": "Cannon Fire Support Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "5": {
+                            "0": "Skill DMG 99.6%",
+                            "1": "Cannon Fire Support DMG 57.2%",
+                            "2": "Cannon Fire Support Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "6": {
+                            "0": "Skill DMG 105.3%",
+                            "1": "Cannon Fire Support DMG 60.4%",
+                            "2": "Cannon Fire Support Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "7": {
+                            "0": "Skill DMG 112.8%",
+                            "1": "Cannon Fire Support DMG 64.7%",
+                            "2": "Cannon Fire Support Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "8": {
+                            "0": "Skill DMG 120.3%",
+                            "1": "Cannon Fire Support DMG 69%",
+                            "2": "Cannon Fire Support Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "9": {
+                            "0": "Skill DMG 127.8%",
+                            "1": "Cannon Fire Support DMG 73.4%",
+                            "2": "Cannon Fire Support Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "10": {
+                            "0": "Skill DMG 135.4%",
+                            "1": "Cannon Fire Support DMG 77.7%",
+                            "2": "Cannon Fire Support Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "11": {
+                            "0": "Skill DMG 142.9%",
+                            "1": "Cannon Fire Support DMG 82%",
+                            "2": "Cannon Fire Support Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "12": {
+                            "0": "Skill DMG 150.4%",
+                            "1": "Cannon Fire Support DMG 86.3%",
+                            "2": "Cannon Fire Support Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "13": {
+                            "0": "Skill DMG 159.8%",
+                            "1": "Cannon Fire Support DMG 91.7%",
+                            "2": "Cannon Fire Support Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "14": {
+                            "0": "Skill DMG 169.2%",
+                            "1": "Cannon Fire Support DMG 97.1%",
+                            "2": "Cannon Fire Support Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "15": {
+                            "0": "Skill DMG 178.6%",
+                            "1": "Cannon Fire Support DMG 102.5%",
+                            "2": "Cannon Fire Support Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104338",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112080",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104340",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112082",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113054",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Undisclosed Distribution Channels",
+                    "description": "For 4s after using <color=#FFD780FF>Ceremonial Crystalshot</color>, the DMG dealt by Navia's Normal Attacks, Charged Attacks, and Plunging Attacks will be converted into <color=#FFE699FF>Geo DMG</color> which cannot be overridden by other Elemental infusions, and the DMG dealt by Navia's Normal Attacks, Charged Attacks, and Plunging Attacks will be increased by 40%.",
+                    "icon": "UI_Talent_S_Navia_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Mutual Assistance Network",
+                    "description": "For each <color=#FF9999FF>Pyro</color>/<color=#FFACFFFF>Electro</color>/<color=#99FFFFFF>Cryo</color>/<color=#80C0FFFF>Hydro</color> party member, Navia gains 20% increased ATK. This effect can stack up to 2 times.",
+                    "icon": "UI_Talent_S_Navia_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Painstaking Transaction",
+                    "description": "Gains 25% more rewards when dispatched on a Fontaine Expedition for 20 hours.",
+                    "icon": "UI_Talent_S_Navia_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "A Lady's Rules for Keeping a Courteous Distance",
+                    "description": "Each stack of Crystal Shrapnel consumed when Navia uses <color=#FFD780FF>Ceremonial Crystalshot</color> will restore 3 Energy to her and decrease the CD of <color=#FFD780FF>As the Sunlit Sky's Singing Salute</color> by 1s. Up to 9 Energy can be gained this way, and the CD of \"As the Sunlit Sky's Singing Salute\" can be decreased by up to 3s.",
+                    "icon": "UI_Talent_S_Navia_01"
+                },
+                "1": {
+                    "name": "The President's Pursuit of Victory",
+                    "description": "Each stack of Crystal Shrapnel consumed will increase the CRIT Rate of this <color=#FFD780FF>Ceremonial Crystalshot</color> instance by 12%. CRIT Rate can be increased by up to 36% in this way.\\nIn addition, when Ceremonial Crystalshot hits an opponent, one Cannon Fire Support shot from <color=#FFD780FF>As the Sunlit Sky's Singing Salute</color> will strike near the location of the hit. Up to one instance of Cannon Fire Support can be triggered each time Ceremonial Crystalshot is used, and DMG dealt by said Cannon Fire Support this way is considered Elemental Burst DMG.",
+                    "icon": "UI_Talent_S_Navia_02"
+                },
+                "2": {
+                    "name": "Businesswoman's Broad Vision",
+                    "description": "Increases the Level of <color=#FFD780FF>Ceremonial Crystalshot</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Navia_01"
+                },
+                "3": {
+                    "name": "The Oathsworn Never Capitulate",
+                    "description": "When <color=#FFD780FF>As the Sunlit Sky's Singing Salute</color> hits an opponent, that opponent's <color=#FFE699FF>Geo RES</color> will be decreased by 20% for 8s.",
+                    "icon": "UI_Talent_S_Navia_03"
+                },
+                "4": {
+                    "name": "Negotiator's Resolute Negotiations",
+                    "description": "Increases the Level of <color=#FFD780FF>As the Sunlit Sky's Singing Salute</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Navia_02"
+                },
+                "5": {
+                    "name": "The Flexible Finesse of the Spina's President",
+                    "description": "If more than 3 stacks of Crystal Shrapnel are consumed when using <color=#FFD780FF>Ceremonial Crystalshot</color>, each stack consumed beyond the first 3 increases the CRIT DMG of that Ceremonial Crystalshot by 45%, and any stacks consumed beyond the first 3 are returned to Navia.",
+                    "icon": "UI_Talent_S_Navia_04"
+                }
+            },
+            "elevation": {
+                "sub": "CRIT DMG %",
+                "0": {
+                    "stats": {
+                        "HP": 985,
+                        "ATK": 27,
+                        "DEF": 62,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2555,
+                        "ATK": 71,
+                        "DEF": 160,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101240",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104171",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112080",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 3399,
+                        "ATK": 94,
+                        "DEF": 213,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 5086,
+                        "ATK": 141,
+                        "DEF": 319,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101240",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104172",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112080",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113050",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 5686,
+                        "ATK": 158,
+                        "DEF": 356,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 6542,
+                        "ATK": 182,
+                        "DEF": 410,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101240",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104172",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112081",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113050",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 7341,
+                        "ATK": 204,
+                        "DEF": 460,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 8119,
+                        "ATK": 226,
+                        "DEF": 509,
+                        "sub": 19.2
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101240",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104173",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112081",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113050",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 8719,
+                        "ATK": 242,
+                        "DEF": 547,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 9766,
+                        "ATK": 271,
+                        "DEF": 612,
+                        "sub": 19.2
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101240",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104173",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112082",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113050",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 10366,
+                        "ATK": 288,
+                        "DEF": 650,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 11161,
+                        "ATK": 310,
+                        "DEF": 700,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101240",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104174",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112082",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113050",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 11761,
+                        "ATK": 327,
+                        "DEF": 737,
+                        "sub": 38.4
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 12650,
+                        "ATK": 352,
+                        "DEF": 793,
+                        "sub": 38.4
+                    },
+                    "res": {}
+                }
+            }
+        },
+        "ru": {
+            "name": "Navia",
+            "name_ru": "Навия",
+            "id": 10000091,
+            "rarity": 5,
+            "weapon": "Claymore",
+            "element": "Geo",
+            "region": "Fontaine",
+            "more": {
+                "title": "Штурвал цветущей розы",
+                "detail": "Действующая глава Спина-ди-Росула, лучший и самый ответственный босс.",
+                "constellation": "Дикая Роза",
+                "group": "Спина-ди-Росула",
+                "birthday": "16.8",
+                "release": "18.12.2023",
+                "cv": {
+                    "en": "Brenna Larsen",
+                    "chs": "小敢",
+                    "jp": "豊崎愛生",
+                    "kr": "Jeong Hae-eun"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Прямое неприятие",
+                    "description": "<color=#FFD780FF>Обычная атака:</color>\\nВыполняет до четырёх ударов.\\n\\n<color=#FFD780FF>Заряженная атака:</color>\\nВращающаяся атака по окружающим врагам, на которую непрерывно тратится выносливость.\\nПосле вращения проводит дополнительную мощную атаку мечом.\\n\\n<color=#FFD780FF>Атака в падении:</color>\\nСтремительно падает на землю, атакуя всех врагов на пути. Приземлившись, наносит урон по площади.",
+                    "icon": "Skill_A_04",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон атаки 1 93.5%",
+                            "1": "Урон атаки 2 86.5%",
+                            "2": "Урон атаки 3 34.9%×3",
+                            "3": "Урон атаки 4 133.4%",
+                            "4": "Урон вращающейся атаки 62.5%",
+                            "5": "Финальный урон заряженной атаки 113.1%",
+                            "6": "Потребление выносливости 40 ед/сек.",
+                            "7": "Макс. длительность 5 сек.",
+                            "8": "Урон в падении 74.6%",
+                            "9": "Урон низкого/высокого удара 149.1%/186.3%"
+                        },
+                        "2": {
+                            "0": "Урон атаки 1 101.1%",
+                            "1": "Урон атаки 2 93.5%",
+                            "2": "Урон атаки 3 37.7%×3",
+                            "3": "Урон атаки 4 144.3%",
+                            "4": "Урон вращающейся атаки 67.6%",
+                            "5": "Финальный урон заряженной атаки 122.3%",
+                            "6": "Потребление выносливости 40 ед/сек.",
+                            "7": "Макс. длительность 5 сек.",
+                            "8": "Урон в падении 80.7%",
+                            "9": "Урон низкого/высокого удара 161.3%/201.5%"
+                        },
+                        "3": {
+                            "0": "Урон атаки 1 108.7%",
+                            "1": "Урон атаки 2 100.6%",
+                            "2": "Урон атаки 3 40.6%×3",
+                            "3": "Урон атаки 4 155.2%",
+                            "4": "Урон вращающейся атаки 72.7%",
+                            "5": "Финальный урон заряженной атаки 131.5%",
+                            "6": "Потребление выносливости 40 ед/сек.",
+                            "7": "Макс. длительность 5 сек.",
+                            "8": "Урон в падении 86.7%",
+                            "9": "Урон низкого/высокого удара 173.4%/216.6%"
+                        },
+                        "4": {
+                            "0": "Урон атаки 1 119.6%",
+                            "1": "Урон атаки 2 110.6%",
+                            "2": "Урон атаки 3 44.6%×3",
+                            "3": "Урон атаки 4 170.7%",
+                            "4": "Урон вращающейся атаки 80%",
+                            "5": "Финальный урон заряженной атаки 144.6%",
+                            "6": "Потребление выносливости 40 ед/сек.",
+                            "7": "Макс. длительность 5 сек.",
+                            "8": "Урон в падении 95.4%",
+                            "9": "Урон низкого/высокого удара 190.8%/238.3%"
+                        },
+                        "5": {
+                            "0": "Урон атаки 1 127.2%",
+                            "1": "Урон атаки 2 117.7%",
+                            "2": "Урон атаки 3 47.5%×3",
+                            "3": "Урон атаки 4 181.5%",
+                            "4": "Урон вращающейся атаки 85.1%",
+                            "5": "Финальный урон заряженной атаки 153.9%",
+                            "6": "Потребление выносливости 40 ед/сек.",
+                            "7": "Макс. длительность 5 сек.",
+                            "8": "Урон в падении 101.5%",
+                            "9": "Урон низкого/высокого удара 202.9%/253.4%"
+                        },
+                        "6": {
+                            "0": "Урон атаки 1 135.9%",
+                            "1": "Урон атаки 2 125.7%",
+                            "2": "Урон атаки 3 50.7%×3",
+                            "3": "Урон атаки 4 193.9%",
+                            "4": "Урон вращающейся атаки 90.9%",
+                            "5": "Финальный урон заряженной атаки 164.4%",
+                            "6": "Потребление выносливости 40 ед/сек.",
+                            "7": "Макс. длительность 5 сек.",
+                            "8": "Урон в падении 108.4%",
+                            "9": "Урон низкого/высокого удара 216.8%/270.8%"
+                        },
+                        "7": {
+                            "0": "Урон атаки 1 147.9%",
+                            "1": "Урон атаки 2 136.8%",
+                            "2": "Урон атаки 3 55.2%×3",
+                            "3": "Урон атаки 4 211%",
+                            "4": "Урон вращающейся атаки 98.9%",
+                            "5": "Финальный урон заряженной атаки 178.8%",
+                            "6": "Потребление выносливости 40 ед/сек.",
+                            "7": "Макс. длительность 5 сек.",
+                            "8": "Урон в падении 118%",
+                            "9": "Урон низкого/высокого удара 235.9%/294.6%"
+                        },
+                        "8": {
+                            "0": "Урон атаки 1 159.9%",
+                            "1": "Урон атаки 2 147.9%",
+                            "2": "Урон атаки 3 59.6%×3",
+                            "3": "Урон атаки 4 228.1%",
+                            "4": "Урон вращающейся атаки 106.9%",
+                            "5": "Финальный урон заряженной атаки 193.3%",
+                            "6": "Потребление выносливости 40 ед/сек.",
+                            "7": "Макс. длительность 5 сек.",
+                            "8": "Урон в падении 127.5%",
+                            "9": "Урон низкого/высокого удара 254.9%/318.4%"
+                        },
+                        "9": {
+                            "0": "Урон атаки 1 171.8%",
+                            "1": "Урон атаки 2 158.9%",
+                            "2": "Урон атаки 3 64.1%×3",
+                            "3": "Урон атаки 4 245.1%",
+                            "4": "Урон вращающейся атаки 114.9%",
+                            "5": "Финальный урон заряженной атаки 207.8%",
+                            "6": "Потребление выносливости 40 ед/сек.",
+                            "7": "Макс. длительность 5 сек.",
+                            "8": "Урон в падении 137%",
+                            "9": "Урон низкого/высокого удара 274%/342.3%"
+                        },
+                        "10": {
+                            "0": "Урон атаки 1 184.9%",
+                            "1": "Урон атаки 2 171%",
+                            "2": "Урон атаки 3 69%×3",
+                            "3": "Урон атаки 4 263.8%",
+                            "4": "Урон вращающейся атаки 123.6%",
+                            "5": "Финальный урон заряженной атаки 223.6%",
+                            "6": "Потребление выносливости 40 ед/сек.",
+                            "7": "Макс. длительность 5 сек.",
+                            "8": "Урон в падении 147.4%",
+                            "9": "Урон низкого/высокого удара 294.8%/368.2%"
+                        },
+                        "11": {
+                            "0": "Урон атаки 1 197.9%",
+                            "1": "Урон атаки 2 183.1%",
+                            "2": "Урон атаки 3 73.8%×3",
+                            "3": "Урон атаки 4 282.4%",
+                            "4": "Урон вращающейся атаки 132.3%",
+                            "5": "Финальный урон заряженной атаки 239.3%",
+                            "6": "Потребление выносливости 40 ед/сек.",
+                            "7": "Макс. длительность 5 сек.",
+                            "8": "Урон в падении 157.8%",
+                            "9": "Урон низкого/высокого удара 315.6%/394.2%"
+                        },
+                        "12": {
+                            "0": "Урон атаки 1 211%",
+                            "1": "Урон атаки 2 195.1%",
+                            "2": "Урон атаки 3 78.7%×3",
+                            "3": "Урон атаки 4 301%",
+                            "4": "Урон вращающейся атаки 141%",
+                            "5": "Финальный урон заряженной атаки 255.1%",
+                            "6": "Потребление выносливости 40 ед/сек.",
+                            "7": "Макс. длительность 5 сек.",
+                            "8": "Урон в падении 168.3%",
+                            "9": "Урон низкого/высокого удара 336.4%/420.2%"
+                        },
+                        "13": {
+                            "0": "Урон атаки 1 224%",
+                            "1": "Урон атаки 2 207.2%",
+                            "2": "Урон атаки 3 83.6%×3",
+                            "3": "Урон атаки 4 319.6%",
+                            "4": "Урон вращающейся атаки 149.8%",
+                            "5": "Финальный урон заряженной атаки 270.9%",
+                            "6": "Потребление выносливости 40 ед/сек.",
+                            "7": "Макс. длительность 5 сек.",
+                            "8": "Урон в падении 178.7%",
+                            "9": "Урон низкого/высокого удара 357.3%/446.2%"
+                        },
+                        "14": {
+                            "0": "Урон атаки 1 237.1%",
+                            "1": "Урон атаки 2 219.3%",
+                            "2": "Урон атаки 3 88.4%×3",
+                            "3": "Урон атаки 4 338.2%",
+                            "4": "Урон вращающейся атаки 158.5%",
+                            "5": "Финальный урон заряженной атаки 286.7%",
+                            "6": "Потребление выносливости 40 ед/сек.",
+                            "7": "Макс. длительность 5 сек.",
+                            "8": "Урон в падении 189.1%",
+                            "9": "Урон низкого/высокого удара 378.1%/472.2%"
+                        },
+                        "15": {
+                            "0": "Урон атаки 1 250.1%",
+                            "1": "Урон атаки 2 231.4%",
+                            "2": "Урон атаки 3 93.3%×3",
+                            "3": "Урон атаки 4 356.9%",
+                            "4": "Урон вращающейся атаки 167.2%",
+                            "5": "Финальный урон заряженной атаки 302.5%",
+                            "6": "Потребление выносливости 40 ед/сек.",
+                            "7": "Макс. длительность 5 сек.",
+                            "8": "Урон в падении 199.5%",
+                            "9": "Урон низкого/высокого удара 398.9%/498.2%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104338",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112080",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104340",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112082",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113054",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Церемониальный залп кристалла",
+                    "description": "Когда персонаж отряда подбирает элементальный осколок, созданный реакцией Кристалл, Навия получает 1 уровень Кристальной шрапнели. Всего можно получить до 6 уровней. При каждом получении длительность уже имеющихся уровней Кристальной шрапнели сбрасывается.\\nВо время выстрела Навия расходует все уровни Кристальной шрапнели и раскрывает свой элегантный, но смертоносный зонт-пушку, выстреливая множеством Кристальных пуль Росулы, которые способны пронзать врагов, и наносит поражённым противникам <color=#FFE699FF>Гео урон</color>.\\nПри расходе 0/1/2/3 и более уровней Кристальной шрапнели выстреливается 5/7/9/11 Кристальных пуль Росулы соответственно. Чем больше Кристальных пуль Росулы попадут в одного и того же врага, тем больше урона будет нанесено. Если попадут все 11 пуль, будет нанесено 200% от изначального урона.\\nКроме того, если расходуется более 3 уровней Кристальной шрапнели, каждый уровень после третьего дополнительно увеличивает урон этой атаки зонта-пушки на 15%.\\n\\n<color=#FFD780FF>Долгое нажатие</color>\\nПереходит в режим прицеливания, непрерывно собирая элементальные осколки, созданные реакцией Кристалл. Когда долгое нажатие прекращается, выпускаются те же Кристальные пули Росулы, что и при быстром нажатии.\\n\\nИсходное количество применений: 2.\\n\\n<color=#FFD780FF>Архэ: Усия</color>\\nКогда Навия ведёт стрельбу из зонта-пушки, периодически призывается Клинок бурных вод, который наносит <color=#FFE699FF>Гео урон</color> усии.\\n\\n<i>«Держаться на должном расстоянии от тех, кого следует держать на расстоянии, означает следовать правилам этикета. Тем не менее способов делать это тоже немало...»</i>",
+                    "icon": "Skill_S_Navia_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Базовый урон Кристальной пули Росулы 394.8%",
+                            "1": "Длительность Кристальной шрапнели 300 сек.",
+                            "2": "Урон Клинка бурных вод 36%",
+                            "3": "Интервал Клинка бурных вод 7 сек.",
+                            "4": "Время отката 9 сек."
+                        },
+                        "2": {
+                            "0": "Базовый урон Кристальной пули Росулы 424.4%",
+                            "1": "Длительность Кристальной шрапнели 300 сек.",
+                            "2": "Урон Клинка бурных вод 38.7%",
+                            "3": "Интервал Клинка бурных вод 7 сек.",
+                            "4": "Время отката 9 сек."
+                        },
+                        "3": {
+                            "0": "Базовый урон Кристальной пули Росулы 454%",
+                            "1": "Длительность Кристальной шрапнели 300 сек.",
+                            "2": "Урон Клинка бурных вод 41.4%",
+                            "3": "Интервал Клинка бурных вод 7 сек.",
+                            "4": "Время отката 9 сек."
+                        },
+                        "4": {
+                            "0": "Базовый урон Кристальной пули Росулы 493.5%",
+                            "1": "Длительность Кристальной шрапнели 300 сек.",
+                            "2": "Урон Клинка бурных вод 45%",
+                            "3": "Интервал Клинка бурных вод 7 сек.",
+                            "4": "Время отката 9 сек."
+                        },
+                        "5": {
+                            "0": "Базовый урон Кристальной пули Росулы 523.1%",
+                            "1": "Длительность Кристальной шрапнели 300 сек.",
+                            "2": "Урон Клинка бурных вод 47.7%",
+                            "3": "Интервал Клинка бурных вод 7 сек.",
+                            "4": "Время отката 9 сек."
+                        },
+                        "6": {
+                            "0": "Базовый урон Кристальной пули Росулы 552.7%",
+                            "1": "Длительность Кристальной шрапнели 300 сек.",
+                            "2": "Урон Клинка бурных вод 50.4%",
+                            "3": "Интервал Клинка бурных вод 7 сек.",
+                            "4": "Время отката 9 сек."
+                        },
+                        "7": {
+                            "0": "Базовый урон Кристальной пули Росулы 592.2%",
+                            "1": "Длительность Кристальной шрапнели 300 сек.",
+                            "2": "Урон Клинка бурных вод 54%",
+                            "3": "Интервал Клинка бурных вод 7 сек.",
+                            "4": "Время отката 9 сек."
+                        },
+                        "8": {
+                            "0": "Базовый урон Кристальной пули Росулы 631.7%",
+                            "1": "Длительность Кристальной шрапнели 300 сек.",
+                            "2": "Урон Клинка бурных вод 57.6%",
+                            "3": "Интервал Клинка бурных вод 7 сек.",
+                            "4": "Время отката 9 сек."
+                        },
+                        "9": {
+                            "0": "Базовый урон Кристальной пули Росулы 671.2%",
+                            "1": "Длительность Кристальной шрапнели 300 сек.",
+                            "2": "Урон Клинка бурных вод 61.2%",
+                            "3": "Интервал Клинка бурных вод 7 сек.",
+                            "4": "Время отката 9 сек."
+                        },
+                        "10": {
+                            "0": "Базовый урон Кристальной пули Росулы 710.6%",
+                            "1": "Длительность Кристальной шрапнели 300 сек.",
+                            "2": "Урон Клинка бурных вод 64.8%",
+                            "3": "Интервал Клинка бурных вод 7 сек.",
+                            "4": "Время отката 9 сек."
+                        },
+                        "11": {
+                            "0": "Базовый урон Кристальной пули Росулы 750.1%",
+                            "1": "Длительность Кристальной шрапнели 300 сек.",
+                            "2": "Урон Клинка бурных вод 68.4%",
+                            "3": "Интервал Клинка бурных вод 7 сек.",
+                            "4": "Время отката 9 сек."
+                        },
+                        "12": {
+                            "0": "Базовый урон Кристальной пули Росулы 789.6%",
+                            "1": "Длительность Кристальной шрапнели 300 сек.",
+                            "2": "Урон Клинка бурных вод 72%",
+                            "3": "Интервал Клинка бурных вод 7 сек.",
+                            "4": "Время отката 9 сек."
+                        },
+                        "13": {
+                            "0": "Базовый урон Кристальной пули Росулы 839%",
+                            "1": "Длительность Кристальной шрапнели 300 сек.",
+                            "2": "Урон Клинка бурных вод 76.5%",
+                            "3": "Интервал Клинка бурных вод 7 сек.",
+                            "4": "Время отката 9 сек."
+                        },
+                        "14": {
+                            "0": "Базовый урон Кристальной пули Росулы 888.3%",
+                            "1": "Длительность Кристальной шрапнели 300 сек.",
+                            "2": "Урон Клинка бурных вод 81%",
+                            "3": "Интервал Клинка бурных вод 7 сек.",
+                            "4": "Время отката 9 сек."
+                        },
+                        "15": {
+                            "0": "Базовый урон Кристальной пули Росулы 937.6%",
+                            "1": "Длительность Кристальной шрапнели 300 сек.",
+                            "2": "Урон Клинка бурных вод 85.5%",
+                            "3": "Интервал Клинка бурных вод 7 сек.",
+                            "4": "Время отката 9 сек."
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104338",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112080",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104340",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112082",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113054",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Словно приветствие чистого неба",
+                    "description": "По приказу главы Спина-ди-Росула призывается великолепный Салют золотой розы, который подвергает врагов впереди массированному пушечному обстрелу, наносит <color=#FFE699FF>Гео урон по площади</color> и в течение некоторого времени после этого оказывает Огневую поддержку пушек, периодически нанося <color=#FFE699FF>Гео урон</color> врагам поблизости.\\nПушечные атаки, попадая по врагам, наделяют Навию 1 уровнем Кристальной шрапнели. Этот эффект может возникнуть один раз в 2,4 сек.\\n\\n<i>«Салют Спина-ди-Росула - предварительное празднование успешных переговоров, и производится он до их начала. Не поймите неправильно, это никакая не угроза».</i>",
+                    "icon": "Skill_E_Navia_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 75.2%",
+                            "1": "Урон Огневой поддержки пушек 43.1%",
+                            "2": "Длительность Огневой поддержки пушек 12 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "2": {
+                            "0": "Урон навыка 80.8%",
+                            "1": "Урон Огневой поддержки пушек 46.4%",
+                            "2": "Длительность Огневой поддержки пушек 12 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "3": {
+                            "0": "Урон навыка 86.5%",
+                            "1": "Урон Огневой поддержки пушек 49.6%",
+                            "2": "Длительность Огневой поддержки пушек 12 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "4": {
+                            "0": "Урон навыка 94%",
+                            "1": "Урон Огневой поддержки пушек 53.9%",
+                            "2": "Длительность Огневой поддержки пушек 12 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "5": {
+                            "0": "Урон навыка 99.6%",
+                            "1": "Урон Огневой поддержки пушек 57.2%",
+                            "2": "Длительность Огневой поддержки пушек 12 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "6": {
+                            "0": "Урон навыка 105.3%",
+                            "1": "Урон Огневой поддержки пушек 60.4%",
+                            "2": "Длительность Огневой поддержки пушек 12 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "7": {
+                            "0": "Урон навыка 112.8%",
+                            "1": "Урон Огневой поддержки пушек 64.7%",
+                            "2": "Длительность Огневой поддержки пушек 12 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "8": {
+                            "0": "Урон навыка 120.3%",
+                            "1": "Урон Огневой поддержки пушек 69%",
+                            "2": "Длительность Огневой поддержки пушек 12 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "9": {
+                            "0": "Урон навыка 127.8%",
+                            "1": "Урон Огневой поддержки пушек 73.4%",
+                            "2": "Длительность Огневой поддержки пушек 12 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "10": {
+                            "0": "Урон навыка 135.4%",
+                            "1": "Урон Огневой поддержки пушек 77.7%",
+                            "2": "Длительность Огневой поддержки пушек 12 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "11": {
+                            "0": "Урон навыка 142.9%",
+                            "1": "Урон Огневой поддержки пушек 82%",
+                            "2": "Длительность Огневой поддержки пушек 12 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "12": {
+                            "0": "Урон навыка 150.4%",
+                            "1": "Урон Огневой поддержки пушек 86.3%",
+                            "2": "Длительность Огневой поддержки пушек 12 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "13": {
+                            "0": "Урон навыка 159.8%",
+                            "1": "Урон Огневой поддержки пушек 91.7%",
+                            "2": "Длительность Огневой поддержки пушек 12 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "14": {
+                            "0": "Урон навыка 169.2%",
+                            "1": "Урон Огневой поддержки пушек 97.1%",
+                            "2": "Длительность Огневой поддержки пушек 12 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "15": {
+                            "0": "Урон навыка 178.6%",
+                            "1": "Урон Огневой поддержки пушек 102.5%",
+                            "2": "Длительность Огневой поддержки пушек 12 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104338",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112080",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104340",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112082",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113054",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Словно приветствие чистого неба",
+                    "description": "По приказу главы Спина-ди-Росула призывается великолепный Салют золотой розы, который подвергает врагов впереди массированному пушечному обстрелу, наносит <color=#FFE699FF>Гео урон по площади</color> и в течение некоторого времени после этого оказывает Огневую поддержку пушек, периодически нанося <color=#FFE699FF>Гео урон</color> врагам поблизости.\\nПушечные атаки, попадая по врагам, наделяют Навию 1 уровнем Кристальной шрапнели. Этот эффект может возникнуть один раз в 2,4 сек.\\n\\n<i>«Салют Спина-ди-Росула - предварительное празднование успешных переговоров, и производится он до их начала. Не поймите неправильно, это никакая не угроза».</i>",
+                    "icon": "Skill_E_Navia_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 75.2%",
+                            "1": "Урон Огневой поддержки пушек 43.1%",
+                            "2": "Длительность Огневой поддержки пушек 12 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "2": {
+                            "0": "Урон навыка 80.8%",
+                            "1": "Урон Огневой поддержки пушек 46.4%",
+                            "2": "Длительность Огневой поддержки пушек 12 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "3": {
+                            "0": "Урон навыка 86.5%",
+                            "1": "Урон Огневой поддержки пушек 49.6%",
+                            "2": "Длительность Огневой поддержки пушек 12 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "4": {
+                            "0": "Урон навыка 94%",
+                            "1": "Урон Огневой поддержки пушек 53.9%",
+                            "2": "Длительность Огневой поддержки пушек 12 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "5": {
+                            "0": "Урон навыка 99.6%",
+                            "1": "Урон Огневой поддержки пушек 57.2%",
+                            "2": "Длительность Огневой поддержки пушек 12 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "6": {
+                            "0": "Урон навыка 105.3%",
+                            "1": "Урон Огневой поддержки пушек 60.4%",
+                            "2": "Длительность Огневой поддержки пушек 12 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "7": {
+                            "0": "Урон навыка 112.8%",
+                            "1": "Урон Огневой поддержки пушек 64.7%",
+                            "2": "Длительность Огневой поддержки пушек 12 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "8": {
+                            "0": "Урон навыка 120.3%",
+                            "1": "Урон Огневой поддержки пушек 69%",
+                            "2": "Длительность Огневой поддержки пушек 12 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "9": {
+                            "0": "Урон навыка 127.8%",
+                            "1": "Урон Огневой поддержки пушек 73.4%",
+                            "2": "Длительность Огневой поддержки пушек 12 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "10": {
+                            "0": "Урон навыка 135.4%",
+                            "1": "Урон Огневой поддержки пушек 77.7%",
+                            "2": "Длительность Огневой поддержки пушек 12 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "11": {
+                            "0": "Урон навыка 142.9%",
+                            "1": "Урон Огневой поддержки пушек 82%",
+                            "2": "Длительность Огневой поддержки пушек 12 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "12": {
+                            "0": "Урон навыка 150.4%",
+                            "1": "Урон Огневой поддержки пушек 86.3%",
+                            "2": "Длительность Огневой поддержки пушек 12 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "13": {
+                            "0": "Урон навыка 159.8%",
+                            "1": "Урон Огневой поддержки пушек 91.7%",
+                            "2": "Длительность Огневой поддержки пушек 12 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "14": {
+                            "0": "Урон навыка 169.2%",
+                            "1": "Урон Огневой поддержки пушек 97.1%",
+                            "2": "Длительность Огневой поддержки пушек 12 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "15": {
+                            "0": "Урон навыка 178.6%",
+                            "1": "Урон Огневой поддержки пушек 102.5%",
+                            "2": "Длительность Огневой поддержки пушек 12 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104338",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112080",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112081",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112082",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113054",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104340",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112082",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113054",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Неизвестные каналы обращения",
+                    "description": "В течение 4 сек. после применения навыка <color=#FFD780FF>Церемониальный залп кристалла</color> урон обычных атак, заряженных атак и атак в падении Навии конвертируется в <color=#FFE699FF>Гео урон</color>, который не может быть отменён другими инфузиями. Кроме того, урон обычных атак, заряженных атак и атак в падении Навии повышается на 40%.",
+                    "icon": "UI_Talent_S_Navia_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Сеть взаимопомощи",
+                    "description": "За каждого персонажа <color=#FF9999FF>Пиро</color>/<color=#FFACFFFF>Электро</color>/<color=#99FFFFFF>Крио</color>/<color=#80C0FFFF>Гидро</color> в отряде сила атаки Навии увеличивается на 20%. Эффект складывается до 2 раз.",
+                    "icon": "UI_Talent_S_Navia_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Тщательно выполненная сделка",
+                    "description": "На 25% увеличивает награду экспедиций в Фонтейне длительностью 20 ч.",
+                    "icon": "UI_Talent_S_Navia_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Правило расстояния для леди",
+                    "description": "При использовании навыка <color=#FFD780FF>Церемониальный залп кристалла</color> за каждый израсходованный уровень Кристальной шрапнели Навия восстанавливает 3 ед. энергии и сокращает откат навыка <color=#FFD780FF>Словно приветствие чистого неба</color> на 1 сек. Таким способом можно восстановить не более 9 ед. энергии и сократить откат навыка Словно приветствие чистого неба максимум на 3 сек.",
+                    "icon": "UI_Talent_S_Navia_01"
+                },
+                "1": {
+                    "name": "Стремление главнокомандующей к победе",
+                    "description": "Каждый израсходованный уровень Кристальной шрапнели увеличивает шанс крит. попадания активируемого <color=#FFD780FF>Церемониального залпа кристалла</color> на 12%. Шанс крит. попадания таким способом можно повысить максимум на 36%.\\nКроме того, при попадании навыка Церемониальный залп кристалла рядом с позицией поражённого врага нисходит 1 Огневая поддержка пушек навыка <color=#FFD780FF>Словно приветствие чистого неба</color>. Каждое использование навыка Церемониальный залп кристалла может вызвать не более 1 Огневой поддержки пушек. Урон Огневой поддержки пушек, наносимый таким способом, считается уроном взрыва стихии.",
+                    "icon": "UI_Talent_S_Navia_02"
+                },
+                "2": {
+                    "name": "Широкий кругозор управляющей",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Церемониальный залп кристалла</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Navia_01"
+                },
+                "3": {
+                    "name": "Поклявшиеся не сдаются",
+                    "description": "При попадании навыка <color=#FFD780FF>Словно приветствие чистого неба</color> <color=#FFE699FF>Гео сопротивление</color> поражённого противника снижается на 20% на 8 сек.",
+                    "icon": "UI_Talent_S_Navia_03"
+                },
+                "4": {
+                    "name": "Непреклонность переговорщика",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Словно приветствие чистого неба</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Navia_02"
+                },
+                "5": {
+                    "name": "Изящество ухищрений главы Спина-ди-Росула",
+                    "description": "Если при использовании навыка <color=#FFD780FF>Церемониальный залп кристалла</color> расходуется более 3 уровней Кристальной шрапнели, то каждый уровень, расходуемый после первых трёх, повышает крит. урон текущего навыка Церемониальный залп кристалла на 45%. При этом все уровни, израсходованные после третьего, после использования навыка возвращаются Навии.",
+                    "icon": "UI_Talent_S_Navia_04"
+                }
+            },
+            "elevation": {
+                "sub": "Крит. урон %",
+                "0": {
+                    "stats": {
+                        "HP": 985,
+                        "ATK": 27,
+                        "DEF": 62,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2555,
+                        "ATK": 71,
+                        "DEF": 160,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101240",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104171",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112080",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 3399,
+                        "ATK": 94,
+                        "DEF": 213,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 5086,
+                        "ATK": 141,
+                        "DEF": 319,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101240",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104172",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112080",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113050",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 5686,
+                        "ATK": 158,
+                        "DEF": 356,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 6542,
+                        "ATK": 182,
+                        "DEF": 410,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101240",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104172",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112081",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113050",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 7341,
+                        "ATK": 204,
+                        "DEF": 460,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 8119,
+                        "ATK": 226,
+                        "DEF": 509,
+                        "sub": 19.2
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101240",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104173",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112081",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113050",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 8719,
+                        "ATK": 242,
+                        "DEF": 547,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 9766,
+                        "ATK": 271,
+                        "DEF": 612,
+                        "sub": 19.2
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101240",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104173",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112082",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113050",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 10366,
+                        "ATK": 288,
+                        "DEF": 650,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 11161,
+                        "ATK": 310,
+                        "DEF": 700,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101240",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104174",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112082",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113050",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 11761,
+                        "ATK": 327,
+                        "DEF": 737,
+                        "sub": 38.4
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 12650,
+                        "ATK": 352,
+                        "DEF": 793,
+                        "sub": 38.4
+                    },
+                    "res": {}
+                }
+            }
+        }
+    }
+}

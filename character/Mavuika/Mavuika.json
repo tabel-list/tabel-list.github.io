@@ -1,0 +1,3308 @@
+{
+    "Mavuika": {
+        "en": {
+            "name": "Mavuika",
+            "name_ru": "Мавуика",
+            "id": 10000106,
+            "rarity": 5,
+            "weapon": "Claymore",
+            "element": "Pyro",
+            "region": "Natlan",
+            "more": {
+                "title": "Night-Igniting Flame",
+                "detail": "The leader of Natlan who inherited the Ancient Name of \"Kiongozi.\" She made a vow to illuminate the future of the nation of war with the Sacred Flame.",
+                "constellation": "Sol Invictus",
+                "group": "Huitztlan",
+                "birthday": "28.8",
+                "release": "30.12.2024",
+                "cv": {
+                    "en": "Katiana Sarkissian",
+                    "chs": "李晔",
+                    "jp": "小松未可子",
+                    "kr": "Kim Na-yul"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Normal Attack: Flames Weave Life",
+                    "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 consecutive claymore strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to perform an especially powerful Severing Splendor strike toward the front.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+                    "icon": "Skill_A_04",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "1-Hit DMG 80%",
+                            "1": "2-Hit DMG 36.5%×2",
+                            "2": "3-Hit DMG 33.2%×3",
+                            "3": "4-Hit DMG 116.2%",
+                            "4": "Charged Attack DMG 193.8%",
+                            "5": "Charged Attack Stamina Cost 50",
+                            "6": "Plunge DMG 74.6%",
+                            "7": "Low/High Plunge DMG 149.1%/186.3%"
+                        },
+                        "2": {
+                            "0": "1-Hit DMG 86.6%",
+                            "1": "2-Hit DMG 39.4%×2",
+                            "2": "3-Hit DMG 35.9%×3",
+                            "3": "4-Hit DMG 125.6%",
+                            "4": "Charged Attack DMG 209.6%",
+                            "5": "Charged Attack Stamina Cost 50",
+                            "6": "Plunge DMG 80.7%",
+                            "7": "Low/High Plunge DMG 161.3%/201.5%"
+                        },
+                        "3": {
+                            "0": "1-Hit DMG 93.1%",
+                            "1": "2-Hit DMG 42.4%×2",
+                            "2": "3-Hit DMG 38.6%×3",
+                            "3": "4-Hit DMG 135.1%",
+                            "4": "Charged Attack DMG 225.4%",
+                            "5": "Charged Attack Stamina Cost 50",
+                            "6": "Plunge DMG 86.7%",
+                            "7": "Low/High Plunge DMG 173.4%/216.6%"
+                        },
+                        "4": {
+                            "0": "1-Hit DMG 102.4%",
+                            "1": "2-Hit DMG 46.7%×2",
+                            "2": "3-Hit DMG 42.5%×3",
+                            "3": "4-Hit DMG 148.6%",
+                            "4": "Charged Attack DMG 247.9%",
+                            "5": "Charged Attack Stamina Cost 50",
+                            "6": "Plunge DMG 95.4%",
+                            "7": "Low/High Plunge DMG 190.8%/238.3%"
+                        },
+                        "5": {
+                            "0": "1-Hit DMG 108.9%",
+                            "1": "2-Hit DMG 49.6%×2",
+                            "2": "3-Hit DMG 45.2%×3",
+                            "3": "4-Hit DMG 158.1%",
+                            "4": "Charged Attack DMG 263.7%",
+                            "5": "Charged Attack Stamina Cost 50",
+                            "6": "Plunge DMG 101.5%",
+                            "7": "Low/High Plunge DMG 202.9%/253.4%"
+                        },
+                        "6": {
+                            "0": "1-Hit DMG 116.3%",
+                            "1": "2-Hit DMG 53%×2",
+                            "2": "3-Hit DMG 48.3%×3",
+                            "3": "4-Hit DMG 168.9%",
+                            "4": "Charged Attack DMG 281.8%",
+                            "5": "Charged Attack Stamina Cost 50",
+                            "6": "Plunge DMG 108.4%",
+                            "7": "Low/High Plunge DMG 216.8%/270.8%"
+                        },
+                        "7": {
+                            "0": "1-Hit DMG 126.6%",
+                            "1": "2-Hit DMG 57.7%×2",
+                            "2": "3-Hit DMG 52.5%×3",
+                            "3": "4-Hit DMG 183.7%",
+                            "4": "Charged Attack DMG 306.5%",
+                            "5": "Charged Attack Stamina Cost 50",
+                            "6": "Plunge DMG 118%",
+                            "7": "Low/High Plunge DMG 235.9%/294.6%"
+                        },
+                        "8": {
+                            "0": "1-Hit DMG 136.8%",
+                            "1": "2-Hit DMG 62.4%×2",
+                            "2": "3-Hit DMG 56.8%×3",
+                            "3": "4-Hit DMG 198.6%",
+                            "4": "Charged Attack DMG 331.3%",
+                            "5": "Charged Attack Stamina Cost 50",
+                            "6": "Plunge DMG 127.5%",
+                            "7": "Low/High Plunge DMG 254.9%/318.4%"
+                        },
+                        "9": {
+                            "0": "1-Hit DMG 147%",
+                            "1": "2-Hit DMG 67%×2",
+                            "2": "3-Hit DMG 61%×3",
+                            "3": "4-Hit DMG 213.5%",
+                            "4": "Charged Attack DMG 356.1%",
+                            "5": "Charged Attack Stamina Cost 50",
+                            "6": "Plunge DMG 137%",
+                            "7": "Low/High Plunge DMG 274%/342.3%"
+                        },
+                        "10": {
+                            "0": "1-Hit DMG 158.2%",
+                            "1": "2-Hit DMG 72.1%×2",
+                            "2": "3-Hit DMG 65.7%×3",
+                            "3": "4-Hit DMG 229.7%",
+                            "4": "Charged Attack DMG 383.2%",
+                            "5": "Charged Attack Stamina Cost 50",
+                            "6": "Plunge DMG 147.4%",
+                            "7": "Low/High Plunge DMG 294.8%/368.2%"
+                        },
+                        "11": {
+                            "0": "1-Hit DMG 169.4%",
+                            "1": "2-Hit DMG 77.2%×2",
+                            "2": "3-Hit DMG 70.3%×3",
+                            "3": "4-Hit DMG 245.9%",
+                            "4": "Charged Attack DMG 410.2%",
+                            "5": "Charged Attack Stamina Cost 50",
+                            "6": "Plunge DMG 157.8%",
+                            "7": "Low/High Plunge DMG 315.6%/394.2%"
+                        },
+                        "12": {
+                            "0": "1-Hit DMG 180.5%",
+                            "1": "2-Hit DMG 82.3%×2",
+                            "2": "3-Hit DMG 74.9%×3",
+                            "3": "4-Hit DMG 262.1%",
+                            "4": "Charged Attack DMG 437.3%",
+                            "5": "Charged Attack Stamina Cost 50",
+                            "6": "Plunge DMG 168.3%",
+                            "7": "Low/High Plunge DMG 336.4%/420.2%"
+                        },
+                        "13": {
+                            "0": "1-Hit DMG 191.7%",
+                            "1": "2-Hit DMG 87.4%×2",
+                            "2": "3-Hit DMG 79.6%×3",
+                            "3": "4-Hit DMG 278.3%",
+                            "4": "Charged Attack DMG 464.3%",
+                            "5": "Charged Attack Stamina Cost 50",
+                            "6": "Plunge DMG 178.7%",
+                            "7": "Low/High Plunge DMG 357.3%/446.2%"
+                        },
+                        "14": {
+                            "0": "1-Hit DMG 202.9%",
+                            "1": "2-Hit DMG 92.5%×2",
+                            "2": "3-Hit DMG 84.2%×3",
+                            "3": "4-Hit DMG 294.5%",
+                            "4": "Charged Attack DMG 491.4%",
+                            "5": "Charged Attack Stamina Cost 50",
+                            "6": "Plunge DMG 189.1%",
+                            "7": "Low/High Plunge DMG 378.1%/472.2%"
+                        },
+                        "15": {
+                            "0": "1-Hit DMG 214%",
+                            "1": "2-Hit DMG 97.6%×2",
+                            "2": "3-Hit DMG 88.9%×3",
+                            "3": "4-Hit DMG 310.7%",
+                            "4": "Charged Attack DMG 518.4%",
+                            "5": "Charged Attack Stamina Cost 50",
+                            "6": "Plunge DMG 199.5%",
+                            "7": "Low/High Plunge DMG 398.9%/498.2%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104347",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112104",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104349",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112106",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113068",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104349",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112106",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113068",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104349",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112106",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113068",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104349",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112106",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113068",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "The Named Moment",
+                    "description": "Calling upon her authority over \"conflict,\" Mavuika summons the All-Fire Armaments passed down through the line of human Archons, dealing Nightsoul-aligned <color=#FF9999FF>Pyro DMG</color>.\\nAfter using this, Mavuika's Nightsoul points are restored to max value, and she enters the Nightsoul's Blessing state.\\n\\n<color=#FFD780FF>All-Fire Armaments</color>\\nHas different forms when Tapped or Held.\\n\\n<color=#FFD780FF>Tap</color>\\n\"Divine Name Unleashed\": The All-Fire Armaments manifest as a Ring of Searing Radiance. The Ring follows the current active character and attacks nearby opponents at intervals, dealing Nightsoul-aligned <color=#FF9999FF>Pyro DMG</color>.\\n\\n<color=#FFD780FF>Hold</color>\\n\"Ancient Name Unbound\": The All-Fire Armaments manifest as a Flamestrider. In this state, Mavuika can ride the Flamestrider at high speed, or activate its hidden backup propulsion module to temporarily cross various terrain types and glide in mid-air. Mavuika's Normal, Charged, and Plunging Attacks will also be converted to deal Nightsoul-aligned <color=#FF9999FF>Pyro DMG</color> which cannot be overridden. When sprinting, she also deals Nightsoul-aligned <color=#FF9999FF>Pyro DMG</color> to opponents along her path.\\n\\nWhile in the Nightsoul's Blessing state, Tapping the Elemental Skill can switch the All-Fire Armaments' form. The Armaments will disappear once Mavuika's Nightsoul's Blessing state ends.\\n\\n<color=#FFD780FF>Nightsoul's Blessing: Mavuika</color>\\nContinuously consumes Nightsoul points according to the All-Fire Armaments' form. Mavuika's Nightsoul's Blessing state ends once her Nightsoul points are exhausted.\\n\\n<i>If you told Mavuika that in another world vehicles like the Flamestrider required license plates for identification, that would make her happy too:\\n\"Well, mine's the only one that exists here. Guess that means I get to pick whatever plate number I want, huh?\"</i>",
+                    "icon": "Skill_S_Mavuika_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 74.4%",
+                            "1": "Ring of Searing Radiance DMG 128%",
+                            "2": "Ring of Searing Radiance Attack Interval 2s",
+                            "3": "Flamestrider Normal Attack 1-Hit DMG 57.3%",
+                            "4": "Flamestrider Normal Attack 2-Hit DMG 59.1%",
+                            "5": "Flamestrider Normal Attack 3-Hit DMG 70%",
+                            "6": "Flamestrider Normal Attack 4-Hit DMG 69.7%",
+                            "7": "Flamestrider Normal Attack 5-Hit DMG 91%",
+                            "8": "Flamestrider Sprint DMG 80.8%",
+                            "9": "Flamestrider Charged Attack Cyclic DMG 98.9%",
+                            "10": "Flamestrider Charged Attack Final DMG 137.6%",
+                            "11": "Flamestrider Plunge DMG 160%",
+                            "12": "Nightsoul Point Limit 80",
+                            "13": "CD 15s"
+                        },
+                        "2": {
+                            "0": "Skill DMG 80%",
+                            "1": "Ring of Searing Radiance DMG 137.6%",
+                            "2": "Ring of Searing Radiance Attack Interval 2s",
+                            "3": "Flamestrider Normal Attack 1-Hit DMG 61.9%",
+                            "4": "Flamestrider Normal Attack 2-Hit DMG 63.9%",
+                            "5": "Flamestrider Normal Attack 3-Hit DMG 75.7%",
+                            "6": "Flamestrider Normal Attack 4-Hit DMG 75.4%",
+                            "7": "Flamestrider Normal Attack 5-Hit DMG 98.4%",
+                            "8": "Flamestrider Sprint DMG 87.4%",
+                            "9": "Flamestrider Charged Attack Cyclic DMG 106.9%",
+                            "10": "Flamestrider Charged Attack Final DMG 148.8%",
+                            "11": "Flamestrider Plunge DMG 173%",
+                            "12": "Nightsoul Point Limit 80",
+                            "13": "CD 15s"
+                        },
+                        "3": {
+                            "0": "Skill DMG 85.6%",
+                            "1": "Ring of Searing Radiance DMG 147.2%",
+                            "2": "Ring of Searing Radiance Attack Interval 2s",
+                            "3": "Flamestrider Normal Attack 1-Hit DMG 66.6%",
+                            "4": "Flamestrider Normal Attack 2-Hit DMG 68.8%",
+                            "5": "Flamestrider Normal Attack 3-Hit DMG 81.4%",
+                            "6": "Flamestrider Normal Attack 4-Hit DMG 81.1%",
+                            "7": "Flamestrider Normal Attack 5-Hit DMG 105.8%",
+                            "8": "Flamestrider Sprint DMG 94%",
+                            "9": "Flamestrider Charged Attack Cyclic DMG 115%",
+                            "10": "Flamestrider Charged Attack Final DMG 160%",
+                            "11": "Flamestrider Plunge DMG 186%",
+                            "12": "Nightsoul Point Limit 80",
+                            "13": "CD 15s"
+                        },
+                        "4": {
+                            "0": "Skill DMG 93%",
+                            "1": "Ring of Searing Radiance DMG 160%",
+                            "2": "Ring of Searing Radiance Attack Interval 2s",
+                            "3": "Flamestrider Normal Attack 1-Hit DMG 73.2%",
+                            "4": "Flamestrider Normal Attack 2-Hit DMG 75.6%",
+                            "5": "Flamestrider Normal Attack 3-Hit DMG 89.5%",
+                            "6": "Flamestrider Normal Attack 4-Hit DMG 89.2%",
+                            "7": "Flamestrider Normal Attack 5-Hit DMG 116.4%",
+                            "8": "Flamestrider Sprint DMG 103.4%",
+                            "9": "Flamestrider Charged Attack Cyclic DMG 126.5%",
+                            "10": "Flamestrider Charged Attack Final DMG 176%",
+                            "11": "Flamestrider Plunge DMG 204.6%",
+                            "12": "Nightsoul Point Limit 80",
+                            "13": "CD 15s"
+                        },
+                        "5": {
+                            "0": "Skill DMG 98.6%",
+                            "1": "Ring of Searing Radiance DMG 169.6%",
+                            "2": "Ring of Searing Radiance Attack Interval 2s",
+                            "3": "Flamestrider Normal Attack 1-Hit DMG 77.9%",
+                            "4": "Flamestrider Normal Attack 2-Hit DMG 80.4%",
+                            "5": "Flamestrider Normal Attack 3-Hit DMG 95.2%",
+                            "6": "Flamestrider Normal Attack 4-Hit DMG 94.8%",
+                            "7": "Flamestrider Normal Attack 5-Hit DMG 123.8%",
+                            "8": "Flamestrider Sprint DMG 110%",
+                            "9": "Flamestrider Charged Attack Cyclic DMG 134.5%",
+                            "10": "Flamestrider Charged Attack Final DMG 187.2%",
+                            "11": "Flamestrider Plunge DMG 217.6%",
+                            "12": "Nightsoul Point Limit 80",
+                            "13": "CD 15s"
+                        },
+                        "6": {
+                            "0": "Skill DMG 104.2%",
+                            "1": "Ring of Searing Radiance DMG 179.2%",
+                            "2": "Ring of Searing Radiance Attack Interval 2s",
+                            "3": "Flamestrider Normal Attack 1-Hit DMG 83.2%",
+                            "4": "Flamestrider Normal Attack 2-Hit DMG 85.9%",
+                            "5": "Flamestrider Normal Attack 3-Hit DMG 101.7%",
+                            "6": "Flamestrider Normal Attack 4-Hit DMG 101.3%",
+                            "7": "Flamestrider Normal Attack 5-Hit DMG 132.3%",
+                            "8": "Flamestrider Sprint DMG 117.5%",
+                            "9": "Flamestrider Charged Attack Cyclic DMG 143.8%",
+                            "10": "Flamestrider Charged Attack Final DMG 200%",
+                            "11": "Flamestrider Plunge DMG 232.5%",
+                            "12": "Nightsoul Point Limit 80",
+                            "13": "CD 15s"
+                        },
+                        "7": {
+                            "0": "Skill DMG 111.6%",
+                            "1": "Ring of Searing Radiance DMG 192%",
+                            "2": "Ring of Searing Radiance Attack Interval 2s",
+                            "3": "Flamestrider Normal Attack 1-Hit DMG 90.6%",
+                            "4": "Flamestrider Normal Attack 2-Hit DMG 93.5%",
+                            "5": "Flamestrider Normal Attack 3-Hit DMG 110.7%",
+                            "6": "Flamestrider Normal Attack 4-Hit DMG 110.2%",
+                            "7": "Flamestrider Normal Attack 5-Hit DMG 143.9%",
+                            "8": "Flamestrider Sprint DMG 127.8%",
+                            "9": "Flamestrider Charged Attack Cyclic DMG 156.4%",
+                            "10": "Flamestrider Charged Attack Final DMG 217.6%",
+                            "11": "Flamestrider Plunge DMG 253%",
+                            "12": "Nightsoul Point Limit 80",
+                            "13": "CD 15s"
+                        },
+                        "8": {
+                            "0": "Skill DMG 119%",
+                            "1": "Ring of Searing Radiance DMG 204.8%",
+                            "2": "Ring of Searing Radiance Attack Interval 2s",
+                            "3": "Flamestrider Normal Attack 1-Hit DMG 97.9%",
+                            "4": "Flamestrider Normal Attack 2-Hit DMG 101.1%",
+                            "5": "Flamestrider Normal Attack 3-Hit DMG 119.6%",
+                            "6": "Flamestrider Normal Attack 4-Hit DMG 119.1%",
+                            "7": "Flamestrider Normal Attack 5-Hit DMG 155.6%",
+                            "8": "Flamestrider Sprint DMG 138.2%",
+                            "9": "Flamestrider Charged Attack Cyclic DMG 169%",
+                            "10": "Flamestrider Charged Attack Final DMG 235.2%",
+                            "11": "Flamestrider Plunge DMG 273.4%",
+                            "12": "Nightsoul Point Limit 80",
+                            "13": "CD 15s"
+                        },
+                        "9": {
+                            "0": "Skill DMG 126.5%",
+                            "1": "Ring of Searing Radiance DMG 217.6%",
+                            "2": "Ring of Searing Radiance Attack Interval 2s",
+                            "3": "Flamestrider Normal Attack 1-Hit DMG 105.2%",
+                            "4": "Flamestrider Normal Attack 2-Hit DMG 108.6%",
+                            "5": "Flamestrider Normal Attack 3-Hit DMG 128.6%",
+                            "6": "Flamestrider Normal Attack 4-Hit DMG 128.1%",
+                            "7": "Flamestrider Normal Attack 5-Hit DMG 167.2%",
+                            "8": "Flamestrider Sprint DMG 148.5%",
+                            "9": "Flamestrider Charged Attack Cyclic DMG 181.7%",
+                            "10": "Flamestrider Charged Attack Final DMG 252.8%",
+                            "11": "Flamestrider Plunge DMG 293.9%",
+                            "12": "Nightsoul Point Limit 80",
+                            "13": "CD 15s"
+                        },
+                        "10": {
+                            "0": "Skill DMG 133.9%",
+                            "1": "Ring of Searing Radiance DMG 230.4%",
+                            "2": "Ring of Searing Radiance Attack Interval 2s",
+                            "3": "Flamestrider Normal Attack 1-Hit DMG 113.2%",
+                            "4": "Flamestrider Normal Attack 2-Hit DMG 116.9%",
+                            "5": "Flamestrider Normal Attack 3-Hit DMG 138.3%",
+                            "6": "Flamestrider Normal Attack 4-Hit DMG 137.8%",
+                            "7": "Flamestrider Normal Attack 5-Hit DMG 179.9%",
+                            "8": "Flamestrider Sprint DMG 159.8%",
+                            "9": "Flamestrider Charged Attack Cyclic DMG 195.5%",
+                            "10": "Flamestrider Charged Attack Final DMG 272%",
+                            "11": "Flamestrider Plunge DMG 316.2%",
+                            "12": "Nightsoul Point Limit 80",
+                            "13": "CD 15s"
+                        },
+                        "11": {
+                            "0": "Skill DMG 141.4%",
+                            "1": "Ring of Searing Radiance DMG 243.2%",
+                            "2": "Ring of Searing Radiance Attack Interval 2s",
+                            "3": "Flamestrider Normal Attack 1-Hit DMG 121.2%",
+                            "4": "Flamestrider Normal Attack 2-Hit DMG 125.1%",
+                            "5": "Flamestrider Normal Attack 3-Hit DMG 148.1%",
+                            "6": "Flamestrider Normal Attack 4-Hit DMG 147.5%",
+                            "7": "Flamestrider Normal Attack 5-Hit DMG 192.6%",
+                            "8": "Flamestrider Sprint DMG 171.1%",
+                            "9": "Flamestrider Charged Attack Cyclic DMG 209.3%",
+                            "10": "Flamestrider Charged Attack Final DMG 291.2%",
+                            "11": "Flamestrider Plunge DMG 338.5%",
+                            "12": "Nightsoul Point Limit 80",
+                            "13": "CD 15s"
+                        },
+                        "12": {
+                            "0": "Skill DMG 148.8%",
+                            "1": "Ring of Searing Radiance DMG 256%",
+                            "2": "Ring of Searing Radiance Attack Interval 2s",
+                            "3": "Flamestrider Normal Attack 1-Hit DMG 129.2%",
+                            "4": "Flamestrider Normal Attack 2-Hit DMG 133.4%",
+                            "5": "Flamestrider Normal Attack 3-Hit DMG 157.9%",
+                            "6": "Flamestrider Normal Attack 4-Hit DMG 157.2%",
+                            "7": "Flamestrider Normal Attack 5-Hit DMG 205.3%",
+                            "8": "Flamestrider Sprint DMG 182.4%",
+                            "9": "Flamestrider Charged Attack Cyclic DMG 223.1%",
+                            "10": "Flamestrider Charged Attack Final DMG 310.4%",
+                            "11": "Flamestrider Plunge DMG 360.8%",
+                            "12": "Nightsoul Point Limit 80",
+                            "13": "CD 15s"
+                        },
+                        "13": {
+                            "0": "Skill DMG 158.1%",
+                            "1": "Ring of Searing Radiance DMG 272%",
+                            "2": "Ring of Searing Radiance Attack Interval 2s",
+                            "3": "Flamestrider Normal Attack 1-Hit DMG 137.2%",
+                            "4": "Flamestrider Normal Attack 2-Hit DMG 141.6%",
+                            "5": "Flamestrider Normal Attack 3-Hit DMG 167.6%",
+                            "6": "Flamestrider Normal Attack 4-Hit DMG 167%",
+                            "7": "Flamestrider Normal Attack 5-Hit DMG 218%",
+                            "8": "Flamestrider Sprint DMG 193.6%",
+                            "9": "Flamestrider Charged Attack Cyclic DMG 236.9%",
+                            "10": "Flamestrider Charged Attack Final DMG 329.6%",
+                            "11": "Flamestrider Plunge DMG 383.2%",
+                            "12": "Nightsoul Point Limit 80",
+                            "13": "CD 15s"
+                        },
+                        "14": {
+                            "0": "Skill DMG 167.4%",
+                            "1": "Ring of Searing Radiance DMG 288%",
+                            "2": "Ring of Searing Radiance Attack Interval 2s",
+                            "3": "Flamestrider Normal Attack 1-Hit DMG 145.2%",
+                            "4": "Flamestrider Normal Attack 2-Hit DMG 149.9%",
+                            "5": "Flamestrider Normal Attack 3-Hit DMG 177.4%",
+                            "6": "Flamestrider Normal Attack 4-Hit DMG 176.7%",
+                            "7": "Flamestrider Normal Attack 5-Hit DMG 230.7%",
+                            "8": "Flamestrider Sprint DMG 204.9%",
+                            "9": "Flamestrider Charged Attack Cyclic DMG 250.7%",
+                            "10": "Flamestrider Charged Attack Final DMG 348.8%",
+                            "11": "Flamestrider Plunge DMG 405.5%",
+                            "12": "Nightsoul Point Limit 80",
+                            "13": "CD 15s"
+                        },
+                        "15": {
+                            "0": "Skill DMG 176.7%",
+                            "1": "Ring of Searing Radiance DMG 304%",
+                            "2": "Ring of Searing Radiance Attack Interval 2s",
+                            "3": "Flamestrider Normal Attack 1-Hit DMG 153.2%",
+                            "4": "Flamestrider Normal Attack 2-Hit DMG 158.1%",
+                            "5": "Flamestrider Normal Attack 3-Hit DMG 187.2%",
+                            "6": "Flamestrider Normal Attack 4-Hit DMG 186.4%",
+                            "7": "Flamestrider Normal Attack 5-Hit DMG 243.4%",
+                            "8": "Flamestrider Sprint DMG 216.2%",
+                            "9": "Flamestrider Charged Attack Cyclic DMG 264.5%",
+                            "10": "Flamestrider Charged Attack Final DMG 368%",
+                            "11": "Flamestrider Plunge DMG 427.8%",
+                            "12": "Nightsoul Point Limit 80",
+                            "13": "CD 15s"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104347",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112104",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104349",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112106",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113068",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104349",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112106",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113068",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104349",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112106",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113068",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104349",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112106",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113068",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Hour of Burning Skies",
+                    "description": "Let the people's inner voices reach the divine throne in the heavens.\\n<color=#FFD780FF>Mavuika's Elemental Burst is not reliant on Energy, but instead, on \"Fighting Spirit.\"</color>\\n\\n<color=#FFD780FF>Fighting Spirit</color>\\nWhen Mavuika has at least 50% Fighting Spirit, she can consume it all to unleash her Elemental Burst.\\nMavuika can obtain Fighting Spirit via the following methods:\\n· When in combat, Nightsoul points consumed by nearby party members are converted to Fighting Spirit.\\n· When nearby party members' Normal Attacks hit opponents, Mavuika gains 1.5 Fighting Spirit. This can trigger once every 0.1s.\\n\\nAfter using this, Mavuika gains 10 Nightsoul points and enters the Nightsoul's Blessing state. Riding her Flamestrider high in the air, she uses a powerful Sunfell Slice against opponents on the ground, dealing Nightsoul-aligned <color=#FF9999FF>AoE Pyro DMG</color> and entering the \"Crucible of Death and Life\" state.\\n\\n<color=#FFD780FF>Crucible of Death and Life</color>\\nDuring this time, Mavuika's various actions will no longer consume Nightsoul points, and her interruption resistance is increased. Also, the DMG dealt by Sunfell Slice and \"Ancient Name Unbound\"'s Normal and Charged Attacks is increased based on the amount of Fighting Spirit she has when using the Elemental Burst.\\nCrucible of Death and Life will be canceled when Mavuika leaves the field.\\n\\n<i>\"—But this time, I want to break the cycle and free us from this fate for good.\"</i>",
+                    "icon": "Skill_E_Mavuika_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 444.8%",
+                            "1": "Crucible of Death and Life Duration 7s",
+                            "2": "Sunfell Slice DMG Bonus 1.6% ATK per Fighting Spirit",
+                            "3": "Flamestrider Normal Attack DMG Bonus {param4:F2P} ATK per Fighting Spirit",
+                            "4": "Flamestrider Charged Attack DMG Bonus {param5:F2P} ATK per Fighting Spirit",
+                            "5": "CD 18s",
+                            "6": "Fighting Spirit Limit 200"
+                        },
+                        "2": {
+                            "0": "Skill DMG 478.2%",
+                            "1": "Crucible of Death and Life Duration 7s",
+                            "2": "Sunfell Slice DMG Bonus 1.7% ATK per Fighting Spirit",
+                            "3": "Flamestrider Normal Attack DMG Bonus {param4:F2P} ATK per Fighting Spirit",
+                            "4": "Flamestrider Charged Attack DMG Bonus {param5:F2P} ATK per Fighting Spirit",
+                            "5": "CD 18s",
+                            "6": "Fighting Spirit Limit 200"
+                        },
+                        "3": {
+                            "0": "Skill DMG 511.5%",
+                            "1": "Crucible of Death and Life Duration 7s",
+                            "2": "Sunfell Slice DMG Bonus 1.8% ATK per Fighting Spirit",
+                            "3": "Flamestrider Normal Attack DMG Bonus {param4:F2P} ATK per Fighting Spirit",
+                            "4": "Flamestrider Charged Attack DMG Bonus {param5:F2P} ATK per Fighting Spirit",
+                            "5": "CD 18s",
+                            "6": "Fighting Spirit Limit 200"
+                        },
+                        "4": {
+                            "0": "Skill DMG 556%",
+                            "1": "Crucible of Death and Life Duration 7s",
+                            "2": "Sunfell Slice DMG Bonus 2% ATK per Fighting Spirit",
+                            "3": "Flamestrider Normal Attack DMG Bonus {param4:F2P} ATK per Fighting Spirit",
+                            "4": "Flamestrider Charged Attack DMG Bonus {param5:F2P} ATK per Fighting Spirit",
+                            "5": "CD 18s",
+                            "6": "Fighting Spirit Limit 200"
+                        },
+                        "5": {
+                            "0": "Skill DMG 589.4%",
+                            "1": "Crucible of Death and Life Duration 7s",
+                            "2": "Sunfell Slice DMG Bonus 2.1% ATK per Fighting Spirit",
+                            "3": "Flamestrider Normal Attack DMG Bonus {param4:F2P} ATK per Fighting Spirit",
+                            "4": "Flamestrider Charged Attack DMG Bonus {param5:F2P} ATK per Fighting Spirit",
+                            "5": "CD 18s",
+                            "6": "Fighting Spirit Limit 200"
+                        },
+                        "6": {
+                            "0": "Skill DMG 622.7%",
+                            "1": "Crucible of Death and Life Duration 7s",
+                            "2": "Sunfell Slice DMG Bonus 2.2% ATK per Fighting Spirit",
+                            "3": "Flamestrider Normal Attack DMG Bonus {param4:F2P} ATK per Fighting Spirit",
+                            "4": "Flamestrider Charged Attack DMG Bonus {param5:F2P} ATK per Fighting Spirit",
+                            "5": "CD 18s",
+                            "6": "Fighting Spirit Limit 200"
+                        },
+                        "7": {
+                            "0": "Skill DMG 667.2%",
+                            "1": "Crucible of Death and Life Duration 7s",
+                            "2": "Sunfell Slice DMG Bonus 2.4% ATK per Fighting Spirit",
+                            "3": "Flamestrider Normal Attack DMG Bonus {param4:F2P} ATK per Fighting Spirit",
+                            "4": "Flamestrider Charged Attack DMG Bonus {param5:F2P} ATK per Fighting Spirit",
+                            "5": "CD 18s",
+                            "6": "Fighting Spirit Limit 200"
+                        },
+                        "8": {
+                            "0": "Skill DMG 711.7%",
+                            "1": "Crucible of Death and Life Duration 7s",
+                            "2": "Sunfell Slice DMG Bonus 2.6% ATK per Fighting Spirit",
+                            "3": "Flamestrider Normal Attack DMG Bonus {param4:F2P} ATK per Fighting Spirit",
+                            "4": "Flamestrider Charged Attack DMG Bonus {param5:F2P} ATK per Fighting Spirit",
+                            "5": "CD 18s",
+                            "6": "Fighting Spirit Limit 200"
+                        },
+                        "9": {
+                            "0": "Skill DMG 756.2%",
+                            "1": "Crucible of Death and Life Duration 7s",
+                            "2": "Sunfell Slice DMG Bonus 2.7% ATK per Fighting Spirit",
+                            "3": "Flamestrider Normal Attack DMG Bonus {param4:F2P} ATK per Fighting Spirit",
+                            "4": "Flamestrider Charged Attack DMG Bonus {param5:F2P} ATK per Fighting Spirit",
+                            "5": "CD 18s",
+                            "6": "Fighting Spirit Limit 200"
+                        },
+                        "10": {
+                            "0": "Skill DMG 800.6%",
+                            "1": "Crucible of Death and Life Duration 7s",
+                            "2": "Sunfell Slice DMG Bonus 2.9% ATK per Fighting Spirit",
+                            "3": "Flamestrider Normal Attack DMG Bonus {param4:F2P} ATK per Fighting Spirit",
+                            "4": "Flamestrider Charged Attack DMG Bonus {param5:F2P} ATK per Fighting Spirit",
+                            "5": "CD 18s",
+                            "6": "Fighting Spirit Limit 200"
+                        },
+                        "11": {
+                            "0": "Skill DMG 845.1%",
+                            "1": "Crucible of Death and Life Duration 7s",
+                            "2": "Sunfell Slice DMG Bonus 3% ATK per Fighting Spirit",
+                            "3": "Flamestrider Normal Attack DMG Bonus {param4:F2P} ATK per Fighting Spirit",
+                            "4": "Flamestrider Charged Attack DMG Bonus {param5:F2P} ATK per Fighting Spirit",
+                            "5": "CD 18s",
+                            "6": "Fighting Spirit Limit 200"
+                        },
+                        "12": {
+                            "0": "Skill DMG 889.6%",
+                            "1": "Crucible of Death and Life Duration 7s",
+                            "2": "Sunfell Slice DMG Bonus 3.2% ATK per Fighting Spirit",
+                            "3": "Flamestrider Normal Attack DMG Bonus {param4:F2P} ATK per Fighting Spirit",
+                            "4": "Flamestrider Charged Attack DMG Bonus {param5:F2P} ATK per Fighting Spirit",
+                            "5": "CD 18s",
+                            "6": "Fighting Spirit Limit 200"
+                        },
+                        "13": {
+                            "0": "Skill DMG 945.2%",
+                            "1": "Crucible of Death and Life Duration 7s",
+                            "2": "Sunfell Slice DMG Bonus 3.4% ATK per Fighting Spirit",
+                            "3": "Flamestrider Normal Attack DMG Bonus {param4:F2P} ATK per Fighting Spirit",
+                            "4": "Flamestrider Charged Attack DMG Bonus {param5:F2P} ATK per Fighting Spirit",
+                            "5": "CD 18s",
+                            "6": "Fighting Spirit Limit 200"
+                        },
+                        "14": {
+                            "0": "Skill DMG 1000.8%",
+                            "1": "Crucible of Death and Life Duration 7s",
+                            "2": "Sunfell Slice DMG Bonus 3.6% ATK per Fighting Spirit",
+                            "3": "Flamestrider Normal Attack DMG Bonus {param4:F2P} ATK per Fighting Spirit",
+                            "4": "Flamestrider Charged Attack DMG Bonus {param5:F2P} ATK per Fighting Spirit",
+                            "5": "CD 18s",
+                            "6": "Fighting Spirit Limit 200"
+                        },
+                        "15": {
+                            "0": "Skill DMG 1056.4%",
+                            "1": "Crucible of Death and Life Duration 7s",
+                            "2": "Sunfell Slice DMG Bonus 3.8% ATK per Fighting Spirit",
+                            "3": "Flamestrider Normal Attack DMG Bonus {param4:F2P} ATK per Fighting Spirit",
+                            "4": "Flamestrider Charged Attack DMG Bonus {param5:F2P} ATK per Fighting Spirit",
+                            "5": "CD 18s",
+                            "6": "Fighting Spirit Limit 200"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104347",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112104",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104349",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112106",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113068",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104349",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112106",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113068",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104349",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112106",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113068",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104349",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112106",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113068",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Hour of Burning Skies",
+                    "description": "Let the people's inner voices reach the divine throne in the heavens.\\n<color=#FFD780FF>Mavuika's Elemental Burst is not reliant on Energy, but instead, on \"Fighting Spirit.\"</color>\\n\\n<color=#FFD780FF>Fighting Spirit</color>\\nWhen Mavuika has at least 50% Fighting Spirit, she can consume it all to unleash her Elemental Burst.\\nMavuika can obtain Fighting Spirit via the following methods:\\n· When in combat, Nightsoul points consumed by nearby party members are converted to Fighting Spirit.\\n· When nearby party members' Normal Attacks hit opponents, Mavuika gains 1.5 Fighting Spirit. This can trigger once every 0.1s.\\n\\nAfter using this, Mavuika gains 10 Nightsoul points and enters the Nightsoul's Blessing state. Riding her Flamestrider high in the air, she uses a powerful Sunfell Slice against opponents on the ground, dealing Nightsoul-aligned <color=#FF9999FF>AoE Pyro DMG</color> and entering the \"Crucible of Death and Life\" state.\\n\\n<color=#FFD780FF>Crucible of Death and Life</color>\\nDuring this time, Mavuika's various actions will no longer consume Nightsoul points, and her interruption resistance is increased. Also, the DMG dealt by Sunfell Slice and \"Ancient Name Unbound\"'s Normal and Charged Attacks is increased based on the amount of Fighting Spirit she has when using the Elemental Burst.\\nCrucible of Death and Life will be canceled when Mavuika leaves the field.\\n\\n<i>\"—But this time, I want to break the cycle and free us from this fate for good.\"</i>",
+                    "icon": "Skill_E_Mavuika_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 444.8%",
+                            "1": "Crucible of Death and Life Duration 7s",
+                            "2": "Sunfell Slice DMG Bonus 1.6% ATK per Fighting Spirit",
+                            "3": "Flamestrider Normal Attack DMG Bonus {param4:F2P} ATK per Fighting Spirit",
+                            "4": "Flamestrider Charged Attack DMG Bonus {param5:F2P} ATK per Fighting Spirit",
+                            "5": "CD 18s",
+                            "6": "Fighting Spirit Limit 200"
+                        },
+                        "2": {
+                            "0": "Skill DMG 478.2%",
+                            "1": "Crucible of Death and Life Duration 7s",
+                            "2": "Sunfell Slice DMG Bonus 1.7% ATK per Fighting Spirit",
+                            "3": "Flamestrider Normal Attack DMG Bonus {param4:F2P} ATK per Fighting Spirit",
+                            "4": "Flamestrider Charged Attack DMG Bonus {param5:F2P} ATK per Fighting Spirit",
+                            "5": "CD 18s",
+                            "6": "Fighting Spirit Limit 200"
+                        },
+                        "3": {
+                            "0": "Skill DMG 511.5%",
+                            "1": "Crucible of Death and Life Duration 7s",
+                            "2": "Sunfell Slice DMG Bonus 1.8% ATK per Fighting Spirit",
+                            "3": "Flamestrider Normal Attack DMG Bonus {param4:F2P} ATK per Fighting Spirit",
+                            "4": "Flamestrider Charged Attack DMG Bonus {param5:F2P} ATK per Fighting Spirit",
+                            "5": "CD 18s",
+                            "6": "Fighting Spirit Limit 200"
+                        },
+                        "4": {
+                            "0": "Skill DMG 556%",
+                            "1": "Crucible of Death and Life Duration 7s",
+                            "2": "Sunfell Slice DMG Bonus 2% ATK per Fighting Spirit",
+                            "3": "Flamestrider Normal Attack DMG Bonus {param4:F2P} ATK per Fighting Spirit",
+                            "4": "Flamestrider Charged Attack DMG Bonus {param5:F2P} ATK per Fighting Spirit",
+                            "5": "CD 18s",
+                            "6": "Fighting Spirit Limit 200"
+                        },
+                        "5": {
+                            "0": "Skill DMG 589.4%",
+                            "1": "Crucible of Death and Life Duration 7s",
+                            "2": "Sunfell Slice DMG Bonus 2.1% ATK per Fighting Spirit",
+                            "3": "Flamestrider Normal Attack DMG Bonus {param4:F2P} ATK per Fighting Spirit",
+                            "4": "Flamestrider Charged Attack DMG Bonus {param5:F2P} ATK per Fighting Spirit",
+                            "5": "CD 18s",
+                            "6": "Fighting Spirit Limit 200"
+                        },
+                        "6": {
+                            "0": "Skill DMG 622.7%",
+                            "1": "Crucible of Death and Life Duration 7s",
+                            "2": "Sunfell Slice DMG Bonus 2.2% ATK per Fighting Spirit",
+                            "3": "Flamestrider Normal Attack DMG Bonus {param4:F2P} ATK per Fighting Spirit",
+                            "4": "Flamestrider Charged Attack DMG Bonus {param5:F2P} ATK per Fighting Spirit",
+                            "5": "CD 18s",
+                            "6": "Fighting Spirit Limit 200"
+                        },
+                        "7": {
+                            "0": "Skill DMG 667.2%",
+                            "1": "Crucible of Death and Life Duration 7s",
+                            "2": "Sunfell Slice DMG Bonus 2.4% ATK per Fighting Spirit",
+                            "3": "Flamestrider Normal Attack DMG Bonus {param4:F2P} ATK per Fighting Spirit",
+                            "4": "Flamestrider Charged Attack DMG Bonus {param5:F2P} ATK per Fighting Spirit",
+                            "5": "CD 18s",
+                            "6": "Fighting Spirit Limit 200"
+                        },
+                        "8": {
+                            "0": "Skill DMG 711.7%",
+                            "1": "Crucible of Death and Life Duration 7s",
+                            "2": "Sunfell Slice DMG Bonus 2.6% ATK per Fighting Spirit",
+                            "3": "Flamestrider Normal Attack DMG Bonus {param4:F2P} ATK per Fighting Spirit",
+                            "4": "Flamestrider Charged Attack DMG Bonus {param5:F2P} ATK per Fighting Spirit",
+                            "5": "CD 18s",
+                            "6": "Fighting Spirit Limit 200"
+                        },
+                        "9": {
+                            "0": "Skill DMG 756.2%",
+                            "1": "Crucible of Death and Life Duration 7s",
+                            "2": "Sunfell Slice DMG Bonus 2.7% ATK per Fighting Spirit",
+                            "3": "Flamestrider Normal Attack DMG Bonus {param4:F2P} ATK per Fighting Spirit",
+                            "4": "Flamestrider Charged Attack DMG Bonus {param5:F2P} ATK per Fighting Spirit",
+                            "5": "CD 18s",
+                            "6": "Fighting Spirit Limit 200"
+                        },
+                        "10": {
+                            "0": "Skill DMG 800.6%",
+                            "1": "Crucible of Death and Life Duration 7s",
+                            "2": "Sunfell Slice DMG Bonus 2.9% ATK per Fighting Spirit",
+                            "3": "Flamestrider Normal Attack DMG Bonus {param4:F2P} ATK per Fighting Spirit",
+                            "4": "Flamestrider Charged Attack DMG Bonus {param5:F2P} ATK per Fighting Spirit",
+                            "5": "CD 18s",
+                            "6": "Fighting Spirit Limit 200"
+                        },
+                        "11": {
+                            "0": "Skill DMG 845.1%",
+                            "1": "Crucible of Death and Life Duration 7s",
+                            "2": "Sunfell Slice DMG Bonus 3% ATK per Fighting Spirit",
+                            "3": "Flamestrider Normal Attack DMG Bonus {param4:F2P} ATK per Fighting Spirit",
+                            "4": "Flamestrider Charged Attack DMG Bonus {param5:F2P} ATK per Fighting Spirit",
+                            "5": "CD 18s",
+                            "6": "Fighting Spirit Limit 200"
+                        },
+                        "12": {
+                            "0": "Skill DMG 889.6%",
+                            "1": "Crucible of Death and Life Duration 7s",
+                            "2": "Sunfell Slice DMG Bonus 3.2% ATK per Fighting Spirit",
+                            "3": "Flamestrider Normal Attack DMG Bonus {param4:F2P} ATK per Fighting Spirit",
+                            "4": "Flamestrider Charged Attack DMG Bonus {param5:F2P} ATK per Fighting Spirit",
+                            "5": "CD 18s",
+                            "6": "Fighting Spirit Limit 200"
+                        },
+                        "13": {
+                            "0": "Skill DMG 945.2%",
+                            "1": "Crucible of Death and Life Duration 7s",
+                            "2": "Sunfell Slice DMG Bonus 3.4% ATK per Fighting Spirit",
+                            "3": "Flamestrider Normal Attack DMG Bonus {param4:F2P} ATK per Fighting Spirit",
+                            "4": "Flamestrider Charged Attack DMG Bonus {param5:F2P} ATK per Fighting Spirit",
+                            "5": "CD 18s",
+                            "6": "Fighting Spirit Limit 200"
+                        },
+                        "14": {
+                            "0": "Skill DMG 1000.8%",
+                            "1": "Crucible of Death and Life Duration 7s",
+                            "2": "Sunfell Slice DMG Bonus 3.6% ATK per Fighting Spirit",
+                            "3": "Flamestrider Normal Attack DMG Bonus {param4:F2P} ATK per Fighting Spirit",
+                            "4": "Flamestrider Charged Attack DMG Bonus {param5:F2P} ATK per Fighting Spirit",
+                            "5": "CD 18s",
+                            "6": "Fighting Spirit Limit 200"
+                        },
+                        "15": {
+                            "0": "Skill DMG 1056.4%",
+                            "1": "Crucible of Death and Life Duration 7s",
+                            "2": "Sunfell Slice DMG Bonus 3.8% ATK per Fighting Spirit",
+                            "3": "Flamestrider Normal Attack DMG Bonus {param4:F2P} ATK per Fighting Spirit",
+                            "4": "Flamestrider Charged Attack DMG Bonus {param5:F2P} ATK per Fighting Spirit",
+                            "5": "CD 18s",
+                            "6": "Fighting Spirit Limit 200"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104347",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112104",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104349",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112106",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113068",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104349",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112106",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113068",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104349",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112106",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113068",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104349",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112106",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113068",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Gift of Flaming Flowers",
+                    "description": "When a nearby party member triggers a Nightsoul Burst, Mavuika's ATK increases by 30% for 10s.",
+                    "icon": "UI_Talent_S_Mavuika_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "\"Kiongozi\"",
+                    "description": "After using her Elemental Burst, <color=#FFD780FF>Hour of Burning Skies</color>, every point of Fighting Spirit present when it is used increases the DMG that the current active party member deals by 0.2%. The maximum increase obtainable this way is 40%, and this effect lasts 20s, decaying over this duration until it reaches 0.",
+                    "icon": "UI_Talent_S_Mavuika_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Night Realm's Gift: Exhaust Mode",
+                    "description": "After Nightsoul points have been fully depleted, Mavuika will switch to using Phlogiston to maintain the All-Fire Armaments' Flamestrider form.\\nWhile in an area with Phlogiston Mechanics within Natlan, Nightsoul Transmission: Mavuika can be used. When the current active character is sprinting, climbing, swimming, in movement modes caused by certain Talents, or at a certain height in the air, switching to Mavuika will trigger the following: Mavuika enters the Nightsoul's Blessing state and obtains 50% of her maximum Nightsoul points. Nightsoul Transmission can be triggered once every 10s by your own party.",
+                    "icon": "UI_Talent_S_Mavuika_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "7": {
+                    "name": "Night-Shattering Radiance",
+                    "description": "The party's Nightsoul Transmission CD is decreased by 20%.",
+                    "icon": "UI_Talent_S_Citlali_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "The Night-Lord's Explication",
+                    "description": "Mavuika's maximum Nightsoul points are increased to 120, and she gains Fighting Spirit 25% more efficiently.\\nAdditionally, she gains 40% ATK for 8s after gaining Fighting Spirit.",
+                    "icon": "UI_Talent_S_Mavuika_01"
+                },
+                "1": {
+                    "name": "The Ashen Price",
+                    "description": "When in the Nightsoul's Blessing State, Mavuika's Base ATK is increased by 200, and she obtains the following effects based on All-Fire Armaments' form:\\n· Ring of Searing Radiance: Nearby opponents' DEF is decreased by 20%.\\n· Flamestrider: Mavuika's Normal Attacks, Charged Attacks, and her Sunfell Slice from the Elemental Burst <color=#FFD780FF>Hour of Burning Skies</color> deal 60%, 90%, and 120% of her ATK as increased DMG respectively.",
+                    "icon": "UI_Talent_S_Mavuika_02"
+                },
+                "2": {
+                    "name": "The Burning Sun",
+                    "description": "Increases the Level of <color=#FFD780FF>Hour of Burning Skies</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Mavuika_01"
+                },
+                "3": {
+                    "name": "The Leader's Resolve",
+                    "description": "Enhances the effects of the Passive Talent \"Kiongozi\":\\nThe DMG increase gained after using the Elemental Burst <color=#FFD780FF>Hour of Burning Skies</color> will not decay over time, and an additional 10% DMG Bonus will be gained.\\nYou must first unlock the Passive Talent \"Kiongozi.\"",
+                    "icon": "UI_Talent_S_Mavuika_03"
+                },
+                "4": {
+                    "name": "The Meaning of Truth",
+                    "description": "Increases the Level of <color=#FFD780FF>The Named Moment</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Mavuika_02"
+                },
+                "5": {
+                    "name": "\"Humanity's Name\" Unfettered",
+                    "description": "The All-Fire Armaments from the Elemental Skill <color=#FFD780FF>The Named Moment</color> receive all-round improvements:\\n· Ring of Searing Radiance: When the Ring's attacks hit opponents, a Flamestrider will crash into the struck opponent, dealing 200% of ATK as Nightsoul-aligned <color=#FF9999FF>AoE Pyro DMG</color>.\\n· Flamestrider: When Mavuika is riding the Flamestrider, she will also summon a Scorching Ring of Searing Radiance to follow her, which will decrease nearby opponents' DEF by 20% and deal 500% of ATK as Nightsoul-aligned <color=#FF9999FF>AoE Pyro DMG</color> to nearby opponents once every 3s. Mavuika's terrain-crossing abilities will also be further improved.\\n\\nAdditionally, when Mavuika is riding her Flamestrider and is not in combat, when her Nightsoul points drop to 5, she will gain 80 Nightsoul points. This effect can trigger once every 15s.",
+                    "icon": "UI_Talent_S_Mavuika_04"
+                }
+            },
+            "elevation": {
+                "sub": "CRIT DMG %",
+                "0": {
+                    "stats": {
+                        "HP": 977,
+                        "ATK": 28,
+                        "DEF": 62,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2535,
+                        "ATK": 72,
+                        "DEF": 160,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101253",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104111",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112104",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 3373,
+                        "ATK": 96,
+                        "DEF": 213,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 5046,
+                        "ATK": 144,
+                        "DEF": 318,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101253",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104112",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112104",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113066",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 5642,
+                        "ATK": 161,
+                        "DEF": 356,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 6491,
+                        "ATK": 186,
+                        "DEF": 409,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101253",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104112",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112105",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113066",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 7285,
+                        "ATK": 208,
+                        "DEF": 459,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 8057,
+                        "ATK": 230,
+                        "DEF": 508,
+                        "sub": 19.2
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101253",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104113",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112105",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113066",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 8652,
+                        "ATK": 247,
+                        "DEF": 546,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 9691,
+                        "ATK": 277,
+                        "DEF": 611,
+                        "sub": 19.2
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101253",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104113",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112106",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113066",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 10286,
+                        "ATK": 294,
+                        "DEF": 649,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 11074,
+                        "ATK": 317,
+                        "DEF": 698,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101253",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104114",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112106",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113066",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 11670,
+                        "ATK": 334,
+                        "DEF": 736,
+                        "sub": 38.4
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 12552,
+                        "ATK": 359,
+                        "DEF": 792,
+                        "sub": 38.4
+                    },
+                    "res": {}
+                }
+            }
+        },
+        "ru": {
+            "name": "Mavuika",
+            "name_ru": "Мавуика",
+            "id": 10000106,
+            "rarity": 5,
+            "weapon": "Claymore",
+            "element": "Pyro",
+            "region": "Natlan",
+            "more": {
+                "title": "Пылающая ночь",
+                "detail": "Лидер Натлана, унаследовавшая древнее имя «Кионгози». Она дала обет осветить будущее народа войны Священным пламенем.",
+                "constellation": "Непобедимое Солнце",
+                "group": "Уитцтлан",
+                "birthday": "28.8",
+                "release": "30.12.2024",
+                "cv": {
+                    "en": "Katiana Sarkissian",
+                    "chs": "李晔",
+                    "jp": "小松未可子",
+                    "kr": "Kim Na-yul"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Огонь плетёт жизнь",
+                    "description": "<color=#FFD780FF>Обычная атака:</color>\\nДо четырёх ударов мечом.\\n\\n<color=#FFD780FF>Заряженная атака:</color>\\nТратит определённое количество выносливости на исключительно сильный удар Пылающего света перед собой.\\n\\n<color=#FFD780FF>Атака в падении:</color>\\nСтремительно падает на землю, атакуя всех врагов на пути. Приземлившись, наносит урон по площади.",
+                    "icon": "Skill_A_04",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон атаки 1 80%",
+                            "1": "Урон атаки 2 36.5%×2",
+                            "2": "Урон атаки 3 33.2%×3",
+                            "3": "Урон атаки 4 116.2%",
+                            "4": "Урон заряженной атаки 193.8%",
+                            "5": "Потребление выносливости 50 ед.",
+                            "6": "Урон в падении 74.6%",
+                            "7": "Урон низкого/высокого удара 149.1%/186.3%"
+                        },
+                        "2": {
+                            "0": "Урон атаки 1 86.6%",
+                            "1": "Урон атаки 2 39.4%×2",
+                            "2": "Урон атаки 3 35.9%×3",
+                            "3": "Урон атаки 4 125.6%",
+                            "4": "Урон заряженной атаки 209.6%",
+                            "5": "Потребление выносливости 50 ед.",
+                            "6": "Урон в падении 80.7%",
+                            "7": "Урон низкого/высокого удара 161.3%/201.5%"
+                        },
+                        "3": {
+                            "0": "Урон атаки 1 93.1%",
+                            "1": "Урон атаки 2 42.4%×2",
+                            "2": "Урон атаки 3 38.6%×3",
+                            "3": "Урон атаки 4 135.1%",
+                            "4": "Урон заряженной атаки 225.4%",
+                            "5": "Потребление выносливости 50 ед.",
+                            "6": "Урон в падении 86.7%",
+                            "7": "Урон низкого/высокого удара 173.4%/216.6%"
+                        },
+                        "4": {
+                            "0": "Урон атаки 1 102.4%",
+                            "1": "Урон атаки 2 46.7%×2",
+                            "2": "Урон атаки 3 42.5%×3",
+                            "3": "Урон атаки 4 148.6%",
+                            "4": "Урон заряженной атаки 247.9%",
+                            "5": "Потребление выносливости 50 ед.",
+                            "6": "Урон в падении 95.4%",
+                            "7": "Урон низкого/высокого удара 190.8%/238.3%"
+                        },
+                        "5": {
+                            "0": "Урон атаки 1 108.9%",
+                            "1": "Урон атаки 2 49.6%×2",
+                            "2": "Урон атаки 3 45.2%×3",
+                            "3": "Урон атаки 4 158.1%",
+                            "4": "Урон заряженной атаки 263.7%",
+                            "5": "Потребление выносливости 50 ед.",
+                            "6": "Урон в падении 101.5%",
+                            "7": "Урон низкого/высокого удара 202.9%/253.4%"
+                        },
+                        "6": {
+                            "0": "Урон атаки 1 116.3%",
+                            "1": "Урон атаки 2 53%×2",
+                            "2": "Урон атаки 3 48.3%×3",
+                            "3": "Урон атаки 4 168.9%",
+                            "4": "Урон заряженной атаки 281.8%",
+                            "5": "Потребление выносливости 50 ед.",
+                            "6": "Урон в падении 108.4%",
+                            "7": "Урон низкого/высокого удара 216.8%/270.8%"
+                        },
+                        "7": {
+                            "0": "Урон атаки 1 126.6%",
+                            "1": "Урон атаки 2 57.7%×2",
+                            "2": "Урон атаки 3 52.5%×3",
+                            "3": "Урон атаки 4 183.7%",
+                            "4": "Урон заряженной атаки 306.5%",
+                            "5": "Потребление выносливости 50 ед.",
+                            "6": "Урон в падении 118%",
+                            "7": "Урон низкого/высокого удара 235.9%/294.6%"
+                        },
+                        "8": {
+                            "0": "Урон атаки 1 136.8%",
+                            "1": "Урон атаки 2 62.4%×2",
+                            "2": "Урон атаки 3 56.8%×3",
+                            "3": "Урон атаки 4 198.6%",
+                            "4": "Урон заряженной атаки 331.3%",
+                            "5": "Потребление выносливости 50 ед.",
+                            "6": "Урон в падении 127.5%",
+                            "7": "Урон низкого/высокого удара 254.9%/318.4%"
+                        },
+                        "9": {
+                            "0": "Урон атаки 1 147%",
+                            "1": "Урон атаки 2 67%×2",
+                            "2": "Урон атаки 3 61%×3",
+                            "3": "Урон атаки 4 213.5%",
+                            "4": "Урон заряженной атаки 356.1%",
+                            "5": "Потребление выносливости 50 ед.",
+                            "6": "Урон в падении 137%",
+                            "7": "Урон низкого/высокого удара 274%/342.3%"
+                        },
+                        "10": {
+                            "0": "Урон атаки 1 158.2%",
+                            "1": "Урон атаки 2 72.1%×2",
+                            "2": "Урон атаки 3 65.7%×3",
+                            "3": "Урон атаки 4 229.7%",
+                            "4": "Урон заряженной атаки 383.2%",
+                            "5": "Потребление выносливости 50 ед.",
+                            "6": "Урон в падении 147.4%",
+                            "7": "Урон низкого/высокого удара 294.8%/368.2%"
+                        },
+                        "11": {
+                            "0": "Урон атаки 1 169.4%",
+                            "1": "Урон атаки 2 77.2%×2",
+                            "2": "Урон атаки 3 70.3%×3",
+                            "3": "Урон атаки 4 245.9%",
+                            "4": "Урон заряженной атаки 410.2%",
+                            "5": "Потребление выносливости 50 ед.",
+                            "6": "Урон в падении 157.8%",
+                            "7": "Урон низкого/высокого удара 315.6%/394.2%"
+                        },
+                        "12": {
+                            "0": "Урон атаки 1 180.5%",
+                            "1": "Урон атаки 2 82.3%×2",
+                            "2": "Урон атаки 3 74.9%×3",
+                            "3": "Урон атаки 4 262.1%",
+                            "4": "Урон заряженной атаки 437.3%",
+                            "5": "Потребление выносливости 50 ед.",
+                            "6": "Урон в падении 168.3%",
+                            "7": "Урон низкого/высокого удара 336.4%/420.2%"
+                        },
+                        "13": {
+                            "0": "Урон атаки 1 191.7%",
+                            "1": "Урон атаки 2 87.4%×2",
+                            "2": "Урон атаки 3 79.6%×3",
+                            "3": "Урон атаки 4 278.3%",
+                            "4": "Урон заряженной атаки 464.3%",
+                            "5": "Потребление выносливости 50 ед.",
+                            "6": "Урон в падении 178.7%",
+                            "7": "Урон низкого/высокого удара 357.3%/446.2%"
+                        },
+                        "14": {
+                            "0": "Урон атаки 1 202.9%",
+                            "1": "Урон атаки 2 92.5%×2",
+                            "2": "Урон атаки 3 84.2%×3",
+                            "3": "Урон атаки 4 294.5%",
+                            "4": "Урон заряженной атаки 491.4%",
+                            "5": "Потребление выносливости 50 ед.",
+                            "6": "Урон в падении 189.1%",
+                            "7": "Урон низкого/высокого удара 378.1%/472.2%"
+                        },
+                        "15": {
+                            "0": "Урон атаки 1 214%",
+                            "1": "Урон атаки 2 97.6%×2",
+                            "2": "Урон атаки 3 88.9%×3",
+                            "3": "Урон атаки 4 310.7%",
+                            "4": "Урон заряженной атаки 518.4%",
+                            "5": "Потребление выносливости 50 ед.",
+                            "6": "Урон в падении 199.5%",
+                            "7": "Урон низкого/высокого удара 398.9%/498.2%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104347",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112104",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104349",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112106",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113068",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104349",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112106",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113068",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104349",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112106",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113068",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104349",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112106",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113068",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Именованное мгновение",
+                    "description": "Властью над «борьбой» призывает Всеогненное вооружение, передаваемое из поколения в поколение людьми-Архонтами, и наносит <color=#FF9999FF>Пиро урон</color> с характеристикой Ночного духа.\\nПосле применения Мавуика восстанавливает очки Ночного духа до максимума и входит в состояние Благословения Ночного духа.\\n\\n<color=#FFD780FF>Всеогненное вооружение</color>\\nПри долгом нажатии его форма меняется.\\n\\n<color=#FFD780FF>Быстрое нажатие</color>\\nВысвобождение имени божества: Всеогненное вооружение проявляется в форме Кольца испепеляющего сияния. Кольцо испепеляющего сияния следует за активным персонажем и периодически атакует врагов поблизости, нанося <color=#FF9999FF>Пиро урон</color> с характеристикой Ночного духа.\\n\\n<color=#FFD780FF>Долгое нажатие</color>\\nВысвобождение древнего имени: Всеогненное вооружение проявляется в форме пламецикла. В этом состоянии Мавуика может ездить на пламецикле на высокой скорости или активировать его скрытый резервный силовой модуль, чтобы кратковременно преодолевать различные типы местности и некоторое время парить в воздухе. При этом урон обычных атак, заряженных атак и атак в падении Мавуики конвертируется в <color=#FF9999FF>Пиро урон</color> с характеристикой Ночного духа, который не может быть отменён другими инфузиями. Во время спринта она также наносит врагам на своём пути <color=#FF9999FF>Пиро урон</color> с характеристикой Ночного духа.\\n\\nКогда Мавуика пребывает в состоянии Благословения Ночного духа, быстрым нажатием элементального навыка можно изменить форму Всеогненного вооружения. Всеогненное вооружение исчезнет, когда прекратится состояние Благословения Ночного духа Мавуики.\\n\\n<color=#FFD780FF>Благословение Ночного духа: Мавуика</color>\\nНепрерывно расходует очки Ночного духа согласно форме Всеогненного вооружения. Когда очки Ночного духа исчерпаются, Благословение Ночного духа Мавуики завершится.\\n\\n<i>Если вы скажете Мавуике, что в другом мире транспортному средству вроде её пламецикла нужен номерной знак, она обрадуется и этому:\\n«Мой пламецикл в этом мире единственный в своём роде. Стало быть, могу выбрать любой номер?»</i>",
+                    "icon": "Skill_S_Mavuika_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 74.4%",
+                            "1": "Урон Кольца испепеляющего сияния 128%",
+                            "2": "Интервал атак Кольца испепеляющего сияния 2 сек.",
+                            "3": "Урон обычной атаки пламецикла 1 57.3%",
+                            "4": "Урон обычной атаки пламецикла 2 59.1%",
+                            "5": "Урон обычной атаки пламецикла 3 70%",
+                            "6": "Урон обычной атаки пламецикла 4 69.7%",
+                            "7": "Урон обычной атаки пламецикла 5 91%",
+                            "8": "Урон спринта пламецикла 80.8%",
+                            "9": "Циклический урон заряженной атаки пламецикла 98.9%",
+                            "10": "Финальный урон заряженной атаки пламецикла 137.6%",
+                            "11": "Урон атаки пламецикла в падении 160%",
+                            "12": "Максимум очков Ночного духа 80 ед.",
+                            "13": "Время отката 15 сек."
+                        },
+                        "2": {
+                            "0": "Урон навыка 80%",
+                            "1": "Урон Кольца испепеляющего сияния 137.6%",
+                            "2": "Интервал атак Кольца испепеляющего сияния 2 сек.",
+                            "3": "Урон обычной атаки пламецикла 1 61.9%",
+                            "4": "Урон обычной атаки пламецикла 2 63.9%",
+                            "5": "Урон обычной атаки пламецикла 3 75.7%",
+                            "6": "Урон обычной атаки пламецикла 4 75.4%",
+                            "7": "Урон обычной атаки пламецикла 5 98.4%",
+                            "8": "Урон спринта пламецикла 87.4%",
+                            "9": "Циклический урон заряженной атаки пламецикла 106.9%",
+                            "10": "Финальный урон заряженной атаки пламецикла 148.8%",
+                            "11": "Урон атаки пламецикла в падении 173%",
+                            "12": "Максимум очков Ночного духа 80 ед.",
+                            "13": "Время отката 15 сек."
+                        },
+                        "3": {
+                            "0": "Урон навыка 85.6%",
+                            "1": "Урон Кольца испепеляющего сияния 147.2%",
+                            "2": "Интервал атак Кольца испепеляющего сияния 2 сек.",
+                            "3": "Урон обычной атаки пламецикла 1 66.6%",
+                            "4": "Урон обычной атаки пламецикла 2 68.8%",
+                            "5": "Урон обычной атаки пламецикла 3 81.4%",
+                            "6": "Урон обычной атаки пламецикла 4 81.1%",
+                            "7": "Урон обычной атаки пламецикла 5 105.8%",
+                            "8": "Урон спринта пламецикла 94%",
+                            "9": "Циклический урон заряженной атаки пламецикла 115%",
+                            "10": "Финальный урон заряженной атаки пламецикла 160%",
+                            "11": "Урон атаки пламецикла в падении 186%",
+                            "12": "Максимум очков Ночного духа 80 ед.",
+                            "13": "Время отката 15 сек."
+                        },
+                        "4": {
+                            "0": "Урон навыка 93%",
+                            "1": "Урон Кольца испепеляющего сияния 160%",
+                            "2": "Интервал атак Кольца испепеляющего сияния 2 сек.",
+                            "3": "Урон обычной атаки пламецикла 1 73.2%",
+                            "4": "Урон обычной атаки пламецикла 2 75.6%",
+                            "5": "Урон обычной атаки пламецикла 3 89.5%",
+                            "6": "Урон обычной атаки пламецикла 4 89.2%",
+                            "7": "Урон обычной атаки пламецикла 5 116.4%",
+                            "8": "Урон спринта пламецикла 103.4%",
+                            "9": "Циклический урон заряженной атаки пламецикла 126.5%",
+                            "10": "Финальный урон заряженной атаки пламецикла 176%",
+                            "11": "Урон атаки пламецикла в падении 204.6%",
+                            "12": "Максимум очков Ночного духа 80 ед.",
+                            "13": "Время отката 15 сек."
+                        },
+                        "5": {
+                            "0": "Урон навыка 98.6%",
+                            "1": "Урон Кольца испепеляющего сияния 169.6%",
+                            "2": "Интервал атак Кольца испепеляющего сияния 2 сек.",
+                            "3": "Урон обычной атаки пламецикла 1 77.9%",
+                            "4": "Урон обычной атаки пламецикла 2 80.4%",
+                            "5": "Урон обычной атаки пламецикла 3 95.2%",
+                            "6": "Урон обычной атаки пламецикла 4 94.8%",
+                            "7": "Урон обычной атаки пламецикла 5 123.8%",
+                            "8": "Урон спринта пламецикла 110%",
+                            "9": "Циклический урон заряженной атаки пламецикла 134.5%",
+                            "10": "Финальный урон заряженной атаки пламецикла 187.2%",
+                            "11": "Урон атаки пламецикла в падении 217.6%",
+                            "12": "Максимум очков Ночного духа 80 ед.",
+                            "13": "Время отката 15 сек."
+                        },
+                        "6": {
+                            "0": "Урон навыка 104.2%",
+                            "1": "Урон Кольца испепеляющего сияния 179.2%",
+                            "2": "Интервал атак Кольца испепеляющего сияния 2 сек.",
+                            "3": "Урон обычной атаки пламецикла 1 83.2%",
+                            "4": "Урон обычной атаки пламецикла 2 85.9%",
+                            "5": "Урон обычной атаки пламецикла 3 101.7%",
+                            "6": "Урон обычной атаки пламецикла 4 101.3%",
+                            "7": "Урон обычной атаки пламецикла 5 132.3%",
+                            "8": "Урон спринта пламецикла 117.5%",
+                            "9": "Циклический урон заряженной атаки пламецикла 143.8%",
+                            "10": "Финальный урон заряженной атаки пламецикла 200%",
+                            "11": "Урон атаки пламецикла в падении 232.5%",
+                            "12": "Максимум очков Ночного духа 80 ед.",
+                            "13": "Время отката 15 сек."
+                        },
+                        "7": {
+                            "0": "Урон навыка 111.6%",
+                            "1": "Урон Кольца испепеляющего сияния 192%",
+                            "2": "Интервал атак Кольца испепеляющего сияния 2 сек.",
+                            "3": "Урон обычной атаки пламецикла 1 90.6%",
+                            "4": "Урон обычной атаки пламецикла 2 93.5%",
+                            "5": "Урон обычной атаки пламецикла 3 110.7%",
+                            "6": "Урон обычной атаки пламецикла 4 110.2%",
+                            "7": "Урон обычной атаки пламецикла 5 143.9%",
+                            "8": "Урон спринта пламецикла 127.8%",
+                            "9": "Циклический урон заряженной атаки пламецикла 156.4%",
+                            "10": "Финальный урон заряженной атаки пламецикла 217.6%",
+                            "11": "Урон атаки пламецикла в падении 253%",
+                            "12": "Максимум очков Ночного духа 80 ед.",
+                            "13": "Время отката 15 сек."
+                        },
+                        "8": {
+                            "0": "Урон навыка 119%",
+                            "1": "Урон Кольца испепеляющего сияния 204.8%",
+                            "2": "Интервал атак Кольца испепеляющего сияния 2 сек.",
+                            "3": "Урон обычной атаки пламецикла 1 97.9%",
+                            "4": "Урон обычной атаки пламецикла 2 101.1%",
+                            "5": "Урон обычной атаки пламецикла 3 119.6%",
+                            "6": "Урон обычной атаки пламецикла 4 119.1%",
+                            "7": "Урон обычной атаки пламецикла 5 155.6%",
+                            "8": "Урон спринта пламецикла 138.2%",
+                            "9": "Циклический урон заряженной атаки пламецикла 169%",
+                            "10": "Финальный урон заряженной атаки пламецикла 235.2%",
+                            "11": "Урон атаки пламецикла в падении 273.4%",
+                            "12": "Максимум очков Ночного духа 80 ед.",
+                            "13": "Время отката 15 сек."
+                        },
+                        "9": {
+                            "0": "Урон навыка 126.5%",
+                            "1": "Урон Кольца испепеляющего сияния 217.6%",
+                            "2": "Интервал атак Кольца испепеляющего сияния 2 сек.",
+                            "3": "Урон обычной атаки пламецикла 1 105.2%",
+                            "4": "Урон обычной атаки пламецикла 2 108.6%",
+                            "5": "Урон обычной атаки пламецикла 3 128.6%",
+                            "6": "Урон обычной атаки пламецикла 4 128.1%",
+                            "7": "Урон обычной атаки пламецикла 5 167.2%",
+                            "8": "Урон спринта пламецикла 148.5%",
+                            "9": "Циклический урон заряженной атаки пламецикла 181.7%",
+                            "10": "Финальный урон заряженной атаки пламецикла 252.8%",
+                            "11": "Урон атаки пламецикла в падении 293.9%",
+                            "12": "Максимум очков Ночного духа 80 ед.",
+                            "13": "Время отката 15 сек."
+                        },
+                        "10": {
+                            "0": "Урон навыка 133.9%",
+                            "1": "Урон Кольца испепеляющего сияния 230.4%",
+                            "2": "Интервал атак Кольца испепеляющего сияния 2 сек.",
+                            "3": "Урон обычной атаки пламецикла 1 113.2%",
+                            "4": "Урон обычной атаки пламецикла 2 116.9%",
+                            "5": "Урон обычной атаки пламецикла 3 138.3%",
+                            "6": "Урон обычной атаки пламецикла 4 137.8%",
+                            "7": "Урон обычной атаки пламецикла 5 179.9%",
+                            "8": "Урон спринта пламецикла 159.8%",
+                            "9": "Циклический урон заряженной атаки пламецикла 195.5%",
+                            "10": "Финальный урон заряженной атаки пламецикла 272%",
+                            "11": "Урон атаки пламецикла в падении 316.2%",
+                            "12": "Максимум очков Ночного духа 80 ед.",
+                            "13": "Время отката 15 сек."
+                        },
+                        "11": {
+                            "0": "Урон навыка 141.4%",
+                            "1": "Урон Кольца испепеляющего сияния 243.2%",
+                            "2": "Интервал атак Кольца испепеляющего сияния 2 сек.",
+                            "3": "Урон обычной атаки пламецикла 1 121.2%",
+                            "4": "Урон обычной атаки пламецикла 2 125.1%",
+                            "5": "Урон обычной атаки пламецикла 3 148.1%",
+                            "6": "Урон обычной атаки пламецикла 4 147.5%",
+                            "7": "Урон обычной атаки пламецикла 5 192.6%",
+                            "8": "Урон спринта пламецикла 171.1%",
+                            "9": "Циклический урон заряженной атаки пламецикла 209.3%",
+                            "10": "Финальный урон заряженной атаки пламецикла 291.2%",
+                            "11": "Урон атаки пламецикла в падении 338.5%",
+                            "12": "Максимум очков Ночного духа 80 ед.",
+                            "13": "Время отката 15 сек."
+                        },
+                        "12": {
+                            "0": "Урон навыка 148.8%",
+                            "1": "Урон Кольца испепеляющего сияния 256%",
+                            "2": "Интервал атак Кольца испепеляющего сияния 2 сек.",
+                            "3": "Урон обычной атаки пламецикла 1 129.2%",
+                            "4": "Урон обычной атаки пламецикла 2 133.4%",
+                            "5": "Урон обычной атаки пламецикла 3 157.9%",
+                            "6": "Урон обычной атаки пламецикла 4 157.2%",
+                            "7": "Урон обычной атаки пламецикла 5 205.3%",
+                            "8": "Урон спринта пламецикла 182.4%",
+                            "9": "Циклический урон заряженной атаки пламецикла 223.1%",
+                            "10": "Финальный урон заряженной атаки пламецикла 310.4%",
+                            "11": "Урон атаки пламецикла в падении 360.8%",
+                            "12": "Максимум очков Ночного духа 80 ед.",
+                            "13": "Время отката 15 сек."
+                        },
+                        "13": {
+                            "0": "Урон навыка 158.1%",
+                            "1": "Урон Кольца испепеляющего сияния 272%",
+                            "2": "Интервал атак Кольца испепеляющего сияния 2 сек.",
+                            "3": "Урон обычной атаки пламецикла 1 137.2%",
+                            "4": "Урон обычной атаки пламецикла 2 141.6%",
+                            "5": "Урон обычной атаки пламецикла 3 167.6%",
+                            "6": "Урон обычной атаки пламецикла 4 167%",
+                            "7": "Урон обычной атаки пламецикла 5 218%",
+                            "8": "Урон спринта пламецикла 193.6%",
+                            "9": "Циклический урон заряженной атаки пламецикла 236.9%",
+                            "10": "Финальный урон заряженной атаки пламецикла 329.6%",
+                            "11": "Урон атаки пламецикла в падении 383.2%",
+                            "12": "Максимум очков Ночного духа 80 ед.",
+                            "13": "Время отката 15 сек."
+                        },
+                        "14": {
+                            "0": "Урон навыка 167.4%",
+                            "1": "Урон Кольца испепеляющего сияния 288%",
+                            "2": "Интервал атак Кольца испепеляющего сияния 2 сек.",
+                            "3": "Урон обычной атаки пламецикла 1 145.2%",
+                            "4": "Урон обычной атаки пламецикла 2 149.9%",
+                            "5": "Урон обычной атаки пламецикла 3 177.4%",
+                            "6": "Урон обычной атаки пламецикла 4 176.7%",
+                            "7": "Урон обычной атаки пламецикла 5 230.7%",
+                            "8": "Урон спринта пламецикла 204.9%",
+                            "9": "Циклический урон заряженной атаки пламецикла 250.7%",
+                            "10": "Финальный урон заряженной атаки пламецикла 348.8%",
+                            "11": "Урон атаки пламецикла в падении 405.5%",
+                            "12": "Максимум очков Ночного духа 80 ед.",
+                            "13": "Время отката 15 сек."
+                        },
+                        "15": {
+                            "0": "Урон навыка 176.7%",
+                            "1": "Урон Кольца испепеляющего сияния 304%",
+                            "2": "Интервал атак Кольца испепеляющего сияния 2 сек.",
+                            "3": "Урон обычной атаки пламецикла 1 153.2%",
+                            "4": "Урон обычной атаки пламецикла 2 158.1%",
+                            "5": "Урон обычной атаки пламецикла 3 187.2%",
+                            "6": "Урон обычной атаки пламецикла 4 186.4%",
+                            "7": "Урон обычной атаки пламецикла 5 243.4%",
+                            "8": "Урон спринта пламецикла 216.2%",
+                            "9": "Циклический урон заряженной атаки пламецикла 264.5%",
+                            "10": "Финальный урон заряженной атаки пламецикла 368%",
+                            "11": "Урон атаки пламецикла в падении 427.8%",
+                            "12": "Максимум очков Ночного духа 80 ед.",
+                            "13": "Время отката 15 сек."
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104347",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112104",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104349",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112106",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113068",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104349",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112106",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113068",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104349",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112106",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113068",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104349",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112106",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113068",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Час пылающих небес",
+                    "description": "Пусть голоса людских сердец донесутся до божественного трона в небесах.\\n<color=#FFD780FF>Взрыв стихии Мавуики зависит не от энергии, а от Боевого духа.</color>\\n\\n<color=#FFD780FF>Боевой дух</color>\\nКогда у Мавуики не менее 50% Боевого духа, она может полностью потратить его и выпустить взрыв стихии.\\nМавуика может получать Боевой дух следующими способами:\\n· В бою очки Ночного духа, расходуемые членами отряда поблизости, конвертируются в Боевой дух Мавуики.\\n· Обычные атаки членов отряда поблизости, поражая противников, дают Мавуике 1,5 ед. Боевого духа. Этот эффект может возникнуть один раз в 0,1 сек.\\n\\nПосле применения навыка Мавуика получает 10 очков Ночного духа и входит в состояние Благословения Ночного духа. Летя на пламецикле высоко в воздухе, она однократно атакует врагов на земле могущественным Ударом падающего солнца, который наносит <color=#FF9999FF>Пиро урон по площади</color> с характеристикой Ночного духа, и входит в состояние Горнила смерти и жизни.\\n\\n<color=#FFD780FF>Горнило смерти и жизни</color>\\nВо время его действия различные действия Мавуики не расходуют очки Ночного духа, а её сопротивление прерыванию повышается. Кроме того, повышается урон Удара падающего солнца, а также обычной и заряженной атаки Высвобождения древнего имени, пропорционально количеству Боевого духа на момент активации взрыва стихии.\\nГорнило смерти и жизни исчезает, когда Мавуика покидает поле боя.\\n\\n<i>«...Но на сей раз я собственными руками разобью такую судьбу».</i>",
+                    "icon": "Skill_E_Mavuika_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 444.8%",
+                            "1": "Длительность Горнила смерти и жизни 7 сек.",
+                            "2": "Повышение урона Удара падающего солнца 1.6% силы атаки за каждое оч. Боевого духа",
+                            "3": "Повышение урона обычной атаки пламецикла {param4:F2P} силы атаки за каждое оч. Боевого духа",
+                            "4": "Повышение урона заряженной атаки пламецикла {param5:F2P} силы атаки за каждое оч. Боевого духа",
+                            "5": "Время отката 18 сек.",
+                            "6": "Максимум очков Боевого духа 200"
+                        },
+                        "2": {
+                            "0": "Урон навыка 478.2%",
+                            "1": "Длительность Горнила смерти и жизни 7 сек.",
+                            "2": "Повышение урона Удара падающего солнца 1.7% силы атаки за каждое оч. Боевого духа",
+                            "3": "Повышение урона обычной атаки пламецикла {param4:F2P} силы атаки за каждое оч. Боевого духа",
+                            "4": "Повышение урона заряженной атаки пламецикла {param5:F2P} силы атаки за каждое оч. Боевого духа",
+                            "5": "Время отката 18 сек.",
+                            "6": "Максимум очков Боевого духа 200"
+                        },
+                        "3": {
+                            "0": "Урон навыка 511.5%",
+                            "1": "Длительность Горнила смерти и жизни 7 сек.",
+                            "2": "Повышение урона Удара падающего солнца 1.8% силы атаки за каждое оч. Боевого духа",
+                            "3": "Повышение урона обычной атаки пламецикла {param4:F2P} силы атаки за каждое оч. Боевого духа",
+                            "4": "Повышение урона заряженной атаки пламецикла {param5:F2P} силы атаки за каждое оч. Боевого духа",
+                            "5": "Время отката 18 сек.",
+                            "6": "Максимум очков Боевого духа 200"
+                        },
+                        "4": {
+                            "0": "Урон навыка 556%",
+                            "1": "Длительность Горнила смерти и жизни 7 сек.",
+                            "2": "Повышение урона Удара падающего солнца 2% силы атаки за каждое оч. Боевого духа",
+                            "3": "Повышение урона обычной атаки пламецикла {param4:F2P} силы атаки за каждое оч. Боевого духа",
+                            "4": "Повышение урона заряженной атаки пламецикла {param5:F2P} силы атаки за каждое оч. Боевого духа",
+                            "5": "Время отката 18 сек.",
+                            "6": "Максимум очков Боевого духа 200"
+                        },
+                        "5": {
+                            "0": "Урон навыка 589.4%",
+                            "1": "Длительность Горнила смерти и жизни 7 сек.",
+                            "2": "Повышение урона Удара падающего солнца 2.1% силы атаки за каждое оч. Боевого духа",
+                            "3": "Повышение урона обычной атаки пламецикла {param4:F2P} силы атаки за каждое оч. Боевого духа",
+                            "4": "Повышение урона заряженной атаки пламецикла {param5:F2P} силы атаки за каждое оч. Боевого духа",
+                            "5": "Время отката 18 сек.",
+                            "6": "Максимум очков Боевого духа 200"
+                        },
+                        "6": {
+                            "0": "Урон навыка 622.7%",
+                            "1": "Длительность Горнила смерти и жизни 7 сек.",
+                            "2": "Повышение урона Удара падающего солнца 2.2% силы атаки за каждое оч. Боевого духа",
+                            "3": "Повышение урона обычной атаки пламецикла {param4:F2P} силы атаки за каждое оч. Боевого духа",
+                            "4": "Повышение урона заряженной атаки пламецикла {param5:F2P} силы атаки за каждое оч. Боевого духа",
+                            "5": "Время отката 18 сек.",
+                            "6": "Максимум очков Боевого духа 200"
+                        },
+                        "7": {
+                            "0": "Урон навыка 667.2%",
+                            "1": "Длительность Горнила смерти и жизни 7 сек.",
+                            "2": "Повышение урона Удара падающего солнца 2.4% силы атаки за каждое оч. Боевого духа",
+                            "3": "Повышение урона обычной атаки пламецикла {param4:F2P} силы атаки за каждое оч. Боевого духа",
+                            "4": "Повышение урона заряженной атаки пламецикла {param5:F2P} силы атаки за каждое оч. Боевого духа",
+                            "5": "Время отката 18 сек.",
+                            "6": "Максимум очков Боевого духа 200"
+                        },
+                        "8": {
+                            "0": "Урон навыка 711.7%",
+                            "1": "Длительность Горнила смерти и жизни 7 сек.",
+                            "2": "Повышение урона Удара падающего солнца 2.6% силы атаки за каждое оч. Боевого духа",
+                            "3": "Повышение урона обычной атаки пламецикла {param4:F2P} силы атаки за каждое оч. Боевого духа",
+                            "4": "Повышение урона заряженной атаки пламецикла {param5:F2P} силы атаки за каждое оч. Боевого духа",
+                            "5": "Время отката 18 сек.",
+                            "6": "Максимум очков Боевого духа 200"
+                        },
+                        "9": {
+                            "0": "Урон навыка 756.2%",
+                            "1": "Длительность Горнила смерти и жизни 7 сек.",
+                            "2": "Повышение урона Удара падающего солнца 2.7% силы атаки за каждое оч. Боевого духа",
+                            "3": "Повышение урона обычной атаки пламецикла {param4:F2P} силы атаки за каждое оч. Боевого духа",
+                            "4": "Повышение урона заряженной атаки пламецикла {param5:F2P} силы атаки за каждое оч. Боевого духа",
+                            "5": "Время отката 18 сек.",
+                            "6": "Максимум очков Боевого духа 200"
+                        },
+                        "10": {
+                            "0": "Урон навыка 800.6%",
+                            "1": "Длительность Горнила смерти и жизни 7 сек.",
+                            "2": "Повышение урона Удара падающего солнца 2.9% силы атаки за каждое оч. Боевого духа",
+                            "3": "Повышение урона обычной атаки пламецикла {param4:F2P} силы атаки за каждое оч. Боевого духа",
+                            "4": "Повышение урона заряженной атаки пламецикла {param5:F2P} силы атаки за каждое оч. Боевого духа",
+                            "5": "Время отката 18 сек.",
+                            "6": "Максимум очков Боевого духа 200"
+                        },
+                        "11": {
+                            "0": "Урон навыка 845.1%",
+                            "1": "Длительность Горнила смерти и жизни 7 сек.",
+                            "2": "Повышение урона Удара падающего солнца 3% силы атаки за каждое оч. Боевого духа",
+                            "3": "Повышение урона обычной атаки пламецикла {param4:F2P} силы атаки за каждое оч. Боевого духа",
+                            "4": "Повышение урона заряженной атаки пламецикла {param5:F2P} силы атаки за каждое оч. Боевого духа",
+                            "5": "Время отката 18 сек.",
+                            "6": "Максимум очков Боевого духа 200"
+                        },
+                        "12": {
+                            "0": "Урон навыка 889.6%",
+                            "1": "Длительность Горнила смерти и жизни 7 сек.",
+                            "2": "Повышение урона Удара падающего солнца 3.2% силы атаки за каждое оч. Боевого духа",
+                            "3": "Повышение урона обычной атаки пламецикла {param4:F2P} силы атаки за каждое оч. Боевого духа",
+                            "4": "Повышение урона заряженной атаки пламецикла {param5:F2P} силы атаки за каждое оч. Боевого духа",
+                            "5": "Время отката 18 сек.",
+                            "6": "Максимум очков Боевого духа 200"
+                        },
+                        "13": {
+                            "0": "Урон навыка 945.2%",
+                            "1": "Длительность Горнила смерти и жизни 7 сек.",
+                            "2": "Повышение урона Удара падающего солнца 3.4% силы атаки за каждое оч. Боевого духа",
+                            "3": "Повышение урона обычной атаки пламецикла {param4:F2P} силы атаки за каждое оч. Боевого духа",
+                            "4": "Повышение урона заряженной атаки пламецикла {param5:F2P} силы атаки за каждое оч. Боевого духа",
+                            "5": "Время отката 18 сек.",
+                            "6": "Максимум очков Боевого духа 200"
+                        },
+                        "14": {
+                            "0": "Урон навыка 1000.8%",
+                            "1": "Длительность Горнила смерти и жизни 7 сек.",
+                            "2": "Повышение урона Удара падающего солнца 3.6% силы атаки за каждое оч. Боевого духа",
+                            "3": "Повышение урона обычной атаки пламецикла {param4:F2P} силы атаки за каждое оч. Боевого духа",
+                            "4": "Повышение урона заряженной атаки пламецикла {param5:F2P} силы атаки за каждое оч. Боевого духа",
+                            "5": "Время отката 18 сек.",
+                            "6": "Максимум очков Боевого духа 200"
+                        },
+                        "15": {
+                            "0": "Урон навыка 1056.4%",
+                            "1": "Длительность Горнила смерти и жизни 7 сек.",
+                            "2": "Повышение урона Удара падающего солнца 3.8% силы атаки за каждое оч. Боевого духа",
+                            "3": "Повышение урона обычной атаки пламецикла {param4:F2P} силы атаки за каждое оч. Боевого духа",
+                            "4": "Повышение урона заряженной атаки пламецикла {param5:F2P} силы атаки за каждое оч. Боевого духа",
+                            "5": "Время отката 18 сек.",
+                            "6": "Максимум очков Боевого духа 200"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104347",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112104",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104349",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112106",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113068",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104349",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112106",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113068",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104349",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112106",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113068",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104349",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112106",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113068",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Час пылающих небес",
+                    "description": "Пусть голоса людских сердец донесутся до божественного трона в небесах.\\n<color=#FFD780FF>Взрыв стихии Мавуики зависит не от энергии, а от Боевого духа.</color>\\n\\n<color=#FFD780FF>Боевой дух</color>\\nКогда у Мавуики не менее 50% Боевого духа, она может полностью потратить его и выпустить взрыв стихии.\\nМавуика может получать Боевой дух следующими способами:\\n· В бою очки Ночного духа, расходуемые членами отряда поблизости, конвертируются в Боевой дух Мавуики.\\n· Обычные атаки членов отряда поблизости, поражая противников, дают Мавуике 1,5 ед. Боевого духа. Этот эффект может возникнуть один раз в 0,1 сек.\\n\\nПосле применения навыка Мавуика получает 10 очков Ночного духа и входит в состояние Благословения Ночного духа. Летя на пламецикле высоко в воздухе, она однократно атакует врагов на земле могущественным Ударом падающего солнца, который наносит <color=#FF9999FF>Пиро урон по площади</color> с характеристикой Ночного духа, и входит в состояние Горнила смерти и жизни.\\n\\n<color=#FFD780FF>Горнило смерти и жизни</color>\\nВо время его действия различные действия Мавуики не расходуют очки Ночного духа, а её сопротивление прерыванию повышается. Кроме того, повышается урон Удара падающего солнца, а также обычной и заряженной атаки Высвобождения древнего имени, пропорционально количеству Боевого духа на момент активации взрыва стихии.\\nГорнило смерти и жизни исчезает, когда Мавуика покидает поле боя.\\n\\n<i>«...Но на сей раз я собственными руками разобью такую судьбу».</i>",
+                    "icon": "Skill_E_Mavuika_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 444.8%",
+                            "1": "Длительность Горнила смерти и жизни 7 сек.",
+                            "2": "Повышение урона Удара падающего солнца 1.6% силы атаки за каждое оч. Боевого духа",
+                            "3": "Повышение урона обычной атаки пламецикла {param4:F2P} силы атаки за каждое оч. Боевого духа",
+                            "4": "Повышение урона заряженной атаки пламецикла {param5:F2P} силы атаки за каждое оч. Боевого духа",
+                            "5": "Время отката 18 сек.",
+                            "6": "Максимум очков Боевого духа 200"
+                        },
+                        "2": {
+                            "0": "Урон навыка 478.2%",
+                            "1": "Длительность Горнила смерти и жизни 7 сек.",
+                            "2": "Повышение урона Удара падающего солнца 1.7% силы атаки за каждое оч. Боевого духа",
+                            "3": "Повышение урона обычной атаки пламецикла {param4:F2P} силы атаки за каждое оч. Боевого духа",
+                            "4": "Повышение урона заряженной атаки пламецикла {param5:F2P} силы атаки за каждое оч. Боевого духа",
+                            "5": "Время отката 18 сек.",
+                            "6": "Максимум очков Боевого духа 200"
+                        },
+                        "3": {
+                            "0": "Урон навыка 511.5%",
+                            "1": "Длительность Горнила смерти и жизни 7 сек.",
+                            "2": "Повышение урона Удара падающего солнца 1.8% силы атаки за каждое оч. Боевого духа",
+                            "3": "Повышение урона обычной атаки пламецикла {param4:F2P} силы атаки за каждое оч. Боевого духа",
+                            "4": "Повышение урона заряженной атаки пламецикла {param5:F2P} силы атаки за каждое оч. Боевого духа",
+                            "5": "Время отката 18 сек.",
+                            "6": "Максимум очков Боевого духа 200"
+                        },
+                        "4": {
+                            "0": "Урон навыка 556%",
+                            "1": "Длительность Горнила смерти и жизни 7 сек.",
+                            "2": "Повышение урона Удара падающего солнца 2% силы атаки за каждое оч. Боевого духа",
+                            "3": "Повышение урона обычной атаки пламецикла {param4:F2P} силы атаки за каждое оч. Боевого духа",
+                            "4": "Повышение урона заряженной атаки пламецикла {param5:F2P} силы атаки за каждое оч. Боевого духа",
+                            "5": "Время отката 18 сек.",
+                            "6": "Максимум очков Боевого духа 200"
+                        },
+                        "5": {
+                            "0": "Урон навыка 589.4%",
+                            "1": "Длительность Горнила смерти и жизни 7 сек.",
+                            "2": "Повышение урона Удара падающего солнца 2.1% силы атаки за каждое оч. Боевого духа",
+                            "3": "Повышение урона обычной атаки пламецикла {param4:F2P} силы атаки за каждое оч. Боевого духа",
+                            "4": "Повышение урона заряженной атаки пламецикла {param5:F2P} силы атаки за каждое оч. Боевого духа",
+                            "5": "Время отката 18 сек.",
+                            "6": "Максимум очков Боевого духа 200"
+                        },
+                        "6": {
+                            "0": "Урон навыка 622.7%",
+                            "1": "Длительность Горнила смерти и жизни 7 сек.",
+                            "2": "Повышение урона Удара падающего солнца 2.2% силы атаки за каждое оч. Боевого духа",
+                            "3": "Повышение урона обычной атаки пламецикла {param4:F2P} силы атаки за каждое оч. Боевого духа",
+                            "4": "Повышение урона заряженной атаки пламецикла {param5:F2P} силы атаки за каждое оч. Боевого духа",
+                            "5": "Время отката 18 сек.",
+                            "6": "Максимум очков Боевого духа 200"
+                        },
+                        "7": {
+                            "0": "Урон навыка 667.2%",
+                            "1": "Длительность Горнила смерти и жизни 7 сек.",
+                            "2": "Повышение урона Удара падающего солнца 2.4% силы атаки за каждое оч. Боевого духа",
+                            "3": "Повышение урона обычной атаки пламецикла {param4:F2P} силы атаки за каждое оч. Боевого духа",
+                            "4": "Повышение урона заряженной атаки пламецикла {param5:F2P} силы атаки за каждое оч. Боевого духа",
+                            "5": "Время отката 18 сек.",
+                            "6": "Максимум очков Боевого духа 200"
+                        },
+                        "8": {
+                            "0": "Урон навыка 711.7%",
+                            "1": "Длительность Горнила смерти и жизни 7 сек.",
+                            "2": "Повышение урона Удара падающего солнца 2.6% силы атаки за каждое оч. Боевого духа",
+                            "3": "Повышение урона обычной атаки пламецикла {param4:F2P} силы атаки за каждое оч. Боевого духа",
+                            "4": "Повышение урона заряженной атаки пламецикла {param5:F2P} силы атаки за каждое оч. Боевого духа",
+                            "5": "Время отката 18 сек.",
+                            "6": "Максимум очков Боевого духа 200"
+                        },
+                        "9": {
+                            "0": "Урон навыка 756.2%",
+                            "1": "Длительность Горнила смерти и жизни 7 сек.",
+                            "2": "Повышение урона Удара падающего солнца 2.7% силы атаки за каждое оч. Боевого духа",
+                            "3": "Повышение урона обычной атаки пламецикла {param4:F2P} силы атаки за каждое оч. Боевого духа",
+                            "4": "Повышение урона заряженной атаки пламецикла {param5:F2P} силы атаки за каждое оч. Боевого духа",
+                            "5": "Время отката 18 сек.",
+                            "6": "Максимум очков Боевого духа 200"
+                        },
+                        "10": {
+                            "0": "Урон навыка 800.6%",
+                            "1": "Длительность Горнила смерти и жизни 7 сек.",
+                            "2": "Повышение урона Удара падающего солнца 2.9% силы атаки за каждое оч. Боевого духа",
+                            "3": "Повышение урона обычной атаки пламецикла {param4:F2P} силы атаки за каждое оч. Боевого духа",
+                            "4": "Повышение урона заряженной атаки пламецикла {param5:F2P} силы атаки за каждое оч. Боевого духа",
+                            "5": "Время отката 18 сек.",
+                            "6": "Максимум очков Боевого духа 200"
+                        },
+                        "11": {
+                            "0": "Урон навыка 845.1%",
+                            "1": "Длительность Горнила смерти и жизни 7 сек.",
+                            "2": "Повышение урона Удара падающего солнца 3% силы атаки за каждое оч. Боевого духа",
+                            "3": "Повышение урона обычной атаки пламецикла {param4:F2P} силы атаки за каждое оч. Боевого духа",
+                            "4": "Повышение урона заряженной атаки пламецикла {param5:F2P} силы атаки за каждое оч. Боевого духа",
+                            "5": "Время отката 18 сек.",
+                            "6": "Максимум очков Боевого духа 200"
+                        },
+                        "12": {
+                            "0": "Урон навыка 889.6%",
+                            "1": "Длительность Горнила смерти и жизни 7 сек.",
+                            "2": "Повышение урона Удара падающего солнца 3.2% силы атаки за каждое оч. Боевого духа",
+                            "3": "Повышение урона обычной атаки пламецикла {param4:F2P} силы атаки за каждое оч. Боевого духа",
+                            "4": "Повышение урона заряженной атаки пламецикла {param5:F2P} силы атаки за каждое оч. Боевого духа",
+                            "5": "Время отката 18 сек.",
+                            "6": "Максимум очков Боевого духа 200"
+                        },
+                        "13": {
+                            "0": "Урон навыка 945.2%",
+                            "1": "Длительность Горнила смерти и жизни 7 сек.",
+                            "2": "Повышение урона Удара падающего солнца 3.4% силы атаки за каждое оч. Боевого духа",
+                            "3": "Повышение урона обычной атаки пламецикла {param4:F2P} силы атаки за каждое оч. Боевого духа",
+                            "4": "Повышение урона заряженной атаки пламецикла {param5:F2P} силы атаки за каждое оч. Боевого духа",
+                            "5": "Время отката 18 сек.",
+                            "6": "Максимум очков Боевого духа 200"
+                        },
+                        "14": {
+                            "0": "Урон навыка 1000.8%",
+                            "1": "Длительность Горнила смерти и жизни 7 сек.",
+                            "2": "Повышение урона Удара падающего солнца 3.6% силы атаки за каждое оч. Боевого духа",
+                            "3": "Повышение урона обычной атаки пламецикла {param4:F2P} силы атаки за каждое оч. Боевого духа",
+                            "4": "Повышение урона заряженной атаки пламецикла {param5:F2P} силы атаки за каждое оч. Боевого духа",
+                            "5": "Время отката 18 сек.",
+                            "6": "Максимум очков Боевого духа 200"
+                        },
+                        "15": {
+                            "0": "Урон навыка 1056.4%",
+                            "1": "Длительность Горнила смерти и жизни 7 сек.",
+                            "2": "Повышение урона Удара падающего солнца 3.8% силы атаки за каждое оч. Боевого духа",
+                            "3": "Повышение урона обычной атаки пламецикла {param4:F2P} силы атаки за каждое оч. Боевого духа",
+                            "4": "Повышение урона заряженной атаки пламецикла {param5:F2P} силы атаки за каждое оч. Боевого духа",
+                            "5": "Время отката 18 сек.",
+                            "6": "Максимум очков Боевого духа 200"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104347",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112104",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104348",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112105",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104349",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112106",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113068",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104349",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112106",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113068",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104349",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112106",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113068",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104349",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112106",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113068",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Дар пламенных цветов",
+                    "description": "Когда члены отряда поблизости активируют Вспышку Ночного духа, сила атаки Мавуики повышается на 30 ед. на 10 сек.",
+                    "icon": "UI_Talent_S_Mavuika_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "«Кионгози»",
+                    "description": "После активации взрыва стихии <color=#FFD780FF>Час пылающих небес</color> урон активного персонажа повышается на 0,2% за каждое очко Боевого духа, имеющееся на момент его применения. Максимальное увеличение урона активного персонажа отряда, которое можно получить таким способом, составляет 40%. Этот эффект длится 20 сек. и в течение этого времени постепенно убывает, пока не достигнет 0.",
+                    "icon": "UI_Talent_S_Mavuika_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Дар владений ночи: Режим истощения",
+                    "description": "Когда очки Ночного духа исчерпаны, Мавуика может поддерживать пламецикл Всеогненного вооружения, переключившись на флогистон.\\nКогда Мавуика находится в областях Натлана с флогистоновыми механиками, она способна применять Передачу Ночного духа: Мавуика. Когда активный персонаж использует спринт, карабкается, плывёт, пребывает в состоянии передвижения некоторых талантов или находится на определённой высоте в воздухе, при смене персонажа на Мавуику активируется следующий эффект: Мавуика входит в состояние Благословения Ночного духа и получает 50% от её максимума очков Ночного духа. Передача Ночного духа может активироваться вашим отрядом один раз в 10 сек.",
+                    "icon": "UI_Talent_S_Mavuika_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "7": {
+                    "name": "Разбивающее ночь сияние",
+                    "description": "Откат Передачи Ночного духа отряда уменьшается на 20%.",
+                    "icon": "UI_Talent_S_Citlali_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Толкование Владыки ночи",
+                    "description": "Максимум очков Ночного духа Мавуики увеличивается до 120, а получение Боевого духа становится эффективнее на 25%.\\nКроме того, после получения Боевого духа её сила атаки увеличивается на 40% на 8 сек.",
+                    "icon": "UI_Talent_S_Mavuika_01"
+                },
+                "1": {
+                    "name": "Цена пепла",
+                    "description": "Когда Мавуика находится в состоянии Благословения Ночного духа, её базовая сила атаки повышается на 200 ед., и, согласно форме Всеогненного вооружения, она получает следующие эффекты:\\n· Кольцо испепеляющего сияния: защита врагов поблизости снижается на 20%.\\n· Пламецикл: урон обычной атаки, заряженной атаки и Удара падающего солнца взрыва стихии <color=#FFD780FF>Час пылающих небес</color> Мавуики повышается пропорционально её силе атаки на 60%/90%/120% соответственно.",
+                    "icon": "UI_Talent_S_Mavuika_02"
+                },
+                "2": {
+                    "name": "Горящее солнце",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Час пылающих небес</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Mavuika_01"
+                },
+                "3": {
+                    "name": "Озарение лидера",
+                    "description": "Усиливает эффект пассивного таланта «Кионгози»:\\nУвеличение урона, получаемое после использования взрыва стихии <color=#FFD780FF>Час пылающих небес</color>, больше со временем не убывает, а также дополнительно даётся 10% бонус урона.\\nТребуется разблокировать пассивный талант «Кионгози».",
+                    "icon": "UI_Talent_S_Mavuika_03"
+                },
+                "4": {
+                    "name": "Значение истины",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Именованное мгновение</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Mavuika_02"
+                },
+                "5": {
+                    "name": "Освобождённое «имя человечества»",
+                    "description": "Всеогненное вооружение элементального навыка <color=#FFD780FF>Именованное мгновение</color> получает всестороннее улучшение:\\n· Кольцо испепеляющего сияния: когда атаки Кольца испепеляющего сияния попадают в противника, пламецикл врежется в поражённого противника, нанося <color=#FF9999FF>Пиро урон по площади</color> с характеристикой Ночного духа, равный 200% силы атаки.\\n· Пламецикл: когда Мавуика находится верхом на пламецикле, также призывается Кольцо испепеляющего сияния: Раскалённый образ, который следует за ней, снижает защиту врагов поблизости на 20% и раз в 3 сек. наносит им <color=#FF9999FF>Пиро урон по площади</color> с характеристикой Ночного духа, равный 500% её силы атаки. Также усиливается способность Мавуики преодолевать различные типы местности.\\n\\nКроме того, когда Мавуика находится верхом на пламецикле вне боя, а её очки Ночного духа опускаются до 5, она получает 80 очков. Этот эффект может возникнуть один раз в 15 сек.",
+                    "icon": "UI_Talent_S_Mavuika_04"
+                }
+            },
+            "elevation": {
+                "sub": "Крит. урон %",
+                "0": {
+                    "stats": {
+                        "HP": 977,
+                        "ATK": 28,
+                        "DEF": 62,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2535,
+                        "ATK": 72,
+                        "DEF": 160,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101253",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104111",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112104",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 3373,
+                        "ATK": 96,
+                        "DEF": 213,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 5046,
+                        "ATK": 144,
+                        "DEF": 318,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101253",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104112",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112104",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113066",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 5642,
+                        "ATK": 161,
+                        "DEF": 356,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 6491,
+                        "ATK": 186,
+                        "DEF": 409,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101253",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104112",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112105",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113066",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 7285,
+                        "ATK": 208,
+                        "DEF": 459,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 8057,
+                        "ATK": 230,
+                        "DEF": 508,
+                        "sub": 19.2
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101253",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104113",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112105",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113066",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 8652,
+                        "ATK": 247,
+                        "DEF": 546,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 9691,
+                        "ATK": 277,
+                        "DEF": 611,
+                        "sub": 19.2
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101253",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104113",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112106",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113066",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 10286,
+                        "ATK": 294,
+                        "DEF": 649,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 11074,
+                        "ATK": 317,
+                        "DEF": 698,
+                        "sub": 28.799999999999997
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101253",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104114",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112106",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113066",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 11670,
+                        "ATK": 334,
+                        "DEF": 736,
+                        "sub": 38.4
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 12552,
+                        "ATK": 359,
+                        "DEF": 792,
+                        "sub": 38.4
+                    },
+                    "res": {}
+                }
+            }
+        }
+    }
+}

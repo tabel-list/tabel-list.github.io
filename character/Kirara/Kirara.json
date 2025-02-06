@@ -1,0 +1,2994 @@
+{
+    "Kirara": {
+        "en": {
+            "name": "Kirara",
+            "name_ru": "Кирара",
+            "id": 10000061,
+            "rarity": 4,
+            "weapon": "Sword",
+            "element": "Dendro",
+            "region": "Inazuma",
+            "more": {
+                "title": "Cat Upon the Eaves",
+                "detail": "A courier for Komaniya Express, a delivery company in Inazuma. A nekomata who loves her job and human society.",
+                "constellation": "Arcella",
+                "group": "Komaniya Express",
+                "birthday": "22.1",
+                "release": "22.05.2023",
+                "cv": {
+                    "en": "Julia Gu",
+                    "chs": "孙艳琦",
+                    "jp": "鈴代紗弓",
+                    "kr": "Kang Eun-ae"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Normal Attack: Boxcutter",
+                    "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash 3 rapid claw strikes.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+                    "icon": "Skill_A_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "1-Hit DMG 47.9%",
+                            "1": "2-Hit DMG 46.4%",
+                            "2": "3-Hit DMG 25.4%+38.1%",
+                            "3": "4-Hit DMG 73.3%",
+                            "4": "Charged Attack DMG 22.4%+44.8%+44.8%",
+                            "5": "Charged Attack Stamina Cost 20",
+                            "6": "Plunge DMG 63.9%",
+                            "7": "Low/High Plunge DMG 127.8%/159.7%"
+                        },
+                        "2": {
+                            "0": "1-Hit DMG 51.8%",
+                            "1": "2-Hit DMG 50.1%",
+                            "2": "3-Hit DMG 27.5%+41.2%",
+                            "3": "4-Hit DMG 79.2%",
+                            "4": "Charged Attack DMG 24.2%+48.4%+48.4%",
+                            "5": "Charged Attack Stamina Cost 20",
+                            "6": "Plunge DMG 69.1%",
+                            "7": "Low/High Plunge DMG 138.2%/172.7%"
+                        },
+                        "3": {
+                            "0": "1-Hit DMG 55.7%",
+                            "1": "2-Hit DMG 53.9%",
+                            "2": "3-Hit DMG 29.6%+44.3%",
+                            "3": "4-Hit DMG 85.2%",
+                            "4": "Charged Attack DMG 26%+52%+52%",
+                            "5": "Charged Attack Stamina Cost 20",
+                            "6": "Plunge DMG 74.3%",
+                            "7": "Low/High Plunge DMG 148.6%/185.7%"
+                        },
+                        "4": {
+                            "0": "1-Hit DMG 61.3%",
+                            "1": "2-Hit DMG 59.3%",
+                            "2": "3-Hit DMG 32.5%+48.8%",
+                            "3": "4-Hit DMG 93.7%",
+                            "4": "Charged Attack DMG 28.6%+57.2%+57.2%",
+                            "5": "Charged Attack Stamina Cost 20",
+                            "6": "Plunge DMG 81.8%",
+                            "7": "Low/High Plunge DMG 163.5%/204.2%"
+                        },
+                        "5": {
+                            "0": "1-Hit DMG 65.2%",
+                            "1": "2-Hit DMG 63.1%",
+                            "2": "3-Hit DMG 34.6%+51.9%",
+                            "3": "4-Hit DMG 99.7%",
+                            "4": "Charged Attack DMG 30.4%+60.9%+60.9%",
+                            "5": "Charged Attack Stamina Cost 20",
+                            "6": "Plunge DMG 87%",
+                            "7": "Low/High Plunge DMG 173.9%/217.2%"
+                        },
+                        "6": {
+                            "0": "1-Hit DMG 69.6%",
+                            "1": "2-Hit DMG 67.4%",
+                            "2": "3-Hit DMG 37%+55.4%",
+                            "3": "4-Hit DMG 106.5%",
+                            "4": "Charged Attack DMG 32.5%+65%+65%",
+                            "5": "Charged Attack Stamina Cost 20",
+                            "6": "Plunge DMG 92.9%",
+                            "7": "Low/High Plunge DMG 185.8%/232.1%"
+                        },
+                        "7": {
+                            "0": "1-Hit DMG 75.8%",
+                            "1": "2-Hit DMG 73.3%",
+                            "2": "3-Hit DMG 40.2%+60.3%",
+                            "3": "4-Hit DMG 115.9%",
+                            "4": "Charged Attack DMG 35.4%+70.8%+70.8%",
+                            "5": "Charged Attack Stamina Cost 20",
+                            "6": "Plunge DMG 101.1%",
+                            "7": "Low/High Plunge DMG 202.2%/252.5%"
+                        },
+                        "8": {
+                            "0": "1-Hit DMG 81.9%",
+                            "1": "2-Hit DMG 79.2%",
+                            "2": "3-Hit DMG 43.5%+65.2%",
+                            "3": "4-Hit DMG 125.2%",
+                            "4": "Charged Attack DMG 38.2%+76.5%+76.5%",
+                            "5": "Charged Attack Stamina Cost 20",
+                            "6": "Plunge DMG 109.3%",
+                            "7": "Low/High Plunge DMG 218.5%/272.9%"
+                        },
+                        "9": {
+                            "0": "1-Hit DMG 88%",
+                            "1": "2-Hit DMG 85.2%",
+                            "2": "3-Hit DMG 46.7%+70.1%",
+                            "3": "4-Hit DMG 134.6%",
+                            "4": "Charged Attack DMG 41.1%+82.2%+82.2%",
+                            "5": "Charged Attack Stamina Cost 20",
+                            "6": "Plunge DMG 117.5%",
+                            "7": "Low/High Plunge DMG 234.9%/293.4%"
+                        },
+                        "10": {
+                            "0": "1-Hit DMG 94.7%",
+                            "1": "2-Hit DMG 91.6%",
+                            "2": "3-Hit DMG 50.3%+75.4%",
+                            "3": "4-Hit DMG 144.8%",
+                            "4": "Charged Attack DMG 44.2%+88.5%+88.5%",
+                            "5": "Charged Attack Stamina Cost 20",
+                            "6": "Plunge DMG 126.4%",
+                            "7": "Low/High Plunge DMG 252.7%/315.6%"
+                        },
+                        "11": {
+                            "0": "1-Hit DMG 101.4%",
+                            "1": "2-Hit DMG 98.1%",
+                            "2": "3-Hit DMG 53.8%+80.7%",
+                            "3": "4-Hit DMG 155.1%",
+                            "4": "Charged Attack DMG 47.4%+94.7%+94.7%",
+                            "5": "Charged Attack Stamina Cost 20",
+                            "6": "Plunge DMG 135.3%",
+                            "7": "Low/High Plunge DMG 270.5%/337.9%"
+                        },
+                        "12": {
+                            "0": "1-Hit DMG 108.1%",
+                            "1": "2-Hit DMG 104.6%",
+                            "2": "3-Hit DMG 57.3%+86%",
+                            "3": "4-Hit DMG 165.3%",
+                            "4": "Charged Attack DMG 50.5%+101%+101%",
+                            "5": "Charged Attack Stamina Cost 20",
+                            "6": "Plunge DMG 144.2%",
+                            "7": "Low/High Plunge DMG 288.4%/360.2%"
+                        },
+                        "13": {
+                            "0": "1-Hit DMG 114.7%",
+                            "1": "2-Hit DMG 111%",
+                            "2": "3-Hit DMG 60.9%+91.3%",
+                            "3": "4-Hit DMG 175.5%",
+                            "4": "Charged Attack DMG 53.6%+107.2%+107.2%",
+                            "5": "Charged Attack Stamina Cost 20",
+                            "6": "Plunge DMG 153.1%",
+                            "7": "Low/High Plunge DMG 306.2%/382.5%"
+                        },
+                        "14": {
+                            "0": "1-Hit DMG 121.4%",
+                            "1": "2-Hit DMG 117.5%",
+                            "2": "3-Hit DMG 64.4%+96.7%",
+                            "3": "4-Hit DMG 185.7%",
+                            "4": "Charged Attack DMG 56.7%+113.4%+113.4%",
+                            "5": "Charged Attack Stamina Cost 20",
+                            "6": "Plunge DMG 162.1%",
+                            "7": "Low/High Plunge DMG 324.1%/404.8%"
+                        },
+                        "15": {
+                            "0": "1-Hit DMG 128.1%",
+                            "1": "2-Hit DMG 124%",
+                            "2": "3-Hit DMG 68%+102%",
+                            "3": "4-Hit DMG 196%",
+                            "4": "Charged Attack DMG 59.8%+119.7%+119.7%",
+                            "5": "Charged Attack Stamina Cost 20",
+                            "6": "Plunge DMG 171%",
+                            "7": "Low/High Plunge DMG 341.9%/427%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104320",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112053",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104322",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112055",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Meow-teor Kick",
+                    "description": "#<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nLeaps into the air with all the agility of a cat passing through the bushes, and thwacks her foes with a flying kick that deals <color=#99FF88FF>AoE Dendro DMG</color> while creating a Shield of Safe Transport. This will also briefly <color=#99FF88FF>apply Dendro</color> to Kirara. The shield will absorb <color=#99FF88FF>Dendro DMG</color> with 250% effectiveness. The shield's DMG absorption will be based on Kirara's Max HP and will not exceed a certain percentage of that Max HP. The remaining DMG absorption on a Shield of Safe Transport will stack on a new one when it is created, and its duration will reset.\\n\\n<color=#FFD780FF>Hold</color>\\nOut of her desire to \"deliver within half a day,\" Kirara deploys a Shield of Safe Transport identical to the one that can be created by {LAYOUT_MOBILE#tapping}{LAYOUT_PC#pressing}{LAYOUT_PS#pressing} the skill. She will also curl up into a special express delivery box, entering the Urgent Neko Parcel state in order to move and fight more swiftly.\\n\\n<color=#FFD780FF>Urgent Neko Parcel</color>\\n· Deals <color=#99FF88FF>Dendro DMG</color> to opponents she crashes into. This effect can be triggered once on each opponent every 0.5s.\\n· When in this state, Kirara's movement speed, climbing speed, and jumping power are all increased, and her Stamina Consumption from climbing is increased.\\n· When the duration ends or the skill is used again, a Flipclaw Strike more powerful than the attack in the {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Mode will be unleashed, dealing <color=#99FF88FF>AoE Dendro DMG</color>.\\n· The Urgent Neko Parcel state lasts a maximum of 10s. When the state ends, the skill will enter CD. The longer Kirara spends in this state, the longer the CD will be.\\n· Sprinting or actively canceling climbing will end this state early.\\n\\n<i>\"So you wanna know the secret to speedy deliveries? Well, it's all in the legs!\"</i>",
+                    "icon": "Skill_S_Momoka_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Tail-Flicking Flying Kick DMG 104%",
+                            "1": "Shield DMG Absorption 10% Max HP+962",
+                            "2": "Max Shield DMG Absorption 16% Max HP+1541",
+                            "3": "Shield Duration 12s",
+                            "4": "Urgent Neko Parcel Hit DMG 33.6%",
+                            "5": "Max Urgent Neko Parcel Duration 10s",
+                            "6": "Flipclaw Strike DMG 144%",
+                            "7": "CD 8s – 12s"
+                        },
+                        "2": {
+                            "0": "Tail-Flicking Flying Kick DMG 111.8%",
+                            "1": "Shield DMG Absorption 10.8% Max HP+1058",
+                            "2": "Max Shield DMG Absorption 17.2% Max HP+1695",
+                            "3": "Shield Duration 12s",
+                            "4": "Urgent Neko Parcel Hit DMG 36.1%",
+                            "5": "Max Urgent Neko Parcel Duration 10s",
+                            "6": "Flipclaw Strike DMG 154.8%",
+                            "7": "CD 8s – 12s"
+                        },
+                        "3": {
+                            "0": "Tail-Flicking Flying Kick DMG 119.6%",
+                            "1": "Shield DMG Absorption 11.5% Max HP+1162",
+                            "2": "Max Shield DMG Absorption 18.4% Max HP+1862",
+                            "3": "Shield Duration 12s",
+                            "4": "Urgent Neko Parcel Hit DMG 38.6%",
+                            "5": "Max Urgent Neko Parcel Duration 10s",
+                            "6": "Flipclaw Strike DMG 165.6%",
+                            "7": "CD 8s – 12s"
+                        },
+                        "4": {
+                            "0": "Tail-Flicking Flying Kick DMG 130%",
+                            "1": "Shield DMG Absorption 12.5% Max HP+1275",
+                            "2": "Max Shield DMG Absorption 20% Max HP+2042",
+                            "3": "Shield Duration 12s",
+                            "4": "Urgent Neko Parcel Hit DMG 42%",
+                            "5": "Max Urgent Neko Parcel Duration 10s",
+                            "6": "Flipclaw Strike DMG 180%",
+                            "7": "CD 8s – 12s"
+                        },
+                        "5": {
+                            "0": "Tail-Flicking Flying Kick DMG 137.8%",
+                            "1": "Shield DMG Absorption 13.2% Max HP+1395",
+                            "2": "Max Shield DMG Absorption 21.2% Max HP+2234",
+                            "3": "Shield Duration 12s",
+                            "4": "Urgent Neko Parcel Hit DMG 44.5%",
+                            "5": "Max Urgent Neko Parcel Duration 10s",
+                            "6": "Flipclaw Strike DMG 190.8%",
+                            "7": "CD 8s – 12s"
+                        },
+                        "6": {
+                            "0": "Tail-Flicking Flying Kick DMG 145.6%",
+                            "1": "Shield DMG Absorption 14% Max HP+1523",
+                            "2": "Max Shield DMG Absorption 22.4% Max HP+2440",
+                            "3": "Shield Duration 12s",
+                            "4": "Urgent Neko Parcel Hit DMG 47%",
+                            "5": "Max Urgent Neko Parcel Duration 10s",
+                            "6": "Flipclaw Strike DMG 201.6%",
+                            "7": "CD 8s – 12s"
+                        },
+                        "7": {
+                            "0": "Tail-Flicking Flying Kick DMG 156%",
+                            "1": "Shield DMG Absorption 15% Max HP+1659",
+                            "2": "Max Shield DMG Absorption 24% Max HP+2658",
+                            "3": "Shield Duration 12s",
+                            "4": "Urgent Neko Parcel Hit DMG 50.4%",
+                            "5": "Max Urgent Neko Parcel Duration 10s",
+                            "6": "Flipclaw Strike DMG 216%",
+                            "7": "CD 8s – 12s"
+                        },
+                        "8": {
+                            "0": "Tail-Flicking Flying Kick DMG 166.4%",
+                            "1": "Shield DMG Absorption 16% Max HP+1804",
+                            "2": "Max Shield DMG Absorption 25.6% Max HP+2889",
+                            "3": "Shield Duration 12s",
+                            "4": "Urgent Neko Parcel Hit DMG 53.8%",
+                            "5": "Max Urgent Neko Parcel Duration 10s",
+                            "6": "Flipclaw Strike DMG 230.4%",
+                            "7": "CD 8s – 12s"
+                        },
+                        "9": {
+                            "0": "Tail-Flicking Flying Kick DMG 176.8%",
+                            "1": "Shield DMG Absorption 17% Max HP+1956",
+                            "2": "Max Shield DMG Absorption 27.2% Max HP+3133",
+                            "3": "Shield Duration 12s",
+                            "4": "Urgent Neko Parcel Hit DMG 57.1%",
+                            "5": "Max Urgent Neko Parcel Duration 10s",
+                            "6": "Flipclaw Strike DMG 244.8%",
+                            "7": "CD 8s – 12s"
+                        },
+                        "10": {
+                            "0": "Tail-Flicking Flying Kick DMG 187.2%",
+                            "1": "Shield DMG Absorption 18% Max HP+2117",
+                            "2": "Max Shield DMG Absorption 28.8% Max HP+3390",
+                            "3": "Shield Duration 12s",
+                            "4": "Urgent Neko Parcel Hit DMG 60.5%",
+                            "5": "Max Urgent Neko Parcel Duration 10s",
+                            "6": "Flipclaw Strike DMG 259.2%",
+                            "7": "CD 8s – 12s"
+                        },
+                        "11": {
+                            "0": "Tail-Flicking Flying Kick DMG 197.6%",
+                            "1": "Shield DMG Absorption 19% Max HP+2285",
+                            "2": "Max Shield DMG Absorption 30.4% Max HP+3660",
+                            "3": "Shield Duration 12s",
+                            "4": "Urgent Neko Parcel Hit DMG 63.8%",
+                            "5": "Max Urgent Neko Parcel Duration 10s",
+                            "6": "Flipclaw Strike DMG 273.6%",
+                            "7": "CD 8s – 12s"
+                        },
+                        "12": {
+                            "0": "Tail-Flicking Flying Kick DMG 208%",
+                            "1": "Shield DMG Absorption 20% Max HP+2461",
+                            "2": "Max Shield DMG Absorption 32% Max HP+3942",
+                            "3": "Shield Duration 12s",
+                            "4": "Urgent Neko Parcel Hit DMG 67.2%",
+                            "5": "Max Urgent Neko Parcel Duration 10s",
+                            "6": "Flipclaw Strike DMG 288%",
+                            "7": "CD 8s – 12s"
+                        },
+                        "13": {
+                            "0": "Tail-Flicking Flying Kick DMG 221%",
+                            "1": "Shield DMG Absorption 21.2% Max HP+2646",
+                            "2": "Max Shield DMG Absorption 34% Max HP+4238",
+                            "3": "Shield Duration 12s",
+                            "4": "Urgent Neko Parcel Hit DMG 71.4%",
+                            "5": "Max Urgent Neko Parcel Duration 10s",
+                            "6": "Flipclaw Strike DMG 306%",
+                            "7": "CD 8s – 12s"
+                        },
+                        "14": {
+                            "0": "Tail-Flicking Flying Kick DMG 234%",
+                            "1": "Shield DMG Absorption 22.5% Max HP+2838",
+                            "2": "Max Shield DMG Absorption 36% Max HP+4546",
+                            "3": "Shield Duration 12s",
+                            "4": "Urgent Neko Parcel Hit DMG 75.6%",
+                            "5": "Max Urgent Neko Parcel Duration 10s",
+                            "6": "Flipclaw Strike DMG 324%",
+                            "7": "CD 8s – 12s"
+                        },
+                        "15": {
+                            "0": "Tail-Flicking Flying Kick DMG 247%",
+                            "1": "Shield DMG Absorption 23.8% Max HP+3039",
+                            "2": "Max Shield DMG Absorption 38% Max HP+4867",
+                            "3": "Shield Duration 12s",
+                            "4": "Urgent Neko Parcel Hit DMG 79.8%",
+                            "5": "Max Urgent Neko Parcel Duration 10s",
+                            "6": "Flipclaw Strike DMG 342%",
+                            "7": "CD 8s – 12s"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104320",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112053",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104322",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112055",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Secret Art: Surprise Dispatch",
+                    "description": "Smash opponents with a Special Delivery Package used for punishing parcel thieves, dealing <color=#99FF88FF>AoE Dendro DMG</color>. After the Special Delivery Package explodes, it will split up into many <color=#FFD780FF>Cat Grass Cardamoms</color> that will explode either upon contact with opponents or after a period of time, dealing <color=#99FF88FF>AoE Dendro DMG</color>.\\n\\n<i>\"Hehe, that's right, this stuff was made to deal with those parcel thieves! Remember to leave a 5-star rating once you've received yours!\"</i>",
+                    "icon": "Skill_E_Momoka_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 570.2%",
+                            "1": "Cat Grass Cardamom Explosion DMG 35.6%",
+                            "2": "Cat Grass Cardamom Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "2": {
+                            "0": "Skill DMG 613%",
+                            "1": "Cat Grass Cardamom Explosion DMG 38.3%",
+                            "2": "Cat Grass Cardamom Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "3": {
+                            "0": "Skill DMG 655.8%",
+                            "1": "Cat Grass Cardamom Explosion DMG 41%",
+                            "2": "Cat Grass Cardamom Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "4": {
+                            "0": "Skill DMG 712.8%",
+                            "1": "Cat Grass Cardamom Explosion DMG 44.5%",
+                            "2": "Cat Grass Cardamom Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "5": {
+                            "0": "Skill DMG 755.6%",
+                            "1": "Cat Grass Cardamom Explosion DMG 47.2%",
+                            "2": "Cat Grass Cardamom Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "6": {
+                            "0": "Skill DMG 798.3%",
+                            "1": "Cat Grass Cardamom Explosion DMG 49.9%",
+                            "2": "Cat Grass Cardamom Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "7": {
+                            "0": "Skill DMG 855.4%",
+                            "1": "Cat Grass Cardamom Explosion DMG 53.5%",
+                            "2": "Cat Grass Cardamom Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "8": {
+                            "0": "Skill DMG 912.4%",
+                            "1": "Cat Grass Cardamom Explosion DMG 57%",
+                            "2": "Cat Grass Cardamom Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "9": {
+                            "0": "Skill DMG 969.4%",
+                            "1": "Cat Grass Cardamom Explosion DMG 60.6%",
+                            "2": "Cat Grass Cardamom Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "10": {
+                            "0": "Skill DMG 1026.4%",
+                            "1": "Cat Grass Cardamom Explosion DMG 64.2%",
+                            "2": "Cat Grass Cardamom Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "11": {
+                            "0": "Skill DMG 1083.5%",
+                            "1": "Cat Grass Cardamom Explosion DMG 67.7%",
+                            "2": "Cat Grass Cardamom Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "12": {
+                            "0": "Skill DMG 1140.5%",
+                            "1": "Cat Grass Cardamom Explosion DMG 71.3%",
+                            "2": "Cat Grass Cardamom Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "13": {
+                            "0": "Skill DMG 1211.8%",
+                            "1": "Cat Grass Cardamom Explosion DMG 75.7%",
+                            "2": "Cat Grass Cardamom Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "14": {
+                            "0": "Skill DMG 1283%",
+                            "1": "Cat Grass Cardamom Explosion DMG 80.2%",
+                            "2": "Cat Grass Cardamom Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "15": {
+                            "0": "Skill DMG 1354.3%",
+                            "1": "Cat Grass Cardamom Explosion DMG 84.6%",
+                            "2": "Cat Grass Cardamom Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104320",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112053",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104322",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112055",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Secret Art: Surprise Dispatch",
+                    "description": "Smash opponents with a Special Delivery Package used for punishing parcel thieves, dealing <color=#99FF88FF>AoE Dendro DMG</color>. After the Special Delivery Package explodes, it will split up into many <color=#FFD780FF>Cat Grass Cardamoms</color> that will explode either upon contact with opponents or after a period of time, dealing <color=#99FF88FF>AoE Dendro DMG</color>.\\n\\n<i>\"Hehe, that's right, this stuff was made to deal with those parcel thieves! Remember to leave a 5-star rating once you've received yours!\"</i>",
+                    "icon": "Skill_E_Momoka_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 570.2%",
+                            "1": "Cat Grass Cardamom Explosion DMG 35.6%",
+                            "2": "Cat Grass Cardamom Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "2": {
+                            "0": "Skill DMG 613%",
+                            "1": "Cat Grass Cardamom Explosion DMG 38.3%",
+                            "2": "Cat Grass Cardamom Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "3": {
+                            "0": "Skill DMG 655.8%",
+                            "1": "Cat Grass Cardamom Explosion DMG 41%",
+                            "2": "Cat Grass Cardamom Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "4": {
+                            "0": "Skill DMG 712.8%",
+                            "1": "Cat Grass Cardamom Explosion DMG 44.5%",
+                            "2": "Cat Grass Cardamom Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "5": {
+                            "0": "Skill DMG 755.6%",
+                            "1": "Cat Grass Cardamom Explosion DMG 47.2%",
+                            "2": "Cat Grass Cardamom Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "6": {
+                            "0": "Skill DMG 798.3%",
+                            "1": "Cat Grass Cardamom Explosion DMG 49.9%",
+                            "2": "Cat Grass Cardamom Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "7": {
+                            "0": "Skill DMG 855.4%",
+                            "1": "Cat Grass Cardamom Explosion DMG 53.5%",
+                            "2": "Cat Grass Cardamom Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "8": {
+                            "0": "Skill DMG 912.4%",
+                            "1": "Cat Grass Cardamom Explosion DMG 57%",
+                            "2": "Cat Grass Cardamom Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "9": {
+                            "0": "Skill DMG 969.4%",
+                            "1": "Cat Grass Cardamom Explosion DMG 60.6%",
+                            "2": "Cat Grass Cardamom Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "10": {
+                            "0": "Skill DMG 1026.4%",
+                            "1": "Cat Grass Cardamom Explosion DMG 64.2%",
+                            "2": "Cat Grass Cardamom Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "11": {
+                            "0": "Skill DMG 1083.5%",
+                            "1": "Cat Grass Cardamom Explosion DMG 67.7%",
+                            "2": "Cat Grass Cardamom Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "12": {
+                            "0": "Skill DMG 1140.5%",
+                            "1": "Cat Grass Cardamom Explosion DMG 71.3%",
+                            "2": "Cat Grass Cardamom Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "13": {
+                            "0": "Skill DMG 1211.8%",
+                            "1": "Cat Grass Cardamom Explosion DMG 75.7%",
+                            "2": "Cat Grass Cardamom Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "14": {
+                            "0": "Skill DMG 1283%",
+                            "1": "Cat Grass Cardamom Explosion DMG 80.2%",
+                            "2": "Cat Grass Cardamom Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "15": {
+                            "0": "Skill DMG 1354.3%",
+                            "1": "Cat Grass Cardamom Explosion DMG 84.6%",
+                            "2": "Cat Grass Cardamom Duration 12s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104320",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112053",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104322",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112055",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Bewitching, Betwitching Tails",
+                    "description": "When Kirara is in the Urgent Neko Parcel state of <color=#FFD780FF>Meow-teor Kick</color>, each impact against an opponent will grant her a stack of <color=#FFD780FF>Reinforced Packaging</color>. This effect can be triggered once for each opponent hit every 0.5s. Max 3 stacks. When the Urgent Neko Parcel state ends, each stack of Reinforced Packaging will create 1 Shield of Safe Transport for Kirara. The shields that are created this way will have 20% of the DMG absorption that the Shield of Safe Transport produced by <color=#FFD780FF>Meow-teor Kick</color> would have. If Kirara is already protected by a Shield of Safe Transport created by Meow-teor Kick, its DMG absorption will stack with these shields and its duration will reset.",
+                    "icon": "UI_Talent_S_Momoka_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Pupillary Variance",
+                    "description": "Every 1,000 Max HP Kirara possesses will increase the DMG dealt by <color=#FFD780FF>Meow-teor Kick</color> by 0.4%, and the DMG dealt by <color=#FFD780FF>Secret Art: Surprise Dispatch</color> by 0.3%.",
+                    "icon": "UI_Talent_S_Momoka_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Cat's Creeping Carriage",
+                    "description": "When Kirara is in the party, animals who produce Fowl, Raw Meat, or Chilled Meat will not be startled when party members approach them.",
+                    "icon": "UI_Talent_S_Aloy_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Material Circulation",
+                    "description": "Every 8,000 Max HP Kirara possesses will cause her to create 1 extra <color=#FFD780FF>Cat Grass Cardamom</color> when she uses <color=#FFD780FF>Secret Art: Surprise Dispatch</color>. A maximum of 4 extra can be created this way.",
+                    "icon": "UI_Talent_S_Momoka_01"
+                },
+                "1": {
+                    "name": "Perfectly Packaged",
+                    "description": "When Kirara is in the Urgent Neko Parcel state of <color=#FFD780FF>Meow-teor Kick</color>, she will grant other party members she crashes into Critical Transport Shields.\\nThe DMG absorption of Critical Transport Shield is 40% of the maximum absorption <color=#FFD780FF>Meow-teor Kick</color>'s normal Shields of Safe Transport are capable of, and will absorb <color=#99FF88FF>Dendro DMG</color> with 250% effectiveness.\\nCritical Transport Shields last 12s and can be triggered once on each character every 10s.",
+                    "icon": "UI_Talent_S_Momoka_02"
+                },
+                "2": {
+                    "name": "Universal Recognition",
+                    "description": "Increases the Level of <color=#FFD780FF>Meow-teor Kick</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Momoka_01"
+                },
+                "3": {
+                    "name": "Steed of Skanda",
+                    "description": "After active character(s) protected by <color=#FFD780FF>Shields of Safe Transport</color> or <color=#FFD780FF>Critical Transport Shields</color> hit opponents with Normal, Charged, or Plunging Attacks, Kirara will perform a coordinated attack with them using <color=#FFD780FF>Small Cat Grass Cardamoms</color>, dealing 200% of her ATK as <color=#99FF88FF>Dendro DMG</color>. DMG dealt this way is considered Elemental Burst DMG. This effect can be triggered once every 3.8s. This CD is shared between all party members.",
+                    "icon": "UI_Talent_S_Momoka_04"
+                },
+                "4": {
+                    "name": "A Thousand Miles in a Day",
+                    "description": "Increases the Level of <color=#FFD780FF>Secret Art: Surprise Dispatch</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Momoka_02"
+                },
+                "5": {
+                    "name": "Countless Sights to See",
+                    "description": "All nearby party members gain a 12% All Elemental DMG Bonus for 15s after Kirara uses her Elemental Skill or Burst.",
+                    "icon": "UI_Talent_S_Momoka_03"
+                }
+            },
+            "elevation": {
+                "sub": "HP %",
+                "0": {
+                    "stats": {
+                        "HP": 1021,
+                        "ATK": 19,
+                        "DEF": 46,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2623,
+                        "ATK": 48,
+                        "DEF": 118,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101208",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104131",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112053",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 3386,
+                        "ATK": 62,
+                        "DEF": 152,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 5072,
+                        "ATK": 93,
+                        "DEF": 227,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101208",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104132",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112053",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113045",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 5614,
+                        "ATK": 103,
+                        "DEF": 252,
+                        "sub": 6.0
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 6458,
+                        "ATK": 118,
+                        "DEF": 290,
+                        "sub": 6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101208",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104132",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112054",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113045",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 7181,
+                        "ATK": 131,
+                        "DEF": 322,
+                        "sub": 12
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 8024,
+                        "ATK": 147,
+                        "DEF": 360,
+                        "sub": 12
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101208",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104133",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112054",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113045",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 8566,
+                        "ATK": 157,
+                        "DEF": 384,
+                        "sub": 12
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 9409,
+                        "ATK": 172,
+                        "DEF": 422,
+                        "sub": 12
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101208",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104133",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112055",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113045",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 9951,
+                        "ATK": 182,
+                        "DEF": 446,
+                        "sub": 18
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 10794,
+                        "ATK": 198,
+                        "DEF": 484,
+                        "sub": 18
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101208",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104134",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112055",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113045",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 11336,
+                        "ATK": 208,
+                        "DEF": 508,
+                        "sub": 24
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 12180,
+                        "ATK": 223,
+                        "DEF": 546,
+                        "sub": 24
+                    },
+                    "res": {}
+                }
+            }
+        },
+        "ru": {
+            "name": "Kirara",
+            "name_ru": "Кирара",
+            "id": 10000061,
+            "rarity": 4,
+            "weapon": "Sword",
+            "element": "Dendro",
+            "region": "Inazuma",
+            "more": {
+                "title": "Кошка на гребне крыши",
+                "detail": "Курьер инадзумской компании доставки «Комания экспресс». Эта нэкомата обожает свою работу и общество людей.",
+                "constellation": "Ларец",
+                "group": "«Комания экспресс»",
+                "birthday": "22.1",
+                "release": "22.05.2023",
+                "cv": {
+                    "en": "Julia Gu",
+                    "chs": "孙艳琦",
+                    "jp": "鈴代紗弓",
+                    "kr": "Kang Eun-ae"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Нарезка коробок",
+                    "description": "<color=#FFD780FF>Обычная атака:</color>\\nДо четырёх быстрых ударов.\\n\\n<color=#FFD780FF>Заряженная атака:</color>\\nТратит определённое количество выносливости на три быстрых удара когтями.\\n\\n<color=#FFD780FF>Атака в падении:</color>\\nСтремительно падает на землю, атакуя всех врагов на пути. Приземлившись, наносит урон по площади.",
+                    "icon": "Skill_A_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон атаки 1 47.9%",
+                            "1": "Урон атаки 2 46.4%",
+                            "2": "Урон атаки 3 25.4%+38.1%",
+                            "3": "Урон атаки 4 73.3%",
+                            "4": "Урон заряженной атаки 22.4%+44.8%+44.8%",
+                            "5": "Потребление выносливости 20 ед.",
+                            "6": "Урон в падении 63.9%",
+                            "7": "Урон низкого/высокого удара 127.8%/159.7%"
+                        },
+                        "2": {
+                            "0": "Урон атаки 1 51.8%",
+                            "1": "Урон атаки 2 50.1%",
+                            "2": "Урон атаки 3 27.5%+41.2%",
+                            "3": "Урон атаки 4 79.2%",
+                            "4": "Урон заряженной атаки 24.2%+48.4%+48.4%",
+                            "5": "Потребление выносливости 20 ед.",
+                            "6": "Урон в падении 69.1%",
+                            "7": "Урон низкого/высокого удара 138.2%/172.7%"
+                        },
+                        "3": {
+                            "0": "Урон атаки 1 55.7%",
+                            "1": "Урон атаки 2 53.9%",
+                            "2": "Урон атаки 3 29.6%+44.3%",
+                            "3": "Урон атаки 4 85.2%",
+                            "4": "Урон заряженной атаки 26%+52%+52%",
+                            "5": "Потребление выносливости 20 ед.",
+                            "6": "Урон в падении 74.3%",
+                            "7": "Урон низкого/высокого удара 148.6%/185.7%"
+                        },
+                        "4": {
+                            "0": "Урон атаки 1 61.3%",
+                            "1": "Урон атаки 2 59.3%",
+                            "2": "Урон атаки 3 32.5%+48.8%",
+                            "3": "Урон атаки 4 93.7%",
+                            "4": "Урон заряженной атаки 28.6%+57.2%+57.2%",
+                            "5": "Потребление выносливости 20 ед.",
+                            "6": "Урон в падении 81.8%",
+                            "7": "Урон низкого/высокого удара 163.5%/204.2%"
+                        },
+                        "5": {
+                            "0": "Урон атаки 1 65.2%",
+                            "1": "Урон атаки 2 63.1%",
+                            "2": "Урон атаки 3 34.6%+51.9%",
+                            "3": "Урон атаки 4 99.7%",
+                            "4": "Урон заряженной атаки 30.4%+60.9%+60.9%",
+                            "5": "Потребление выносливости 20 ед.",
+                            "6": "Урон в падении 87%",
+                            "7": "Урон низкого/высокого удара 173.9%/217.2%"
+                        },
+                        "6": {
+                            "0": "Урон атаки 1 69.6%",
+                            "1": "Урон атаки 2 67.4%",
+                            "2": "Урон атаки 3 37%+55.4%",
+                            "3": "Урон атаки 4 106.5%",
+                            "4": "Урон заряженной атаки 32.5%+65%+65%",
+                            "5": "Потребление выносливости 20 ед.",
+                            "6": "Урон в падении 92.9%",
+                            "7": "Урон низкого/высокого удара 185.8%/232.1%"
+                        },
+                        "7": {
+                            "0": "Урон атаки 1 75.8%",
+                            "1": "Урон атаки 2 73.3%",
+                            "2": "Урон атаки 3 40.2%+60.3%",
+                            "3": "Урон атаки 4 115.9%",
+                            "4": "Урон заряженной атаки 35.4%+70.8%+70.8%",
+                            "5": "Потребление выносливости 20 ед.",
+                            "6": "Урон в падении 101.1%",
+                            "7": "Урон низкого/высокого удара 202.2%/252.5%"
+                        },
+                        "8": {
+                            "0": "Урон атаки 1 81.9%",
+                            "1": "Урон атаки 2 79.2%",
+                            "2": "Урон атаки 3 43.5%+65.2%",
+                            "3": "Урон атаки 4 125.2%",
+                            "4": "Урон заряженной атаки 38.2%+76.5%+76.5%",
+                            "5": "Потребление выносливости 20 ед.",
+                            "6": "Урон в падении 109.3%",
+                            "7": "Урон низкого/высокого удара 218.5%/272.9%"
+                        },
+                        "9": {
+                            "0": "Урон атаки 1 88%",
+                            "1": "Урон атаки 2 85.2%",
+                            "2": "Урон атаки 3 46.7%+70.1%",
+                            "3": "Урон атаки 4 134.6%",
+                            "4": "Урон заряженной атаки 41.1%+82.2%+82.2%",
+                            "5": "Потребление выносливости 20 ед.",
+                            "6": "Урон в падении 117.5%",
+                            "7": "Урон низкого/высокого удара 234.9%/293.4%"
+                        },
+                        "10": {
+                            "0": "Урон атаки 1 94.7%",
+                            "1": "Урон атаки 2 91.6%",
+                            "2": "Урон атаки 3 50.3%+75.4%",
+                            "3": "Урон атаки 4 144.8%",
+                            "4": "Урон заряженной атаки 44.2%+88.5%+88.5%",
+                            "5": "Потребление выносливости 20 ед.",
+                            "6": "Урон в падении 126.4%",
+                            "7": "Урон низкого/высокого удара 252.7%/315.6%"
+                        },
+                        "11": {
+                            "0": "Урон атаки 1 101.4%",
+                            "1": "Урон атаки 2 98.1%",
+                            "2": "Урон атаки 3 53.8%+80.7%",
+                            "3": "Урон атаки 4 155.1%",
+                            "4": "Урон заряженной атаки 47.4%+94.7%+94.7%",
+                            "5": "Потребление выносливости 20 ед.",
+                            "6": "Урон в падении 135.3%",
+                            "7": "Урон низкого/высокого удара 270.5%/337.9%"
+                        },
+                        "12": {
+                            "0": "Урон атаки 1 108.1%",
+                            "1": "Урон атаки 2 104.6%",
+                            "2": "Урон атаки 3 57.3%+86%",
+                            "3": "Урон атаки 4 165.3%",
+                            "4": "Урон заряженной атаки 50.5%+101%+101%",
+                            "5": "Потребление выносливости 20 ед.",
+                            "6": "Урон в падении 144.2%",
+                            "7": "Урон низкого/высокого удара 288.4%/360.2%"
+                        },
+                        "13": {
+                            "0": "Урон атаки 1 114.7%",
+                            "1": "Урон атаки 2 111%",
+                            "2": "Урон атаки 3 60.9%+91.3%",
+                            "3": "Урон атаки 4 175.5%",
+                            "4": "Урон заряженной атаки 53.6%+107.2%+107.2%",
+                            "5": "Потребление выносливости 20 ед.",
+                            "6": "Урон в падении 153.1%",
+                            "7": "Урон низкого/высокого удара 306.2%/382.5%"
+                        },
+                        "14": {
+                            "0": "Урон атаки 1 121.4%",
+                            "1": "Урон атаки 2 117.5%",
+                            "2": "Урон атаки 3 64.4%+96.7%",
+                            "3": "Урон атаки 4 185.7%",
+                            "4": "Урон заряженной атаки 56.7%+113.4%+113.4%",
+                            "5": "Потребление выносливости 20 ед.",
+                            "6": "Урон в падении 162.1%",
+                            "7": "Урон низкого/высокого удара 324.1%/404.8%"
+                        },
+                        "15": {
+                            "0": "Урон атаки 1 128.1%",
+                            "1": "Урон атаки 2 124%",
+                            "2": "Урон атаки 3 68%+102%",
+                            "3": "Урон атаки 4 196%",
+                            "4": "Урон заряженной атаки 59.8%+119.7%+119.7%",
+                            "5": "Потребление выносливости 20 ед.",
+                            "6": "Урон в падении 171%",
+                            "7": "Урон низкого/высокого удара 341.9%/427%"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104320",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112053",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104322",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112055",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Мяутеоритный удар",
+                    "description": "<color=#FFD780FF>Быстрое нажатие</color>\\nПодпрыгивает в воздух с ловкостью мчащейся через кусты кошки и больно бьёт противников, нанося <color=#99FF88FF>Дендро урон по площади</color>. Также развёртывает Щит безопасной перевозки и на короткое время получает <color=#99FF88FF>эффект Дендро</color>. Щит безопасной перевозки поглощает <color=#99FF88FF>Дендро урон</color> с 250% эффективностью. Поглощаемый щитом урон зависит от макс. HP Кирары и не превышает определённого процента от него. Оставшийся поглощаемый урон Щита безопасной перевозки при создании нового щита суммируется с ним, а его длительность обновляется.\\n\\n<color=#FFD780FF>Долгое нажатие</color>\\nСледуя рвению «доставить за полдня», создаёт такой же Щит безопасной перевозки, как и при коротком нажатии, сворачивается калачиком в специальном ящике для экспресс-доставки и переходит в состояние Срочной посылки нэко, чтобы передвигаться и сражаться ещё быстрее.\\n\\n<color=#FFD780FF>Срочная посылка нэко</color>\\n· Наносит <color=#99FF88FF>Дендро урон</color> противникам, в которых врезается. Этот эффект может возникнуть один раз в 0,5 сек. для каждого врага.\\n· В этом состоянии скорость передвижения, скорость карабканья и сила прыжка Кирары увеличены, а при карабканье она тратит больше энергии.\\n· После истечения времени действия или повторной активации навыка выполняет Удар когтями, который наносит <color=#99FF88FF>Дендро урон по площади</color>. Этот удар сильнее атаки при коротком нажатии навыка.\\n· Состояние Срочной посылки нэко длится до 10 сек., после чего переходит в режим отката. Чем дольше Кирара пребывает в этом состоянии, тем дольше откат.\\n· Спринт или произвольное завершение карабканья прерывает это состояние.\\n\\n<i>«Хотите знать, в чём секрет такой быстрой доставки? В силе ног, конечно же!»</i>",
+                    "icon": "Skill_S_Momoka_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон удара в прыжке 104%",
+                            "1": "Поглощение урона 10% от макс. HP + 962",
+                            "2": "Макс. поглощение урона 16% от макс. HP + 1541",
+                            "3": "Длительность щита 12 сек.",
+                            "4": "Урон удара Срочной посылки нэко 33.6%",
+                            "5": "Макс. длительность Срочной посылки нэко 10 сек.",
+                            "6": "Урон Удара когтями 144%",
+                            "7": "Время отката 8-12 сек."
+                        },
+                        "2": {
+                            "0": "Урон удара в прыжке 111.8%",
+                            "1": "Поглощение урона 10.8% от макс. HP + 1058",
+                            "2": "Макс. поглощение урона 17.2% от макс. HP + 1695",
+                            "3": "Длительность щита 12 сек.",
+                            "4": "Урон удара Срочной посылки нэко 36.1%",
+                            "5": "Макс. длительность Срочной посылки нэко 10 сек.",
+                            "6": "Урон Удара когтями 154.8%",
+                            "7": "Время отката 8-12 сек."
+                        },
+                        "3": {
+                            "0": "Урон удара в прыжке 119.6%",
+                            "1": "Поглощение урона 11.5% от макс. HP + 1162",
+                            "2": "Макс. поглощение урона 18.4% от макс. HP + 1862",
+                            "3": "Длительность щита 12 сек.",
+                            "4": "Урон удара Срочной посылки нэко 38.6%",
+                            "5": "Макс. длительность Срочной посылки нэко 10 сек.",
+                            "6": "Урон Удара когтями 165.6%",
+                            "7": "Время отката 8-12 сек."
+                        },
+                        "4": {
+                            "0": "Урон удара в прыжке 130%",
+                            "1": "Поглощение урона 12.5% от макс. HP + 1275",
+                            "2": "Макс. поглощение урона 20% от макс. HP + 2042",
+                            "3": "Длительность щита 12 сек.",
+                            "4": "Урон удара Срочной посылки нэко 42%",
+                            "5": "Макс. длительность Срочной посылки нэко 10 сек.",
+                            "6": "Урон Удара когтями 180%",
+                            "7": "Время отката 8-12 сек."
+                        },
+                        "5": {
+                            "0": "Урон удара в прыжке 137.8%",
+                            "1": "Поглощение урона 13.2% от макс. HP + 1395",
+                            "2": "Макс. поглощение урона 21.2% от макс. HP + 2234",
+                            "3": "Длительность щита 12 сек.",
+                            "4": "Урон удара Срочной посылки нэко 44.5%",
+                            "5": "Макс. длительность Срочной посылки нэко 10 сек.",
+                            "6": "Урон Удара когтями 190.8%",
+                            "7": "Время отката 8-12 сек."
+                        },
+                        "6": {
+                            "0": "Урон удара в прыжке 145.6%",
+                            "1": "Поглощение урона 14% от макс. HP + 1523",
+                            "2": "Макс. поглощение урона 22.4% от макс. HP + 2440",
+                            "3": "Длительность щита 12 сек.",
+                            "4": "Урон удара Срочной посылки нэко 47%",
+                            "5": "Макс. длительность Срочной посылки нэко 10 сек.",
+                            "6": "Урон Удара когтями 201.6%",
+                            "7": "Время отката 8-12 сек."
+                        },
+                        "7": {
+                            "0": "Урон удара в прыжке 156%",
+                            "1": "Поглощение урона 15% от макс. HP + 1659",
+                            "2": "Макс. поглощение урона 24% от макс. HP + 2658",
+                            "3": "Длительность щита 12 сек.",
+                            "4": "Урон удара Срочной посылки нэко 50.4%",
+                            "5": "Макс. длительность Срочной посылки нэко 10 сек.",
+                            "6": "Урон Удара когтями 216%",
+                            "7": "Время отката 8-12 сек."
+                        },
+                        "8": {
+                            "0": "Урон удара в прыжке 166.4%",
+                            "1": "Поглощение урона 16% от макс. HP + 1804",
+                            "2": "Макс. поглощение урона 25.6% от макс. HP + 2889",
+                            "3": "Длительность щита 12 сек.",
+                            "4": "Урон удара Срочной посылки нэко 53.8%",
+                            "5": "Макс. длительность Срочной посылки нэко 10 сек.",
+                            "6": "Урон Удара когтями 230.4%",
+                            "7": "Время отката 8-12 сек."
+                        },
+                        "9": {
+                            "0": "Урон удара в прыжке 176.8%",
+                            "1": "Поглощение урона 17% от макс. HP + 1956",
+                            "2": "Макс. поглощение урона 27.2% от макс. HP + 3133",
+                            "3": "Длительность щита 12 сек.",
+                            "4": "Урон удара Срочной посылки нэко 57.1%",
+                            "5": "Макс. длительность Срочной посылки нэко 10 сек.",
+                            "6": "Урон Удара когтями 244.8%",
+                            "7": "Время отката 8-12 сек."
+                        },
+                        "10": {
+                            "0": "Урон удара в прыжке 187.2%",
+                            "1": "Поглощение урона 18% от макс. HP + 2117",
+                            "2": "Макс. поглощение урона 28.8% от макс. HP + 3390",
+                            "3": "Длительность щита 12 сек.",
+                            "4": "Урон удара Срочной посылки нэко 60.5%",
+                            "5": "Макс. длительность Срочной посылки нэко 10 сек.",
+                            "6": "Урон Удара когтями 259.2%",
+                            "7": "Время отката 8-12 сек."
+                        },
+                        "11": {
+                            "0": "Урон удара в прыжке 197.6%",
+                            "1": "Поглощение урона 19% от макс. HP + 2285",
+                            "2": "Макс. поглощение урона 30.4% от макс. HP + 3660",
+                            "3": "Длительность щита 12 сек.",
+                            "4": "Урон удара Срочной посылки нэко 63.8%",
+                            "5": "Макс. длительность Срочной посылки нэко 10 сек.",
+                            "6": "Урон Удара когтями 273.6%",
+                            "7": "Время отката 8-12 сек."
+                        },
+                        "12": {
+                            "0": "Урон удара в прыжке 208%",
+                            "1": "Поглощение урона 20% от макс. HP + 2461",
+                            "2": "Макс. поглощение урона 32% от макс. HP + 3942",
+                            "3": "Длительность щита 12 сек.",
+                            "4": "Урон удара Срочной посылки нэко 67.2%",
+                            "5": "Макс. длительность Срочной посылки нэко 10 сек.",
+                            "6": "Урон Удара когтями 288%",
+                            "7": "Время отката 8-12 сек."
+                        },
+                        "13": {
+                            "0": "Урон удара в прыжке 221%",
+                            "1": "Поглощение урона 21.2% от макс. HP + 2646",
+                            "2": "Макс. поглощение урона 34% от макс. HP + 4238",
+                            "3": "Длительность щита 12 сек.",
+                            "4": "Урон удара Срочной посылки нэко 71.4%",
+                            "5": "Макс. длительность Срочной посылки нэко 10 сек.",
+                            "6": "Урон Удара когтями 306%",
+                            "7": "Время отката 8-12 сек."
+                        },
+                        "14": {
+                            "0": "Урон удара в прыжке 234%",
+                            "1": "Поглощение урона 22.5% от макс. HP + 2838",
+                            "2": "Макс. поглощение урона 36% от макс. HP + 4546",
+                            "3": "Длительность щита 12 сек.",
+                            "4": "Урон удара Срочной посылки нэко 75.6%",
+                            "5": "Макс. длительность Срочной посылки нэко 10 сек.",
+                            "6": "Урон Удара когтями 324%",
+                            "7": "Время отката 8-12 сек."
+                        },
+                        "15": {
+                            "0": "Урон удара в прыжке 247%",
+                            "1": "Поглощение урона 23.8% от макс. HP + 3039",
+                            "2": "Макс. поглощение урона 38% от макс. HP + 4867",
+                            "3": "Длительность щита 12 сек.",
+                            "4": "Урон удара Срочной посылки нэко 79.8%",
+                            "5": "Макс. длительность Срочной посылки нэко 10 сек.",
+                            "6": "Урон Удара когтями 342%",
+                            "7": "Время отката 8-12 сек."
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104320",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112053",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104322",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112055",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Неожиданное отправление",
+                    "description": "Обрушивает Особый ящик для доставки на любителей красть посылки, нанося <color=#99FF88FF>Дендро урон по площади</color>. Взрываясь, Особый ящик для доставки разделяется на множество <color=#FFD780FF>Семян кошачьей мяты</color>. Семена кошачьей мяты взрываются при столкновении с врагом или спустя некоторое время, нанося <color=#99FF88FF>Дендро урон по площади</color>.\\n\\n<i>«Хе-хе, это специально для тех, кто любит красть чужие посылки. По получении не забудьте оставить хороший отзыв, мерзавцы!»</i>",
+                    "icon": "Skill_E_Momoka_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 570.2%",
+                            "1": "Урон взрыва Семян кошачьей мяты 35.6%",
+                            "2": "Длительность Семян кошачьей мяты 12",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "2": {
+                            "0": "Урон навыка 613%",
+                            "1": "Урон взрыва Семян кошачьей мяты 38.3%",
+                            "2": "Длительность Семян кошачьей мяты 12",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "3": {
+                            "0": "Урон навыка 655.8%",
+                            "1": "Урон взрыва Семян кошачьей мяты 41%",
+                            "2": "Длительность Семян кошачьей мяты 12",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "4": {
+                            "0": "Урон навыка 712.8%",
+                            "1": "Урон взрыва Семян кошачьей мяты 44.5%",
+                            "2": "Длительность Семян кошачьей мяты 12",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "5": {
+                            "0": "Урон навыка 755.6%",
+                            "1": "Урон взрыва Семян кошачьей мяты 47.2%",
+                            "2": "Длительность Семян кошачьей мяты 12",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "6": {
+                            "0": "Урон навыка 798.3%",
+                            "1": "Урон взрыва Семян кошачьей мяты 49.9%",
+                            "2": "Длительность Семян кошачьей мяты 12",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "7": {
+                            "0": "Урон навыка 855.4%",
+                            "1": "Урон взрыва Семян кошачьей мяты 53.5%",
+                            "2": "Длительность Семян кошачьей мяты 12",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "8": {
+                            "0": "Урон навыка 912.4%",
+                            "1": "Урон взрыва Семян кошачьей мяты 57%",
+                            "2": "Длительность Семян кошачьей мяты 12",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "9": {
+                            "0": "Урон навыка 969.4%",
+                            "1": "Урон взрыва Семян кошачьей мяты 60.6%",
+                            "2": "Длительность Семян кошачьей мяты 12",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "10": {
+                            "0": "Урон навыка 1026.4%",
+                            "1": "Урон взрыва Семян кошачьей мяты 64.2%",
+                            "2": "Длительность Семян кошачьей мяты 12",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "11": {
+                            "0": "Урон навыка 1083.5%",
+                            "1": "Урон взрыва Семян кошачьей мяты 67.7%",
+                            "2": "Длительность Семян кошачьей мяты 12",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "12": {
+                            "0": "Урон навыка 1140.5%",
+                            "1": "Урон взрыва Семян кошачьей мяты 71.3%",
+                            "2": "Длительность Семян кошачьей мяты 12",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "13": {
+                            "0": "Урон навыка 1211.8%",
+                            "1": "Урон взрыва Семян кошачьей мяты 75.7%",
+                            "2": "Длительность Семян кошачьей мяты 12",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "14": {
+                            "0": "Урон навыка 1283%",
+                            "1": "Урон взрыва Семян кошачьей мяты 80.2%",
+                            "2": "Длительность Семян кошачьей мяты 12",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "15": {
+                            "0": "Урон навыка 1354.3%",
+                            "1": "Урон взрыва Семян кошачьей мяты 84.6%",
+                            "2": "Длительность Семян кошачьей мяты 12",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104320",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112053",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104322",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112055",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Неожиданное отправление",
+                    "description": "Обрушивает Особый ящик для доставки на любителей красть посылки, нанося <color=#99FF88FF>Дендро урон по площади</color>. Взрываясь, Особый ящик для доставки разделяется на множество <color=#FFD780FF>Семян кошачьей мяты</color>. Семена кошачьей мяты взрываются при столкновении с врагом или спустя некоторое время, нанося <color=#99FF88FF>Дендро урон по площади</color>.\\n\\n<i>«Хе-хе, это специально для тех, кто любит красть чужие посылки. По получении не забудьте оставить хороший отзыв, мерзавцы!»</i>",
+                    "icon": "Skill_E_Momoka_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 570.2%",
+                            "1": "Урон взрыва Семян кошачьей мяты 35.6%",
+                            "2": "Длительность Семян кошачьей мяты 12",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "2": {
+                            "0": "Урон навыка 613%",
+                            "1": "Урон взрыва Семян кошачьей мяты 38.3%",
+                            "2": "Длительность Семян кошачьей мяты 12",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "3": {
+                            "0": "Урон навыка 655.8%",
+                            "1": "Урон взрыва Семян кошачьей мяты 41%",
+                            "2": "Длительность Семян кошачьей мяты 12",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "4": {
+                            "0": "Урон навыка 712.8%",
+                            "1": "Урон взрыва Семян кошачьей мяты 44.5%",
+                            "2": "Длительность Семян кошачьей мяты 12",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "5": {
+                            "0": "Урон навыка 755.6%",
+                            "1": "Урон взрыва Семян кошачьей мяты 47.2%",
+                            "2": "Длительность Семян кошачьей мяты 12",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "6": {
+                            "0": "Урон навыка 798.3%",
+                            "1": "Урон взрыва Семян кошачьей мяты 49.9%",
+                            "2": "Длительность Семян кошачьей мяты 12",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "7": {
+                            "0": "Урон навыка 855.4%",
+                            "1": "Урон взрыва Семян кошачьей мяты 53.5%",
+                            "2": "Длительность Семян кошачьей мяты 12",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "8": {
+                            "0": "Урон навыка 912.4%",
+                            "1": "Урон взрыва Семян кошачьей мяты 57%",
+                            "2": "Длительность Семян кошачьей мяты 12",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "9": {
+                            "0": "Урон навыка 969.4%",
+                            "1": "Урон взрыва Семян кошачьей мяты 60.6%",
+                            "2": "Длительность Семян кошачьей мяты 12",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "10": {
+                            "0": "Урон навыка 1026.4%",
+                            "1": "Урон взрыва Семян кошачьей мяты 64.2%",
+                            "2": "Длительность Семян кошачьей мяты 12",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "11": {
+                            "0": "Урон навыка 1083.5%",
+                            "1": "Урон взрыва Семян кошачьей мяты 67.7%",
+                            "2": "Длительность Семян кошачьей мяты 12",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "12": {
+                            "0": "Урон навыка 1140.5%",
+                            "1": "Урон взрыва Семян кошачьей мяты 71.3%",
+                            "2": "Длительность Семян кошачьей мяты 12",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "13": {
+                            "0": "Урон навыка 1211.8%",
+                            "1": "Урон взрыва Семян кошачьей мяты 75.7%",
+                            "2": "Длительность Семян кошачьей мяты 12",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "14": {
+                            "0": "Урон навыка 1283%",
+                            "1": "Урон взрыва Семян кошачьей мяты 80.2%",
+                            "2": "Длительность Семян кошачьей мяты 12",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "15": {
+                            "0": "Урон навыка 1354.3%",
+                            "1": "Урон взрыва Семян кошачьей мяты 84.6%",
+                            "2": "Длительность Семян кошачьей мяты 12",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104320",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112053",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104321",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112054",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104322",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112055",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104322",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112055",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113048",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Чарующие хвосты",
+                    "description": "Каждый раз, когда Кирара в состоянии Срочной посылки нэко <color=#FFD780FF>Мяутеоритного удара</color> врезается во врага, она получает один уровень эффекта <color=#FFD780FF>Усиленная упаковка</color>. Этот эффект может возникнуть один раз в 0,5 сек. для каждого врага и складывается до 3 раз. Когда состояние Срочной посылки нэко завершается, каждый уровень Усиленной упаковки даёт Кираре по одному Щиту безопасной перевозки. Поглощение урона щитов, созданных таким образом, равно 20% от поглощения урона Щита безопасной перевозки <color=#FFD780FF>Мяутеоритного удара</color>. Если Кирара уже находится под защитой Щита безопасной перевозки Мяутеоритного удара, его оставшийся поглощаемый урон суммируется с ними, а его длительность обновляется.",
+                    "icon": "UI_Talent_S_Momoka_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Своевременная путаница",
+                    "description": "За каждые 1000 ед. макс. HP Кирары урон, наносимый <color=#FFD780FF>Мяутеоритным ударом</color>, увеличивается на 0,4%, а урон, наносимый <color=#FFD780FF>Неожиданным отправлением</color>, - на 0,3%.",
+                    "icon": "UI_Talent_S_Momoka_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Крадущаяся походка",
+                    "description": "Когда Кирара в отряде, животные, у которых можно добыть мясо птицы, сырое мясо и цельномороженое мясо, больше вас не пугаются.",
+                    "icon": "UI_Talent_S_Aloy_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Оборот материалов",
+                    "description": "При активации <color=#FFD780FF>Неожиданного отправления</color> Кирара создаёт 1 дополнительное <color=#FFD780FF>Семя кошачьей мяты</color> за каждые 8000 ед. своего макс. HP. Таким образом можно создать до 4 дополнительных семян.",
+                    "icon": "UI_Talent_S_Momoka_01"
+                },
+                "1": {
+                    "name": "Высшее искусство упаковки",
+                    "description": "Когда Кирара в состоянии Срочной посылки нэко <color=#FFD780FF>Мяутеоритного удара</color> врезается в другого члена отряда, она наделяет его Щитом важной перевозки.\\nПоглощение урона Щита важной перевозки равно 40% макс. поглощения урона Щита безопасной перевозки, созданного <color=#FFD780FF>Мяутеоритным ударом</color>. Щит важной перевозки поглощает <color=#99FF88FF>Дендро урон</color> с 250% эффективностью.\\nЩит важной перевозки длится 12 сек. и может возникнуть на каждом персонаже раз в 10 сек.",
+                    "icon": "UI_Talent_S_Momoka_02"
+                },
+                "2": {
+                    "name": "Знание всех адресов",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Мяутеоритный удар</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Momoka_01"
+                },
+                "3": {
+                    "name": "Лошадь Сканды",
+                    "description": "Когда обычные атаки, заряженные атаки и атаки в падении активного персонажа со <color=#FFD780FF>Щитом безопасной перевозки</color> или <color=#FFD780FF>Щитом важной перевозки</color> попадают по противникам, Кирара совершает совместную атаку, используя <color=#FFD780FF>малые Семена кошачьей мяты</color>, и наносит <color=#99FF88FF>Дендро урон</color> в размере 200% от своей силы атаки. Наносимый таким образом урон считается уроном взрыва стихии. Эффект может возникнуть раз в 3,8 сек. Время отката общее для всех членов отряда.",
+                    "icon": "UI_Talent_S_Momoka_04"
+                },
+                "4": {
+                    "name": "Тысяча километров в день",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Неожиданное отправление</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Momoka_02"
+                },
+                "5": {
+                    "name": "Сотни пейзажей",
+                    "description": "Когда Кирара активирует элементальный навык или взрыв стихии, все члены отряда поблизости на 15 сек. получают 12% бонус урона всеми элементами.",
+                    "icon": "UI_Talent_S_Momoka_03"
+                }
+            },
+            "elevation": {
+                "sub": "HP %",
+                "0": {
+                    "stats": {
+                        "HP": 1021,
+                        "ATK": 19,
+                        "DEF": 46,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2623,
+                        "ATK": 48,
+                        "DEF": 118,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101208",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104131",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112053",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 3386,
+                        "ATK": 62,
+                        "DEF": 152,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 5072,
+                        "ATK": 93,
+                        "DEF": 227,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101208",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104132",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112053",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113045",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 5614,
+                        "ATK": 103,
+                        "DEF": 252,
+                        "sub": 6.0
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 6458,
+                        "ATK": 118,
+                        "DEF": 290,
+                        "sub": 6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101208",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104132",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112054",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113045",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 7181,
+                        "ATK": 131,
+                        "DEF": 322,
+                        "sub": 12
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 8024,
+                        "ATK": 147,
+                        "DEF": 360,
+                        "sub": 12
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101208",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104133",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112054",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113045",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 8566,
+                        "ATK": 157,
+                        "DEF": 384,
+                        "sub": 12
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 9409,
+                        "ATK": 172,
+                        "DEF": 422,
+                        "sub": 12
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101208",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104133",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112055",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113045",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 9951,
+                        "ATK": 182,
+                        "DEF": 446,
+                        "sub": 18
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 10794,
+                        "ATK": 198,
+                        "DEF": 484,
+                        "sub": 18
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101208",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104134",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112055",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113045",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 11336,
+                        "ATK": 208,
+                        "DEF": 508,
+                        "sub": 24
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 12180,
+                        "ATK": 223,
+                        "DEF": 546,
+                        "sub": 24
+                    },
+                    "res": {}
+                }
+            }
+        }
+    }
+}

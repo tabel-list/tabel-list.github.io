@@ -1,0 +1,3084 @@
+{
+    "Lyney": {
+        "en": {
+            "name": "Lyney",
+            "name_ru": "Лини",
+            "id": 10000084,
+            "rarity": 5,
+            "weapon": "Bow",
+            "element": "Pyro",
+            "region": "Fontaine",
+            "more": {
+                "title": "Spectacle of Phantasmagoria",
+                "detail": "A famed Fontainian magician who possesses great stage presence as well as gift of the gab. Audiences are enthralled by his exquisite skills, and they hang on to his every clever word.",
+                "constellation": "Felis Fuscus",
+                "group": "Hotel Bouffes d'ete",
+                "birthday": "2.2",
+                "release": "14.08.2023",
+                "cv": {
+                    "en": "Daman Mills",
+                    "chs": "锦鲤",
+                    "jp": "下野紘",
+                    "kr": "Park Seong-yeong"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Normal Attack: Card Force Translocation",
+                    "description": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, flames will run across the arrowhead before being fired. Different effects will occur based on the time spent charging.\\n·Charge Level 1: Fires off a Pyro-infused arrow, dealing <color=#FF9999FF>Pyro DMG</color>.\\n·Charge Level 2: Fires off a Prop Arrow that deals <color=#FF9999FF>Pyro DMG</color>, and upon hit, it will summon a Grin-Malkin Hat.\\nWhen firing the Prop Arrow, and when Lyney has more than 60% HP, he will consume a portion of his HP to obtain 1 Prop Surplus stack. Max 5 stacks. The effect will be removed after the character spends 30s out of combat.\\nThe lowest Lyney can drop to through this method is 60% of his Max HP.\\n\\n<color=#FFD780FF>Grin-Malkin Hat</color>\\n·Can taunt nearby opponents and attract their attacks. Each opponent can only be taunted by the Hat once every 5s.\\n·The Hat will inherit a percentage of Lyney's Max HP.\\n·If destroyed, or if its duration expires, it will fire off a <color=#FFD780FF>Pyrotechnic Strike</color> at 1 nearby opponent, dealing <color=#FF9999FF>Pyro DMG</color>.\\nOnly 1 Hat can exist at any given time.\\n\\n<color=#FFD780FF>Arkhe: Pneuma</color>\\nAt certain intervals, the Prop Arrow will cause a Spiritbreath Thorn to descend upon its hit location, dealing Pneuma-aligned <color=#FF9999FF>Pyro DMG</color>.",
+                    "icon": "Skill_A_02",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "1-Hit DMG 38.8%",
+                            "1": "2-Hit DMG 38%",
+                            "2": "3-Hit DMG 27.3%+27.3%",
+                            "3": "4-Hit DMG 56.9%",
+                            "4": "Plunge DMG 56.8%",
+                            "5": "Low/High Plunge DMG 113.6%/141.9%",
+                            "6": "Aimed Shot 43.9%",
+                            "7": "Aimed Shot Charge Level 1 124%",
+                            "8": "Prop Arrow DMG 172.8%",
+                            "9": "HP Cost 20% Max HP",
+                            "10": "Grin-Malkin Hat Inherited HP 64%",
+                            "11": "Grin-Malkin Hat Duration 4s",
+                            "12": "Pyrotechnic Strike DMG 212%",
+                            "13": "Spiritbreath Thorn DMG 27.6%",
+                            "14": "Spiritbreath Thorn Interval 6s"
+                        },
+                        "2": {
+                            "0": "1-Hit DMG 41.9%",
+                            "1": "2-Hit DMG 41.1%",
+                            "2": "3-Hit DMG 29.5%+29.5%",
+                            "3": "4-Hit DMG 61.6%",
+                            "4": "Plunge DMG 61.5%",
+                            "5": "Low/High Plunge DMG 122.9%/153.5%",
+                            "6": "Aimed Shot 47.4%",
+                            "7": "Aimed Shot Charge Level 1 133.3%",
+                            "8": "Prop Arrow DMG 185.8%",
+                            "9": "HP Cost 20% Max HP",
+                            "10": "Grin-Malkin Hat Inherited HP 68.8%",
+                            "11": "Grin-Malkin Hat Duration 4s",
+                            "12": "Pyrotechnic Strike DMG 227.9%",
+                            "13": "Spiritbreath Thorn DMG 29.6%",
+                            "14": "Spiritbreath Thorn Interval 6s"
+                        },
+                        "3": {
+                            "0": "1-Hit DMG 45.1%",
+                            "1": "2-Hit DMG 44.2%",
+                            "2": "3-Hit DMG 31.7%+31.7%",
+                            "3": "4-Hit DMG 66.2%",
+                            "4": "Plunge DMG 66.1%",
+                            "5": "Low/High Plunge DMG 132.1%/165%",
+                            "6": "Aimed Shot 51%",
+                            "7": "Aimed Shot Charge Level 1 142.6%",
+                            "8": "Prop Arrow DMG 198.7%",
+                            "9": "HP Cost 20% Max HP",
+                            "10": "Grin-Malkin Hat Inherited HP 73.6%",
+                            "11": "Grin-Malkin Hat Duration 4s",
+                            "12": "Pyrotechnic Strike DMG 243.8%",
+                            "13": "Spiritbreath Thorn DMG 31.7%",
+                            "14": "Spiritbreath Thorn Interval 6s"
+                        },
+                        "4": {
+                            "0": "1-Hit DMG 49.6%",
+                            "1": "2-Hit DMG 48.6%",
+                            "2": "3-Hit DMG 34.9%+34.9%",
+                            "3": "4-Hit DMG 72.8%",
+                            "4": "Plunge DMG 72.7%",
+                            "5": "Low/High Plunge DMG 145.3%/181.5%",
+                            "6": "Aimed Shot 56.1%",
+                            "7": "Aimed Shot Charge Level 1 155%",
+                            "8": "Prop Arrow DMG 216%",
+                            "9": "HP Cost 20% Max HP",
+                            "10": "Grin-Malkin Hat Inherited HP 80%",
+                            "11": "Grin-Malkin Hat Duration 4s",
+                            "12": "Pyrotechnic Strike DMG 265%",
+                            "13": "Spiritbreath Thorn DMG 34.4%",
+                            "14": "Spiritbreath Thorn Interval 6s"
+                        },
+                        "5": {
+                            "0": "1-Hit DMG 52.8%",
+                            "1": "2-Hit DMG 51.7%",
+                            "2": "3-Hit DMG 37.1%+37.1%",
+                            "3": "4-Hit DMG 77.5%",
+                            "4": "Plunge DMG 77.3%",
+                            "5": "Low/High Plunge DMG 154.6%/193.1%",
+                            "6": "Aimed Shot 59.7%",
+                            "7": "Aimed Shot Charge Level 1 164.3%",
+                            "8": "Prop Arrow DMG 229%",
+                            "9": "HP Cost 20% Max HP",
+                            "10": "Grin-Malkin Hat Inherited HP 84.8%",
+                            "11": "Grin-Malkin Hat Duration 4s",
+                            "12": "Pyrotechnic Strike DMG 280.9%",
+                            "13": "Spiritbreath Thorn DMG 36.5%",
+                            "14": "Spiritbreath Thorn Interval 6s"
+                        },
+                        "6": {
+                            "0": "1-Hit DMG 56.4%",
+                            "1": "2-Hit DMG 55.2%",
+                            "2": "3-Hit DMG 39.6%+39.6%",
+                            "3": "4-Hit DMG 82.8%",
+                            "4": "Plunge DMG 82.6%",
+                            "5": "Low/High Plunge DMG 165.2%/206.3%",
+                            "6": "Aimed Shot 63.7%",
+                            "7": "Aimed Shot Charge Level 1 173.6%",
+                            "8": "Prop Arrow DMG 241.9%",
+                            "9": "HP Cost 20% Max HP",
+                            "10": "Grin-Malkin Hat Inherited HP 89.6%",
+                            "11": "Grin-Malkin Hat Duration 4s",
+                            "12": "Pyrotechnic Strike DMG 296.8%",
+                            "13": "Spiritbreath Thorn DMG 38.6%",
+                            "14": "Spiritbreath Thorn Interval 6s"
+                        },
+                        "7": {
+                            "0": "1-Hit DMG 61.3%",
+                            "1": "2-Hit DMG 60.1%",
+                            "2": "3-Hit DMG 43.1%+43.1%",
+                            "3": "4-Hit DMG 90%",
+                            "4": "Plunge DMG 89.9%",
+                            "5": "Low/High Plunge DMG 179.7%/224.5%",
+                            "6": "Aimed Shot 69.4%",
+                            "7": "Aimed Shot Charge Level 1 186%",
+                            "8": "Prop Arrow DMG 259.2%",
+                            "9": "HP Cost 20% Max HP",
+                            "10": "Grin-Malkin Hat Inherited HP 96%",
+                            "11": "Grin-Malkin Hat Duration 4s",
+                            "12": "Pyrotechnic Strike DMG 318%",
+                            "13": "Spiritbreath Thorn DMG 41.3%",
+                            "14": "Spiritbreath Thorn Interval 6s"
+                        },
+                        "8": {
+                            "0": "1-Hit DMG 66.3%",
+                            "1": "2-Hit DMG 65%",
+                            "2": "3-Hit DMG 46.6%+46.6%",
+                            "3": "4-Hit DMG 97.3%",
+                            "4": "Plunge DMG 97.1%",
+                            "5": "Low/High Plunge DMG 194.2%/242.6%",
+                            "6": "Aimed Shot 75%",
+                            "7": "Aimed Shot Charge Level 1 198.4%",
+                            "8": "Prop Arrow DMG 276.5%",
+                            "9": "HP Cost 20% Max HP",
+                            "10": "Grin-Malkin Hat Inherited HP 102.4%",
+                            "11": "Grin-Malkin Hat Duration 4s",
+                            "12": "Pyrotechnic Strike DMG 339.2%",
+                            "13": "Spiritbreath Thorn DMG 44.1%",
+                            "14": "Spiritbreath Thorn Interval 6s"
+                        },
+                        "9": {
+                            "0": "1-Hit DMG 71.3%",
+                            "1": "2-Hit DMG 69.8%",
+                            "2": "3-Hit DMG 50.1%+50.1%",
+                            "3": "4-Hit DMG 104.6%",
+                            "4": "Plunge DMG 104.4%",
+                            "5": "Low/High Plunge DMG 208.8%/260.8%",
+                            "6": "Aimed Shot 80.6%",
+                            "7": "Aimed Shot Charge Level 1 210.8%",
+                            "8": "Prop Arrow DMG 293.8%",
+                            "9": "HP Cost 20% Max HP",
+                            "10": "Grin-Malkin Hat Inherited HP 108.8%",
+                            "11": "Grin-Malkin Hat Duration 4s",
+                            "12": "Pyrotechnic Strike DMG 360.4%",
+                            "13": "Spiritbreath Thorn DMG 46.8%",
+                            "14": "Spiritbreath Thorn Interval 6s"
+                        },
+                        "10": {
+                            "0": "1-Hit DMG 76.7%",
+                            "1": "2-Hit DMG 75.1%",
+                            "2": "3-Hit DMG 53.9%+53.9%",
+                            "3": "4-Hit DMG 112.5%",
+                            "4": "Plunge DMG 112.3%",
+                            "5": "Low/High Plunge DMG 224.6%/280.6%",
+                            "6": "Aimed Shot 86.7%",
+                            "7": "Aimed Shot Charge Level 1 223.2%",
+                            "8": "Prop Arrow DMG 311%",
+                            "9": "HP Cost 20% Max HP",
+                            "10": "Grin-Malkin Hat Inherited HP 115.2%",
+                            "11": "Grin-Malkin Hat Duration 4s",
+                            "12": "Pyrotechnic Strike DMG 381.6%",
+                            "13": "Spiritbreath Thorn DMG 49.6%",
+                            "14": "Spiritbreath Thorn Interval 6s"
+                        },
+                        "11": {
+                            "0": "1-Hit DMG 82.1%",
+                            "1": "2-Hit DMG 80.4%",
+                            "2": "3-Hit DMG 57.7%+57.7%",
+                            "3": "4-Hit DMG 120.5%",
+                            "4": "Plunge DMG 120.3%",
+                            "5": "Low/High Plunge DMG 240.5%/300.4%",
+                            "6": "Aimed Shot 92.8%",
+                            "7": "Aimed Shot Charge Level 1 235.6%",
+                            "8": "Prop Arrow DMG 328.3%",
+                            "9": "HP Cost 20% Max HP",
+                            "10": "Grin-Malkin Hat Inherited HP 121.6%",
+                            "11": "Grin-Malkin Hat Duration 4s",
+                            "12": "Pyrotechnic Strike DMG 402.8%",
+                            "13": "Spiritbreath Thorn DMG 52.3%",
+                            "14": "Spiritbreath Thorn Interval 6s"
+                        },
+                        "12": {
+                            "0": "1-Hit DMG 87.5%",
+                            "1": "2-Hit DMG 85.7%",
+                            "2": "3-Hit DMG 61.5%+61.5%",
+                            "3": "4-Hit DMG 128.4%",
+                            "4": "Plunge DMG 128.2%",
+                            "5": "Low/High Plunge DMG 256.3%/320.2%",
+                            "6": "Aimed Shot 98.9%",
+                            "7": "Aimed Shot Charge Level 1 248%",
+                            "8": "Prop Arrow DMG 345.6%",
+                            "9": "HP Cost 20% Max HP",
+                            "10": "Grin-Malkin Hat Inherited HP 128%",
+                            "11": "Grin-Malkin Hat Duration 4s",
+                            "12": "Pyrotechnic Strike DMG 424%",
+                            "13": "Spiritbreath Thorn DMG 55.1%",
+                            "14": "Spiritbreath Thorn Interval 6s"
+                        },
+                        "13": {
+                            "0": "1-Hit DMG 92.9%",
+                            "1": "2-Hit DMG 91.1%",
+                            "2": "3-Hit DMG 65.3%+65.3%",
+                            "3": "4-Hit DMG 136.4%",
+                            "4": "Plunge DMG 136.1%",
+                            "5": "Low/High Plunge DMG 272.2%/340%",
+                            "6": "Aimed Shot 105.1%",
+                            "7": "Aimed Shot Charge Level 1 263.5%",
+                            "8": "Prop Arrow DMG 367.2%",
+                            "9": "HP Cost 20% Max HP",
+                            "10": "Grin-Malkin Hat Inherited HP 136%",
+                            "11": "Grin-Malkin Hat Duration 4s",
+                            "12": "Pyrotechnic Strike DMG 450.5%",
+                            "13": "Spiritbreath Thorn DMG 58.5%",
+                            "14": "Spiritbreath Thorn Interval 6s"
+                        },
+                        "14": {
+                            "0": "1-Hit DMG 98.3%",
+                            "1": "2-Hit DMG 96.4%",
+                            "2": "3-Hit DMG 69.1%+69.1%",
+                            "3": "4-Hit DMG 144.3%",
+                            "4": "Plunge DMG 144.1%",
+                            "5": "Low/High Plunge DMG 288%/359.8%",
+                            "6": "Aimed Shot 111.2%",
+                            "7": "Aimed Shot Charge Level 1 279%",
+                            "8": "Prop Arrow DMG 388.8%",
+                            "9": "HP Cost 20% Max HP",
+                            "10": "Grin-Malkin Hat Inherited HP 144%",
+                            "11": "Grin-Malkin Hat Duration 4s",
+                            "12": "Pyrotechnic Strike DMG 477%",
+                            "13": "Spiritbreath Thorn DMG 62%",
+                            "14": "Spiritbreath Thorn Interval 6s"
+                        },
+                        "15": {
+                            "0": "1-Hit DMG 103.7%",
+                            "1": "2-Hit DMG 101.7%",
+                            "2": "3-Hit DMG 72.9%+72.9%",
+                            "3": "4-Hit DMG 152.3%",
+                            "4": "Plunge DMG 152%",
+                            "5": "Low/High Plunge DMG 303.9%/379.6%",
+                            "6": "Aimed Shot 117.3%",
+                            "7": "Aimed Shot Charge Level 1 294.5%",
+                            "8": "Prop Arrow DMG 410.4%",
+                            "9": "HP Cost 20% Max HP",
+                            "10": "Grin-Malkin Hat Inherited HP 152%",
+                            "11": "Grin-Malkin Hat Duration 4s",
+                            "12": "Pyrotechnic Strike DMG 503.5%",
+                            "13": "Spiritbreath Thorn DMG 65.4%",
+                            "14": "Spiritbreath Thorn Interval 6s"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104338",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104340",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Bewildering Lights",
+                    "description": "Lyney does a flourish with his hat, unleashing a firework surprise!\\nWhen used, he will clear all current Prop Surplus stacks and deal <color=#FF9999FF>AoE Pyro DMG</color> to opponents in front of him. DMG will be increased according to the stacks cleared, and this will also regenerate Lyney's HP based on his Max HP.\\n\\nWhen a Grin-Malkin Hat created by Lyney is on the field, the fireworks will cause it to explode, dealing <color=#FF9999FF>AoE Pyro DMG</color> equal to that of a Pyrotechnic Strike.\\nThe DMG dealt through the Grin-Malkin Hat in this way is considered Charged Attack DMG.\\n\\n<i>\"Everyone knows that magicians will intentionally misdirect the audience... Ah, yes, while you were looking my way, the hat and assistant over there have both disappeared... Fascinating, is it not?\"</i>",
+                    "icon": "Skill_S_Liney_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 167.2%",
+                            "1": "Skill DMG Bonus 53.2% ATK/Stack",
+                            "2": "HP Regeneration 20%/Stack",
+                            "3": "CD 15s"
+                        },
+                        "2": {
+                            "0": "Skill DMG 179.7%",
+                            "1": "Skill DMG Bonus 57.2% ATK/Stack",
+                            "2": "HP Regeneration 20%/Stack",
+                            "3": "CD 15s"
+                        },
+                        "3": {
+                            "0": "Skill DMG 192.3%",
+                            "1": "Skill DMG Bonus 61.2% ATK/Stack",
+                            "2": "HP Regeneration 20%/Stack",
+                            "3": "CD 15s"
+                        },
+                        "4": {
+                            "0": "Skill DMG 209%",
+                            "1": "Skill DMG Bonus 66.5% ATK/Stack",
+                            "2": "HP Regeneration 20%/Stack",
+                            "3": "CD 15s"
+                        },
+                        "5": {
+                            "0": "Skill DMG 221.5%",
+                            "1": "Skill DMG Bonus 70.5% ATK/Stack",
+                            "2": "HP Regeneration 20%/Stack",
+                            "3": "CD 15s"
+                        },
+                        "6": {
+                            "0": "Skill DMG 234.1%",
+                            "1": "Skill DMG Bonus 74.5% ATK/Stack",
+                            "2": "HP Regeneration 20%/Stack",
+                            "3": "CD 15s"
+                        },
+                        "7": {
+                            "0": "Skill DMG 250.8%",
+                            "1": "Skill DMG Bonus 79.8% ATK/Stack",
+                            "2": "HP Regeneration 20%/Stack",
+                            "3": "CD 15s"
+                        },
+                        "8": {
+                            "0": "Skill DMG 267.5%",
+                            "1": "Skill DMG Bonus 85.1% ATK/Stack",
+                            "2": "HP Regeneration 20%/Stack",
+                            "3": "CD 15s"
+                        },
+                        "9": {
+                            "0": "Skill DMG 284.2%",
+                            "1": "Skill DMG Bonus 90.4% ATK/Stack",
+                            "2": "HP Regeneration 20%/Stack",
+                            "3": "CD 15s"
+                        },
+                        "10": {
+                            "0": "Skill DMG 301%",
+                            "1": "Skill DMG Bonus 95.8% ATK/Stack",
+                            "2": "HP Regeneration 20%/Stack",
+                            "3": "CD 15s"
+                        },
+                        "11": {
+                            "0": "Skill DMG 317.7%",
+                            "1": "Skill DMG Bonus 101.1% ATK/Stack",
+                            "2": "HP Regeneration 20%/Stack",
+                            "3": "CD 15s"
+                        },
+                        "12": {
+                            "0": "Skill DMG 334.4%",
+                            "1": "Skill DMG Bonus 106.4% ATK/Stack",
+                            "2": "HP Regeneration 20%/Stack",
+                            "3": "CD 15s"
+                        },
+                        "13": {
+                            "0": "Skill DMG 355.3%",
+                            "1": "Skill DMG Bonus 113.1% ATK/Stack",
+                            "2": "HP Regeneration 20%/Stack",
+                            "3": "CD 15s"
+                        },
+                        "14": {
+                            "0": "Skill DMG 376.2%",
+                            "1": "Skill DMG Bonus 119.7% ATK/Stack",
+                            "2": "HP Regeneration 20%/Stack",
+                            "3": "CD 15s"
+                        },
+                        "15": {
+                            "0": "Skill DMG 397.1%",
+                            "1": "Skill DMG Bonus 126.4% ATK/Stack",
+                            "2": "HP Regeneration 20%/Stack",
+                            "3": "CD 15s"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104338",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104340",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Wondrous Trick: Miracle Parade",
+                    "description": "Unleashing his magic, Lyney turns himself into a Grin-Malkin Cat that can move around quickly. (Not to be mistaken for the Grin-Malkin Hat. They're two different props!)\\nWhen the Grin-Malkin Cat gets close to opponents, it will send flames falling down on them, dealing at most 1 instance of <color=#FF9999FF>Pyro DMG</color> to each opponent. When the duration ends, he will dismiss the Grin-Malkin Cat and ignite fireworks that deal <color=#FF9999FF>AoE Pyro DMG</color>, summon 1 Grin-Malkin Hat, and grant himself 1 Prop Surplus stack.\\n\\nGrin-Malkin Cat can be actively canceled.\\n\\n<i>\"Watch closely now. This is a time for miracles, and it belongs to just the two of us!\"</i>",
+                    "icon": "Skill_E_Liney_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 154%",
+                            "1": "Explosive Firework DMG 414%",
+                            "2": "Duration 3s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "2": {
+                            "0": "Skill DMG 165.6%",
+                            "1": "Explosive Firework DMG 445.1%",
+                            "2": "Duration 3s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "3": {
+                            "0": "Skill DMG 177.1%",
+                            "1": "Explosive Firework DMG 476.1%",
+                            "2": "Duration 3s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "4": {
+                            "0": "Skill DMG 192.5%",
+                            "1": "Explosive Firework DMG 517.5%",
+                            "2": "Duration 3s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "5": {
+                            "0": "Skill DMG 204.1%",
+                            "1": "Explosive Firework DMG 548.5%",
+                            "2": "Duration 3s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "6": {
+                            "0": "Skill DMG 215.6%",
+                            "1": "Explosive Firework DMG 579.6%",
+                            "2": "Duration 3s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "7": {
+                            "0": "Skill DMG 231%",
+                            "1": "Explosive Firework DMG 621%",
+                            "2": "Duration 3s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "8": {
+                            "0": "Skill DMG 246.4%",
+                            "1": "Explosive Firework DMG 662.4%",
+                            "2": "Duration 3s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "9": {
+                            "0": "Skill DMG 261.8%",
+                            "1": "Explosive Firework DMG 703.8%",
+                            "2": "Duration 3s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "10": {
+                            "0": "Skill DMG 277.2%",
+                            "1": "Explosive Firework DMG 745.2%",
+                            "2": "Duration 3s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "11": {
+                            "0": "Skill DMG 292.6%",
+                            "1": "Explosive Firework DMG 786.6%",
+                            "2": "Duration 3s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "12": {
+                            "0": "Skill DMG 308%",
+                            "1": "Explosive Firework DMG 828%",
+                            "2": "Duration 3s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "13": {
+                            "0": "Skill DMG 327.2%",
+                            "1": "Explosive Firework DMG 879.8%",
+                            "2": "Duration 3s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "14": {
+                            "0": "Skill DMG 346.5%",
+                            "1": "Explosive Firework DMG 931.5%",
+                            "2": "Duration 3s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "15": {
+                            "0": "Skill DMG 365.8%",
+                            "1": "Explosive Firework DMG 983.2%",
+                            "2": "Duration 3s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104338",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104340",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Wondrous Trick: Miracle Parade",
+                    "description": "Unleashing his magic, Lyney turns himself into a Grin-Malkin Cat that can move around quickly. (Not to be mistaken for the Grin-Malkin Hat. They're two different props!)\\nWhen the Grin-Malkin Cat gets close to opponents, it will send flames falling down on them, dealing at most 1 instance of <color=#FF9999FF>Pyro DMG</color> to each opponent. When the duration ends, he will dismiss the Grin-Malkin Cat and ignite fireworks that deal <color=#FF9999FF>AoE Pyro DMG</color>, summon 1 Grin-Malkin Hat, and grant himself 1 Prop Surplus stack.\\n\\nGrin-Malkin Cat can be actively canceled.\\n\\n<i>\"Watch closely now. This is a time for miracles, and it belongs to just the two of us!\"</i>",
+                    "icon": "Skill_E_Liney_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Skill DMG 154%",
+                            "1": "Explosive Firework DMG 414%",
+                            "2": "Duration 3s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "2": {
+                            "0": "Skill DMG 165.6%",
+                            "1": "Explosive Firework DMG 445.1%",
+                            "2": "Duration 3s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "3": {
+                            "0": "Skill DMG 177.1%",
+                            "1": "Explosive Firework DMG 476.1%",
+                            "2": "Duration 3s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "4": {
+                            "0": "Skill DMG 192.5%",
+                            "1": "Explosive Firework DMG 517.5%",
+                            "2": "Duration 3s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "5": {
+                            "0": "Skill DMG 204.1%",
+                            "1": "Explosive Firework DMG 548.5%",
+                            "2": "Duration 3s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "6": {
+                            "0": "Skill DMG 215.6%",
+                            "1": "Explosive Firework DMG 579.6%",
+                            "2": "Duration 3s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "7": {
+                            "0": "Skill DMG 231%",
+                            "1": "Explosive Firework DMG 621%",
+                            "2": "Duration 3s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "8": {
+                            "0": "Skill DMG 246.4%",
+                            "1": "Explosive Firework DMG 662.4%",
+                            "2": "Duration 3s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "9": {
+                            "0": "Skill DMG 261.8%",
+                            "1": "Explosive Firework DMG 703.8%",
+                            "2": "Duration 3s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "10": {
+                            "0": "Skill DMG 277.2%",
+                            "1": "Explosive Firework DMG 745.2%",
+                            "2": "Duration 3s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "11": {
+                            "0": "Skill DMG 292.6%",
+                            "1": "Explosive Firework DMG 786.6%",
+                            "2": "Duration 3s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "12": {
+                            "0": "Skill DMG 308%",
+                            "1": "Explosive Firework DMG 828%",
+                            "2": "Duration 3s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "13": {
+                            "0": "Skill DMG 327.2%",
+                            "1": "Explosive Firework DMG 879.8%",
+                            "2": "Duration 3s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "14": {
+                            "0": "Skill DMG 346.5%",
+                            "1": "Explosive Firework DMG 931.5%",
+                            "2": "Duration 3s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        },
+                        "15": {
+                            "0": "Skill DMG 365.8%",
+                            "1": "Explosive Firework DMG 983.2%",
+                            "2": "Duration 3s",
+                            "3": "CD 15s",
+                            "4": "Energy Cost 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104338",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104340",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Perilous Performance",
+                    "description": "If Lyney consumes HP when firing off a <color=#FFD780FF>Prop Arrow</color>, the Grin-Malkin hat summoned by the arrow will, upon hitting an opponent, restore 3 Energy to Lyney and increase DMG dealt by 80% of his ATK.",
+                    "icon": "UI_Talent_S_Liney_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Conclusive Ovation",
+                    "description": "The DMG Lyney deals to opponents affected by <color=#FF9999FF>Pyro</color> will receive the following buffs:\\n·Increases the DMG dealt by 60%.\\n·Each <color=#FF9999FF>Pyro</color> party member other than Lyney will cause the DMG dealt to increase by an additional 20%.\\nLyney can deal up to 100% increased DMG to opponents affected by <color=#FF9999FF>Pyro</color> in this way.",
+                    "icon": "UI_Talent_S_Liney_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Trivial Observations",
+                    "description": "Displays the location of nearby <color=#FFD780FF>resources unique to Fontaine</color> on the mini-map.",
+                    "icon": "UI_Talent_S_Liney_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Whimsical Wonders",
+                    "description": "Lyney can have 2 <color=#FFD780FF>Grin-Malkin Hats</color> present at once.\\nAdditionally, Prop Arrows will summon 2 Grin-Malkin Hats and grant Lyney 1 extra stack of Prop Surplus. This effect can occur once every 15s.",
+                    "icon": "UI_Talent_S_Liney_01"
+                },
+                "1": {
+                    "name": "Loquacious Cajoling",
+                    "description": "When Lyney is on the field, he will gain a stack of Crisp Focus every 2s. Each stack will increase his CRIT DMG by 20%. Max 3 stacks. This effect will be canceled when Lyney leaves the field.",
+                    "icon": "UI_Talent_S_Liney_03"
+                },
+                "2": {
+                    "name": "Prestidigitation",
+                    "description": "Increases the Level of <color=#FFD780FF>Normal Attack: Card Force Translocation</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Liney_01"
+                },
+                "3": {
+                    "name": "Well-Versed, Well-Rehearsed",
+                    "description": "After an opponent is hit by Lyney's <color=#FF9999FF>Pyro</color> Charged Attack, this opponent's <color=#FF9999FF>Pyro RES</color> will be decreased by 20% for 6s.",
+                    "icon": "UI_Talent_S_Liney_02"
+                },
+                "4": {
+                    "name": "To Pierce Enigmas",
+                    "description": "Increases the Level of <color=#FFD780FF>Wondrous Trick: Miracle Parade</color> by 3.\\nMaximum upgrade level is 15.",
+                    "icon": "UI_Talent_U_Liney_02"
+                },
+                "5": {
+                    "name": "Guarded Smile",
+                    "description": "When Lyney fires a <color=#FFD780FF>Prop Arrow</color>, he will fire a Pyrotechnic Strike: Reprised that will deal 80% of a Pyrotechnic Strike's DMG. This DMG is considered Charged Attack DMG.",
+                    "icon": "UI_Talent_S_Liney_04"
+                }
+            },
+            "elevation": {
+                "sub": "CRIT Rate %",
+                "0": {
+                    "stats": {
+                        "HP": 858,
+                        "ATK": 25,
+                        "DEF": 42,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2226,
+                        "ATK": 64,
+                        "DEF": 109,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101236",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104111",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112032",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 2961,
+                        "ATK": 85,
+                        "DEF": 145,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 4431,
+                        "ATK": 128,
+                        "DEF": 216,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101236",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104112",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112032",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113051",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 4954,
+                        "ATK": 143,
+                        "DEF": 242,
+                        "sub": 4.8
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 5699,
+                        "ATK": 164,
+                        "DEF": 278,
+                        "sub": 4.8
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101236",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104112",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112033",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113051",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 6396,
+                        "ATK": 185,
+                        "DEF": 312,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 7074,
+                        "ATK": 204,
+                        "DEF": 345,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101236",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104113",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112033",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113051",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 7597,
+                        "ATK": 219,
+                        "DEF": 371,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 8509,
+                        "ATK": 246,
+                        "DEF": 415,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101236",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104113",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112034",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113051",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 9031,
+                        "ATK": 261,
+                        "DEF": 441,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 9724,
+                        "ATK": 281,
+                        "DEF": 475,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101236",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104114",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112034",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113051",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 10247,
+                        "ATK": 296,
+                        "DEF": 500,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 11021,
+                        "ATK": 318,
+                        "DEF": 538,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                }
+            }
+        },
+        "ru": {
+            "name": "Lyney",
+            "name_ru": "Лини",
+            "id": 10000084,
+            "rarity": 5,
+            "weapon": "Bow",
+            "element": "Pyro",
+            "region": "Fontaine",
+            "more": {
+                "title": "Зрелищные фантасмагории",
+                "detail": "Известный маг-иллюзионист из Фонтейна, отличающийся красноречием и актёрским мастерством. Завораживает публику ловкостью рук и своими речами.",
+                "constellation": "Пятнистый Кот",
+                "group": "Особняк «Буфф д'эте»",
+                "birthday": "2.2",
+                "release": "14.08.2023",
+                "cv": {
+                    "en": "Daman Mills",
+                    "chs": "锦鲤",
+                    "jp": "下野紘",
+                    "kr": "Park Seong-yeong"
+                }
+            },
+            "skills": {
+                "0": {
+                    "name": "Форсирование карты с подменой",
+                    "description": "<color=#FFD780FF>Обычная атака</color>\\nПроизводит до четырёх последовательных выстрелов из лука.\\n\\n<color=#FFD780FF>Атака в падении</color>\\nВыпускает град стрел, которые при приземлении персонажа наносят урон по площади.\\n\\n<color=#FFD780FF>Заряженная атака</color>\\nБолее меткий <color=#FFD780FF>прицельный выстрел</color> с увеличенным уроном.\\nВо время прицеливания на наконечнике стрелы собирается сила пламени. Эффект зависит от длительности заряда стрелы:\\n· Уровень заряда 1: выпускает стрелу, наполненную силой Пиро, которая наносит <color=#FF9999FF>Пиро урон</color>.\\n· Уровень заряда 2: выпускает стрелу-реквизит, которая наносит <color=#FF9999FF>Пиро урон</color> и при попадании вызывает Хохочущего котошляпа.\\nЕсли во время выстрела стрелой-реквизитом у Лини более 60% HP, он жертвует частью HP и получает 1 уровень Избыточного реквизита. Эффект может складываться до 5 раз и пропадает через 30 сек. после того, как Лини покидает бой.\\nПри использовании этого способа HP Лини не может опуститься ниже 60% от его макс. HP.\\n\\n<color=#FFD780FF>Хохочущий котошляп</color>\\n· Дразнит врагов, отвлекая их атаки на себя. Котошляп может дразнить каждого из врагов один раз в 5 сек.\\n· Его прочность зависит от макс. HP Лини.\\n· Если его уничтожают, либо если его время заканчивается, он выстреливает в 1 противника поблизости <color=#FFD780FF>Пиротехническим снарядом</color>, который наносит <color=#FF9999FF>Пиро урон</color>.\\nОдновременно может существовать только 1 котошляп.\\n\\n<color=#FFD780FF>Архэ: Пневма</color>\\nС некоторым интервалом, на месте попадания стрелы-реквизита нисходит Игла дыхания душ, наносящая <color=#FF9999FF>Пиро урон</color> пневмы.",
+                    "icon": "Skill_A_02",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон атаки 1 38.8%",
+                            "1": "Урон атаки 2 38%",
+                            "2": "Урон атаки 3 27.3%+27.3%",
+                            "3": "Урон атаки 4 56.9%",
+                            "4": "Урон в падении 56.8%",
+                            "5": "Урон низкого/высокого удара 113.6%/141.9%",
+                            "6": "Прицельный выстрел 43.9%",
+                            "7": "Уровень заряда 1 124%",
+                            "8": "Урон стрелы-реквизита 172.8%",
+                            "9": "Потребление HP 20% макс. HP",
+                            "10": "HP Хохочущего котошляпа 64%",
+                            "11": "Длительность Хохочущего котошляпа 4 сек.",
+                            "12": "Урон Пиротехнического снаряда 212%",
+                            "13": "Урон Иглы дыхания душ 27.6%",
+                            "14": "Интервал Иглы дыхания душ 6 сек."
+                        },
+                        "2": {
+                            "0": "Урон атаки 1 41.9%",
+                            "1": "Урон атаки 2 41.1%",
+                            "2": "Урон атаки 3 29.5%+29.5%",
+                            "3": "Урон атаки 4 61.6%",
+                            "4": "Урон в падении 61.5%",
+                            "5": "Урон низкого/высокого удара 122.9%/153.5%",
+                            "6": "Прицельный выстрел 47.4%",
+                            "7": "Уровень заряда 1 133.3%",
+                            "8": "Урон стрелы-реквизита 185.8%",
+                            "9": "Потребление HP 20% макс. HP",
+                            "10": "HP Хохочущего котошляпа 68.8%",
+                            "11": "Длительность Хохочущего котошляпа 4 сек.",
+                            "12": "Урон Пиротехнического снаряда 227.9%",
+                            "13": "Урон Иглы дыхания душ 29.6%",
+                            "14": "Интервал Иглы дыхания душ 6 сек."
+                        },
+                        "3": {
+                            "0": "Урон атаки 1 45.1%",
+                            "1": "Урон атаки 2 44.2%",
+                            "2": "Урон атаки 3 31.7%+31.7%",
+                            "3": "Урон атаки 4 66.2%",
+                            "4": "Урон в падении 66.1%",
+                            "5": "Урон низкого/высокого удара 132.1%/165%",
+                            "6": "Прицельный выстрел 51%",
+                            "7": "Уровень заряда 1 142.6%",
+                            "8": "Урон стрелы-реквизита 198.7%",
+                            "9": "Потребление HP 20% макс. HP",
+                            "10": "HP Хохочущего котошляпа 73.6%",
+                            "11": "Длительность Хохочущего котошляпа 4 сек.",
+                            "12": "Урон Пиротехнического снаряда 243.8%",
+                            "13": "Урон Иглы дыхания душ 31.7%",
+                            "14": "Интервал Иглы дыхания душ 6 сек."
+                        },
+                        "4": {
+                            "0": "Урон атаки 1 49.6%",
+                            "1": "Урон атаки 2 48.6%",
+                            "2": "Урон атаки 3 34.9%+34.9%",
+                            "3": "Урон атаки 4 72.8%",
+                            "4": "Урон в падении 72.7%",
+                            "5": "Урон низкого/высокого удара 145.3%/181.5%",
+                            "6": "Прицельный выстрел 56.1%",
+                            "7": "Уровень заряда 1 155%",
+                            "8": "Урон стрелы-реквизита 216%",
+                            "9": "Потребление HP 20% макс. HP",
+                            "10": "HP Хохочущего котошляпа 80%",
+                            "11": "Длительность Хохочущего котошляпа 4 сек.",
+                            "12": "Урон Пиротехнического снаряда 265%",
+                            "13": "Урон Иглы дыхания душ 34.4%",
+                            "14": "Интервал Иглы дыхания душ 6 сек."
+                        },
+                        "5": {
+                            "0": "Урон атаки 1 52.8%",
+                            "1": "Урон атаки 2 51.7%",
+                            "2": "Урон атаки 3 37.1%+37.1%",
+                            "3": "Урон атаки 4 77.5%",
+                            "4": "Урон в падении 77.3%",
+                            "5": "Урон низкого/высокого удара 154.6%/193.1%",
+                            "6": "Прицельный выстрел 59.7%",
+                            "7": "Уровень заряда 1 164.3%",
+                            "8": "Урон стрелы-реквизита 229%",
+                            "9": "Потребление HP 20% макс. HP",
+                            "10": "HP Хохочущего котошляпа 84.8%",
+                            "11": "Длительность Хохочущего котошляпа 4 сек.",
+                            "12": "Урон Пиротехнического снаряда 280.9%",
+                            "13": "Урон Иглы дыхания душ 36.5%",
+                            "14": "Интервал Иглы дыхания душ 6 сек."
+                        },
+                        "6": {
+                            "0": "Урон атаки 1 56.4%",
+                            "1": "Урон атаки 2 55.2%",
+                            "2": "Урон атаки 3 39.6%+39.6%",
+                            "3": "Урон атаки 4 82.8%",
+                            "4": "Урон в падении 82.6%",
+                            "5": "Урон низкого/высокого удара 165.2%/206.3%",
+                            "6": "Прицельный выстрел 63.7%",
+                            "7": "Уровень заряда 1 173.6%",
+                            "8": "Урон стрелы-реквизита 241.9%",
+                            "9": "Потребление HP 20% макс. HP",
+                            "10": "HP Хохочущего котошляпа 89.6%",
+                            "11": "Длительность Хохочущего котошляпа 4 сек.",
+                            "12": "Урон Пиротехнического снаряда 296.8%",
+                            "13": "Урон Иглы дыхания душ 38.6%",
+                            "14": "Интервал Иглы дыхания душ 6 сек."
+                        },
+                        "7": {
+                            "0": "Урон атаки 1 61.3%",
+                            "1": "Урон атаки 2 60.1%",
+                            "2": "Урон атаки 3 43.1%+43.1%",
+                            "3": "Урон атаки 4 90%",
+                            "4": "Урон в падении 89.9%",
+                            "5": "Урон низкого/высокого удара 179.7%/224.5%",
+                            "6": "Прицельный выстрел 69.4%",
+                            "7": "Уровень заряда 1 186%",
+                            "8": "Урон стрелы-реквизита 259.2%",
+                            "9": "Потребление HP 20% макс. HP",
+                            "10": "HP Хохочущего котошляпа 96%",
+                            "11": "Длительность Хохочущего котошляпа 4 сек.",
+                            "12": "Урон Пиротехнического снаряда 318%",
+                            "13": "Урон Иглы дыхания душ 41.3%",
+                            "14": "Интервал Иглы дыхания душ 6 сек."
+                        },
+                        "8": {
+                            "0": "Урон атаки 1 66.3%",
+                            "1": "Урон атаки 2 65%",
+                            "2": "Урон атаки 3 46.6%+46.6%",
+                            "3": "Урон атаки 4 97.3%",
+                            "4": "Урон в падении 97.1%",
+                            "5": "Урон низкого/высокого удара 194.2%/242.6%",
+                            "6": "Прицельный выстрел 75%",
+                            "7": "Уровень заряда 1 198.4%",
+                            "8": "Урон стрелы-реквизита 276.5%",
+                            "9": "Потребление HP 20% макс. HP",
+                            "10": "HP Хохочущего котошляпа 102.4%",
+                            "11": "Длительность Хохочущего котошляпа 4 сек.",
+                            "12": "Урон Пиротехнического снаряда 339.2%",
+                            "13": "Урон Иглы дыхания душ 44.1%",
+                            "14": "Интервал Иглы дыхания душ 6 сек."
+                        },
+                        "9": {
+                            "0": "Урон атаки 1 71.3%",
+                            "1": "Урон атаки 2 69.8%",
+                            "2": "Урон атаки 3 50.1%+50.1%",
+                            "3": "Урон атаки 4 104.6%",
+                            "4": "Урон в падении 104.4%",
+                            "5": "Урон низкого/высокого удара 208.8%/260.8%",
+                            "6": "Прицельный выстрел 80.6%",
+                            "7": "Уровень заряда 1 210.8%",
+                            "8": "Урон стрелы-реквизита 293.8%",
+                            "9": "Потребление HP 20% макс. HP",
+                            "10": "HP Хохочущего котошляпа 108.8%",
+                            "11": "Длительность Хохочущего котошляпа 4 сек.",
+                            "12": "Урон Пиротехнического снаряда 360.4%",
+                            "13": "Урон Иглы дыхания душ 46.8%",
+                            "14": "Интервал Иглы дыхания душ 6 сек."
+                        },
+                        "10": {
+                            "0": "Урон атаки 1 76.7%",
+                            "1": "Урон атаки 2 75.1%",
+                            "2": "Урон атаки 3 53.9%+53.9%",
+                            "3": "Урон атаки 4 112.5%",
+                            "4": "Урон в падении 112.3%",
+                            "5": "Урон низкого/высокого удара 224.6%/280.6%",
+                            "6": "Прицельный выстрел 86.7%",
+                            "7": "Уровень заряда 1 223.2%",
+                            "8": "Урон стрелы-реквизита 311%",
+                            "9": "Потребление HP 20% макс. HP",
+                            "10": "HP Хохочущего котошляпа 115.2%",
+                            "11": "Длительность Хохочущего котошляпа 4 сек.",
+                            "12": "Урон Пиротехнического снаряда 381.6%",
+                            "13": "Урон Иглы дыхания душ 49.6%",
+                            "14": "Интервал Иглы дыхания душ 6 сек."
+                        },
+                        "11": {
+                            "0": "Урон атаки 1 82.1%",
+                            "1": "Урон атаки 2 80.4%",
+                            "2": "Урон атаки 3 57.7%+57.7%",
+                            "3": "Урон атаки 4 120.5%",
+                            "4": "Урон в падении 120.3%",
+                            "5": "Урон низкого/высокого удара 240.5%/300.4%",
+                            "6": "Прицельный выстрел 92.8%",
+                            "7": "Уровень заряда 1 235.6%",
+                            "8": "Урон стрелы-реквизита 328.3%",
+                            "9": "Потребление HP 20% макс. HP",
+                            "10": "HP Хохочущего котошляпа 121.6%",
+                            "11": "Длительность Хохочущего котошляпа 4 сек.",
+                            "12": "Урон Пиротехнического снаряда 402.8%",
+                            "13": "Урон Иглы дыхания душ 52.3%",
+                            "14": "Интервал Иглы дыхания душ 6 сек."
+                        },
+                        "12": {
+                            "0": "Урон атаки 1 87.5%",
+                            "1": "Урон атаки 2 85.7%",
+                            "2": "Урон атаки 3 61.5%+61.5%",
+                            "3": "Урон атаки 4 128.4%",
+                            "4": "Урон в падении 128.2%",
+                            "5": "Урон низкого/высокого удара 256.3%/320.2%",
+                            "6": "Прицельный выстрел 98.9%",
+                            "7": "Уровень заряда 1 248%",
+                            "8": "Урон стрелы-реквизита 345.6%",
+                            "9": "Потребление HP 20% макс. HP",
+                            "10": "HP Хохочущего котошляпа 128%",
+                            "11": "Длительность Хохочущего котошляпа 4 сек.",
+                            "12": "Урон Пиротехнического снаряда 424%",
+                            "13": "Урон Иглы дыхания душ 55.1%",
+                            "14": "Интервал Иглы дыхания душ 6 сек."
+                        },
+                        "13": {
+                            "0": "Урон атаки 1 92.9%",
+                            "1": "Урон атаки 2 91.1%",
+                            "2": "Урон атаки 3 65.3%+65.3%",
+                            "3": "Урон атаки 4 136.4%",
+                            "4": "Урон в падении 136.1%",
+                            "5": "Урон низкого/высокого удара 272.2%/340%",
+                            "6": "Прицельный выстрел 105.1%",
+                            "7": "Уровень заряда 1 263.5%",
+                            "8": "Урон стрелы-реквизита 367.2%",
+                            "9": "Потребление HP 20% макс. HP",
+                            "10": "HP Хохочущего котошляпа 136%",
+                            "11": "Длительность Хохочущего котошляпа 4 сек.",
+                            "12": "Урон Пиротехнического снаряда 450.5%",
+                            "13": "Урон Иглы дыхания душ 58.5%",
+                            "14": "Интервал Иглы дыхания душ 6 сек."
+                        },
+                        "14": {
+                            "0": "Урон атаки 1 98.3%",
+                            "1": "Урон атаки 2 96.4%",
+                            "2": "Урон атаки 3 69.1%+69.1%",
+                            "3": "Урон атаки 4 144.3%",
+                            "4": "Урон в падении 144.1%",
+                            "5": "Урон низкого/высокого удара 288%/359.8%",
+                            "6": "Прицельный выстрел 111.2%",
+                            "7": "Уровень заряда 1 279%",
+                            "8": "Урон стрелы-реквизита 388.8%",
+                            "9": "Потребление HP 20% макс. HP",
+                            "10": "HP Хохочущего котошляпа 144%",
+                            "11": "Длительность Хохочущего котошляпа 4 сек.",
+                            "12": "Урон Пиротехнического снаряда 477%",
+                            "13": "Урон Иглы дыхания душ 62%",
+                            "14": "Интервал Иглы дыхания душ 6 сек."
+                        },
+                        "15": {
+                            "0": "Урон атаки 1 103.7%",
+                            "1": "Урон атаки 2 101.7%",
+                            "2": "Урон атаки 3 72.9%+72.9%",
+                            "3": "Урон атаки 4 152.3%",
+                            "4": "Урон в падении 152%",
+                            "5": "Урон низкого/высокого удара 303.9%/379.6%",
+                            "6": "Прицельный выстрел 117.3%",
+                            "7": "Уровень заряда 1 294.5%",
+                            "8": "Урон стрелы-реквизита 410.4%",
+                            "9": "Потребление HP 20% макс. HP",
+                            "10": "HP Хохочущего котошляпа 152%",
+                            "11": "Длительность Хохочущего котошляпа 4 сек.",
+                            "12": "Урон Пиротехнического снаряда 503.5%",
+                            "13": "Урон Иглы дыхания душ 65.4%",
+                            "14": "Интервал Иглы дыхания душ 6 сек."
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104338",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104340",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "1": {
+                    "name": "Ошеломляющие огни",
+                    "description": "Лини взмахивает шляпой, запуская сюрприз-фейерверк.\\nПри активации снимаются все текущие уровни Избыточного реквизита и врагам впереди наносится <color=#FF9999FF>Пиро урон по площади</color>. В зависимости от количества снятых уровней эффекта урон увеличивается. Кроме того, HP Лини восстанавливается в зависимости от его макс. HP.\\n\\nЕсли на поле боя существует Хохочущий котошляп, созданный Лини, фейерверк заставит его взорваться и нанести <color=#FF9999FF>Пиро урон по площади</color>, пропорциональный урону Пиротехнического снаряда.\\nУрон от взрыва котошляпа, наносимый таким образом, считается уроном заряженной атаки.\\n\\n<i>«Это хорошо известный приём, используемый фокусниками, чтобы отвлечь внимание зрителей... А пока вы смотрите в другую сторону, шляпы с ассистенткой как не бывало. Чрезвычайно занимательно, не так ли?»</i>",
+                    "icon": "Skill_S_Liney_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 167.2%",
+                            "1": "Бонус урона навыка 53.2% силы атаки/уровень",
+                            "2": "Восстановление HP 20%/уровень",
+                            "3": "Время отката 15 сек."
+                        },
+                        "2": {
+                            "0": "Урон навыка 179.7%",
+                            "1": "Бонус урона навыка 57.2% силы атаки/уровень",
+                            "2": "Восстановление HP 20%/уровень",
+                            "3": "Время отката 15 сек."
+                        },
+                        "3": {
+                            "0": "Урон навыка 192.3%",
+                            "1": "Бонус урона навыка 61.2% силы атаки/уровень",
+                            "2": "Восстановление HP 20%/уровень",
+                            "3": "Время отката 15 сек."
+                        },
+                        "4": {
+                            "0": "Урон навыка 209%",
+                            "1": "Бонус урона навыка 66.5% силы атаки/уровень",
+                            "2": "Восстановление HP 20%/уровень",
+                            "3": "Время отката 15 сек."
+                        },
+                        "5": {
+                            "0": "Урон навыка 221.5%",
+                            "1": "Бонус урона навыка 70.5% силы атаки/уровень",
+                            "2": "Восстановление HP 20%/уровень",
+                            "3": "Время отката 15 сек."
+                        },
+                        "6": {
+                            "0": "Урон навыка 234.1%",
+                            "1": "Бонус урона навыка 74.5% силы атаки/уровень",
+                            "2": "Восстановление HP 20%/уровень",
+                            "3": "Время отката 15 сек."
+                        },
+                        "7": {
+                            "0": "Урон навыка 250.8%",
+                            "1": "Бонус урона навыка 79.8% силы атаки/уровень",
+                            "2": "Восстановление HP 20%/уровень",
+                            "3": "Время отката 15 сек."
+                        },
+                        "8": {
+                            "0": "Урон навыка 267.5%",
+                            "1": "Бонус урона навыка 85.1% силы атаки/уровень",
+                            "2": "Восстановление HP 20%/уровень",
+                            "3": "Время отката 15 сек."
+                        },
+                        "9": {
+                            "0": "Урон навыка 284.2%",
+                            "1": "Бонус урона навыка 90.4% силы атаки/уровень",
+                            "2": "Восстановление HP 20%/уровень",
+                            "3": "Время отката 15 сек."
+                        },
+                        "10": {
+                            "0": "Урон навыка 301%",
+                            "1": "Бонус урона навыка 95.8% силы атаки/уровень",
+                            "2": "Восстановление HP 20%/уровень",
+                            "3": "Время отката 15 сек."
+                        },
+                        "11": {
+                            "0": "Урон навыка 317.7%",
+                            "1": "Бонус урона навыка 101.1% силы атаки/уровень",
+                            "2": "Восстановление HP 20%/уровень",
+                            "3": "Время отката 15 сек."
+                        },
+                        "12": {
+                            "0": "Урон навыка 334.4%",
+                            "1": "Бонус урона навыка 106.4% силы атаки/уровень",
+                            "2": "Восстановление HP 20%/уровень",
+                            "3": "Время отката 15 сек."
+                        },
+                        "13": {
+                            "0": "Урон навыка 355.3%",
+                            "1": "Бонус урона навыка 113.1% силы атаки/уровень",
+                            "2": "Восстановление HP 20%/уровень",
+                            "3": "Время отката 15 сек."
+                        },
+                        "14": {
+                            "0": "Урон навыка 376.2%",
+                            "1": "Бонус урона навыка 119.7% силы атаки/уровень",
+                            "2": "Восстановление HP 20%/уровень",
+                            "3": "Время отката 15 сек."
+                        },
+                        "15": {
+                            "0": "Урон навыка 397.1%",
+                            "1": "Бонус урона навыка 126.4% силы атаки/уровень",
+                            "2": "Восстановление HP 20%/уровень",
+                            "3": "Время отката 15 сек."
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104338",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104340",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "2": {
+                    "name": "Великий фокус: Парад чудес",
+                    "description": "Лини по волшебству превращается в проворного Хохочущего шляпокота. (Не путать с Хохочущим котошляпом. Это другой реквизит!)\\nПриблизившись к врагам, Хохочущий шляпокот низвергает на врагов пламя. Каждый из них получает <color=#FF9999FF>Пиро урон</color> не более 1 раза. После истечения времени действия Лини отбрасывает личину Хохочущего шляпокота и запускает великолепный фейерверк, наносит <color=#FF9999FF>Пиро урон по площади</color>, призывает 1 Хохочущего котошляпа и получает 1 уровень Избыточного реквизита.\\n\\nДействие Хохочущего шляпокота может быть прекращено произвольно.\\n\\n<i>«Смотри внимательно. Настало мгновение неповторимого чуда, которое принадлежит только нам!»</i>",
+                    "icon": "Skill_E_Liney_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 154%",
+                            "1": "Урон фейерверка 414%",
+                            "2": "Длительность 3 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "2": {
+                            "0": "Урон навыка 165.6%",
+                            "1": "Урон фейерверка 445.1%",
+                            "2": "Длительность 3 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "3": {
+                            "0": "Урон навыка 177.1%",
+                            "1": "Урон фейерверка 476.1%",
+                            "2": "Длительность 3 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "4": {
+                            "0": "Урон навыка 192.5%",
+                            "1": "Урон фейерверка 517.5%",
+                            "2": "Длительность 3 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "5": {
+                            "0": "Урон навыка 204.1%",
+                            "1": "Урон фейерверка 548.5%",
+                            "2": "Длительность 3 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "6": {
+                            "0": "Урон навыка 215.6%",
+                            "1": "Урон фейерверка 579.6%",
+                            "2": "Длительность 3 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "7": {
+                            "0": "Урон навыка 231%",
+                            "1": "Урон фейерверка 621%",
+                            "2": "Длительность 3 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "8": {
+                            "0": "Урон навыка 246.4%",
+                            "1": "Урон фейерверка 662.4%",
+                            "2": "Длительность 3 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "9": {
+                            "0": "Урон навыка 261.8%",
+                            "1": "Урон фейерверка 703.8%",
+                            "2": "Длительность 3 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "10": {
+                            "0": "Урон навыка 277.2%",
+                            "1": "Урон фейерверка 745.2%",
+                            "2": "Длительность 3 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "11": {
+                            "0": "Урон навыка 292.6%",
+                            "1": "Урон фейерверка 786.6%",
+                            "2": "Длительность 3 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "12": {
+                            "0": "Урон навыка 308%",
+                            "1": "Урон фейерверка 828%",
+                            "2": "Длительность 3 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "13": {
+                            "0": "Урон навыка 327.2%",
+                            "1": "Урон фейерверка 879.8%",
+                            "2": "Длительность 3 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "14": {
+                            "0": "Урон навыка 346.5%",
+                            "1": "Урон фейерверка 931.5%",
+                            "2": "Длительность 3 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "15": {
+                            "0": "Урон навыка 365.8%",
+                            "1": "Урон фейерверка 983.2%",
+                            "2": "Длительность 3 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104338",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104340",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "3": {
+                    "name": "Великий фокус: Парад чудес",
+                    "description": "Лини по волшебству превращается в проворного Хохочущего шляпокота. (Не путать с Хохочущим котошляпом. Это другой реквизит!)\\nПриблизившись к врагам, Хохочущий шляпокот низвергает на врагов пламя. Каждый из них получает <color=#FF9999FF>Пиро урон</color> не более 1 раза. После истечения времени действия Лини отбрасывает личину Хохочущего шляпокота и запускает великолепный фейерверк, наносит <color=#FF9999FF>Пиро урон по площади</color>, призывает 1 Хохочущего котошляпа и получает 1 уровень Избыточного реквизита.\\n\\nДействие Хохочущего шляпокота может быть прекращено произвольно.\\n\\n<i>«Смотри внимательно. Настало мгновение неповторимого чуда, которое принадлежит только нам!»</i>",
+                    "icon": "Skill_E_Liney_01",
+                    "descriptionStat": {
+                        "1": {
+                            "0": "Урон навыка 154%",
+                            "1": "Урон фейерверка 414%",
+                            "2": "Длительность 3 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "2": {
+                            "0": "Урон навыка 165.6%",
+                            "1": "Урон фейерверка 445.1%",
+                            "2": "Длительность 3 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "3": {
+                            "0": "Урон навыка 177.1%",
+                            "1": "Урон фейерверка 476.1%",
+                            "2": "Длительность 3 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "4": {
+                            "0": "Урон навыка 192.5%",
+                            "1": "Урон фейерверка 517.5%",
+                            "2": "Длительность 3 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "5": {
+                            "0": "Урон навыка 204.1%",
+                            "1": "Урон фейерверка 548.5%",
+                            "2": "Длительность 3 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "6": {
+                            "0": "Урон навыка 215.6%",
+                            "1": "Урон фейерверка 579.6%",
+                            "2": "Длительность 3 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "7": {
+                            "0": "Урон навыка 231%",
+                            "1": "Урон фейерверка 621%",
+                            "2": "Длительность 3 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "8": {
+                            "0": "Урон навыка 246.4%",
+                            "1": "Урон фейерверка 662.4%",
+                            "2": "Длительность 3 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "9": {
+                            "0": "Урон навыка 261.8%",
+                            "1": "Урон фейерверка 703.8%",
+                            "2": "Длительность 3 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "10": {
+                            "0": "Урон навыка 277.2%",
+                            "1": "Урон фейерверка 745.2%",
+                            "2": "Длительность 3 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "11": {
+                            "0": "Урон навыка 292.6%",
+                            "1": "Урон фейерверка 786.6%",
+                            "2": "Длительность 3 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "12": {
+                            "0": "Урон навыка 308%",
+                            "1": "Урон фейерверка 828%",
+                            "2": "Длительность 3 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "13": {
+                            "0": "Урон навыка 327.2%",
+                            "1": "Урон фейерверка 879.8%",
+                            "2": "Длительность 3 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "14": {
+                            "0": "Урон навыка 346.5%",
+                            "1": "Урон фейерверка 931.5%",
+                            "2": "Длительность 3 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        },
+                        "15": {
+                            "0": "Урон навыка 365.8%",
+                            "1": "Урон фейерверка 983.2%",
+                            "2": "Длительность 3 сек.",
+                            "3": "Время отката 15 сек.",
+                            "4": "Потребление энергии 60"
+                        }
+                    },
+                    "costItems": {
+                        "1": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "2": {
+                            "res": {
+                                "0": {
+                                    "id": "104338",
+                                    "cost": 3
+                                },
+                                "1": {
+                                    "id": "112032",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 12500
+                        },
+                        "3": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 2
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 3
+                                }
+                            },
+                            "mora": 17500
+                        },
+                        "4": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 4
+                                }
+                            },
+                            "mora": 25000
+                        },
+                        "5": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 6
+                                }
+                            },
+                            "mora": 30000
+                        },
+                        "6": {
+                            "res": {
+                                "0": {
+                                    "id": "104339",
+                                    "cost": 9
+                                },
+                                "1": {
+                                    "id": "112033",
+                                    "cost": 9
+                                }
+                            },
+                            "mora": 37500
+                        },
+                        "7": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 4
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 4
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 120000
+                        },
+                        "8": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 6
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 6
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 1
+                                }
+                            },
+                            "mora": 260000
+                        },
+                        "9": {
+                            "res": {
+                                "0": {
+                                    "id": "104340",
+                                    "cost": 12
+                                },
+                                "1": {
+                                    "id": "112034",
+                                    "cost": 9
+                                },
+                                "2": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 450000
+                        },
+                        "10": {
+                            "res": {
+                                "0": {
+                                    "id": "104319",
+                                    "cost": 1
+                                },
+                                "1": {
+                                    "id": "104340",
+                                    "cost": 16
+                                },
+                                "2": {
+                                    "id": "112034",
+                                    "cost": 12
+                                },
+                                "3": {
+                                    "id": "113047",
+                                    "cost": 2
+                                }
+                            },
+                            "mora": 700000
+                        },
+                        "11": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "12": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "13": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "14": {
+                            "res": null,
+                            "mora": null
+                        },
+                        "15": {
+                            "res": null,
+                            "mora": null
+                        }
+                    }
+                },
+                "4": {
+                    "name": "Опасное выступление",
+                    "description": "Если выпущенная <color=#FFD780FF>стрела-реквизит</color> расходует HP Лини, призываемый ею Хохочущий котошляп, поразив цель, восстанавливает 3 ед. энергии Лини и увеличивает урон на 80% от силы атаки.",
+                    "icon": "UI_Talent_S_Liney_05",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "5": {
+                    "name": "Заключительные овации",
+                    "description": "Урон Лини против врагов, находящихся под действием <color=#FF9999FF>Пиро</color> получает следующие усиления:\\n· Увеличивает наносимый урон на 60%. \\n· Каждый член отряда, чей элементальный тип - <color=#FF9999FF>Пиро</color> (за исключением самого Лини) увеличивает урон ещё на 20%.\\nПовысить урон Лини против врагов под воздействием <color=#FF9999FF>Пиро</color> таким образом можно не более чем на 100%.",
+                    "icon": "UI_Talent_S_Liney_06",
+                    "descriptionStat": {},
+                    "costItems": null
+                },
+                "6": {
+                    "name": "Тривиальные наблюдения",
+                    "description": "Отмечает <color=#FFD780FF>диковинки Фонтейна</color> на мини-карте.",
+                    "icon": "UI_Talent_S_Liney_07",
+                    "descriptionStat": {},
+                    "costItems": null
+                }
+            },
+            "constellations": {
+                "0": {
+                    "name": "Взбалмошные чудеса",
+                    "description": "Допускает одновременное существование двух <color=#FFD780FF>Хохочущих котошляпов</color>.\\nКроме того, стрела-реквизит при попадании будет призывать 2 Хохочущих котошляпов, а также наделять Лини 1 дополнительным уровнем Избыточного реквизита. Эффект может возникнуть один раз в 15 сек.",
+                    "icon": "UI_Talent_S_Liney_01"
+                },
+                "1": {
+                    "name": "Завлекательное фразёрство",
+                    "description": "Каждые 2 сек. на поле боя Лини получает 1 уровень Предельного внимания, которое повышает крит. урон Лини на 20%. Эффект складывается до 3 раз и исчезает, когда Лини покидает бой.",
+                    "icon": "UI_Talent_S_Liney_03"
+                },
+                "2": {
+                    "name": "Ловкость рук",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Форсирование карты с подменой</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Liney_01"
+                },
+                "3": {
+                    "name": "Заученный и отрепетированный план",
+                    "description": "Попадания заряженной атакой <color=#FF9999FF>Пиро</color> Лини понижают <color=#FF9999FF>Пиро сопротивление</color> поражённого врага на 20% на 6 сек.",
+                    "icon": "UI_Talent_S_Liney_02"
+                },
+                "4": {
+                    "name": "Проникновение в тайны",
+                    "description": "Увеличивает уровень навыка <color=#FFD780FF>Великий фокус: Парад чудес</color> на 3.\\nМакс. уровень: 15",
+                    "icon": "UI_Talent_U_Liney_02"
+                },
+                "5": {
+                    "name": "Неискренняя улыбка",
+                    "description": "Выпустив <color=#FFD780FF>стрелу-реквизит</color>, Лини выстреливает Пиротехническим снарядом: Реприза, который наносит 80% урона Пиротехнического снаряда. Урон считается уроном заряженной атаки.",
+                    "icon": "UI_Talent_S_Liney_04"
+                }
+            },
+            "elevation": {
+                "sub": "Шанс крит. попадания %",
+                "0": {
+                    "stats": {
+                        "HP": 858,
+                        "ATK": 25,
+                        "DEF": 42,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "1": {
+                    "stats": {
+                        "HP": 2226,
+                        "ATK": 64,
+                        "DEF": 109,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101236",
+                            "cost": 3
+                        },
+                        "1": {
+                            "id": "104111",
+                            "cost": 1
+                        },
+                        "2": {
+                            "id": "112032",
+                            "cost": 3
+                        }
+                    }
+                },
+                "2": {
+                    "stats": {
+                        "HP": 2961,
+                        "ATK": 85,
+                        "DEF": 145,
+                        "sub": 0
+                    },
+                    "res": {}
+                },
+                "3": {
+                    "stats": {
+                        "HP": 4431,
+                        "ATK": 128,
+                        "DEF": 216,
+                        "sub": 0
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101236",
+                            "cost": 10
+                        },
+                        "1": {
+                            "id": "104112",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112032",
+                            "cost": 15
+                        },
+                        "3": {
+                            "id": "113051",
+                            "cost": 2
+                        }
+                    }
+                },
+                "4": {
+                    "stats": {
+                        "HP": 4954,
+                        "ATK": 143,
+                        "DEF": 242,
+                        "sub": 4.8
+                    },
+                    "res": {}
+                },
+                "5": {
+                    "stats": {
+                        "HP": 5699,
+                        "ATK": 164,
+                        "DEF": 278,
+                        "sub": 4.8
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101236",
+                            "cost": 20
+                        },
+                        "1": {
+                            "id": "104112",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112033",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113051",
+                            "cost": 4
+                        }
+                    }
+                },
+                "6": {
+                    "stats": {
+                        "HP": 6396,
+                        "ATK": 185,
+                        "DEF": 312,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "7": {
+                    "stats": {
+                        "HP": 7074,
+                        "ATK": 204,
+                        "DEF": 345,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101236",
+                            "cost": 30
+                        },
+                        "1": {
+                            "id": "104113",
+                            "cost": 3
+                        },
+                        "2": {
+                            "id": "112033",
+                            "cost": 18
+                        },
+                        "3": {
+                            "id": "113051",
+                            "cost": 8
+                        }
+                    }
+                },
+                "8": {
+                    "stats": {
+                        "HP": 7597,
+                        "ATK": 219,
+                        "DEF": 371,
+                        "sub": 9.6
+                    },
+                    "res": {}
+                },
+                "9": {
+                    "stats": {
+                        "HP": 8509,
+                        "ATK": 246,
+                        "DEF": 415,
+                        "sub": 9.6
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101236",
+                            "cost": 45
+                        },
+                        "1": {
+                            "id": "104113",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112034",
+                            "cost": 12
+                        },
+                        "3": {
+                            "id": "113051",
+                            "cost": 12
+                        }
+                    }
+                },
+                "10": {
+                    "stats": {
+                        "HP": 9031,
+                        "ATK": 261,
+                        "DEF": 441,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {}
+                },
+                "11": {
+                    "stats": {
+                        "HP": 9724,
+                        "ATK": 281,
+                        "DEF": 475,
+                        "sub": 14.399999999999999
+                    },
+                    "res": {
+                        "0": {
+                            "id": "101236",
+                            "cost": 60
+                        },
+                        "1": {
+                            "id": "104114",
+                            "cost": 6
+                        },
+                        "2": {
+                            "id": "112034",
+                            "cost": 24
+                        },
+                        "3": {
+                            "id": "113051",
+                            "cost": 20
+                        }
+                    }
+                },
+                "12": {
+                    "stats": {
+                        "HP": 10247,
+                        "ATK": 296,
+                        "DEF": 500,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                },
+                "13": {
+                    "stats": {
+                        "HP": 11021,
+                        "ATK": 318,
+                        "DEF": 538,
+                        "sub": 19.2
+                    },
+                    "res": {}
+                }
+            }
+        }
+    }
+}

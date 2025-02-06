@@ -174,17 +174,26 @@ def down(char_list_api_en, i, url):
     """Скачивание и сжатие изображения"""
     if url == 'https://enka.network/ui/UI_AvatarIcon_':
         response, content = h.request(url + cor_name(char_list_api_en['categories']['outfits']['characterName'][i], name_replacements) + '.png')
+    elif url == 'https://enka.network/ui/UI_Gacha_AvatarImg_':
+        response, content = h.request(url + cor_name(char_list_api_en['categories']['outfits']['characterName'][i], name_replacements) + '.webp')
     else:
         response, content = h.request(url + cor_name(char_list_api_en['categories']['outfits']['characterName'][i], namecard_replacements) + '_P.png')
 
-    # Создание папки, если её нет
-    char_name = char_list_api_en['categories']['outfits']['characterName'][i]
-    os.makedirs(f'data/characters/{char_name}', exist_ok=True)
+    if url != 'https://enka.network/ui/UI_Gacha_AvatarImg_':
+        # Создание папки, если её нет
+        char_name = char_list_api_en['categories']['outfits']['characterName'][i]
+        os.makedirs(f'data/characters/{char_name}', exist_ok=True)
+    else:
+        # Создание папки, если её нет
+        char_name = char_list_api_en['categories']['outfits']['characterName'][i]
+        os.makedirs(f'character/{char_name}', exist_ok=True)
 
     # Определяем путь для сохранения
     if url == 'https://enka.network/ui/UI_AvatarIcon_':
         save_path = f'data/characters/{char_name}/{char_name}_icon.png'
         compressed_path = f'data/characters/{char_name}/{char_name}_icon.webp'
+    elif url == 'https://enka.network/ui/UI_Gacha_AvatarImg_':
+        save_path = f'character/{char_name}/{char_name}_gacha.webp'
     else:
         save_path = f'data/characters/{char_name}/{char_name}_namecard.png'
         compressed_path = f'data/characters/{char_name}/{char_name}_namecard.webp'
@@ -193,11 +202,12 @@ def down(char_list_api_en, i, url):
     with open(save_path, 'wb') as out:
         out.write(content)
 
-    # Сжатие изображения
-    compress_image(save_path, compressed_path)
+    if url != 'https://enka.network/ui/UI_Gacha_AvatarImg_':
+        # Сжатие изображения
+        compress_image(save_path, compressed_path)
 
-    # Удаление оригинального PNG (оставляем только WebP)
-    os.remove(save_path)
+        # Удаление оригинального PNG (оставляем только WebP)
+        os.remove(save_path)
 
 def rel(timestamp):
     dt = datetime.utcfromtimestamp(timestamp)  # UTC-время
@@ -269,7 +279,7 @@ def costItems(items):
 def tal(tall, name):
     a = 0
     talents = {}
-    print(tall['data']['talent'], name)
+    #print(tall['data']['talent'], name)
     while(a <= len(tall['data']['talent'])):
         try:
             downS(tall['data']['talent'][str(a)]['icon'], name)
@@ -538,6 +548,7 @@ i = 0
 while(i < len(char_list_api_en['categories']['outfits']['characterName'])):
     down(char_list_api_en, i, 'https://enka.network/ui/UI_AvatarIcon_')
     down(char_list_api_en, i, 'https://enka.network/ui/UI_NameCardPic_')
+    down(char_list_api_en, i, 'https://enka.network/ui/UI_Gacha_AvatarImg_')
     more_data = get_char_list_more(char_list_api_en['categories']['outfits']['characterName'][i], 'en')
     char_res = {"name": char_list_api_en['categories']['outfits']['characterName'][i],
                 "name_ru": char_list_api_ru['categories']['outfits']['characterName'][i],
@@ -552,7 +563,7 @@ while(i < len(char_list_api_en['categories']['outfits']['characterName'])):
         if i != 71:
             if i != 72:
                 char_pop = get_char(str(more_data['id']), lang)
-                print(more_data['id'])
+                #print(more_data['id'])
                 data["characters"][lang][char_list_api_en['categories']['outfits']['characterName'][i]] = {
                             "name": char_list_api_en['categories']['outfits']['characterName'][i],
                             "name_ru": char_list_api_ru['categories']['outfits']['characterName'][i],
@@ -620,6 +631,7 @@ while(i < len(char_list_api_en['categories']['outfits']['characterName'])):
 
     charr('en')
     charr('ru')
+    #print(data['characters']['ru'][i])
     #data['characters'][i] = ("name: " + config_data_en['categories']['outfits']['characterName'][i])
     i += 1
 data['charactersList'] = char_list

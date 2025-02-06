@@ -1,3 +1,33 @@
+.overlay, .overlay2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    z-index: 9; /* Чтобы затемнение было выше контента */
+}
+
+.overlay2 {
+    z-index: 7 !important;
+}
+
+.overlay.active, .overlay2.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu, .titlebar {
+    z-index: 10; /* Меню должно быть выше затемнения */
+}
+
+.mat {
+    font-family: 'Material Icons';
+}
+
 /* cyrillic-ext */
 @font-face {
     font-family: 'Ubuntu';
@@ -57,18 +87,21 @@
 
 @font-face {
     font-family: Gensh;
-    src: url(genshin-impact.woff2) format("woff2"),
-      url(genshin-impact.woff) format("woff"),
-      url(genshin-impact.ttf) format("truetype");
+    src: url(fonts/genshin-impact.woff2) format("woff2"),
+      url(fonts/genshin-impact.woff) format("woff"),
+      url(fonts/genshin-impact.ttf) format("truetype");
 }
   
 @font-face {
     font-family: "Genshin Impact";
-    src: url(genshin-impact.woff2) format("woff2"),
-      url(genshin-impact.woff) format("woff"),
-      url(genshin-impact.ttf) format("truetype");
+    src: url(fonts/genshin-impact.woff2) format("woff2"),
+      url(fonts/genshin-impact.woff) format("woff"),
+      url(fonts/genshin-impact.ttf) format("truetype");
 }
 
+.gen {
+    font-family: 'Genshin Impact';
+}
 
 a, span, th, td {
     color: #c1c1c1;
@@ -85,6 +118,12 @@ body {
     font-family: Arial, sans-serif;
     background-color: #4a4a4a;
 }
+
+/* Блокируем прокрутку */
+body.no-scroll {
+    overflow: hidden;
+}
+
 
 .titlebar {
     display: flex;
@@ -140,10 +179,17 @@ body {
     color: white;
     text-align: center;
 }
+
 .menu-item {
     padding: 5px;
     color: white;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-icons {
+    width: 35px;
 }
 
 .menu-item:hover {
@@ -155,7 +201,7 @@ body {
 
 .menu-cont {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 колонки одинаковой ширины */
+    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
 
@@ -169,22 +215,122 @@ body {
 
 
 .container {
-    padding-top: 70px !important;
+    padding-top: 212px !important;
     width: 100%;
     padding: 20px;
     background: #4a4a4a;
 }
 
+/*.filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    background: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: 20px auto;
+}*/
+
 .filters {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 10px;
-    margin-bottom: 20px;
+    padding: 15px;
+    background: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    min-width: 500px;
+    max-width: 800px;
+    margin: 20px auto;
+    position: fixed;
+    top: 50px; /* Чтобы фильтр был ниже titlebar */
+    left: 50%;
+    transform: translateX(-50%);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 1;
+    z-index: 8;
 }
 
-input, select {
+.filters.hidden {
+    opacity: 0;
+}
+
+.filters.open {
+    opacity: 1;
+}
+
+/* Кнопка для открытия фильтра */
+.filters-toggle-button {
+    position: fixed;
+    top: 70px;
+    right: -10px;
+    transform: translateX(-50%);
+    background: #333;
+    color: white;
+    padding: 5px 7px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 8;
+    display: none; /* Скрыта по умолчанию */
+}
+
+.filters-toggle-button.show {
+    display: block;
+}
+
+
+.filters input,
+.filters select {
     padding: 10px;
     font-size: 16px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background: #444;
+    color: #fff;
+    outline: none;
+    transition: all 0.3s ease;
 }
+
+.filters input::placeholder {
+    color: #bbb;
+}
+
+.filters input:focus,
+.filters select:focus {
+    border-color: #ff9800;
+    box-shadow: 0 0 8px rgba(255, 152, 0, 0.8);
+}
+
+.filters input {
+    flex: 1 1 250px;
+    min-width: 150px;
+}
+
+.filters select {
+    flex: 1 1 100px;
+    min-width: 89px;
+    cursor: pointer;
+}
+
+/* 📱 Для мобильных */
+@media (max-width: 600px) {
+    .filters {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .filters input,
+    .filters select {
+        width: 100%;
+    }
+}
+
 
 .characters-grid {
     display: grid;
