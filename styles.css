@@ -171,7 +171,8 @@ body.no-scroll {
 }
 
 .menu.active {
-    height: 100px;
+    height: auto;
+    padding-bottom: 12px;
 }
 
 .menu-items {
@@ -201,7 +202,7 @@ body.no-scroll {
 
 .menu-cont {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 10px;
 }
 
@@ -256,11 +257,11 @@ body.no-scroll {
 }
 
 .filters.hidden {
-    opacity: 0;
+    display: none;
 }
 
 .filters.open {
-    opacity: 1;
+    display: flex;
 }
 
 /* Кнопка для открытия фильтра */
@@ -321,22 +322,33 @@ body.no-scroll {
 /* 📱 Для мобильных */
 @media (max-width: 600px) {
     .filters {
-        flex-direction: column;
-        align-items: center;
+        min-width: 240px;
+        max-width: 290px;
+        display: grid;
+        padding: 8px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto auto;
+        gap: 3px;
     }
 
-    .filters input,
-    .filters select {
-        width: 100%;
+    .filters input#search {
+        grid-column: span 3;
     }
 }
 
 
-.characters-grid {
+/*.characters-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
     justify-items: center;
+}*/
+.characters-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 0fr));
+    gap: 20px;
+    justify-items: center;
+    justify-content: center;
 }
 
 .character-card {
