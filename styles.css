@@ -492,3 +492,82 @@ video {
     margin: 0px 50px;
     height: 1888px;
 }
+
+
+
+
+
+
+
+
+/* 📱 Для мобильных */
+@media (max-width: 600px) {
+    .filters {
+        min-width: 240px;
+        max-width: 290px;
+        display: grid;
+        padding: 8px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto auto;
+        gap: 3px;
+    }
+
+    .filters input#search {
+        grid-column: span 3;
+    }
+
+    .page {
+        margin: 0;
+        border-radius: 0;
+        /*margin-top: 400px;*/
+    }
+
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .page-top {
+        display: block;
+        position: relative;
+        margin: 0;
+    }
+
+    .page-top-left {
+        position: absolute;
+        display: grid;
+        justify-items: center;
+    }
+
+    .character-prof-gacha {
+        min-width: 780px;
+        max-width: 780px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -95%);
+        z-index: -1;
+    }
+    .page-top-right {
+        height: 350px;
+    }
+
+    .cis-2 {
+        background: #000000b2;
+        padding: 10px;
+        border-radius: 6px;
+        width: 148px;
+    }
+
+    .character-prof-element {
+        top: 10px;
+        left: 10px;
+    }
+
+    .detail {
+        background: #000000b2;
+        padding: 0;
+        margin: 10px 10px;
+        padding: 5px;
+        border-radius: 6px;
+    }
+}
